@@ -1,9 +1,29 @@
 # Interesting Languages
 
-Website architecture for [interestinglanguages.com](https://interestinglanguages.com).
+Interesting Languages is a database-managed language-guide site for language learners.
 
-Interesting Languages is a project workspace for collecting and building tools around language learning, linguistics, and related experiments.
+- Public site: Astro + React, deployed to Netlify at <https://interestinglanguages.com>
+- Admin/CMS: Payload CMS, deployed to Railway at <https://admin.interestinglanguages.com>
+- Database: Neon Postgres
+- Local public URL: <http://localhost:3081>
+- Local admin URL: <http://localhost:3082>
 
-## Status
+## Quick Start
 
-This repository has just been initialized. Project structure, setup instructions, and development workflows will be added as the implementation takes shape.
+```bash
+npm install
+npm run dev:web
+npm run dev:admin
+```
+
+Useful commands:
+
+```bash
+npm run build
+npm run typecheck
+npm run lint
+npm run seed:swahili
+npm run content:validate
+```
+
+See [AGENTS.md](./AGENTS.md) for the architecture, component rules, content model, and maintenance requirements.

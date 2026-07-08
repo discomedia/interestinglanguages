@@ -1,0 +1,28 @@
+{
+  "name": "interesting-languages",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @interesting-languages/web",
+    "dev:admin": "npm run dev --workspace @interesting-languages/admin",
+    "build": "npm run build --workspace @interesting-languages/content && npm run build --workspace @interesting-languages/web && npm run build --workspace @interesting-languages/admin",
+    "build:web": "npm run build --workspace @interesting-languages/content && npm run build --workspace @interesting-languages/web",
+    "build:admin": "npm run build --workspace @interesting-languages/content && npm run build --workspace @interesting-languages/admin",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "verify:web": "node scripts/verify-web.mjs",
+    "seed:swahili": "npm run seed:swahili --workspace @interesting-languages/admin",
+    "content:validate": "npm run content:validate --workspace @interesting-languages/content"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.61.1"
+  }
+}

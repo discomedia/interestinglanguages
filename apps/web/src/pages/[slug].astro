@@ -1,0 +1,193 @@
+---
+import { BookOpen, Compass, Globe2, MessageCircle, Volume2 } from "lucide-react";
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { fetchLanguageGuide, fetchLanguageGuideSummaries, siteUrl } from "../lib/content";
+
+export async function getStaticPaths() {
+  const summaries = await fetchLanguageGuideSummaries();
+  return summaries.map((guide) => ({
+    params: { slug: guide.slug }
+  }));
+}
+
+const { slug } = Astro.params;
+const guide = slug ? await fetchLanguageGuide(slug) : undefined;
+
+if (!guide) {
+  return Astro.redirect("/");
+}
+
+const canonical = siteUrl(`/${guide.slug}`);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: guide.seo.title,
+  description: guide.seo.description,
+  mainEntityOfPage: canonical,
+  datePublished: guide.publishedAt,
+  about: {
+    "@type": "Language",
+    name: guide.name,
+    alternateName: guide.autonym
+  }
+};
+---
+
+<BaseLayout title={guide.seo.title} description={guide.seo.description} canonical={canonical} image={guide.seo.socialImageUrl}>
+  <SiteHeader />
+  <main>
+    <article class="guide-article">
+      <section class="guide-hero">
+        <div>
+          <h1>{guide.name}</h1>
+          <p>{guide.learnerOverview}</p>
+          <a class="button primary" href="#starter-phrases">{guide.hero.callToActionLabel ?? `Start learning ${guide.name}`}</a>
+        </div>
+        <div class="illustration-panel" aria-label={guide.hero.imageAlt ?? `${guide.name} guide illustration`}>
+          <div class="coastline">
+            <span class="sun"></span>
+            <span class="sail"></span>
+            <span class="wave"></span>
+            <span class="wave short"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide-section quick-facts" aria-labelledby="pronunciation">
+        <div class="section-title">
+          <Volume2 aria-hidden="true" />
+          <h2 id="pronunciation">Pronunciation & Script</h2>
+          <p>{guide.pronunciation.overview}</p>
+        </div>
+        <dl class="fact-grid">
+          <div>
+            <dt>Script</dt>
+            <dd>{guide.pronunciation.script}</dd>
+          </div>
+          <div>
+            <dt>Vowels</dt>
+            <dd>{guide.pronunciation.vowels}</dd>
+          </div>
+          <div>
+            <dt>Consonants</dt>
+            <dd>{guide.pronunciation.consonants}</dd>
+          </div>
+          <div>
+            <dt>Sample word</dt>
+            <dd>
+              <strong>{guide.pronunciation.sampleWord.original}</strong>
+              <span>{guide.pronunciation.sampleWord.transliteration}</span>
+              <span>{guide.pronunciation.sampleWord.translation}</span>
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="guide-section" aria-labelledby="grammar">
+        <div class="section-title">
+          <BookOpen aria-hidden="true" />
+          <h2 id="grammar">Grammar Overview</h2>
+          <p>{guide.grammar.overview}</p>
+        </div>
+        <div class="topic-grid">
+          {guide.grammar.topics.map((topic) => (
+            <section class="topic-card">
+              <h3>{topic.title}</h3>
+              <p>{topic.body}</p>
+              {topic.example && (
+                <p class="example">
+                  <strong>{topic.example}</strong>
+                  {topic.exampleTranslation && <span>{topic.exampleTranslation}</span>}
+                </p>
+              )}
+            </section>
+          ))}
+        </div>
+      </section>
+
+      <section class="guide-section two-column" aria-labelledby="where-spoken">
+        <div class="section-title">
+          <Globe2 aria-hidden="true" />
+          <h2 id="where-spoken">Where {guide.name} Is Spoken</h2>
+          <p>{guide.whereSpoken.overview}</p>
+          <ul class="region-list">
+            {guide.whereSpoken.regions.map((region) => (
+              <li><strong>{region.place}</strong> — {region.note}</li>
+            ))}
+          </ul>
+        </div>
+        <div class="map-panel" aria-label={guide.whereSpoken.mapImageAlt ?? `${guide.name} regions`}>
+          <span>Tanzania</span>
+          <span>Kenya</span>
+          <span>Uganda</span>
+          <span>Zanzibar</span>
+          <span>DR Congo</span>
+        </div>
+      </section>
+
+      <section class="guide-section" aria-labelledby="resources">
+        <div class="section-title">
+          <Compass aria-hidden="true" />
+          <h2 id="resources">Learner Resources</h2>
+          <p>{guide.learningDifficulty}</p>
+        </div>
+        <div class="resource-grid">
+          {guide.resources.map((resource) => (
+            <article class="resource-card">
+              <span>{resource.type}</span>
+              <h3>{resource.url ? <a href={resource.url}>{resource.title}</a> : resource.title}</h3>
+              <p>{resource.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="guide-section two-column related" aria-labelledby="related">
+        <div class="section-title">
+          <h2 id="related">Related Languages</h2>
+          <p>{guide.name} sits inside a wider network of related languages and regional histories.</p>
+        </div>
+        <div class="related-list">
+          {guide.relatedLanguages.map((language) => (
+            <article>
+              <h3>{language.name}</h3>
+              <p><strong>{language.relationship}</strong> — {language.explanation}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section id="starter-phrases" class="guide-section" aria-labelledby="phrases">
+        <div class="section-title">
+          <MessageCircle aria-hidden="true" />
+          <h2 id="phrases">Starter Phrases</h2>
+        </div>
+        <div class="phrase-grid">
+          {guide.phrases.map((phrase) => (
+            <article>
+              <h3>{phrase.original}</h3>
+              <p>{phrase.translation}</p>
+              {phrase.usageNote && <p class="muted">{phrase.usageNote}</p>}
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="guide-section sources" aria-labelledby="sources">
+        <h2 id="sources">Sources & Further Reading</h2>
+        <ul>
+          {guide.sources.map((source) => (
+            <li>
+              {source.url ? <a href={source.url}>{source.title}</a> : source.title}
+              {source.publisher && <> — {source.publisher}</>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    </article>
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </main>
+  <SiteFooter />
+</BaseLayout>

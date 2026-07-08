@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build:web"
+  publish = "apps/web/dist"
+
+[dev]
+  command = "npm run dev:web"
+  port = 3081
+  targetPort = 3081
+  framework = "#custom"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "/admin"
+  to = "https://admin.interestinglanguages.com"
+  status = 302
