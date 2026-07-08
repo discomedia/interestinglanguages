@@ -1,5 +1,7 @@
 # Interesting Languages
 
+Website architecture for [interestinglanguages.com](https://interestinglanguages.com).
+
 Interesting Languages is a project workspace for collecting and building tools around language learning, linguistics, and related experiments.
 
 ## Status
