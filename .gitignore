@@ -150,3 +150,6 @@ vite.config.ts.timestamp-*
 tmp/
 tmp-*.png
 apps/admin/media/
+
+# Local Netlify folder
+.netlify

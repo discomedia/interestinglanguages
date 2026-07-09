@@ -29,7 +29,8 @@ desktop.on("pageerror", (error) => {
 await desktop.goto(`${baseUrl}/swahili`, { waitUntil: "networkidle" });
 const title = await desktop.title();
 const h1 = await desktop.locator("h1").first().textContent();
-const phraseCount = await desktop.locator(".phrase-grid article").count();
+const sectionCount = await desktop.locator(".entry-section").count();
+const sourceCount = await desktop.locator("#sources li").count();
 const desktopScreenshotPath = "tmp/swahili-desktop.png";
 await desktop.screenshot({ path: desktopScreenshotPath, fullPage: true });
 
@@ -43,7 +44,7 @@ const mobile = await browser.newPage({
 
 await mobile.goto(baseUrl, { waitUntil: "networkidle" });
 await mobile.locator('input[type="search"]').fill("swa");
-const mobileCardCount = await mobile.locator(".guide-card").count();
+const mobileCardCount = await mobile.locator(".guide-row").count();
 const mobileScreenshotPath = "tmp/home-mobile.png";
 await mobile.screenshot({ path: mobileScreenshotPath, fullPage: true });
 
@@ -52,7 +53,8 @@ await browser.close();
 const result = {
   title,
   h1,
-  phraseCount,
+  sectionCount,
+  sourceCount,
   mobileCardCount,
   errors,
   desktopScreenshotPath,
@@ -65,8 +67,12 @@ if (h1 !== "Swahili") {
   throw new Error(`Expected Swahili H1, found ${h1}`);
 }
 
-if (phraseCount < 8) {
-  throw new Error(`Expected at least 8 starter phrases, found ${phraseCount}`);
+if (sectionCount < 10) {
+  throw new Error(`Expected at least 10 guide sections, found ${sectionCount}`);
+}
+
+if (sourceCount < 4) {
+  throw new Error(`Expected at least 4 sources, found ${sourceCount}`);
 }
 
 if (mobileCardCount < 1) {

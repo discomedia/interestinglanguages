@@ -7,36 +7,22 @@ import { fetchLanguageGuideSummaries, siteUrl } from "../lib/content";
 
 const guides = await fetchLanguageGuideSummaries();
 const title = "Interesting Languages";
-const description = "Practical language guides for curious learners.";
+const description = "Source-backed language reference guides for advanced learners.";
 ---
 
 <BaseLayout title={title} description={description} canonical={siteUrl("/")}>
   <SiteHeader />
   <main>
-    <section class="home-hero">
+    <section class="reference-hero">
       <div>
-        <h1>Language guides for curious learners.</h1>
+        <h1>Interesting Languages</h1>
         <p>
-          Clear, practical introductions to pronunciation, grammar, scripts, where languages are spoken,
-          learning resources, related languages, and useful first phrases.
+          A language reference for serious learners: origins, scripts, pronunciation, grammar,
+          variants, relationships, useful words, and advanced study paths.
         </p>
-        <a class="button primary" href="/swahili">Read the Swahili guide</a>
-      </div>
-      <div class="hero-panel" aria-label="Example guide sections">
-        <span>Pronunciation</span>
-        <span>Grammar</span>
-        <span>Where spoken</span>
-        <span>Starter phrases</span>
       </div>
     </section>
     <LanguageSearch guides={guides} client:load />
-    <section id="resources" class="resource-strip">
-      <h2>Built for structured language notes</h2>
-      <p>
-        Each guide is managed in Payload CMS and published through a normalized content API, so the site can grow
-        from one guide into a durable reference library.
-      </p>
-    </section>
   </main>
   <SiteFooter />
 </BaseLayout>

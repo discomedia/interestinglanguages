@@ -8,12 +8,19 @@ export function toGuideSummary(guide: LanguageGuide): LanguageGuideSummary {
     summary: guide.summary,
     status: guide.status,
     publishedAt: guide.publishedAt,
-    seo: guide.seo
+    seo: guide.seo,
+    family: guide.family,
+    macroRegion: guide.macroRegion,
+    primaryScript: guide.primaryScript,
+    difficultyLabel: guide.difficultyLabel,
+    learnerHook: guide.learnerHook
   };
 }
 
 export function getPublishedGuides(guides: LanguageGuide[]): LanguageGuide[] {
-  return guides.filter((guide) => guide.status === "published");
+  return guides
+    .filter((guide) => guide.status === "published")
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export function getPublishedGuideSummaries(guides: LanguageGuide[]): LanguageGuideSummary[] {

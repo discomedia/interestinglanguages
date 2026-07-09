@@ -3,6 +3,11 @@ import { validateLanguageGuide } from "./validation.js";
 
 let hasIssues = false;
 
+if (sampleGuides.length !== 30) {
+  hasIssues = true;
+  console.error(`Expected 30 guide fixture(s), found ${sampleGuides.length}.`);
+}
+
 for (const guide of sampleGuides) {
   const issues = validateLanguageGuide(guide);
 

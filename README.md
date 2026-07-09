@@ -1,6 +1,6 @@
 # Interesting Languages
 
-Interesting Languages is a database-managed language-guide site for language learners.
+Interesting Languages is a database-managed language reference site for advanced language learners.
 
 - Public site: Astro + React, deployed to Netlify at <https://interestinglanguages.com>
 - Admin/CMS: Payload CMS, deployed to Railway at <https://admin.interestinglanguages.com>
@@ -22,7 +22,7 @@ Useful commands:
 npm run build
 npm run typecheck
 npm run lint
-npm run seed:swahili
+npm run seed:guides
 npm run content:validate
 ```
 

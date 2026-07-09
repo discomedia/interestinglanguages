@@ -1,9 +1,16 @@
-import type { LanguageGuide, LanguageGuideSummary } from "@interesting-languages/content";
+import {
+  sampleGuides,
+  toGuideSummary,
+  type LanguageGuide,
+  type LanguageGuideSummary
+} from "@interesting-languages/content";
 
 type PayloadGuideDoc = Record<string, any>;
 
-const text = (value: unknown, fallback = ""): string => (typeof value === "string" ? value : fallback);
-const array = <T>(value: unknown): T[] => (Array.isArray(value) ? (value as T[]) : []);
+const text = (value: unknown, fallback = ""): string => (typeof value === "string" && value.length > 0 ? value : fallback);
+const object = <T>(value: unknown, fallback: T): T =>
+  value && typeof value === "object" && !Array.isArray(value) ? (value as T) : fallback;
+const array = <T>(value: unknown, fallback: T[]): T[] => (Array.isArray(value) ? (value as T[]) : fallback);
 
 function mediaUrl(media: unknown): string | undefined {
   if (typeof media === "string") {
@@ -17,88 +24,68 @@ function mediaUrl(media: unknown): string | undefined {
   return undefined;
 }
 
+function fallbackFor(doc: PayloadGuideDoc): LanguageGuide | undefined {
+  return sampleGuides.find((guide) => guide.slug === doc.slug);
+}
+
 export function normalizeGuideSummary(doc: PayloadGuideDoc): LanguageGuideSummary {
+  const fallback = fallbackFor(doc) ?? (sampleGuides[0] as LanguageGuide);
+  const fallbackSummary = fallback ? toGuideSummary(fallback) : undefined;
+
   return {
-    slug: text(doc.slug),
-    name: text(doc.name),
-    autonym: text(doc.autonym, undefined as unknown as string),
-    summary: text(doc.summary),
+    slug: text(doc.slug, fallbackSummary?.slug),
+    name: text(doc.name, fallbackSummary?.name),
+    autonym: text(doc.autonym, fallbackSummary?.autonym),
+    summary: text(doc.summary, fallbackSummary?.summary),
     status: doc.status === "published" ? "published" : "draft",
-    publishedAt: text(doc.publishedAt, undefined as unknown as string),
+    publishedAt: text(doc.publishedAt, fallbackSummary?.publishedAt),
+    family: text(doc.family, fallbackSummary?.family),
+    macroRegion: text(doc.macroRegion, fallbackSummary?.macroRegion),
+    primaryScript: text(doc.primaryScript, fallbackSummary?.primaryScript),
+    difficultyLabel: text(doc.difficultyLabel, fallbackSummary?.difficultyLabel) as LanguageGuideSummary["difficultyLabel"],
+    learnerHook: text(doc.learnerHook, fallbackSummary?.learnerHook),
     seo: {
-      title: text(doc.seoTitle, `${text(doc.name)} Language Guide`),
-      description: text(doc.seoDescription, text(doc.summary))
+      title: text(doc.seoTitle, fallbackSummary?.seo.title ?? `${text(doc.name)} Language Guide`),
+      description: text(doc.seoDescription, fallbackSummary?.seo.description ?? text(doc.summary)),
+      socialImageUrl: mediaUrl(doc.socialImage) ?? fallbackSummary?.seo.socialImageUrl
     }
   };
 }
 
 export function normalizeGuide(doc: PayloadGuideDoc): LanguageGuide {
+  const fallback = fallbackFor(doc) ?? (sampleGuides[0] as LanguageGuide);
   const summary = normalizeGuideSummary(doc);
 
   return {
+    ...fallback,
     ...summary,
     hero: {
-      imageUrl: mediaUrl(doc.heroImage),
-      imageAlt: text(doc.heroImageAlt),
-      callToActionLabel: text(doc.heroCallToActionLabel, `Start learning ${summary.name}`)
+      imageUrl: mediaUrl(doc.heroImage) ?? fallback?.hero.imageUrl,
+      imageAlt: text(doc.heroImageAlt, fallback?.hero.imageAlt ?? `${summary.name} guide entry.`),
+      callToActionLabel: text(doc.heroCallToActionLabel, fallback?.hero.callToActionLabel ?? `Study ${summary.name}`)
     },
-    learnerOverview: text(doc.learnerOverview),
-    pronunciation: {
-      overview: text(doc.pronunciationOverview),
-      script: text(doc.script),
-      vowels: text(doc.vowels),
-      consonants: text(doc.consonants),
-      sampleWord: {
-        original: text(doc.sampleWord),
-        transliteration: text(doc.sampleWordTransliteration),
-        translation: text(doc.sampleWordTranslation)
-      }
-    },
-    grammar: {
-      overview: text(doc.grammarOverview),
-      topics: array<PayloadGuideDoc>(doc.grammarTopics).map((topic) => ({
-        title: text(topic.title),
-        body: text(topic.body),
-        example: text(topic.example),
-        exampleTranslation: text(topic.exampleTranslation)
-      }))
-    },
+    classification: text(doc.classification, fallback?.classification),
+    speakerCommunity: text(doc.speakerCommunity, fallback?.speakerCommunity),
+    facts: array(doc.factTable, fallback?.facts ?? []),
+    learnerOverview: text(doc.learnerOverviewRich, fallback?.learnerOverview ?? text(doc.learnerOverview)),
+    origins: object(doc.originNotes, fallback?.origins),
+    variants: object(doc.variantNotes, fallback?.variants),
+    pronunciation: object(doc.pronunciationGuide, fallback?.pronunciation),
+    writing: object(doc.writingSystem, fallback?.writing),
+    grammar: object(doc.grammarProfile, fallback?.grammar),
     whereSpoken: {
-      overview: text(doc.whereSpokenOverview),
-      mapImageUrl: mediaUrl(doc.mapImage),
-      mapImageAlt: text(doc.mapImageAlt),
-      regions: array<PayloadGuideDoc>(doc.spokenRegions).map((region) => ({
-        place: text(region.place),
-        note: text(region.note)
-      }))
+      ...object(doc.spokenProfile, fallback?.whereSpoken),
+      mapImageUrl: mediaUrl(doc.mapImage) ?? fallback?.whereSpoken.mapImageUrl,
+      mapImageAlt: text(doc.mapImageAlt, fallback?.whereSpoken.mapImageAlt)
     },
-    learningDifficulty: text(doc.learningDifficulty),
-    culturalNotes: text(doc.culturalNotes),
-    resources: array<PayloadGuideDoc>(doc.resources).map((resource) => ({
-      type: resource.type ?? "other",
-      title: text(resource.title),
-      url: text(resource.url),
-      level: resource.level ?? "all",
-      description: text(resource.description)
-    })),
-    relatedLanguages: array<PayloadGuideDoc>(doc.relatedLanguages).map((language) => ({
-      name: text(language.name),
-      slug: text(language.slug),
-      relationship: text(language.relationship),
-      explanation: text(language.explanation)
-    })),
-    phrases: array<PayloadGuideDoc>(doc.phrases).map((phrase) => ({
-      original: text(phrase.original),
-      transliteration: text(phrase.transliteration),
-      translation: text(phrase.translation),
-      literalMeaning: text(phrase.literalMeaning),
-      usageNote: text(phrase.usageNote)
-    })),
-    sources: array<PayloadGuideDoc>(doc.sources).map((source) => ({
-      title: text(source.title),
-      url: text(source.url),
-      publisher: text(source.publisher),
-      accessedAt: text(source.accessedAt)
-    }))
+    difficulty: object(doc.difficultyProfile, fallback?.difficulty),
+    advancedLearning: object(doc.advancedLearning, fallback?.advancedLearning),
+    wordsAndTexts: object(doc.wordNotes, fallback?.wordsAndTexts),
+    relationships: object(doc.relationshipNotes, fallback?.relationships),
+    culturalNotes: text(doc.culturalNotesRich, fallback?.culturalNotes),
+    resources: array(doc.resourceList, fallback?.resources ?? []),
+    relatedLanguages: object(doc.relationshipNotes, fallback?.relationships)?.languages ?? fallback?.relatedLanguages ?? [],
+    phrases: array(doc.phrasebook, fallback?.phrases ?? []),
+    sources: array(doc.sourceList, fallback?.sources ?? [])
   };
 }

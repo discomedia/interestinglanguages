@@ -1,22 +1,21 @@
-import type { CollectionConfig } from "payload";
+import type { CollectionConfig, Field } from "payload";
 import { triggerNetlifyBuildHook } from "../lib/publish-hook";
 
-const resourceTypes = [
-  "course",
-  "video",
-  "app",
-  "book",
-  "dictionary",
-  "podcast",
-  "community",
-  "other"
-];
+const jsonField = (name: string, label: string, required = true): Field => ({
+  name,
+  type: "json",
+  label,
+  required,
+  admin: {
+    description: "Structured JSON matching packages/content guide types. Seed scripts fill this automatically."
+  }
+});
 
 export const LanguageGuides: CollectionConfig = {
   slug: "language-guides",
   admin: {
     useAsTitle: "name",
-    defaultColumns: ["name", "slug", "status", "publishedAt", "updatedAt"]
+    defaultColumns: ["name", "slug", "family", "macroRegion", "difficultyLabel", "status", "updatedAt"]
   },
   versions: {
     drafts: true,
@@ -98,7 +97,50 @@ export const LanguageGuides: CollectionConfig = {
       type: "tabs",
       tabs: [
         {
-          label: "Hero",
+          label: "Identity",
+          fields: [
+            { name: "family", type: "text", required: true },
+            { name: "classification", type: "textarea", required: true },
+            { name: "macroRegion", type: "text", required: true },
+            { name: "primaryScript", type: "text", required: true },
+            {
+              name: "difficultyLabel",
+              type: "select",
+              required: true,
+              options: ["Moderate", "Demanding", "Very demanding"].map((value) => ({ label: value, value }))
+            },
+            { name: "learnerHook", type: "textarea", required: true },
+            { name: "speakerCommunity", type: "textarea", required: true },
+            jsonField("factTable", "Compact fact table")
+          ]
+        },
+        {
+          label: "Guide",
+          fields: [
+            { name: "learnerOverviewRich", type: "textarea", required: true },
+            jsonField("originNotes", "Origins and history"),
+            jsonField("variantNotes", "Variants and registers"),
+            jsonField("pronunciationGuide", "Pronunciation"),
+            jsonField("writingSystem", "Writing system"),
+            jsonField("grammarProfile", "Grammar"),
+            jsonField("spokenProfile", "Where spoken"),
+            jsonField("difficultyProfile", "Difficulty assessment"),
+            jsonField("advancedLearning", "Advanced learning path"),
+            jsonField("wordNotes", "Words and texts"),
+            jsonField("relationshipNotes", "Related languages"),
+            { name: "culturalNotesRich", type: "textarea" }
+          ]
+        },
+        {
+          label: "Resources",
+          fields: [
+            jsonField("resourceList", "Learning resources"),
+            jsonField("phrasebook", "Phrases"),
+            jsonField("sourceList", "Sources")
+          ]
+        },
+        {
+          label: "Media & SEO",
           fields: [
             {
               name: "heroImage",
@@ -112,82 +154,6 @@ export const LanguageGuides: CollectionConfig = {
             {
               name: "heroCallToActionLabel",
               type: "text"
-            }
-          ]
-        },
-        {
-          label: "Guide",
-          fields: [
-            {
-              name: "learnerOverview",
-              type: "textarea",
-              required: true
-            },
-            {
-              name: "pronunciationOverview",
-              type: "textarea",
-              required: true
-            },
-            {
-              name: "script",
-              type: "text",
-              required: true
-            },
-            {
-              name: "vowels",
-              type: "text",
-              required: true
-            },
-            {
-              name: "consonants",
-              type: "textarea",
-              required: true
-            },
-            {
-              name: "sampleWord",
-              type: "text",
-              required: true
-            },
-            {
-              name: "sampleWordTransliteration",
-              type: "text"
-            },
-            {
-              name: "sampleWordTranslation",
-              type: "text",
-              required: true
-            },
-            {
-              name: "grammarOverview",
-              type: "textarea",
-              required: true
-            },
-            {
-              name: "grammarTopics",
-              type: "array",
-              required: true,
-              minRows: 3,
-              fields: [
-                { name: "title", type: "text", required: true },
-                { name: "body", type: "textarea", required: true },
-                { name: "example", type: "text" },
-                { name: "exampleTranslation", type: "text" }
-              ]
-            },
-            {
-              name: "whereSpokenOverview",
-              type: "textarea",
-              required: true
-            },
-            {
-              name: "spokenRegions",
-              type: "array",
-              required: true,
-              minRows: 2,
-              fields: [
-                { name: "place", type: "text", required: true },
-                { name: "note", type: "text", required: true }
-              ]
             },
             {
               name: "mapImage",
@@ -197,85 +163,6 @@ export const LanguageGuides: CollectionConfig = {
             {
               name: "mapImageAlt",
               type: "text"
-            },
-            {
-              name: "learningDifficulty",
-              type: "textarea",
-              required: true
-            },
-            {
-              name: "culturalNotes",
-              type: "textarea"
-            }
-          ]
-        },
-        {
-          label: "Resources",
-          fields: [
-            {
-              name: "resources",
-              type: "array",
-              required: true,
-              minRows: 3,
-              fields: [
-                { name: "type", type: "select", required: true, options: resourceTypes.map((value) => ({ label: value, value })) },
-                { name: "title", type: "text", required: true },
-                { name: "url", type: "text" },
-                {
-                  name: "level",
-                  type: "select",
-                  defaultValue: "all",
-                  options: ["beginner", "intermediate", "advanced", "all"].map((value) => ({ label: value, value }))
-                },
-                { name: "description", type: "textarea", required: true }
-              ]
-            },
-            {
-              name: "relatedLanguages",
-              type: "array",
-              required: true,
-              minRows: 2,
-              fields: [
-                { name: "name", type: "text", required: true },
-                { name: "slug", type: "text" },
-                { name: "relationship", type: "text", required: true },
-                { name: "explanation", type: "textarea", required: true }
-              ]
-            }
-          ]
-        },
-        {
-          label: "Phrases",
-          fields: [
-            {
-              name: "phrases",
-              type: "array",
-              required: true,
-              minRows: 8,
-              fields: [
-                { name: "original", type: "text", required: true },
-                { name: "transliteration", type: "text" },
-                { name: "translation", type: "text", required: true },
-                { name: "literalMeaning", type: "text" },
-                { name: "usageNote", type: "text" }
-              ]
-            }
-          ]
-        },
-        {
-          label: "Sources & SEO",
-          fields: [
-            {
-              name: "sources",
-              type: "array",
-              required: true,
-              minRows: 2,
-              fields: [
-                { name: "title", type: "text", required: true },
-                { name: "url", type: "text" },
-                { name: "publisher", type: "text" },
-                { name: "accessedAt", type: "date" }
-              ]
             },
             {
               name: "seoTitle",

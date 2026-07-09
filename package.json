@@ -16,7 +16,10 @@
     "typecheck": "npm run typecheck --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present",
     "verify:web": "node scripts/verify-web.mjs",
-    "seed:swahili": "npm run seed:swahili --workspace @interesting-languages/admin",
+    "migrate:admin": "npm run migrate --workspace @interesting-languages/admin",
+    "migrate:status:admin": "npm run migrate:status --workspace @interesting-languages/admin",
+    "seed:guides": "npm run seed:guides --workspace @interesting-languages/admin",
+    "seed:swahili": "npm run seed:guides",
     "content:validate": "npm run content:validate --workspace @interesting-languages/content"
   },
   "engines": {

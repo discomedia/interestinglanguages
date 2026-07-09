@@ -22,7 +22,10 @@ The public site treats Payload as the content API boundary. Do not query Payload
 - Admin-only build: `npm run build:admin`
 - Typecheck: `npm run typecheck`
 - Lint/check: `npm run lint`
-- Seed Swahili content: `npm run seed:swahili`
+- Run admin migrations: `npm run migrate:admin`
+- Check admin migration status: `npm run migrate:status:admin`
+- Seed all guide content: `npm run seed:guides`
+- Seed Swahili content: `npm run seed:swahili` (compatibility alias for `seed:guides`)
 - Validate content fixtures: `npm run content:validate`
 
 ## Env Vars
@@ -38,13 +41,14 @@ The public site treats Payload as the content API boundary. Do not query Payload
 
 Never expose `NEON_CONNECTION_STRING` or `PAYLOAD_SECRET` to client code.
 
+Local operational commands should load the repo-root `.env` file when env vars are not already present in the shell. Admin migration/status and seed scripts are wired through `scripts/with-env.mjs` for this. Do not print secret values. When the user explicitly asks to migrate or seed, it is acceptable to mutate the Payload database named by `.env`. Run guide seeding in production mode, as the `seed:guides` script does, so Payload does not try to dev-push schema changes interactively.
+
 ## Content Model
 
-Payload's `language-guides` collection owns the public language guide content. A guide should include:
+Payload's `language-guides` collection owns the public language guide content. The canonical fixture/template lives in `packages/content/src/guides/` and is seeded into Payload with `npm run seed:guides`. A guide should include:
 
-- Slug, name, autonym, status, publication date, summary, and hero details.
-- Learner overview, pronunciation, script, grammar, where spoken, learning difficulty, and cultural notes.
-- Starter phrases, learning resources, related languages, and sources.
+- Slug, name, autonym, status, publication date, summary, family/classification, macro-region, primary script, difficulty label, learner hook, and speaker/community overview.
+- Compact facts, origins/history, contact history, standardization, variants/registers, pronunciation, writing system, grammar profile, where spoken, advanced learning path, difficulty assessment, words/texts, relationships, phrases, learning resources, and sources.
 - SEO title, SEO description, and optional social image.
 
 Payload exposes normalized published-only content through:
@@ -64,13 +68,15 @@ Use Astro for static layout and React only for interactive islands. Components s
 - Keep visible copy in content data wherever possible; do not hard-code guide facts inside visual components.
 - Use the global design tokens in `apps/web/src/styles/global.css` before adding one-off colors or spacing.
 
-The public design system is clean editorial: true white background, deep ink text, restrained teal links/icons, saffron primary action, thin dividers, compact cards, and readable long-form typography.
+The public design system is a modern reference site: true white background, deep ink text, restrained teal links/icons, saffron only as a rare accent, thin dividers, compact language rows, sticky article navigation, and readable long-form typography. Avoid app-like dashboards, decorative gradients, generic hero panels, and boilerplate product copy.
 
 ## Deployment Notes
 
 Netlify builds from the repo root with `npm run build:web` and publishes `apps/web/dist`.
 
 Railway builds the admin app with `npm run build:admin` and starts it with `npm run start --workspace @interesting-languages/admin`. Configure Railway env vars for Neon, Payload secret, site URLs, upload volume path, and the Netlify build hook.
+
+After deploying Payload schema changes, run `npm run migrate:admin` with the Railway/production env before using `/admin` or the public content API. Missing migrations will surface as Postgres `relation ... does not exist` errors in the admin portal.
 
 Payload media uses local/Railway volume storage in v1. If media grows or multiple admin instances are needed, migrate uploads to S3-compatible storage such as Cloudflare R2 and update this file.
 

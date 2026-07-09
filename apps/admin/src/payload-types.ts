@@ -175,65 +175,188 @@ export interface LanguageGuide {
   name: string;
   autonym?: string | null;
   summary: string;
+  family: string;
+  classification: string;
+  macroRegion: string;
+  primaryScript: string;
+  difficultyLabel: 'Moderate' | 'Demanding' | 'Very demanding';
+  learnerHook: string;
+  speakerCommunity: string;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  factTable:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  learnerOverviewRich: string;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  originNotes:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  variantNotes:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  pronunciationGuide:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  writingSystem:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  grammarProfile:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  spokenProfile:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  difficultyProfile:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  advancedLearning:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  wordNotes:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  relationshipNotes:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  culturalNotesRich?: string | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  resourceList:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  phrasebook:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  /**
+   * Structured JSON matching packages/content guide types. Seed scripts fill this automatically.
+   */
+  sourceList:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
   heroImage?: (number | null) | Media;
   heroImageAlt?: string | null;
   heroCallToActionLabel?: string | null;
-  learnerOverview: string;
-  pronunciationOverview: string;
-  script: string;
-  vowels: string;
-  consonants: string;
-  sampleWord: string;
-  sampleWordTransliteration?: string | null;
-  sampleWordTranslation: string;
-  grammarOverview: string;
-  grammarTopics: {
-    title: string;
-    body: string;
-    example?: string | null;
-    exampleTranslation?: string | null;
-    id?: string | null;
-  }[];
-  whereSpokenOverview: string;
-  spokenRegions: {
-    place: string;
-    note: string;
-    id?: string | null;
-  }[];
   mapImage?: (number | null) | Media;
   mapImageAlt?: string | null;
-  learningDifficulty: string;
-  culturalNotes?: string | null;
-  resources: {
-    type: 'course' | 'video' | 'app' | 'book' | 'dictionary' | 'podcast' | 'community' | 'other';
-    title: string;
-    url?: string | null;
-    level?: ('beginner' | 'intermediate' | 'advanced' | 'all') | null;
-    description: string;
-    id?: string | null;
-  }[];
-  relatedLanguages: {
-    name: string;
-    slug?: string | null;
-    relationship: string;
-    explanation: string;
-    id?: string | null;
-  }[];
-  phrases: {
-    original: string;
-    transliteration?: string | null;
-    translation: string;
-    literalMeaning?: string | null;
-    usageNote?: string | null;
-    id?: string | null;
-  }[];
-  sources: {
-    title: string;
-    url?: string | null;
-    publisher?: string | null;
-    accessedAt?: string | null;
-    id?: string | null;
-  }[];
   seoTitle: string;
   seoDescription: string;
   socialImage?: (number | null) | Media;
@@ -370,77 +493,34 @@ export interface LanguageGuidesSelect<T extends boolean = true> {
   name?: T;
   autonym?: T;
   summary?: T;
+  family?: T;
+  classification?: T;
+  macroRegion?: T;
+  primaryScript?: T;
+  difficultyLabel?: T;
+  learnerHook?: T;
+  speakerCommunity?: T;
+  factTable?: T;
+  learnerOverviewRich?: T;
+  originNotes?: T;
+  variantNotes?: T;
+  pronunciationGuide?: T;
+  writingSystem?: T;
+  grammarProfile?: T;
+  spokenProfile?: T;
+  difficultyProfile?: T;
+  advancedLearning?: T;
+  wordNotes?: T;
+  relationshipNotes?: T;
+  culturalNotesRich?: T;
+  resourceList?: T;
+  phrasebook?: T;
+  sourceList?: T;
   heroImage?: T;
   heroImageAlt?: T;
   heroCallToActionLabel?: T;
-  learnerOverview?: T;
-  pronunciationOverview?: T;
-  script?: T;
-  vowels?: T;
-  consonants?: T;
-  sampleWord?: T;
-  sampleWordTransliteration?: T;
-  sampleWordTranslation?: T;
-  grammarOverview?: T;
-  grammarTopics?:
-    | T
-    | {
-        title?: T;
-        body?: T;
-        example?: T;
-        exampleTranslation?: T;
-        id?: T;
-      };
-  whereSpokenOverview?: T;
-  spokenRegions?:
-    | T
-    | {
-        place?: T;
-        note?: T;
-        id?: T;
-      };
   mapImage?: T;
   mapImageAlt?: T;
-  learningDifficulty?: T;
-  culturalNotes?: T;
-  resources?:
-    | T
-    | {
-        type?: T;
-        title?: T;
-        url?: T;
-        level?: T;
-        description?: T;
-        id?: T;
-      };
-  relatedLanguages?:
-    | T
-    | {
-        name?: T;
-        slug?: T;
-        relationship?: T;
-        explanation?: T;
-        id?: T;
-      };
-  phrases?:
-    | T
-    | {
-        original?: T;
-        transliteration?: T;
-        translation?: T;
-        literalMeaning?: T;
-        usageNote?: T;
-        id?: T;
-      };
-  sources?:
-    | T
-    | {
-        title?: T;
-        url?: T;
-        publisher?: T;
-        accessedAt?: T;
-        id?: T;
-      };
   seoTitle?: T;
   seoDescription?: T;
   socialImage?: T;
