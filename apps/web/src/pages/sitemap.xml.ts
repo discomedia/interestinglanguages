@@ -14,6 +14,8 @@ export const GET: APIRoute = async () => {
   const guides = await fetchLanguageGuideSummaries();
   const urls = [
     { location: siteUrl("/"), lastModified: undefined },
+    { location: siteUrl("/about"), lastModified: undefined },
+    { location: siteUrl("/privacy"), lastModified: undefined },
     ...guides.map((guide) => ({
       location: siteUrl(`/${guide.slug}`),
       lastModified: guide.publishedAt

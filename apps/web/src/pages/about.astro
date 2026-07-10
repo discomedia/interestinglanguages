@@ -1,0 +1,59 @@
+---
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteUrl } from "../lib/content";
+
+const title = "About";
+const description = "Why Interesting Languages explores language facts from a language learner's perspective.";
+---
+
+<BaseLayout title={title} description={description} canonical={siteUrl("/about")}>
+  <SiteHeader />
+  <main>
+    <article class="prose-page">
+      <header>
+        <p class="eyebrow">About the site</p>
+        <h1>Languages reward curiosity.</h1>
+        <p class="lede">
+          Interesting Languages explains what makes the world's languages distinctive, surprising,
+          and worth learning—without losing sight of what a learner actually needs to know.
+        </p>
+      </header>
+
+      <section class="prose-section">
+        <h2>Facts with a learner's point of view</h2>
+        <p>
+          Every language has stories hiding in its sounds, script, grammar, vocabulary, and history.
+          This site brings those stories together in practical reference guides. We look at where a
+          language came from, how it relates to its neighbours, how people use it today, and the
+          features that are likely to delight—or challenge—someone learning it.
+        </p>
+        <p>
+          The goal is not to reduce a language to a difficulty score or a list of curiosities. It is
+          to give learners useful context: why a pattern exists, what variation to expect, which
+          details matter in real communication, and where to go next.
+        </p>
+      </section>
+
+      <section class="prose-section">
+        <h2>How the guides are made</h2>
+        <p>
+          Our guides draw on published references, educational resources, and the experience of
+          language learning. Sources are listed so readers can follow an interesting thread further,
+          compare accounts, and keep exploring beyond the page.
+        </p>
+      </section>
+
+      <section class="prose-section">
+        <h2>Who manages Interesting Languages?</h2>
+        <p>
+          Interesting Languages is managed by
+          <a href="https://discomedia.co">Disco Media</a>, an independent digital media company that
+          creates useful, carefully researched resources for curious readers.
+        </p>
+      </section>
+    </article>
+  </main>
+  <SiteFooter />
+</BaseLayout>

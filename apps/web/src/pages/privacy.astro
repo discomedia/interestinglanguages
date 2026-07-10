@@ -1,0 +1,63 @@
+---
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteUrl } from "../lib/content";
+
+const title = "Privacy Policy";
+const description = "The privacy policy for Interesting Languages.";
+---
+
+<BaseLayout title={title} description={description} canonical={siteUrl("/privacy")}>
+  <SiteHeader />
+  <main>
+    <article class="prose-page">
+      <header>
+        <p class="eyebrow">Last updated 11 July 2026</p>
+        <h1>Privacy Policy</h1>
+        <p class="lede">
+          Interesting Languages is a public reference site. We do not ask you to create an account or
+          provide personal information, and we do not collect user data for analytics or advertising.
+        </p>
+      </header>
+
+      <section class="prose-section">
+        <h2>Information we collect</h2>
+        <p>
+          We do not use sign-up forms, user accounts, comments, analytics cookies, advertising pixels,
+          or other tracking technologies. We do not sell or share personal information.
+        </p>
+      </section>
+
+      <section class="prose-section">
+        <h2>Technical operation</h2>
+        <p>
+          Like most websites, our hosting providers may process basic technical information—such as
+          an IP address, browser type, requested page, and request time—in standard server logs. This
+          information is used only to deliver, secure, and maintain the site, and not by Interesting
+          Languages to identify or profile visitors.
+        </p>
+      </section>
+
+      <section class="prose-section">
+        <h2>Links to other sites</h2>
+        <p>
+          Our guides link to sources and learning resources operated by other organisations. Their
+          privacy practices are governed by their own policies, so you should review those policies
+          when visiting an external site.
+        </p>
+      </section>
+
+      <section class="prose-section">
+        <h2>Changes and questions</h2>
+        <p>
+          We may update this policy if the site or its services change. The latest version will always
+          appear on this page with its revision date. Interesting Languages is managed by
+          <a href="https://discomedia.co">Disco Media</a>; privacy questions can be sent through the
+          contact details on the Disco Media website.
+        </p>
+      </section>
+    </article>
+  </main>
+  <SiteFooter />
+</BaseLayout>

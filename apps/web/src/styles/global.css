@@ -90,8 +90,28 @@ main {
 }
 
 .site-header {
+  position: sticky;
+  z-index: 20;
+  top: 0;
   min-height: 74px;
   border-bottom: 1px solid var(--color-line);
+  background: var(--color-paper);
+  box-shadow: 0 0 0 100vmax var(--color-paper);
+  clip-path: inset(0 -100vmax);
+  transition: min-height 180ms ease;
+}
+
+.site-header.is-compact {
+  min-height: 60px;
+}
+
+.site-header .brand-mark {
+  transition: width 180ms ease, height 180ms ease;
+}
+
+.site-header.is-compact .brand-mark {
+  width: 30px;
+  height: 30px;
 }
 
 .site-footer {
@@ -114,6 +134,13 @@ main {
 .brand {
   color: var(--color-ink);
   text-decoration: none;
+}
+
+.site-header nav a[aria-current="page"] {
+  color: var(--color-teal-dark);
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.3em;
 }
 
 .brand {
@@ -153,6 +180,54 @@ main {
   max-width: 780px;
   color: var(--color-muted);
   font-size: 1.15rem;
+}
+
+.prose-page {
+  max-width: var(--measure);
+  padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(4.5rem, 9vw, 7rem);
+}
+
+.prose-page header {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.prose-page h1 {
+  max-width: 10ch;
+  margin-bottom: 1.25rem;
+}
+
+.prose-page .eyebrow {
+  margin-bottom: 0.8rem;
+  color: var(--color-teal-dark);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.prose-page .lede {
+  max-width: 62ch;
+  margin-bottom: 0;
+  color: var(--color-muted);
+  font-size: clamp(1.12rem, 2vw, 1.3rem);
+}
+
+.prose-section {
+  padding: 2.25rem 0;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.prose-section:last-child {
+  border-bottom: 0;
+}
+
+.prose-section h2 {
+  font-size: clamp(1.55rem, 3vw, 2rem);
+}
+
+.prose-section p:last-child {
+  margin-bottom: 0;
 }
 
 .language-browser {
@@ -295,7 +370,7 @@ main {
 
 .entry-nav {
   position: sticky;
-  top: 1rem;
+  top: 76px;
   display: grid;
   gap: 0.3rem;
   padding: 2rem 0;
@@ -341,6 +416,7 @@ dd {
   max-width: var(--measure);
   padding: 3rem 0;
   border-bottom: 1px solid var(--color-line);
+  scroll-margin-top: 76px;
 }
 
 .entry-section h2 {
@@ -493,11 +569,29 @@ dd {
 }
 
 @media (max-width: 720px) {
-  .site-header,
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
     padding: 1rem 0;
+  }
+
+  .site-header {
+    gap: 0.8rem;
+    min-height: 68px;
+  }
+
+  .site-header.is-compact {
+    min-height: 56px;
+  }
+
+  .site-header .brand {
+    gap: 0.5rem;
+    font-size: 1.05rem;
+  }
+
+  .site-header nav {
+    gap: 0.8rem;
+    font-size: 0.86rem;
   }
 
   .site-header nav,
@@ -540,5 +634,16 @@ dd {
 
   .sources ol {
     columns: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .site-header,
+  .site-header .brand-mark {
+    transition: none;
   }
 }

@@ -1,9 +1,24 @@
-<header class="site-header">
+---
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header" data-site-header>
   <a class="brand" href="/" aria-label="Interesting Languages home">
     <span class="brand-mark" aria-hidden="true">IL</span>
     <span>Interesting Languages</span>
   </a>
   <nav aria-label="Primary navigation">
-    <a href="/">Languages</a>
+    <a href="/" aria-current={currentPath === "/" ? "page" : undefined}>Languages</a>
+    <a href="/about" aria-current={currentPath === "/about" ? "page" : undefined}>About</a>
   </nav>
 </header>
+
+<script>
+  const header = document.querySelector<HTMLElement>("[data-site-header]");
+
+  if (header) {
+    const updateHeader = () => header.classList.toggle("is-compact", window.scrollY > 24);
+    updateHeader();
+    window.addEventListener("scroll", updateHeader, { passive: true });
+  }
+</script>
