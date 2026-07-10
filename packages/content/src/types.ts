@@ -2,6 +2,11 @@ export type GuideStatus = "draft" | "published";
 
 export type DifficultyLabel = "Moderate" | "Demanding" | "Very demanding";
 
+export type CitedText = string | {
+  text: string;
+  sourceIds: string[];
+};
+
 export type GuideFact = {
   label: string;
   value: string;
@@ -9,7 +14,7 @@ export type GuideFact = {
 
 export type TimelineEvent = {
   period: string;
-  event: string;
+  event: CitedText;
 };
 
 export type GuideHero = {
@@ -26,46 +31,46 @@ export type TextExample = {
 };
 
 export type PronunciationGuide = {
-  overview: string;
+  overview: CitedText;
   script: string;
-  soundSystem: string;
-  prosody: string;
+  soundSystem: CitedText;
+  prosody: CitedText;
   learnerTraps: string[];
   sampleWords: TextExample[];
 };
 
 export type WritingSystemGuide = {
-  overview: string;
+  overview: CitedText;
   primaryScript: string;
-  romanization?: string;
-  spellingNorms: string;
-  styleNotes: string[];
+  romanization?: CitedText;
+  spellingNorms: CitedText;
+  styleNotes: CitedText[];
 };
 
 export type GrammarTopic = {
   title: string;
-  body: string;
+  body: CitedText;
   example?: string;
   exampleTranslation?: string;
 };
 
 export type GrammarGuide = {
-  overview: string;
-  typologicalProfile: string;
-  morphology: string;
-  syntax: string;
+  overview: CitedText;
+  typologicalProfile: CitedText;
+  morphology: CitedText;
+  syntax: CitedText;
   advancedPainPoints: string[];
   topics: GrammarTopic[];
 };
 
 export type SpokenRegion = {
   place: string;
-  note: string;
+  note: CitedText;
 };
 
 export type VariantNote = {
   name: string;
-  note: string;
+  note: CitedText;
 };
 
 export type LearningResource = {
@@ -73,14 +78,14 @@ export type LearningResource = {
   title: string;
   url?: string;
   level?: "beginner" | "intermediate" | "advanced" | "all";
-  description: string;
+  description: CitedText;
 };
 
 export type RelatedLanguage = {
   name: string;
   slug?: string;
   relationship: string;
-  explanation: string;
+  explanation: CitedText;
 };
 
 export type StarterPhrase = {
@@ -92,9 +97,12 @@ export type StarterPhrase = {
 };
 
 export type ContentSource = {
+  id: string;
   title: string;
   url?: string;
   publisher?: string;
+  publishedAt?: string;
+  updatedAt?: string;
   accessedAt?: string;
 };
 
@@ -108,7 +116,7 @@ export type WordNote = {
   term: string;
   transliteration?: string;
   meaning: string;
-  note: string;
+  note: CitedText;
 };
 
 export type LanguageGuideSummary = {
@@ -133,47 +141,47 @@ export type LanguageGuide = LanguageGuideSummary & {
   facts: GuideFact[];
   learnerOverview: string;
   origins: {
-    overview: string;
+    overview: CitedText;
     timeline: TimelineEvent[];
-    contactHistory: string;
-    standardization: string;
+    contactHistory: CitedText;
+    standardization: CitedText;
   };
   variants: {
-    overview: string;
+    overview: CitedText;
     items: VariantNote[];
   };
   pronunciation: PronunciationGuide;
   writing: WritingSystemGuide;
   grammar: GrammarGuide;
   whereSpoken: {
-    overview: string;
+    overview: CitedText;
     regions: SpokenRegion[];
     mapImageUrl?: string;
     mapImageAlt?: string;
   };
   difficulty: {
     label: DifficultyLabel;
-    overview: string;
+    overview: CitedText;
     easierAspects: string[];
     hardAspects: string[];
     plateauRisks: string[];
-    workload: string;
+    workload: CitedText;
   };
   advancedLearning: {
-    strategy: string;
-    mediaPractice: string;
-    dictionariesAndCorpora: string;
+    strategy: CitedText;
+    mediaPractice: CitedText;
+    dictionariesAndCorpora: CitedText;
     resources: LearningResource[];
   };
   wordsAndTexts: {
-    overview: string;
+    overview: CitedText;
     notableWords: WordNote[];
-    loanwordLayers: string;
+    loanwordLayers: CitedText;
     idioms: TextExample[];
     textGenres: string[];
   };
   relationships: {
-    overview: string;
+    overview: CitedText;
     languages: RelatedLanguage[];
   };
   culturalNotes?: string;

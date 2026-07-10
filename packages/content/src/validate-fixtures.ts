@@ -1,5 +1,6 @@
 import { sampleGuides } from "./sample-data.js";
-import { validateLanguageGuide } from "./validation.js";
+import { textOf } from "./citations.js";
+import { collectCitedText, validateLanguageGuide } from "./validation.js";
 
 let hasIssues = false;
 
@@ -17,6 +18,22 @@ for (const guide of sampleGuides) {
     for (const issue of issues) {
       console.error(`- ${issue.path}: ${issue.message}`);
     }
+  }
+}
+
+const paragraphOwners = new Map<string, string[]>();
+for (const guide of sampleGuides) {
+  for (const value of collectCitedText({ ...guide, sources: undefined })) {
+    const paragraph = textOf(value).replace(/\s+/g, " ").trim().toLowerCase();
+    if (paragraph.length < 120) continue;
+    paragraphOwners.set(paragraph, [...(paragraphOwners.get(paragraph) ?? []), guide.slug]);
+  }
+}
+for (const [paragraph, owners] of paragraphOwners) {
+  const uniqueOwners = [...new Set(owners)];
+  if (uniqueOwners.length > 1) {
+    hasIssues = true;
+    console.error(`\nDuplicate long-form prose in ${uniqueOwners.join(", ")}: ${paragraph.slice(0, 100)}…`);
   }
 }
 

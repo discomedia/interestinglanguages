@@ -25,7 +25,7 @@ Canonical fixtures live under `packages/content/src/guides/`. Run `npm run conte
 
 ## Workflow
 
-1. Update the relevant guide blueprint or template.
+1. Update the relevant standalone guide fixture under `packages/content/src/guides/`.
 2. Run `npm run content:validate`.
 3. Run `npm run build:web` and review generated pages locally.
 4. Run `npm run migrate:admin` when Payload schema fields change.

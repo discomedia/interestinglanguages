@@ -1,4 +1,5 @@
-import type { LanguageGuide } from "./types.js";
+import { sourceIdsOf, textOf } from "./citations.js";
+import type { CitedText, LanguageGuide } from "./types.js";
 
 export type ValidationIssue = {
   path: string;
@@ -7,11 +8,58 @@ export type ValidationIssue = {
 
 const isNonEmpty = (value: unknown): value is string => typeof value === "string" && value.trim().length > 0;
 
+const asText = (value: unknown): string => {
+  if (typeof value === "string") return value;
+  if (value && typeof value === "object" && "text" in value && typeof value.text === "string") return value.text;
+  return "";
+};
+
+const words = (value: CitedText | undefined): number =>
+  textOf(value).trim().split(/\s+/u).filter(Boolean).length;
+
+export function guideWordCount(guide: LanguageGuide): number {
+  const values: Array<CitedText | undefined> = [
+    guide.learnerOverview, guide.speakerCommunity,
+    guide.origins.overview, ...guide.origins.timeline.map((item) => item.event),
+    guide.origins.contactHistory, guide.origins.standardization,
+    guide.variants.overview, ...guide.variants.items.map((item) => item.note),
+    guide.pronunciation.overview, guide.pronunciation.soundSystem, guide.pronunciation.prosody,
+    ...guide.pronunciation.sampleWords.flatMap((item) => [item.translation, item.note]),
+    guide.writing.overview, guide.writing.romanization, guide.writing.spellingNorms, ...guide.writing.styleNotes,
+    guide.grammar.overview, guide.grammar.typologicalProfile, guide.grammar.morphology, guide.grammar.syntax,
+    ...guide.grammar.topics.flatMap((item) => [item.body, item.exampleTranslation]),
+    guide.whereSpoken.overview, ...guide.whereSpoken.regions.map((item) => item.note),
+    guide.difficulty.overview, guide.difficulty.workload,
+    guide.advancedLearning.strategy, guide.advancedLearning.mediaPractice, guide.advancedLearning.dictionariesAndCorpora,
+    ...guide.advancedLearning.resources.map((item) => item.description),
+    guide.wordsAndTexts.overview, guide.wordsAndTexts.loanwordLayers,
+    ...guide.wordsAndTexts.notableWords.map((item) => item.note),
+    ...guide.wordsAndTexts.idioms.flatMap((item) => [item.translation, item.note]),
+    guide.relationships.overview, ...guide.relationships.languages.map((item) => item.explanation),
+    guide.culturalNotes, ...guide.resources.map((item) => item.description),
+    ...guide.phrases.flatMap((item) => [item.translation, item.literalMeaning, item.usageNote])
+  ];
+  return values.reduce((total, value) => total + words(value), 0);
+}
+
+export function collectCitedText(value: unknown, results: CitedText[] = []): CitedText[] {
+  if (!value) return results;
+  if (typeof value === "object" && !Array.isArray(value) && "text" in value && "sourceIds" in value) {
+    results.push(value as CitedText);
+  } else if (Array.isArray(value)) {
+    value.forEach((item) => collectCitedText(item, results));
+  } else if (typeof value === "object") {
+    Object.values(value as Record<string, unknown>).forEach((item) => collectCitedText(item, results));
+  }
+  return results;
+}
+
 export function validateLanguageGuide(guide: LanguageGuide): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
 
   const requireText = (path: string, value: unknown, minLength = 1) => {
-    if (!isNonEmpty(value) || value.trim().length < minLength) {
+    const resolved = asText(value);
+    if (!isNonEmpty(resolved) || resolved.trim().length < minLength) {
       issues.push({ path, message: `Required text is missing or shorter than ${minLength} characters.` });
     }
   };
@@ -87,6 +135,45 @@ export function validateLanguageGuide(guide: LanguageGuide): ValidationIssue[] {
   requireRows("relationships.languages", guide.relationships?.languages, 3);
   requireRows("phrases", guide.phrases, 8);
   requireRows("sources", guide.sources, 4);
+
+  requireRows("pronunciation.sampleWords", guide.pronunciation?.sampleWords, 5);
+  requireRows("grammar.topics", guide.grammar?.topics, 5);
+  requireRows("wordsAndTexts.notableWords", guide.wordsAndTexts?.notableWords, 6);
+  requireRows("wordsAndTexts.idioms", guide.wordsAndTexts?.idioms, 4);
+  requireRows("phrases", guide.phrases, 10);
+  requireRows("resources", guide.resources, 5);
+  requireRows("sources", guide.sources, 10);
+
+  const wordCount = guideWordCount(guide);
+  if (wordCount < 3000 || wordCount > 4500) {
+    issues.push({ path: "content", message: `Visible editorial word count must be 3,000-4,500; found ${wordCount}.` });
+  }
+
+  const sourceIds = new Set<string>();
+  for (const [index, source] of guide.sources.entries()) {
+    if (!source.id) issues.push({ path: `sources.${index}.id`, message: "Source ID is required." });
+    if (sourceIds.has(source.id)) issues.push({ path: `sources.${index}.id`, message: `Duplicate source ID ${source.id}.` });
+    sourceIds.add(source.id);
+    if (!source.url || !/^https?:\/\//.test(source.url)) {
+      issues.push({ path: `sources.${index}.url`, message: "Every source needs an absolute HTTP(S) URL." });
+    }
+  }
+
+  const usedSourceIds = new Set<string>();
+  for (const citedValue of collectCitedText({ ...guide, sources: undefined })) {
+    for (const sourceId of sourceIdsOf(citedValue)) {
+      usedSourceIds.add(sourceId);
+      if (!sourceIds.has(sourceId)) {
+        issues.push({ path: "citations", message: `Citation references missing source ID ${sourceId}.` });
+      }
+    }
+  }
+  if (usedSourceIds.size < 8) {
+    issues.push({ path: "citations", message: `Use at least 8 distinct inline-cited sources; found ${usedSourceIds.size}.` });
+  }
+  if (!guide.sources.some((source) => source.url?.includes("wikipedia.org/wiki/"))) {
+    issues.push({ path: "sources", message: "Include at least one relevant Wikipedia article." });
+  }
 
   return issues;
 }

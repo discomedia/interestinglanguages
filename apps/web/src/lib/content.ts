@@ -12,6 +12,10 @@ const apiBase =
   process.env.PAYLOAD_PUBLIC_API_URL ??
   process.env.PAYLOAD_ADMIN_URL?.replace(/\/$/, "") + "/api/public";
 
+const useFixtures =
+  import.meta.env.CONTENT_USE_FIXTURES === "true" ||
+  process.env.CONTENT_USE_FIXTURES === "true";
+
 async function fetchJson<T>(path: string): Promise<T | undefined> {
   if (!apiBase || apiBase.includes("undefined")) {
     return undefined;
@@ -33,6 +37,9 @@ async function fetchJson<T>(path: string): Promise<T | undefined> {
 }
 
 export async function fetchLanguageGuideSummaries(): Promise<LanguageGuideSummary[]> {
+  if (useFixtures) {
+    return sampleGuides.filter((guide) => guide.status === "published").map(toGuideSummary);
+  }
   const apiResponse = await fetchJson<PublicGuideListResponse>("/language-guides");
 
   if (apiResponse?.docs?.length) {
@@ -43,6 +50,9 @@ export async function fetchLanguageGuideSummaries(): Promise<LanguageGuideSummar
 }
 
 export async function fetchLanguageGuide(slug: string): Promise<LanguageGuide | undefined> {
+  if (useFixtures) {
+    return sampleGuides.find((guide) => guide.slug === slug && guide.status === "published");
+  }
   const apiResponse = await fetchJson<PublicGuideResponse>(`/language-guides/${slug}`);
 
   if (apiResponse?.doc) {

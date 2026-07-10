@@ -19,6 +19,7 @@ The public site treats Payload as the content API boundary. Do not query Payload
 - Admin dev: `npm run dev:admin`
 - Full build: `npm run build`
 - Public-only build: `npm run build:web`
+- Public build forced to canonical local fixtures: `npm run build:web:fixtures` (use for editorial/browser QA before production seeding)
 - Admin-only build: `npm run build:admin`
 - Typecheck: `npm run typecheck`
 - Lint/check: `npm run lint`
@@ -27,12 +28,16 @@ The public site treats Payload as the content API boundary. Do not query Payload
 - Seed all guide content: `npm run seed:guides`
 - Seed Swahili content: `npm run seed:swahili` (compatibility alias for `seed:guides`)
 - Validate content fixtures: `npm run content:validate`
+- Audit content source/resource links: `npm run content:audit-links` (definitive 404/410 responses fail; access restrictions, timeouts, rate limits, and server errors are reported separately)
+- Report per-guide word/source/example counts: `npm run content:stats`
+- Back up normalized production guides before a bulk seed: `npm run content:backup:production` (writes an ignored JSON snapshot under `tmp/`)
 
 ## Env Vars
 
 - `NEON_CONNECTION_STRING`: Neon Postgres connection string for Payload.
 - `PUBLIC_SITE_URL`: public canonical URL. Use `http://localhost:3081` locally and `https://interestinglanguages.com` in production.
 - `PAYLOAD_PUBLIC_API_URL`: base URL for public content API, e.g. `http://localhost:3082/api/public`.
+- `CONTENT_USE_FIXTURES`: optional build-time QA switch; set to `true` to bypass Payload and build from canonical local fixtures.
 - `PAYLOAD_ADMIN_URL`: admin origin, e.g. `http://localhost:3082` locally and `https://admin.interestinglanguages.com` in production.
 - `PAYLOAD_SECRET`: required by Payload.
 - `PAYLOAD_UPLOADS_DIR`: upload directory for Payload media. On Railway this should point at the mounted volume path.
@@ -45,7 +50,7 @@ Local operational commands should load the repo-root `.env` file when env vars a
 
 ## Content Model
 
-Payload's `language-guides` collection owns the public language guide content. The canonical fixture/template lives in `packages/content/src/guides/` and is seeded into Payload with `npm run seed:guides`. A guide should include:
+Payload's `language-guides` collection owns the public language guide content. Each language has a complete standalone canonical fixture in `packages/content/src/guides/`, seeded into Payload with `npm run seed:guides`. Do not reintroduce a shared prose generator: helpers may format data but editorial text must remain language-specific. A guide should include:
 
 - Slug, name, autonym, status, publication date, summary, family/classification, macro-region, primary script, difficulty label, learner hook, and speaker/community overview.
 - Compact facts, origins/history, contact history, standardization, variants/registers, pronunciation, writing system, grammar profile, where spoken, advanced learning path, difficulty assessment, words/texts, relationships, phrases, learning resources, and sources.
@@ -57,6 +62,8 @@ Payload exposes normalized published-only content through:
 - `GET /api/public/language-guides/:slug`
 
 The response shape must match `packages/content`.
+
+Long-form narrative fields accept either legacy strings or cited text objects shaped as `{ text, sourceIds }`. New guide content should use cited text, and every `sourceId` must resolve to the stable `id` of an entry in that guide's source list. Public pages render these as numbered inline links to the bibliography.
 
 ## Public Components
 

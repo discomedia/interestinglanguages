@@ -1,6 +1,7 @@
 ---
 import SiteFooter from "../components/SiteFooter.astro";
 import SiteHeader from "../components/SiteHeader.astro";
+import CitedText from "../components/CitedText.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { fetchLanguageGuide, fetchLanguageGuideSummaries, siteUrl } from "../lib/content";
 
@@ -40,6 +41,7 @@ const nav = [
   ["grammar", "Grammar"],
   ["writing", "Writing"],
   ["words", "Words"],
+  ["in-use", "Language in use"],
   ["relationships", "Relationships"],
   ["learning", "Advanced learning"],
   ["difficulty", "Difficulty"],
@@ -55,7 +57,7 @@ const nav = [
         <p><a href="/">Languages</a> / {guide.macroRegion}</p>
         <h1>{guide.name}</h1>
         {guide.autonym && <p class="autonym">{guide.autonym}</p>}
-        <p class="dek">{guide.learnerOverview}</p>
+        <p class="dek"><CitedText value={guide.learnerOverview} sources={guide.sources} /></p>
       </header>
 
       <div class="entry-layout">
@@ -75,33 +77,33 @@ const nav = [
 
           <section id="origins" class="entry-section">
             <h2>Origins</h2>
-            <p>{guide.origins.overview}</p>
+            <p><CitedText value={guide.origins.overview} sources={guide.sources} /></p>
             <ol class="timeline">
               {guide.origins.timeline.map((item) => (
                 <li>
                   <strong>{item.period}</strong>
-                  <span>{item.event}</span>
+                  <span><CitedText value={item.event} sources={guide.sources} /></span>
                 </li>
               ))}
             </ol>
-            <p>{guide.origins.contactHistory}</p>
-            <p>{guide.origins.standardization}</p>
+            <p><CitedText value={guide.origins.contactHistory} sources={guide.sources} /></p>
+            <p><CitedText value={guide.origins.standardization} sources={guide.sources} /></p>
           </section>
 
           <section id="speakers" class="entry-section">
             <h2>Speakers And Variants</h2>
-            <p>{guide.whereSpoken.overview}</p>
+            <p><CitedText value={guide.whereSpoken.overview} sources={guide.sources} /></p>
             <ul class="compact-list">
               {guide.whereSpoken.regions.map((region) => (
-                <li><strong>{region.place}</strong><span>{region.note}</span></li>
+                <li><strong>{region.place}</strong><span><CitedText value={region.note} sources={guide.sources} /></span></li>
               ))}
             </ul>
-            <p>{guide.variants.overview}</p>
+            <p><CitedText value={guide.variants.overview} sources={guide.sources} /></p>
             <div class="note-list">
               {guide.variants.items.map((variant) => (
                 <article>
                   <h3>{variant.name}</h3>
-                  <p>{variant.note}</p>
+                  <p><CitedText value={variant.note} sources={guide.sources} /></p>
                 </article>
               ))}
             </div>
@@ -109,10 +111,10 @@ const nav = [
 
           <section id="pronunciation" class="entry-section">
             <h2>Pronunciation</h2>
-            <p>{guide.pronunciation.overview}</p>
+            <p><CitedText value={guide.pronunciation.overview} sources={guide.sources} /></p>
             <dl class="definition-list">
-              <div><dt>Sound system</dt><dd>{guide.pronunciation.soundSystem}</dd></div>
-              <div><dt>Prosody</dt><dd>{guide.pronunciation.prosody}</dd></div>
+              <div><dt>Sound system</dt><dd><CitedText value={guide.pronunciation.soundSystem} sources={guide.sources} /></dd></div>
+              <div><dt>Prosody</dt><dd><CitedText value={guide.pronunciation.prosody} sources={guide.sources} /></dd></div>
               <div><dt>Learner traps</dt><dd>{guide.pronunciation.learnerTraps.join("; ")}.</dd></div>
             </dl>
             <div class="example-grid">
@@ -129,14 +131,14 @@ const nav = [
 
           <section id="grammar" class="entry-section">
             <h2>Grammar</h2>
-            <p>{guide.grammar.typologicalProfile}</p>
-            <p>{guide.grammar.morphology}</p>
-            <p>{guide.grammar.syntax}</p>
+            <p><CitedText value={guide.grammar.typologicalProfile} sources={guide.sources} /></p>
+            <p><CitedText value={guide.grammar.morphology} sources={guide.sources} /></p>
+            <p><CitedText value={guide.grammar.syntax} sources={guide.sources} /></p>
             <div class="note-list">
               {guide.grammar.topics.map((topic) => (
                 <article>
                   <h3>{topic.title}</h3>
-                  <p>{topic.body}</p>
+                  <p><CitedText value={topic.body} sources={guide.sources} /></p>
                   {topic.example && (
                     <p class="example">
                       <strong>{topic.example}</strong>
@@ -150,42 +152,70 @@ const nav = [
 
           <section id="writing" class="entry-section">
             <h2>Writing System</h2>
-            <p>{guide.writing.overview}</p>
+            <p><CitedText value={guide.writing.overview} sources={guide.sources} /></p>
             <dl class="definition-list">
               <div><dt>Primary script</dt><dd>{guide.writing.primaryScript}</dd></div>
-              {guide.writing.romanization && <div><dt>Romanization</dt><dd>{guide.writing.romanization}</dd></div>}
-              <div><dt>Spelling norms</dt><dd>{guide.writing.spellingNorms}</dd></div>
+              {guide.writing.romanization && <div><dt>Romanization</dt><dd><CitedText value={guide.writing.romanization} sources={guide.sources} /></dd></div>}
+              <div><dt>Spelling norms</dt><dd><CitedText value={guide.writing.spellingNorms} sources={guide.sources} /></dd></div>
             </dl>
             <ul class="compact-list">
-              {guide.writing.styleNotes.map((note) => <li>{note}</li>)}
+              {guide.writing.styleNotes.map((note) => <li><CitedText value={note} sources={guide.sources} /></li>)}
             </ul>
           </section>
 
           <section id="words" class="entry-section">
             <h2>Words And Texts</h2>
-            <p>{guide.wordsAndTexts.overview}</p>
-            <p>{guide.wordsAndTexts.loanwordLayers}</p>
+            <p><CitedText value={guide.wordsAndTexts.overview} sources={guide.sources} /></p>
+            <p><CitedText value={guide.wordsAndTexts.loanwordLayers} sources={guide.sources} /></p>
             <div class="example-grid">
               {guide.wordsAndTexts.notableWords.map((word) => (
                 <article>
                   <h3>{word.term}</h3>
                   {word.transliteration && <p>{word.transliteration}</p>}
                   <p>{word.meaning}</p>
-                  <p class="muted">{word.note}</p>
+                  <p class="muted"><CitedText value={word.note} sources={guide.sources} /></p>
                 </article>
               ))}
             </div>
             <p><strong>Useful genres:</strong> {guide.wordsAndTexts.textGenres.join(", ")}.</p>
           </section>
 
+          <section id="in-use" class="entry-section">
+            <h2>Language In Use</h2>
+            {guide.culturalNotes && <p><CitedText value={guide.culturalNotes} sources={guide.sources} /></p>}
+            <h3>Idioms And Expressions</h3>
+            <div class="example-grid">
+              {guide.wordsAndTexts.idioms.map((idiom) => (
+                <article>
+                  <h3>{idiom.original}</h3>
+                  {idiom.transliteration && <p>{idiom.transliteration}</p>}
+                  <p>{idiom.translation}</p>
+                  {idiom.note && <p class="muted">{idiom.note}</p>}
+                </article>
+              ))}
+            </div>
+            <h3>Practical Phrases</h3>
+            <div class="phrase-list">
+              {guide.phrases.map((phrase) => (
+                <article>
+                  <strong>{phrase.original}</strong>
+                  {phrase.transliteration && <span>{phrase.transliteration}</span>}
+                  <span>{phrase.translation}</span>
+                  {phrase.literalMeaning && <span>Literally: {phrase.literalMeaning}</span>}
+                  {phrase.usageNote && <span class="muted">{phrase.usageNote}</span>}
+                </article>
+              ))}
+            </div>
+          </section>
+
           <section id="relationships" class="entry-section">
             <h2>Related Languages</h2>
-            <p>{guide.relationships.overview}</p>
+            <p><CitedText value={guide.relationships.overview} sources={guide.sources} /></p>
             <div class="note-list">
               {guide.relationships.languages.map((language) => (
                 <article>
                   <h3>{language.name}</h3>
-                  <p><strong>{language.relationship}</strong> {language.explanation}</p>
+                  <p><strong>{language.relationship}</strong> <CitedText value={language.explanation} sources={guide.sources} /></p>
                 </article>
               ))}
             </div>
@@ -193,15 +223,25 @@ const nav = [
 
           <section id="learning" class="entry-section">
             <h2>Advanced Learning Path</h2>
-            <p>{guide.advancedLearning.strategy}</p>
-            <p>{guide.advancedLearning.mediaPractice}</p>
-            <p>{guide.advancedLearning.dictionariesAndCorpora}</p>
+            <p><CitedText value={guide.advancedLearning.strategy} sources={guide.sources} /></p>
+            <p><CitedText value={guide.advancedLearning.mediaPractice} sources={guide.sources} /></p>
+            <p><CitedText value={guide.advancedLearning.dictionariesAndCorpora} sources={guide.sources} /></p>
             <div class="resource-list">
               {guide.advancedLearning.resources.map((resource) => (
                 <article>
                   <span>{resource.type} / {resource.level}</span>
                   <h3>{resource.url ? <a href={resource.url}>{resource.title}</a> : resource.title}</h3>
-                  <p>{resource.description}</p>
+                  <p><CitedText value={resource.description} sources={guide.sources} /></p>
+                </article>
+              ))}
+            </div>
+            <h3>More Resources</h3>
+            <div class="resource-list">
+              {guide.resources.map((resource) => (
+                <article>
+                  <span>{resource.type} / {resource.level}</span>
+                  <h3>{resource.url ? <a href={resource.url}>{resource.title}</a> : resource.title}</h3>
+                  <p><CitedText value={resource.description} sources={guide.sources} /></p>
                 </article>
               ))}
             </div>
@@ -209,25 +249,27 @@ const nav = [
 
           <section id="difficulty" class="entry-section">
             <h2>Difficulty</h2>
-            <p>{guide.difficulty.overview}</p>
+            <p><CitedText value={guide.difficulty.overview} sources={guide.sources} /></p>
             <dl class="definition-list">
               <div><dt>Easier</dt><dd>{guide.difficulty.easierAspects.join("; ")}.</dd></div>
               <div><dt>Harder</dt><dd>{guide.difficulty.hardAspects.join("; ")}.</dd></div>
               <div><dt>Plateau risks</dt><dd>{guide.difficulty.plateauRisks.join("; ")}.</dd></div>
-              <div><dt>Workload</dt><dd>{guide.difficulty.workload}</dd></div>
+              <div><dt>Workload</dt><dd><CitedText value={guide.difficulty.workload} sources={guide.sources} /></dd></div>
             </dl>
           </section>
 
           <section id="sources" class="entry-section sources">
             <h2>Sources</h2>
-            <ul>
+            <ol>
               {guide.sources.map((source) => (
-                <li>
+                <li id={`source-${source.id}`}>
                   {source.url ? <a href={source.url}>{source.title}</a> : source.title}
                   {source.publisher && <> — {source.publisher}</>}
+                  {source.updatedAt && <> (updated {source.updatedAt})</>}
+                  {!source.updatedAt && source.publishedAt && <> ({source.publishedAt})</>}
                 </li>
               ))}
-            </ul>
+            </ol>
           </section>
         </div>
       </div>

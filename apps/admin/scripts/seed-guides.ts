@@ -1,8 +1,12 @@
-import { sampleGuides, type LanguageGuide } from "@interesting-languages/content";
+import { assertValidLanguageGuide, sampleGuides, type LanguageGuide } from "@interesting-languages/content";
 import { getPayload } from "payload";
 import config from "../src/payload.config";
 
 const payload = await getPayload({ config });
+
+for (const guide of sampleGuides) {
+  assertValidLanguageGuide(guide);
+}
 
 function toPayloadData(guide: LanguageGuide) {
   return {

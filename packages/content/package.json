@@ -15,7 +15,9 @@
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "tsc -p tsconfig.json --noEmit",
-    "content:validate": "npm run build && node dist/validate-fixtures.js"
+    "content:validate": "npm run build && node dist/validate-fixtures.js",
+    "content:audit-links": "npm run build && node dist/audit-links.js",
+    "content:stats": "npm run build && node dist/guide-stats.js"
   },
   "devDependencies": {
     "tsx": "^4.20.6",

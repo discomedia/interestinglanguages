@@ -26,6 +26,20 @@ desktop.on("pageerror", (error) => {
   errors.push(`pageerror: ${error.message}`);
 });
 
+const representativeGuides = ["swahili", "arabic", "mandarin-chinese", "navajo", "basque"];
+const guideChecks = [];
+for (const slug of representativeGuides) {
+  await desktop.goto(`${baseUrl}/${slug}`, { waitUntil: "networkidle" });
+  guideChecks.push({
+    slug,
+    h1: await desktop.locator("h1").first().textContent(),
+    sectionCount: await desktop.locator(".entry-section").count(),
+    sourceCount: await desktop.locator("#sources li").count(),
+    citationCount: await desktop.locator(".citations a").count(),
+    phraseCount: await desktop.locator("#in-use .phrase-list article").count()
+  });
+}
+
 await desktop.goto(`${baseUrl}/swahili`, { waitUntil: "networkidle" });
 const title = await desktop.title();
 const h1 = await desktop.locator("h1").first().textContent();
@@ -56,6 +70,7 @@ const result = {
   sectionCount,
   sourceCount,
   mobileCardCount,
+  guideChecks,
   errors,
   desktopScreenshotPath,
   mobileScreenshotPath
@@ -73,6 +88,12 @@ if (sectionCount < 10) {
 
 if (sourceCount < 4) {
   throw new Error(`Expected at least 4 sources, found ${sourceCount}`);
+}
+
+for (const guide of guideChecks) {
+  if (guide.sectionCount < 11 || guide.sourceCount < 10 || guide.citationCount < 8 || guide.phraseCount < 10) {
+    throw new Error(`Representative guide verification failed: ${JSON.stringify(guide)}`);
+  }
 }
 
 if (mobileCardCount < 1) {
