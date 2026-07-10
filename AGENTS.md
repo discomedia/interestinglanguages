@@ -79,6 +79,8 @@ The public design system is a modern reference site: true white background, deep
 
 ## Deployment Notes
 
+Production deploys are GitHub-driven. Pushing `main` to `https://github.com/discomedia/interestinglanguages.git` automatically deploys the Payload admin/API to Railway and rebuilds the public site on Netlify. Do not use `railway up`, `netlify deploy`, or local platform linking for a normal production release. After pushing, monitor both provider deployments to terminal success and verify the public API/site. A second push after production content seeding is sufficient to trigger the final static-site rebuild against the updated API.
+
 Netlify builds from the repo root with `npm run build:web` and publishes `apps/web/dist`.
 
 Railway builds the admin app with `npm run build:admin` and starts it with `npm run start --workspace @interesting-languages/admin`. Configure Railway env vars for Neon, Payload secret, site URLs, upload volume path, and the Netlify build hook.
