@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.4.0",
-    "@astrojs/sitemap": "^3.6.0",
     "@interesting-languages/content": "file:../../packages/content",
     "astro": "^5.16.1",
     "lucide-react": "^0.468.0",
