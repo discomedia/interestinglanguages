@@ -27,6 +27,21 @@ const fullTitle = title.includes("Interesting Languages") ? title : `${title} | 
     <meta property="og:url" content={canonical} />
     {image && <meta property="og:image" content={image} />}
     <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
+    {
+      import.meta.env.PROD && (
+        <>
+          <!-- Google tag (gtag.js) -->
+          <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-4W5Z363KEB"></script>
+          <script is:inline>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-4W5Z363KEB');
+          </script>
+        </>
+      )
+    }
   </head>
   <body>
     <slot />
