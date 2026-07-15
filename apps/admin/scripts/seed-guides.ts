@@ -2,11 +2,26 @@ import { assertValidLanguageGuide, sampleGuides, type LanguageGuide } from "@int
 import { getPayload } from "payload";
 import config from "../src/payload.config";
 
-const payload = await getPayload({ config });
-
 for (const guide of sampleGuides) {
   assertValidLanguageGuide(guide);
 }
+
+const requestedSlugs = (process.env.GUIDE_SLUGS ?? "")
+  .split(",")
+  .map((slug) => slug.trim())
+  .filter(Boolean);
+const knownSlugs = new Set(sampleGuides.map((guide) => guide.slug));
+const unknownSlugs = requestedSlugs.filter((slug) => !knownSlugs.has(slug));
+
+if (unknownSlugs.length > 0) {
+  throw new Error(`Unknown guide slug(s): ${unknownSlugs.join(", ")}`);
+}
+
+const guidesToSeed = requestedSlugs.length > 0
+  ? sampleGuides.filter((guide) => requestedSlugs.includes(guide.slug))
+  : sampleGuides;
+
+const payload = await getPayload({ config });
 
 function toPayloadData(guide: LanguageGuide) {
   return {
@@ -50,7 +65,7 @@ function toPayloadData(guide: LanguageGuide) {
 let created = 0;
 let updated = 0;
 
-for (const guide of sampleGuides) {
+for (const guide of guidesToSeed) {
   const existing = await payload.find({
     collection: "language-guides",
     limit: 1,
@@ -82,5 +97,5 @@ for (const guide of sampleGuides) {
   }
 }
 
-console.log(`Seeded ${sampleGuides.length} language guides (${created} created, ${updated} updated).`);
+console.log(`Seeded ${guidesToSeed.length} language guide(s) (${created} created, ${updated} updated).`);
 process.exit(0);

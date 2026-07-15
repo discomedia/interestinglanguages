@@ -26,6 +26,7 @@ The public site treats Payload as the content API boundary. Do not query Payload
 - Run admin migrations: `npm run migrate:admin`
 - Check admin migration status: `npm run migrate:status:admin`
 - Seed all guide content: `npm run seed:guides`
+- Seed selected guide content: `GUIDE_SLUGS=persian npm run seed:guides` (accepts a comma-separated list of canonical slugs and still validates the complete fixture set before writing)
 - Seed Swahili content: `npm run seed:swahili` (compatibility alias for `seed:guides`)
 - Validate content fixtures: `npm run content:validate`
 - Audit content source/resource links: `npm run content:audit-links` (definitive 404/410 responses fail; access restrictions, timeouts, rate limits, and server errors are reported separately)
@@ -53,6 +54,8 @@ Local operational commands should load the repo-root `.env` file when env vars a
 Payload's `language-guides` collection owns the public language guide content. Each language has a complete standalone canonical fixture in `packages/content/src/guides/`, seeded into Payload with `npm run seed:guides`. Do not reintroduce a shared prose generator: helpers may format data but editorial text must remain language-specific. A guide should include:
 
 The complete creation workflow, research standards, reusable subagent prompt, QA/release checklist, and next-70 roadmap live in `docs/creating-language-guides.md`. Future large guide batches should use one dedicated research/writing subagent per language, with each subagent limited to its own fixture file.
+
+Guide prose should use active voice and readable, conversational phrasing. Keep every paragraph to no more than three sentences, give it one main idea, and explain the simple picture before adding terminology, exceptions, or regional nuance.
 
 - Slug, name, autonym, status, publication date, summary, family/classification, macro-region, primary script, difficulty label, learner hook, and speaker/community overview.
 - Compact facts, origins/history, contact history, standardization, variants/registers, pronunciation, writing system, grammar profile, where spoken, advanced learning path, difficulty assessment, words/texts, relationships, phrases, learning resources, and sources.

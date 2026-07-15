@@ -26,7 +26,7 @@ desktop.on("pageerror", (error) => {
   errors.push(`pageerror: ${error.message}`);
 });
 
-const representativeGuides = ["swahili", "arabic", "mandarin-chinese", "navajo", "basque"];
+const representativeGuides = ["swahili", "arabic", "mandarin-chinese", "persian", "navajo", "basque"];
 const guideChecks = [];
 for (const slug of representativeGuides) {
   await desktop.goto(`${baseUrl}/${slug}`, { waitUntil: "networkidle" });

@@ -249,11 +249,43 @@ Do not invent example sentences by recombining dictionary entries unless the res
 
 ## Writing Standards
 
-Write to the reader, but make every section specific to the language.
+Write like a knowledgeable person explaining the language to an interested friend. The guide can be technically serious without sounding academic, compressed, or formal.
+
+### Readability and voice
+
+Prefer active voice and direct subjects. Write “Speakers use this form with friends” instead of “This form is used in informal contexts.” Name the people, institutions, or communities doing the action whenever that information is known.
+
+Keep every paragraph to a maximum of three sentences. Most paragraphs should make one main point, explain it, and offer an example or useful qualification.
+
+Use familiar words before specialist terms. If a technical term matters, explain the idea in ordinary language first or define the term immediately: “Persian often drops the subject because the verb already shows who is acting. Linguists call this a pro-drop language.”
+
+Use contractions and address the reader as “you” when that sounds natural. Short rhetorical questions and conversational transitions are welcome, but do not manufacture enthusiasm or talk down to the reader.
+
+Break apart paragraphs that try to cover classification, regional variation, scripts, examples, and study advice all at once. A reader should not have to unpack five facts from one long sentence or remember several transliterations before reaching the point.
+
+Keep sentences focused. Avoid stacked subordinate clauses, strings of semicolons, excessive parenthetical detail, and noun-heavy phrases such as “the acquisition of register differentiation.” Write “learn to hear the difference between formal and casual speech” instead.
+
+Use lists for facts that readers may want to scan, but do not turn the article into a database export. Narrative sections should connect the facts, tell the reader why they matter, and give the article a human rhythm.
+
+Preserve nuance by spreading it across clear sentences, not by compressing it. Simpler prose does not mean deleting difficult ideas; it means introducing them in a sensible order.
+
+For example, avoid this detached construction:
+
+> Poetry can appear in a speech, song, condolence, advertisement, or caption, but speakers differ enormously in literary knowledge; do not assume everyone recites Hafez.
+
+Prefer a human subject, active verbs, and a direct note to the reader:
+
+> Persian speakers are known for using or referencing poetry in everyday speech, as well as in music, ads, and television. Speakers differ enormously in literary knowledge, though—you don't need to assume everyone has memorized Hafez.
+
+When explaining a language with several standards or names, start with the simple map. Explain what the umbrella name includes, how the main varieties differ, and which scripts they use in separate short paragraphs. Only then move into register-specific forms, transliteration, or study routines.
 
 Good prose does the following:
 
 - Opens with a form, sound, contrast, social choice, or text that the article later explains.
+- Uses active voice, concrete subjects, and colloquial phrasing.
+- Keeps paragraphs to one, two, or three sentences—never more.
+- Introduces one main idea at a time instead of piling up facts.
+- Leads with the plain-language explanation and adds technical detail afterward.
 - Defines linguistic terminology on first use: for example, “evidential, a form that marks how the speaker knows something.”
 - Shows a pattern before naming it when that makes the explanation easier.
 - Explains why an example matters, not only what it translates to.
@@ -270,6 +302,9 @@ Avoid:
 - Treating the standard as the only correct speech.
 - Calling a contact language a genetic relative.
 - Repeating the same study plan, grammar explanation, or resource description used in another guide.
+- Data-dump paragraphs that combine background, examples, transliteration, caveats, and instructions.
+- Passive constructions that hide who speaks, writes, regulates, teaches, borrows, or changes the language.
+- Sentences with several semicolons, nested qualifications, or more than one technical point.
 - Long quotations. Paraphrase original research and cite it.
 
 ### Citation practice
@@ -363,6 +398,15 @@ Editorial requirements
 
 - Write 3,000–4,500 visible words. Aim for roughly 3,700–4,200 so later edits
   do not cross a validator boundary.
+- Write in an active, conversational voice for curious readers at any level.
+  Use concrete subjects, familiar verbs, contractions, and “you” where natural.
+- Keep every paragraph to no more than 3 sentences. Give each paragraph one
+  main idea; split any paragraph that combines background, examples,
+  transliteration, caveats, and study instructions.
+- Prefer short, direct sentences. Avoid passive voice, stacked subordinate
+  clauses, strings of semicolons, academic noun phrases, and data-dump prose.
+- Explain the simple picture first, then add technical terms, exceptions, and
+  regional nuance. Complexity must be unpacked, not deleted or compressed.
 - Make the opening unmistakably about [LANGUAGE]. Do not use interchangeable
   praise such as “rewards learners,” “opens doors,” or “rich tapestry.”
 - Cover the speaker/community context, origins, contact history,
@@ -400,7 +444,10 @@ Implementation requirements
 
 Before finishing, reread the full guide as an editor. Remove generic paragraphs,
 repeated advice, unsupported claims, fake precision, unnatural translations,
-and examples that could belong to another language.
+and examples that could belong to another language. Then perform a separate
+plain-language pass: convert passive voice, split every paragraph longer than 3
+sentences, untangle long sentences, and make sure each paragraph has one clear
+purpose.
 
 Return a concise audit containing:
 - File changed and measured visible word count.
@@ -421,6 +468,13 @@ The root editor remains responsible for accepting the work. A passing validator 
 Check:
 
 - Does the first paragraph contain a language-specific idea or example?
+- Does every paragraph contain no more than three sentences?
+- Does the prose sound like a person explaining something, rather than fields
+  assembled from a database?
+- Does each paragraph have one clear job, with the simple explanation before
+  technical detail and exceptions?
+- Can passive constructions be rewritten with the relevant speakers,
+  communities, writers, teachers, or institutions as the subject?
 - Are community and naming choices respectful and current?
 - Are speaker estimates dated and scoped?
 - Is genetic relationship kept separate from contact and typological resemblance?
@@ -478,7 +532,7 @@ Before a production bulk seed:
 2. Commit the validated fixtures and code.
 3. Push `main`; GitHub automatically deploys the Payload admin/API to Railway and the public site to Netlify. Do not use `railway up` or `netlify deploy` for a normal release.
 4. Wait for both deployments to reach terminal success and verify the public API is healthy.
-5. Run `npm run seed:guides`. The slug-based upsert should update existing documents and create new language documents without replacing existing IDs.
+5. Run `npm run seed:guides` for an intentionally coordinated full-catalog release, or `GUIDE_SLUGS=persian npm run seed:guides` for a single guide. `GUIDE_SLUGS` accepts a comma-separated list of canonical slugs, and the slug-based upsert should update existing documents or create new language documents without replacing existing IDs.
 6. Read back the production collection. Verify the expected total count, new slugs, word/source counts, citation resolution, publication state, and representative Unicode.
 7. Push a second small commit if necessary to trigger the final Netlify static rebuild against the newly seeded API, as described in `AGENTS.md`.
 8. Verify every new live route plus representative old routes.

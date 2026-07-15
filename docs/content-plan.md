@@ -4,7 +4,9 @@ For the complete research, writing, subagent, QA, publication, and next-language
 
 ## Editorial Template
 
-Every language guide is written for advanced language learners and should include:
+Every language guide is written for curious readers and language learners at any level. Use active voice, colloquial phrasing, and short paragraphs of no more than three sentences. Explain the simple picture first, then introduce technical detail and exceptions.
+
+Each guide should include:
 
 - Identity metadata: family/classification, region, script, speaker community, difficulty label, and learner hook.
 - Origins, history, contact layers, and standardization.
