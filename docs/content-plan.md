@@ -1,5 +1,7 @@
 # Content Creation And Deployment Plan
 
+For the complete research, writing, subagent, QA, publication, and next-language workflow, read [`creating-language-guides.md`](./creating-language-guides.md). This file remains the concise content and design overview.
+
 ## Editorial Template
 
 Every language guide is written for advanced language learners and should include:
@@ -51,3 +53,4 @@ Avoid app-like dashboards, large decorative cards, generic hero panels, gradient
 - Dedicated family, script, and region index pages.
 - S3/R2-backed media storage.
 - Per-guide expert review status and source audit notes.
+- Work through the 70-language editorial roadmap in `creating-language-guides.md` using one research/writing subagent per language.

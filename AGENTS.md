@@ -52,6 +52,8 @@ Local operational commands should load the repo-root `.env` file when env vars a
 
 Payload's `language-guides` collection owns the public language guide content. Each language has a complete standalone canonical fixture in `packages/content/src/guides/`, seeded into Payload with `npm run seed:guides`. Do not reintroduce a shared prose generator: helpers may format data but editorial text must remain language-specific. A guide should include:
 
+The complete creation workflow, research standards, reusable subagent prompt, QA/release checklist, and next-70 roadmap live in `docs/creating-language-guides.md`. Future large guide batches should use one dedicated research/writing subagent per language, with each subagent limited to its own fixture file.
+
 - Slug, name, autonym, status, publication date, summary, family/classification, macro-region, primary script, difficulty label, learner hook, and speaker/community overview.
 - Compact facts, origins/history, contact history, standardization, variants/registers, pronunciation, writing system, grammar profile, where spoken, advanced learning path, difficulty assessment, words/texts, relationships, phrases, learning resources, and sources.
 - SEO title, SEO description, and optional social image.
