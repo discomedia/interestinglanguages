@@ -55,6 +55,8 @@ Payload's `language-guides` collection owns the public language guide content. E
 
 The complete creation workflow, research standards, reusable subagent prompt, QA/release checklist, and next-70 roadmap live in `docs/creating-language-guides.md`. Future large guide batches should use one dedicated research/writing subagent per language, with each subagent limited to its own fixture file.
 
+The status of the original catalog's plain-language rewrites lives in `docs/guide-readability-status.md`. Mark a guide complete only after root QA, production API readback, and live-page verification.
+
 Guide prose should use active voice and readable, conversational phrasing. Keep every paragraph to no more than three sentences, give it one main idea, and explain the simple picture before adding terminology, exceptions, or regional nuance.
 
 - Slug, name, autonym, status, publication date, summary, family/classification, macro-region, primary script, difficulty label, learner hook, and speaker/community overview.

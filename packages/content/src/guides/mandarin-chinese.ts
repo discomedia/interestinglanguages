@@ -8,21 +8,21 @@ export const mandarinChineseGuide: LanguageGuide = {
   status: "published",
   publishedAt: "2026-07-09",
   summary:
-    "A reader-first guide to Mandarin Chinese: tones in real speech, characters in two standards, regional voices, expressive grammar, practical phrases, and a route from first conversation to serious literacy.",
+    "A practical guide to Standard Mandarin: how tones work in real speech, why Mainland and Taiwan usage differ, how characters fit together, and what learners need beyond beginner conversation.",
   family: "Sino-Tibetan, Sinitic",
   macroRegion: "East Asia",
   primaryScript: "Chinese characters (simplified and traditional), with Hanyu Pinyin or Zhuyin for pronunciation",
   difficultyLabel: "Very demanding",
   learnerHook:
-    "Mandarin offers unusually quick access to basic sentence-making, then asks for a long, fascinating apprenticeship in listening, characters, word choice, and the gap between conversation and polished writing.",
+    "You can make useful Mandarin sentences surprisingly early. The longer journey lies in hearing tones at speed, reading characters comfortably, and choosing words that suit the place and situation.",
   hero: {
     imageAlt: "Chinese characters and tone-marked pinyin introducing Mandarin Chinese.",
     callToActionLabel: "Explore Mandarin Chinese"
   },
   classification:
-    "A standardized form of the Mandarin branch of Sinitic, itself conventionally classified within the Sino-Tibetan language family; its core pronunciation is based on Beijing speech, but the standard is not identical to everyday Beijing dialect.",
+    "Standard Mandarin is the school-taught form of the much larger Mandarin branch of Sinitic. Linguists usually place Sinitic within the Sino-Tibetan family. The standard draws its pronunciation from Beijing speech, but it isn't the same thing as everyday Beijing dialect.",
   speakerCommunity:
-    "Mandarin is a local first language across much of northern and southwestern China, a school-taught common language throughout the PRC, Guoyu or Huayu in Taiwan and Southeast Asia, and a family or professional language in diasporas worldwide. 中文 (Zhōngwén, Chinese) may also mean Cantonese, Hokkien, Hakka, or another Sinitic language. Respectful learners follow speakers' own labels rather than assuming nation, ethnicity, script, and mother tongue coincide.",
+    "People grow up speaking Mandarin varieties across much of northern and southwestern China. Millions more learn the standard at school or use it at work, including speakers whose home language is Cantonese, Hokkien, Hakka, Tibetan, Uyghur, or something else. 中文 Zhōngwén means 'Chinese', so ask what a speaker means instead of assuming it always means Mandarin.",
   facts: [
     { label: "Language family", value: "Sino-Tibetan → Sinitic → Mandarin" },
     { label: "Standard names", value: "普通话 Pǔtōnghuà; 國語 Guóyǔ; 華語 Huáyǔ" },
@@ -32,10 +32,10 @@ export const mandarinChineseGuide: LanguageGuide = {
     { label: "Learning profile", value: "Light inflection; sustained demands in listening, vocabulary, literacy, and register" }
   ],
   learnerOverview:
-    "Mandarin gives direct access to ordinary presents: a grandmother narrating a recipe, a livestream seller improvising, a Taiwanese essay playing with homophones, or friends reducing an opinion to a four-character joke. Beginners make real sentences early because verbs do not change for person and nouns lack grammatical gender. The deeper language organizes events through aspect, result complements, classifiers, and particles such as 了, 吧, and 呢. Characters connect word families and centuries of writing but require repeated encounters in meaningful phrases. Treat pronunciation, conversation, reading, and writing as cooperating tracks, starting with one regional model while staying curious about others.",
+    "Mandarin can take you from a family recipe to a livestream, a Taiwanese podcast, or a joke built around similar-sounding words. Beginners can form real sentences early because verbs don't change for person and nouns have no grammatical gender. The language becomes richer through tones, aspect, result complements, classifiers, sentence particles, and characters, so learn those systems together rather than treating them as separate courses.",
   origins: {
     overview: cited(
-      "Modern Standard Mandarin grew from northern Sinitic varieties, not directly from one ancient classroom norm. Multilingual dynasties used Literary Chinese for educated writing while officials, travelers, and merchants developed interregional spoken koines called 官话 (guānhuà, 'officials' speech'). Nanjing-associated pronunciation once held wide influence; Beijing gained weight after becoming the Ming and Qing capital. Modern Mandarin thus joins northern sounds and grammar to a written tradition shared far beyond the Mandarin-speaking north.",
+      "Modern Standard Mandarin grew from northern Sinitic speech, but no single ancient dialect simply turned into today's classroom standard. Officials once used interregional forms called 官话 guānhuà, or 'officials' speech', while educated writers used Literary Chinese across many spoken-language boundaries. Nanjing pronunciation held influence for centuries before Beijing speech became the main model for the modern standard.",
       "wiki-mandarin",
       "dd-facts"
     ),
@@ -43,21 +43,21 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         period: "Late imperial China",
         event: cited(
-          "Regional speech remained diverse while officials used forms of guānhuà for communication across the empire. Beijing court speech became increasingly influential, but no audio-era uniform national pronunciation existed, and Literary Chinese remained the prestigious written medium.",
+          "Officials used forms of guānhuà to communicate across regions whose everyday speech differed greatly. Beijing court speech gained prestige over time, but the empire never had one uniformly spoken national language. Literary Chinese remained the main high-status written form.",
           "wiki-mandarin"
         )
       },
       {
         period: "Early twentieth century",
         event: cited(
-          "Language reformers debated what a national spoken standard should sound like and how closely writing should represent everyday speech. The eventual pronunciation norm centered on Beijing rather than mechanically combining features from many regions; the vernacular-writing movement helped make 白话文 (báihuàwén), writing based more closely on modern speech, central to education and public life.",
+          "Reformers argued over what a national spoken language should sound like and how closely writing should follow speech. An early hybrid pronunciation gave way to a Beijing-centered norm. The vernacular-writing movement also pushed 白话文 báihuàwén, writing closer to modern speech, into schools and public life.",
           "wiki-mandarin"
         )
       },
       {
         period: "1950s–1980s",
         event: cited(
-          "The People's Republic promoted Putonghua, introduced official character simplifications, and adopted Hanyu Pinyin as the principal romanization. Taiwan maintained traditional characters, taught Mandarin as Guoyu, and commonly used Zhuyin symbols for pronunciation. These policies produced two major educational ecosystems with a highly shared linguistic core but visible differences in script, terminology, and preferred readings.",
+          "The People's Republic promoted Putonghua, simplified many character forms, and adopted Hanyu Pinyin as its main romanization. Taiwan taught Mandarin as Guoyu, kept traditional characters, and used Zhuyin symbols to show pronunciation. Learners now meet two closely related systems with visible differences in script, vocabulary, and some preferred readings.",
           "prc-language-law",
           "taiwan-moe",
           "unicode-han"
@@ -66,7 +66,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         period: "Digital present",
         event: cited(
-          "Phones and computers usually let users enter characters through pinyin, zhuyin, handwriting, or shape-based methods. Digital communication has not displaced characters; it has accelerated punning, abbreviation, code-switching, and circulation across regional standards. Large searchable corpora now let learners test whether a phrase belongs to news, literature, conversation, academic prose, or internet writing.",
+          "People now type characters through pinyin, zhuyin, handwriting, or shape-based input methods. Digital communication has made puns, abbreviations, and regional slang easier to circulate rather than pushing characters aside. Searchable corpora also let learners check whether a phrase sounds at home in conversation, news, literature, or academic writing.",
           "unicode-han",
           "ccl-corpus",
           "bcc-corpus"
@@ -74,12 +74,12 @@ export const mandarinChineseGuide: LanguageGuide = {
       }
     ],
     contactHistory: cited(
-      "Mandarin vocabulary preserves many contacts: Buddhist translation from Indic languages; Mongolian, Manchu, and Central Asian exchange; and continual traffic among Sinitic languages. Modern technical compounds often circulated through Japanese while using Chinese characters. Newer loans imitate sound, as in 沙发 shāfā 'sofa'; translate meaning, as in 软件 ruǎnjiàn 'software'; build hybrid brand names; or retain Latin letters such as AI. Regions may choose different translations. These layers show speakers adapting Mandarin, not damaging a pure system.",
+      "Mandarin carries traces of Buddhist translation, contact with Mongolian and Manchu, and constant exchange among Sinitic languages. Some modern technical words came through Japanese but used familiar Chinese characters, while newer loans may copy a sound, translate a meaning, or keep Latin letters such as AI. Mainland China, Taiwan, and Singapore don't always choose the same new word, which makes borrowing part of regional style as well as history.",
       "wiki-mandarin",
       "dd-identity"
     ),
     standardization: cited(
-      "PRC Putonghua is defined around Beijing-based pronunciation, northern vocabulary, and exemplary modern vernacular grammar; a revised language law took effect in 2026. Taiwan Guoyu shares its core while official dictionaries record local readings, traditional forms, and preferred words. Singapore generally calls the language Huayu. Standard Chinese is therefore pluricentric in practice. Learners can choose one production norm while recognizing 垃圾 lājī/lèsè 'rubbish', 出租车 chūzūchē versus 計程車 jìchéngchē 'taxi', and 软件 ruǎnjiàn versus 軟體 ruǎntǐ 'software'.",
+      "Mainland Putonghua uses Beijing-based pronunciation, northern vocabulary, and modern vernacular writing as its official reference points. Taiwan Guoyu shares that core but keeps traditional characters and its own dictionary readings and preferred words, while Singapore commonly calls the standard Huayu. Choose one model for speaking and writing, then learn to recognize pairs such as 出租车 chūzūchē and 計程車 jìchéngchē for 'taxi'.",
       "prc-language-law",
       "prc-2026-law",
       "taiwan-moe",
@@ -88,7 +88,7 @@ export const mandarinChineseGuide: LanguageGuide = {
   },
   variants: {
     overview: cited(
-      "Mandarin can mean a broad branch of northern and southwestern varieties or the school-taught standard. A speaker may use local Mandarin at home and Standard Mandarin formally; elsewhere it is learned alongside Cantonese, Hokkien, Hakka, Tibetan, Uyghur, or another first language. Accent is expected. Ask which features belong to your model, which occur elsewhere, and what social meaning they carry.",
+      "The word Mandarin can name a huge branch of local varieties or the school-taught standard. Someone may speak a local Mandarin at home and Putonghua in formal settings, while another person learns the standard alongside Cantonese, Hokkien, Hakka, Tibetan, or Uyghur. This guide anchors examples in Standard Mandarin and labels important Mainland and Taiwan differences.",
       "wiki-mandarin",
       "dd-identity"
     ),
@@ -96,7 +96,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         name: "Mainland Putonghua",
         note: cited(
-          "The national classroom and broadcast norm uses simplified characters in most settings and pinyin for phonetic annotation. Everyday speech varies substantially by region. Speakers in northern cities may use more 儿化 érhuà, the r-colored suffix heard in 哪儿 nǎr 'where', while many southern speakers maintain fewer retroflex contrasts or use locally influenced vocabulary. A polished regional accent is still Mandarin; it need not imitate a Beijing street accent to be legitimate.",
+          "Mainland schools teach Putonghua with simplified characters and Hanyu Pinyin. Everyday accents still vary widely: northern speakers may use more 儿化 érhuà, while many southern speakers use fewer retroflex sounds or local vocabulary. A clear regional accent can still be excellent Mandarin; it doesn't need to copy Beijing street speech.",
           "prc-language-law",
           "dd-facts"
         )
@@ -104,7 +104,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         name: "Beijing speech",
         note: cited(
-          "Beijing pronunciation contributed to the standard, but local Beijing speech contains vocabulary, reductions, rhythm, and heavier érhuà that textbooks may not teach. Newsreader Putonghua and a rapid conversation between lifelong Beijingers can sound strikingly different. Learners should use standard recordings for a stable foundation, then add local listening rather than treating the capital's colloquial speech as the only authentic target.",
+          "Beijing pronunciation shaped the standard, but local Beijing speech uses its own slang, reductions, rhythm, and often heavier érhuà. A newsreader and two lifelong Beijingers chatting quickly can sound surprisingly different. Start with standard recordings, then add local speech when it matches your interests.",
           "wiki-mandarin",
           "dd-facts"
         )
@@ -112,7 +112,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         name: "Taiwan Mandarin",
         note: cited(
-          "Taiwan's standard is usually written with traditional characters and taught with Zhuyin, though pinyin is also encountered. Common speech has its own vocabulary and preferred pronunciations; retroflex initials may be less strongly differentiated in casual styles, and sentence-final particles can carry locally characteristic contours. Mandarin also coexists with Taiwanese Hokkien, Hakka, Indigenous languages, and newer community languages, so borrowing and code-switching are part of ordinary life.",
+          "Taiwan usually writes Guoyu with traditional characters and teaches pronunciation through Zhuyin, though learners also see pinyin. Everyday Taiwan Mandarin has its own words, preferred readings, and accent patterns, including less strongly retroflex speech for many speakers. It also lives beside Taiwanese Hokkien, Hakka, Indigenous languages, and newer community languages.",
           "taiwan-moe",
           "taiwan-languages",
           "dd-taiwan"
@@ -122,18 +122,18 @@ export const mandarinChineseGuide: LanguageGuide = {
   },
   pronunciation: {
     overview: cited(
-      "A Mandarin syllable is often taught as an initial consonant plus a final carrying a tone. Pinyin represents a coherent Mandarin system, not English letter values. Contrasts among j/q/x, zh/ch/sh, z/c/s, and unaspirated versus aspirated stops need patient ear training. Record words and sentences because tones change shape in connected speech.",
+      "Most Mandarin syllables combine an opening consonant, a final, and a tone. Pinyin gives you a consistent map of that system, but familiar letters don't keep their English sounds. Train contrasts such as j/q/x, zh/ch/sh, and z/c/s inside whole words and sentences, because natural speech changes the neat contours shown in tone charts.",
       "dd-start",
       "dd-facts"
     ),
     script: "Hanyu Pinyin with tone marks; Zhuyin is widely used in Taiwan",
     soundSystem: cited(
-      "Standard Mandarin has four lexical tones plus a context-sensitive neutral tone. First is high, second rises, third is usually low, and fourth falls sharply. Written b/p, d/t, g/k, z/c, and zh/ch contrast mainly by aspiration, not English-style voicing. Pinyin j/q/x use a forward tongue position; ü loses its dots after them, so 去 qù does not contain English 'oo'. The -i after z/c/s or zh/ch/sh/r represents special syllabic vowels.",
+      "Standard Mandarin has four main tones plus a light, context-sensitive neutral tone. The first stays high, the second rises, the third is usually low in real speech, and the fourth falls sharply. Pinyin pairs such as b/p and d/t mainly contrast a small or strong puff of air, while j/q/x use a tongue position that English doesn't package in the same way.",
       "dd-start",
       "wiki-mandarin"
     ),
     prosody: cited(
-      "Connected speech reshapes citation tones. Before another third tone, 你好 nǐ hǎo commonly sounds ní hǎo. 不 bù becomes bú before fourth tone, and 一 yī changes with what follows. Neutral syllables shorten: 妈妈 māma is not two full first tones. Focus expands pitch while unstressed material compresses it. Shadow phrases, marking low points, rises, and nearly disappearing syllables instead of pronouncing every character as an isolated dictionary contour.",
+      "Tones change shape when words meet. Two written third tones in 你好 nǐ hǎo normally sound like ní hǎo, while 不 bù becomes bú before a fourth tone and 一 yī changes according to what follows. Shadow whole phrases so you hear low points, shortened neutral syllables, and emphasized words instead of giving every character a full dictionary tone.",
       "dd-start",
       "dd-facts"
     ),
@@ -185,33 +185,33 @@ export const mandarinChineseGuide: LanguageGuide = {
   },
   writing: {
     overview: cited(
-      "Chinese characters, 汉字/漢字 hànzì, represent morphemes and syllables, not whole abstract ideas. Most are phono-semantic compounds: one component hints at meaning and another at inherited pronunciation. Text lacks obligatory word spaces, so readers segment strings into words and constructions. Simplified and traditional are regional standards, not spoken languages. Some correspondences are many-to-one or vocabulary-dependent, so automatic conversion can choose the wrong character or ignore local wording.",
+      "Chinese characters, 汉字/漢字 hànzì, usually represent one syllable and one meaningful part of a word. Most combine a component that hints at meaning with another that hints at pronunciation, so they aren't simply pictures or abstract ideas. Simplified and traditional forms belong to different writing standards, not different spoken languages, and automatic conversion can fail when several traditional characters share one simplified form.",
       "unicode-han",
       "dd-facts"
     ),
     primaryScript: "Chinese characters: simplified in mainland China and Singapore; traditional in Taiwan, Hong Kong, and many community contexts",
     romanization: cited(
-      "Hanyu Pinyin spells Standard Mandarin pronunciation; careful learning uses tone marks: mā, má, mǎ, mà, ma. Numbered ma3 is convenient plain text but should not replace marked forms. Pinyin follows word-level conventions and supports pronunciation and input rather than replacing characters. Taiwan's Zhuyin symbols, beginning ㄅㄆㄇㄈ, remain central in schools and dictionaries. Zhuyin is optional for most learners but unlocks local materials in Taiwan.",
+      "Hanyu Pinyin spells Standard Mandarin and marks tones as mā, má, mǎ, mà, and ma. It helps with pronunciation and keyboard input, but it works best beside characters rather than as a permanent replacement for them. Taiwan schools and dictionaries use Zhuyin symbols such as ㄅㄆㄇㄈ, so learning them is worthwhile if Taiwan is your focus.",
       "dd-start",
       "taiwan-moe"
     ),
     spellingNorms: cited(
-      "Match the script standard to your main community, then learn recognition across both. Conversion is not a reversible cipher: simplified 发 corresponds to 發 in 發現/发现 'discover' and 髮 in 頭髮/头发 'hair'. Learn characters inside words: 会 has several functions, while 学会/學會 xuéhuì means 'learn how to' and 会议/會議 huìyì 'meeting'. Handwriting a core can sharpen components, but reading and typed retrieval usually matter more than calligraphic perfection.",
+      "Write the character set used by your main community, then build recognition in the other set. Simplified 发 can correspond to 發 in 發現/发现 'discover' or 髮 in 頭髮/头发 'hair', so conversion isn't a reversible code. Learn characters inside words such as 学会/學會 xuéhuì 'learn how to' and 会议/會議 huìyì 'meeting' instead of collecting isolated meanings.",
       "unicode-han",
       "unicode-han"
     ),
     styleNotes: [
       cited(
-        "Modern written Chinese ranges from chat that closely mirrors speech to compressed institutional prose. Read a message thread, a feature article, and a government notice side by side before calling any form 'written Chinese'. Formal text favors compact compounds and connectors that may be rare in conversation.",
+        "Modern writing ranges from speech-like chat to tightly compressed institutional prose. Compare a message thread, a feature article, and a government notice before deciding what 'written Chinese' sounds like. Formal texts favor compact compounds and connectors that friends may rarely say aloud.",
         "ccl-corpus",
         "bcc-corpus"
       ),
       cited(
-        "Punctuation is modern but regionally styled. Simplified publishing commonly uses curved quotation marks, while traditional publishing often uses corner brackets such as 「」. Book and work titles appear inside 《》. Follow the house style of the text you are producing.",
+        "Punctuation is modern but regionally styled. Simplified publishing commonly uses curved quotation marks, while traditional publishing often uses corner brackets such as 「」 and puts book titles inside 《》. Follow the house style of the text you are producing.",
         "unicode-han"
       ),
       cited(
-        "Character knowledge is not a single number. Recognizing a character in context, recalling its pronunciation, distinguishing its regional form, handwriting it, and using its words naturally are separate abilities. Track words and encounters rather than chasing a vanity total.",
+        "Knowing a character isn't one yes-or-no skill. You may recognize it in context but forget its sound, traditional form, or natural compounds. Track useful words and repeated encounters instead of chasing an impressive character total.",
         "dd-start",
         "dd-facts"
       ),
@@ -220,22 +220,22 @@ export const mandarinChineseGuide: LanguageGuide = {
   },
   grammar: {
     overview: cited(
-      "Mandarin verbs do not conjugate for person, but grammar lives in word order, particles, aspect, classifiers, and shared context. 我吃 wǒ chī can mean 'I eat', 'I am eating', or 'I will eat' when time is clear. Speakers still choose constructions to present events as completed, experienced, ongoing, caused, or resulting in a new state. Learn meaningful viewpoints rather than English tense substitutions.",
+      "Mandarin verbs don't change for person, but that doesn't make the grammar empty. Speakers use word order, particles, aspect, classifiers, and context to show how an event unfolds. 我吃 wǒ chī can mean 'I eat', 'I'm eating', or 'I'll eat' when the surrounding conversation supplies the time.",
       "wiki-mandarin",
       "dd-start"
     ),
     typologicalProfile: cited(
-      "Mandarin is analytic: grammar rarely changes a word's internal form. Clauses are often subject–verb–object, but topic–comment order also matters. Modifiers precede nouns: 我的书 wǒ de shū 'my book', 我昨天买的书 wǒ zuótiān mǎi de shū 'the book I bought yesterday'. Numerals require classifiers, while verbs combine with result or direction elements. Advanced grammar is therefore an architecture of constructions rather than endings.",
+      "Mandarin is analytic, which means words rarely change their internal form to show grammar. Clauses often follow subject–verb–object order, but speakers also begin with a topic and then comment on it. Modifiers come before nouns, as in 我的书 wǒ de shū 'my book' and 我昨天买的书 wǒ zuótiān mǎi de shū 'the book I bought yesterday'.",
       "wiki-mandarin",
       "wiki-mandarin"
     ),
     morphology: cited(
-      "Many Mandarin words join two morphemes, such as 文化 wénhuà 'culture'. Compounding is productive: 火车/火車 huǒchē is 'fire vehicle' and 手机/手機 shǒujī 'hand device'. 第 dì- forms ordinals, while -们/-們 -men marks human plurals only in restricted contexts. Reduplication softens or limits an action: 看看 kànkan 'have a look'. Morphology centers on compounds, constructions, and word boundaries rather than inflection tables.",
+      "Mandarin builds many words by joining small meaningful pieces. 火车/火車 huǒchē is literally 'fire vehicle', while 手机/手機 shǒujī is a 'hand device'. Other small patterns matter too: 第 dì- forms ordinals, -们/-們 -men marks some human plurals, and reduplication makes 看看 kànkan mean 'have a look'.",
       "wiki-mandarin",
       "ccl-corpus"
     ),
     syntax: cited(
-      "A useful order is subject, time, place, manner, verb, object: 我今天在家认真地看了那本书, 'Today I read that book carefully at home.' Real sentences reorganize old and new information, and omit subjects or objects supplied by context. 把 bǎ places a known object before a phrase describing its fate; 被 bèi introduces a passive. Syntax therefore depends on discourse perspective, not one rigid template.",
+      "A useful beginner order is subject, time, place, manner, verb, and object. Real speakers move information around and leave out subjects or objects that everyone already understands. Constructions such as 把 bǎ and 被 bèi help speakers focus on what happens to an object, so Mandarin word order responds to the conversation rather than one rigid template.",
       "wiki-mandarin",
       "bcc-corpus"
     ),
@@ -251,7 +251,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         title: "Aspect: viewing an event, not locating it on a tense line",
         body: cited(
-          "Perfective 了 le often presents an event as bounded; experiential 过/過 guo says it has happened at least once; 着/著 zhe presents a continuing state; and 在 zài can place an action in progress. None maps one-to-one onto English past or present perfect. Compare 我去了北京 Wǒ qù le Běijīng 'I went to Beijing' with 我去过北京 Wǒ qùguo Běijīng 'I have been to Beijing'. Sentence-final 了 can instead signal a new situation: 下雨了 Xiàyǔ le, 'It has started raining / Now it's raining.' Ask what perspective the speaker chooses, not which English tense triggered the particle.",
+          "Mandarin aspect shows how a speaker views an event rather than simply placing it in past, present, or future. 了 le can present an action as complete, 过/過 guo marks past experience, 着/著 zhe shows a continuing state, and 在 zài can put an action in progress. Compare 我去了北京 Wǒ qù le Běijīng 'I went to Beijing' with 我去过北京 Wǒ qùguo Běijīng 'I have been to Beijing', while sentence-final 了 in 下雨了 Xiàyǔ le announces that it has started raining.",
           "wiki-mandarin",
           "bcc-corpus"
         ),
@@ -261,7 +261,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         title: "Classifiers: counting through categories",
         body: cited(
-          "A number or demonstrative usually reaches a noun through a classifier: 三本书/三本書 sān běn shū 'three volumes of books', 两张票/兩張票 liǎng zhāng piào 'two flat tickets', 那位老师/那位老師 nà wèi lǎoshī 'that teacher' with a respectful human classifier. 个/個 ge is broad and often acceptable in casual speech, but specific classifiers are part of the word's natural company. They can also foreground shape or presentation: 一片云/一片雲 yí piàn yún imagines a patch of cloud. Learn a noun with one common classifier, then notice alternatives as expressive vocabulary rather than a taxonomy exam.",
+          "Numbers and demonstratives usually connect to a noun through a classifier: 三本书/三本書 sān běn shū is 'three books', while 两张票/兩張票 liǎng zhāng piào is 'two tickets'. 个/個 ge works broadly in casual speech, but specific choices can show shape, presentation, or respect, as 位 wèi does for a person. Learn each new noun with one common classifier, then notice alternatives without turning them into a taxonomy exam.",
           "wiki-mandarin",
           "ccl-corpus"
         ),
@@ -271,7 +271,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         title: "Result complements: saying what the action achieved",
         body: cited(
-          "Mandarin frequently joins a verb to a second element that states the result: 听懂/聽懂 tīngdǒng 'hear and understand', 写完/寫完 xiěwán 'write to completion', 找到 zhǎodào 'search and find', 说清楚/說清楚 shuō qīngchu 'explain clearly'. English often hides this structure in a single verb or implication. The negative uses 没/沒 before the compound for a result that did not occur: 我没听懂/我沒聽懂 Wǒ méi tīngdǒng, 'I didn't understand what I heard.' Potential forms insert 得 or 不—看得见/看得見 kàn de jiàn 'can see', 看不见/看不見 kàn bu jiàn 'cannot see'—and are not interchangeable with every use of 能 néng.",
+          "Mandarin often joins a verb to a second element that names its result. 听懂/聽懂 tīngdǒng means 'hear and understand', 写完/寫完 xiěwán means 'write to completion', and 找到 zhǎodào means 'search and find'. Put 没/沒 before the compound when the result didn't happen, or insert 得 and 不 in forms such as 看得见/看得見 kàn de jiàn 'can see' and 看不见/看不見 kàn bu jiàn 'can't see'.",
           "bcc-corpus",
           "wiki-mandarin"
         ),
@@ -281,7 +281,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         title: "把: presenting the fate of a known object",
         body: cited(
-          "The 把 bǎ construction moves a usually specific, identifiable object before the verb and says what happens to it. 我把钥匙放在桌上了/我把鑰匙放在桌上了 Wǒ bǎ yàoshi fàng zài zhuōshang le means 'I put the keys on the table.' The verb phrase normally needs a result, location, quantity, or other endpoint; bare *我把书看 is incomplete in ordinary usage. 把 is not simply a formal way to mark any object. It is useful when a discourse already contains the object and the new information is its disposal, transformation, movement, or effect.",
+          "The 把 bǎ construction moves a familiar or specific object before a phrase that tells you what happens to it. 我把钥匙放在桌上了/我把鑰匙放在桌上了 Wǒ bǎ yàoshi fàng zài zhuōshang le means 'I put the keys on the table'. The verb normally needs a result, location, quantity, or endpoint, which is why bare *我把书看 feels unfinished.",
           "wiki-mandarin",
           "ccl-corpus"
         ),
@@ -291,7 +291,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       {
         title: "Topic–comment: starting from shared ground",
         body: cited(
-          "Mandarin often opens with what the sentence is about and then comments on it: 这本书，我还没看完/這本書，我還沒看完 Zhè běn shū, wǒ hái méi kànwán, 'This book, I haven't finished it yet.' The topic need not be the grammatical subject. In 大象鼻子很长/大象鼻子很長 Dàxiàng bízi hěn cháng, 'Elephants have long trunks', 大象 sets the domain and 鼻子 is the subject of the comment. This structure supports omitted pronouns and explains why mechanically forcing every sentence into an English subject-first frame produces stilted Mandarin.",
+          "Mandarin often starts with what everyone is talking about and then adds a comment. 这本书，我还没看完/這本書，我還沒看完 Zhè běn shū, wǒ hái méi kànwán means 'This book, I haven't finished it yet'. The topic doesn't have to be the grammatical subject, which helps explain why speakers omit so many obvious pronouns and objects.",
           "wiki-mandarin",
           "bcc-corpus"
         ),
@@ -336,7 +336,7 @@ export const mandarinChineseGuide: LanguageGuide = {
   difficulty: {
     label: "Very demanding",
     overview: cited(
-      "Mandarin offers quick entry into basic word order but a long route to balanced proficiency. Tones and rapid listening challenge early speech; characters create a second curriculum; advanced vocabulary divides among conversation, formal writing, regions, and classical inheritance. A heritage learner may speak fluently but need literacy, while a Japanese reader may recognize characters yet rebuild pronunciation and syntax. Replace 'easy grammar, impossible writing' with a diagnosis of the next concrete skill.",
+      "Mandarin makes basic word order accessible early, but balanced proficiency takes time. Tones and fast listening challenge speech, characters add a large literacy project, and advanced vocabulary changes between conversation, formal writing, and regions. Your own starting point matters: a heritage speaker may need literacy, while a Japanese reader may recognize characters but still need new pronunciation and grammar.",
       "dd-start"
     ),
     easierAspects: [
@@ -360,24 +360,24 @@ export const mandarinChineseGuide: LanguageGuide = {
       "Chasing HSK lists as a complete curriculum while neglecting personally meaningful domains"
     ],
     workload: cited(
-      "Build around daily contact, not heroic sessions. Early on, compare short recordings with a teacher and add characters through sentences you already hear. An intermediate week can include conversations, repeated work on one authentic clip, easier extensive reading, and one corrected text. Advanced progress becomes domain-specific: family fluency does not supply finance or history vocabulary. Measure tasks—following an interview, reading a feature, repairing misunderstanding—not only hours or test levels.",
+      "Build the language around regular contact rather than occasional heroic sessions. Early on, compare short recordings with a teacher and learn characters through sentences you already understand; later, combine conversation, repeated work on one authentic clip, easy reading, and corrected writing. Measure real tasks such as following an interview or repairing a misunderstanding, because test levels don't automatically supply family, finance, or history vocabulary.",
       "dd-start",
       "dd-resources"
     )
   },
   advancedLearning: {
     strategy: cited(
-      "Choose one pronunciation and script environment for output without hiding from variation. Learn high-frequency spoken phrases with sound correction, then let literacy and grammar grow together: characters inside words, words inside examples, patterns inside contrasts. At intermediate level, mine a content lane you genuinely follow and revisit the same speakers until comprehension becomes predictive. Ask tutors to diagnose recurring errors, role-play difficult situations, and compare regional phrasing rather than read a textbook aloud.",
+      "Choose one pronunciation and script environment for your own output, but keep listening to other varieties. Start with high-frequency phrases and sound correction, then learn characters inside words and grammar inside useful contrasts. At intermediate level, follow a topic and the same speakers long enough to predict their language, and ask tutors to diagnose recurring errors rather than simply read the lesson aloud.",
       "dd-start",
       "dd-resources"
     ),
     mediaPractice: cited(
-      "Use three passes: understand without help, consult Chinese subtitles or a dictionary for expressions blocking the message, then shadow and retell selected lines. Mix clear scripted material with interviews and livestreams. News teaches formal compounds but not friendship; drama teaches interaction but exaggerates genre; songs bend tone to melody. Keep one intensive item under a microscope and several easier items moving for pleasure.",
+      "Try a clip three times: first understand what you can, then check Chinese subtitles or a dictionary, and finally shadow and retell selected lines. Mix clear scripted material with interviews and livestreams because news teaches formal compounds, drama teaches interaction, and songs reshape tones around melody. Study one short item closely while keeping easier material moving for pleasure.",
       "dd-resources",
       "ccl-corpus"
     ),
     dictionariesAndCorpora: cited(
-      "Bilingual dictionaries offer candidate meanings; monolingual dictionaries and corpora show how words behave. Pleco combines dictionaries, handwriting, and document lookup. Taiwan's Ministry of Education records Guoyu readings and traditional forms. For advanced usage, compare phrases across BCC or CCL conversation, news, literary, academic, and historical collections. Corpus counts reflect uneven genres, not commandments. Save representative sentences and ask what social setting they evoke.",
+      "A bilingual dictionary gives you possible meanings, while monolingual dictionaries and corpora show how words actually behave. Pleco handles quick lookup, Taiwan's Ministry of Education records Guoyu readings and traditional forms, and BCC or CCL let advanced learners compare conversation with news, literature, and academic writing. Treat corpus counts as evidence from uneven collections, not rules, and save examples with their social setting.",
       "taiwan-moe",
       "ccl-corpus",
       "bcc-corpus"
@@ -417,7 +417,7 @@ export const mandarinChineseGuide: LanguageGuide = {
   },
   wordsAndTexts: {
     overview: cited(
-      "Mandarin words become memorable when treated as social tools rather than museum labels. Some reveal productive compounds, some package a relationship, and some are ordinary words whose English translation hides a different boundary. Four-character idioms, 成语/成語 chéngyǔ, are one visible part of expression, but not every elegant phrase is a chengyu and not every chengyu belongs in casual speech. The safest path is to collect who said an expression, in what sentence, with what effect. A perfectly translated idiom can still sound pompous, joking, archaic, or regionally unexpected when moved into the wrong mouth.",
+      "Mandarin words become easier to remember when you learn what people do with them. Some build productive compounds, some manage a relationship, and some divide experience differently from their nearest English gloss. Four-character idioms, 成语/成語 chéngyǔ, can sound elegant, funny, formal, or pompous, so record who used one and what effect it had instead of treating every idiom as casual conversation.",
       "dd-idioms",
       "dd-proverbs"
     ),
@@ -445,7 +445,7 @@ export const mandarinChineseGuide: LanguageGuide = {
         transliteration: "máfan",
         meaning: "trouble; troublesome; to trouble someone with a request",
         note: cited(
-          "This versatile word handles both inconvenience and politeness. 麻烦你帮我看一下/麻煩你幫我看一下 'Could I trouble you to take a look?' frames a request by acknowledging effort. Tone and relationship decide whether it sounds courteous, warm, or impatient.",
+          "This versatile word handles both inconvenience and politeness. 麻烦你帮我看一下/麻煩你幫我看一下 'Could I trouble you to take a look?' frames a request by acknowledging effort.\n\nTone and relationship decide whether it sounds courteous, warm, or impatient.",
           "ccl-corpus"
         )
       },
@@ -478,7 +478,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       },
     ],
     loanwordLayers: cited(
-      "Loanwords rarely announce one clean origin. 咖啡 kāfēi 'coffee' and 沙发/沙發 shāfā 'sofa' approximate sound; 电脑/電腦 diànnǎo 'computer' and 热狗/熱狗 règǒu 'hot dog' translate meaning; 可口可乐/可口可樂 Kěkǒukělè makes Coca-Cola sound like an auspicious Chinese phrase while echoing the brand. Twentieth-century compounds connected with politics, society, and science often circulated through Japanese, where writers had coined new meanings with Chinese characters, allowing the forms to be read naturally in Chinese. Contemporary speech also absorbs English initials and internet forms, but acceptance differs by profession, age, region, and editorial policy. Ask not only 'Is this a loan?' but 'Through which route, in which form, and who uses it now?'",
+      "Mandarin borrows in several ways. 咖啡 kāfēi 'coffee' and 沙发/沙發 shāfā 'sofa' echo sound, while 电脑/電腦 diànnǎo 'computer' and 热狗/熱狗 règǒu 'hot dog' translate meaning; 可口可乐/可口可樂 Kěkǒukělè does both for Coca-Cola. Modern compounds also travelled through Japanese, and today's speakers use English initials and internet forms differently according to profession, age, region, and editorial style.",
       "wiki-mandarin",
       "ccl-corpus"
     ),
@@ -518,7 +518,7 @@ export const mandarinChineseGuide: LanguageGuide = {
   },
   relationships: {
     overview: cited(
-      "Mandarin sits inside a Sinitic continuum whose branches share historical ancestry and a writing tradition but are not merely accents of one spoken language. Mandarin and Cantonese may write closely related formal sentences while pronouncing them very differently and using distinct everyday grammar and vocabulary. Japanese, Korean, and Vietnamese are not genetically Chinese languages, yet centuries of contact brought large layers of vocabulary derived from Chinese and, historically, Chinese-character literacy. Similar-looking words can be a powerful bridge, but pronunciation and grammar must be learned on their own terms.",
+      "Mandarin belongs to the Sinitic group, whose members share ancestry and a writing tradition but aren't merely accents of one spoken language. Mandarin and Cantonese can write similar formal sentences while sounding very different and using distinct everyday grammar. Japanese, Korean, and Vietnamese aren't Sinitic, though long contact brought them large layers of Chinese-derived vocabulary and a history of character use.",
       "wiki-mandarin",
       "dd-identity"
     ),
@@ -551,7 +551,7 @@ export const mandarinChineseGuide: LanguageGuide = {
     ]
   },
   culturalNotes:
-    "Mandarin is not a passport into one 'Chinese culture.' Its speakers have different nationalities, ethnicities, home languages, and relationships to the standard. Names carry history: 普通话 emphasizes common speech, 國語 national language, and 華語 a broader Chinese cultural frame. Follow your interlocutor's term. Do not treat appearance as a language test or ask where someone is 'really' from. Observe real relationships—who uses titles, when friends tease, and how refusals are repaired—rather than memorizing national personality traits.",
+    "Mandarin doesn't give you access to one single 'Chinese culture'. Its speakers have different nationalities, ethnicities, home languages, and feelings about the standard, while names such as 普通话, 國語, and 華語 carry different histories. Follow the term your conversation partner uses and watch how real people handle titles, teasing, favors, and refusals instead of memorizing national personality rules.",
   resources: [
     {
       type: "course",
@@ -719,56 +719,56 @@ export const mandarinChineseGuide: LanguageGuide = {
       publisher: "Discover Discomfort",
       publishedAt: "2020-02-20",
       updatedAt: "2023-09-08",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "dd-facts",
       title: "20+ Chinese Language Facts — Fun and Sometimes Surprising!",
       url: "https://discoverdiscomfort.com/chinese-language-facts/",
       publisher: "Discover Discomfort",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "dd-identity",
       title: "Being and Speaking Chinese",
       url: "https://discoverdiscomfort.com/being-and-speaking-chinese/",
       publisher: "Discover Discomfort",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "dd-idioms",
       title: "15 Essential Chinese Idioms for Conversation (With Audio)",
       url: "https://discoverdiscomfort.com/essential-chinese-idioms-for-conversation/",
       publisher: "Discover Discomfort",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "dd-proverbs",
       title: "Chinese Proverbs That Teach You About China — With Audio",
       url: "https://discoverdiscomfort.com/chinese-proverbs-learning-chinese/",
       publisher: "Discover Discomfort",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "dd-resources",
       title: "Only the BEST Resources to Learn Chinese Online",
       url: "https://discoverdiscomfort.com/learn-chinese-online-best-resources/",
       publisher: "Discover Discomfort",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "dd-taiwan",
       title: "Living in Taiwan: A Complete Guide for Culture Nomads",
       url: "https://discoverdiscomfort.com/guide-to-living-in-taiwan/",
       publisher: "Discover Discomfort",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "wiki-mandarin",
       title: "Mandarin Chinese",
       url: "https://en.wikipedia.org/wiki/Mandarin_Chinese",
       publisher: "Wikipedia",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "prc-language-law",
@@ -776,7 +776,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       url: "https://en.moe.gov.cn/documents/laws_policies/201506/t20150626_191388.html",
       publisher: "Ministry of Education of the People's Republic of China",
       publishedAt: "2000-10-31",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "prc-2026-law",
@@ -784,28 +784,28 @@ export const mandarinChineseGuide: LanguageGuide = {
       url: "https://en.moe.gov.cn/news/press_releases/202512/t20251231_1425379.html",
       publisher: "Ministry of Education of the People's Republic of China",
       publishedAt: "2025-12-29",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "taiwan-moe",
       title: "Language Resources",
       url: "https://english.moe.gov.tw/np-33-1.html",
       publisher: "Ministry of Education, Republic of China (Taiwan)",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "taiwan-languages",
       title: "Development of National Languages Act",
       url: "https://www.moc.gov.tw/en/cp.aspx?n=412",
       publisher: "Ministry of Culture, Republic of China (Taiwan)",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "unicode-han",
       title: "The Unicode Standard, Chapter 18: East Asia",
       url: "https://unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/",
       publisher: "Unicode Consortium",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "ccl-corpus",
@@ -813,7 +813,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       url: "https://corpus.pku.edu.cn/statistics/ccl_corpus_statistics.html",
       publisher: "Center for Chinese Linguistics, Peking University",
       updatedAt: "2026-04-16",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     },
     {
       id: "bcc-corpus",
@@ -821,7 +821,7 @@ export const mandarinChineseGuide: LanguageGuide = {
       url: "https://bcc.blcu.edu.cn/help.html",
       publisher: "Beijing Language and Culture University",
       updatedAt: "2026-05-21",
-      accessedAt: "2026-07-10"
+      accessedAt: "2026-07-18"
     }
   ],
   seo: {
