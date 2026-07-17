@@ -5,11 +5,11 @@ This tracker records which original long-form guides have received the plain-lan
 | Language | Slug | Status | Completed |
 | --- | --- | --- | --- |
 | Persian | `persian` | Complete | 2026-07-15 |
-| Arabic — MSA | `arabic` | In progress | — |
-| Swahili | `swahili` | In progress | — |
-| Mandarin Chinese | `mandarin-chinese` | In progress | — |
-| Korean | `korean` | In progress | — |
-| Vietnamese | `vietnamese` | In progress | — |
+| Arabic — MSA | `arabic` | Complete | 2026-07-18 |
+| Swahili | `swahili` | Complete | 2026-07-18 |
+| Mandarin Chinese | `mandarin-chinese` | Complete | 2026-07-18 |
+| Korean | `korean` | Complete | 2026-07-18 |
+| Vietnamese | `vietnamese` | Complete | 2026-07-18 |
 | Japanese | `japanese` | Pending | — |
 | Hindi | `hindi` | Pending | — |
 | Urdu | `urdu` | Pending | — |
