@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { fetchLanguageGuideSummaries, siteUrl } from "../lib/content";
+import { getLanguageGuideSummaries, siteUrl } from "../lib/content";
 
 function escapeXml(value: string): string {
   return value
@@ -11,7 +11,7 @@ function escapeXml(value: string): string {
 }
 
 export const GET: APIRoute = async () => {
-  const guides = await fetchLanguageGuideSummaries();
+  const guides = getLanguageGuideSummaries();
   const urls = [
     { location: siteUrl("/"), lastModified: undefined },
     { location: siteUrl("/about"), lastModified: undefined },

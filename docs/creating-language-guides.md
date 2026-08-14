@@ -341,9 +341,9 @@ Do not have a general cleanup agent rewrite all language files at the end. Cross
 
 The successful first expansion used ten waves of three agents: Swahili/Arabic/Mandarin Chinese; Japanese/Korean/Hindi; Urdu/Turkish/Persian; Hebrew/Greek/Russian; Polish/Welsh/Irish; Finnish/Hungarian/Basque; Georgian/Armenian/Vietnamese; Thai/Indonesian/Tagalog; Tamil/Amharic/Yoruba; and Navajo/Quechua/Nahuatl.
 
-The root agent first built the citation interface, renderer, validation, link audit, statistics, production backup, and independent file structure. Each language agent then researched and wrote only its assigned fixture. After every wave, the root ran targeted validation and reviewed the agents' source/uncertainty audits. Once all 30 were present, the root ran a cross-guide prose pass, audited 493 unique links, built the fixture-backed site, and inspected Arabic, Mandarin Chinese, Navajo, Swahili, and Basque as representative rendering cases. Production was backed up, code was pushed through the GitHub-driven deploy flow, all guides were seeded by slug, all 30 production documents were read back and validated, and the live routes were checked after the final Netlify rebuild.
+The root agent first built the citation interface, renderer, validation, link audit, statistics, and independent file structure. Each language agent then researched and wrote only its assigned fixture. After every wave, the root ran targeted validation and reviewed the agents' source/uncertainty audits. Once all 30 were present, the root ran a cross-guide prose pass, audited 493 unique links, built the static site, and inspected Arabic, Mandarin Chinese, Navajo, Swahili, and Basque as representative rendering cases. The validated code was pushed through the GitHub-driven Netlify flow, and the live routes were checked after the deployment completed.
 
-That sequencing matters. Building the data model and validator before commissioning articles prevented 30 incompatible drafts; wave-by-wave checks stopped structural mistakes from spreading; and production readback caught problems that a successful local seed command alone could not rule out.
+That sequencing matters. Building the data model and validator before commissioning articles prevented 30 incompatible drafts; wave-by-wave checks stopped structural mistakes from spreading; and live-page verification caught problems that a successful local build alone could not rule out.
 
 ## Reusable Subagent Prompt
 
@@ -510,7 +510,6 @@ npm run content:audit-links
 npm run typecheck
 npm run lint
 npm run build
-npm run build:web:fixtures
 npm run verify:web
 ```
 
@@ -526,18 +525,15 @@ Inspect representative pages locally. For a multi-language batch, cover at least
 - Mobile and desktop layouts.
 - Inline citation links, bibliography targets, phrases, idioms, resources, Unicode, and transliteration.
 
-Before a production bulk seed:
+Before a production release:
 
-1. Run `npm run content:backup:production` and retain the ignored JSON snapshot under `tmp/`.
-2. Commit the validated fixtures and code.
-3. Push `main`; GitHub automatically deploys the Payload admin/API to Railway and the public site to Netlify. Do not use `railway up` or `netlify deploy` for a normal release.
-4. Wait for both deployments to reach terminal success and verify the public API is healthy.
-5. Run `npm run seed:guides` for an intentionally coordinated full-catalog release, or `GUIDE_SLUGS=persian npm run seed:guides` for a single guide. `GUIDE_SLUGS` accepts a comma-separated list of canonical slugs, and the slug-based upsert should update existing documents or create new language documents without replacing existing IDs.
-6. Read back the production collection. Verify the expected total count, new slugs, word/source counts, citation resolution, publication state, and representative Unicode.
-7. Push a second small commit if necessary to trigger the final Netlify static rebuild against the newly seeded API, as described in `AGENTS.md`.
-8. Verify every new live route plus representative old routes.
+1. Commit the validated guide files and code.
+2. Push `main`; GitHub automatically triggers the Netlify build. Do not use `netlify deploy` for a normal release.
+3. Wait for the Netlify deployment to reach terminal success.
+4. Verify the expected guide count, new slugs, word/source counts, citation resolution, publication state, and representative Unicode in the generated output.
+5. Verify every new live route plus representative old routes.
 
-If deployment or seeding fails, stop publication, keep the pre-seed API snapshot, and use the previous fixture revision as the rollback source. Do not report completion until GitHub, Railway, Payload, Netlify, the production API, and the public routes all agree.
+If deployment fails, stop publication and use the previous Git revision as the rollback source. Do not report completion until GitHub, Netlify, and the public routes all agree.
 
 ## Adding a Guide to the Repository
 
@@ -546,10 +542,10 @@ For each accepted guide:
 1. Create `packages/content/src/guides/<slug>.ts` with one exported fixture.
 2. Import and append it in `packages/content/src/guides/index.ts`.
 3. Re-export it from the same index if direct imports are useful.
-4. Run validation and stats immediately; a guide absent from the index is absent from validation, seeding, and static route generation.
+4. Run validation and stats immediately; a guide absent from the index is absent from validation and static route generation.
 5. Confirm the slug is unique and lowercase kebab-case.
 6. Confirm `relatedLanguages[].slug` values use canonical existing slugs when links should resolve.
-7. Do not add a Payload migration unless the `LanguageGuide`/collection schema changes. Adding another document through the existing JSON fields requires only fixture registration and seeding.
+7. Add a guide by registering its fixture; no database migration or seeding step exists.
 
 ## Next 70 Languages
 

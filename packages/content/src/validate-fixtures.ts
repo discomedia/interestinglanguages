@@ -1,15 +1,15 @@
-import { sampleGuides } from "./sample-data.js";
+import { languageGuides } from "./language-guides.js";
 import { textOf } from "./citations.js";
 import { collectCitedText, validateLanguageGuide } from "./validation.js";
 
 let hasIssues = false;
 
-if (sampleGuides.length !== 30) {
+if (languageGuides.length !== 30) {
   hasIssues = true;
-  console.error(`Expected 30 guide fixture(s), found ${sampleGuides.length}.`);
+  console.error(`Expected 30 guide fixture(s), found ${languageGuides.length}.`);
 }
 
-for (const guide of sampleGuides) {
+for (const guide of languageGuides) {
   const issues = validateLanguageGuide(guide);
 
   if (issues.length > 0) {
@@ -22,7 +22,7 @@ for (const guide of sampleGuides) {
 }
 
 const paragraphOwners = new Map<string, string[]>();
-for (const guide of sampleGuides) {
+for (const guide of languageGuides) {
   for (const value of collectCitedText({ ...guide, sources: undefined })) {
     const paragraph = textOf(value).replace(/\s+/g, " ").trim().toLowerCase();
     if (paragraph.length < 120) continue;
@@ -40,5 +40,5 @@ for (const [paragraph, owners] of paragraphOwners) {
 if (hasIssues) {
   process.exitCode = 1;
 } else {
-  console.log(`Validated ${sampleGuides.length} guide fixture(s).`);
+  console.log(`Validated ${languageGuides.length} guide fixture(s).`);
 }

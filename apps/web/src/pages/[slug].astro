@@ -3,17 +3,17 @@ import SiteFooter from "../components/SiteFooter.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 import CitedText from "../components/CitedText.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { fetchLanguageGuide, fetchLanguageGuideSummaries, siteUrl } from "../lib/content";
+import { getLanguageGuide, getLanguageGuideSummaries, siteUrl } from "../lib/content";
 
 export async function getStaticPaths() {
-  const summaries = await fetchLanguageGuideSummaries();
+  const summaries = getLanguageGuideSummaries();
   return summaries.map((guide) => ({
     params: { slug: guide.slug }
   }));
 }
 
 const { slug } = Astro.params;
-const guide = slug ? await fetchLanguageGuide(slug) : undefined;
+const guide = slug ? getLanguageGuide(slug) : undefined;
 
 if (!guide) {
   return Astro.redirect("/");

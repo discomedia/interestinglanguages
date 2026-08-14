@@ -190,11 +190,3 @@ export type LanguageGuide = LanguageGuideSummary & {
   phrases: StarterPhrase[];
   sources: ContentSource[];
 };
-
-export type PublicGuideListResponse = {
-  docs: LanguageGuideSummary[];
-};
-
-export type PublicGuideResponse = {
-  doc: LanguageGuide;
-};

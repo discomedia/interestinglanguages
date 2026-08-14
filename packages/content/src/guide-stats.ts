@@ -1,8 +1,8 @@
-import { sampleGuides } from "./sample-data.js";
+import { languageGuides } from "./language-guides.js";
 import { collectCitedText, guideWordCount } from "./validation.js";
 import { sourceIdsOf } from "./citations.js";
 
-for (const guide of sampleGuides) {
+for (const guide of languageGuides) {
   const citedSources = new Set(collectCitedText({ ...guide, sources: undefined }).flatMap(sourceIdsOf));
   console.log([
     guide.slug.padEnd(18),

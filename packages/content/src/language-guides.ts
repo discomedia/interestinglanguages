@@ -3,4 +3,4 @@ import type { LanguageGuide } from "./types.js";
 
 export { swahiliGuide };
 
-export const sampleGuides: LanguageGuide[] = guideFixtures;
+export const languageGuides: LanguageGuide[] = guideFixtures;

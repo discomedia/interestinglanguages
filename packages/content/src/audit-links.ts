@@ -1,6 +1,6 @@
-import { sampleGuides } from "./sample-data.js";
+import { languageGuides } from "./language-guides.js";
 
-const urls = [...new Set(sampleGuides.flatMap((guide) => [
+const urls = [...new Set(languageGuides.flatMap((guide) => [
   ...guide.sources.map((source) => source.url),
   ...guide.resources.map((resource) => resource.url),
   ...guide.advancedLearning.resources.map((resource) => resource.url)

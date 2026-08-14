@@ -1,65 +1,16 @@
 import {
-  sampleGuides,
-  toGuideSummary,
+  getPublishedGuideSummaries,
+  languageGuides,
   type LanguageGuide,
-  type LanguageGuideSummary,
-  type PublicGuideListResponse,
-  type PublicGuideResponse
+  type LanguageGuideSummary
 } from "@interesting-languages/content";
 
-const apiBase =
-  import.meta.env.PAYLOAD_PUBLIC_API_URL ??
-  process.env.PAYLOAD_PUBLIC_API_URL ??
-  process.env.PAYLOAD_ADMIN_URL?.replace(/\/$/, "") + "/api/public";
-
-const useFixtures =
-  import.meta.env.CONTENT_USE_FIXTURES === "true" ||
-  process.env.CONTENT_USE_FIXTURES === "true";
-
-async function fetchJson<T>(path: string): Promise<T | undefined> {
-  if (!apiBase || apiBase.includes("undefined")) {
-    return undefined;
-  }
-
-  try {
-    const response = await fetch(`${apiBase.replace(/\/$/, "")}${path}`);
-
-    if (!response.ok) {
-      console.warn(`Payload content API returned ${response.status} for ${path}. Falling back to fixtures.`);
-      return undefined;
-    }
-
-    return (await response.json()) as T;
-  } catch (error) {
-    console.warn(`Payload content API unavailable for ${path}. Falling back to fixtures.`, error);
-    return undefined;
-  }
+export function getLanguageGuideSummaries(): LanguageGuideSummary[] {
+  return getPublishedGuideSummaries(languageGuides);
 }
 
-export async function fetchLanguageGuideSummaries(): Promise<LanguageGuideSummary[]> {
-  if (useFixtures) {
-    return sampleGuides.filter((guide) => guide.status === "published").map(toGuideSummary);
-  }
-  const apiResponse = await fetchJson<PublicGuideListResponse>("/language-guides");
-
-  if (apiResponse?.docs?.length) {
-    return apiResponse.docs;
-  }
-
-  return sampleGuides.filter((guide) => guide.status === "published").map(toGuideSummary);
-}
-
-export async function fetchLanguageGuide(slug: string): Promise<LanguageGuide | undefined> {
-  if (useFixtures) {
-    return sampleGuides.find((guide) => guide.slug === slug && guide.status === "published");
-  }
-  const apiResponse = await fetchJson<PublicGuideResponse>(`/language-guides/${slug}`);
-
-  if (apiResponse?.doc) {
-    return apiResponse.doc;
-  }
-
-  return sampleGuides.find((guide) => guide.slug === slug && guide.status === "published");
+export function getLanguageGuide(slug: string): LanguageGuide | undefined {
+  return languageGuides.find((guide) => guide.slug === slug && guide.status === "published");
 }
 
 export function siteUrl(path = "/"): string {

@@ -3,9 +3,9 @@ import { LanguageSearch } from "../components/LanguageSearch";
 import SiteFooter from "../components/SiteFooter.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { fetchLanguageGuideSummaries, siteUrl } from "../lib/content";
+import { getLanguageGuideSummaries, siteUrl } from "../lib/content";
 
-const guides = await fetchLanguageGuideSummaries();
+const guides = getLanguageGuideSummaries();
 const title = "Interesting Languages";
 const description = "Source-backed language reference guides for advanced learners.";
 ---

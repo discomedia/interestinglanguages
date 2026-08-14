@@ -25,17 +25,15 @@ The first 30 guides are:
 
 Swahili, Arabic, Mandarin Chinese, Japanese, Korean, Hindi, Urdu, Turkish, Persian, Hebrew, Greek, Russian, Polish, Welsh, Irish, Finnish, Hungarian, Basque, Georgian, Armenian, Vietnamese, Thai, Indonesian, Tagalog, Tamil, Amharic, Yoruba, Navajo, Quechua, and Nahuatl.
 
-Canonical fixtures live under `packages/content/src/guides/`. Run `npm run content:validate` before seeding or deploying.
+Canonical guides live under `packages/content/src/guides/`. Run `npm run content:validate` before deploying.
 
 ## Workflow
 
 1. Update the relevant standalone guide fixture under `packages/content/src/guides/`.
 2. Run `npm run content:validate`.
-3. Run `npm run build:web` and review generated pages locally.
-4. Run `npm run migrate:admin` when Payload schema fields change.
-5. Run `npm run seed:guides` against the target Payload environment.
-6. Confirm `GET /api/public/language-guides` returns the expected published guide count.
-7. Publish/deploy the public site through Netlify.
+3. Run `npm run build`, serve the generated site, and review representative pages locally.
+4. Commit and push `main`; Netlify builds directly from the committed guide files.
+5. Wait for the Netlify deployment to succeed, then verify every affected live route.
 
 ## Public Site Direction
 

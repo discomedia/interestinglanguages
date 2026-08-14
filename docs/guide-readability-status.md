@@ -35,4 +35,4 @@ This tracker records which original long-form guides have received the plain-lan
 | Quechua | `quechua` | Pending | — |
 | Nahuatl | `nahuatl` | Pending | — |
 
-Update a row to `Complete` only after its production API document and live static page both pass verification. Keep the original `publishedAt`; Payload's `updatedAt` records the rewrite.
+Update a row to `Complete` only after root QA, the Netlify deployment, and the live static page all pass verification. Preserve the guide's original `publishedAt` when rewriting it.
