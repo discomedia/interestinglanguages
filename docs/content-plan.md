@@ -27,6 +27,10 @@ Swahili, Arabic, Mandarin Chinese, Japanese, Korean, Hindi, Urdu, Turkish, Persi
 
 Canonical guides live under `packages/content/src/guides/`. Run `npm run content:validate` before deploying.
 
+## Publication Status (2026-09-27)
+
+All 30 seed guides are live. Eight guides from the 70-language expansion roadmap are also live: Spanish, Estonian, Cantonese, Shanghainese, Pashto, Uzbek, Māori, and Samoan. Their Cloudflare Pages routes passed live verification, leaving 62 roadmap entries pending. The detailed status of each roadmap entry is in [`creating-language-guides.md`](./creating-language-guides.md).
+
 ## Workflow
 
 1. Add or revise the standalone guide fixture under `packages/content/src/guides/`; register a new guide in `guides/index.ts`.

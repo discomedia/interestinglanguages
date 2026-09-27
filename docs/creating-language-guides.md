@@ -610,13 +610,13 @@ This is the recommended next expansion set. It balances learner demand, global a
 18. Maltese
 19. Yiddish
 20. Lithuanian
-21. Estonian
+21. Estonian — published 2026-09-27; Cloudflare Pages release and live verification passed
 
 ### Wave 4: East and Inner Asia
 
-22. Cantonese
+22. Cantonese — published 2026-09-27; Cloudflare Pages release and live verification passed
 23. Taiwanese Hokkien
-24. Shanghainese (Wu Chinese)
+24. Shanghainese (Wu Chinese) — published 2026-09-27; Cloudflare Pages release and live verification passed
 25. Tibetan
 26. Burmese
 27. Mongolian
@@ -646,11 +646,11 @@ This is the recommended next expansion set. It balances learner demand, global a
 
 43. Sinhala
 44. Kannada
-45. Pashto
+45. Pashto — published 2026-09-27; Cloudflare Pages release and live verification passed
 46. Kurdish (with Kurmanji and Sorani scope made explicit)
 47. Azerbaijani
 48. Kazakh
-49. Uzbek
+49. Uzbek — published 2026-09-27; Cloudflare Pages release and live verification passed
 
 ### Wave 8: major African languages and contact histories
 
@@ -678,8 +678,8 @@ This is the recommended next expansion set. It balances learner demand, global a
 65. Jamaican Patois
 66. Guaraní
 67. Greenlandic (Kalaallisut)
-68. Māori
+68. Māori — published 2026-09-27; Cloudflare Pages release and live verification passed
 69. Hawaiian
-70. Samoan
+70. Samoan — published 2026-09-27; Cloudflare Pages release and live verification passed
 
 Before assigning any of these, confirm the canonical public name, slug, autonym, guide scope, and whether a broad label should become more than one guide. In particular, treat Chinese varieties, Tibetan, Kurdish, Punjabi, Akan/Twi, and signed languages as scope decisions rather than simple metadata choices. American Sign Language will also require an intentional content-model and renderer review: signed-language phonology and production must not be forced into speech-centric “pronunciation” copy, and the absence of a single everyday writing system should not be presented as a deficiency.
