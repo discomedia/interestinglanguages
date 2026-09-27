@@ -26,13 +26,13 @@ This tracker records which original long-form guides have received the plain-lan
 | Georgian | `georgian` | Complete | 2026-09-27 |
 | Armenian | `armenian` | Complete | 2026-09-27 |
 | Thai | `thai` | Complete | 2026-09-27 |
-| Indonesian | `indonesian` | Pending | — |
-| Tagalog | `tagalog` | Pending | — |
-| Tamil | `tamil` | Pending | — |
-| Amharic | `amharic` | Pending | — |
-| Yoruba | `yoruba` | Pending | — |
-| Navajo | `navajo` | Pending | — |
-| Quechua | `quechua` | Pending | — |
-| Nahuatl | `nahuatl` | Pending | — |
+| Indonesian | `indonesian` | Complete | 2026-09-27 |
+| Tagalog | `tagalog` | Complete | 2026-09-27 |
+| Tamil | `tamil` | Complete | 2026-09-27 |
+| Amharic | `amharic` | Complete | 2026-09-27 |
+| Yoruba | `yoruba` | Complete | 2026-09-27 |
+| Navajo | `navajo` | Complete | 2026-09-27 |
+| Quechua | `quechua` | Complete | 2026-09-27 |
+| Nahuatl | `nahuatl` | Complete | 2026-09-27 |
 
 Update a row to `Complete` only after root QA, the Cloudflare Pages deployment, and the live static page all pass verification. Preserve the guide's original `publishedAt` when rewriting it.
