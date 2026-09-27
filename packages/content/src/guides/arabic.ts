@@ -68,7 +68,14 @@ export const arabicGuide = {
     { label: "Public reach", value: "Education, publishing, news, institutions, and formal cross-border speech" },
     { label: "UN status", value: "Arabic has been an official UN language since 1973" }
   ],
-  learnerOverview: "This guide anchors every script, pronunciation, grammar, and phrase example in Modern Standard Arabic. MSA gives you a stable target for reading and formal communication, even though no single city owns its pronunciation.\n\nThink of MSA as the shared formal layer of a much larger Arabic world. A news presenter from Tunisia and a lecturer from Jordan may both use it, but their voices can still reveal where they come from.\n\nYour goal decides what comes next. If you mainly want books, current affairs, public talks, or academic work, MSA can stay at the center; if you want relaxed conversation with family or friends, pair it early with the variety they actually speak.\n\nThe two tracks support each other without doing the same job. MSA makes signs, articles, subtitles, and formal vocabulary easier to recognize, while a regional variety teaches you how people joke, interrupt, soften requests, and tell stories at home.",
+  introduction: cited(
+    "Arabic is spoken across North Africa, the Arabian Peninsula, and much of the Middle East, with Arabic-speaking communities elsewhere in the world. It belongs to the Central Semitic branch of the Afro-Asiatic language family. Yet the name covers a range of related ways of speaking: a conversation in Moroccan Arabic can sound quite different from one in Egyptian or Levantine Arabic.\n\nMany Arabic speakers first speak a local variety at home. Modern Standard Arabic, or MSA, is the shared formal variety taught in schools and used for much news, publishing, and official writing across the region. The language of a news report can therefore differ from the everyday speech of the people it interviews, even when both count as Arabic.\n\nArabic writing runs from right to left. Many letters join their neighbors and change shape according to their position in a word, while short-vowel marks are usually left out of ordinary print. That leaves readers to supply some vowel sounds from the words around them.",
+    "wiki-arabic",
+    "wiki-msa",
+    "glottolog-arabic",
+    "cambridge-diglossia",
+    "unicode-arabic"
+  ),
   origins: {
     overview: cited(
       "Arabic belongs to the Semitic branch of the Afro-Asiatic family. Old Arabic inscriptions predate Islam, while the Qur'an and early poetry became central witnesses to the classical literary language that later writers and grammarians studied in detail.",

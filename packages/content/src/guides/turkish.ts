@@ -31,7 +31,14 @@ export const turkishGuide = {
     { label: "Gender", value: "No grammatical gender in pronouns or nouns" },
     { label: "Major communities", value: "Türkiye, Cyprus, the Balkans, and a large European diaspora" }
   ],
-  learnerOverview: "Evlerimizden means “from our houses.” Turkish adds pieces to ev, “house,” in a set order: ev-ler-imiz-den. You will meet that same pattern in ordinary words, not only in textbook puzzles.\n\nModern spelling gives you a strong start because letters usually point to the same sounds. The endings for plural, location, possession, and time also repeat across thousands of words. Listen for those endings in whole sentences while you learn their shapes.\n\nBegin with expressions you can actually say, such as Kolay gelsin to someone working and Görüşürüz when you part. Then notice how a speaker places the main verb near the end and may leave out “I” or “you” because the ending already identifies the person. Later, longer clauses will ask you to track who did what before the sentence reaches its final verb.",
+  introduction: cited(
+    "Turkish is spoken by families across Türkiye and by communities in Cyprus, the Balkans, and Western Europe, especially Germany. It belongs to the Oghuz branch of the Turkic language family, alongside Azerbaijani. Its presence across these regions reflects centuries of movement as well as more recent migration.\n\nModern Turkish is written in a 29-letter Latin alphabet adopted in 1928, when it replaced the Arabic-derived alphabet used for Ottoman Turkish. Its dotted i and dotless ı stand for different vowel sounds, a small but consequential distinction in names and everyday words. The alphabet change also means an older Ottoman document looks very different from a contemporary Turkish newspaper.\n\nTurkish words often grow by adding endings in a set order. Evlerimizden, meaning “from our houses,” joins ev, “house,” with endings for plural, possession, and movement away; the vowels in many endings adjust to the word they follow. The same pattern carries information about time, place, and people through ordinary conversation, while regional and diaspora varieties give familiar forms their own local sounds and expressions.",
+    "wiki-turkish",
+    "glottolog",
+    "unicode-latin",
+    "dd-grammar",
+    "dd-vowels"
+  ),
   origins: {
     overview: cited("Turkish belongs to the Oghuz branch of the Turkic language family. Oghuz-speaking groups moved west into Iran and Anatolia over centuries and lived alongside speakers of Greek, Armenian, Kurdish, Arabic, Persian, and other languages. Written Anatolian Turkish appears in the late medieval record.\n\nOttoman writers later used Turkish across an empire and drew heavily on Arabic and Persian for learned vocabulary. Their most elaborate court prose differed from everyday speech, which varied from place to place. Modern Turkish grew from these earlier forms and kept Turkic grammar through those changes.", "wiki-turkish", "glottolog"),
     timeline: [

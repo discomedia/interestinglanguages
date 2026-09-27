@@ -139,7 +139,7 @@ export type LanguageGuide = LanguageGuideSummary & {
   classification: string;
   speakerCommunity: string;
   facts: GuideFact[];
-  learnerOverview: string;
+  introduction: { text: string; sourceIds: string[] };
   origins: {
     overview: CitedText;
     timeline: TimelineEvent[];

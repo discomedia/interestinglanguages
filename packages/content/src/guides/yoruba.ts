@@ -66,7 +66,13 @@ export const yorubaGuide = {
     { label: "Standard", value: "Standard Yoruba, historically shaped by Oyo/Ibadan speech and print practice" },
     { label: "Writing", value: "Latin alphabet with ẹ, ọ, ṣ and acute/grave tone marks" }
   ],
-  learnerOverview: "High tone takes an acute mark, low tone a grave, and middle tone usually goes unmarked. Write Yorùbá with its marks and keep a speaker recording beside each new phrase. An unmarked word such as ọkọ can stand for several words once its tones are supplied.\n\nStart with short exchanges. Ẹ káàárọ̀ says “good morning” with a respectful or plural “you,” while Mo ń kọ́ Yorùbá means “I am learning Yoruba.” In the second phrase, ń helps show that the action is in progress.\n\nStandard Yoruba gives you books, classes, and news across regions. Learn it with someone whose speech you can listen to regularly, then note where their local forms differ from a textbook. An Ibadan tutor, an Ekiti family, and a Lagos comedy sketch need not sound alike.",
+  introduction: cited(
+    "Yoruba is spoken most widely in southwestern Nigeria, with communities in neighboring Benin and Togo and across a wider diaspora. In current classifications it belongs to the Yoruboid group within Volta–Niger, commonly placed in the broader Niger–Congo family. A language profile published in 2023, drawing on earlier estimates, put first-language speakers above 50 million; counts vary with the varieties included and how speakers are recorded.\n\nYoruba has regional varieties that differ in sound, words, and grammar. A written standard helps connect schooling, newspapers, books, and broadcasting across those differences. Its public history includes nineteenth-century wordlists and grammars, as well as later decisions about how to represent sounds in print.\n\nYoruba uses high, middle, and low speech tones, so changing the pitch of a syllable can change a word's meaning. Standard spelling marks high and low with accents, while middle is usually unmarked. Talking drums can imitate patterns of spoken Yoruba in musical performance.",
+    "language-profiles",
+    "glottolog-yoruba",
+    "uga-about",
+    "uga-tones"
+  ),
   origins: {
     overview: cited(
       "Yoruba belongs to the Yoruboid branch of the Niger–Congo family. Older sources often use the wider label Defoid, but that name does not settle every proposed family relationship. Linguists compare regular sound and grammar patterns to trace earlier speech.\n\nYoruba-speaking societies grew through linked towns, trade, farming, kingdoms, and religious institutions. Ilé-Ifẹ̀, Ọ̀yọ́, Ìjẹ̀bú, Ẹ̀gbá, Ondo, and Ekiti each have histories. Accounts of Odùduwà and Ilé-Ifẹ̀ carry cultural and political meaning; they answer different questions from a linguistic family tree.",

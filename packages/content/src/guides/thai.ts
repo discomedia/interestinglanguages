@@ -66,7 +66,16 @@ export const thaiGuide = {
     { label: "Word spacing", value: "Spaces usually separate larger phrases, not every word" },
     { label: "Major contact layers", value: "Pali, Sanskrit, Khmer, Chinese varieties, Malay, and English" }
   ],
-  learnerOverview: "The written word ไหม can ask a question or mean 'silk'. Its place in a sentence tells you which meaning fits. Thai's writing system carries sound clues that a road sign's Latin letters usually leave out.\n\nVerbs don't change for person, and nouns have no grammatical gender. That makes some first sentences simple, but tone, vowel length, missing subjects, and final particles give short sentences several layers of meaning. Start listening and reading together, then ask a teacher to check the sounds and the social setting of your examples.",
+  introduction: cited(
+    "Thai is heard from Bangkok's national newsrooms and classrooms to households across the country. Standard Thai grew from Central Thai and serves government, education, and much national media, while many people also speak Isan, Northern Thai, Southern Thai, or other home languages. Thai-speaking communities abroad continue family conversation and gather around schools, temples, associations, and media.\n\nThai belongs to the Southwestern Tai branch of the Kra-Dai family, which also includes Lao and several regional languages of Thailand. Standard Thai draws especially on educated Bangkok speech, while local varieties reflect different regional histories and contacts. In conversation, people choose pronouns, names, and sentence-ending particles in ways that signal familiarity, respect, or social distance.\n\nThe script makes the link between sound and meaning visible. ปา (paa) means “throw”, ป่า (pàa) means “forest”, and ป้า (pâa) means “aunt”: the same consonant and vowel take different marks and tones. Standard Thai has five lexical tones, and a syllable's tone depends on its consonant class, mark, and ending; some written vowel signs also appear before the consonant they follow in speech.",
+    "wiki-thai",
+    "glottolog-thai",
+    "enfield-thai-isan-lao",
+    "wiki-northern-thai",
+    "unicode-thai",
+    "thai-dictionary",
+    "iwasaki-register"
+  ),
   origins: {
     overview: cited(
       "Thai belongs to the Southwestern Tai branch of Kra-Dai. Its ancestors developed among Tai-speaking communities in mainland Southeast Asia, where other languages and trade networks were already established.\n\nCentral Thai grew around political and river-trade centers that included Sukhothai and Ayutthaya. When the political center moved to Thonburi and then Bangkok after Ayutthaya's fall in 1767, speakers kept adapting the language. Khmer, Pali, Sanskrit, Chinese varieties, and other contacts left different marks on its vocabulary and writing.",

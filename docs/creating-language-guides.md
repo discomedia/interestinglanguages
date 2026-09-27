@@ -68,7 +68,7 @@ export const exampleGuide: LanguageGuide = {
   classification: "...",
   speakerCommunity: "...",
   facts: [],
-  learnerOverview: "...",
+  introduction: cited("A short, sourced article introduction to the language, its speakers, and where it is used.", "source-id"),
   origins: {
     overview: cited("...", "source-id"),
     timeline: [],
@@ -139,7 +139,7 @@ The renderer groups fields into a readable article rather than displaying them i
 
 | Editorial area | Approximate words | What it should accomplish |
 | --- | ---: | --- |
-| Opening and learner overview | 250–350 | Begin with a concrete linguistic or cultural observation. Explain why the language is interesting without generic praise. |
+| Article introduction | 140–210 | Introduce the language, its speaker communities and regions, its family or classification, and one distinctive feature or historical context. Qualify dated speaker counts. Save study instructions for the learning sections. |
 | Origins, contact, and standardization | 400–600 | Explain descent, historical stages, contact layers, writing/print institutions, and how a standard emerged. |
 | Speakers, places, variants, and registers | 350–500 | Distinguish first-language, additional-language, heritage, diaspora, regional, social, and formal uses. |
 | Pronunciation and prosody | 300–450 | Explain the sound system, rhythm/tone/stress, learner traps, and approximately five revealing examples. |
@@ -281,7 +281,7 @@ When explaining a language with several standards or names, start with the simpl
 
 Good prose does the following:
 
-- Opens with a form, sound, contrast, social choice, or text that the article later explains.
+- Opens as an article about the named language: who speaks it, where it is used, and how it is classified. Add a specific feature or context once the reader knows what language the article covers.
 - Uses active voice, concrete subjects, and colloquial phrasing.
 - Keeps paragraphs to one, two, or three sentences—never more.
 - Introduces one main idea at a time instead of piling up facts.
@@ -407,8 +407,10 @@ Editorial requirements
   clauses, strings of semicolons, academic noun phrases, and data-dump prose.
 - Explain the simple picture first, then add technical terms, exceptions, and
   regional nuance. Complexity must be unpacked, not deleted or compressed.
-- Make the opening unmistakably about [LANGUAGE]. Do not use interchangeable
-  praise such as “rewards learners,” “opens doors,” or “rich tapestry.”
+- Write the `introduction` as a normal article lead about [LANGUAGE], its
+  speakers, locations, and classification. Use a dated or qualified count when
+  supported, then give one distinctive detail. Keep learner instructions and
+  study sequences in the learning sections. Avoid interchangeable praise.
 - Cover the speaker/community context, origins, contact history,
   standardization, variants and registers, pronunciation, prosody, writing,
   grammar, where spoken, relationships, cultural use, learning strategy,

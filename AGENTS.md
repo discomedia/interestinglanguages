@@ -43,6 +43,8 @@ The complete creation workflow, research standards, reusable subagent prompt, QA
 
 The status of the original catalog's plain-language rewrites lives in `docs/guide-readability-status.md`. Mark a guide complete only after root QA, a successful Cloudflare Pages deployment, and live-page verification.
 
+Each guide's cited `introduction` appears directly below its title. Write it as an article lead about the language, its speakers and locations, and its classification before moving to learning advice in later sections.
+
 Guide prose should use active voice and readable, conversational phrasing. Keep every paragraph to no more than three sentences, give it one main idea, and explain the simple picture before adding terminology, exceptions, or regional nuance.
 
 - Slug, name, autonym, status, publication date, summary, family/classification, macro-region, primary script, difficulty label, learner hook, and speaker/community overview.

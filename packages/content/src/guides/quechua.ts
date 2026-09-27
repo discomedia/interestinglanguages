@@ -67,7 +67,16 @@ export const quechuaGuide = {
     { label: "Common self-names", value: "Runasimi, Runa shimi, Qichwa, Qhichwa, Kichwa, and local names" },
     { label: "Writing", value: "Several Latin-based official and community orthographies" }
   ],
-  learnerOverview: "Before you choose a course, decide whose speech you want to understand. A Cusco course can help around Cusco, but it won't prepare you automatically for Ancash Quechua or Ecuadorian Kichwa. Ask your teacher which town and family variety their examples reflect.\n\nThis guide uses Cusco-Collao Southern Quechua for its main sound and grammar examples. It labels Ayacucho and Ecuadorian Kichwa forms when they appear. Keep the spelling and a recording with each new phrase so you don't blend forms from several communities.\n\nIn allillanmi, “I'm well,” the small ending -mi presents the answer as a grounded statement. You can learn that piece inside a real exchange before studying its full range. Pair a writing manual with radio or conversation, since the page and the speaker teach different skills.",
+  introduction: cited(
+    "Quechua lives across the Andes and nearby Amazonian regions, in family conversations, schools, city neighborhoods, and radio broadcasts. Peru's Ministry of Culture places Quechuan varieties in seven South American countries: Peru, Ecuador, Colombia, Bolivia, Argentina, Chile, and Brazil. In Ecuador, Kichwa names related northern varieties and an educational standard with its own spelling and textbooks.\n\nQuechua is a family of related languages, not a single uniform form of speech. Linguists commonly distinguish a Central branch in Peru from the more widespread Quechua II branch, and distant varieties can differ enough that speakers need time to understand one another. Peru's 2017 census counted 3,805,531 people who learned to speak Quechua in childhood; that figure describes one country's census question, not the number who use any Quechuan language today.\n\nOne sound shows how much place matters: in Cusco-Collao Quechua, k, kh, and k' can distinguish words, while Ayacucho Quechua lacks that three-way contrast. In many Southern varieties, endings also show relationships that English often expresses with separate words, so wasi means “house” and wasipi means “in the house.” Peru publishes separate Southern and Central writing manuals, while Ecuador publishes Kichwa school materials that reflect its own language forms.",
+    "bdpi-quechua",
+    "bdpi-people",
+    "ecuador-eib",
+    "glottolog-quechuan",
+    "minedu-southern",
+    "soto-ayacucho",
+    "radio-nuqanchik"
+  ),
   origins: {
     overview: cited(
       "Quechuan languages existed before the Inca state. Linguists trace them to an earlier common ancestor, with deep diversity in central Peru. They still debate the exact homeland and routes of expansion.\n\nThe Inca state spread an interregional Quechua across a multilingual empire. Other languages continued to be spoken, and several Quechuan branches had histories of their own. Quechua later spread further under colonial rule as officials and missionaries used it for administration and religious teaching.\n\nDomingo de Santo Tomás published a grammar and dictionary in 1560. Those books show an established language being written for colonial purposes; they don't record every community's speech.",

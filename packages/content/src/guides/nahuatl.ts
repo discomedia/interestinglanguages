@@ -65,7 +65,17 @@ export const nahuatlGuide = {
     { label: "Writing", value: "Multiple Latin orthographies; no single community-neutral spelling" },
     { label: "Legal position", value: "A national Indigenous language with equal validity in its territory, location, and context" }
   ],
-  learnerOverview: "Start with the speech of one town. If your family speaks Nahuatl, ask which local forms they use. If you're starting without that connection, the free University of Texas and IDIEZ course teaches the variety spoken around Chicontepec, Veracruz.\n\nThe course begins with exchanges such as Piyalli, ¿quēniuhqui motōcah?—‘Hello, what is your name?’ Its reply, Na notōcah Paty, shows how a name fits into a whole sentence. Listen to the recordings before taking a word apart.\n\nOne Nahuatl verb can show who acts and who receives an action. In the same course, nimītztlahpaloa means ‘I greet you.’ The pieces become easier to hear after you know the spoken phrase.\n\nClassical Nahuatl is a separate study target for colonial documents, poetry, and the Florentine Codex. It can explain history, but its textbook forms do not stand in for a living community's conversation. Credit and compensate the people who teach you.",
+  introduction: cited(
+    "Nahuatl is a group of related living languages in the Nahuan branch of the Uto-Aztecan family, spoken by Nahua communities across Mexico and by families who have moved beyond it. Mexico's 2020 census counted 1,651,958 people aged three or older who reported speaking Nahuatl; that measure does not include everyone with Nahua identity or partial knowledge of a variety. INALI identifies 30 variants, including forms spoken in the Huasteca, central Puebla, Guerrero, and other regions.\n\nA verb can name both people in an exchange: in the Chicontepec variety of Veracruz, nimītztlahpaloa means ‘I greet you,’ with its opening pieces identifying the speaker and the person greeted. Nahua authors also left a large written record after the Spanish invasion, adapting Latin letters for town records, wills, poetry, and other texts while continuing older traditions of painted manuscripts and oral interpretation. Classical Nahuatl names historical central Mexican forms preserved in much of that colonial archive; it is related to today's languages but does not stand as their shared spoken standard.",
+    "inegi-2020",
+    "inali-overview",
+    "inali-catalog",
+    "glottolog-nahuatl",
+    "ut-course",
+    "ut-unit-11",
+    "wiki-history",
+    "gdn-unam"
+  ),
   origins: {
     overview: cited(
       "Nahuatl belongs to the Nahuan branch of the Uto-Aztecan family. Nahuan languages were spoken by many communities before the Mexica empire grew. Tlaxcalans, Acolhua, Chalca, and other Nahua groups had their own histories.\n\nPeople used these languages in trade, alliances, and government. The power of Tenochtitlan gave a central variety wider reach, but it did not make all Nahua people Mexica.\n\nBefore alphabetic writing, trained readers worked with painted manuscripts, place signs, calendars, and oral explanation. After the Spanish invasion, Nahua writers adapted Latin letters for local records, wills, petitions, histories, songs, and other texts. Those writings give us Indigenous voices working under colonial constraints.",

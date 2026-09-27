@@ -1,6 +1,6 @@
 import type { CitedText } from "./types.js";
 
-export function cited(text: string, ...sourceIds: string[]): CitedText {
+export function cited(text: string, ...sourceIds: string[]): { text: string; sourceIds: string[] } {
   return { text, sourceIds };
 }
 

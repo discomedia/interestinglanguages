@@ -67,7 +67,14 @@ export const tagalogGuide = {
     { label: "Writing", value: "Modern Latin alphabet; Baybayin has historical and contemporary cultural use" },
     { label: "Signature grammar", value: "Philippine-type voice, aspect-rich verbs, case-marking particles, and linkers" }
   ],
-  learnerOverview: "Kumain ako ng mangga means “I ate a mango.” Kinain ko ang mangga can describe the same meal, but now the mango has the ang marking and the verb takes a different form. Start by learning these complete pairings aloud.\n\nSmall words carry social meaning too. Po can add respect; pala can show that you have just realized something. Ask speakers when a phrase sounds natural with friends, at home, or in formal Filipino.\n\nTagalog names a regional language and also supplies the main structure of Filipino, the national language. The names often overlap in daily use. Learning either one calls for respect toward the country’s many other languages.",
+  introduction: cited(
+    "Tagalog is a Central Philippine language in the Austronesian family, rooted in Manila and neighboring parts of Luzon. Tagalog-speaking communities also live elsewhere in the Philippines and in the Filipino diaspora, where family speech may share space with other languages. In the 2020 Philippine census, 10.52 million households reported Tagalog as the language generally spoken at home; that figure counts households, not individual speakers.\n\nTagalog provides the main structure of Filipino, the Philippines' national language and one of its official languages alongside English. The names often overlap in everyday use, while the constitution calls for Filipino to develop using other Philippine languages as well. That national role sits alongside the country's many other home languages, including Cebuano, Ilocano, and Hiligaynon.\n\nToday's Tagalog is usually written in Latin letters. Earlier writers used Baybayin, a Philippine script documented in Tagalog texts by the mid-1500s. In Baybayin, a consonant sign carries an a sound unless a mark changes it, so its letters work differently from the Latin alphabet now seen in books and messages.",
+    "psa-language",
+    "constitution",
+    "glottolog",
+    "unicode-baybayin",
+    "wiki-tagalog"
+  ),
   origins: {
     overview: cited(
       "Tagalog belongs to the Austronesian family. Its closer relatives include other Central Philippine languages, while more distant relatives stretch across Island Southeast Asia and the Pacific. The familiar explanation of its name links tagá-ilog to people “from the river”; that short etymology cannot capture the full history of Tagalog communities.\n\nBefore Spanish colonization, people around Manila Bay and southern Luzon traded across a multilingual maritime region. Some used writing traditions now grouped under Baybayin. Spanish rule brought Christianity, colonial institutions, print, and many loanwords; missionaries also recorded Tagalog in grammars and dictionaries.\n\nAmerican colonial schooling later strengthened English. Tagalog kept its inherited grammatical structure while speakers adapted words, scripts, and public uses over centuries of contact.",

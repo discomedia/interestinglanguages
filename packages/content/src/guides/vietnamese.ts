@@ -67,7 +67,16 @@ export const vietnameseGuide = {
     { label: "Tone", value: "Six tone spellings, with different regional sound systems" },
     { label: "Grammar", value: "Usually subject–verb–object, with classifiers, aspect words, and sentence particles" }
   ],
-  learnerOverview: "This guide uses contemporary standard written Vietnamese and a careful Hà Nội pronunciation as its main learning anchor. That choice gives every example a consistent sound model, but it does not make northern speech more authentic than the voices of Hồ Chí Minh City, Huế, the Mekong Delta, or Vietnamese communities overseas. You should choose Southern Vietnamese instead if that is the language of your family, partner, neighborhood, or future home.",
+  introduction: cited(
+    "Vietnamese is heard in homes, schools, markets, newsrooms, songs, and online conversations throughout Vietnam. Migration has also carried it into families and community organizations in the United States, Australia, Canada, France, and other countries. A voice from Hà Nội, Huế, or Hồ Chí Minh City may sound different while using the same national written standard.\n\nVietnamese belongs to the Vietic branch of the Austroasiatic family, with Mường among its closer relatives. Centuries of contact with Chinese supplied a substantial layer of vocabulary used in government, scholarship, and other formal settings. Across Vietnam, the language connects people from many backgrounds in public life alongside the country's other languages.\n\nModern Vietnamese uses chữ Quốc ngữ, a Latin-based writing system developed in the seventeenth century. In northern speech, ban can mean “committee”, bàn “table”, and bán “sell”; the accents distinguish tones, while other regions pronounce parts of the tone system differently. Earlier Vietnamese writers also used chữ Nôm, which adapted Chinese characters to write the language; digitized Nôm texts and dictionaries still make that literary record available.",
+    "wiki-vietnamese",
+    "wiki-vietnamese-phonology",
+    "glottolog-vietnamese",
+    "routledge-grammar",
+    "bc-quoc-ngu",
+    "vnu-tones",
+    "nom-foundation"
+  ),
   origins: {
     overview: cited(
       "Vietnamese belongs to the Vietic branch of Austroasiatic, which makes Mường a close relative and Khmer a much more distant one. Earlier Vietic languages probably used consonant clusters and voicing contrasts where modern Vietnamese uses simpler initials and tones. Linguists call the historical creation of tones tonogenesis: old consonant differences gradually turned into differences in pitch and voice quality.",

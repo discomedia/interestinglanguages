@@ -31,8 +31,14 @@ export const mandarinChineseGuide: LanguageGuide = {
     { label: "Core word order", value: "Usually subject–verb–object, strongly shaped by topic and information flow" },
     { label: "Learning profile", value: "Light inflection; sustained demands in listening, vocabulary, literacy, and register" }
   ],
-  learnerOverview:
-    "Mandarin can take you from a family recipe to a livestream, a Taiwanese podcast, or a joke built around similar-sounding words. Beginners can form real sentences early because verbs don't change for person and nouns have no grammatical gender. The language becomes richer through tones, aspect, result complements, classifiers, sentence particles, and characters, so learn those systems together rather than treating them as separate courses.",
+  introduction: cited(
+    "Mandarin varieties are spoken across much of northern and southwestern China and in communities across the world. Many other people use Standard Mandarin as an additional language in school, work, and public life, including speakers of Cantonese, Hokkien, Hakka, and other languages. In Taiwan, Singapore, and mainland China, the standard has different names and local forms; the word ‘Chinese’ by itself does not tell you which spoken language a person uses.\n\nMandarin belongs to the Sinitic branch of the Sino-Tibetan family. The modern standard draws its pronunciation mainly from Beijing speech, although everyday Beijing dialect and classroom Mandarin are not identical. Speakers use tones to distinguish words, while verb forms do not change to agree with ‘I’ or ‘they.’\n\nWriting uses Chinese characters, with simplified and traditional forms in different places; pinyin and zhuyin help readers show pronunciation. These shared elements connect communities, while local vocabulary and speech still matter in any real conversation.",
+    "wiki-mandarin",
+    "dd-facts",
+    "taiwan-moe",
+    "prc-language-law",
+    "unicode-han"
+  ),
   origins: {
     overview: cited(
       "Modern Standard Mandarin grew from northern Sinitic speech, but no single ancient dialect simply turned into today's classroom standard. Officials once used interregional forms called 官话 guānhuà, or 'officials' speech', while educated writers used Literary Chinese across many spoken-language boundaries. Nanjing pronunciation held influence for centuries before Beijing speech became the main model for the modern standard.",

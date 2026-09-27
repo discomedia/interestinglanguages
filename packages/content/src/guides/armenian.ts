@@ -69,7 +69,17 @@ export const armenianGuide = {
     { label: "Orthographies", value: "Reformed spelling in Armenia; traditional spelling in most Western Armenian and Iranian Armenian publishing" },
     { label: "Community reality", value: "A national language in Armenia and a heritage/community language across diverse diasporas" }
   ],
-  learnerOverview: "Choose the Armenian you want to speak with someone. If family or friends use Western Armenian, start there; if you plan to live in Yerevan or follow Armenia-based media, start with Eastern Armenian. Iranian Armenian generally uses Eastern speech with traditional spelling.\n\nBoth standards use the Armenian alphabet, but a letter can sound different in Eastern and Western speech. Courses and dictionaries may also spell a word differently. Label your notes by standard and spelling system so these differences make sense.\n\nRead names and short phrases in Armenian script from the first week. In Eastern Armenian, Ես Երևանում եմ (Yes Yerevanum em), “I’m in Yerevan,” shows a place ending and the position of “am.” Pair a sequenced course with audio and a teacher or speaker who uses your target standard.",
+  introduction: cited(
+    "Armenian is spoken in the Republic of Armenia and in communities shaped by generations of migration. In Armenia it is the language of government, school, and public media; abroad it remains present in homes, schools, churches, books, and broadcasts. Those communities do not all speak or write exactly alike.\n\nArmenian belongs to the Indo-European family as its own branch, rather than as a variety of a neighboring language. Its two main modern literary standards are Eastern and Western Armenian: Eastern anchors public life in Armenia, while Western grew in Ottoman Armenian centers and is now sustained chiefly by diaspora communities. Their speakers share a written inheritance, yet everyday pronunciation, some grammar, and some common words differ.\n\nAround 406 CE, Mesrop Mashtots devised the Armenian alphabet for a Christian community translating scripture and writing worship texts. The same script now carries both standards, but the reformed spelling used in Armenia differs from the traditional spelling retained by most Western Armenian publishers. The difference appears in an ordinary greeting: բարև in Armenia's reformed spelling becomes բարեւ in traditional spelling, even though both mean “hello.”",
+    "glottolog",
+    "wiki-language",
+    "wiki-eastern",
+    "wiki-western",
+    "unicode",
+    "ut-classical",
+    "gulbenkian-western",
+    "nayiri"
+  ),
   origins: {
     overview: cited(
       "Armenian is its own branch of the Indo-European language family. Persian, Greek, and neighboring languages have influenced it, but Armenian did not arise by mixing them.\n\nThe oldest substantial texts follow the creation of the Armenian alphabet by Mesrop Mashtots and collaborators around 405–406 CE. Translations, histories, theology, and poetry soon followed. Some Greek or Syriac works survive only through their Armenian translations.\n\nClassical Armenian later developed into Middle Armenian varieties and two modern literary standards. That long written record lets researchers trace changes over many centuries.",

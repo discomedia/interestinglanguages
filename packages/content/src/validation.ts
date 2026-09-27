@@ -19,7 +19,7 @@ const words = (value: CitedText | undefined): number =>
 
 export function guideWordCount(guide: LanguageGuide): number {
   const values: Array<CitedText | undefined> = [
-    guide.learnerOverview, guide.speakerCommunity,
+    guide.introduction, guide.speakerCommunity,
     guide.origins.overview, ...guide.origins.timeline.map((item) => item.event),
     guide.origins.contactHistory, guide.origins.standardization,
     guide.variants.overview, ...guide.variants.items.map((item) => item.note),
@@ -80,7 +80,10 @@ export function validateLanguageGuide(guide: LanguageGuide): ValidationIssue[] {
   requireText("learnerHook", guide.learnerHook, 70);
   requireText("classification", guide.classification, 20);
   requireText("speakerCommunity", guide.speakerCommunity, 80);
-  requireText("learnerOverview", guide.learnerOverview, 150);
+  requireText("introduction", guide.introduction, 150);
+  if (sourceIdsOf(guide.introduction).length === 0) {
+    issues.push({ path: "introduction", message: "The article introduction needs at least one source citation." });
+  }
   requireText("origins.overview", guide.origins?.overview, 80);
   requireText("origins.contactHistory", guide.origins?.contactHistory, 70);
   requireText("origins.standardization", guide.origins?.standardization, 60);
