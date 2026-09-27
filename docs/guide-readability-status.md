@@ -10,14 +10,14 @@ This tracker records which original long-form guides have received the plain-lan
 | Mandarin Chinese | `mandarin-chinese` | Complete | 2026-07-18 |
 | Korean | `korean` | Complete | 2026-07-18 |
 | Vietnamese | `vietnamese` | Complete | 2026-07-18 |
-| Japanese | `japanese` | Pending | — |
-| Hindi | `hindi` | Pending | — |
-| Urdu | `urdu` | Pending | — |
-| Turkish | `turkish` | Pending | — |
-| Hebrew | `hebrew` | Pending | — |
-| Greek | `greek` | Pending | — |
-| Russian | `russian` | Pending | — |
-| Polish | `polish` | Pending | — |
+| Japanese | `japanese` | Complete | 2026-09-27 |
+| Hindi | `hindi` | Complete | 2026-09-27 |
+| Urdu | `urdu` | Complete | 2026-09-27 |
+| Turkish | `turkish` | Complete | 2026-09-27 |
+| Hebrew | `hebrew` | Complete | 2026-09-27 |
+| Greek | `greek` | Complete | 2026-09-27 |
+| Russian | `russian` | Complete | 2026-09-27 |
+| Polish | `polish` | Complete | 2026-09-27 |
 | Welsh | `welsh` | Pending | — |
 | Irish | `irish` | Pending | — |
 | Finnish | `finnish` | Pending | — |
