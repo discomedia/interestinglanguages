@@ -6,7 +6,7 @@ const relatedLanguages = [
     name: "Aquitanian",
     relationship: "Ancient language closely connected to ancestral Basque",
     explanation: cited(
-      "Personal and divine names recorded in Roman-period Aquitania contain elements that compare convincingly with Basque words and names. Specialists usually treat Aquitanian as ancestral to Basque or as its closest known ancient relative. The evidence is mostly onomastic—names rather than running prose—so it illuminates continuity without giving us a complete ancient grammar.",
+      "Roman-era inscriptions in Aquitania record names with parts that resemble Basque words and names. Scholars see Aquitanian as ancestral to Basque or its closest known ancient relative. Names cannot tell us everything about the language’s everyday grammar.",
       "cambridge-aquitanian",
       "wiki-basque"
     )
@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Spanish",
     relationship: "Dominant Romance contact language south of the Pyrenees",
     explanation: cited(
-      "Spanish is genealogically unrelated to Basque, but centuries of bilingualism have created extensive borrowing, shared discourse habits, and daily code-switching. Most Basque speakers in Spain also speak Spanish. Similar vocabulary can therefore reflect contact, while the core grammar—case suffixes, ergative marking, and auxiliary agreement—remains strikingly different.",
+      "Spanish and Basque come from different language families, but many speakers use both every day. Basque has borrowed Spanish words while keeping its own patterns for endings and verbs. A familiar word may therefore reflect centuries of contact rather than shared ancestry.",
       "survey-2021",
       "wiki-basque"
     )
@@ -24,16 +24,16 @@ const relatedLanguages = [
     name: "French",
     relationship: "Dominant Romance contact language north of the Pyrenees",
     explanation: cited(
-      "French frames education, administration, and much public life in the Northern Basque Country. Northern speech has its own Romance contact layers and sociolinguistic pressures. Learners who know only peninsular Batua media should still listen north of the border, where pronunciation, vocabulary, address forms, and the balance between standard and dialect can differ.",
+      "French is the main language of school, government, and much public life in the Northern Basque Country. Northern Basque has its own words and sounds shaped partly by that setting. If you learn from southern Batua recordings, spend time with northern speech too.",
       "survey-2021",
       "basque-language-book"
     )
   },
   {
-    name: "Gascon and Occitan",
-    relationship: "Long-standing neighboring Romance languages",
+    name: "Gascon (Occitan)",
+    relationship: "Long-standing neighboring Romance variety",
     explanation: cited(
-      "Gascon varieties have shared the western Pyrenean region with Basque for centuries. Place names and vocabulary record contact in both directions. This neighborhood is historically important, but borrowing is not descent: resemblance produced through trade, migration, and bilingualism does not turn Basque into a Romance language.",
+      "Gascon and Basque have been neighbors in the western Pyrenees for centuries. Place names and borrowed words show that people have crossed linguistic boundaries there. That history of contact does not make Basque a Romance language.",
       "basque-language-book",
       "wiki-basque"
     )
@@ -46,18 +46,18 @@ export const basqueGuide = {
   autonym: "Euskara",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Basque is a living language of the western Pyrenees whose clear spelling, richly inflected words, many regional voices, and remarkable revitalization make it much more interesting than the usual ‘mysterious isolate’ headline.",
+  summary: "In Basque, etxe means “house,” etxera means “to the house,” and etxean means “in the house.” Learn how these endings work alongside Euskara’s sounds, communities, literature, and regional voices.",
   family: "Language isolate",
   macroRegion: "Western Europe: the Basque Country in Spain and France",
   primaryScript: "Latin",
   difficultyLabel: "Demanding",
-  learnerHook: "Basque lets you hear a familiar European landscape organized by an unfamiliar grammar—and then watch that grammar at work in schools, novels, football commentary, improvised verse, science communication, and ordinary family life.",
+  learnerHook: "Learn the shared standard, Euskara Batua, then listen to how people speak in Bilbao, Donostia, Baiona, and villages across the western Pyrenees.",
   hero: {
     imageAlt: "Contemporary Basque words in public print, representing Euskara Batua and regional speech.",
     callToActionLabel: "Meet Euskara in use"
   },
   classification: "A language isolate with no demonstrated genealogical relationship to any living language",
-  speakerCommunity: "Euskara belongs to a cross-border community, not one uniform social setting. It is spoken in the Basque Autonomous Community, parts of Navarre, and the Northern Basque Country in France. The 2021 sociolinguistic survey estimated that 30.2 percent of residents aged sixteen or over across those territories could speak Basque: 36.2 percent in the autonomous community, 14.1 percent in Navarre, and 20.1 percent in the north. Eustat’s separate census counted 936,812 speakers aged two or over in the autonomous community; its different threshold means the totals should not be combined. Many younger speakers acquired Basque through immersion schooling. Their Euskara may be strongest in study, friendship, or work while Spanish or French dominates elsewhere. New speakers are central to Basque’s future.",
+  speakerCommunity: "Euskara is spoken in the Basque Autonomous Community, parts of Navarre, and the Northern Basque Country in France. Schools, families, adult classes, media, and local groups all keep it in use.\n\nIn the 2021 sociolinguistic survey, 30.2 percent of residents aged 16 or over across these territories said they could speak Basque. The shares were 36.2 percent in the autonomous community, 14.1 percent in Navarre, and 20.1 percent in the north.\n\nEustat’s separate 2021 census counted 936,812 speakers aged two or over in the autonomous community. That census covers a different age range and territory, so don’t add its total to the survey figure. Many younger speakers learned Basque in school and also use Spanish or French in other parts of their lives.",
   facts: [
     { label: "Classification", value: "Language isolate; Aquitanian is the closest securely connected ancient language" },
     { label: "2021 survey", value: "30.2% of residents aged 16+ across the Basque Country were Basque speakers" },
@@ -66,10 +66,10 @@ export const basqueGuide = {
     { label: "Core region", value: "Basque Autonomous Community, Navarre, and Northern Basque Country" },
     { label: "Living ecology", value: "Home transmission, immersion schools, adult euskaltegiak, media, literature, music, and public services" }
   ],
-  learnerOverview: "Begin with Batua, the unified standard, because it gives you coherent courses, dictionaries, news, and a bridge across regions. Choose accompanying voices early: Bilbao, Donostia, Baiona, and Maule offer different models. Spelling gives quick returns: tx resembles English ‘ch,’ x resembles ‘sh,’ while z, s, and their affricates are distinct in careful descriptions. Learn grammar through complete frames. Etxean nago means ‘I am at home’; etxera noa, ‘I am going home’; etxetik nator, ‘I come from home.’ The noun remains recognizable while its ending draws a miniature map. Do not postpone speech for an ergativity lecture. Learn Nik kafea nahi dut, ‘I want coffee,’ notice why nik has -k, and revisit the analysis as your auxiliary system grows.",
+  learnerOverview: "Start with Euskara Batua, the shared standard used in courses, dictionaries, news, and public writing. Spoken Basque varies by region, so listen to local voices early too.\n\nThe endings on etxe show you a pattern: etxean nago means “I’m at home,” etxera noa means “I’m going home,” and etxetik nator means “I’m coming from home.” The word for house stays recognizable as its ending changes.\n\nYou can begin speaking before you master verb tables. Learn a sentence such as Kafe bat nahi dut, “I want a coffee,” and return to its parts once you have heard the same pattern elsewhere.",
   origins: {
     overview: cited(
-      "Basque is an isolate in the technical sense: comparison has not demonstrated a common ancestor with any present-day language. That does not mean it developed without contact, never changed, or emerged from prehistory in its current form. Aquitanian names in Roman inscriptions show persuasive correspondences, while linguists reconstruct earlier Basque by comparing dialects, texts, and loanword sound changes. Claims linking it to Iberian, Etruscan, Caucasian languages, or one prehistoric population remain unproven. ‘Pre-Indo-European’ is chronological shorthand, not one language family. The interesting story is long continuity alongside exchange.",
+      "No other living language has a proven family connection to Basque. Linguists call a language in that position an isolate. It has still changed over time and borrowed from its neighbors.\n\nRoman-period Aquitanian names contain recognizable links with Basque. Later texts, dialects, and old loanwords help scholars trace more of its history. Claims that Basque belongs to an Iberian, Caucasian, or other distant family remain unproven.\n\n“Pre-Indo-European” places older forms of Basque before Indo-European languages reached the region. It does not name a separate language family.",
       "cambridge-aquitanian",
       "glottolog-basque",
       "wiki-basque"
@@ -78,7 +78,7 @@ export const basqueGuide = {
       {
         period: "Antiquity",
         event: cited(
-          "Roman-period inscriptions in Aquitania preserve personal and divine names with elements comparable to Basque, including forms associated with words for ‘man,’ ‘woman,’ and kinship. Because the record consists mainly of names, scholars can establish a close relationship more confidently than they can reconstruct ordinary conversation.",
+          "Roman-era inscriptions in Aquitania preserve personal and divine names with elements that resemble Basque words for people and kin. Because nearly all the evidence is names, scholars can establish a close link more confidently than they can reconstruct ordinary speech.",
           "cambridge-aquitanian",
           "wiki-basque"
         )
@@ -86,7 +86,7 @@ export const basqueGuide = {
       {
         period: "Roman and early medieval centuries",
         event: cited(
-          "Latin and emerging Romance varieties surrounded and interacted with ancestral Basque. Early evidence survives in names, glosses, and loanwords rather than a continuous native literature. Latin loans whose sounds changed inside Basque help linguists order historical developments, but they also show that contact was old and intimate.",
+          "Ancestral Basque lived beside Latin and the Romance languages that grew from it. Names, brief glosses, and borrowed words give us glimpses of this period, but there is no continuous body of Basque writing. The sounds of old loans help linguists put some changes in order.",
           "basque-language-book",
           "wiki-basque"
         )
@@ -94,7 +94,7 @@ export const basqueGuide = {
       {
         period: "1545",
         event: cited(
-          "Bernard Etxepare’s Linguae Vasconum Primitiae became the first book printed in Basque. Its famous invitation for Euskara to ‘go out into the world’ now reads less like the birth of the language than a new technological moment for a much older spoken tradition.",
+          "Bernard Etxepare published Linguae Vasconum Primitiae, the first printed Basque book. Printing gave a long-spoken language a new way to travel between readers.",
           "basque-language-book",
           "wiki-basque"
         )
@@ -102,7 +102,7 @@ export const basqueGuide = {
       {
         period: "1919–1968",
         event: cited(
-          "Euskaltzaindia, the Academy of the Basque Language, was founded in 1919. In 1968 it approved foundational proposals associated with Koldo Mitxelena for a unified written standard, addressing spelling, nominal inflection, vocabulary, and later auxiliary forms.",
+          "Euskaltzaindia, the Academy of the Basque Language, was founded in 1919. In 1968, the academy backed proposals for a shared written standard, including choices about spelling and word forms.",
           "education-basque",
           "euskaltzaindia"
         )
@@ -110,7 +110,7 @@ export const basqueGuide = {
       {
         period: "Late 20th century",
         event: cited(
-          "After severe restriction—especially under Franco’s dictatorship in Spain—Basque gained co-official status in the Basque Autonomous Community and zoned recognition in Navarre. Immersion schools, adult-language centers, publishing, broadcasting, and public administration greatly expanded the domains in which it could be learned and used.",
+          "Franco’s dictatorship sharply restricted Basque in public life in Spain. Later laws gave it co-official status in the Basque Autonomous Community and recognition in parts of Navarre. Schools, adult classes, publishers, broadcasters, and public offices expanded where people could learn and use it.",
           "education-basque",
           "survey-2021"
         )
@@ -118,20 +118,20 @@ export const basqueGuide = {
       {
         period: "2021 and after",
         event: cited(
-          "Younger cohorts show much higher knowledge than older ones in several territories, largely reflecting education. Use has not risen automatically at the same rate: opportunities, peer networks, confidence, and the dominant language of a setting all affect whether competence becomes everyday speech.",
+          "Many younger people know Basque because they learned it in school. Yet knowing a language does not guarantee using it every day. Friends, workplaces, confidence, and the language spoken around someone all shape that choice.",
           "euskadi-data",
           "eustat-2021"
         )
       }
     ],
     contactHistory: cited(
-      "Basque vocabulary contains layers from Latin and later Romance languages, with Spanish, Gascon, and French especially important; modern international terms often arrive through English. Borrowed nouns take Basque determiners and case endings like inherited ones. Bilingual speakers also code-switch, calque expressions, and choose Romance words for humor, precision, or audience. Contact runs outward too: Spanish izquierda ‘left’ is widely connected with Basque ezker, and Basque names travel globally. Purity is a poor measure of vitality. Ask instead which community uses a form, in which register, and whether its alternative feels ordinary, technical, marked, or newly promoted.",
+      "Latin and later Romance languages left many words in Basque. Spanish, Gascon, and French have been especially close neighbors, while newer international terms also circulate. Basque speakers fit borrowed nouns into Basque grammar by adding the same articles and case endings used with inherited words.\n\nBilingual speakers may switch languages or choose a loan for its tone, audience, or meaning. Contact also runs outward: Spanish izquierda, “left,” is commonly traced to Basque ezker. To understand a form, ask who uses it and in what setting.",
       "basque-language-book",
       "academy-corpus",
       "wiki-basque"
     ),
     standardization: cited(
-      "Euskara Batua—literally ‘unified Basque’—is a common written and educated standard, not a dialect that replaced all others overnight. Euskaltzaindia’s work from 1968 drew substantially on central varieties while making cross-regional choices in spelling, inflection, vocabulary, and auxiliary conjugation. The letter h became a famous controversy: retaining it connected the standard to northern pronunciation and writing traditions even though many southern speakers do not pronounce it. Batua now supports schooling, university, administration, national media, and most learner material. Local dialects remain important in family talk, performance, local media, and identity, and speakers often blend standard and regional resources rather than selecting one sealed code.",
+      "Euskara Batua means “unified Basque.” Euskaltzaindia began shaping this shared written standard in 1968, drawing especially on central varieties while making choices for the wider language community. It gave schools, publishers, and broadcasters common spellings and forms.\n\nThe letter h shows how those choices worked. Northern speakers often pronounce it, while most southern speakers do not; the standard keeps it in writing. People still use local varieties in homes, performance, and regional media, and their everyday speech may mix local and standard forms.",
       "education-basque",
       "basque-language-book",
       "euskaltzaindia"
@@ -139,33 +139,32 @@ export const basqueGuide = {
   },
   variants: {
     overview: cited(
-      "Modern dialect classifications usually describe a western variety, a central variety, Navarrese, Navarrese-Lapurdian, and Souletin/Zuberoan, with transition zones and substantial local variation. Older labels such as Biscayan and Gipuzkoan remain common. Boundaries reflect bundles of sound, vocabulary, morphology, and auxiliary differences, not political provinces traced with a ruler. Batua has increased mutual access, yet a learner trained only on careful standard audio may still find rapid village speech difficult. Age, schooling, city life, and whether someone learned at home also shape speech.",
-      "basque-language-book",
+      "Across the Basque-speaking area, people use western, central, Navarrese, Navarrese-Lapurdian, and Zuberoan forms, with local differences inside each area. These groupings describe patterns of sound, words, and verb forms; they do not follow province lines exactly.\n\nBatua lets people read and communicate across regions, but careful standard audio will not prepare you for every village conversation. Listen to regional voices as you learn. Age, schooling, and whether someone learned Basque at home also shape how they speak.",
       "basque-language-book",
       "wiki-basque"
     ),
     items: [
-      { name: "Euskara Batua", note: cited("The shared standard used across education, publishing, public institutions, and cross-regional media. Spoken Batua is normally colored by the speaker’s region; there is no need to erase a local accent to speak the standard well.", "education-basque", "euskaltzaindia") },
-      { name: "Western / Bizkaian", note: cited("Strong in much of Bizkaia and neighboring areas, with distinctive vocabulary, verb forms, and sound patterns. Its distance from the central base of Batua made early standardization debates especially sensitive.", "education-basque", "basque-language-book") },
-      { name: "Central", note: cited("Spoken broadly through Gipuzkoa and adjoining areas. Central forms contributed heavily to Batua, but everyday central speech is not simply the standard read aloud.", "basque-language-book", "wiki-basque") },
-      { name: "Navarrese and Navarrese-Lapurdian", note: cited("Varieties extend across political and state borders, reminding learners that Navarre, Lapurdi, and nearby zones form a historical continuum. French- and Spanish-dominant settings create different modern pressures.", "survey-2021", "basque-language-book") },
-      { name: "Souletin / Zuberoan", note: cited("The easternmost major dialect, associated with Zuberoa/Soule, is notable for its sound system, vocabulary, and performance traditions. It can be challenging for Batua-trained listeners, but is a living voice rather than an antique curiosity.", "basque-language-book", "basque-language-book") }
+      { name: "Euskara Batua", note: cited("Batua gives schools, publishers, public institutions, and cross-regional media a shared form. Speakers still bring their regional accents to it.", "education-basque", "euskaltzaindia") },
+      { name: "Western / Bizkaian", note: cited("Many people in Bizkaia and nearby areas use western forms with distinctive words, sounds, and verbs. These forms can differ noticeably from Batua, whose early choices leaned toward central varieties.", "education-basque", "basque-language-book") },
+      { name: "Central", note: cited("People use central forms across Gipuzkoa and nearby areas. Central varieties helped shape Batua, but daily speech there is not simply the standard read aloud.", "basque-language-book", "wiki-basque") },
+      { name: "Navarrese and Navarrese-Lapurdian", note: cited("Related local forms run through Navarre, Lapurdi, and neighboring areas across a state border. Speakers also live in very different Spanish- and French-dominant settings.", "survey-2021", "basque-language-book") },
+      { name: "Souletin / Zuberoan", note: cited("Zuberoan is an eastern variety associated with Zuberoa/Soule. It has its own sounds, words, and performance traditions, and it may take time for a Batua learner to follow.", "basque-language-book") }
     ]
   },
   pronunciation: {
     overview: cited(
-      "Standard Basque orthography is admirably consistent, although dialects do not assign every spelling exactly the same sound. The five vowel letters a, e, i, o, u have values broadly familiar to speakers of Spanish. Consonants require finer attention: x is like English sh; tx is like ch; j ranges regionally from a y-like sound to a stronger velar or postalveolar sound; and r contrasts with rr between vowels. Basque also distinguishes several sibilants. In careful standard descriptions, z, s, and x represent different fricatives, paired with affricates tz, ts, and tx. Many speakers merge parts of this system, so learn to recognize variation without flattening every spelling in your own speech.",
+      "The five vowel letters a, e, i, o, u keep fairly consistent values in the standard spelling. Start with the consonant pairs: x sounds roughly like English “sh,” while tx is closer to “ch.” Written j and h sound different across regions.\n\nBasque spelling also distinguishes z, s, and x, plus the related combinations tz, ts, and tx. Some speakers merge parts of this system in ordinary speech. Learn what your speaker model says and keep the spellings distinct when you write.",
       "wiki-basque",
       "basque-language-book"
     ),
     script: "Basque Latin alphabet in Euskara Batua orthography",
     soundSystem: cited(
-      "The vowel system is compact; consonant detail carries more of the learner’s work. Z is conventionally a laminal or dental-alveolar sibilant, s a more retracted apical sound, and x a postalveolar sound. Their affricate partners begin with a stop-like closure. English speakers often hear z and s as variants of one /s/, while Spanish speakers may import local Spanish mergers. Palatal sounds can also signal expressive or diminutive meanings in some words and dialects. H is pronounced in some northern varieties but silent for most southern speakers. There is no single accentless target: choose a reliable model, preserve spelling contrasts in literacy, and understand which spoken distinctions that model maintains.",
+      "Basque has five core vowel sounds, so most of your pronunciation work lies in its consonants. In careful descriptions, z and s are two different hiss-like sounds, while x is farther back in the mouth; tz, ts, and tx begin with a brief closure. If they sound alike at first, compare recordings of short words instead of guessing from English letters.\n\nNorthern speakers may pronounce h where most southern speakers leave it silent. Regional j also varies. A good listening model will help you hear the forms used in the community you want to understand.",
       "basque-language-book",
       "wiki-basque"
     ),
     prosody: cited(
-      "Stress is less uniform than beginner summaries suggest. Regional systems range from relatively regular phrase-level patterns to lexically contrastive accent systems, and Batua spelling normally does not mark stress. A safe learning habit is to copy whole phrases from one speaker rather than assign Spanish or English stress mechanically word by word. Listen for where focus falls: Basque information structure often places the focused constituent immediately before the verb, and prosody helps signal that structure. Record your own versions of short question-answer pairs; the melody of Nor etorri da?—Ane etorri da makes the answer ‘Ane’ prominent more effectively than an isolated pronunciation drill.",
+      "Stress changes across Basque dialects, and standard spelling usually leaves it unmarked. Copy a whole phrase from a speaker instead of putting Spanish or English stress on each word.\n\nA speaker often puts the new or contrasted part of a sentence just before the verb.\n\nNor etorri da? means “Who came?” The answer Ane etorri da puts Ane, the new information, in that position. Listen to the sentence melody along with the word order.",
       "basque-language-book",
       "ehu-grammar"
     ),
@@ -173,28 +172,27 @@ export const basqueGuide = {
       "Pronouncing written z as English /z/; it represents a voiceless sibilant",
       "Collapsing z, s, and x—and tz, ts, and tx—before learning what your model distinguishes",
       "Reading every j with one Spanish value despite substantial regional variation",
-      "Rolling every written r strongly; single intervocalic r and rr contrast",
+      "Treating every r alike; single r and rr contrast between vowels, while final r follows other patterns",
       "Assuming Batua spelling encodes one universal stress pattern"
     ],
     sampleWords: [
       { original: "euskara", translation: "Basque language", note: "The middle s is not English /z/. Copy a native recording rather than anglicizing the sequence eu-." },
-      { original: "etxe", translation: "house", note: "Tx is the affricate heard approximately in English ‘church’; x by itself has a different sound." },
-      { original: "itsaso", translation: "sea", note: "A useful contrast drill: ts is an affricate, while the following s is a fricative." },
+      { original: "etxe", translation: "house", note: "Tx begins roughly like English ‘ch’ in church; x by itself is closer to ‘sh’." },
+      { original: "itsaso", translation: "sea", note: "Compare ts, a sound that begins with a brief closure, with the following hiss-like s." },
       { original: "zortzi", translation: "eight", note: "This compact word contains z and tz. Keep both voiceless and avoid English /z/." },
-      { original: "txakur", translation: "dog", note: "Begin with tx as in English ‘ch,’ then keep the final r light according to your speaker model." },
+      { original: "txakur", translation: "dog", note: "Tx begins roughly like English “ch.” Word-final r does not follow the simple intervocalic r/rr spelling contrast, so copy a recording of the full word." },
       { original: "herri", translation: "town; people; country in compounds", note: "The h may be audible in northern speech and silent in much southern speech; rr is the stronger rhotic." }
     ]
   },
   writing: {
     overview: cited(
-      "Basque uses the Latin script and needs no transliteration. Batua spelling regularized older and regional practices so one written form could circulate across the whole speech area. The alphabet avoids c, q, v, w, and y in ordinary native spelling except in names and loans. Digraphs such as dd, ll, rr, ts, tt, tx, and tz represent sound sequences or palatal consonants; they are not separate Unicode characters. This simplicity matters digitally: normal Latin text tools work well, although spellcheckers and search systems must still analyze richly inflected word forms.",
-      "education-basque",
+      "Basque uses the Latin alphabet, so you can read standard text without learning a new script. Batua spelling gives readers from different regions a shared form, even when they pronounce a word differently.\n\nWritten tx, ts, and tz combine letters to show consonant sounds. Ordinary native words seldom use c, q, v, w, or y, though names and loans may. Digital text needs no special script support, but spellcheck and search tools must still handle the many endings attached to words.",
       "education-basque"
     ),
     primaryScript: "Latin script",
-    romanization: cited("Basque is already written in Latin letters, so learner respelling usually creates more problems than it solves. IPA is useful for comparing dialect sounds, but standard orthography should be learned from the first lesson.", "education-basque", "wiki-basque"),
+    romanization: cited("Basque is already written in Latin letters, so learner respelling usually creates more problems than it solves. Sound charts can help you compare dialects, but learn standard spelling from the first lesson.", "education-basque", "wiki-basque"),
     spellingNorms: cited(
-      "Case markers attach to the end of the entire noun phrase, making long written words that remain structurally transparent. Etxe ‘house,’ etxea ‘the house,’ etxean ‘in the house,’ etxeko ‘of/from the house’ as a modifier, and etxeetara ‘to the houses’ are not arbitrary dictionary entries. Proper names take endings too: Bilbon ‘in Bilbao,’ Donostiatik ‘from Donostia.’ Hyphens and apostrophes should not be inserted merely because English would use a preposition. The standard h must be written even by speakers who do not pronounce it. Capitalization is restrained, and language names such as euskara are normally lowercase inside a sentence.",
+      "Basque puts many meanings that English expresses with separate words at the end of a noun phrase. Compare etxe “house,” etxea “the house,” etxean “in the house,” and etxeetara “to the houses.” In etxe handi hartan, “in that big house,” the location ending goes on the final word.\n\nPlace names take endings too: Bilbon means “in Bilbao,” and Donostiatik means “from Donostia.” Write those suffixes as part of the word. Standard spelling keeps h even when your speaker does not pronounce it.",
       "ehu-cases",
       "euskaltzaindia"
     ),
@@ -207,24 +205,22 @@ export const basqueGuide = {
   },
   grammar: {
     overview: cited(
-      "Basque grammar packages relationships into endings and auxiliary forms. It is often called agglutinative because morphemes—small meaningful pieces—can be added in a relatively segmentable sequence. But tidy charts hide two facts: endings may change shape after consonants or vowels, and everyday fluency depends on selecting whole constructions quickly. The most productive study unit is therefore a short sentence whose participants you can swap. Gizona etorri da, ‘the man has come’; Gizonak ogia ekarri du, ‘the man has brought the bread’; Gizonak haurrari ogia eman dio, ‘the man has given the child bread.’ Those three lines reveal case alignment and auxiliary agreement together.",
+      "Start with three short sentences: Gizona etorri da, “The man has come”; Gizonak ogia ekarri du, “The man has brought the bread”; and Gizonak haurrari ogia eman dio, “The man has given the child bread.” The endings and helper verbs change as the participants change.\n\nBasque builds many word forms by adding meaningful pieces. Linguists call that pattern agglutination. The pieces are easier to learn inside sentences than in long charts, because their shape and choice depend on the whole construction.",
       "ehu-cases",
       "ehu-grammar"
     ),
     typologicalProfile: cited(
-      "Basque has ergative-absolutive case marking. The sole participant of an intransitive verb and the direct object of a transitive verb take the absolutive, normally with no dedicated case consonant. The agent-like subject of a transitive verb takes ergative -k, while an indirect object takes dative -i. Finite auxiliaries can index all three participants. This is typologically unusual to many European-language learners but not psychologically exotic: speakers acquire patterns, not diagrams. Basque is generally head-final, uses postpositions and case suffixes, places relative clauses before nouns, and allows word order to respond strongly to topic and focus.",
+      "In Basque, the subject of “come” and the object of “see” take the same basic case. The subject of “see” takes an extra ending, usually -k; this pattern is called ergative–absolutive alignment. A recipient often takes -i.\n\nThe helper verb can change to reflect these participants too. Basque often puts the verb near the end and places a describing clause before its noun. Conversation can move other words around to show what is new or important.",
       "ehu-cases",
-      "ehu-grammar",
       "ehu-grammar"
     ),
     morphology: cited(
-      "A noun phrase usually ends with a determiner that combines with number and case. Mendi-a-n can be segmented as mountain-the-in, ‘in the mountain’; mendi-e-ta-tik contains plural, local, and source material, ‘from the mountains.’ Only the edge of the phrase carries the case ending: etxe handi hartan, ‘in that big house.’ Verbs divide labor between a non-finite lexical form and a finite auxiliary: ikusi dut, ‘I have seen it,’ combines ikusi ‘seen’ with dut, which indexes a first-person ergative subject and third-person absolutive object. A smaller set of common verbs has synthetic forms, such as nator ‘I am coming.’ The system becomes manageable when learned as valency frames: nor ‘who/what absolutive,’ nori ‘to whom,’ and nork ‘who ergative.’",
+      "A noun phrase can end with an article, number marker, and case ending. In mendian, “on the mountain,” the final -n marks location. In etxe handi hartan, “in that big house,” the ending belongs to the whole phrase and appears on hartan, “that.”\n\nMany verbs combine a main form with a helper verb: ikusi dut means “I have seen it.” The helper dut marks who saw and what was seen. Common verbs also have one-word forms, such as nator, “I am coming.”",
       "ehu-cases",
       "ehu-grammar"
     ),
     syntax: cited(
-      "Basque is often labeled SOV because neutral transitive clauses commonly place subject, object, then verb, but conversational order is guided by information structure. The focused answer typically stands immediately before the verb. Nor etorri da? ‘Who came?’ invites Ane etorri da, with Ane directly before etorri da. Zer erosi du Anek? ‘What did Ane buy?’ invites Liburua erosi du Anek, ‘Ane bought the book,’ foregrounding liburua. This flexibility does not mean random order: moving a constituent changes what sounds given, contrastive, or newsworthy. Negative clauses have their own ordering, commonly placing ez before the finite auxiliary: Ez dut ulertzen, ‘I do not understand.’ Relative clauses precede the noun: erosi dudan liburua, literally ‘bought I-have-it-that book,’ means ‘the book that I bought.’",
-      "ehu-grammar",
+      "A straightforward Basque sentence often places the person doing an action, then its object, then the verb. Conversation changes that order when the speaker wants to highlight a different answer.\n\nNor etorri da? means “Who came?” The answer Ane etorri da places Ane immediately before the verb.\n\nTo say “I do not understand,” put ez before the helper verb: Ez dut ulertzen. A clause describing a noun comes first: erosi dudan liburua means “the book I bought.” Learn these patterns as complete phrases before moving their parts around.",
       "ehu-grammar"
     ),
     advancedPainPoints: [
@@ -232,48 +228,48 @@ export const basqueGuide = {
       "Matching auxiliaries to person, number, tense, and all indexed arguments",
       "Recognizing dialectal auxiliary and lexical forms after learning Batua",
       "Using word order and intonation for focus rather than copying Spanish, French, or English",
-      "Understanding allocutive forms that encode a familiar addressee in the verb"
+      "Understanding allocutive verb forms, which change with a familiar person being addressed"
     ],
     topics: [
       {
-        title: "Ergative alignment without the mythology",
-        body: cited("Compare Mutila etorri da, ‘the boy came,’ with Neskak mutila ikusi du, ‘the girl saw the boy.’ Mutila is absolutive in both: it is the only participant of ‘come’ and the object of ‘see.’ Neskak adds ergative -k because it is the transitive subject. Learn the marker with verb frames, since some predicates do not map neatly onto English ideas of action.", "ehu-cases", "ehu-grammar"),
+        title: "Who gets the -k ending?",
+        body: cited("Compare Mutila etorri da, ‘the boy came,’ with Neskak mutila ikusi du, ‘the girl saw the boy.’ Mutila keeps the same form in both: it is the only participant of ‘come’ and the object of ‘see.’ Neskak has -k because the girl is the one doing the seeing. Learn the pattern with whole verb phrases, since some verbs do not line up neatly with English ideas of action.", "ehu-cases", "ehu-grammar"),
         example: "Neskak mutila ikusi du.",
         exampleTranslation: "The girl saw the boy."
       },
       {
-        title: "The auxiliary is a participant map",
-        body: cited("In Liburua irakurri dut, dut indicates ‘I have it’; in Liburuak irakurri ditut, ditut reflects a plural absolutive object. Haurrari liburua eman diot, ‘I gave the child the book,’ adds a third-person dative participant. Learners should color-code nor, nori, and nork in examples before memorizing full paradigms.", "ehu-grammar", "ehu-cases"),
+        title: "The helper verb tracks participants",
+        body: cited("In Liburua irakurri dut, ‘I’ve read the book,’ dut points to one book. In Liburuak irakurri ditut, ‘I’ve read the books,’ ditut changes with the plural object. Haurrari liburua eman diot, ‘I gave the child the book,’ adds a recipient, and the helper verb changes again.", "ehu-grammar", "ehu-cases"),
         example: "Haurrari liburua eman diot.",
         exampleTranslation: "I gave the child the book."
       },
       {
         title: "Place is built from cases",
-        body: cited("Basque distinguishes location, destination, source, path, and relation through suffixes: etxean ‘at/in the house,’ etxera ‘to the house,’ etxetik ‘from the house,’ etxetik zehar ‘through/by way of the house area,’ and etxeko atea ‘the house door.’ Animates often use forms built around -gan: lagunarengana, ‘to the friend.’", "ehu-cases"),
+        body: cited("The ending changes the direction of travel: etxean means ‘in the house,’ etxera means ‘to the house,’ and etxetik means ‘from the house.’ With people, you will also meet forms built around -gan, such as lagunarengana, ‘to the friend.’", "ehu-cases"),
         example: "Bilbotik Donostiara noa.",
         exampleTranslation: "I am going from Bilbao to Donostia."
       },
       {
-        title: "Determiners sit at the phrase edge",
+        title: "The article goes at the phrase edge",
         body: cited("The article -a is suffixed: liburu ‘book,’ liburua ‘the book.’ In liburu berri handia, ‘the big new book,’ only the final adjective bears the determiner. Case follows that edge: liburu berri handian, ‘in the big new book.’ The sequence explains why dictionary headwords and forms in running text often look different.", "ehu-cases", "ehu-grammar"),
         example: "Etxe handi hartan bizi naiz.",
         exampleTranslation: "I live in that big house."
       },
       {
         title: "Focus often stands before the verb",
-        body: cited("A question helps locate focus. Nork egin du? ‘Who did it?’—Mirenek egin du, ‘Miren did it.’ Zer egin du Mirenek? ‘What did Miren do?’—Kafea egin du Mirenek, ‘Miren made coffee.’ The same participants can be ordered differently because the answer supplies different new information.", "ehu-grammar"),
+        body: cited("A question tells you which part of the answer to emphasize.\n\nNork egin du? means ‘Who did it?’ The answer Mirenek egin du, ‘Miren did it,’ places Mirenek just before the verb.\n\nIf you ask Zer egin du Mirenek? (‘What did Miren do?’), the answer Kafea egin du Mirenek (‘Miren made coffee’) puts kafea in that position instead.", "ehu-grammar"),
         example: "Mirenek egin du.",
         exampleTranslation: "Miren did it."
       },
       {
-        title: "Negation reorganizes the verbal group",
-        body: cited("In affirmative periphrastic forms the lexical verb precedes the auxiliary: ulertzen dut, ‘I understand.’ With ez, the finite auxiliary follows the negative particle and the lexical verb moves later: ez dut ulertzen, ‘I do not understand.’ Learn affirmative-negative pairs aloud because translating word by word encourages the wrong order.", "ehu-grammar", "ehu-grammar"),
+        title: "Saying no changes verb order",
+        body: cited("Ulertzen dut means ‘I understand,’ with the main verb before its helper. Add ez for ‘not,’ and the helper moves ahead of the main verb: Ez dut ulertzen, ‘I do not understand.’ Practice the two orders as a pair.", "ehu-grammar"),
         example: "Ez dut ulertzen.",
         exampleTranslation: "I do not understand."
       },
       {
-        title: "Relative clauses come before nouns",
-        body: cited("The ending -n links a finite clause to the noun it modifies: atzo erosi nuen liburua, ‘the book that I bought yesterday.’ English learners must wait until the final noun to learn what the description belongs to. Begin with short chunks, then expand the material before the verb.", "ehu-grammar", "ehu-grammar"),
+        title: "Descriptions come before nouns",
+        body: cited("Atzo erosi nuen liburua means ‘the book that I bought yesterday.’ The description comes first and ends in -n; liburua, ‘the book,’ arrives at the end. Begin with short descriptions before adding more detail.", "ehu-grammar"),
         example: "Atzo erosi nuen liburua ona da.",
         exampleTranslation: "The book that I bought yesterday is good."
       }
@@ -281,7 +277,7 @@ export const basqueGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "The Basque Country, Euskal Herria in a broad cultural sense, spans seven historical territories across Spain and France. Legal status and speaker density vary sharply. Basque is co-official with Spanish throughout the Basque Autonomous Community. Navarre applies different language regimes by zone. France does not give Basque co-official status, although local institutions, associations, schools, and media sustain it. Geography is not destiny: dense Basque-speaking towns exist alongside predominantly Spanish- or French-speaking cities, while urban schools and adult learning have created new networks far from the strongest traditional zones.",
+      "Euskal Herria names a cultural region with seven historical territories across Spain and France. Basque is co-official with Spanish throughout the Basque Autonomous Community. Navarre gives it different legal standing by zone, while France does not make it co-official.\n\nA border or city limit cannot tell you what language someone speaks. Some towns have dense Basque-speaking networks; schools and adult classes have also helped create new speakers in predominantly Spanish- or French-speaking cities.",
       "survey-2021",
       "euskadi-data",
       "eustat-2021"
@@ -297,7 +293,7 @@ export const basqueGuide = {
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "Basque is demanding for English speakers principally because few familiar words or grammatical shortcuts transfer, not because it violates human logic. Spelling, a five-vowel core, lack of grammatical gender, and productive suffixes are friendly. The difficult concentration comes in verb argument structure: you must know who does what to whom to choose case and auxiliary forms. Abundant Spanish- and French-medium teaching can also be a practical barrier for an English-only learner. Difficulty changes dramatically with access to an euskaltegi, immersion environment, or patient conversation partner.",
+      "English gives you few shortcuts for Basque vocabulary or verb patterns, so you will have to build new habits. The spelling is fairly regular, the five core vowels are approachable, and nouns have no grammatical gender.\n\nThe harder work is tracking who does what to whom: that choice affects both noun endings and the helper verb. Many courses also assume some Spanish or French. An euskaltegi, a local adult Basque school, or a patient conversation partner can make the path much easier.",
       "habe-ikasbil",
       "ehu-cases",
       "ehu-grammar"
@@ -322,40 +318,39 @@ export const basqueGuide = {
       "Waiting for perfect grammar before joining a speaking community"
     ],
     workload: cited(
-      "A sustainable path is about five focused hours weekly plus lightweight daily contact. During the first months, build A1 conversational frames and the location cases; then add past tense, plural objects, relative clauses, and increasingly unscripted listening. Reaching independent B-level use normally requires hundreds of hours, while comfortable C-level work or dialect comprehension is a multi-year project. HABE structures adult learning from A1 through C2, giving learners concrete local milestones without pretending that an exam certificate and effortless community participation are identical.",
-      "habe-ikasbil",
+      "If you have about five focused hours a week, use them for a course, short listening sessions, and conversation. Begin with greetings, location endings, and sentence frames you can reuse. Then add past forms, plural objects, and unscripted speech.\n\nHABE offers A1 through C2 levels for adult learners, so you can set concrete course goals. A certificate and easy conversation in a local dialect measure different skills. There is no fixed number of hours that fits every learner.",
       "habe-ikasbil"
     )
   },
   advancedLearning: {
     strategy: cited(
-      "Use a three-track notebook. Track one holds reusable sentence frames labeled by argument structure: nor, nor–nork, or nor–nori–nork. Track two holds linked word families and case forms, not isolated translations. Track three records social evidence: who said a form, where, and whether it was Batua, local, formal, joking, or intimate. Work with a tutor or euskaltegi long enough to stop treating ergative errors as random. Once you can narrate a day, retell the same event from another participant’s perspective; that forces case and auxiliary choices to change for a communicative reason.",
+      "Keep short sentences that show a person arriving, seeing someone, or giving something to someone. Label who acts, what changes hands, and who receives it; the noun endings and helper verb will start to line up. Add related word forms such as etxean, etxera, and etxetik beside each sentence.\n\nWhen you hear a form you did not learn in Batua, note the speaker, place, and setting. Ask a teacher or speaker whether it is local, casual, or part of the shared standard. Once you can tell a simple story, retell it from another participant’s point of view to practice changing the case endings.",
       "habe-ikasbil",
       "ehu-grammar"
     ),
     mediaPractice: cited(
-      "EITB offers news, television, radio, sport, and entertainment in Basque; use short clips repeatedly before graduating to live radio. Argia and Berria provide current prose, while children’s or learner materials supply more transparent syntax. Bertsolaritza—improvised sung verse—becomes especially rewarding at advanced levels because rhyme, meter, dialect, humor, and topical argument meet in real time. Do not judge your listening by one genre: a scripted weather report, a streamer, a Zuberoan interview, and a bertsolari demand different skills.",
+      "EITB has Basque news, sport, and entertainment. ETB On offers live and on-demand television; EITB’s radio content now lives on GUAU. Replay short clips with transcripts or familiar topics before trying live broadcasts.\n\nArgia and Berria give you current written Basque; learner materials offer shorter sentences. At an advanced level, try bertsolaritza, improvised sung verse. Performers work with rhyme, meter, topical arguments, and regional speech in front of an audience.",
       "eitb",
       "habe-ikasbil",
       "basque-language-book"
     ),
     dictionariesAndCorpora: cited(
-      "Use Elhuyar for bilingual lookup and examples, then Euskaltzaindia’s dictionary for standard senses and normative information. The Academy’s Lexicon Observatory assembles lemmatized contemporary texts, especially media, so a search can recover many inflected forms under one lemma. Euskalterm is useful for technical terminology. A corpus does not decide what you should say by raw frequency alone: compare date, genre, region, and surrounding construction, then ask a speaker when two forms feel socially different.",
+      "Look up a new word in Elhuyar, then check Euskaltzaindia’s dictionary for its standard meaning and usage. The Lexicon Observatory lets you see forms in contemporary written texts; Euskalterm helps with technical words.\n\nA frequent form in a corpus may still belong to a particular genre or region. Read the surrounding sentence and note its date and setting. Ask a speaker when two alternatives seem close in meaning but different in tone.",
       "academy-corpus",
       "elhuyar",
       "euskaltzaindia"
     ),
     resources: [
       { type: "course", title: "HABE / IKASBIL", url: "https://www.ikasbil.eus/en/home", level: "all", description: cited("The public adult-learning portal supplies level-tagged audio, video, texts, exercises, exam models, and teaching materials from A1 through C levels.", "habe-ikasbil") },
-      { type: "course", title: "INGURA online Basque", url: "https://www.inguraonline.eus/", level: "beginner", description: cited("A multilingual digital environment backed by HABE for structured online learning, including guided A1 and A2 pathways through participating centers.", "habe-ikasbil") },
+      { type: "course", title: "INGURA online Basque", url: "https://inguraonline.eus/", level: "beginner", description: cited("A multilingual digital environment backed by HABE for structured online learning, including guided A1 and A2 pathways through participating centers.", "habe-ikasbil") },
       { type: "dictionary", title: "Elhuyar Dictionary", url: "https://hiztegiak.elhuyar.eus/", level: "all", description: cited("A practical bilingual reference with translations, domain and usage labels, and examples, aligned with Euskaltzaindia recommendations.", "elhuyar") },
       { type: "corpus", title: "Euskaltzaindia Lexicon Observatory", url: "https://www.euskaltzaindia.eus/index.php?option=com_oehberria&task=bilaketa&Itemid=413&lang=eu", level: "advanced", description: cited("A large lemmatized corpus of contemporary written Basque for checking forms, collocations, genres, and change.", "academy-corpus") },
-      { type: "media", title: "EITB Nahieran", url: "https://www.eitb.eus/eu/nahieran/", level: "intermediate", description: cited("On-demand Basque television and radio across news, culture, children’s programming, documentary, drama, and sport.", "eitb") }
+      { type: "media", title: "ETB On", url: "https://etbon.eus/", level: "intermediate", description: cited("EITB’s streaming television service has live channels and on-demand Basque programs. Radio content has moved to GUAU.", "eitb") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Basque vocabulary makes relationships visible through productive composition. Etxe is ‘house’; etxeko is ‘of/from the house’ as a modifier; etxekoandre historically combines house and woman, though social usage needs care; and countless surnames and place names contain etxe. The language’s public vocabulary also records deliberate modernization: scientists, journalists, translators, and terminology planners adapt inherited resources and international forms. The best words are not museum tokens but entrances into practices—auzolan into collective work, bertso into improvised verse, and euskaldun into a revealing definition of identity through language.",
+      "The word etxe, “house,” appears in many longer words and place names. Etxeko can mean “of the house,” while etxekoandre traditionally names a woman who runs a household; its social use needs context.\n\nBasque writers, scientists, and journalists also make terms for modern topics, sometimes choosing a new compound and sometimes an international word. Words such as auzolan, “communal work,” and bertso, “verse,” point to living practices as well as dictionary meanings.",
       "euskaltzaindia",
       "academy-corpus",
       "basque-language-book"
@@ -366,12 +361,12 @@ export const basqueGuide = {
       { term: "bertso", meaning: "improvised or composed verse", note: cited("Central to bertsolaritza, in which performers create sung rhymed verses under formal constraints, often responding to a theme, opponent, or current event before a live audience.", "basque-language-book") },
       { term: "txoko", meaning: "corner; nook; club room", note: cited("A physical ‘corner’ that can also name a cozy space or gastronomic society premises. Borrowed uses outside Basque sometimes narrow its social range, so examples matter.", "euskaltzaindia") },
       { term: "herri", meaning: "town; people; country", note: cited("A compact word whose translation changes by compound and context: Euskal Herria is the Basque Country, herriko plaza is the town square, and herri can foreground a people or popular community.", "euskaltzaindia", "basque-language-book") },
-      { term: "maite", meaning: "beloved; dear; to love in maite izan", note: cited("Basque commonly expresses ‘love’ with the construction maite izan. Maite also appears as an adjective, noun, and personal name, making it a useful lesson in learning words through constructions.", "elhuyar") },
+      { term: "maite", meaning: "beloved; dear; to love in maite izan", note: cited("Basque commonly expresses ‘love’ with the construction maite izan. Maite also appears as an adjective, noun, and personal name, so learn it through whole phrases.", "elhuyar") },
       { term: "pintxo", meaning: "small bar snack", note: cited("The Basque spelling uses tx. The food culture is now internationally branded, but ordering, sharing, and regional practice are richer than treating pintxo as simply a miniature meal.", "elhuyar") },
       { term: "agur", meaning: "goodbye; greeting", note: cited("Often taught as both hello and goodbye, though modern frequency and nuance vary by region and situation. It also carries literary and ceremonial resonance.", "euskaltzaindia") }
     ],
     loanwordLayers: cited(
-      "Old Latin loans are valuable historical evidence because they were remodeled by Basque sound changes; later Spanish, French, Gascon, and international loans sit beside them. Some borrowed words coexist with planned or revived Basque terms, and the choice can signal genre or speaker preference. Technology vocabulary demonstrates several strategies: direct international forms, semantic extension, and native compounds. Do not label every Romance-looking word ‘corruption,’ and do not assume every opaque word is prehistoric. Euskaltzaindia’s historical and standard dictionaries, supported by corpora, are safer than attractive folk etymologies built from accidental resemblance.",
+      "Old Latin loans entered Basque early enough to change with its sounds. Later Spanish, French, Gascon, and international loans sit beside inherited words. A word may also have a planned or revived Basque alternative.\n\nDo not assume a Romance-looking word is bad Basque, or that an unfamiliar one must be prehistoric. Check the Academy’s dictionaries and real examples before trusting an attractive folk etymology.",
       "basque-language-book",
       "academy-corpus",
       "euskaltzaindia"
@@ -394,20 +389,20 @@ export const basqueGuide = {
   },
   relationships: {
     overview: cited(
-      "A language isolate is not a language without relationships. It means the comparative method has not established a genealogical family beyond the ancient Aquitanian connection. Basque has nevertheless spent its documented history beside Celtic, Latin, Gascon, Spanish, French, and other languages, exchanging words and communicative habits. Claims of kinship with Georgian, Berber, Iberian, or distant languages need regular sound correspondences and shared inherited morphology, not a list of look-alike words. Contact relationships are historically rich in their own right and should not be disguised as family trees.",
+      "No comparison has established that Basque descends from the same language as any living neighbor. Aquitanian names give scholars a close ancient connection, although they do not preserve a full grammar.\n\nBasque has lived beside Celtic, Latin, Gascon, Spanish, French, and other languages for centuries. Shared words can come from borrowing rather than common ancestry. Proposed distant relatives need regular sound patterns and shared inherited forms, not a handful of similar-looking words.",
       "glottolog-basque",
       "cambridge-aquitanian",
       "wiki-basque"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Euskara is entwined with identity, but no speaker represents one politics or history. Donostia/San Sebastián, Iruña/Pamplona, and Baiona/Bayonne reflect multilingual histories. Begin in Basque, accept a switch without reading it as rejection, and ask to continue when appropriate. Support the ecosystem: attend bertso events, buy books and music, use Basque services, and value new speakers alongside home-language dialect speakers.",
+  culturalNotes: "Euskara matters to many people’s sense of home and identity, but speakers hold different politics and histories. Place names such as Donostia/San Sebastián and Baiona/Bayonne show that several languages live in the same area.\n\nTry a greeting in Basque, and accept it if the conversation moves to Spanish or French. If you want more practice, ask whether the other person would like to continue in Basque. Books, local media, performances, and services offer other ways to support the language.",
   resources: [
     { type: "course", title: "IKASBIL learner portal", url: "https://www.ikasbil.eus/en/home", level: "all", description: cited("HABE’s extensive collection of graded activities, video, audio, reading, exam practice, and adult-learning materials.", "habe-ikasbil") },
-    { type: "course", title: "INGURA", url: "https://www.inguraonline.eus/", level: "beginner", description: cited("A structured online environment for beginning Basque, connected to the public adult-education system and guided course provision.", "habe-ikasbil") },
+    { type: "course", title: "INGURA", url: "https://inguraonline.eus/", level: "beginner", description: cited("A structured online environment for beginning Basque, connected to the public adult-education system and guided course provision.", "habe-ikasbil") },
     { type: "dictionary", title: "Euskaltzaindiaren Hiztegia", url: "https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&view=frontpage&Itemid=410&lang=eu", level: "all", description: cited("The Academy’s standard dictionary for definitions, accepted forms, usage information, and normative checking.", "euskaltzaindia") },
     { type: "dictionary", title: "Elhuyar Hiztegiak", url: "https://hiztegiak.elhuyar.eus/", level: "all", description: cited("Fast bilingual lookup with examples and subject or usage labels; pair it with the monolingual Academy dictionary as proficiency grows.", "elhuyar") },
-    { type: "media", title: "EITB Nahieran", url: "https://www.eitb.eus/eu/nahieran/", level: "intermediate", description: cited("A large on-demand library of contemporary Basque radio and television, useful for building genre and accent range.", "eitb") },
+    { type: "media", title: "ETB On", url: "https://etbon.eus/", level: "intermediate", description: cited("EITB’s current television platform has live streams and on-demand programs. Select Basque-language content for listening practice.", "eitb") },
     { type: "other", title: "Etxepare Basque Institute resources", url: "https://www.etxepare.eus/en/online-resources", level: "all", description: cited("A gateway to dictionaries, learning materials, culture, and university study abroad.", "etxepare-resources") }
   ],
   relatedLanguages,
@@ -415,38 +410,38 @@ export const basqueGuide = {
     { original: "Kaixo!", translation: "Hello!", usageNote: "A widely understood informal greeting. Egun on is often more natural in a shop or morning encounter." },
     { original: "Egun on.", translation: "Good morning; good day.", literalMeaning: "Good day.", usageNote: "A dependable daytime greeting; use arratsalde on later in the day and gabon at night." },
     { original: "Zer moduz?", translation: "How are things?", literalMeaning: "In what manner?", usageNote: "An ordinary informal check-in; Ondo, eta zu? means ‘Good, and you?’" },
-    { original: "Mesedez.", translation: "Please.", usageNote: "Useful for polite requests. Place it naturally with a complete request rather than translating every English ‘please’ mechanically." },
-    { original: "Eskerrik asko.", translation: "Thank you very much.", usageNote: "The standard all-purpose expression of thanks; mila esker, literally ‘a thousand thanks,’ is another common form." },
+    { original: "Mesedez.", translation: "Please.", usageNote: "Use it with a request, but do not add it mechanically every time English uses ‘please.’" },
+    { original: "Eskerrik asko.", translation: "Thank you.", usageNote: "The standard all-purpose expression of thanks; mila esker, literally ‘a thousand thanks,’ is another common form." },
     { original: "Ez horregatik.", translation: "You’re welcome.", literalMeaning: "Not for that.", usageNote: "A conventional response to thanks." },
     { original: "Barkatu.", translation: "Excuse me; sorry.", usageNote: "Use it to get attention, pass someone, or apologize; context and intonation distinguish the force." },
     { original: "Ez dut ulertzen.", translation: "I don’t understand.", usageNote: "Notice negative order: ez + auxiliary dut + lexical verb ulertzen." },
     { original: "Polikiago, mesedez.", translation: "More slowly, please.", usageNote: "A concise request when speech is too fast. Add hitz egin, ‘speak,’ if you want a fuller sentence." },
-    { original: "Nola esaten da hau euskaraz?", translation: "How do you say this in Basque?", literalMeaning: "How is this said in Basque?", usageNote: "A high-value classroom and conversation-repair phrase." },
+    { original: "Nola esaten da hau euskaraz?", translation: "How do you say this in Basque?", literalMeaning: "How is this said in Basque?", usageNote: "Ask this when you need a word in class or conversation." },
     { original: "Kafe bat nahi dut, mesedez.", translation: "I would like a coffee, please.", literalMeaning: "I want one coffee, please.", usageNote: "The subject ‘I’ is encoded in dut; explicit nik is unnecessary unless contrastive." },
     { original: "Non dago komuna?", translation: "Where is the toilet?", usageNote: "Non asks location; compare nora ‘to where?’ and nondik ‘from where?’" },
     { original: "Pozten naiz zu ezagutzeaz.", translation: "Pleased to meet you.", literalMeaning: "I am glad about meeting you.", usageNote: "A polite full expression; conversation may use shorter formulas." },
     { original: "Gero arte!", translation: "See you later!", literalMeaning: "Until later!", usageNote: "A common, non-final leave-taking. Agur is also used for goodbye." }
   ],
   sources: [
-    { id: "wiki-basque", title: "Basque language", url: "https://en.wikipedia.org/wiki/Basque_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
-    { id: "glottolog-basque", title: "Glottolog: Basque", url: "https://glottolog.org/resource/languoid/id/basq1248", publisher: "Glottolog", accessedAt: "2026-07-10" },
-    { id: "cambridge-aquitanian", title: "The Relationship between Aquitanian and Basque: Achievements and Challenges of the Comparative Method", url: "https://www.cambridge.org/core/books/language-change-and-linguistic-diversity/relationship-between-aquitanian-and-basque-achievements-and-challenges-of-the-comparative-method-in-a-context-of-poor-documentation/9EB6514ED397F9F107DF53036B83C842", publisher: "Cambridge University Press", publishedAt: "2024", accessedAt: "2026-07-10" },
-    { id: "basque-language-book", title: "Euskara: The Basque Language", url: "https://basqueculture.eus/media/uploads/libros/basque_euskara_eus-en1.pdf", publisher: "Etxepare Basque Institute", accessedAt: "2026-07-10" },
-    { id: "education-basque", title: "Basque in Education in the Basque Autonomous Community", url: "https://www.euskadi.eus/web01-s2hhome/en/contenidos/informacion/dia6/en_2027/adjuntos/publications_in_english/Basque_in_Education_en_2020_berrituta.pdf", publisher: "Basque Government Department of Education", updatedAt: "2025", accessedAt: "2026-07-10" },
-    { id: "survey-2021", title: "Seventh Sociolinguistic Survey 2021", url: "https://www.euskadi.eus/contenidos/informacion/eas_ikerketak/en_def/adjuntos/Seventh_Sociolinguistic_Survey_2021.pdf", publisher: "Basque Government, Government of Navarre, and Euskararen Erakunde Publikoa", publishedAt: "2023", accessedAt: "2026-07-10" },
-    { id: "euskadi-data", title: "Basque Language System of Indicators: Significant Data", url: "https://www.euskadi.eus/significant-data/web01-a3eas/en/", publisher: "Basque Government", accessedAt: "2026-07-10" },
-    { id: "eustat-2021", title: "In 2021, 62.4% of people residing in the Basque Country had some knowledge of Basque", url: "https://en.eustat.eus/elementos/ele0020200/ti_in-2021-624-of-people-residing-in-the-basque-country-had-some-knowledge-of-basque/not0020231_i.html", publisher: "Eustat — Basque Statistics Institute", publishedAt: "2022-10-27", accessedAt: "2026-07-10" },
-    { id: "euskaltzaindia", title: "Euskaltzaindia — Academy of the Basque Language", url: "https://www.euskaltzaindia.eus/en/", publisher: "Euskaltzaindia", accessedAt: "2026-07-10" },
-    { id: "ehu-cases", title: "Cases and Postpositions", url: "https://www.ehu.eus/en/web/eins/cases-and-postpositions", publisher: "Basque Language Institute, University of the Basque Country (UPV/EHU)", accessedAt: "2026-07-10" },
-    { id: "ehu-grammar", title: "A Brief Grammar of Euskara, the Basque Language", url: "https://www.ehu.eus/en/web/eins/basque-grammar", publisher: "Basque Language Institute, University of the Basque Country (UPV/EHU)", accessedAt: "2026-07-10" },
-    { id: "habe-ikasbil", title: "IKASBIL: Learn Basque", url: "https://www.ikasbil.eus/en/home", publisher: "HABE, Basque Government", accessedAt: "2026-07-10" },
+    { id: "wiki-basque", title: "Basque language", url: "https://en.wikipedia.org/wiki/Basque_language", publisher: "Wikipedia", accessedAt: "2026-09-27" },
+    { id: "glottolog-basque", title: "Glottolog: Basque", url: "https://glottolog.org/resource/languoid/id/basq1248", publisher: "Glottolog", accessedAt: "2026-09-27" },
+    { id: "cambridge-aquitanian", title: "The Relationship between Aquitanian and Basque: Achievements and Challenges of the Comparative Method", url: "https://www.cambridge.org/core/books/language-change-and-linguistic-diversity/relationship-between-aquitanian-and-basque-achievements-and-challenges-of-the-comparative-method-in-a-context-of-poor-documentation/9EB6514ED397F9F107DF53036B83C842", publisher: "Cambridge University Press", publishedAt: "2024", accessedAt: "2026-09-27" },
+    { id: "basque-language-book", title: "Euskara: The Basque Language", url: "https://basqueculture.eus/media/uploads/libros/basque_euskara_eus-en1.pdf", publisher: "Etxepare Basque Institute", accessedAt: "2026-09-27" },
+    { id: "education-basque", title: "Basque in Education in the Basque Autonomous Community", url: "https://www.euskadi.eus/web01-s2hhome/en/contenidos/informacion/dia6/en_2027/adjuntos/publications_in_english/Basque_in_Education_en_2020_berrituta.pdf", publisher: "Basque Government Department of Education", accessedAt: "2026-09-27" },
+    { id: "survey-2021", title: "Seventh Sociolinguistic Survey 2021", url: "https://www.euskadi.eus/contenidos/informacion/eas_ikerketak/en_def/adjuntos/Seventh_Sociolinguistic_Survey_2021.pdf", publisher: "Basque Government, Government of Navarre, and Euskararen Erakunde Publikoa", publishedAt: "2024", accessedAt: "2026-09-27" },
+    { id: "euskadi-data", title: "Basque Language System of Indicators: Significant Data", url: "https://www.euskadi.eus/significant-data/web01-a3eas/en/", publisher: "Basque Government", accessedAt: "2026-09-27" },
+    { id: "eustat-2021", title: "In 2021, 62.4% of people residing in the Basque Country had some knowledge of Basque", url: "https://en.eustat.eus/elementos/ele0020200/ti_in-2021-624-of-people-residing-in-the-basque-country-had-some-knowledge-of-basque/not0020231_i.html", publisher: "Eustat — Basque Statistics Institute", publishedAt: "2022-10-27", accessedAt: "2026-09-27" },
+    { id: "euskaltzaindia", title: "Euskaltzaindia — Academy of the Basque Language", url: "https://www.euskaltzaindia.eus/en/", publisher: "Euskaltzaindia", accessedAt: "2026-09-27" },
+    { id: "ehu-cases", title: "Cases and Postpositions", url: "https://www.ehu.eus/en/web/eins/cases-and-postpositions", publisher: "Basque Language Institute, University of the Basque Country (UPV/EHU)", accessedAt: "2026-09-27" },
+    { id: "ehu-grammar", title: "A Brief Grammar of Euskara, the Basque Language", url: "https://www.ehu.eus/en/web/eins/basque-grammar", publisher: "Basque Language Institute, University of the Basque Country (UPV/EHU)", accessedAt: "2026-09-27" },
+    { id: "habe-ikasbil", title: "IKASBIL: Learn Basque", url: "https://www.ikasbil.eus/en/home", publisher: "HABE, Basque Government", accessedAt: "2026-09-27" },
     { id: "academy-corpus", title: "Observatory of the Lexicon, a Basque Corpus of Almost 60 Million Words", url: "https://www.elhuyar.eus/en/press-room/observatory-lexicon-corpus-basque-almost-60-million-words", publisher: "Elhuyar and Euskaltzaindia", publishedAt: "2017-03-07", accessedAt: "2026-09-27" },
-    { id: "elhuyar", title: "Elhuyar Dictionary", url: "https://hiztegiak.elhuyar.eus/", publisher: "Elhuyar", accessedAt: "2026-07-10" },
-    { id: "eitb", title: "EITB Nahieran", url: "https://www.eitb.eus/eu/nahieran/", publisher: "Euskal Irrati Telebista", accessedAt: "2026-07-10" },
-    { id: "etxepare-resources", title: "Online Resources", url: "https://www.etxepare.eus/en/online-resources", publisher: "Etxepare Basque Institute", accessedAt: "2026-07-10" }
+    { id: "elhuyar", title: "Elhuyar Dictionary", url: "https://hiztegiak.elhuyar.eus/", publisher: "Elhuyar", accessedAt: "2026-09-27" },
+    { id: "eitb", title: "ETB On, EITB’s new television platform", url: "https://www.eitb.eus/es/grupo-eitb/detalle/10158736/etb-on-nueva-plataforma-digital-de-television-de-eitb-se-presenta-esta-tarde-en-sociedad/", publisher: "Euskal Irrati Telebista", publishedAt: "2025-12-16", accessedAt: "2026-09-27" },
+    { id: "etxepare-resources", title: "Online Resources", url: "https://www.etxepare.eus/en/online-resources", publisher: "Etxepare Basque Institute", accessedAt: "2026-09-27" }
   ],
   seo: {
     title: "Basque Language Guide: Euskara, Grammar, Dialects and Learning",
-    description: "A source-backed guide to Basque: its communities, history, Batua and dialects, sounds, ergative grammar, words, culture, practical phrases, and modern learning resources."
+    description: "Learn Basque through its speakers, regional varieties, clear spelling, grammar examples, everyday phrases, history, literature, and current learning resources."
   }
 } satisfies LanguageGuide;

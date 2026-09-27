@@ -6,7 +6,7 @@ const relatedLanguages = [
     name: "Estonian",
     relationship: "Close Finnic relative",
     explanation: cited(
-      "Finnish and Estonian share much inherited vocabulary and grammar, but centuries of separate development prevent effortless mutual understanding. Finnish kala and Estonian kala both mean “fish,” while Finnish mennä “go” corresponds to Estonian minema. Estonian has lost most word-final vowels and much productive vowel harmony, so its forms often look compressed beside Finnish ones. A Finnish learner will recognize patterns, not receive Estonian for free.",
+      "Finnish and Estonian share inherited words and grammar, but speakers usually need study or exposure to understand the other language well. Both use kala for “fish”; Finnish mennä, “to go,” corresponds to Estonian minema. Estonian has lost many final vowels and much of its old vowel harmony, so related words can look quite different.",
       "glottolog",
       "wiki-finnish"
     )
@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Karelian",
     relationship: "Closest major linguistic relative",
     explanation: cited(
-      "Karelian is a distinct Finnic language spoken in Finland and Russia, not the same thing as the southeastern dialects of Finnish called Karelian dialects. The languages form a close continuum of historical relationships and contact, yet Karelian has its own varieties, literature, institutions, and endangered-language revitalization. Learners should resist treating it as quaint or incorrect Finnish.",
+      "Karelian is a separate Finnic language spoken in Finland and Russia. Kotus distinguishes it from the southeastern Finnish dialects also called Karelian. Karelian has its own varieties and written work, and its speakers are working to strengthen its future.",
       "kotus-languages",
       "glottolog"
     )
@@ -24,7 +24,7 @@ const relatedLanguages = [
     name: "Northern Sámi",
     relationship: "More distant Uralic relative and contact language",
     explanation: cited(
-      "Finnish and the Sámi languages belong to Uralic but to different branches. They share ancient inherited material and later contact, while remaining plainly different languages. Sámi languages are Indigenous languages of Sápmi, not northern Finnish dialects. Modern Finland recognizes specific Sámi language rights, and responsible comparison begins with that political and cultural fact.",
+      "Finnish and the Sámi languages belong to different branches of Uralic. They share ancient ancestry and later contact, but they are separate languages. Sámi languages are Indigenous languages of Sápmi with specific language rights in Finland.",
       "kotus-languages",
       "language-act"
     )
@@ -34,7 +34,7 @@ const relatedLanguages = [
     slug: "hungarian",
     relationship: "Distant Uralic relative",
     explanation: cited(
-      "Hungarian and Finnish share deep Uralic ancestry, but their last common stages lie thousands of years back. Neither language is mutually intelligible with the other. Similar habits—suffixing, vowel harmony, rich case inventories, no grammatical gender—are useful comparison points, but many are typological tendencies rather than matching pieces inherited unchanged. Ordinary vocabulary and grammar differ substantially.",
+      "Hungarian and Finnish share distant Uralic ancestry, but their speakers cannot understand each other without study. Both build many words with endings and lack grammatical gender. Those broad similarities will not give you matching everyday vocabulary or identical grammar.",
       "glottolog",
       "wiki-finnish"
     )
@@ -47,18 +47,18 @@ export const finnishGuide = {
   autonym: "suomi / suomen kieli",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Finnish is a Finnic Uralic language whose clear spelling, meaningful length contrasts, flexible suffixes, lively spoken varieties, literature, music, and public media reward attention to whole phrases rather than fear of case tables.",
+  summary: "In Finnish, tuli is “fire,” tuuli is “wind,” and tulli is “customs.” Learn how sound length, word endings, and everyday speech shape this Finnic language in Finland and beyond.",
   family: "Uralic, Finnic",
   macroRegion: "Finland, northern Europe, and Finnish communities abroad",
   primaryScript: "Latin",
   difficultyLabel: "Demanding",
-  learnerHook: "Finnish lets a learner read aloud almost immediately, then gradually reveals how vowel length, compact endings, particles, and the gap between edited and casual speech turn simple-looking words into precise social choices.",
+  learnerHook: "One doubled letter can change a Finnish word. From there, learn why talossa means “in the house” and why a friend may say mä oon where a textbook prints minä olen.",
   hero: {
     imageAlt: "A Finnish novel beside a notebook showing doubled vowels, umlauted letters, and case endings.",
     callToActionLabel: "Hear Finnish in use"
   },
   classification: "A Finnic language in the Uralic family and a national language of Finland",
-  speakerCommunity: "Finnish is the first language of most people in Finland and a second language for many more, but its community is not a single cultural voice. It includes Helsinki schoolchildren who say mä oon where a textbook prints minä olen, Savonian storytellers whose intonation and forms mark home, Swedish-speaking Finns who use Finnish daily, new residents learning it for work and belonging, Tornedalian and Kven communities whose related histories cross modern borders, and descendants in Sweden, North America, Australia, and elsewhere. The Finnish state records one registered mother tongue per person, a useful administrative measure that cannot fully represent multilingual lives. Finnish shares Finland with Swedish, Sámi languages, Finnish and Finland-Swedish sign languages, Karelian, Romani, and rapidly growing immigrant languages. Learning Finnish therefore means joining particular conversations, not collecting evidence for a mythically silent or homogeneous nation.",
+  speakerCommunity: "Most people in Finland have Finnish as their registered first language, and many others use it as an additional language. Speakers include children who grow up with city colloquial speech, families who keep regional dialects, new residents studying for work, and communities abroad. A register records one language for each resident, so its count cannot describe every multilingual life.\n\nFinnish shares Finland with Swedish, Sámi languages, Karelian, Romani, sign languages, and languages brought by migration. Kven and Meänkieli have related histories across northern borders and their own recognized identities. Learn Finnish through the people and settings you care about, not a national stereotype.",
   facts: [
     { label: "Family", value: "Uralic · Finnic" },
     { label: "Registered in Finland", value: "4,719,802 residents had Finnish as their registered language at the end of 2025" },
@@ -67,76 +67,70 @@ export const finnishGuide = {
     { label: "Grammar", value: "15 conventionally named cases, rich derivation, verb agreement, participles, infinitives, and enclitic particles" },
     { label: "Typical stress", value: "The first syllable carries primary stress, including in long and borrowed words" }
   ],
-  learnerOverview: "Begin with sound and a small social repertoire. Finnish spelling makes words inspectable, but only if you hear the difference between tuli “fire,” tuuli “wind,” and tulli “customs.” Learn minä olen and its everyday partner mä oon together, each labeled for setting. Build endings inside useful contrasts: talossa “in the house,” talosta “out of the house,” taloon “into the house.” Store verbs with the cases they invite: pidän kahvista “I like coffee,” not merely pitää “like.” Finnish is rich in patterns, but patterns become fluent through many encounters, not one heroic suffix chart. A first path can combine a structured course, Yle’s learner media, short conversation with correction, and a personal subject—ice hockey, design, metal, ecology, games, cooking, politics, film, or fiction—that gives the next thousand words somewhere to live.",
+  learnerOverview: "Say tuli, tuuli, and tulli aloud. The first means “fire,” the second “wind,” and the third “customs.” The doubled letter changes the word, so start listening for length as you read.\n\nNext, learn a written and spoken version of a familiar sentence: minä olen and mä oon both mean “I am,” but the second belongs to casual conversation. Learn endings through a small set of paths: talossa is “in the house,” talosta “out of the house,” and taloon “into the house.”\n\nSave verbs with the forms they call for: pidän kahvista means “I like coffee.” Aalto’s beginner course, short Yle recordings, and corrected conversation can give you a steady start. Pick a subject you already follow so new Finnish words recur in stories you understand.",
   origins: {
     overview: cited(
-      "Finnish belongs to the Finnic branch of Uralic, alongside Estonian, Karelian, Veps, and smaller related languages. “Uralic” names a demonstrated language family, not a claim that modern Finns migrated directly from one neat point on a map. Proto-Finnic developed around the eastern Baltic through long interaction among mobile communities. Sound change, settlement, trade, and contact produced western and eastern Finnish dialect areas rather than one untouched ancestral form. For much of the medieval period, Finnish was primarily spoken while Latin served the church and Swedish served expanding administration. Written evidence before the sixteenth century consists largely of names and scattered words. The Reformation created demand for vernacular religious text, and Mikael Agricola’s ABC book and 1548 New Testament established an influential, experimental written Finnish based especially on southwestern forms.",
-      "wiki-history",
-      "kotus-finnish",
-      "wiki-history"
+      "Finnish belongs to the Finnic branch of Uralic, with Estonian, Karelian, and Veps. The family name describes a linguistic relationship; it does not trace every modern Finnish speaker to one ancient homeland. Finnic varieties developed around the eastern Baltic through settlement and contact.\n\nFor centuries, people chiefly spoke Finnish while clergy and officials wrote in Latin or Swedish. The first Finnish books appeared in the 1540s. Mikael Agricola’s primer and his 1548 New Testament helped establish a written form based mainly on western dialects, though spelling still varied.",
+      "wiki-history", "kotus-old-literary", "glottolog"
     ),
     timeline: [
       {
         period: "1540s–1642",
         event: cited(
-          "Mikael Agricola published the first known Finnish primer and translated the New Testament in 1548. His spelling varied because he was building conventions for sounds and endings with no settled model. The complete Bible of 1642 broadened religious literacy and stabilized many practices, though written language remained strongly western in its base.",
-          "wiki-history",
-          "wiki-history"
+          "Agricola published the first Finnish books in the 1540s, including a primer, and translated the New Testament in 1548. The 1642 Bible extended written Finnish while the literary standard still leaned westward.",
+          "kotus-old-literary"
         )
       },
       {
         period: "1809–late nineteenth century",
         event: cited(
-          "After Finland became an autonomous Grand Duchy in the Russian Empire, language politics changed. Scholars and writers collected eastern dialect vocabulary and oral poetry; Elias Lönnrot’s Kalevala and dictionary work enlarged the literary repertoire. The 1863 Language Decree began a process toward Finnish parity with Swedish in administration. Newspapers, schools, civic organizations, novels, and translation made Finnish usable across new public domains.",
-          "wiki-history",
-          "wiki-finnish"
+          "After 1809, writers brought more eastern dialect forms into the western-based literary language. The Kalevala, newspapers, and schools widened what Finnish writers could do. The 1863 Language Decree set Finnish on a path toward equal use with Swedish in administration.",
+          "kotus-nineteenth", "wiki-history"
         )
       },
       {
         period: "Twentieth century to the digital present",
         event: cited(
-          "Independence, mass education, migration from countryside to towns, the displacement of Karelians after war, nationwide broadcasting, and later digital media reshaped how varieties met. Standard Finnish remained strong in public writing while urban spoken Finnish became more visible in dialogue, advertising, subtitles, music, and messaging. Contemporary corpora now allow learners to inspect both edited and conversational usage.",
+          "Schools, migration, broadcasting, and later online media brought regional speech into new contact. Standard Finnish continued in public writing, while colloquial forms gained space in subtitles, songs, and messages. Today you can compare both in language corpora.",
           "kotus-registers",
           "kielipankki-korp"
         )
       }
     ],
     contactHistory: cited(
-      "Finnish vocabulary records sustained multilingual life. Ancient Baltic and Germanic loans include basic cultural terms; Slavic contact contributed another early layer. Centuries within Sweden made Swedish the largest historical source of newer loans in administration, trade, urban life, food, and education, sometimes alongside Low German. Russian influence is especially visible in eastern dialects and particular everyday terms. Christianity and scholarship carried Greek and Latin material, often through Swedish. Modern English supplies technology, business, sport, entertainment, and youth vocabulary: some items remain visibly international, while others take Finnish endings and derivation without fuss. Finnish has also influenced neighboring varieties. Borrowing is not damage around an otherwise pure core; it is evidence that speakers have continuously adapted Finnish to the worlds they inhabit.",
+      "Finnish has taken words from its neighbors for centuries. Older Baltic, Germanic, and Slavic contact left different layers; Swedish later contributed many words linked to public life and trade. Russian contact is easier to hear in some eastern varieties.\n\nToday speakers also borrow English words for technology, work, and entertainment. Those words can take Finnish endings, as in blogissa, “in the blog.” Borrowing shows how speakers adapt their language to changing lives.",
       "wiki-finnish",
       "kotus-finnish"
     ),
     standardization: cited(
-      "Standard written Finnish, yleiskieli, was deliberately assembled from multiple dialect resources rather than copied from one modern city. Its spelling and grammar are maintained through education, publishing, public administration, dictionaries, and recommendations from the Institute for the Languages of Finland. Standard Finnish is internally variable and keeps changing. It should not be confused with all Finnish: regional dialects and colloquial forms share core grammar while following their own natural norms. A newsreader, parliamentary report, text message, stand-up set, and conversation at a bus stop can all be competent Finnish. Learners need standard Finnish for broad literacy and public life, but treating it as the only correct speech makes ordinary conversation unnecessarily mysterious.",
-      "kotus-registers",
-      "kotus-finnish"
+      "Writers built standard Finnish, or yleiskieli, from more than one regional variety. Schools and publishers teach it, and Kotus advises on its spelling and usage. It is the common form of most news prose and official writing.\n\nPeople also speak regional and colloquial Finnish with their own patterns. Kotus notes that even the written standard allows alternatives. Learn it for reading and public life, then listen to how speakers adjust their language among friends, at work, and online.",
+      "kotus-registers", "kotus-nineteenth"
     )
   },
   variants: {
     overview: cited(
-      "Traditional Finnish dialectology draws a broad western–eastern division and many regional groups: southwestern, Häme, Ostrobothnian, far-northern, Savo, and southeastern varieties among them. Those categories describe bundles of features, not fenced-off speech. Urbanization and mobility have produced regional colloquial forms that mix local and nationwide tendencies. Age, occupation, medium, and relationship may predict a form as strongly as birthplace. The Institute’s archives contain recordings from essentially every Finnish parish, making variation something learners can hear rather than a decorative map.",
-      "kotus-dialects"
+      "Finnish dialects have broad western and eastern groupings, with smaller regional groups inside them. The boundaries mark clusters of features, not walls between speakers. City speech also mixes regional and shared colloquial patterns.\n\nAge, setting, and relationship can affect someone's word choice alongside hometown. Kotus preserves a large archive of dialect recordings, so you can hear those differences rather than rely on a map alone.",
+      "kotus-dialects", "kotus-archive"
     ),
     items: [
       {
         name: "Standard written Finnish (yleiskieli / kirjakieli)",
         note: cited(
-          "The shared form used in most books, news prose, official communication, education, and learner materials. Formal speech often approaches it but rarely sounds like text read word by word. It remains the essential bridge across region and generation.",
+          "Most books, news reports, public instructions, and courses use this shared form. A formal speech may come close to it, but ordinary conversation usually has different shapes. Standard Finnish connects readers across regions.",
           "kotus-registers"
         )
       },
       {
         name: "Nationwide colloquial Finnish (puhekieli)",
         note: cited(
-          "Common conversation includes minä → mä, sinä → sä, olen → oon, and third-person plural forms such as ne tulee beside standard he tulevat. These are patterned choices, not careless deletions. Their distribution varies, so learn complete equivalents from real speakers rather than applying a universal shortening algorithm.",
-          "kotus-registers",
-          "kielipankki-korp"
+          "Aalto's beginner course pairs minä with mä, and its speakers say Mä oon for “I am.” You may also hear ne tulee where a standard sentence has he tulevat, “they come.” Colloquial forms vary by region and speaker, so learn them in whole exchanges.",
+          "kotus-registers", "aalto-greetings"
         )
       },
       {
         name: "Savo and other eastern varieties",
         note: cited(
-          "Savo varieties cover a wide region and are associated with recognizable diphthong patterns, consonant behavior, vocabulary, and intonation. Their famous indirectness is a cultural stereotype, not a grammar rule. Listen to individual speakers and genres instead of turning a complex region into comic characterization.",
+          "Savo varieties differ in vowel patterns, consonants, and local vocabulary. No one speech style represents every speaker in the region. Listen to a recording and compare a few forms with the standard before making wider claims.",
           "kotus-dialects"
         )
       }
@@ -144,20 +138,17 @@ export const finnishGuide = {
   },
   pronunciation: {
     overview: cited(
-      "Finnish has eight core vowel letters—a, e, i, o, u, y, ä, ö—and treats length as meaning-changing for both vowels and consonants. The contrast is written transparently: tuli “fire,” tuuli “wind,” and tulli “customs” are three different words. Vowels commonly participate in harmony: native suffixes choose back-vowel forms with a, o, u and front-vowel forms with ä, ö, y, while e and i are neutral. Harmony is a property learners can hear and produce through word families, not an exotic mental calculation.",
-      "wiki-grammar",
-      "kotus-finnish"
+      "Finnish writes eight main vowel sounds with a, e, i, o, u, y, ä, and ö. A doubled vowel or consonant lasts longer and can change meaning: tuli is “fire,” tuuli “wind,” and tulli “customs.” Train your ear on these short pairs before a long word hides the contrast.\n\nMany endings also match the vowels in the word: talossa means “in the house,” but kylässä means “in the village.” This pattern is called vowel harmony. The letters e and i can appear with either front or back vowels in many native words.",
+      "kotus-pronunciation", "kotus-finnish"
     ),
     script: "Finnish Latin alphabet; examples use standard Finnish spelling rather than a separate romanization",
     soundSystem: cited(
-      "Most letter–sound relationships are stable. Finnish y resembles French u or German ü, not English y; ä is an open front vowel, and ö is rounded. The r is normally trilled and h changes color according to neighboring sounds. Native vocabulary historically favors a restricted consonant set, but loans expand it. Consonant gradation alternates strong and weak stem shapes: kauppa “shop” → kaupassa “in the shop,” katu “street” → kadulla “on the street,” and lukea “read” → luen “I read.” Learn the forms as families; gradation is systematic but its lexical and historical patterns are not all predictable from one rule.",
-      "wiki-grammar",
-      "visk"
+      "Most letters give you a dependable sound. Make y with your tongue forward and lips rounded, as in German ü; ä is an open front vowel, and ö is rounded. Finnish r is usually rolled.\n\nSome stems change when an ending arrives: kauppa, “shop,” becomes kaupassa, “in the shop.” Katu, “street,” becomes kadulla, “on the street.” Grammars call this consonant gradation; learn a noun with two or three forms so the change becomes familiar.",
+      "kotus-pronunciation", "visk", "uusi-gradation"
     ),
     prosody: cited(
-      "Primary stress normally falls on the first syllable, even in long compounds and recent loans. Secondary stresses help organize later feet, while sentence focus and intonation decide what sounds contrasted, unfinished, doubtful, or obvious. Finnish rhythm is not simply flat: quantity remains crucial in unstressed syllables, and casual speech compresses familiar sequences. Shadow full clauses without replacing every unstressed vowel by English schwa. A correct first-syllable beat cannot rescue wrong length, because the listener may hear a different word.",
-      "wiki-finnish",
-      "wiki-grammar"
+      "The first syllable normally carries the strongest beat, even in a long word. Speakers also use pitch and emphasis to show which part of a sentence they mean to contrast. Listen to whole clauses, not only isolated words.\n\nKeep doubled sounds long even when they fall away from the main stress. Casual speakers may shorten familiar phrases, but the spelling still helps you find their underlying words. Shadow a recording before trying to guess its rhythm from print.",
+      "kotus-pronunciation", "wiki-grammar"
     ),
     learnerTraps: [
       "Treating doubled letters as emphasis instead of holding the vowel or consonant longer",
@@ -178,47 +169,46 @@ export const finnishGuide = {
   },
   writing: {
     overview: cited(
-      "Finnish uses the Latin alphabet with ä and ö as independent letters placed after z in Finnish alphabetical order. Å belongs to the alphabet and occurs mainly in Swedish names; š and ž appear in recommendations for certain foreign words and names, while many keyboards and texts use adapted spellings. Double vowels and consonants directly mark phonemic length. The result is unusually transparent spelling, although morphophonological alternations mean the same lexical stem can appear in several written shapes.",
+      "Finnish uses the Latin alphabet and treats ä and ö as separate letters after z in alphabetical order. Å also appears in the alphabet, especially in Swedish names. Writers double a vowel or consonant to show a longer sound.\n\nSpelling often makes pronunciation clear, but an ending can change the stem you expect to see. Learn matto with maton, “of the rug,” rather than assuming every form keeps tt. A dictionary gives you the other common forms.",
       "unicode-cldr",
       "kotus-finnish"
     ),
     primaryScript: "Latin alphabet with Finnish orthographic conventions",
     romanization: cited(
-      "Finnish is already written in Latin script, so it needs no general romanization. Learner respellings such as “oo” for long o are actively misleading because Finnish oo already has an exact spelling and sound value. Preserve ä and ö in names and words; replacing them with a and o can change pronunciation or identity. Unicode encodes them routinely, and modern systems should handle them without improvised substitutions.",
+      "Finnish already uses Latin letters, so you do not need a separate romanization. Keep ä and ö in names and words; replacing them with a and o can change how a reader says them. A Finnish keyboard layout lets you type these letters directly.",
       "unicode-cldr"
     ),
     spellingNorms: cited(
-      "Write compounds together when they function as one word, a practice that creates forms long enough to attract internet jokes but ordinary enough to matter in searches and editing. Use a hyphen where structure or adjacent vowels require clarification. Commas, capitalization, and foreign names follow maintained conventions rather than sound alone. Spoken spellings—mä, oon, tuun—are common in quoted dialogue and informal messages, but a learner should distinguish purposeful colloquial writing from random omission.",
+      "Writers join many compounds into one word: kirjakauppa is a bookshop. Finnish spelling rules also cover hyphens, names, and punctuation, so sound alone will not settle every editing choice. Look up an unfamiliar compound in the dictionary.\n\nIn dialogue and messages, writers may choose mä or oon to show colloquial speech. Those spellings belong to a recognizable spoken register. Use standard forms for an official letter unless the context calls for a different voice.",
       "kotus-registers",
       "kotus-dictionary"
     ),
     styleNotes: [
       cited("Treat ä and ö as letters, not decorated versions of a and o; dictionary and alphabetical order reflect that distinction.", "unicode-cldr"),
-      cited("Learn the spelling and sound of both strong and weak stems: matto, maton, matolla tells a more useful story than the isolated headword “rug.”", "visk"),
+      cited("Learn the spelling and sound of both strong and weak stems: matto, maton, matolla tells you more than the isolated headword “rug.”", "visk"),
       cited("Keep standard and conversational spellings tagged by genre. A novel’s dialogue, a group chat, and an application form make different orthographic promises.", "kotus-registers"),
       cited("When a compound is hard to parse, work from its rightmost head: kirjakauppa is a kind of kauppa “shop,” and tiedekirjakauppa is a science-book shop.", "kotus-dictionary")
     ]
   },
   grammar: {
     overview: cited(
-      "Finnish often places several meaningful endings after a stem: talo-i-ssa-ni-kin can be parsed roughly as house-plural-in-my-also, “in my houses too.” Linguists call this agglutination when boundaries remain relatively segmentable. Real Finnish is not a box of perfectly snapping bricks: vowel harmony selects ending shapes, consonant gradation changes stems, endings overlap in function, and common words preserve irregular history. The useful insight is that long forms contain clues. Learn to peel them from the outside while reading them as complete expressions.",
-      "kotus-finnish",
-      "visk"
+      "Finnish can build a long word from a short base: taloissani means “in my houses.” Talo is “house”; the following pieces add plural, location, and “my.” Linguists call this way of building words agglutination.\n\nEndings do not always snap onto an unchanged stem. Vowel harmony changes their vowels, and consonant gradation can change the base. Read each form as a real word first, then use its pieces to explain what you heard.",
+      "kotus-finnish", "visk"
     ),
     typologicalProfile: cited(
-      "Finnish is largely suffixing, has no grammatical gender or articles, and normally uses subject–verb–object order when context is neutral. Nouns, adjectives, pronouns, numerals, and participles inflect; verbs mark person, tense, mood, and voice-like constructions. Fifteen cases are conventionally listed, but frequency and productivity differ. Word order is flexible because endings identify many roles, yet it is not free: order, stress, and particles package old information, new information, contrast, and stance.",
+      "Finnish puts most grammatical endings after a word. It has no articles like English a and the, and it does not assign grammatical gender to nouns. In a plain statement, the doer often comes before the verb and its object.\n\nNouns can take endings for roles such as location or possession; these are called cases. Finnish grammars usually list fifteen, though some are far more common than others. Speakers also move words to mark a topic or contrast, so endings and word order work together.",
       "kotus-finnish",
       "wiki-grammar",
       "visk"
     ),
     morphology: cited(
-      "A learner needs stems as much as suffixes. Nainen “woman” has the genitive naisen; vesi “water” has veden; käsi “hand” has käden; huone “room” has huoneen. Productive derivation creates families: kirja “book,” kirjasto “library,” kirjailija “author,” kirjoittaa “write,” kirjoitus “piece of writing.” Clitic particles follow other endings: -kin adds “also/even,” -kaan/-kään participates in negative “either,” -ko/-kö makes questions, and -han/-hän can mark shared knowledge, insistence, or softening. Their translation belongs to a sentence and tone, not a fixed English word.",
+      "A dictionary headword will not show you every stem: nainen, “woman,” becomes naisen, “of the woman,” and vesi, “water,” becomes veden. Save these pairs as you meet them. Derivation also builds word families, such as kirja, “book,” kirjasto, “library,” and kirjailija, “author.”\n\nSmall particles can attach after other endings. The particle -kin may mean “also”; -ko or -kö turns a word into a yes-or-no question. Hear the complete sentence before assigning one English word to a particle.",
       "kotus-finnish",
       "visk",
       "kotus-dictionary"
     ),
     syntax: cited(
-      "Neutral Hän osti kirjan means “she/he bought the book.” Kirjan hän osti foregrounds the book—perhaps contrasting it with something not bought—and Hän kirjan osti can carry another marked focus. Finnish pronouns do not distinguish he from she: hän refers to a person in the singular standard language, while se is common for people in colloquial speech and not automatically insulting. Subjects can disappear when the verb ending identifies them: tulen “I come.” The absence of articles means definiteness emerges through context, word order, case, quantity, and construction.",
+      "Hän osti kirjan can mean “she bought the book” or “he bought the book”: standard Finnish hän does not mark gender. The verb ending can also identify the person without a separate pronoun, as in tulen, “I come.”\n\nKirjan hän osti puts the book first, perhaps because it contrasts with another purchase. In casual speech, people often use se for a person. Learn that register choice from actual conversations rather than translating English he and she word for word.",
       "wiki-grammar",
       "visk",
       "kotus-registers"
@@ -235,7 +225,7 @@ export const finnishGuide = {
       {
         title: "Local cases draw paths and social relations",
         body: cited(
-          "The internal trio talossa “in the house,” talosta “out of the house,” taloon “into the house” contrasts with the external trio pöydällä “on the table,” pöydältä “off the table,” pöydälle “onto the table.” External cases also express possession: Minulla on koira, literally “at me is a dog,” means “I have a dog.” Case choice is partly spatial and partly lexical, so store named places and verbs in phrases: Helsingissä “in Helsinki” but asemalla “at the station.”",
+          "Talossa means “in the house,” talosta “out of the house,” and taloon “into the house.” Another set gives pöydällä, “on the table,” pöydältä, “off the table,” and pöydälle, “onto the table.” These place endings are called local cases.\n\nThey also do other jobs: Minulla on koira means “I have a dog,” literally “at me is a dog.” Learn a place or verb with its usual ending: Helsingissä is “in Helsinki,” but asemalla is “at the station.”",
           "wiki-grammar",
           "visk"
         ),
@@ -245,9 +235,8 @@ export const finnishGuide = {
       {
         title: "The partitive presents an open quantity or event",
         body: cited(
-          "The partitive is not simply “some.” It appears with unbounded substances and quantities, under negation, after many verbs, and when an event is ongoing or lacks a bounded result. Join vettä “some water,” juon vettä “I’m drinking water,” and en juo vettä “I don’t drink water.” Compare luen kirjaa “I am reading the book / a book” with luen kirjan “I will read the book through.” The contrast packages the event, not merely the noun.",
-          "wiki-grammar",
-          "visk"
+          "Finnish often uses the partitive ending for an open amount or an unfinished event: juon vettä means “I’m drinking water.” Negation also commonly calls for it, as in en juo vettä, “I don’t drink water.”\n\nLuen kirjaa presents reading as ongoing, while luen kirjan points toward finishing the whole book. The difference concerns the event, not just whether English says “a” or “the.” Keep each form in a complete sentence.",
+          "visk", "uusi-object"
         ),
         example: "Kirjoitin kirjettä, mutta en kirjoittanut sitä loppuun.",
         exampleTranslation: "I was writing the letter, but I didn’t finish writing it."
@@ -255,9 +244,8 @@ export const finnishGuide = {
       {
         title: "Consonant gradation links grammar to stem shape",
         body: cited(
-          "Stops alternate between strong and weak grades in defined morphological environments. Kukka “flower” gives kukan “of the flower”; matto “rug” gives matolla “on the rug”; kaupunki “city” gives kaupungissa “in the city.” Gradation can change quantity, voice a consonant, or remove k, and newer loans may participate. Identify the nominative and genitive together, then let frequent forms establish the family.",
-          "visk",
-          "visk"
+          "Some consonants change when a word takes an ending. Kukka, “flower,” gives kukan, “of the flower”; kaupunki, “city,” gives kaupungissa, “in the city.” This pattern is consonant gradation.\n\nThe change may shorten a doubled consonant or alter a single one. Save the basic and genitive forms together, then practice the family in sentences.",
+          "visk", "uusi-gradation"
         ),
         example: "Kaupungissa on kaksi uutta kukkakauppaa.",
         exampleTranslation: "There are two new flower shops in the city."
@@ -265,7 +253,7 @@ export const finnishGuide = {
       {
         title: "Verbs agree, while colloquial speech redraws the paradigm",
         body: cited(
-          "Standard present forms include tulen “I come,” tulet “you come,” tulee “she/he comes,” tulemme, tulette, tulevat. Everyday speech often has mä tuun, sä tuut, se tulee, me tullaan, te tuutte, ne tulee. The colloquial first-person plural uses a form historically related to the passive, and the third-person plural often uses the singular verb. Learn both systems as parallel repertoires, not one correct table plus mistakes.",
+          "The standard present tense includes tulen, “I come,” tulet, “you come,” and tulemme, “we come.” You may hear mä tuun and me tullaan in casual speech. The everyday first-person plural has a different shape from the standard table.\n\nPeople shift among these forms by setting and region. Put a label beside each recorded example, then try both in a suitable conversation.",
           "kotus-registers",
           "kielipankki-korp"
         ),
@@ -275,7 +263,7 @@ export const finnishGuide = {
       {
         title: "Negation has its own verb",
         body: cited(
-          "The negative element agrees with the subject—en, et, ei, emme, ette, eivät—while the lexical verb appears in a nonfinite-looking connegative form. En tiedä is “I don’t know”; emme menneet is “we didn’t go.” Negative clauses normally trigger partitive objects. This pattern makes ei more than an invariant “not,” though colloquial paradigms may reduce distinctions.",
+          "Finnish changes its negative word for the person: en tiedä means “I don’t know,” while et tiedä means “you don’t know.” The main verb takes a form that follows this negative word. In the past, emme menneet means “we didn’t go.”\n\nA negative sentence also commonly takes a partitive object. Learn en tiedä and en nähnyt häntä, “I didn’t see them,” as full patterns before memorizing the table.",
           "wiki-grammar",
           "visk"
         ),
@@ -285,7 +273,7 @@ export const finnishGuide = {
       {
         title: "Infinitives describe purpose, manner, timing, and participation",
         body: cited(
-          "The dictionary form in -a/-ä is only one member of a larger system. Menen syömään means “I’m going to eat,” tulen syömästä “I’m coming from eating,” and opin puhumalla “I learn by speaking.” The form must be learned with the construction and governing verb. Traditional numbered labels differ across grammars, so attach each form to a meaning and model sentence before memorizing terminology.",
+          "Menen syömään means “I’m going to eat,” while opin puhumalla means “I learn by speaking.” Both use verb forms beyond the dictionary's basic -a or -ä form. Finnish grammars group these forms as infinitives, sometimes with numbered names.\n\nLearn each in a complete phrase. When you read a new verb form, ask what action it connects to and who is doing it.",
           "visk",
           "wiki-grammar"
         ),
@@ -296,7 +284,7 @@ export const finnishGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "At the end of 2025, Statistics Finland recorded 4,719,802 residents with Finnish as their registered language, out of 5,652,881 residents. That count measures registration, not every competent speaker: many Swedish-speaking, Sámi, immigrant, and multilingual residents use Finnish extensively while registered under another language. Finnish is a national language throughout Finland and has public functions shaped by Finland’s bilingual legal framework. Communities also live in Sweden, Norway, Estonia, Russia, the United States, Canada, Australia, and elsewhere, with distinct histories and differing relationships to standard Finnish.",
+      "At the end of 2025, Statistics Finland counted 4,719,802 residents registered with Finnish as their language, out of 5,652,881 residents. The register does not count every person who speaks Finnish as an additional language. Finnish and Swedish are Finland's national languages, while many other communities also use their own languages.\n\nFinnish speakers live beyond Finland, including in Sweden, Norway, Russia, North America, and Australia. Their communities have different histories and ways of keeping the language. Some speakers learn the written standard through school; others inherit local speech at home.",
       "statistics-finland",
       "language-act",
       "kotus-languages"
@@ -312,12 +300,12 @@ export const finnishGuide = {
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "Finnish asks an English-speaking learner to notice length, reshape stems, select cases, and acquire a large vocabulary with relatively few obvious cognates. That makes it a long project, not an inaccessible one. Transparent spelling, predictable first-syllable stress, no articles, no grammatical gender, and extensive patterning offer genuine leverage. Estonian, Karelian, Hungarian, Turkish, Japanese, or other language backgrounds change the starting point in different ways, so a universal ranking says little about an individual learner.",
+      "An English-speaking learner must learn to hear length and recognize changing stems and case endings. The vocabulary also has fewer obvious English relatives than many European languages. Clear spelling, mostly predictable first-syllable stress, and recurring endings give you ways to practice each challenge.\n\nIf you already know another Finnic language, your starting point will be different. Experience with suffix-heavy languages can help you notice structure, but it will not supply Finnish words or usage automatically. Set goals by the conversations and texts you want to handle.",
       "wiki-finnish",
       "kotus-finnish"
     ),
     easierAspects: [
-      "Stable spelling makes dictionaries, captions, and read-aloud practice useful from the beginning",
+      "Stable spelling lets you use dictionaries, captions, and read-aloud practice from the beginning",
       "Primary stress is normally predictable on the first syllable",
       "There is no grammatical gender and no he/she distinction in the standard third-person singular pronoun",
       "Suffix families recur across large parts of the grammar",
@@ -338,26 +326,22 @@ export const finnishGuide = {
       "Collecting resources without assigning each one a repeatable role"
     ],
     workload: cited(
-      "Build two coordinated tracks from the start: standard literacy and one real spoken model. In a daily hour, spend time on a structured lesson, replayable audio with transcript, and active production that receives correction. At intermediate level, replace general review with specific questions: which case follows this verb, is this form conversational or edited, and what changed in the stem? Discover Discomfort’s broader resource advice is useful here: a path, examples, audio, correction, and people matter more than a crowded app folder. Expect comfortable interaction to arrive domain by domain; reading literature, following unscripted group conversation, and writing polished institutional Finnish are separate advanced achievements.",
-      "dd-resources",
-      "yle-learn",
-      "kielipankki-korp"
+      "Start with a course that teaches standard spelling and a recording of one speaker you can replay. During a short session, hear a length contrast, copy a sentence, and ask for feedback on one form. Aalto's introductory course includes both written lessons and spoken examples.\n\nLater, ask specific questions: which case follows this verb, and would someone say this form in conversation or only in edited writing? Use Yle easy news for reading and listening, then compare it with an unscripted interview. Literature, group conversation, and official writing will each need their own practice.",
+      "aalto-course", "yle-learn", "kotus-registers"
     )
   },
   advancedLearning: {
     strategy: cited(
-      "Give every new item a three-part record: a whole phrase, its register, and one contrasting form. For nähdä “see,” save Näen hänet huomenna “I’ll see her/him tomorrow,” en näe häntä “I don’t see her/him,” and colloquial Mä nään sen huomenna. Build case knowledge from verb frames, not alphabetized endings. Once a week, transcribe thirty seconds of one familiar speaker, compare captions or a transcript, and have a teacher explain two differences. This turns the spoken–written gap into a finite collection of patterns rather than a second language lurking behind the textbook.",
-      "dd-resources",
-      "kielipankki-korp",
-      "visk"
+      "Save a new verb inside a whole phrase and tag its register. Näen hänet huomenna means “I'll see them tomorrow”; en näe häntä means “I don't see them.” Notice how the object changes with negation.\n\nOnce a week, transcribe a short passage from a speaker you know. Compare it with subtitles or a transcript, then ask a tutor why two forms differ. Repeat with another passage from the same speaker before moving to a new variety.",
+      "uusi-object", "kielipankki-korp", "kotus-registers"
     ),
     mediaPractice: cited(
-      "Yle offers news, drama, radio, podcasts, children’s programming, and learner materials, including easy-language news. Begin with a recurring format whose presenters and subject become predictable. Listen for situation, then with Finnish text, then retell the item using five phrases. Songs help memory but stretch vowels and syntax; comedy and reality television reveal stance but demand cultural context. Pair one edited source with one conversational source so neither newsreader Finnish nor slang becomes your only model.",
+      "Yle offers learner materials and easy-language news with text and audio. Pick one recurring series so its voices and subjects become familiar. Listen once for the situation, read the Finnish text, then retell it in a few sentences.\n\nAdd an interview or drama scene to hear conversational forms. Songs can help words stick, but melody can stretch vowels beyond ordinary speech. Keep one edited and one spontaneous source in your routine.",
       "yle-learn",
       "kielipankki-korp"
     ),
     dictionariesAndCorpora: cited(
-      "Kielitoimiston sanakirja is the Institute’s dictionary of contemporary standard Finnish; it gives meanings, usage labels, inflection types, and examples. The online Iso suomen kielioppi, VISK, is a descriptive reference for structure rather than a beginner course. Kielipankki’s Korp searches grammatically annotated written and spoken corpora, including historical and parallel collections. Search a lemma to gather its forms, compare a phrase across genres, and read enough context to avoid treating one concordance line as a rule. Oppijan Korp provides a more learner-oriented route into authentic examples.",
+      "Kielitoimiston sanakirja gives standard Finnish meanings, inflections, and usage labels. VISK is a detailed grammar for a question that your course cannot answer. Korp lets you search collections of written and spoken Finnish.\n\nCheck which collection supplied an example before copying it. A historical text, a news article, and a conversation may use the same word differently. Read beyond one search line to see its setting.",
       "kotus-dictionary",
       "visk",
       "kielipankki-korp"
@@ -368,12 +352,12 @@ export const finnishGuide = {
       { type: "other", title: "VISK: Iso suomen kielioppi verkossa", url: "https://kaino.kotus.fi/visk/etusivu.php", level: "advanced", description: cited("A comprehensive descriptive grammar maintained online by Kotus. Search it when a real sentence raises a question; it is a reference, not a cover-to-cover beginner syllabus.", "visk") },
       { type: "corpus", title: "Kielipankki Korp", url: "https://www.kielipankki.fi/korp/", level: "advanced", description: cited("Search modern written and spoken Finnish, older literary Finnish, and parallel text. Filter by corpus so forum language, news, and historical prose do not blur together.", "kielipankki-korp") },
       { type: "media", title: "Yle Selkouutiset", url: "https://yle.fi/selkouutiset", level: "beginner", description: cited("Current news in easy Finnish with regular audio and text. Repeated public vocabulary makes it an effective bridge from lessons to ordinary reporting.", "yle-learn") },
-      { type: "other", title: "Discover Discomfort: Less-Common Language Learning Resources", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", level: "all", description: cited("A practical audit for a study system: choose a path, real examples, sound, correction, and people. Finnish resources are plentiful enough that avoiding duplicate tools is especially useful.", "dd-resources") }
+      { type: "course", title: "Aalto Introductory Finnish", url: "https://openlearning.aalto.fi/course/view.php?id=59", level: "beginner", description: cited("A free self-study course from first greetings through basic questions, with audio, quizzes, and a section on spoken Finnish. It takes you to lower-beginner level; add live feedback for conversation.", "aalto-course") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Finnish word families are often more revealing than celebrated “untranslatable” nouns. Juosta “run” connects to juoksu “a run/running,” juoksija “runner,” and juoksennella “run around intermittently.” Derivation can mark causation, repetition, smallness, agency, or attitude, while compounds specify a category from right to left. Culturally famous words such as sisu and sauna have real histories and flexible uses, but neither encodes an emotion unavailable to outsiders. Learn what speakers do with a word in actual sentences.",
+      "Finnish builds word families you can hear and read: juosta means “to run,” juoksu “a run,” and juoksija “a runner.” Added pieces can mark a person, a repeated action, or a smaller version. Compounds narrow a category from right to left: kirjakauppa is a kind of kauppa, “shop.”\n\nWell-known words such as sisu and sauna also have ordinary uses. Read a full sentence before treating a single English gloss as their whole meaning.",
       "kotus-dictionary",
       "kielipankki-korp"
     ),
@@ -386,7 +370,7 @@ export const finnishGuide = {
       { term: "mökki", meaning: "cottage; cabin", note: cited("A mökki may be a simple summer cabin, a winterized second home, rented accommodation, or a powerful family place. The word evokes practices, but ownership and enthusiasm are not universal Finnish traits.", "kotus-dictionary") }
     ],
     loanwordLayers: cited(
-      "Early Baltic and Germanic loans reach into kinship, seafaring, farming, and material culture; Slavic contact added another old layer. Swedish later supplied extensive vocabulary for government, occupations, towns, food, and social institutions. Russian loans are especially salient in eastern usage and certain foods or objects. International Greek and Latin elements often arrived through Swedish or learned coinage. English now feeds technology, gaming, work, sport, and entertainment. Borrowed nouns acquire harmony-sensitive endings—blogissa “in the blog”—and borrowed verbs receive Finnish morphology, showing that contact vocabulary is handled by the living grammatical system.",
+      "Old Baltic, Germanic, and Slavic loans sit beside later Swedish words for public life, work, and food. Russian contact is visible in some eastern words. English now supplies terms in technology, games, and work.\n\nBorrowed words still fit Finnish sentences. Blogissa means “in the blog,” with a Finnish location ending on an English-origin noun. Look at the ending before deciding how foreign a word really is in daily use.",
       "wiki-finnish",
       "kotus-dictionary"
     ),
@@ -406,7 +390,7 @@ export const finnishGuide = {
   },
   relationships: {
     overview: cited(
-      "Finnish makes most sense inside Finnic and Uralic history, but family resemblance is not mutual intelligibility. Estonian and Karelian are close relatives shaped by separate communities; Sámi languages are more distant Uralic relatives with their own Indigenous histories; Hungarian is distant enough that similarities require linguistic reconstruction. Contact with Swedish, Russian, Baltic, Germanic, and now English has been at least as important to the visible vocabulary as family trees alone.",
+      "Finnish shares a family with Estonian and Karelian, and a more distant Uralic history with Sámi languages and Hungarian. Related languages do not automatically let their speakers understand one another.\n\nSwedish and Russian have also shaped Finnish through contact, as have older Baltic and Germanic languages and newer English. Those borrowed words tell a different story from inherited grammar. Keep both stories in view when you compare languages.",
       "glottolog",
       "kotus-languages",
       "wiki-finnish"
@@ -415,18 +399,18 @@ export const finnishGuide = {
   },
   culturalNotes: "Finnish interaction varies widely despite stereotypes of silence and bluntness. Explore Minna Canth, Aleksis Kivi, Väinö Linna, Eeva-Liisa Manner, Rosa Liksom, Sofi Oksanen, Pajtim Statovci, film, metal, rap, games, and Yle’s changing voices. Finland’s literature is multilingual: “Finnish literature” and “literature in Finnish” are not identical categories.",
   resources: [
-    { type: "course", title: "Yle: Learn Finnish", url: "https://yle.fi/oppiminen/opisuomea", level: "all", description: cited("Free learner material connected to Finland’s public broadcaster, useful for moving from exercises to current audio and video.", "yle-learn") },
+    { type: "course", title: "Yle: Learn Finnish", url: "https://yle.fi/oppiminen/opisuomea", level: "all", description: cited("Free learner material from Finland’s public broadcaster helps you move from exercises to current audio and video.", "yle-learn") },
     { type: "dictionary", title: "Kielitoimiston sanakirja", url: "https://www.kielitoimistonsanakirja.fi/", level: "all", description: cited("The first stop for current standard meanings, inflection, compounds, and usage labels; pair it with spoken evidence for colloquial questions.", "kotus-dictionary") },
     { type: "other", title: "VISK online grammar", url: "https://kaino.kotus.fi/visk/etusivu.php", level: "advanced", description: cited("A deep searchable description of Finnish grammar. Follow internal links from a construction you actually encountered rather than memorizing its terminology in isolation.", "visk") },
     { type: "corpus", title: "Kielipankki Korp", url: "https://www.kielipankki.fi/korp/", level: "advanced", description: cited("Concordances from annotated written, spoken, historical, and parallel corpora. Choose comparable genres before drawing conclusions from frequency.", "kielipankki-korp") },
     { type: "media", title: "Yle Selkouutiset", url: "https://yle.fi/selkouutiset", level: "beginner", description: cited("Easy-language current news with recurring vocabulary. Read, listen, shadow one paragraph, and then compare the same story in ordinary Yle reporting.", "yle-learn") },
-    { type: "other", title: "Discover Discomfort learning-resource guide", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", level: "all", description: cited("Use its five-part resource test to keep a Finnish plan balanced among sequence, examples, audio, correction, and people.", "dd-resources") }
+    { type: "course", title: "Aalto Introductory Finnish", url: "https://openlearning.aalto.fi/course/view.php?id=59", level: "beginner", description: cited("Start from the Aalto course's greetings and short questions. Its recordings include casual forms such as mä, while later units introduce more grammar. Ask a teacher or conversation partner to check your own sentences.", "aalto-course", "aalto-greetings") }
   ],
   relatedLanguages,
   phrases: [
     { original: "Hei!", translation: "Hi!", usageNote: "Neutral and widely usable. Moi and moikka are common informal alternatives and can also be used when leaving." },
     { original: "Hyvää huomenta.", translation: "Good morning.", literalMeaning: "[I wish you] good morning.", usageNote: "The partitive form reflects an omitted wishing formula; huomenta alone is more casual." },
-    { original: "Kiitos.", translation: "Thank you.", usageNote: "Also useful for accepting an offer; kiitti is casual, while kiitos paljon adds emphasis." },
+    { original: "Kiitos.", translation: "Thank you.", usageNote: "You can also say it when accepting an offer; kiitti is casual, while kiitos paljon adds emphasis." },
     { original: "Ole hyvä. / Olkaa hyvä.", translation: "Please; here you are; you’re welcome.", usageNote: "Ole is singular informal; olkaa is plural or polite. In everyday replies to thanks, ei mitään “it’s nothing” is also common." },
     { original: "Anteeksi.", translation: "Excuse me; sorry.", usageNote: "Use for attracting attention, passing, or a light apology. Olen pahoillani is a fuller “I’m sorry” for serious sympathy or regret." },
     { original: "En ymmärrä.", translation: "I don’t understand.", usageNote: "The negative verb en marks first-person singular; the lexical verb appears as ymmärrä." },
@@ -441,21 +425,28 @@ export const finnishGuide = {
     { original: "Ei se mitään.", translation: "It’s all right; don’t worry about it.", literalMeaning: "It [is] nothing.", usageNote: "A common response to a minor apology. Tone matters if the problem was not actually minor." }
   ],
   sources: [
-    { id: "dd-resources", title: "Best Less-Common Language Learning Resources: What Actually Works", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", publisher: "Discover Discomfort", publishedAt: "2026-05-11", updatedAt: "2026-05-11", accessedAt: "2026-07-10" },
     { id: "wiki-finnish", title: "Finnish language", url: "https://en.wikipedia.org/wiki/Finnish_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-history", title: "History of the Finnish language", url: "https://en.wikipedia.org/wiki/History_of_the_Finnish_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-grammar", title: "Finnish grammar", url: "https://en.wikipedia.org/wiki/Finnish_grammar", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "glottolog", title: "Glottolog 5.3: Finnish", url: "https://glottolog.org/resource/languoid/id/finn1318", publisher: "Max Planck Institute for Evolutionary Anthropology", updatedAt: "2026", accessedAt: "2026-07-10" },
-    { id: "kotus-finnish", title: "The Finnish language", url: "https://en.kotus.fi/on-language/languages-of-finland-and-language-policy/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-07-10" },
+    { id: "kotus-finnish", title: "Suomen kieli", url: "https://kotus.fi/kotus/kielet-ja-kielipolitiikka/kansalliskielet/suomen-kieli/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-09-27" },
     { id: "kotus-languages", title: "Languages of Finland and language policy", url: "https://en.kotus.fi/on-language/languages-of-finland-and-language-policy/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-07-10" },
+    { id: "kotus-old-literary", title: "Old Literary Finnish", url: "https://en.kotus.fi/on-language/old-literary-finnish/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-09-27" },
+    { id: "kotus-nineteenth", title: "Nineteenth century literary Finnish", url: "https://en.kotus.fi/on-language/nineteenth-century-literary-finnish/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-09-27" },
     { id: "kotus-dialects", title: "Dialects", url: "https://en.kotus.fi/on-language/dialects/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-07-10" },
+    { id: "kotus-archive", title: "Suomen kielen nauhoitearkisto", url: "https://kotus.fi/kotus/kieliaineistot/suomen-kielen-nauhoitearkisto/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-09-27" },
     { id: "kotus-registers", title: "Yleiskieli ja muut kielimuodot", url: "https://kotus.fi/kielenhuolto/yleiskieli-ja-sen-kehitys/yleiskieli-ja-muut-kielimuodot/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-07-10" },
+    { id: "kotus-pronunciation", title: "Toponymic Guidelines for Map Editors and Other Editors: Finland", url: "https://kotus.fi/wp-content/uploads/2025/04/Toponymic_guidelines_2025.pdf", publisher: "Institute for the Languages of Finland", updatedAt: "2025", accessedAt: "2026-09-27" },
     { id: "kotus-dictionary", title: "Kielitoimiston sanakirja", url: "https://www.kielitoimistonsanakirja.fi/", publisher: "Institute for the Languages of Finland", accessedAt: "2026-07-10" },
     { id: "visk", title: "VISK: Iso suomen kielioppi verkossa", url: "https://kaino.kotus.fi/visk/etusivu.php", publisher: "Institute for the Languages of Finland", publishedAt: "2008", accessedAt: "2026-07-10" },
     { id: "statistics-finland", title: "Population 31.12. by language, 2025", url: "https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/11rm.px/table/tableViewLayout1/", publisher: "Statistics Finland", updatedAt: "2026-04-01", accessedAt: "2026-07-10" },
     { id: "language-act", title: "Language Act 423/2003", url: "https://www.finlex.fi/en/legislation/translations/2003/eng/423", publisher: "Finlex, Ministry of Justice of Finland", publishedAt: "2003-06-06", accessedAt: "2026-07-10" },
     { id: "kielipankki-korp", title: "Korp user guide", url: "https://www.kielipankki.fi/support/korp/", publisher: "The Language Bank of Finland", accessedAt: "2026-07-10" },
     { id: "yle-learn", title: "Opi suomea: Yle learning materials", url: "https://yle.fi/oppiminen/opisuomea", publisher: "Yle", accessedAt: "2026-07-10" },
+    { id: "aalto-course", title: "Introductory Finnish - Self-study", url: "https://openlearning.aalto.fi/course/view.php?id=59", publisher: "Aalto University", accessedAt: "2026-09-27" },
+    { id: "aalto-greetings", title: "Greeting and introducing oneself", url: "https://openlearning.aalto.fi/mod/page/view.php?id=4672", publisher: "Aalto University", accessedAt: "2026-09-27" },
+    { id: "uusi-object", title: "Object Sentence Examples: Luen kirjaa / kirjan / kirjat", url: "https://uusikielemme.fi/finnish-grammar/finnish-cases/grammatical-cases/object-sentence-examples-luen-kirjaa-kirjan-kirjat", publisher: "Uusi kielemme", publishedAt: "2019-09-10", updatedAt: "2021-10-01", accessedAt: "2026-09-27" },
+    { id: "uusi-gradation", title: "Consonant Gradation", url: "https://uusikielemme.fi/wp-content/uploads/sites/4/2020/08/00102-Uusi-kielemme-Printable-PDF-Consonant-Gradation.pdf", publisher: "Uusi kielemme", accessedAt: "2026-09-27" },
     { id: "unicode-cldr", title: "CLDR Collation Chart: Finnish", url: "https://www.unicode.org/cldr/charts/latest/collation/fi.html", publisher: "Unicode Consortium", accessedAt: "2026-07-10" }
   ],
   seo: {

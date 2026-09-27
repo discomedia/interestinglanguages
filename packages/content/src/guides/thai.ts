@@ -6,7 +6,7 @@ const relatedLanguages = [
     name: "Lao",
     relationship: "Close Southwestern Tai relative",
     explanation: cited(
-      "Thai and Lao share much basic grammar and vocabulary, and speakers can often accommodate one another, especially with prior media exposure. They are nevertheless standardized as different languages with different scripts, sound histories, institutions, and national settings. Mutual understanding is uneven rather than automatic.",
+      "Thai and Lao share many words and grammar patterns. Speakers sometimes adjust to one another, especially if they've heard the other's language in media. Each language has its own standard, script, and institutions, so understanding varies with the people and situation.",
       "wiki-thai-lao",
       "enfield-thai-isan-lao"
     )
@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Isan",
     relationship: "Lao varieties indigenous to northeastern Thailand",
     explanation: cited(
-      "Isan is not simply Bangkok Thai with a northeastern accent. It names a diverse Lao-related speech field in Thailand whose local varieties cross the Mekong dialect continuum. Schooling, migration, and national media have produced extensive bilingualism and influence from Standard Thai; those social facts should not be mistaken for proof that Isan has no grammar or identity of its own.",
+      "Isan names Lao-related varieties spoken in northeastern Thailand. Local speech also connects with varieties across the Mekong. Many speakers know Standard Thai through school, work, and media, while continuing to use Isan with their communities.",
       "wiki-isan",
       "enfield-thai-isan-lao"
     )
@@ -24,7 +24,7 @@ const relatedLanguages = [
     name: "Northern Thai",
     relationship: "Southwestern Tai relative with a Lanna literary tradition",
     explanation: cited(
-      "Northern Thai, often called Kam Mueang, is genealogically close to Central Thai but has its own regional varieties, vocabulary, tone patterns, and cultural history. It was historically written in Tai Tham, also known locally as Tua Mueang; today many speakers write regional speech with Thai characters, while interest in the older script continues.",
+      "Northern Thai, often called Kam Mueang, is a close Tai relative with its own words and tone patterns. Writers historically used Tai Tham, also called Tua Mueang locally. Many people now write Northern Thai with Thai characters, while some continue teaching the older script.",
       "wiki-northern-thai",
       "unicode-thai"
     )
@@ -33,7 +33,7 @@ const relatedLanguages = [
     name: "Zhuang languages",
     relationship: "More distant relatives in the Tai branch",
     explanation: cited(
-      "The many Zhuang languages of southern China show why the Tai family is larger than the modern states of Thailand and Laos. Comparison reveals inherited vocabulary and structural themes, but Central Thai and any particular Zhuang variety are not mutually intelligible. Their relationship is genealogical, not evidence that all Tai-speaking communities share one identity.",
+      "Zhuang languages in southern China also belong to the Tai branch. Some words and patterns reflect shared ancestry, but a Standard Thai speaker cannot assume they'll understand a Zhuang variety. Family classification doesn't make these communities one people.",
       "glottolog-thai",
       "wiki-thai"
     )
@@ -46,30 +46,30 @@ export const thaiGuide = {
   autonym: "ภาษาไทย",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Thai joins five tones to a historical script, analytic grammar, and finely calibrated social vocabulary heard across conversation, fiction, music, news, and digital life.",
+  summary: "In Standard Thai, five tones change word meanings, spelling helps you recover those tones, and small particles shape everyday conversations.",
   family: "Kra-Dai, Tai, Southwestern Tai",
   macroRegion: "Thailand, mainland Southeast Asia, and global Thai communities",
   primaryScript: "Thai script",
   difficultyLabel: "Very demanding",
-  learnerHook: "Thai makes ordinary scenes legible: a shop sign becomes a sound puzzle, a final particle reveals stance, and television dialogue shows relationships changing.",
+  learnerHook: "A Thai sign gives you clues to a word's sound, while a tiny word at the end of a sentence can tell you how the speaker sees the listener.",
   hero: {
     imageAlt: "Thai handwriting and printed type showing consonants, surrounding vowels, and tone marks.",
     callToActionLabel: "Explore Thai in use"
   },
-  classification: "A standardized Central Thai language in the Southwestern branch of Tai within Kra-Dai",
-  speakerCommunity: "Thai is Thailand's national and principal public language, used in education, government, broadcasting, publishing, commerce, and cross-regional communication. Standard Thai is based on educated Central Thai, especially Bangkok usage, but Thailand is not linguistically uniform. Millions also use Isan/Lao, Northern Thai, Southern Thai, Malay, Khmer, Karen languages, Chinese varieties, and others. A person may speak a regional language with family and more standard Thai at school or work. Diaspora homes, temples, businesses, associations, and online media sustain Thai abroad.",
+  classification: "Standard Thai grows from Central Thai and belongs to the Southwestern Tai branch of the Kra-Dai family.",
+  speakerCommunity: "People use Standard Thai in schools, government, national news, publishing, and conversations across regions. It draws especially on educated Bangkok speech. At home, many people also speak Isan, Northern Thai, Southern Thai, Malay, Khmer, Karen languages, Chinese varieties, and other languages.\n\nA family may use one language at home and Standard Thai at school or work. Thai-speaking communities also keep the language in use through families, temples, businesses, and online media outside Thailand.",
   facts: [
     { label: "Family", value: "Kra-Dai · Tai · Southwestern Tai" },
     { label: "Standard base", value: "Central Thai, especially educated Bangkok usage" },
     { label: "Sound system", value: "Five lexical tones plus contrastive vowel length" },
-    { label: "Script", value: "Left-to-right Brahmi-derived abugida with 44 consonant symbols" },
+    { label: "Script", value: "Left-to-right script with 44 traditional consonant letters" },
     { label: "Word spacing", value: "Spaces usually separate larger phrases, not every word" },
     { label: "Major contact layers", value: "Pali, Sanskrit, Khmer, Chinese varieties, Malay, and English" }
   ],
-  learnerOverview: "Thai pairs grammatical economy with perceptual complexity. Verbs do not conjugate for person, nouns lack grammatical gender, and number often comes from context. Yet tone, vowel length, omitted subjects, serial verbs, pronouns, and particles make short sentences rich. Begin with sound and script together. Learn ก as a middle-class consonant in words, and notice who uses ครับ khrap or ค่ะ kha and why. Combine a tone-aware course, daily typing, tutor feedback, and replayable dialogues. Discover Discomfort's method—master everyday exchanges, record yourself, and use audio-supported materials—fits Thai well. Tone-free romanization cannot reconstruct speech; alphabet study without conversation becomes code-breaking.",
+  learnerOverview: "The written word ไหม can ask a question or mean 'silk'. Its place in a sentence tells you which meaning fits. Thai's writing system carries sound clues that a road sign's Latin letters usually leave out.\n\nVerbs don't change for person, and nouns have no grammatical gender. That makes some first sentences simple, but tone, vowel length, missing subjects, and final particles give short sentences several layers of meaning. Start listening and reading together, then ask a teacher to check the sounds and the social setting of your examples.",
   origins: {
     overview: cited(
-      "Thai belongs to Southwestern Tai within Kra-Dai. Tai-speaking communities spread through a mainland Southeast Asian world already shaped by Austroasiatic languages, trade, Indic religion, and shifting polities. Inherited Tai grammar sits beside vocabulary and literary conventions associated with Khmer, Pali, and Sanskrit; later commerce added Chinese, Malay, Portuguese, and other layers. Varieties ancestral to Central Thai developed around riverine centers including Sukhothai and Ayutthaya. Ayutthaya's destruction in 1767 and the rise of Thonburi and Bangkok changed political centers, but did not reset the language.",
+      "Thai belongs to the Southwestern Tai branch of Kra-Dai. Its ancestors developed among Tai-speaking communities in mainland Southeast Asia, where other languages and trade networks were already established.\n\nCentral Thai grew around political and river-trade centers that included Sukhothai and Ayutthaya. When the political center moved to Thonburi and then Bangkok after Ayutthaya's fall in 1767, speakers kept adapting the language. Khmer, Pali, Sanskrit, Chinese varieties, and other contacts left different marks on its vocabulary and writing.",
       "glottolog-thai",
       "wiki-thai",
       "unicode-thai"
@@ -78,7 +78,7 @@ export const thaiGuide = {
       {
         period: "Before the 13th century",
         event: cited(
-          "Tai varieties differentiated through migration and contact across what is now southern China and mainland Southeast Asia. Their speakers entered multilingual zones where Mon, Khmer, and other languages already had long histories; family descent and contact influence must therefore be considered together.",
+          "Tai varieties spread and changed through migration and contact across what is now southern China and mainland Southeast Asia. Speakers lived among Mon, Khmer, and other communities whose languages had long histories of their own.",
           "glottolog-thai",
           "wiki-thai"
         )
@@ -86,7 +86,7 @@ export const thaiGuide = {
       {
         period: "13th–14th centuries",
         event: cited(
-          "Early inscriptions associated with Sukhothai are central to histories of written Thai. The traditional account credits King Ramkhamhaeng with devising a script in 1283, but the inscription's precise authorship and status have been debated. What is secure is that Thai writing developed from the Brahmi-derived script culture of the region rather than appearing without predecessors.",
+          "Early Sukhothai inscriptions show Thai writing taking shape. A traditional account credits King Ramkhamhaeng with creating the script in 1283, though scholars have debated the famous inscription's date and authorship. Thai writing grew from older regional scripts rather than appearing from nowhere.",
           "wiki-thai-script",
           "unicode-thai"
         )
@@ -94,36 +94,35 @@ export const thaiGuide = {
       {
         period: "Ayutthaya era, 1351–1767",
         event: cited(
-          "Ayutthaya became a multilingual court and trading center. Khmer court vocabulary, Indic learning, Chinese commerce, Persian and Malay connections, and European contact all contributed while literary and administrative practices grew.",
-          "wiki-thai",
+          "Ayutthaya brought together court officials, religious teachers, merchants, and writers from several language backgrounds. Thai gained court vocabulary and new literary and administrative practices through these contacts.",
           "wiki-thai"
         )
       },
       {
         period: "Bangkok era, late 18th–19th centuries",
         event: cited(
-          "Court literature, Buddhist textual work, printing, and education consolidated Bangkok's influence. The Ramakien was revised and performed in Thai forms, while administration brought regional populations into stronger contact with Central Thai.",
+          "Bangkok's court sponsored literature and Buddhist texts, including new versions of the Ramakien. Printing, administration, and schools brought more people into contact with Central Thai.",
           "wiki-thai"
         )
       },
       {
         period: "20th century to the digital present",
         event: cited(
-          "Mass schooling, broadcasting, migration, language policy, and Bangkok-centered publishing expanded Standard Thai. Regional languages continue in households, music, performance, local media, and online writing. Digital text adds clipped particles, emoji, and devices such as 555 for laughter.",
+          "Schools, broadcasting, migration, and publishing spread Standard Thai. Regional languages continue in homes, music, local media, and online writing. People also shorten particles, add emoji, and type 555 for laughter in digital Thai.",
           "wiki-thai",
           "dd-laughter",
-          "chula-spoken"
+          "dd-laughter"
         )
       }
     ],
     contactHistory: cited(
-      "Everyday core words are largely inherited Tai, while Pali and Sanskrit supply religious, royal, academic, legal, and abstract vocabulary, often through Khmer traditions. Chinese varieties contributed food and trade terms; Malay matters particularly in the south. Portuguese marks early modern trade, and English now supplies technology, sport, business, and popular culture. Loans take Thai syllables and tones: “computer” becomes คอมพิวเตอร์ khomphiotoe. Formal coinages and casual English mixing coexist, so register matters.",
+      "Thai keeps many basic words from earlier Tai speech. Pali and Sanskrit, often through Khmer traditions, contributed much religious, royal, legal, and scholarly vocabulary. Chinese varieties added food and trade words, while Malay contacts matter especially in the south.\n\nEnglish now supplies words for technology, sport, and popular culture. Speakers adapt loans to Thai sounds and tones: 'computer' becomes คอมพิวเตอร์. A formal Thai coinage and an English loan may name the same thing in different settings.",
       "wiki-thai",
       "thai-dictionary",
-      "chula-spoken"
+      "wiki-thai"
     ),
     standardization: cited(
-      "Standard Thai dominates national institutions, but its norms come from several authorities. The Royal Society publishes the prescriptive dictionary, terminology, spelling guidance, and official transcription. Publishers, schools, broadcasters, and speakers also shape convention. Formal writing favors different pronouns, connectors, compounds, and patterns from casual Bangkok speech. Speakers create registers through particles, titles, kin terms, names, and pronouns. Ask not only “Is this grammatical?” but “Who would say this, to whom, in what medium?”",
+      "The Royal Society publishes a dictionary and guidance on spelling, terminology, and romanization. Schools, publishers, broadcasters, and speakers also shape what readers recognize as Standard Thai.\n\nFormal writing often uses different words and sentence patterns from a chat among friends. In speech, people choose particles, names, family terms, and titles according to the relationship. A sentence can be grammatical but awkward for the person you're talking to.",
       "royal-society",
       "iwasaki-register",
       "wiki-thai"
@@ -131,7 +130,7 @@ export const thaiGuide = {
   },
   variants: {
     overview: cited(
-      "Thai can mean Standard/Central Thai narrowly or the national linguistic field broadly. Bangkok and other Central speech differ, while Northern Thai, Southern Thai, and Isan each contain substantial variation and can reasonably be treated as languages. Such labels reflect institutions and identity as well as linguistic distance. Regional speakers may shift toward Standard Thai with outsiders without abandoning local language. Learners should name the model instead of ranking forms as pure or corrupted.",
+      "This guide teaches Standard Thai, the nationwide school and media form based on Central Thai. People also use 'Thai' more broadly for language in Thailand, but Isan, Northern Thai, and Southern Thai have their own varieties and histories. A speaker may switch to Standard Thai with someone from another region and use a local language at home.",
       "wiki-thai",
       "wiki-isan",
       "wiki-northern-thai"
@@ -139,40 +138,40 @@ export const thaiGuide = {
     items: [
       {
         name: "Standard and Central Thai",
-        note: cited("The nationwide educational and media standard is based on Central Thai and associated especially with educated Bangkok speech. Central Thailand itself contains local varieties, so “standard” is a social target rather than a transcript of everything heard in the capital.", "wiki-thai", "chula-spoken")
+        note: cited("Schools and national media teach a standard based on Central Thai, especially educated Bangkok speech. People in Bangkok and Central Thailand also use local and casual forms, so the standard doesn't describe every conversation there.", "wiki-thai", "thai-grammar")
       },
       {
         name: "Isan / Thai Lao",
-        note: cited("Northeastern Thailand contains a continuum of Lao varieties usually called Isan in Thai national contexts. Most speakers also know Standard Thai, and code-switching is common. Treating this bilingualism as evidence that Isan is merely slang erases both linguistic structure and a politically sensitive history.", "wiki-isan", "enfield-thai-isan-lao")
+        note: cited("Isan names Lao-related varieties across northeastern Thailand. Many speakers also know Standard Thai and switch between them according to the setting. Isan has its own structure and community history.", "wiki-isan", "enfield-thai-isan-lao")
       },
       {
         name: "Northern Thai / Kam Mueang",
-        note: cited("Used across the historical Lanna region, Northern Thai has several tone systems and regional varieties. Standard Thai exerts strong influence, while music, local broadcasting, conversation, and renewed interest in Tai Tham writing maintain distinctive practices.", "wiki-northern-thai", "unicode-thai")
+        note: cited("People use Northern Thai across the historical Lanna region, with local differences in sounds and words. Music, broadcasting, and daily conversation keep it visible alongside Standard Thai. Some communities also teach its older Tai Tham script.", "wiki-northern-thai", "unicode-thai")
       },
       {
         name: "Southern Thai",
-        note: cited("Southern Thai covers related varieties down the peninsula rather than one accent. Speech varies geographically and reflects contact with Standard Thai and Malay; rapid Southern varieties can be difficult for unaccustomed Central Thai listeners.", "wiki-thai")
+        note: cited("Southern Thai covers related varieties down the peninsula. Their sounds and words vary by place and reflect contact with Standard Thai and Malay. A Central Thai speaker may need time to follow an unfamiliar variety.", "wiki-thai")
       },
       {
         name: "Formal, royal, monastic, and intimate registers",
-        note: cited("Thai social variation is not reducible to formal versus informal. Royal vocabulary, monastic address, bureaucratic prose, respectful service encounters, peer banter, and family talk recruit different pronouns, particles, titles, and lexical choices. Speakers build an appropriate register from multiple cues.", "iwasaki-register", "royal-society")
+        note: cited("A speaker doesn't choose from only 'formal' and 'informal'. Royal vocabulary, monastic address, office writing, a service encounter, and a family chat each call for different words. People combine titles, pronouns, particles, and tone of voice to fit the moment.", "iwasaki-register", "royal-society")
       }
     ]
   },
   pronunciation: {
     overview: cited(
-      "Standard Thai has five lexical tones—mid, low, falling, high, and rising—so pitch distinguishes words. Vowel length also contrasts, aspiration separates ป /p/ and พ /pʰ/, and final stops are unreleased: final ด, จ, and several other letters join the /t/ category. Initial ร is traditionally a trill or tap but varies in casual speech. Train with recordings and imitate whole syllables: correct pitch on the wrong vowel length is still wrong.",
+      "Standard Thai uses five tones: mid, low, falling, high, and rising. Changing the pitch pattern can change a word's meaning. Vowel length matters too, and ป /p/ differs from พ /pʰ/ by the puff of air after the consonant.\n\nFinal /p/, /t/, and /k/ stop without the strong release English often gives them. Several written final letters share each of these sounds. Listen to a whole recorded syllable before trying to learn its tone from spelling alone.",
       "thai-dictionary",
       "wiki-thai"
     ),
-    script: "Thai script; transliteration below marks long vowels with doubled letters and tone as M, L, F, H, or R",
+    script: "Thai script; pronunciation examples mark tones as M (mid), L (low), F (falling), H (high), or R (rising). Other romanization is approximate; use audio for exact pronunciation.",
     soundSystem: cited(
-      "Thai spelling encodes tone through an interaction of initial consonant class, tone mark, syllable type, and sometimes vowel length. The 44 consonant symbols fall into middle, high, and low classes; these are historical tone classes, not pitch instructions by themselves. A “live” syllable ends in a long vowel or a sonorant such as /m n ŋ j w/. A “dead” syllable ends in a short vowel or stop /p t k/. Tone marks do not simply label the five tones: the same mark produces different outcomes with different classes, and many syllables have no tone mark. Learn the logic through small families—กา gaa M “crow,” ก่า gaa L (a marked practice form), ก้า gaa F, ก๊า gaa H, ก๋า gaa R—then meet real words in each pattern.",
+      "A Thai consonant letter belongs to a middle, high, or low class. Its class combines with any tone mark and the syllable's ending to tell you the tone; the class name isn't the pitch you'll always hear.\n\nA syllable ending in a long vowel or /m/, /n/, /ŋ/, /j/, or /w/ is called 'live'. One ending in /p/, /t/, or /k/ is 'dead'; most short open vowels count as dead too, with a few vowel-pattern exceptions.\n\nThe four written tone marks don't simply name the five spoken tones, and many words have no mark. Compare ปา paa M 'throw', ป่า paa L 'forest', ป้า paa F 'aunt', ป๊า paa H 'dad', and ป๋า paa R 'dad' in familiar speech. Listen to each word as you learn the spelling pattern.",
       "thai-dictionary",
       "unicode-thai"
     ),
     prosody: cited(
-      "Tones live inside phrases, not robotic strings of equal syllables. Unstressed words shorten, while focus and emotion overlay lexical tones without deleting them. Compounds may contain reduced vowels hidden by spelling. Identify each syllable slowly, copy one breath group, record it, and compare timing as well as pitch. Songs are rich practice but melodies reshape tones; establish categories through speech first.",
+      "Thai speakers don't give every syllable the same weight. Unstressed words may shorten, while emphasis and emotion alter pitch without erasing the word's tone. Copy a short spoken phrase, record yourself, and compare its timing with the original.\n\nSongs can help you recognize words and styles, but a melody changes their pitch. Use ordinary speech to learn the five tone categories first.",
       "thai-dictionary",
       "chula-spoken"
     ),
@@ -188,7 +187,7 @@ export const thaiGuide = {
       { original: "ไหม", transliteration: "mai R", translation: "question particle; silk", note: "Compare ใหม่ mai L “new,” ไม่ mai F “not,” and ไหม้ mai F “burn.” Spelling and context distinguish forms that romanization often collapses." },
       { original: "ข้าว", transliteration: "khaao F", translation: "rice; meal", note: "Keep the vowel long and compare ข่าว khaao L “news” and ขาว khaao R “white.”" },
       { original: "ปา", transliteration: "paa M", translation: "to throw", note: "The initial is unaspirated. Compare พา phaa M “to take or lead someone.”" },
-      { original: "เข้า", transliteration: "khao F", translation: "to enter", note: "A short diphthong and falling tone; compare เขา khao R “he/she/they; hill” and เข่า khao L “knee.”" },
+      { original: "เข้า", transliteration: "khao F", translation: "to enter", note: "Compare its falling tone with เขา khao R 'they; hill' and เข่า khao L 'knee'." },
       { original: "รัก", transliteration: "rak H", translation: "to love", note: "A short vowel plus unreleased final /k/ makes a dead syllable; the low-class initial yields high tone." },
       { original: "มือ", transliteration: "muee M", translation: "hand", note: "Practice the unrounded central vowel /ɯː/, which has no exact everyday English equivalent." },
       { original: "ไก่", transliteration: "kai L", translation: "chicken", note: "The low tone comes from a middle-class initial plus mai ek tone mark, not from the mark alone." }
@@ -196,50 +195,49 @@ export const thaiGuide = {
   },
   writing: {
     overview: cited(
-      "Thai is a left-to-right Brahmi-derived abugida. A consonant carries an inherent vowel in some environments, while vowel signs appear before, after, above, below, or around it. The 44 consonant symbols represent fewer sounds, preserving history and supplying tone classes. Four tone marks combine with class and syllable structure rather than mapping directly to spoken tones. Thai has its own digits, though international digits are common. The dense script contains more pronunciation information than casual romanization.",
+      "Thai runs from left to right. Its consonant letters may carry an unwritten vowel, while written vowel signs can sit before, after, above, or below a consonant. Linguists call this kind of writing system an abugida.\n\nThe traditional alphabet lists 44 consonant letters, including some now rare or obsolete ones. Thai also has its own digits, though you'll often see international digits. Spelling preserves distinctions that a road sign's Latin letters usually miss, especially the clues needed to work out a tone.",
       "unicode-thai",
       "wiki-thai-script",
       "thai-dictionary"
     ),
     primaryScript: "Thai script (อักษรไทย)",
     romanization: cited(
-      "The Royal Thai General System is useful for maps and public signs, but omits tone and vowel length and merges contrasts: “mai” represents several words. Temporarily choose one tone-complete system—IPA, tone numbers, or a consistent course transcription—while learning Thai spelling. Respect people's established Latin name spellings even when they differ from RTGS.",
-      "royal-society",
+      "The Royal Thai General System of Transcription appears on maps and public signs. It leaves out tone and vowel length, so 'mai' can stand for several Thai words.\n\nA course transcription that includes those details helps while you learn the script. Keep people's established Latin name spellings even when they differ from the official system.",
       "royal-society",
       "wiki-thai"
     ),
     spellingNorms: cited(
-      "Thai prose does not space every lexical word. Spaces mark larger boundaries, so readers segment through vocabulary and grammar. Some vowels are typed before the consonant although pronounced after it, and combining marks require correct Unicode order. Spelling preserves Pali-Sanskrit distinctions lost in final pronunciation; thanthakhat ์ marks silence. ๆ shows repetition, as in เร็ว ๆ reo reo “quickly,” while ฯ marks abbreviation. Digital line breaking must discover word boundaries.",
+      "Thai writers usually put spaces between larger stretches of text rather than between every word. You find word boundaries through vocabulary and grammar. In เก่ง keng 'skilled', the vowel sign เ stands before ก, though you pronounce the vowel after it.\n\nSpelling also preserves some historical differences that speech no longer keeps. The mark ์ can silence a letter, and ๆ can repeat a word, as in เร็ว ๆ 'quickly'. When you type Thai, the order of combining marks matters for reliable display and search.",
       "unicode-thai",
       "wiki-thai-script",
       "royal-society"
     ),
     styleNotes: [
       cited("Learn consonant sound, class, and a mnemonic word together—ก ไก่ ko kai—then read the letter inside real syllables. Classless alphabet chanting delays the information needed for tones.", "thai-dictionary"),
-      cited("Practice segmenting short authentic headlines and captions. Add pencil boundaries after predicting words, then check with a dictionary rather than waiting for spaced beginner text forever.", "thai-dictionary", "chula-spoken"),
+      cited("Practice segmenting short authentic headlines and captions. Mark likely word boundaries, then check them with a dictionary.", "thai-dictionary"),
       cited("Type Thai early. Correct keyboard and Unicode order make searches reliable, while visually similar copied marks can produce text that renders acceptably but searches badly.", "unicode-thai"),
       cited("Keep etymological spelling and present pronunciation separate. A final written ร or ล may be pronounced /n/, and clusters in learned loans may surface differently in careful and casual speech.", "thai-dictionary", "wiki-thai")
     ]
   },
   grammar: {
     overview: cited(
-      "Thai is often called “grammar-light” because words rarely inflect, but meanings that English packs into tense or agreement endings are organized through word order, aspect markers, classifiers, serial verbs, reference, and discourse context. Subjects and objects can be omitted when recoverable. A bare verb may describe present, habitual, or contextually past time; a time phrase or aspect particle makes the intended viewpoint clear. Grammar therefore becomes easier when learned as reusable chunks rather than English sentences with endings removed.",
+      "Thai verbs don't change shape when the subject or time changes. Speakers use word order, time words, and small marker words to say what happened and how it unfolded. They can leave out a subject or object when the conversation already makes it clear.\n\nLearn a short exchange rather than translating an English sentence word by word. You'll hear where a marker goes and when a speaker simply leaves a name or pronoun unsaid.",
       "thai-grammar",
       "thai-dictionary"
     ),
     typologicalProfile: cited(
-      "Standard Thai is an analytic, tonal language with basic subject–verb–object order, little inflection, productive compounding and reduplication, noun classifiers, serial verb constructions, and a rich inventory of aspect and pragmatic particles. “Analytic” means grammatical relationships are expressed mainly by separate words and order rather than changes inside a word. Adjective-like property words can function as predicates without a copula: อาหารอร่อย ahaan aroi, literally “food delicious,” means “the food is delicious.” Social relationships are indexed through pronouns, names, kin terms, titles, and final particles.",
+      "A basic Thai sentence often puts a subject before a verb and its object. Separate words and word order do much of the work that verb endings do in some other languages; linguists call this pattern 'analytic'.\n\nA descriptive word can make a full statement without a word for 'is': อาหารอร่อย ahaan aroi means 'the food is delicious'. Speakers also join words into compounds, repeat words for particular effects, and add small words that show whether an action is continuing or how an utterance lands socially.",
       "thai-grammar",
       "iwasaki-register"
     ),
     morphology: cited(
-      "Words generally do not change for person, number, gender, or tense: กิน kin can mean “eat,” “eats,” or contextually “ate.” New vocabulary grows through compounding—รถไฟ rot-fai, “vehicle-fire,” means “train”—and reduplication can distribute, soften, or intensify meaning depending on the word. Derivational elements from Pali, Sanskrit, Khmer, and modern coinage complicate formal vocabulary, while familiar monosyllables form vivid compounds around ใจ jai “heart/mind.” Because Thai writing does not routinely divide words with spaces, morphology and reading reinforce each other: recognizing a common compound prevents false segmentation.",
+      "กิน kin can mean 'eat', 'eats', or 'ate' when the time is already clear. The verb itself stays the same. Speakers also build words by joining shorter ones: รถไฟ rot fai combines 'vehicle' and 'fire' to mean 'train'.\n\nRepeating a word can soften, spread, or strengthen a meaning, depending on the word. Formal vocabulary may contain older Pali, Sanskrit, or Khmer elements. As you learn common pieces such as ใจ jai 'heart; mind', you can spot more compounds in writing that has no spaces between words.",
       "thai-grammar",
       "thai-dictionary",
-      "chula-spoken"
+      "thai-grammar"
     ),
     syntax: cited(
-      "Thai usually places modifiers after nouns and numbers in the pattern noun + number + classifier: หนังสือสามเล่ม nangsue sam lem, “three books.” Topic-first structures are frequent, and omitted arguments require attention to the conversation rather than mechanical pronoun insertion. Relative clauses follow nouns and commonly use ที่ thii. Several verbs can form one predicate without a conjunction: ไปซื้อกาแฟ pai sue kafae, literally “go buy coffee.” The sequence expresses motion and purpose naturally, not two unrelated dictionary entries. Final particles then locate the utterance socially: นะ na may invite alignment or soften, สิ si can urge, and ครับ/ค่ะ khrap/kha contribute politeness in gendered conventional patterns.",
+      "For 'three books', Thai says หนังสือสามเล่ม nangsue sam lem: book, three, then a word used when counting books. A descriptive clause follows the noun too, often with ที่ thii.\n\nSpeakers can place the topic first or leave out a person everyone already knows they're discussing. Several verbs can also work together: ไปซื้อกาแฟ pai sue kafae means 'go buy coffee'. A final particle such as นะ na or ครับ khrap then adds a social cue to the sentence.",
       "thai-grammar",
       "iwasaki-register"
     ),
@@ -253,49 +251,49 @@ export const thaiGuide = {
     topics: [
       {
         title: "Classifiers make counted nouns into phrases",
-        body: cited("With numerals, Thai normally uses a classifier chosen by the noun. The everyday order is noun + number + classifier; the classifier can also host demonstratives or appear when a noun is understood. Class choice is partly semantic and partly lexical, so learn เล่ม lem together with books and knives, and คน khon with people. Do not assume every long object shares one universal counter.", "thai-dictionary", "thai-grammar"),
+        body: cited("Thai usually puts a counting word after a number. For books, that word is เล่ม lem: หนังสือสองเล่ม nangsue song lem means 'two books'. Learn each counting word with a noun, because shape alone doesn't always predict the choice.", "thai-dictionary", "thai-grammar"),
         example: "ฉันซื้อหนังสือสองเล่ม — chan sue nangsue song lem",
         exampleTranslation: "I bought two books. (literally: I buy book two classifier)"
       },
       {
         title: "Aspect describes how an event unfolds",
-        body: cited("Thai does not require a past-tense verb ending. กำลัง kamlang presents an event in progress, แล้ว laeo can mark completion or a new state, เคย khoei marks experience, and จะ ja often presents prospective or future situations. These are not interchangeable English tense labels: context and combinations matter.", "thai-grammar", "thai-dictionary"),
+        body: cited("Thai doesn't add a past-tense ending to the verb. กำลัง kamlang shows an action in progress, เคย khoei points to experience, and แล้ว laeo can show completion or a new state. These words tell you how to view the action; a time phrase or the context tells you when it happened.", "thai-grammar", "thai-dictionary"),
         example: "เขากำลังกินข้าว — khao kamlang kin khao",
         exampleTranslation: "They are eating. (literally: they PROGRESSIVE eat rice/meal)"
       },
       {
         title: "Serial verbs package paths, purposes, and results",
-        body: cited("Several verbs can occur in one clause with shared participants. Motion verbs frequently introduce a destination or purpose, and another verb may describe a result. Analyze the real event before inserting English “and” everywhere. In ไปเอาหนังสือ pai ao nangsue, “go get the book,” going enables the getting.", "thai-grammar"),
+        body: cited("Thai can place several verbs in one stretch without 'and'. In ไปเอาหนังสือ pai ao nangsue, 'go get the book', the first verb tells you the movement and the second tells you its purpose. Listen for the single event the verbs describe together.", "thai-grammar"),
         example: "เขาเดินเข้าไปในบ้าน — khao doen khao pai nai baan",
         exampleTranslation: "They walked into the house. (walk enter go in house)"
       },
       {
         title: "Pronouns are relationship choices",
-        body: cited("ผม phom is a common polite first-person form for men and ดิฉัน dichan a formal form for women, but real conversation also uses ฉัน chan, เรา rao, names, kin terms, occupational titles, and omission. คุณ khun is useful but not a universal neutral “you.” Repeating it in intimate or hierarchical situations may sound distant or odd. Copy whole interactions, not isolated pronoun charts.", "iwasaki-register", "thai-grammar"),
+        body: cited("People choose ways to say 'I' and 'you' according to the relationship. A speaker may use ผม phom, ดิฉัน dichan, a name, a family term, or no pronoun at all. คุณ khun works in many polite settings, but repeating it with a close friend may sound distant.", "iwasaki-register", "thai-grammar"),
         example: "อาจารย์กินข้าวหรือยังครับ — ajan kin khao rue yang khrap",
         exampleTranslation: "Professor/teacher, have you eaten yet? (The title addresses “you”; no pronoun is needed.)"
       },
       {
         title: "Final particles manage stance and politeness",
-        body: cited("ครับ khrap and ค่ะ kha are prominent polite particles, conventionally associated with male and female speakers respectively, but Thai has many more. คะ kha marks some questions in women's speech; นะ na seeks alignment or softens; สิ si urges; หรอก rok can contradict expectations. Their force comes from tone, combination, relationship, and position. One English gloss cannot capture them.", "iwasaki-register", "chula-spoken"),
+        body: cited("A small word at the end can change how a sentence sounds to someone else. ครับ khrap and ค่ะ kha commonly signal politeness in conventions associated with male and female speakers; คะ kha appears in many questions and requests in women's speech. นะ na can soften a request, while สิ si can press someone to act, with tone and relationship affecting each choice.", "iwasaki-register", "thai-grammar"),
         example: "รอสักครู่นะครับ — ro sak khru na khrap",
         exampleTranslation: "Please wait a moment, all right? (softening + polite particle)"
       },
       {
         title: "Negation and questions use particles, not inversion",
-        body: cited("ไม่ mai precedes the verb or property predicate. Yes-no questions can add ไหม mai at the end without reversing subject and verb; หรือเปล่า rue plao asks whether something is or is not the case. An answer often repeats the relevant verb rather than using a single all-purpose “yes.”", "thai-grammar", "thai-dictionary"),
+        body: cited("Put ไม่ mai before a verb or description to negate it. A question can end in ไหม mai without changing the basic order of the sentence. People often answer by repeating the verb, with or without ไม่, rather than using one word for every kind of 'yes'.", "thai-grammar", "thai-dictionary"),
         example: "คุณดื่มกาแฟไหม — khun duem kafae mai",
         exampleTranslation: "Do you drink coffee? Possible answers: ดื่ม duem “I do” / ไม่ดื่ม mai duem “I don't.”"
       },
       {
         title: "Relative clauses follow what they describe",
-        body: cited("The relativizer ที่ thii introduces many clauses after a noun, and the missing role is inferred inside the clause. Thai does not need a different relative pronoun for “who,” “which,” and “that” in the English pattern. This makes long noun phrases compact once readers find their boundary.", "thai-grammar", "chula-spoken"),
+        body: cited("To describe a noun with a longer idea, Thai often puts ที่ thii and the description after that noun. The example means 'the book that you gave me', with หนังสือ nangsue 'book' first. Thai doesn't need separate forms matching English 'who', 'which', and 'that' here.", "thai-grammar"),
         example: "หนังสือที่คุณให้ฉันสนุกมาก — nangsue thii khun hai chan sanuk mak",
         exampleTranslation: "The book that you gave me is very enjoyable."
       },
       {
         title: "Topic and omission keep discourse efficient",
-        body: cited("When a referent is obvious, Thai often omits it. A phrase can also be placed first as a topic and followed by a comment. Learners who insert ผม phom or คุณ khun into every sentence sound repetitive and may accidentally over-specify relationships. Follow who is currently topical and restore a noun only when contrast or clarity requires it.", "thai-grammar", "chula-spoken"),
+        body: cited("Thai speakers often leave out someone already clear from the conversation. They can also name a topic first and then comment on it. In the example, เรื่องนี้ rueang ni 'this matter' comes first, while the person who doesn't know is understood.", "thai-grammar"),
         example: "เรื่องนี้ ไม่รู้เหมือนกัน — rueang ni, mai ru muean kan",
         exampleTranslation: "As for this matter, I don't know either. (The person who does not know is understood.)"
       }
@@ -303,23 +301,23 @@ export const thaiGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Thai connects national institutions and regions but is not every province's sole home language. Central Thai predominates in much of the center; Isan/Lao in the northeast; Northern Thai in the upper north; Southern Thai across much of the peninsula; and Malay in the far south. Bangkok gathers speakers from every region and migrant communities. Overseas, families, Buddhist institutions, businesses, media, and cultural groups sustain Thai.",
+      "Standard Thai connects people across Thailand, but it isn't the only language they use. Many people in the northeast speak Lao-related Isan varieties, while Northern Thai, Southern Thai, Malay, and other languages have strong regional communities.\n\nBangkok brings together speakers from across the country. Thai also travels through families, temples, businesses, and media abroad.",
       "wiki-thai",
       "wiki-isan",
       "wiki-northern-thai"
     ),
     regions: [
-      { place: "Central Thailand and Bangkok", note: cited("The institutional base of Standard Thai, but not an accent-free zone. Bangkok speech varies by neighborhood, generation, migration history, and formality, and the city is profoundly multilingual.", "wiki-thai", "chula-spoken") },
-      { place: "Northeastern Thailand (Isan)", note: cited("Standard Thai is central to schooling and public life, while Lao-related Isan varieties remain important in home life, local performance, music, markets, and identity. Speakers frequently move between them.", "wiki-isan", "enfield-thai-isan-lao") },
-      { place: "Northern Thailand", note: cited("Thai coexists with Northern Thai and other languages. Chiang Mai is not a single-variety immersion environment: visitors may hear Standard Thai, regionally colored Thai, Kam Mueang, and multilingual tourism speech.", "wiki-northern-thai") },
+      { place: "Central Thailand and Bangkok", note: cited("Standard Thai draws especially on educated Bangkok speech. People in the city speak with different local, generational, and family backgrounds.", "wiki-thai", "thai-grammar") },
+      { place: "Northeastern Thailand (Isan)", note: cited("Schools and public institutions use Standard Thai. Lao-related Isan varieties also carry family life, music, local performance, and everyday conversation. Many speakers move between them.", "wiki-isan", "enfield-thai-isan-lao") },
+      { place: "Northern Thailand", note: cited("Standard Thai lives alongside Northern Thai and other languages. In Chiang Mai, you may hear the national standard, regional Thai speech, and Kam Mueang in different places.", "wiki-northern-thai") },
       { place: "Southern Thailand", note: cited("Standard Thai connects national institutions while Southern Thai varieties and, especially in the far south, Malay varieties carry strong local community roles.", "wiki-thai") },
-      { place: "Global communities", note: cited("Heritage speakers and adult learners encounter Thai through mixed-age families, temples, schools, community events, online media, tourism, food businesses, and friendships. Their strongest register may differ from a Bangkok classroom norm.", "wiki-thai") }
+      { place: "Global communities", note: cited("Families, temples, schools, businesses, friendships, and media keep Thai in use outside Thailand. A heritage speaker may know family conversation better than formal Bangkok writing.", "wiki-thai") }
     ]
   },
   difficulty: {
     label: "Very demanding",
     overview: cited(
-      "For an English-speaking learner, Thai's first wall is the combined sound-and-script system: tones, length, aspiration, final categories, consonant classes, and unspaced words must become automatic together. The next is social: grammatical sentences can sound abrupt, stiff, or oddly intimate without particles, omission, pronouns, and register. “Very demanding” describes distance from English, not intrinsic obscurity. Speakers of Lao or another Tai language begin from a radically different position.",
+      "If English is your starting point, Thai asks you to coordinate unfamiliar sounds with a new script. Tones, vowel length, consonant classes, and text without spaces between words take sustained practice.\n\nThe social choices take practice too: a correct sentence can sound stiff or too familiar if you choose the wrong pronoun or particle. The difficulty label describes this distance from English. A speaker of Lao or another Tai language starts with different advantages.",
       "thai-grammar",
       "thai-dictionary",
       "iwasaki-register"
@@ -346,62 +344,58 @@ export const thaiGuide = {
       "Assuming Standard Thai automatically provides comprehension of Isan, Northern Thai, or Southern Thai"
     ],
     workload: cited(
-      "A balanced week might include four short tone-and-reading drills, two tutor conversations, three transcript-based listening sessions, and daily review of sentence cards with audio. Record a 60-second monologue weekly and ask for correction on only two recurring sound patterns at a time. By the intermediate stage, replace generic “Thai practice” with domains: follow one series, read restaurant reviews, explain your work, or learn the language of a hobby. Discover Discomfort's advice to acquire high-frequency conversational structures before rare textbook topics is particularly apt, but bread-and-butter Thai still needs socially appropriate particles and pronouns. Advanced literacy and flexible regional listening are multi-year projects; steady contact beats a heroic alphabet weekend followed by silence.",
-      "dd-how-learn",
-      "dd-how-learn",
-      "thai-dictionary"
+      "Practice a few sound-and-spelling contrasts each week, then use them in a short exchange with a teacher or conversation partner. Keep audio with your sentence cards and ask for corrections on two recurring sound problems at a time.\n\nAs you progress, choose a domain: follow one series, read restaurant reviews, or explain your work. Keep listening for pronouns and particles alongside vocabulary. Comfortable reading and flexible regional listening take repeated contact over time.",
+      "thai-dictionary",
+      "iwasaki-register"
     )
   },
   advancedLearning: {
     strategy: cited(
-      "Build linked notebooks for sound/spelling families, interactional chunks, and reading. Save each word with Thai spelling, audio, tone-complete transcription, a sentence, and register. Save particles in exchanges, not as English definitions. For formal compounds, find a corpus example and ask how a friend would express the idea. Once Standard Thai is stable, sample a regional language through a named speaker or program. A tutor can explain why a grammatical sentence is socially improbable.",
+      "Save a new word with Thai spelling, audio, a tone-aware reading aid, and a sentence that shows who says it. Keep particles in full exchanges, since a one-word English gloss hides their social work.\n\nFor a formal compound, find an example in a corpus and ask how a friend would express the same thought. Once you're comfortable with Standard Thai, listen to a named regional speaker or program rather than treating every unfamiliar form as an accent.",
       "iwasaki-register",
-      "chula-spoken",
-      "dd-how-learn"
+      "thai-national-corpus"
     ),
     mediaPractice: cited(
-      "Watch a scene for plot, then transcribe 20–40 seconds, mark omitted subjects and final particles, and shadow one character. Subtitles may condense speech or translate meaning rather than grammar. Alternate drama with interviews, streams, cooking channels, and news so one register does not become “the language.” Music introduces luk thung, molam, indie, rock, rap, and regional voices, but dialogue is safer for establishing tone. Online, 555 means ha-ha-ha because ห้า means “five.”",
+      "Watch a scene once for the story, then transcribe a short stretch and mark its final particles and omitted subjects. Subtitles may condense what the actors say. Try an interview, stream, cooking show, or news clip too, so you hear more than one register.\n\nMusic brings you regional voices and styles, including luk thung and molam. Use dialogue to establish tones, since melody changes pitch. In chats, 555 reads as laughter because ห้า haa means 'five'.",
       "dd-laughter",
-      "chula-spoken",
+      "iwasaki-register",
       "wiki-thai"
     ),
     dictionariesAndCorpora: cited(
-      "The Royal Society dictionary is the prescriptive spelling reference. SEAlang's Mary Haas project offers learner-oriented Thai–English lookup; thai-language.com adds audio, classifiers, tone-complete transcription, and spelling references. The Thai Web Corpus supplies concordances and collocations, while the Chulalongkorn spoken corpus grounds research in conversation. Occurrence does not prove a form suits your relationship, so pair frequency with social judgment.",
+      "Use the Royal Society dictionary to check standard spelling. SEAlang's Mary Haas project gives Thai–English entries, while thai-language.com adds audio, classifiers, and tone-aware spelling help. The Thai National Corpus lets you search words in context, check nearby words, and compare genres.\n\nThe Chulalongkorn Corpus of Spoken Thai is a downloadable research dataset with spontaneous and read speech. It takes more work to use than a learner dictionary, but it can help advanced readers study pronunciation. A corpus hit alone cannot tell you whether a phrase suits your relationship with someone.",
       "royal-society",
       "sealang-haas",
       "thai-dictionary",
-      "chula-spoken",
+      "thai-national-corpus",
       "chula-spoken"
     ),
     resources: [
-      { type: "other", title: "Discover Discomfort: How We Learn Languages", url: "https://discoverdiscomfort.com/how-to-learn-languages/", level: "all", description: cited("A practical method centered on everyday structures, recording yourself, focused vocabulary, tutors, and the language people actually use. Apply its principles with a tone-complete Thai course.", "dd-how-learn") },
-      { type: "book", title: "Discover Discomfort: Learn Languages Faster with Books, Not Apps", url: "https://discoverdiscomfort.com/old-school-best-fast-language-learning-tips/", level: "beginner", description: cited("A case for audio-supported textbooks, systematic structures, and active use. Helpful when choosing a Thai foundation instead of collecting disconnected apps.", "dd-how-learn") },
-      { type: "dictionary", title: "Mary Haas Thai Dictionary Project", url: "https://sealang.net/thai/tdp.htm", level: "all", description: cited("SEAlang's searchable project incorporates Haas's Thai-English Student's Dictionary and material from the larger dictionary project, with scholarly provenance.", "sealang-haas") },
+      { type: "dictionary", title: "Mary Haas Thai Dictionary Project", url: "http://sealang.net/thai/tdp.htm", level: "all", description: cited("SEAlang's searchable project incorporates Haas's Thai-English Student's Dictionary and material from the larger dictionary project, with scholarly provenance.", "sealang-haas") },
       { type: "dictionary", title: "Royal Society of Thailand Dictionary", url: "https://dictionary.orst.go.th/", level: "intermediate", description: cited("The authoritative prescriptive Thai dictionary for standard spelling, meanings, and formal usage; best used alongside examples from speech and corpora.", "royal-society") },
-      { type: "dictionary", title: "thai-language.com", url: "https://www.thai-language.com/", level: "all", description: cited("A detailed learner reference with recordings, tone-aware transcription, classifier data, and explanations of consonant classes and tone rules.", "thai-dictionary") },
-      { type: "corpus", title: "Thai Web Corpus", url: "https://www.thaicorpus.net/", level: "intermediate", description: cited("Search words, collocations, and examples in contextualized web Thai; expect both standard and nonstandard usage.", "chula-spoken") },
-      { type: "corpus", title: "Chulalongkorn Corpus of Spoken Thai", url: "https://zenodo.org/records/17366698", level: "advanced", description: cited("A modern university corpus for examining forms in spoken interaction rather than relying entirely on written examples.", "chula-spoken") }
+      { type: "dictionary", title: "thai-language.com", url: "http://www.thai-language.com/", level: "all", description: cited("A detailed learner reference with recordings, tone-aware transcription, classifier data, and explanations of consonant classes and tone rules.", "thai-dictionary") },
+      { type: "corpus", title: "Thai National Corpus (v.4)", url: "https://app.stichula.org/py/tnc4/", level: "intermediate", description: cited("Search Thai words in context, check collocations and frequency, and filter results by genre or domain. The institute describes all three search modes.", "thai-national-corpus") },
+      { type: "corpus", title: "Chulalongkorn Corpus of Spoken Thai", url: "https://zenodo.org/records/17366698", level: "advanced", description: cited("Download recordings and phonetic annotations of Standard Thai speech; this research dataset requires more work than a searchable learner corpus.", "chula-spoken") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Thai words become memorable in social use. ใจ jai “heart/mind” builds compounds about temperament and feeling. สนุก sanuk evaluates enjoyable activities; it is not a slogan about national character. เกรงใจ kreng-jai names restraint from concern about imposing, not one rule governing every interaction. Particles can be equally revealing: นะ na reshapes a request, while ก็ ko links, resumes, or concedes. Record who says a word, what follows, and what response it invites rather than calling it untranslatable.",
+      "ใจ jai means 'heart' or 'mind' and turns up in compounds about feelings and understanding. สนุก sanuk says something is enjoyable; เกรงใจ kreng jai can describe someone's concern about imposing. Their meanings become clearer in real interactions than in a list of supposed 'untranslatable' national traits.\n\nSmall words carry social meaning too. นะ na can soften a request, while ก็ ko can connect a thought to what came before. Keep the exchange around a word when you save it.",
       "thai-dictionary",
       "iwasaki-register",
-      "chula-spoken"
+      "thai-grammar"
     ),
     notableWords: [
-      { term: "ใจ", transliteration: "jai M", meaning: "heart; mind; disposition", note: cited("A productive element in compounds: เข้าใจ khao-jai “understand,” ใจดี jai-dii “kind-hearted,” and ตกใจ tok-jai “be startled.” Its range resists a single mind-versus-heart division.", "thai-dictionary", "chula-spoken") },
+      { term: "ใจ", transliteration: "jai M", meaning: "heart; mind; disposition", note: cited("A common piece of compounds: เข้าใจ khao jai 'understand', ใจดี jai dii 'kind-hearted', and ตกใจ tok jai 'be startled'. One English word won't cover every use.", "thai-dictionary") },
       { term: "เกรงใจ", transliteration: "kreng-jai M", meaning: "to hesitate out of consideration; not want to impose", note: cited("Often explained as uniquely Thai, but its value lies in specific interactions: declining an offer, worrying about burdening a host, or softening a request. Tone and situation can also make it critical rather than admiring.", "thai-dictionary", "iwasaki-register") },
-      { term: "สนุก", transliteration: "sanuk L", meaning: "fun; enjoyable", note: cited("A common evaluation of events, work, stories, and company. It is useful precisely because it appears in ordinary predication—หนังสนุก “the film is fun”—not because it encodes an entire national personality.", "thai-dictionary") },
-      { term: "สบาย", transliteration: "sabaai L", meaning: "comfortable; well; at ease", note: cited("Appears in สบายดี sabaai dii “well/fine” and สบาย ๆ sabaai sabaai “easygoing; comfortably.” Repetition softens the quality rather than simply making it plural.", "thai-dictionary") },
-      { term: "ไม่เป็นไร", transliteration: "mai pen rai F-M-M", meaning: "it's all right; never mind; no problem", note: cited("A response to thanks, apology, concern, or a small mishap. It can reassure warmly or close a topic; translating it as a national philosophy strips away intonation and circumstance.", "thai-dictionary", "chula-spoken") },
-      { term: "แซ่บ", transliteration: "saep F", meaning: "deliciously spicy/tasty; exciting", note: cited("A Lao/Isan-associated word now widespread through food talk, music, advertising, and playful praise. Its circulation shows regional culture shaping national popular Thai, not merely borrowing from a peripheral “dialect.”", "wiki-isan", "chula-spoken") },
+      { term: "สนุก", transliteration: "sa L nuk L", meaning: "fun; enjoyable", note: cited("Speakers can call an event, story, or film สนุก. หนังสนุก means 'the film is fun'. The word describes an experience, not an entire national personality.", "thai-dictionary") },
+      { term: "สบาย", transliteration: "sa L baai M", meaning: "comfortable; well; at ease", note: cited("Appears in สบายดี sabaai dii 'well; fine' and สบาย ๆ sabaai sabaai 'easygoing; comfortably'. Repetition softens the quality rather than simply making it plural.", "thai-dictionary") },
+      { term: "ไม่เป็นไร", transliteration: "mai F pen M rai M", meaning: "it's all right; never mind; no problem", note: cited("Speakers use this after thanks, an apology, or a small mishap. It can reassure or close a topic depending on the voice and situation.", "thai-dictionary") },
+      { term: "แซ่บ", transliteration: "saep F", meaning: "deliciously spicy/tasty; exciting", note: cited("This Isan-associated word appears in food talk and popular Thai. The spelling แซ่บ has a falling tone; compare Isan แซบ with its different spelling and high tone.", "wiki-isan", "thai-dictionary") },
       { term: "555", transliteration: "ha ha ha", meaning: "hahaha in digital writing", note: cited("The Thai word for five is ห้า haa, so repeated Arabic numerals read as laughter. Thai digits exist, but ordinary online laughter normally uses international 5s.", "dd-laughter") },
       { term: "พี่ / น้อง", transliteration: "phii F / nong H", meaning: "older / younger sibling; relational forms of address", note: cited("These kin terms extend beyond biological siblings to colleagues, acquaintances, and service encounters. Age, role, warmth, and local practice decide whether they sound affiliative, patronizing, or simply ordinary.", "iwasaki-register", "thai-dictionary") }
     ],
     loanwordLayers: cited(
-      "Learned vocabulary can look intimidating because one final sound may have many spellings inherited through Pali-Sanskrit conventions. Those layers fill religion, monarchy, administration, education, science, and abstract prose. Khmer contributed deeply to court and historical vocabulary; Chinese varieties shaped food and commerce; Malay connects the peninsula; and English dominates many contemporary technical and pop-cultural domains. Speakers may alternate a formal Thai coinage and an adapted English loan according to audience. Loanwords still receive Thai phonology, tone patterns, spelling compromises, and playful clipping. Etymology is most useful when it helps recognize families and registers, not when it is used to declare one layer more authentically Thai than another.",
+      "Pali and Sanskrit words fill much religious, legal, academic, and royal writing. Their historical spellings can look unlike the way people now pronounce final sounds. Khmer also shaped court vocabulary; Chinese varieties contributed food and trade terms, and Malay contact matters in the south.\n\nEnglish loans now appear in technology and entertainment. Speakers may choose a formal Thai coinage in one setting and an adapted loan in another. Word history helps you recognize these different registers; it doesn't rank one layer as more authentically Thai.",
       "wiki-thai",
       "royal-society",
       "thai-dictionary"
@@ -425,34 +419,33 @@ export const thaiGuide = {
   },
   relationships: {
     overview: cited(
-      "Thai's closest comparisons lie inside Southwestern Tai, but the map is political too. Lao is a national standard; Isan names Lao-related varieties within Thailand; Northern and Southern Thai have regional histories; and Zhuang languages show the Tai family's depth in southern China. Shared classifiers, tones, and cognates aid comparison, but sound change and unequal media exposure shape comprehension. Khmer is a contact language, while Pali and Sanskrit are learned sources—not ancestors of Thai grammar.",
+      "Thai shares a branch of the Tai family with Lao and several other languages. Isan names Lao-related varieties in Thailand, while Northern Thai and Southern Thai have their own regional histories. Shared words and grammar can help speakers understand one another, but exposure and local varieties affect how much they understand.\n\nKhmer influenced Thai through contact. Pali and Sanskrit contributed many learned words. Neither relationship makes those languages ancestors of Thai.",
       "glottolog-thai",
       "wiki-thai-lao",
       "enfield-thai-isan-lao"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Thai is not one etiquette script. Particles, monastic address, seniority, teasing, queer styles, hierarchy, and online irony overlap. Observe before copying: คุณ khun may be distant in a family, while constant ครับ khrap sounds stiff among friends. Regional forms carry pride and stigma, so never use Isan or Northern speech as comic costume. Temple narratives, horror, political rap, luk thung, and molam complicate any simple “Thai culture.”",
+  culturalNotes: "Thai speakers draw on titles, family terms, particles, humor, and different registers as relationships change. คุณ khun may sound distant at home, while constant ครับ khrap may sound stiff among close friends. Listen to how people address one another before copying a line from a drama.\n\nRegional speech can carry pride and stigma. Treat Isan or Northern Thai as living community language, not a comic accent. Temple stories, horror, political rap, luk thung, and molam show different voices within Thai public life.",
   resources: [
     { type: "other", title: "Discover Discomfort: How People Laugh Online", url: "https://discoverdiscomfort.com/how-people-laugh-online-different-languages/", level: "beginner", description: cited("A memorable entry into Thai digital writing: 555 reads as ha-ha-ha because ห้า means five. The article clearly labels the author's limited Thai expertise, so use it for this narrow observation.", "dd-laughter") },
-    { type: "course", title: "Discover Discomfort: How We Learn Languages", url: "https://discoverdiscomfort.com/how-to-learn-languages/", level: "all", description: cited("A reader-focused framework for high-frequency real-life structures, recording yourself, vocabulary groups, and tutoring; combine it with Thai-specific sound instruction.", "dd-how-learn") },
     { type: "dictionary", title: "Royal Society Dictionary", url: "https://dictionary.orst.go.th/", level: "intermediate", description: cited("The prescriptive reference for standard Thai spelling and definitions, valuable once monolingual lookup becomes manageable.", "royal-society") },
-    { type: "dictionary", title: "Mary Haas Thai Dictionary Project", url: "https://sealang.net/thai/tdp.htm", level: "all", description: cited("A scholarly Thai–English dictionary resource with learner value and transparent history, hosted by the SEAlang Library.", "sealang-haas") },
-    { type: "dictionary", title: "thai-language.com", url: "https://www.thai-language.com/", level: "all", description: cited("Audio, tone-complete transcription, classifier lists, dictionary examples, and unusually thorough explanations of Thai spelling mechanics.", "thai-dictionary") },
-    { type: "corpus", title: "Thai Web Corpus", url: "https://www.thaicorpus.net/", level: "intermediate", description: cited("A concordance and collocation tool for checking how words occur in contextualized web writing, including variation outside prescriptive norms.", "chula-spoken") },
-    { type: "corpus", title: "Chulalongkorn Corpus of Spoken Thai", url: "https://zenodo.org/records/17366698", level: "advanced", description: cited("A current spoken corpus from Chulalongkorn University for investigating conversational forms and discourse patterns.", "chula-spoken") }
+    { type: "dictionary", title: "Mary Haas Thai Dictionary Project", url: "http://sealang.net/thai/tdp.htm", level: "all", description: cited("A scholarly Thai–English dictionary based on Mary Haas's work, hosted by the SEAlang Library.", "sealang-haas") },
+    { type: "dictionary", title: "thai-language.com", url: "http://www.thai-language.com/", level: "all", description: cited("Audio, tone-aware transcription, classifiers, examples, and detailed explanations of Thai spelling.", "thai-dictionary") },
+    { type: "corpus", title: "Thai National Corpus (v.4)", url: "https://app.stichula.org/py/tnc4/", level: "intermediate", description: cited("Search words with context, nearby words, and frequency across different genres. The Sirindhorn Thai Language Institute runs this tool.", "thai-national-corpus") },
+    { type: "corpus", title: "Chulalongkorn Corpus of Spoken Thai", url: "https://zenodo.org/records/17366698", level: "advanced", description: cited("Download audio and annotations for research on Standard Thai pronunciation; this isn't a point-and-click dictionary.", "chula-spoken") }
   ],
   relatedLanguages,
   phrases: [
     { original: "สวัสดีครับ / สวัสดีค่ะ", transliteration: "sawatdii khrap / sawatdii kha", translation: "Hello. (common polite forms)", usageNote: "ครับ is conventionally used by male speakers and ค่ะ by female speakers. Familiar greetings also use names, kin terms, or situational questions." },
     { original: "ขอบคุณครับ / ขอบคุณค่ะ", transliteration: "khop khun khrap / khop khun kha", translation: "Thank you.", usageNote: "A reliable polite formula; substantial help can call for warmer thanks." },
     { original: "ขอโทษนะครับ / ขอโทษนะคะ", transliteration: "kho thot na khrap / kho thot na kha", translation: "Excuse me; I'm sorry.", usageNote: "นะ softens; women's question/request particle here is คะ, while the polite statement form is generally ค่ะ." },
-    { original: "ไม่เป็นไร", transliteration: "mai pen rai", translation: "It's all right; never mind; no problem.", usageNote: "Useful after thanks, apology, or a minor mishap. Intonation decides whether it warmly reassures or closes discussion." },
+    { original: "ไม่เป็นไร", transliteration: "mai pen rai", translation: "It's all right; never mind; no problem.", usageNote: "Say this after thanks, an apology, or a minor mishap. Intonation decides whether it warmly reassures or closes discussion." },
     { original: "คุณชื่ออะไร", transliteration: "khun chue arai", translation: "What's your name?", literalMeaning: "You name what?", usageNote: "คุณ is a serviceable polite “you” with an unfamiliar adult, but names and titles often replace pronouns once a relationship is known." },
     { original: "พูดช้า ๆ ได้ไหมครับ / คะ", transliteration: "phut cha cha dai mai khrap / kha", translation: "Could you speak slowly?", literalMeaning: "Speak slowly can question?", usageNote: "ๆ repeats ช้า “slow”; listen for the rising-tone question particle ไหม." },
     { original: "ช่วยพูดอีกครั้งได้ไหม", transliteration: "chuai phut ik khrang dai mai", translation: "Could you say that again?", literalMeaning: "Help speak one more time, can?", usageNote: "Add an appropriate polite particle for the setting and speaker." },
     { original: "ไม่เข้าใจ", transliteration: "mai khao jai", translation: "I don't understand.", literalMeaning: "Not enter heart/mind.", usageNote: "The subject is naturally omitted when obvious. เข้าใจ is a compound built around ใจ “heart/mind.”" },
-    { original: "คำนี้แปลว่าอะไร", transliteration: "kham ni plae wa arai", translation: "What does this word mean?", literalMeaning: "This word translates/says that what?", usageNote: "A useful classroom phrase; point or quote the word before asking." },
+    { original: "คำนี้แปลว่าอะไร", transliteration: "kham ni plae wa arai", translation: "What does this word mean?", literalMeaning: "This word translates/says that what?", usageNote: "Point to or quote the word before asking in class." },
     { original: "อันนี้เท่าไหร่", transliteration: "an ni thao rai", translation: "How much is this?", literalMeaning: "This item how much?", usageNote: "อัน is a general classifier-like noun for an item. Add ครับ/คะ for a polite market or shop exchange." },
     { original: "เอาอันนี้ครับ / ค่ะ", transliteration: "ao an ni khrap / kha", translation: "I'll take this one.", literalMeaning: "Take/want this item.", usageNote: "เอา is direct but ordinary in a transaction when delivered with suitable tone and politeness." },
     { original: "ห้องน้ำอยู่ที่ไหน", transliteration: "hong nam yu thii nai", translation: "Where is the bathroom?", literalMeaning: "Bathroom is-located at where?", usageNote: "อยู่ locates something; add a polite particle when asking a stranger." },
@@ -461,7 +454,6 @@ export const thaiGuide = {
   ],
   sources: [
     { id: "dd-laughter", title: "How People Laugh Online in Different Languages", url: "https://discoverdiscomfort.com/how-people-laugh-online-different-languages/", publisher: "Discover Discomfort", publishedAt: "2019-09-25", accessedAt: "2026-07-10" },
-    { id: "dd-how-learn", title: "How We Learn Languages", url: "https://discoverdiscomfort.com/how-to-learn-languages/", publisher: "Discover Discomfort", publishedAt: "2019-02-01", accessedAt: "2026-07-10" },
     { id: "wiki-thai", title: "Thai language", url: "https://en.wikipedia.org/wiki/Thai_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-thai-script", title: "Thai script", url: "https://en.wikipedia.org/wiki/Thai_script", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-isan", title: "Isan language", url: "https://en.wikipedia.org/wiki/Isan_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
@@ -470,12 +462,13 @@ export const thaiGuide = {
     { id: "glottolog-thai", title: "Glottolog 5.3: Thai", url: "https://glottolog.org/resource/languoid/id/thai1261", publisher: "Glottolog", updatedAt: "2026", accessedAt: "2026-07-10" },
     { id: "unicode-thai", title: "The Unicode Standard, Chapter 16: Southeast Asia — Thai", url: "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-16/", publisher: "Unicode Consortium", updatedAt: "2024", accessedAt: "2026-07-10" },
     { id: "royal-society", title: "Royal Society of Thailand Dictionary", url: "https://dictionary.orst.go.th/", publisher: "Royal Society of Thailand", accessedAt: "2026-07-10" },
-    { id: "sealang-haas", title: "Mary Haas Thai Dictionary Project", url: "https://sealang.net/thai/tdp.htm", publisher: "SEAlang Library", accessedAt: "2026-07-10" },
-    { id: "thai-dictionary", title: "thai-language.com Dictionary and Reference", url: "https://www.thai-language.com/", publisher: "thai-language.com", accessedAt: "2026-07-10" },
-    { id: "thai-grammar", title: "A Reference Grammar of Thai", url: "https://www.cambridge.org/core/books/reference-grammar-of-thai/235A50DE94345C8FDDC1DB8B353263EA", publisher: "Cambridge University Press", publishedAt: "2005", accessedAt: "2026-07-10" },
+    { id: "sealang-haas", title: "Mary Haas Thai Dictionary Project", url: "http://sealang.net/thai/tdp.htm", publisher: "SEAlang Library", accessedAt: "2026-09-27" },
+    { id: "thai-dictionary", title: "thai-language.com Dictionary and Reference", url: "http://www.thai-language.com/", publisher: "thai-language.com", accessedAt: "2026-09-27" },
+    { id: "thai-grammar", title: "Iwasaki and Ingkaphirom, A Reference Grammar of Thai", url: "https://books.google.com/books/about/A_Reference_Grammar_of_Thai.html?id=YE29njS4qSUC", publisher: "Cambridge University Press", publishedAt: "2005", accessedAt: "2026-09-27" },
     { id: "iwasaki-register", title: "Creating Speech Register in Thai Conversation", url: "https://www.cambridge.org/core/journals/language-in-society/article/creating-speech-register-in-thai-conversation/92F4296DA273C3FEEFF0D464BAAE0286", publisher: "Cambridge University Press", publishedAt: "2000", accessedAt: "2026-07-10" },
     { id: "enfield-thai-isan-lao", title: "Thai-Isan-Lao: Linguistic and Cultural Relations", url: "https://pure.mpg.de/rest/items/item_58680_2/component/file_58681/content", publisher: "Tai Culture / Max Planck Institute archive", publishedAt: "2002", accessedAt: "2026-07-10" },
-    { id: "chula-spoken", title: "Chulalongkorn Corpus of Spoken Thai", url: "https://zenodo.org/records/17366698", publisher: "Chulalongkorn University", publishedAt: "2025", accessedAt: "2026-07-10" }
+    { id: "chula-spoken", title: "Chulalongkorn Corpus of Spoken Thai", url: "https://zenodo.org/records/17366698", publisher: "Chulalongkorn University / Zenodo", publishedAt: "2025-10-16", accessedAt: "2026-09-27" },
+    { id: "thai-national-corpus", title: "Thai National Corpus (v.4)", url: "https://stichula.org/thai-national-corpus-v-4/", publisher: "Sirindhorn Thai Language Institute, Chulalongkorn University", publishedAt: "2026-02-25", accessedAt: "2026-09-27" }
   ],
   seo: {
     title: "Thai Language Guide: Tones, Script, Grammar and Real Usage",

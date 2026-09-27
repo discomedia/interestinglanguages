@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Cornish",
     relationship: "Closest revived Brittonic relative",
     explanation: cited(
-      "Cornish is especially close genealogically, and its modern revival has often drawn comparison with Welsh language planning. Similar-looking words reward comparison, yet pronunciation, spelling history, and revived usage require Cornish to be learned on its own terms.",
+      "Cornish is especially close genealogically, and its modern revival has often drawn comparison with Welsh language planning. Similar-looking words invite comparison, yet Cornish has its own pronunciation, spelling history, and modern usage.",
       "wiki-welsh",
       "glottolog-welsh"
     )
@@ -47,18 +47,18 @@ export const welshGuide = {
   autonym: "Cymraeg",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Welsh is a living Brittonic language of family life, schools, workplaces, broadcasting, music, literature, and online conversation, with an unusually transparent spelling system and a grammar that makes relationships visible at the beginnings of words.",
+  summary: "Welsh changes the beginnings of words to show how they fit together. Explore its clear spelling, regional voices, long literary history, and place in everyday life across Wales and beyond.",
   family: "Indo-European, Celtic, Brittonic",
   macroRegion: "Wales, with communities elsewhere in Britain and Patagonia",
   primaryScript: "Latin",
   difficultyLabel: "Demanding",
-  learnerHook: "Welsh turns a landscape of familiar place names into meaningful sentences and offers immediate access to a contemporary public culture—from football commentary and television drama to poetry, memes, local radio, and conversation.",
+  learnerHook: "Cymru becomes yng Nghymru when someone says “in Wales.” That small change opens a way into Welsh signs, conversations, radio, television, and writing.",
   hero: {
     imageAlt: "Contemporary Welsh words in print and public signage, representing everyday bilingual Wales.",
     callToActionLabel: "Hear Welsh in use"
   },
   classification: "A Brittonic Celtic language, closely related to Cornish and Breton",
-  speakerCommunity: "Welsh belongs to communities, not simply to a statistic. It is acquired at home, through Welsh-medium education, in bilingual schools, at university, in adult classes, and by people returning to a family language. In the 2021 Census, 538,300 usual residents of Wales aged three or over—17.8 percent—reported that they could speak Welsh. That self-report measure differs from the Annual Population Survey and should not be casually mixed with it. Welsh is heard most densely in parts of the north and west, but Cardiff and other cities support substantial, mobile networks of speakers. It is used in public services, shops, agriculture, technology, sport, worship, music, and broadcasting, as well as at the kitchen table. Many speakers are comfortably bilingual; some use Welsh chiefly in one domain and English in another. Learners enter this world as participants, not museum visitors.",
+  speakerCommunity: "People grow up with Welsh at home, learn it in school or adult classes, and sometimes return to a family language later in life. The 2021 Census counted 538,300 usual residents of Wales aged three or over who said they could speak Welsh, or 17.8 percent of that age group. That count measures reported ability, not how often each person speaks it.\n\nWelsh has especially dense speaker networks in parts of the north and west. Cardiff and other cities also have Welsh-speaking families, schools, workplaces, and arts groups. Many speakers use Welsh and English in different parts of a day; others use Welsh in most settings.\n\nThe census and the Annual Population Survey ask different questions and produce different estimates. Use their numbers with the year and measure attached, rather than combining them into one speaker total.",
   facts: [
     { label: "Family", value: "Indo-European · Celtic · Brittonic" },
     { label: "2021 Census", value: "538,300 speakers in Wales aged 3+, or 17.8%" },
@@ -67,10 +67,10 @@ export const welshGuide = {
     { label: "Common varieties", value: "Broad northern and southern groupings, with strong local and social variation" },
     { label: "Public media", value: "S4C television, BBC Radio Cymru, podcasts, music, news, and digital-first Hansh" }
   ],
-  learnerOverview: "Welsh often looks harder on the page than it feels after a few weeks of listening. The spelling is consistent, stress is usually predictable, and a compact set of high-frequency frames produces useful speech quickly: Dw i'n… “I am…,” Dw i eisiau… “I want…,” and Ga i…? “May I…?” The apparent complication is that words change shape. Cymru “Wales” becomes yng Nghymru “in Wales”; Bangor becomes ym Mangor; and cath “cat” becomes y gath “the cat.” These initial mutations carry grammatical information and also preserve the sound flow of older phrases. Do not postpone speaking until every mutation table is perfect. Learn triggers inside whole expressions and let correction sharpen them over time. Choose a course track with a northern or southern spoken model, then listen widely enough to understand both. The real leap comes when Welsh stops being only lesson material: follow weather clips, a sports team, a musician, or a local news story, and use the language with people before you feel fully ready.",
+  learnerOverview: "Cymru is the dictionary form for “Wales.” In yng Nghymru, “in Wales,” its first sound changes. You will see the same pattern in y gath, “the cat,” from cath.\n\nWelsh spelling gives reliable clues once you learn its letter values. Start with whole frames such as Dw i'n darllen, “I'm reading,” and Ga i…?, “May I…?” Then learn the word changes inside phrases you already say, instead of waiting to master every mutation chart.\n\nChoose a course with a northern or southern spoken model so your own sentences stay consistent. Listen beyond that model as you improve: follow a local news story, a sport, a musician, or a television series. A recurring conversation will show you which forms your partners actually use.",
   origins: {
     overview: cited(
-      "Welsh descends from the Common Brittonic once spoken across much of Britain. After Roman rule ended and Germanic-speaking kingdoms expanded, western Brittonic varieties developed along separate paths. Scholars use labels such as Primitive Welsh, Old Welsh, Middle Welsh, and Modern Welsh, but the boundaries are conveniences rather than overnight transformations. Early poetry associated with figures such as Taliesin and Aneirin survives through later manuscripts; Middle Welsh is richly represented in law, religious prose, chronicles, poetry, and the narratives now grouped in English as the Mabinogion. The language therefore joins deep manuscript history to uninterrupted reinvention. A medieval tale, a chapel hymn, an industrial ballad, a television thriller, and a group chat do not use one frozen Welsh, but they belong to a connected tradition.",
+      "Welsh descends from the Common Brittonic once spoken across much of Britain. After Roman rule ended and Germanic-speaking kingdoms expanded, western Brittonic varieties developed along separate paths.\n\nScholars use labels such as Primitive Welsh, Old Welsh, Middle Welsh, and Modern Welsh, but the boundaries are conveniences rather than overnight transformations. Early poetry associated with figures such as Taliesin and Aneirin survives in later manuscripts. Middle Welsh survives in law, religious prose, chronicles, poetry, and the tales now called the Mabinogion in English.\n\nSpeakers and writers have kept changing Welsh. A medieval tale and a present-day group chat belong to a connected tradition, even though their language differs.",
       "wiki-history",
       "wiki-welsh",
       "gpc"
@@ -94,7 +94,7 @@ export const welshGuide = {
       {
         period: "c. 1100–1500",
         event: cited(
-          "Middle Welsh is preserved in a substantial manuscript culture. Prose tales, law texts, medicine, history, devotion, and intricate praise poetry reveal both an elite literary register and a language changing toward modern forms.",
+          "Middle Welsh survives in many manuscripts. Stories, law texts, medicine, history, religion, and formal praise poetry show both a literary style and a language changing toward modern forms.",
           "wiki-history",
           "gpc"
         )
@@ -126,13 +126,13 @@ export const welshGuide = {
       }
     ],
     contactHistory: cited(
-      "Latin entered Brittonic during Roman and Christian contact, leaving words connected with institutions, learning, and religion. Norse contact is visible in some names and vocabulary. English became the overwhelmingly important contact language through political incorporation, migration, trade, schooling, industry, and modern media. Welsh has borrowed and naturalized English words, while English in Wales carries Welsh place names, personal names, discourse habits, and loanwords. Patagonia adds a different contact story: settlers established Y Wladfa in Argentina from 1865, and Welsh has since lived alongside Spanish there. Contact does not move only into vocabulary; bilingual speakers make choices about pronunciation, syntax, and code-switching according to person and setting.",
+      "Latin entered Brittonic during Roman and Christian contact, leaving words connected with institutions, learning, and religion. Norse contact is visible in some names and vocabulary.\n\nEnglish became the overwhelmingly important contact language through political incorporation, migration, trade, schooling, industry, and modern media. Welsh has borrowed and naturalized English words, while English in Wales carries Welsh names and loanwords.\n\nPatagonia adds a different contact story: settlers established Y Wladfa in Argentina from 1865, and Welsh has since lived alongside Spanish there. Bilingual speakers also choose pronunciations, sentence patterns, and when to switch languages according to the people and setting.",
       "wiki-welsh",
       "corcencc",
       "gpc"
     ),
     standardization: cited(
-      "Standard written Welsh provides a shared spelling and formal grammar, but it is not a neutral transcript of one town's speech. Literary Welsh preserves constructions and inflected verb forms uncommon in casual conversation; formal public prose ranges from accessible contemporary writing to deliberately elevated style. Spoken teaching commonly offers northern and southern pathways, each a broad learning model rather than a single dialect. The healthiest goal is register control: write an application appropriately, understand a news bulletin, and still sound at ease over coffee. Modern dictionaries, terminology work, broadcasting conventions, publishers, teachers, and users all participate in standardization without extinguishing regional voices.",
+      "Standard written Welsh provides a shared spelling and formal grammar, but it is not a neutral transcript of one town's speech. Literary Welsh keeps constructions and verb forms uncommon in casual conversation. Formal public prose can be direct or deliberately elevated.\n\nSpoken teaching commonly offers northern and southern pathways, each a broad learning model rather than a single dialect. Aim to understand a news bulletin and speak naturally over coffee before copying older literary forms. Dictionaries, broadcasters, publishers, teachers, and speakers all shape present-day standards.",
       "wiki-welsh",
       "gpc",
       "s4c-guidelines"
@@ -140,7 +140,7 @@ export const welshGuide = {
   },
   variants: {
     overview: cited(
-      "“North” and “south” are useful first coordinates, not a border across which everyone abruptly changes grammar. Vocabulary, vowels, pronouns, verb forms, age, education, and local networks all matter. A northern speaker may say rŵan for “now” where a southern speaker says nawr; “with me” may be gen i or gyda fi; and forms of “I am” range from dw i to wi in some southern speech. Speakers routinely understand more variation than a beginner produces. Course consistency helps at first, but listening should never be confined to one presenter.",
+      "North and south are broad labels, and speakers differ within both regions. A northern speaker may say rŵan for “now” where a southern speaker says nawr. For “I have,” many northern speakers use gen i, while gyda fi is common in southern speech.\n\nSome southern speakers say wi for “I am” where a course may teach dw i. Speakers routinely understand more variation than a beginner produces. Start with one course model, then listen to people from other places too.",
       "wiki-welsh",
       "corcencc"
     ),
@@ -180,7 +180,8 @@ export const welshGuide = {
       {
         name: "Patagonian Welsh",
         note: cited(
-          "Welsh has been maintained and taught in Chubut, Argentina, in contact with Spanish. Its history includes migration, education, family transmission, and renewed cultural links with Wales; it should not be reduced to a handful of Spanish loanwords.",
+          "Welsh has been maintained and taught in Chubut, Argentina, alongside Spanish. The British Council and Welsh Government support teachers in bilingual schools and adult centers there. Local families and teachers also sustain their own Welsh-speaking networks.",
+          "british-council-patagonia",
           "wiki-welsh"
         )
       }
@@ -188,18 +189,18 @@ export const welshGuide = {
   },
   pronunciation: {
     overview: cited(
-      "Welsh spelling is a strong ally once each letter is given its Welsh value. The alphabet includes the traditional digraph letters ch, dd, ff, ng, ll, ph, rh, and th; they are treated as units in Welsh ordering even though digital systems encode their component characters. The letters f and ff surprise English readers: f is /v/, while ff is /f/. Dd is the voiced sound in English “this,” th the voiceless sound in “thin,” ch resembles the sound in Scots loch, and rh begins with breath before the trill or tap. The famous ll is a voiceless lateral fricative: hold the tongue as for l and let air pass along its sides without voicing.",
+      "Welsh spelling gives strong clues once you learn the letter values. The digraphs ch, dd, ff, ng, ll, ph, rh, and th each count as a letter in traditional Welsh ordering. The letter f sounds like /v/, while ff sounds like /f/.\n\nDd sounds like th in English “this”; th sounds like the th in “thin.” Ch resembles the sound in Scots loch, while rh begins with breath before the trill or tap. To say ll, hold your tongue as for l but let air pass along its sides without voicing. Linguists call this a voiceless lateral fricative.",
       "wiki-welsh",
       "unicode-latin"
     ),
     script: "Welsh Latin alphabet; IPA is used only where it clarifies unfamiliar sounds",
     soundSystem: cited(
-      "Vowel quality varies by region, and northern speech maintains contrasts that many southern varieties merge. W and y are full vowel letters as well as consonantal or context-dependent symbols: cwm is one syllable, while y has different values by position and word. Vowel length is meaningful and interacts with following consonants; a circumflex often marks a long vowel where spelling rules would not otherwise predict it, as in tŷ “house.” Consonants can also differ sharply from English expectations: c and g stay hard, si can represent /ʃ/, and final f is never the English /f/. Learn a speaker model, not a spelling caricature.",
+      "Vowel quality varies by region, and northern speech maintains contrasts that many southern varieties merge. W and y are full vowel letters as well as consonantal or context-dependent symbols: cwm is one syllable, while y has different values by position and word. Vowel length can change a word's meaning; a circumflex marks length in tŷ, “house.”\n\nConsonants can also differ sharply from English expectations: c and g stay hard, si can represent /ʃ/, and final f is never the English /f/. Learn a speaker model, not a spelling caricature.",
       "wiki-welsh",
       "gpc"
     ),
     prosody: cited(
-      "Stress usually falls on the penultimate syllable, so Cymru is stressed CYM-ru and Cymraeg cym-RAEG because it has two syllables. Exceptions deserve to be learned with their accents and audio. Welsh intonation often gives prominence after the stressed syllable in a way English listeners mishear, and fluent speech compresses familiar grammatical words. Shadow whole lines rather than polishing isolated ll: natural vowel length, mutation, and rhythm make an ordinary l more useful than a perfect party-trick consonant in an English-timed sentence.",
+      "Welsh usually stresses the second-to-last syllable: CYM-ru. Cymraeg is an exception with final stress: cym-RAEG. Learn it as a whole word rather than deriving its stress from Cymru.\n\nIn much Welsh speech, the pitch can rise after the stressed syllable, which may mislead an English listener. Familiar grammatical words also shrink in fast speech. Repeat short recordings as whole phrases, paying attention to rhythm and vowel length along with ll.",
       "wiki-welsh",
       "corcencc"
     ),
@@ -213,27 +214,27 @@ export const welshGuide = {
     sampleWords: [
       { original: "llaw", transliteration: "approximately /ɬau/", translation: "hand", note: "Begin with the tongue placed for l, switch off voicing, and let air flow along the tongue's sides." },
       { original: "Cymru", transliteration: "approximately KUM-ri (north) or KUM-ree (many southern speakers)", translation: "Wales", note: "The y and final u illustrate regional vowel differences; the first syllable bears stress." },
-      { original: "Cymraeg", transliteration: "kum-RAIG", translation: "Welsh (language or adjective)", note: "A useful reminder that predictable stress depends on syllable count, not the related word Cymru." },
+      { original: "Cymraeg", transliteration: "kum-RAIG", translation: "Welsh (language or adjective)", note: "Final stress makes this word an exception to the usual pattern, despite its close link to Cymru." },
       { original: "ddraig", transliteration: "approximately /ðraiɡ/", translation: "dragon (soft-mutated form of draig)", note: "Dd is the sound of English “this”; the spelling also displays mutation in y ddraig “the dragon.”" },
-      { original: "ffon", transliteration: "approximately /fɔn/", translation: "stick; telephone", note: "The double-letter ff is a single Welsh /f/ sound." },
+      { original: "ffon", transliteration: "approximately /fɔn/", translation: "stick", note: "The double-letter ff is one /f/ sound. Add a circumflex for ffôn, “phone,” which has a long vowel." },
       { original: "rhaglen", transliteration: "approximately /ˈr̥aɡlɛn/", translation: "programme", note: "Practice the breathy rh and penultimate stress together." },
-      { original: "tŷ", transliteration: "approximately /tiː/ (north), often /iː/ quality varies south", translation: "house", note: "The circumflex marks length; compare it visually with unaccented y." }
+      { original: "tŷ", transliteration: "/tɨː/ (north); /tiː/ (south)", translation: "house", note: "The circumflex marks vowel length. Northern and southern speakers give this vowel different qualities." }
     ]
   },
   writing: {
     overview: cited(
-      "Welsh uses the Latin script with a close sound–spelling relationship. Its 28-letter traditional alphabet includes eight digraphs counted as letters for dictionaries and alphabetic games: ch, dd, ff, ng, ll, ph, rh, and th. J is now established in loans and names, while k, q, v, x, and z generally appear in foreign material or specialized notation. Because Unicode represents a digraph as two ordinary characters, software collation does not automatically follow Welsh dictionary order. The language uses acute, grave, circumflex, and diaeresis marks for stress, vowel quality or length, and syllable separation, though accents are less frequent than in many European languages.",
+      "Welsh uses Latin letters and a fairly close sound–spelling relationship. Its traditional 28-letter alphabet counts eight digraphs as letters in dictionaries: ch, dd, ff, ng, ll, ph, rh, and th. J appears in established loans and names, while k, q, v, x, and z usually occur in foreign material.\n\nA computer stores a Welsh digraph as two characters, so sorting software needs Welsh-specific rules to match dictionary order. Writers sometimes use acute, grave, circumflex, and diaeresis marks to show stress, vowel quality or length, and separate syllables.",
       "wiki-welsh",
       "unicode-latin"
     ),
     primaryScript: "Latin alphabet with Welsh digraph letters and occasional diacritics",
     romanization: cited(
-      "Welsh is already written in Latin letters, so it needs no everyday romanization. English-looking respellings such as “Kum-ry” can provide a first hint but hide vowel length, regional variation, and sounds such as ll. IPA is more precise for dictionaries; ordinary learners should pair standard spelling with audio and discard pronunciation crutches quickly.",
+      "Welsh already uses Latin letters. English-looking respellings such as “Kum-ry” hide vowel length, regional differences, and ll. Pair Welsh spelling with audio; the International Phonetic Alphabet, or IPA, helps when you need an exact sound guide.",
       "wiki-welsh",
       "gpc"
     ),
     spellingNorms: cited(
-      "Spelling often exposes grammar. The dictionary form cadair “chair” may appear as gadair after a soft-mutation trigger; learners must mentally reverse the change when looking it up. Apostrophes mark contraction, as in dw i'n from yn, and circumflexes distinguish or clarify length in words such as tŷ. Place names deserve their Welsh spelling and stress rather than being treated as puzzles for English phonics. Contemporary informal writing represents colloquial forms more freely—dwi beside dw i, for example—while edited prose follows established conventions.",
+      "Spelling often exposes grammar. The dictionary form cadair, “chair,” may appear as gadair after a soft-mutation trigger; reverse that change when you look it up. Apostrophes mark contractions, as in dw i'n, while circumflexes can show vowel length: ffon means “stick,” and ffôn means “phone.”\n\nRead place names with their Welsh spelling and stress. In informal messages you may see dwi beside the edited spelling dw i.",
       "gpc",
       "corcencc",
       "commissioner-work"
@@ -247,23 +248,23 @@ export const welshGuide = {
   },
   grammar: {
     overview: cited(
-      "Welsh grammar becomes much less exotic when learned as a small set of sentence engines. Everyday speech relies heavily on forms of bod “be” plus particles and a verb-noun: Dw i'n darllen literally resembles “I am in reading” and naturally means “I read” or “I am reading.” The verb-noun is a flexible dictionary form, not exactly an English infinitive or gerund. Alongside this periphrastic system, Welsh has compact inflected verbs, especially in past, future, conditional, formal, and literary use. Initial mutations, gender, pronouns, and prepositions then shape the words around that engine.",
+      "Everyday Welsh often builds a sentence with a form of bod, “be,” plus a verb-noun. Dw i'n darllen means “I read” or “I'm reading,” according to the context. A verb-noun is the dictionary form used for an action; it does several jobs that English divides among forms such as “read,” “reading,” and “to read.”\n\nWelsh also has shorter verbs with endings for person and tense. You will hear them in past and future speech and find more of them in formal writing. Mutation, gender, and prepositions shape the surrounding words.",
       "wiki-welsh",
       "wiki-morphology",
       "corcencc"
     ),
     typologicalProfile: cited(
-      "Traditional descriptions call Welsh verb–subject–object because a finite verb can precede its subject: Gwelodd Carys y ci, “Carys saw the dog.” Colloquial periphrastic clauses also begin with an auxiliary: Mae Carys yn gweld y ci, “Carys sees/is seeing the dog.” Focus constructions can bring another element forward, so Welsh word order communicates emphasis as well as grammatical role. Nouns have masculine or feminine gender but no case declension; adjectives often follow nouns. Prepositions can inflect for person, producing forms such as gyda fi “with me” and gyda nhw “with them.”",
+      "A Welsh sentence can begin with its verb: Gwelodd Carys y ci means “Carys saw the dog.” Everyday speech often starts with a form of bod, “be,” instead: Mae Carys yn gweld y ci means “Carys sees the dog” or “Carys is seeing the dog.” Speakers can move a focused word to the front when they want to emphasize it.\n\nNouns have masculine or feminine gender, and adjectives often follow them. Some prepositions change form with the person: arna i means “on me,” while arnyn nhw means “on them.” These forms differ from simpler phrases such as gyda fi, “with me.”",
       "wiki-welsh",
       "wiki-morphology"
     ),
     morphology: cited(
-      "Mutation changes a word's first consonant in a grammatical environment. The soft mutation is most frequent: p→b, t→d, c→g, b→f, d→dd, g disappears, m→f, and ll/rh lose breathiness. Nasal mutation appears prominently after yn “in”: Cymru becomes yng Nghymru and Bangor ym Mangor. Aspirate mutation changes p/t/c to ph/th/ch in a smaller set of contexts. Mutations are not random alternatives and do not create new dictionary headwords. Learn y gath “the cat,” fy nghath “my cat,” and ei chath “her cat” as meaningful phrases, then derive the table from examples.",
+      "A mutation changes the first sound of a word after certain words or in certain sentence patterns. The most common kind, soft mutation, turns p into b, t into d, and c into g, among other changes. It also removes initial g in some words.\n\nAfter yn, “in,” a nasal mutation turns Cymru into yng Nghymru and Bangor into ym Mangor. Another kind, aspirate mutation, changes p, t, and c into ph, th, and ch in fewer settings. Learn y gath, “the cat,” fy nghath, “my cat,” and ei chath, “her cat,” before memorizing the full tables.",
       "wiki-morphology",
       "gpc"
     ),
     syntax: cited(
-      "Negatives and questions often reshape the opening of the clause. Mae hi'n gweithio “she works” becomes Dydy hi ddim yn gweithio “she doesn't work” in a common colloquial pattern, and Ydy hi'n gweithio? “Does she work?” Possessive constructions frequently use prepositions: Mae car gen i, literally “there is a car with me,” means “I have a car.” Relative clauses can use sydd when the focused noun is the subject—y fenyw sydd yn canu “the woman who is singing”—while other relations employ forms of bod or particles according to register. Welsh syntax rewards copying complete frames before trying word-for-word conversion.",
+      "Negatives and questions often reshape the opening of the clause. Mae hi'n gweithio “she works” becomes Dydy hi ddim yn gweithio “she doesn't work” in a common colloquial pattern, and Ydy hi'n gweithio? “Does she work?” Possessive constructions frequently use prepositions: Mae car gen i, literally “there is a car with me,” means “I have a car.” To describe a person doing the action, speakers can say y fenyw sy'n canu, “the woman who is singing.” Other kinds of relative clause use different forms.\n\nWelsh syntax rewards copying complete frames before trying word-for-word conversion.",
       "wiki-welsh",
       "wiki-morphology"
     ),
@@ -298,7 +299,7 @@ export const welshGuide = {
       {
         title: "Possession as location",
         body: cited(
-          "Welsh commonly expresses “have” through existence plus a prepositional phrase. Northern courses often favor gan in Mae ci gen i; southern models may use gyda in Mae ci gyda fi. Both literally locate a dog with the speaker and idiomatically mean possession. The preposition changes with person rather than taking a separate object pronoun in a fully regular English pattern.",
+          "Welsh often expresses “have” by saying that something exists with a person. Northern courses may teach Mae ci gen i, while southern courses may teach Mae ci gyda fi. Both mean “I have a dog.”\n\nThe form of gan changes with the person: gen i means “with me,” while ganddo fe means “with him” in many southern forms.",
           "wiki-morphology",
           "learnwelsh"
         ),
@@ -338,7 +339,7 @@ export const welshGuide = {
       {
         title: "Emphasis and fronting",
         body: cited(
-          "Welsh can place the focused element first. In Carys sy'n canu, the name receives contrastive prominence: it is Carys who is singing. This construction is common in natural speech and explains why a rigid VSO label is only a starting point. Listen for what the speaker is correcting or presenting as new.",
+          "Welsh can place the focused element first. In Carys sy'n canu, the name receives contrastive prominence: it is Carys who is singing. You will hear this kind of fronting in ordinary speech, so a verb-first rule is only a starting point.\n\nListen for what the speaker is correcting or presenting as new.",
           "wiki-welsh",
           "corcencc"
         ),
@@ -349,7 +350,7 @@ export const welshGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Welsh is spoken throughout Wales, but ability, daily use, and the social density of speaker networks are different measures. The 2021 Census recorded the highest proportions in parts of the north and west while also finding large absolute numbers in more populous southern authorities. Education and migration create urban networks that a simple heartland map can miss. Outside Wales, speakers live across the United Kingdom and globally; Chubut in Argentina has the best-known organized community. Digital media now lets a learner in Melbourne or Montreal enter Welsh-speaking spaces, though online exposure cannot replace relationships with people and places.",
+      "Welsh is spoken throughout Wales, but ability, daily use, and the social density of speaker networks are different measures. The 2021 Census recorded the highest proportions in parts of the north and west while also finding large absolute numbers in more populous southern authorities. Schools and migration also create urban networks.\n\nOutside Wales, speakers live across the United Kingdom and globally; Chubut in Argentina has the best-known organized community. People outside Wales can watch and read Welsh online, then seek conversation with a local or remote group.",
       "census-2021",
       "commissioner-position",
       "corcencc"
@@ -358,13 +359,13 @@ export const welshGuide = {
       { place: "North-west and west Wales", note: cited("Gwynedd, Anglesey, Ceredigion, and Carmarthenshire include many communities where Welsh is used across home, work, school, and public life. Percentages and local practices still vary substantially within each county.", "census-2021", "commissioner-position") },
       { place: "South-east Wales", note: cited("Cardiff and surrounding urban areas contain growing and mobile Welsh-speaking networks connected through schools, workplaces, arts, universities, and events, even where neighborhood density is lower.", "census-2021", "corcencc") },
       { place: "The rest of Wales", note: cited("Welsh speakers and learners live in every local authority. A low percentage is not the same as no community, and schools, mentrau iaith, workplaces, clubs, and online groups create domains for use.", "census-2021", "commissioner-work") },
-      { place: "Chubut, Argentina", note: cited("The Welsh-speaking tradition of Y Wladfa dates from nineteenth-century settlement and continues through teaching, cultural activity, family histories, and links with Wales in a Spanish-speaking environment.", "wiki-welsh") }
+      { place: "Chubut, Argentina", note: cited("The Welsh-speaking tradition of Y Wladfa dates from nineteenth-century settlement. Welsh-Spanish bilingual schools and adult classes still teach the language through local and Wales-linked projects.", "wiki-welsh", "british-council-patagonia") }
     ]
   },
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "For an English-speaking learner, Welsh combines unusually friendly spelling with unfamiliar grammar. Mutation is visible, but its very visibility makes it teachable. The deeper challenge is sociolinguistic: courses simplify north and south, written sources vary in formality, and bilingual speakers may switch to English out of courtesy before a learner has shown that Welsh is welcome. There is no defensible single hour count for fluency. Progress depends on whether the target is a holiday conversation, family participation, professional writing, or medieval literature.",
+      "For an English-speaking learner, Welsh offers regular spelling and unfamiliar grammar. You can see mutation on the page and practice it in whole phrases.\n\nThe deeper challenge is sociolinguistic: courses simplify north and south, written sources vary in formality, and bilingual speakers may switch to English out of courtesy before a learner has shown that Welsh is welcome. There is no single hour count for fluency.\n\nProgress depends on whether the target is a holiday conversation, family participation, professional writing, or medieval literature.",
       "learnwelsh",
       "corcencc"
     ),
@@ -390,7 +391,7 @@ export const welshGuide = {
       "Letting bilingual partners switch permanently to English instead of negotiating practice"
     ],
     workload: cited(
-      "A practical first year combines a structured course with daily short listening and one recurring conversation. Spend early months automating twenty sentence frames and the most frequent soft mutations, not memorizing every rare trigger. At intermediate level, alternate transcript-supported S4C or podcast work with unprepared conversation. Advanced learners should sample CorCenCC, monolingual dictionary entries, essays, and literature while requesting feedback on register. Five focused hours distributed through a week usually create more retrieval than one long weekend session.",
+      "A practical first year combines a structured course with daily short listening and one recurring conversation. Spend early months automating twenty sentence frames and the most frequent soft mutations, not memorizing every rare trigger. At intermediate level, use S4C subtitles or podcast transcripts, then try conversation without a script.\n\nAdvanced learners should sample CorCenCC, monolingual dictionary entries, essays, and literature while requesting feedback on register. Spread practice across the week so you revisit the same forms often.",
       "learnwelsh",
       "s4c-learners",
       "corcencc"
@@ -398,17 +399,17 @@ export const welshGuide = {
   },
   advancedLearning: {
     strategy: cited(
-      "Build three linked repertoires: a consistent home dialect for speaking, a broad listening repertoire, and a modern written register. Record a two-minute diary, transcribe it, and compare the phrases with corpus results; this turns vague fluency goals into observable choices. Keep mutation triggers in chunks—o Gaerdydd “from Cardiff,” yng Nghymru “in Wales”—and mark whether a new form is northern, southern, formal, literary, or widely shared. Once conversation is comfortable, read one author or topic deeply enough for vocabulary to recur.",
+      "Build three linked repertoires: a consistent home dialect for speaking, a broad listening repertoire, and a modern written register. Record a two-minute diary, transcribe it, and compare the phrases with corpus results; this turns vague fluency goals into observable choices. Keep mutation triggers in chunks—o Gaerdydd, “from Cardiff,” and yng Nghymru, “in Wales.” Mark whether a new form is regional, formal, or widely shared.\n\nOnce conversation is comfortable, read one author or topic deeply enough for vocabulary to recur.",
       "corcencc",
       "learnwelsh"
     ),
     mediaPractice: cited(
-      "S4C's learner pages point toward clear programmes, subtitles, and general-audience material, while Hansh offers shorter digital-first comedy and stories. Use Welsh subtitles before English ones: first watch for situation, then read, then replay without text. Radio and podcasts remove visual support and expose regional rhythm. Songs help memory but can stretch vowels or use poetic order, so check a prose source before copying a lyric as everyday speech.",
+      "S4C's learner pages point toward clear programmes, subtitles, and general-audience material, while Hansh offers shorter digital-first comedy and stories. Try a scene without subtitles, replay it with Welsh subtitles, then check English if needed.\n\nRadio and podcasts remove visual support and expose regional rhythm. Songs may stretch vowels or use poetic word order. Check prose before copying a lyric into conversation.",
       "s4c-learners",
       "s4c-hansh"
     ),
     dictionariesAndCorpora: cited(
-      "Geiriadur Prifysgol Cymru is the standard historical dictionary and is invaluable for etymology, dated senses, plurals, gender, and cited usage; it is not merely an English lookup list. Geiriadur yr Academi is especially useful in the English-to-Welsh direction. CorCenCC contains roughly eleven million words of spoken, written, and electronic Welsh and can filter examples by mode, region, genre, and other variables. Search both the unmutated lemma and forms you actually heard.",
+      "Geiriadur Prifysgol Cymru is the standard historical dictionary. Use it to check word histories, dated senses, plurals, gender, and quoted examples. Geiriadur yr Academi helps when you need an English-to-Welsh lookup.\n\nCorCenCC contains roughly eleven million words of spoken, written, and electronic Welsh and can filter examples by mode, region, genre, and other variables. Search both the unmutated lemma and forms you actually heard.",
       "gpc",
       "academy-dictionary",
       "corcencc"
@@ -417,19 +418,19 @@ export const welshGuide = {
       { type: "course", title: "Learn Welsh / Dysgu Cymraeg", url: "https://learnwelsh.cymru/", level: "all", description: cited("The national adult-learning network offers tutor-led and self-study courses from Entry through Proficiency, with northern and southern pathways and local providers.", "learnwelsh") },
       { type: "corpus", title: "CorCenCC", url: "https://corcencc.org/", level: "intermediate", description: cited("Search authentic spoken, written, and electronic Welsh, filter results, and use the linked Tiwtiadur learning tools.", "corcencc") },
       { type: "dictionary", title: "Geiriadur Prifysgol Cymru", url: "https://www.welsh-dictionary.ac.uk/", level: "advanced", description: cited("The standard historical dictionary supplies evidence-rich definitions, forms, etymologies, and quotations for serious reading and writing.", "gpc") },
-      { type: "dictionary", title: "Geiriadur yr Academi", url: "https://geiriaduracademi.org/", level: "all", description: cited("A detailed English–Welsh dictionary useful when choosing among context-sensitive equivalents instead of translating mechanically.", "academy-dictionary") },
+      { type: "dictionary", title: "Geiriadur yr Academi", url: "https://geiriaduracademi.org/", level: "all", description: cited("A detailed English–Welsh dictionary that offers alternatives when one English word has several Welsh equivalents.", "academy-dictionary") },
       { type: "media", title: "S4C Dysgu Cymraeg", url: "https://www.s4c.cymru/en/dysgu-cymraeg", level: "all", description: cited("A learner-oriented route into S4C programmes, subtitle guidance, and material selected for clear context and accessible language.", "s4c-learners") },
       { type: "media", title: "Hansh", url: "https://www.s4c.cymru/hansh", level: "intermediate", description: cited("Short-form comedy, documentary, and social storytelling made for younger digital audiences rather than as artificial course dialogue.", "s4c-hansh") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Welsh vocabulary carries several histories at once: inherited Brittonic roots, Latin layers, English loans, learned coinages, dialect words, and compounds whose pieces remain vivid. Popular “untranslatable Welsh words” lists often turn ordinary, flexible words into national mysticism. Hiraeth matters because speakers and writers use it, not because English supposedly cannot approach its meanings. The best way to appreciate a word is to watch it move through conversation, song, news, and literature.",
+      "Welsh vocabulary has inherited Brittonic roots, older Latin layers, English loans, regional words, and newer coinages. A compound can show its parts clearly, as llyfrgell, “library,” does with llyfr, “book.”\n\nPopular lists sometimes call Welsh words impossible to translate. Hiraeth can mean longing or homesickness, with its precise sense coming from the sentence. Compare how a word appears in conversation, song, news, and literature.",
       "gpc",
       "corcencc"
     ),
     notableWords: [
-      { term: "hiraeth", meaning: "longing, homesickness, yearning", note: cited("A powerful but context-sensitive word, used for people, places, periods, and belonging. Translate the sentence rather than declaring it untranslatable.", "gpc", "corcencc") },
+      { term: "hiraeth", meaning: "longing, homesickness, yearning", note: cited("Speakers use this word for people, places, periods, and belonging. Translate its meaning in the full sentence.", "gpc", "corcencc") },
       { term: "cwtsh / cwtch", meaning: "cuddle; snug or safe nook", note: cited("Especially associated with southern Welsh and also borrowed into Welsh English. Spelling and sense vary by speaker and context.", "gpc", "corcencc") },
       { term: "eisteddfod", meaning: "competitive festival of literature, music, and performance", note: cited("Literally built from elements associated with sitting and gathering, the word now names local, youth, and national institutions rather than one identical event.", "gpc") },
       { term: "cynefin", meaning: "habitat; familiar environment; sense of place", note: cited("Used technically in ecology and more broadly for the environment that makes a person or community at home.", "gpc", "corcencc") },
@@ -438,14 +439,14 @@ export const welshGuide = {
       { term: "pendroni", meaning: "to puzzle, wonder, brood", note: cited("A vivid verb-noun for turning something over mentally; corpus examples show why dictionary glosses need real sentences.", "gpc", "corcencc") }
     ],
     loanwordLayers: cited(
-      "Latin loans entered at different periods, including words tied to Christianity and literacy. English loans range from thoroughly integrated everyday forms to visible recent borrowings, and speakers differ in what they prefer. Welsh also creates terms through compounding and planned terminology: cyfrifiadur “computer” relates to cyfrif “count,” while rhyngrwyd “internet” evokes an inter-network. Purism is a poor guide to actual competence; a natural speaker may choose an inherited word, a Welsh coinage, an adapted loan, or code-switching according to audience.",
+      "Latin loans entered at different periods, including words tied to Christianity and literacy. English loans range from familiar everyday forms to recent borrowings. Speakers differ in what they prefer.\n\nWelsh also creates terms through compounding and planned terminology: cyfrifiadur “computer” relates to cyfrif “count,” while rhyngrwyd “internet” evokes an inter-network. Speakers choose inherited words, Welsh coinages, adapted loans, or English phrases according to the conversation.",
       "gpc",
       "corcencc",
       "welsh-infrastructure"
     ),
     idioms: [
-      { original: "Mae hi'n bwrw hen wragedd a ffyn.", translation: "It's raining very heavily.", note: "Literally “It is throwing old women and sticks”; a memorable rain idiom, best used playfully rather than as the only natural weather sentence." },
-      { original: "Ar ben y byd", translation: "Over the moon; extremely happy", note: "Literally “on top of the world”; its imagery aligns closely with English, making it useful without being exoticized." },
+      { original: "Mae hi'n bwrw hen wragedd a ffyn.", translation: "It's raining very heavily.", note: "Literally “It is throwing old women and sticks.” Use this rain idiom playfully; ordinary speech has simpler ways to say it is raining." },
+      { original: "Ar ben y byd", translation: "Over the moon; extremely happy", note: "Literally “on top of the world”; the image closely matches an English expression." },
       { original: "Rhoi'r ffidil yn y to", translation: "To give up", note: "Literally “to put the fiddle in the roof,” traditionally evoking putting an instrument away; mutation appears in the fixed phrase." },
       { original: "Cenedl heb iaith, cenedl heb galon", translation: "A nation without a language is a nation without a heart", note: "Literally “nation without language, nation without heart”; a cultural slogan, not a neutral description of every Welsh person's identity." },
       { original: "Dyfal donc a dyr y garreg", translation: "Persistence pays", note: "Literally “a persistent tap breaks the stone”; often used to encourage steady effort—appropriate for mutation practice." }
@@ -461,16 +462,16 @@ export const welshGuide = {
   },
   relationships: {
     overview: cited(
-      "Welsh is Celtic because of historical descent, not because of scenery, music, or a mystical national temperament. Within Celtic it belongs to Brittonic with Cornish and Breton; Irish, Scottish Gaelic, and Manx are Goidelic relatives. Family resemblance appears in mutations, prepositions, and inherited words, while each language has its own long sound changes and contact history. English is genealogically distant but socially inseparable from the story of modern Welsh.",
+      "Welsh belongs to the Celtic family through historical descent. Its closest living relatives are the other Brittonic languages, Cornish and Breton. Irish, Scottish Gaelic, and Manx belong to the other main branch, Goidelic.\n\nYou can compare inherited words and mutations, but sound changes and contact histories differ. English is genealogically distant, while long contact makes it central to the story of modern Welsh.",
       "glottolog-welsh",
       "wiki-welsh"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Welsh culture is not one heritage display. The language belongs in the National Eisteddfod and a local eisteddfod, but also in school corridors, football terraces, queer arts, farming, science communication, chapel and secular life, comedy, rap, public administration, and ordinary disagreement. Revitalization is equally more than counting learners: speakers need homes, jobs, education, services, leisure, and relationships in which choosing Welsh remains easy. A respectful learner avoids treating fluent speakers as free tutors or every conversation as a political test. Ask whether Welsh is welcome, persist when a bilingual person initially answers in English, and participate in the activity itself—singing, volunteering, sport, books, coding, or coffee—not only in “language practice.”",
+  culturalNotes: "Welsh belongs in local and national eisteddfodau, schools, sport, farming, arts, public services, and ordinary disagreement.\n\nSpeakers need homes, jobs, education, services, leisure, and relationships where they can choose Welsh easily. Counting learners tells only part of that story.\n\nAsk speakers whether they would like to use Welsh, and join activities as a participant rather than expecting a lesson. Singing, volunteering, sport, books, coding, and coffee all create reasons to keep talking.",
   resources: [
     { type: "course", title: "Learn Welsh / Dysgu Cymraeg", url: "https://learnwelsh.cymru/", level: "all", description: cited("Nationally coordinated online and face-to-face adult courses with progression from Entry to Proficiency.", "learnwelsh") },
-    { type: "app", title: "SaySomethinginWelsh", url: "https://www.saysomethingin.com/welsh", level: "beginner", description: "Audio-led speaking practice that emphasizes rapid production; best paired with reading, feedback, and community use." },
+    { type: "app", title: "SaySomethinginWelsh", url: "https://www.saysomethingin.com/wp/en/welsh-resources/", level: "beginner", description: "Audio-led speaking practice with free taster clips and a paid subscription. Pair its repetition with reading, feedback, and conversation." },
     { type: "dictionary", title: "Geiriadur Prifysgol Cymru", url: "https://www.welsh-dictionary.ac.uk/", level: "advanced", description: cited("The authoritative historical dictionary for meanings, forms, etymology, and attested examples.", "gpc") },
     { type: "dictionary", title: "Geiriadur yr Academi", url: "https://geiriaduracademi.org/", level: "all", description: cited("A rich English–Welsh dictionary with contextual alternatives and grammatical information.", "academy-dictionary") },
     { type: "corpus", title: "CorCenCC", url: "https://corcencc.org/", level: "intermediate", description: cited("A free, filterable corpus of contemporary speech, writing, and electronic language, plus teaching tools.", "corcencc") },
@@ -483,7 +484,7 @@ export const welshGuide = {
     { original: "Bore da", translation: "Good morning", literalMeaning: "Good morning" },
     { original: "Diolch yn fawr", translation: "Thank you very much", literalMeaning: "Thanks greatly" },
     { original: "Os gwelwch chi'n dda", translation: "Please", literalMeaning: "If you see well", usageNote: "A polite full form; plîs is also common informally." },
-    { original: "Esgusodwch fi", translation: "Excuse me", usageNote: "Useful for getting attention politely." },
+    { original: "Esgusodwch fi", translation: "Excuse me", usageNote: "Use this polite form to get someone's attention." },
     { original: "Dw i'n dysgu Cymraeg", translation: "I'm learning Welsh", literalMeaning: "I am in learning Welsh" },
     { original: "Dw i ddim yn deall", translation: "I don't understand", usageNote: "A common colloquial negative frame." },
     { original: "Fedrwch chi ddweud hynny eto?", translation: "Can you say that again?", usageNote: "Polite/plural chi; the initial f reflects a question mutation and ddweud is mutated dweud." },
@@ -508,6 +509,7 @@ export const welshGuide = {
     { id: "s4c-guidelines", title: "S4C Welsh Language Guidelines 2024", url: "https://www.s4c.cymru/media/media_assets/Language_Guidelines_2024_final.pdf", publisher: "S4C", publishedAt: "2024", accessedAt: "2026-07-10" },
     { id: "unicode-latin", title: "The Unicode Standard: Latin", url: "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/", publisher: "Unicode Consortium", updatedAt: "2025", accessedAt: "2026-07-10" },
     { id: "glottolog-welsh", title: "Welsh", url: "https://glottolog.org/resource/languoid/id/wels1247", publisher: "Glottolog", accessedAt: "2026-07-10" },
+    { id: "british-council-patagonia", title: "Welsh Language Project", url: "https://wales.britishcouncil.org/en/programmes/education/welsh-language-project", publisher: "British Council Wales", accessedAt: "2026-09-27" },
     { id: "wiki-welsh", title: "Welsh language", url: "https://en.wikipedia.org/wiki/Welsh_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-history", title: "History of the Welsh language", url: "https://en.wikipedia.org/wiki/History_of_the_Welsh_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-morphology", title: "Colloquial Welsh morphology", url: "https://en.wikipedia.org/wiki/Colloquial_Welsh_morphology", publisher: "Wikipedia", accessedAt: "2026-07-10" }

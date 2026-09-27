@@ -7,7 +7,7 @@ const relatedLanguages = [
     slug: "greek",
     relationship: "Indo-European relative and long-standing contact language",
     explanation: cited(
-      "Armenian and Greek are separate branches of Indo-European. They share inherited features and centuries of cultural contact, especially in Christian scholarship and the Byzantine world, but neither is a form of the other. Similarities in vocabulary may be inherited, borrowed, or coincidental, so historical linguists compare regular sound correspondences rather than isolated look-alikes.",
+      "Greek and Armenian both belong to the Indo-European family, but each forms its own branch. Centuries of contact also linked their Christian scholarship. To trace inherited words, linguists compare regular sound patterns rather than isolated resemblances.",
       "glottolog",
       "wiki-language"
     )
@@ -17,7 +17,7 @@ const relatedLanguages = [
     slug: "persian",
     relationship: "Iranian relative with exceptionally deep contact",
     explanation: cited(
-      "Persian is another Indo-European language, but Armenian and Iranian languages diverged long ago. Iranian political and cultural influence contributed so much vocabulary that early scholars sometimes misclassified Armenian as Iranian. Systematic comparison eventually showed that Armenian forms its own branch while preserving Iranian loan layers from different periods.",
+      "Persian and Armenian are distant Indo-European relatives. Persian and other Iranian languages also supplied many Armenian words over centuries of contact. That borrowing once led scholars to misclassify Armenian as Iranian, until comparisons of inherited grammar and sounds established its separate branch.",
       "britannica",
       "wiki-language"
     )
@@ -27,7 +27,7 @@ const relatedLanguages = [
     slug: "georgian",
     relationship: "Unrelated South Caucasian neighbor",
     explanation: cited(
-      "Georgian belongs to the Kartvelian family, not Indo-European. Armenian and Georgian nevertheless share a Caucasian geography, long histories of Christianity and manuscript culture, and sustained contact. Their scripts are independent, and similarities produced by contact should not be mistaken for common descent.",
+      "Georgian belongs to the Kartvelian family, so it is not a genealogical relative of Armenian. The two languages have long shared a region, Christian scholarship, and everyday contact. Their alphabets are different scripts.",
       "glottolog",
       "wiki-language"
     )
@@ -36,7 +36,7 @@ const relatedLanguages = [
     name: "Classical Armenian",
     relationship: "Earliest extensively attested historical stage",
     explanation: cited(
-      "Classical Armenian, usually called գրաբար grabar, is the language of the fifth-century translation movement and a vast religious, historical, philosophical, and literary archive. It is not ordinary modern conversation, but it remains present in Armenian Apostolic liturgy and rewards readers of manuscripts and premodern texts.",
+      "Classical Armenian, or գրաբար grabar, preserves the language of early translations and a large religious and literary record. It is still heard in Armenian Apostolic worship. Modern readers need separate grammar study to read those texts comfortably.",
       "ut-classical",
       "unicode"
     )
@@ -49,18 +49,18 @@ export const armenianGuide = {
   autonym: "Հայերեն (hayeren)",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Armenian is an independent branch of Indo-European with its own alphabet, two modern standards, a literature beginning in late antiquity, and living communities stretching from Yerevan and Iran to Beirut, Istanbul, Los Angeles, Paris, and beyond.",
+  summary: "Armenian has its own alphabet and two modern standards, Eastern and Western. Its written history reaches back to the fifth century, and people use it today in Armenia and communities across the world.",
   family: "Indo-European, Armenian",
   macroRegion: "Armenian Highlands, South Caucasus, and global diaspora",
   primaryScript: "Armenian alphabet",
   difficultyLabel: "Demanding",
-  learnerHook: "A few dozen letters unlock street signs, family messages, medieval chronicles, contemporary novels, rock lyrics, comedy, and news in a language that resembles no other modern branch of Indo-European.",
+  learnerHook: "Learn one Armenian alphabet, then notice how Eastern and Western speakers give some letters different sounds and often use different spellings.",
   hero: {
     imageAlt: "Modern Armenian handwriting beside printed Armenian type showing the language's distinctive alphabet.",
     callToActionLabel: "Explore Armenian in use"
   },
   classification: "An independent branch of the Indo-European language family, represented today chiefly by Eastern and Western Armenian",
-  speakerCommunity: "Armenian is the state language of the Republic of Armenia and a community language across a far-flung diaspora. Eastern Armenian anchors public life in Armenia and is also spoken in Iran and many post-Soviet communities. Western Armenian developed as a literary standard among Ottoman Armenians and now lives principally through diaspora families, schools, churches, newspapers, artists, and revitalization projects. These are not two ethnicities or mutually sealed languages: speakers share a literary inheritance and often accommodate one another, while pronunciation, everyday vocabulary, morphology, and spelling can reveal distinct educational histories. Heritage ability is equally varied. Someone may understand grandparents from Aleppo perfectly yet read slowly; another may write formal Eastern Armenian but use Russian or English freely in casual speech. All are part of Armenian's present rather than deviations from an imagined uniform community.",
+  speakerCommunity: "Armenian is the state language of the Republic of Armenia and a community language in many other countries. Eastern Armenian anchors public life in Armenia and is also spoken in Iran. Western Armenian grew as a literary standard among Ottoman Armenians and now lives mainly through families, schools, churches, media, and arts across the diaspora.\n\nThe two standards share a literary inheritance, but some sounds, common words, verb forms, and spellings differ. They are not labels for two ethnicities. Many speakers understand both, though their schooling and family histories affect which forms feel natural.\n\nHeritage ability varies too. Someone may follow a grandparent from Aleppo but read slowly; another may write formal Eastern Armenian while speaking Russian or English with friends. Both are part of Armenian life today.",
   facts: [
     { label: "Family", value: "Indo-European · independent Armenian branch" },
     { label: "Modern standards", value: "Eastern Armenian and Western Armenian" },
@@ -69,10 +69,10 @@ export const armenianGuide = {
     { label: "Orthographies", value: "Reformed spelling in Armenia; traditional spelling in most Western Armenian and Iranian Armenian publishing" },
     { label: "Community reality", value: "A national language in Armenia and a heritage/community language across diverse diasporas" }
   ],
-  learnerOverview: "Begin with a person, place, or body of media, not with the abstract label ‘Armenian.’ If your family is from Lebanon, Syria, Istanbul, or an older Western diaspora, Western Armenian will probably bring the quickest emotional recognition. If your destination is Yerevan or your media diet is Armenia-based, choose Eastern Armenian in reformed spelling. Iranian Armenian usually means Eastern speech with traditional orthography. Label every course, keyboard, dictionary, and recording by standard. The alphabet itself is quite learnable; confusion comes when two resources assign different sounds to the same letters or spell the same word differently without explaining why. Spend the first week reading real names and short phrases, then replace transliteration. Build grammar from sentences: ես Երևանում եմ, yes Yerevanum em, ‘I am in Yerevan,’ teaches a pronoun, a place ending, and the position of ‘am’ at once. Because mainstream app coverage is uneven, Discover Discomfort's advice for less commonly taught languages is especially apt: use one sequenced course, one dependable audio source, a tutor or informed speaker, and a growing bank of checked sentences rather than collecting disconnected apps.",
+  learnerOverview: "Choose the Armenian you want to speak with someone. If family or friends use Western Armenian, start there; if you plan to live in Yerevan or follow Armenia-based media, start with Eastern Armenian. Iranian Armenian generally uses Eastern speech with traditional spelling.\n\nBoth standards use the Armenian alphabet, but a letter can sound different in Eastern and Western speech. Courses and dictionaries may also spell a word differently. Label your notes by standard and spelling system so these differences make sense.\n\nRead names and short phrases in Armenian script from the first week. In Eastern Armenian, Ես Երևանում եմ (Yes Yerevanum em), “I’m in Yerevan,” shows a place ending and the position of “am.” Pair a sequenced course with audio and a teacher or speaker who uses your target standard.",
   origins: {
     overview: cited(
-      "Armenian is not a blend of Persian, Greek, and Caucasian languages, although all helped shape its history. It descends from Indo-European and constitutes a branch of its own. The earliest extensive record begins after Mesrop Mashtots and his collaborators created the Armenian alphabet in the early fifth century, traditionally dated around 405–406. The translation of scripture was followed by histories, theology, philosophy, lives of saints, and translated works whose lost Greek or Syriac originals sometimes survive only through Armenian. Classical Armenian later gave way to Middle Armenian varieties and, by the nineteenth century, two major modern literary standards. The long written record makes Armenian unusually valuable for historical linguistics, while its independence means that knowing Russian, Persian, or Greek provides contact vocabulary but no shortcut to its core grammar.",
+      "Armenian is its own branch of the Indo-European language family. Persian, Greek, and neighboring languages have influenced it, but Armenian did not arise by mixing them.\n\nThe oldest substantial texts follow the creation of the Armenian alphabet by Mesrop Mashtots and collaborators around 405–406 CE. Translations, histories, theology, and poetry soon followed. Some Greek or Syriac works survive only through their Armenian translations.\n\nClassical Armenian later developed into Middle Armenian varieties and two modern literary standards. That long written record lets researchers trace changes over many centuries.",
       "wiki-language",
       "unicode",
       "ut-classical",
@@ -124,13 +124,13 @@ export const armenianGuide = {
       }
     ],
     contactHistory: cited(
-      "Iranian contact is the largest historical vocabulary layer: words entered Armenian during multiple periods of political and cultural proximity, which once disguised its independent Indo-European status. Greek and Syriac were central to early Christian translation and learning. Arabic, Turkic varieties, Georgian, Kurdish, and later French and Russian contributed in different regions and registers. Contemporary speakers may code-switch with Russian in Armenia and post-Soviet communities, Turkish in Istanbul, Arabic in Beirut, French in France, or English in North America. A borrowed word is not evidence of deficient Armenian. The revealing question is who uses it, with whom, and whether a more literary Armenian alternative changes the tone.",
+      "Armenian borrowed many words from Iranian languages during long periods of political and cultural contact. Greek and Syriac were important in early Christian translation and learning. Arabic, Turkic languages, Georgian, Kurdish, French, and Russian left other layers in different places and periods.\n\nPeople also switch languages today. A speaker in Yerevan might use Russian in a casual exchange, while someone in Beirut may move between Armenian and Arabic. Ask who uses a borrowed form and in what setting before judging its tone.",
       "britannica",
       "wiki-language",
       "eanc"
     ),
     standardization: cited(
-      "Eastern and Western Armenian are pluricentric modern standards, not a formal language and its slang. Modern Eastern Armenian is the public standard of Armenia; an Iranian Eastern tradition uses many of the same grammatical patterns but normally retains traditional orthography and has distinctive pronunciation and vocabulary. Western Armenian grew through Ottoman Armenian schools and publishing and now has no single territorial state center. Its standard is maintained across institutions whose local speech histories differ. Classical Armenian remains a liturgical and scholarly register. Learners should therefore record three labels independently: modern standard, regional model, and orthography.",
+      "Eastern and Western Armenian are two modern standards. Eastern Armenian shapes public life in the Republic of Armenia. Many Iranian Armenian communities speak Eastern Armenian but write with traditional spelling and use their own local forms.\n\nWestern Armenian grew through Ottoman Armenian schools and publishing; today its institutions span several countries. Classical Armenian remains a language of worship and scholarship. When you compare materials, keep three labels separate: spoken standard, regional model, and spelling system.",
       "wiki-language",
       "wiki-eastern",
       "wiki-western",
@@ -139,7 +139,7 @@ export const armenianGuide = {
   },
   variants: {
     overview: cited(
-      "The convenient Eastern–Western division describes standards, but Armenia historically contained a much denser dialect landscape. Migration and mass violence broke many local continuities; Soviet education and urbanization further spread the Eastern standard. Modern community speech still varies by region, generation, class, and contact language. ‘Western Armenian’ likewise covers standard usage and many community accents rather than one sound frozen in pre-1915 Constantinople.",
+      "Eastern and Western name broad standards, but local Armenian speech has never fit into just two boxes. Migration, violence, schooling, and city life have changed which local forms people hear and use.\n\nWestern Armenian also has many community accents. A Beirut speaker and an Istanbul speaker may share the standard while sounding different. Ask speakers how they name their variety rather than assuming one “diaspora accent.”",
       "wiki-language",
       "wiki-western",
       "gulbenkian-western"
@@ -189,20 +189,20 @@ export const armenianGuide = {
   },
   pronunciation: {
     overview: cited(
-      "Choose a standard before memorizing letter sounds. Eastern Armenian as spoken in Armenia preserves a three-way series of many stops and affricates: voiced, plain voiceless, and aspirated voiceless. Aspiration is the audible puff in թ, ք, փ, ց, and չ. Standard Western Armenian reorganized several historical consonant series, so the same printed letter may have a different value. Thus գիրք ‘book’ is roughly girk in Eastern but kirk in Western. Neither pronunciation is a spelling mistake. A comparative alphabet chart is useful for recognition, but production should follow one consistent speaker.",
+      "Choose a speaker model before memorizing letter sounds. In Armenia’s Eastern Armenian, many consonants form three sets: voiced, plain voiceless, and voiceless with an audible puff of air. The last set includes թ, ք, փ, ց, and չ.\n\nWestern Armenian assigns different sounds to several of the same letters. The word գիրք, “book,” begins roughly like English g in Eastern speech and k in Western speech. Learn one model for speaking, then compare the other for listening.",
       "wiki-language",
       "wiki-eastern",
       "wiki-western"
     ),
     script: "Armenian alphabet; examples below follow modern Eastern Armenian in Armenia unless marked otherwise",
     soundSystem: cited(
-      "Modern Eastern Armenian has six basic vowel phonemes in common analyses and a rich consonant inventory. English speakers must hear aspiration as contrastive: տ tun ‘house’ begins differently from թ թուղթ tʿuġtʿ ‘paper.’ The letters ղ and խ represent back fricatives, while ռ is a stronger trill than ր. In casual speech, clusters and unstressed vowels may be reduced, so a word learned only from print can be difficult to recognize. Western Armenian's consonant correspondences need systematic retraining rather than ad hoc substitution.",
+      "Eastern Armenian has six main vowel sounds in common descriptions. For consonants, listen for the puff of air that separates plain տ in տուն (tun), “house,” from aspirated թ in թուղթ (tʿuġtʿ), “paper.”\n\nThe letters ղ and խ represent different sounds made toward the back of the mouth. The letter ռ is a stronger trill than ր. Western Armenian reorganizes some consonant correspondences, so learn its sound chart as a system rather than swapping letters one at a time.",
       "wiki-eastern",
       "wiki-western",
       "unicode-phonetic"
     ),
     prosody: cited(
-      "Stress in modern Armenian commonly falls near the end of the word, often on the final full vowel, but suffixes, clitics, and reduced vowels complicate a one-line rule. The vowel written ը, conventionally transliterated ë or ə, is a central vowel like the sound in English ‘sofa’; it may be heard where learners do not expect a full written vowel. Armenian questions are especially visible on the page because the question mark is placed over the stressed vowel of the focused word rather than at the sentence edge. Shadow whole questions and answers so stress, reduction, and intonation develop together.",
+      "Modern Armenian often stresses the last full vowel of a word, but endings and reduced vowels can change what you hear. The letter ը represents a central vowel like the last sound of English “sofa.”\n\nArmenian questions put a special mark above a vowel in the word being questioned, not at the end of the sentence. Copy whole recorded questions and answers to learn where the mark, stress, and intonation belong.",
       "wiki-language",
       "unicode"
     ),
@@ -218,7 +218,7 @@ export const armenianGuide = {
       { original: "տուն", transliteration: "tun", translation: "house", note: "Eastern Armenian տ is a plain voiceless stop; compare the aspirated թ in the next example." },
       { original: "թուղթ", transliteration: "tʿuġtʿ", translation: "paper", note: "Both թ sounds are aspirated. The transliteration apostrophe marks aspiration, not a separate pause." },
       { original: "գիրք", transliteration: "girkʿ (Eastern), kirkʿ (Western)", translation: "book", note: "A compact reminder that shared spelling does not guarantee shared consonant values across the standards." },
-      { original: "խաղող", transliteration: "xaġoġ", translation: "grape", note: "This useful market word contrasts խ x with the more voiced back sound ղ ġ." },
+      { original: "խաղող", transliteration: "xaġoġ", translation: "grape", note: "Listen for the contrast between խ x and the more voiced back sound ղ ġ." },
       { original: "երրորդ", transliteration: "yerrord", translation: "third", note: "The spelling and natural cluster train the stronger ռ sound; imitate a recording rather than forcing every letter separately." },
       { original: "ընկեր", transliteration: "ënker", translation: "friend", note: "The initial ը is a central vowel. This letter is common but often visually overlooked by beginners." },
       { original: "ջուր", transliteration: "jur", translation: "water", note: "Eastern ջ begins with a voiced affricate similar to English j; standard Western correspondence differs." }
@@ -226,18 +226,18 @@ export const armenianGuide = {
   },
   writing: {
     overview: cited(
-      "Armenian is written left to right with an alphabet created for Armenian around the beginning of the fifth century. The original set had 36 letters; օ and ֆ entered later. Letters have upper- and lowercase forms. Words are separated by spaces, but punctuation supplies a delightful early surprise: ՞ and ՜ sit above a vowel inside the word carrying the question or exclamation. Unicode encodes Armenian letters and punctuation, so learners should install an Armenian keyboard rather than paste look-alike characters from other scripts.",
+      "Armenian is written left to right. The alphabet began with 36 letters; օ and ֆ were added later. Letters have uppercase and lowercase forms, and spaces divide words.\n\nArmenian punctuation may surprise you. The question mark ՞ and exclamation mark ՜ sit above a vowel inside a word. Install an Armenian keyboard so your writing uses the correct Unicode letters and marks.",
       "unicode",
       "wiki-alphabet"
     ),
     primaryScript: "Armenian alphabet in either reformed or traditional orthography",
     romanization: cited(
-      "Several romanization systems coexist, and informal spellings often sacrifice distinctions. One source may write Հայերեն as hayeren, another as hayerēn; aspirated letters may appear with an apostrophe, modifier mark, or h. Transliteration is useful for discussing sound across standards, but it cannot replace script because it often conceals spelling families and punctuation. Pick one scholarly convention for notes and recognize common informal alternatives.",
+      "Latin-letter spellings vary between textbooks, maps, and messages. One source may write aspirated sounds with an apostrophe, another with a raised mark or h.\n\nTransliteration can help you compare pronunciation, but it often hides spelling differences between reformed and traditional Armenian. Move to Armenian script early and keep one consistent system for your own notes.",
       "unicode-phonetic",
       "wiki-alphabet"
     ),
     spellingNorms: cited(
-      "Reformed orthography was introduced in Soviet Armenia in 1922 and modified later; it is standard in the Republic of Armenia and much of the former Soviet sphere. Traditional or Mesropian orthography remains standard in Western Armenian publishing and among Eastern Armenians in Iran. The two systems alter more than typography—for example, they distribute historical spellings involving է/ե, օ/ո, and the ligature և differently. Learners should not call one ‘old Armenian’ and the other ‘modern Armenian.’ Both write modern language, and digital search often requires trying both forms.",
+      "Soviet Armenia introduced reformed spelling in 1922 and adjusted it later. The Republic of Armenia uses it today. Most Western Armenian publishers and Iranian Armenian communities keep traditional spelling.\n\nThe difference appears in letter combinations such as է/ե, օ/ո, and the form written և in reformed spelling. Both systems write modern Armenian. If a search returns few results, try the other spelling before assuming the word is absent.",
       "unicode",
       "wiki-alphabet"
     ),
@@ -250,24 +250,24 @@ export const armenianGuide = {
   },
   grammar: {
     overview: cited(
-      "Modern Armenian grammar combines familiar Indo-European ideas with forms that deserve to be learned on their own terms. Nouns decline for case but have no grammatical gender. Definite articles attach to the end of a noun. Verbs mark tense, mood, person, and number through a mixture of inflection and auxiliary constructions. Basic word order often looks subject–object–verb, yet constituents move for topic and focus, and colloquial speech makes heavy use of particles. Eastern and Western Armenian share this architecture while differing in important details of forms and usage.",
+      "Armenian changes noun endings to show roles such as “from” or “with.” It puts the definite article, the equivalent of English “the,” at the end of a noun. Nouns have no grammatical gender.\n\nMany Eastern Armenian present-tense verbs combine a main form with a form of “be.” Western Armenian often uses a different pattern with կը. Both standards allow words to move when a speaker wants to highlight a particular part of a sentence.",
       "wiki-language",
       "wiki-eastern",
       "wiki-western"
     ),
     typologicalProfile: cited(
-      "Armenian is a moderately inflected, mostly suffixing language. Modern descriptions commonly recognize seven noun cases, although some forms coincide. Postpositions are frequent, adjectives do not agree with nouns in gender, and there is no grammatical gender comparable to French or Russian. The definite article is enclitic—that is, it leans phonologically on the end of the noun. Eastern Armenian distinguishes present, past, future, subjunctive, imperative, and other verbal categories through synthetic and analytic patterns.",
+      "A noun can change form to show its role in a sentence. Grammars usually list seven cases, though several forms look the same. Short words following nouns, called postpositions, also express relationships such as location.\n\nAdjectives do not change for masculine or feminine nouns because Armenian has no grammatical gender. The definite article attaches to the end of a noun: գիրք (girkʿ), “book,” becomes գիրքը (girkʿë), “the book.”",
       "wiki-language",
       "wiki-eastern"
     ),
     morphology: cited(
-      "A practical noun entry should include its plural and genitive because stem changes and declension classes matter: գիրք girkʿ ‘book,’ գրքեր grkʿer ‘books,’ գրքի grkʿi ‘of the book.’ Case endings combine with number and definiteness, while postpositions may require a particular case. A practical verb entry should include the infinitive and several stems or principal forms, not just an English gloss. Derivational suffixes create dense word families: հայ hay ‘Armenian person’ connects to Հայաստան Hayastan ‘Armenia,’ հայերեն hayeren ‘the Armenian language/in Armenian,’ and հայկական haykakan ‘Armenian’ as an adjective.",
+      "Learn a noun with its plural and a form meaning “of”: գիրք (girkʿ), “book”; գրքեր (grkʿer), “books”; and գրքի (grkʿi), “of the book.” The stem can change, so the dictionary form alone will not explain every form in a sentence.\n\nVerbs also have related forms worth learning together. Word families help with vocabulary: հայ (hay) means an Armenian person, Հայաստան (Hayastan) means Armenia, and հայերեն (hayeren) means the Armenian language or “in Armenian.”",
       "wiki-language",
       "eanc",
       "nayiri"
     ),
     syntax: cited(
-      "Neutral clauses often put the object before the verb: Աննան գիրքը կարդում է, Annan girkʿë kardum e, ‘Anna is reading the book.’ But Armenian word order responds to what is already known, what is contrasted, and what receives focus. The auxiliary frequently occupies a characteristic second-position-like slot in Eastern Armenian, and moving it can change emphasis. Subjects may be omitted because the verb identifies person. Relative clauses precede or follow their head in patterns that learners should collect from texts rather than translate word by word from English.",
+      "A common Eastern Armenian sentence puts the object before the main verb: Աննան գիրքը կարդում է (Annan girkʿë kardum e) means “Anna is reading the book.” Speakers move words to show what is already known and what they want to highlight.\n\nThe small helper verb can move with that emphasis. A subject can also be left out when the verb makes clear who is acting. Notice these patterns in real conversations instead of relying on one English word order.",
       "wiki-eastern",
       "eanc"
     ),
@@ -292,7 +292,7 @@ export const armenianGuide = {
       {
         title: "Cases build compact relationships",
         body: cited(
-          "The genitive–dative form can express possession or a recipient, while ablative marks movement from and instrumental can express means. Learn endings inside useful contrasts: Երևանում Yerevanum ‘in Yerevan,’ Երևանից Yerevanicʿ ‘from Yerevan,’ and Երևան Yerevan ‘to Yerevan’ in an ordinary motion expression. Case names describe patterns; the phrase determines the natural choice.",
+          "The genitive–dative form can express possession or a recipient, while ablative marks movement from and instrumental can express means. Learn endings through contrasts: Երևանում Yerevanum ‘in Yerevan,’ Երևանից Yerevanicʿ ‘from Yerevan,’ and Երևան Yerevan ‘to Yerevan’ in an ordinary motion expression. Case names describe patterns; the phrase determines the natural choice.",
           "wiki-language",
           "eanc"
         ),
@@ -350,7 +350,7 @@ export const armenianGuide = {
       {
         title: "Word order serves focus",
         body: cited(
-          "Armenian is often summarized as subject–object–verb, but authentic clauses move material to highlight contrast, introduce a topic, or place focus near the auxiliary. Ask a tutor what a rearrangement emphasizes rather than whether it is simply ‘allowed.’ Corpus searches are particularly useful because they reveal recurring constructions beyond invented textbook sentences.",
+          "Armenian is often summarized as subject–object–verb, but authentic clauses move material to highlight contrast, introduce a topic, or place focus near the auxiliary. Ask a tutor what a rearrangement emphasizes rather than whether it is simply ‘allowed.’ Corpus searches reveal recurring constructions beyond invented textbook sentences.",
           "eanc"
         ),
         example: "Աննան է գիրքը բերել։ Annan e girkʿë berel.",
@@ -360,7 +360,7 @@ export const armenianGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Armenian's map is made by both territory and migration. The Republic of Armenia supplies the largest continuous public sphere, while communities in Georgia and Iran have deep regional histories. Western Armenian networks were remade after the destruction and displacement of Ottoman Armenian communities and now operate through cities, institutions, families, and digital spaces across several continents. Speaker counts vary because censuses distinguish citizenship, ethnicity, mother tongue, home use, and proficiency differently.",
+      "Armenian lives in a country and in communities shaped by several waves of migration. The Republic of Armenia has the largest public sphere for the language. Communities in Georgia and Iran have long local histories, while Western Armenian networks now link families and institutions across several continents.\n\nSpeaker totals are hard to compare. One census may ask about ethnicity, another about a first language, and another about what people use at home. Keep the measure and place attached to any number.",
       "wiki-language",
       "glottolog",
       "gulbenkian-western"
@@ -376,7 +376,7 @@ export const armenianGuide = {
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "For an English speaker, Armenian's alphabet and inflection make the beginning look harder than it feels after sustained practice. The script is finite and alphabetic, there is no grammatical gender, and spelling often gives useful guidance. The longer challenge is sociolinguistic: learners must choose a standard, recognize another, navigate two orthographies, and find enough level-appropriate audio. Difficulty depends strongly on access to speakers and motivation; a heritage learner and an independent reader face very different workloads.",
+      "The Armenian alphabet can look daunting at first, but its letter set is finite and the script runs left to right. There is no grammatical gender, and many endings recur.\n\nThe longer task is choosing a speaking model, learning its verb and noun patterns, and finding enough audio at your level. You may eventually read both spelling systems. A heritage learner with family contacts and an independent learner studying alone will have different strengths and needs.",
       "dd-less-common",
       "wiki-language"
     ),
@@ -402,24 +402,24 @@ export const armenianGuide = {
       "Equating correction with purity and avoiding the mixed spaces where Armenian is actually used"
     ],
     workload: cited(
-      "A focused beginner can learn the letters and basic sound system in weeks, but conversational independence requires hundreds of hours of listening, sentence practice, and feedback. Use a twelve-week cycle: finish consecutive lessons in one course, meet one speaker weekly, master a short recording every few days, and write a corrected paragraph each week. After that, choose a domain—family stories, news, cooking, film, church, or literature—and deepen it. For Western Armenian especially, paying teachers, subscribing to media, and joining programs supports the ecosystem that makes learning possible.",
+      "Many learners can learn the letters and basic sounds in a few weeks. Conversation takes much longer because you need listening practice, full sentences, and feedback.\n\nTry twelve weeks with one course and one speaker or teacher. Work through the lessons in order, repeat one short recording at a time, and write a small corrected paragraph each week. Then deepen a topic that matters to you, such as family stories, news, cooking, or music.",
       "dd-less-common",
       "gulbenkian-western"
     )
   },
   advancedLearning: {
     strategy: cited(
-      "At intermediate level, stop measuring progress by grammar chapters and build parallel registers. Keep one notebook for conversational phrases exactly as heard, one for edited prose, and one comparative page for Eastern/Western or reformed/traditional equivalents. Search the Eastern Armenian National Corpus to test collocations, then confirm living use with a speaker. Translate a short personal story into Armenian, record it, receive correction, and retell it without reading. Repeated ownership of meaningful material produces more flexible speech than endlessly sampling new content.",
+      "At the intermediate stage, keep conversational phrases exactly as you hear them and compare them with edited prose. If you study both standards, make a separate page for Eastern and Western forms and for reformed and traditional spellings.\n\nRecord yourself telling a short personal story. Ask a speaker to correct it, then retell it without reading. This gives the grammar a job to do in speech.",
       "eanc",
       "dd-less-common"
     ),
     mediaPractice: cited(
-      "Rotate formats deliberately. Armenia's Public Radio and television news offer careful Eastern Armenian; interviews and comedy expose colloquial reductions; songs make phrasing memorable but stretch normal syntax; Western Armenian podcasts, newspapers, children's media, and community broadcasts broaden recognition. Work with one minute at a time: listen blind, transcribe, compare with captions or a speaker, mark unknown chunks, then shadow. Once a week, summarize the clip aloud for someone who has not heard it.",
+      "Use Armenian news for careful Eastern speech, then interviews or comedy for faster everyday language. Western Armenian podcasts, newspapers, and community broadcasts let you hear another standard. Songs are memorable, though their grammar and rhythm may differ from conversation.\n\nWork with a minute of audio at a time. Listen, write what you heard, check it against a transcript or speaker, and repeat the corrected version. Summarize the clip aloud once you understand it.",
       "gulbenkian-western",
       "eanc"
     ),
     dictionariesAndCorpora: cited(
-      "Nayiri aggregates major Armenian dictionaries, including monolingual Eastern and Western works, bilingual references, and historical lexicons. Search in Armenian script and check which dictionary produced an entry. The Eastern Armenian National Corpus offers roughly 110 million tokens across written and oral discourse from the mid-nineteenth century onward, making it useful for collocations and change over time. Corpus frequency is evidence of attestation, not automatic proof that a phrase suits your setting.",
+      "Nayiri lets you search multiple Armenian dictionaries. Check which dictionary supplied an entry, since it may represent Eastern, Western, or Classical Armenian.\n\nThe Eastern Armenian National Corpus was described in 2022 as containing about 110 million word tokens from written and spoken material dating from the mid-nineteenth century onward. It can show words in context when its search site is available. A frequent form in a corpus may still be wrong for your region or setting.",
       "nayiri",
       "eanc"
     ),
@@ -427,20 +427,20 @@ export const armenianGuide = {
       { type: "course", title: "AGBU Armenian Virtual College", url: "https://www.avc-agbu.org/", level: "beginner", description: cited("Structured online Armenian courses with multimedia study; verify whether a class follows Eastern or Western Armenian before enrolling.", "avc") },
       { type: "course", title: "Classical Armenian Online", url: "https://lrc.la.utexas.edu/eieol_toc/armol", level: "advanced", description: cited("The University of Texas offers annotated Classical Armenian lessons built around historical texts, grammar points, and a base-form dictionary.", "ut-classical") },
       { type: "dictionary", title: "Nayiri Armenian dictionaries", url: "https://www.nayiri.com/", level: "all", description: cited("A searchable gateway to multiple Eastern, Western, Classical, explanatory, and bilingual dictionaries. Always note the selected dictionary and orthography.", "nayiri") },
-      { type: "corpus", title: "Eastern Armenian National Corpus", url: "https://eanc.net/", level: "intermediate", description: cited("A large searchable collection for checking words, collocations, and contexts across genres and time periods.", "eanc") },
+      { type: "corpus", title: "Eastern Armenian National Corpus", url: "https://eanc.net/", level: "intermediate", description: cited("An academically documented collection of Eastern Armenian texts. Its search site may be unavailable; the linked research paper describes the corpus.", "eanc") },
       { type: "other", title: "Gulbenkian Western Armenian initiatives", url: "https://gulbenkian.pt/armenian-communities/priorities-and-activities/the-western-armenian-language/", level: "all", description: cited("A hub for understanding and finding contemporary Western Armenian revitalization, pedagogy, media, and technology projects.", "gulbenkian-western") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Armenian words often carry several maps at once: an inherited Indo-European history, centuries of contact, a literary afterlife, and a modern community setting. Հայ hay means an Armenian person; adding productive material yields հայերեն hayeren ‘Armenian language/in Armenian’ and Հայաստան Hayastan ‘Armenia.’ Everyday words can shift pronunciation across standards while remaining immediately recognizable in writing. Record the article and a phrase with every noun, and the standard with every conversational expression.",
+      "Հայ (hay) means an Armenian person. Related forms include հայերեն (hayeren), “Armenian language” or “in Armenian,” and Հայաստան (Hayastan), “Armenia.” These words show how familiar pieces reappear in longer forms.\n\nWriting may stay similar across Eastern and Western Armenian even when pronunciation changes. Keep a phrase beside each new word, and label the speaker model you heard.",
       "wiki-language",
       "nayiri"
     ),
     notableWords: [
       { term: "հայերեն", transliteration: "hayeren", meaning: "the Armenian language; in Armenian", note: cited("Built from հայ hay ‘Armenian’ and the language/adverbial ending -երեն. It is the natural answer to ‘What language?’ rather than merely an English label translated letter by letter.", "nayiri") },
       { term: "բարև", transliteration: "barev", meaning: "hello (Eastern spelling)", note: cited("The everyday greeting is written բարեւ barev in traditional orthography. One friendly word therefore demonstrates the orthographic split without implying a different meaning.", "unicode", "nayiri") },
-      { term: "ընկեր", transliteration: "ënker", meaning: "friend; companion; colleague", note: cited("Context determines whether ընկեր is an intimate friend, classmate, colleague, or companion. Its first letter also gives learners a useful encounter with the central vowel ը.", "nayiri") },
+      { term: "ընկեր", transliteration: "ënker", meaning: "friend; companion; colleague", note: cited("Context determines whether ընկեր is an intimate friend, classmate, colleague, or companion. Its first letter also lets learners practice the central vowel ը.", "nayiri") },
       { term: "ջան", transliteration: "jan", meaning: "dear; affectionate address particle", note: cited("Placed after a name or kin term—Անի ջան Ani jan—it conveys warmth. Its exact force depends on relationship and tone; mechanical use with strangers can sound overly familiar.", "nayiri", "eanc") },
       { term: "կարոտ", transliteration: "karot", meaning: "longing; missing someone or somewhere", note: cited("A culturally resonant word in songs and diaspora conversation, but also an ordinary noun. Կարոտել karotel means ‘to miss/long for’; learn it in a real sentence rather than treating it as untranslatable folklore.", "nayiri", "eanc") },
       { term: "հայրենիք", transliteration: "hayrenikʿ", meaning: "homeland", note: cited("Prominent in political, literary, and diaspora language. The referent and emotion are contextual: homeland can mean a state, ancestral place, lived home, or imagined community.", "nayiri", "gulbenkian-western") },
@@ -448,7 +448,7 @@ export const armenianGuide = {
       { term: "աշխարհ", transliteration: "ašxarh", meaning: "world", note: cited("A recognizable literary and everyday word whose final cluster challenges beginners. Classical and modern texts make it a productive search term for seeing the continuity and change of Armenian writing.", "ut-classical", "nayiri") }
     ],
     loanwordLayers: cited(
-      "Loanwords reveal chronology and social routes. Iranian layers are deep and often feel entirely native; Greek and Syriac words cluster around early scholarship and Christianity; Arabic and Turkic contact reflects trade and political history; French influenced parts of Western Armenian urban culture; Russian supplied Soviet institutions and contemporary colloquial items in Armenia. English now enters technology and global youth culture. Speakers may replace a Russian-derived colloquialism with an Armenian coinage in formal writing, but choice is a register decision, not a simple contest between correct and corrupt.",
+      "Iranian loanwords entered Armenian over many centuries. Greek and Syriac terms often appear in early scholarship and Christianity; Arabic, Turkic, French, and Russian left other traces in different places and periods. English now appears in technology and youth culture.\n\nA speaker may choose a Russian-derived casual word in conversation and an Armenian coinage in formal writing. That is a choice of tone and setting. Check actual usage before calling a borrowed word wrong.",
       "britannica",
       "wiki-language",
       "eanc"
@@ -456,7 +456,7 @@ export const armenianGuide = {
     idioms: [
       { original: "աչքի լույս", transliteration: "ačkʿi luys", translation: "someone dearly cherished", note: "Literally ‘light of the eye’; it belongs to affectionate and literary language, so learn who can naturally say it to whom." },
       { original: "գլուխ հանել", transliteration: "glux hanel", translation: "to understand or manage something", note: "Literally ‘to bring out a head’; used when getting to the bottom of a task or figuring something out. The object commonly appears with an ablative form." },
-      { original: "ձեռք մեկնել", transliteration: "jeṙkʿ meknel", translation: "to lend a hand; offer help", note: "Literally ‘to extend a hand.’ Learn the fixed Armenian verb rather than translating English ‘give a hand.’" },
+      { original: "ձեռք մեկնել", transliteration: "dzerkʿ meknel", translation: "to lend a hand; offer help", note: "Literally ‘to extend a hand.’ Learn the Armenian phrase rather than translating English ‘give a hand’ word by word." },
       { original: "քիթը խոթել", transliteration: "kʿitʿë xotʿel", translation: "to stick one's nose into something", note: "Literally ‘to push the nose in.’ Colloquial and disapproving; articles and case forms change with the sentence." },
       { original: "սիրտ տալ", transliteration: "sirt tal", translation: "to encourage", note: "Literally ‘to give heart,’ a memorable example of an ordinary noun forming a meaning larger than its parts." }
     ],
@@ -470,22 +470,22 @@ export const armenianGuide = {
   },
   relationships: {
     overview: cited(
-      "Armenian's nearest useful comparisons are not necessarily its genealogically nearest ones. As its own Indo-European branch, it shares ancient inheritance with Greek, Iranian, Slavic, Germanic, and other branches while remaining structurally distinct. Persian helps explain loan layers; Georgian illuminates regional contact; Classical Armenian opens the internal historical record. Relationship is therefore a three-part story of descent, contact, and literary continuity.",
+      "Armenian has its own branch within Indo-European. It shares ancient ancestry with Greek, Persian, and other languages in that family, but its present-day grammar has followed its own path.\n\nPersian helps explain borrowed words, Georgian helps explain regional contact, and Classical Armenian shows older stages of Armenian itself. These are three different kinds of relationship: family, contact, and historical continuity.",
       "glottolog",
       "britannica",
       "ut-classical"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Armenian literacy is often emotionally charged because the alphabet links sacred history, schooling, family, and survival. That importance should invite curiosity, not turn every spelling choice into a loyalty test. A Yerevan musician switching into Russian, a Beirut child learning Western Armenian through theater, an Iranian Armenian reading traditional orthography, and a church singer pronouncing grabar all inhabit different parts of the language. Ask speakers which Armenian they use and what they call it. Read across genre: Hovhannes Tumanyan's stories, Yeghishe Charents's poetry, Zabel Yesayan's prose, William Saroyan's multilingual Armenian-American world, contemporary journalism, stand-up, and music prevent ‘Armenian culture’ from shrinking into monuments and tragedy. The genocide is indispensable to understanding the rupture of Western Armenian communities, but Western Armenian is not a memorial object. Its future is being made in classrooms, camps, publishing projects, keyboards, podcasts, friendships, and new art.",
+  culturalNotes: "For many Armenians, the alphabet connects family, schooling, worship, and survival. Ask speakers which Armenian they use and how they learned it; spelling choices can reflect different community histories.\n\nArmenian literature includes Hovhannes Tumanyan’s stories, Yeghishe Charents’s poetry, and Zabel Yesayan’s prose. Journalism, comedy, music, and family messages show how people use the language now.\n\nThe genocide is essential to understanding the displacement of Western Armenian communities. Today people keep Western Armenian active through schools, camps, books, podcasts, friendships, and new art.",
   resources: [
     { type: "other", title: "Discover Discomfort: Less-Common Language Learning Resources", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", level: "all", description: cited("A practical framework for building a study system when Armenian resources are scattered: one main course, audio, checked sentences, a teacher, and community feedback.", "dd-less-common") },
     { type: "course", title: "AGBU Armenian Virtual College", url: "https://www.avc-agbu.org/", level: "beginner", description: cited("Online language and culture study with multimedia materials. Confirm the standard and course calendar before committing.", "avc") },
     { type: "dictionary", title: "Nayiri.com", url: "https://www.nayiri.com/", level: "all", description: cited("Search numerous Armenian dictionaries from one interface; particularly valuable when moving between Eastern, Western, traditional, and reformed forms.", "nayiri") },
-    { type: "corpus", title: "Eastern Armenian National Corpus", url: "https://eanc.net/", level: "intermediate", description: cited("Use concordance results to investigate collocations, registers, and historical change, then verify conversational suitability with a speaker.", "eanc") },
+    { type: "corpus", title: "Eastern Armenian National Corpus", url: "https://eanc.net/", level: "intermediate", description: cited("The corpus documents Eastern Armenian use across time and genres. Its search site may be unavailable; start with the linked research paper if it does not load.", "eanc") },
     { type: "course", title: "University of Texas Classical Armenian Online", url: "https://lrc.la.utexas.edu/eieol_toc/armol", level: "advanced", description: cited("A free text-centered route into grabar with lessons, grammar points, and lexical tools.", "ut-classical") },
     { type: "community", title: "Calouste Gulbenkian Foundation Armenian Communities", url: "https://gulbenkian.pt/en/armenians/", level: "all", description: cited("Follow Western Armenian language, education, cultural creativity, and revitalization initiatives across the diaspora.", "gulbenkian-western") },
-    { type: "media", title: "Public Radio of Armenia", url: "https://en.armradio.am/", level: "intermediate", description: "News and audio from Armenia; use Armenian-language broadcasts for short transcription and shadowing practice." }
+    { type: "media", title: "Public Radio of Armenia — Հայերեն", url: "https://hy.armradio.am/", level: "intermediate", description: cited("Armenian-language news and audio from Armenia. Try one short report for transcription and shadowing practice.", "armradio-hy") }
   ],
   relatedLanguages,
   phrases: [
@@ -494,7 +494,7 @@ export const armenianGuide = {
     { original: "Ինչպե՞ս եք։", transliteration: "Inčʿpes ekʿ?", translation: "How are you? (polite/plural)", usageNote: "Notice that the Armenian question mark sits over the stressed vowel inside the question word." },
     { original: "Լավ եմ, շնորհակալություն։", transliteration: "Lav em, šnorhakalutʿyun.", translation: "I'm well, thank you." },
     { original: "Խնդրում եմ։", transliteration: "Xndrum em.", translation: "Please; you're welcome.", literalMeaning: "I request.", usageNote: "Context distinguishes a request marker from the response to thanks." },
-    { original: "Կներեք։", transliteration: "Knerekʿ.", translation: "Excuse me; sorry.", usageNote: "Polite/plural Eastern form useful for gaining attention as well as apologizing." },
+    { original: "Կներեք։", transliteration: "Knerekʿ.", translation: "Excuse me; sorry.", usageNote: "Polite/plural Eastern form for gaining attention as well as apologizing." },
     { original: "Ես հայերեն եմ սովորում։", transliteration: "Yes hayeren em sovorum.", translation: "I am learning Armenian." },
     { original: "Ես չեմ հասկանում։", transliteration: "Yes čʿem haskanum.", translation: "I don't understand." },
     { original: "Կարո՞ղ եք կրկնել։", transliteration: "Karoġ ekʿ krknel?", translation: "Can you repeat that? (polite/plural)" },
@@ -506,23 +506,24 @@ export const armenianGuide = {
     { original: "Բարի գիշեր։", transliteration: "Bari gišer.", translation: "Good night." }
   ],
   sources: [
-    { id: "dd-less-common", title: "Best Less-Common Language Learning Resources: What Actually Works", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", publisher: "Discover Discomfort", publishedAt: "2026-05-11", updatedAt: "2026-05-11", accessedAt: "2026-07-10" },
-    { id: "wiki-language", title: "Armenian language", url: "https://en.wikipedia.org/wiki/Armenian_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
-    { id: "wiki-alphabet", title: "Armenian alphabet", url: "https://en.wikipedia.org/wiki/Armenian_alphabet", publisher: "Wikipedia", accessedAt: "2026-07-10" },
-    { id: "wiki-eastern", title: "Eastern Armenian", url: "https://en.wikipedia.org/wiki/Eastern_Armenian", publisher: "Wikipedia", accessedAt: "2026-07-10" },
-    { id: "wiki-western", title: "Western Armenian", url: "https://en.wikipedia.org/wiki/Western_Armenian", publisher: "Wikipedia", accessedAt: "2026-07-10" },
-    { id: "unicode", title: "The Unicode Standard, Chapter 7.6: Armenian", url: "https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/", publisher: "Unicode Consortium", updatedAt: "2025", accessedAt: "2026-07-10" },
-    { id: "unicode-phonetic", title: "Armenian Phonetic Characters in Unicode", url: "https://www.unicode.org/L2/L2017/17032-armenian-add.pdf", publisher: "Unicode Consortium", publishedAt: "2017", accessedAt: "2026-07-10" },
-    { id: "glottolog", title: "Eastern-Western Armenian", url: "https://glottolog.org/resource/languoid/id/east2768", publisher: "Glottolog 5.3", updatedAt: "2026", accessedAt: "2026-07-10" },
-    { id: "ut-classical", title: "Classical Armenian Online", url: "https://lrc.la.utexas.edu/eieol_toc/armol", publisher: "Linguistics Research Center, University of Texas at Austin", accessedAt: "2026-07-10" },
-    { id: "gulbenkian-western", title: "The Western Armenian Language", url: "https://gulbenkian.pt/armenian-communities/priorities-and-activities/the-western-armenian-language/", publisher: "Calouste Gulbenkian Foundation Armenian Communities Department", updatedAt: "2023-02-24", accessedAt: "2026-07-10" },
-    { id: "eanc", title: "Eastern Armenian National Corpus: State of the Art and Perspectives", url: "https://aclanthology.org/2022.digitam-1.5/", publisher: "ACL Anthology", publishedAt: "2022", accessedAt: "2026-07-10" },
-    { id: "nayiri", title: "Nayiri Armenian Dictionary Library", url: "https://www.nayiri.com/", publisher: "Nayiri.com", accessedAt: "2026-07-10" },
-    { id: "avc", title: "Armenian Virtual College", url: "https://www.avc-agbu.org/", publisher: "Armenian General Benevolent Union", accessedAt: "2026-07-10" },
-    { id: "britannica", title: "Armenian language", url: "https://www.britannica.com/topic/Armenian-language", publisher: "Encyclopaedia Britannica", accessedAt: "2026-07-10" }
+    { id: "dd-less-common", title: "Best Less-Common Language Learning Resources: What Actually Works", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", publisher: "Discover Discomfort", publishedAt: "2026-05-11", updatedAt: "2026-05-11", accessedAt: "2026-09-27" },
+    { id: "wiki-language", title: "Armenian language", url: "https://en.wikipedia.org/wiki/Armenian_language", publisher: "Wikipedia", accessedAt: "2026-09-27" },
+    { id: "wiki-alphabet", title: "Armenian alphabet", url: "https://en.wikipedia.org/wiki/Armenian_alphabet", publisher: "Wikipedia", accessedAt: "2026-09-27" },
+    { id: "wiki-eastern", title: "Eastern Armenian", url: "https://en.wikipedia.org/wiki/Eastern_Armenian", publisher: "Wikipedia", accessedAt: "2026-09-27" },
+    { id: "wiki-western", title: "Western Armenian", url: "https://en.wikipedia.org/wiki/Western_Armenian", publisher: "Wikipedia", accessedAt: "2026-09-27" },
+    { id: "unicode", title: "The Unicode Standard, Chapter 7.6: Armenian", url: "https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/", publisher: "Unicode Consortium", updatedAt: "2025", accessedAt: "2026-09-27" },
+    { id: "unicode-phonetic", title: "Armenian Phonetic Characters in Unicode", url: "https://www.unicode.org/L2/L2017/17032-armenian-add.pdf", publisher: "Unicode Consortium", publishedAt: "2017", accessedAt: "2026-09-27" },
+    { id: "glottolog", title: "Eastern-Western Armenian", url: "https://glottolog.org/resource/languoid/id/east2768", publisher: "Glottolog 5.3", updatedAt: "2026", accessedAt: "2026-09-27" },
+    { id: "ut-classical", title: "Classical Armenian Online", url: "https://lrc.la.utexas.edu/eieol_toc/armol", publisher: "Linguistics Research Center, University of Texas at Austin", accessedAt: "2026-09-27" },
+    { id: "gulbenkian-western", title: "The Western Armenian Language", url: "https://gulbenkian.pt/armenian-communities/priorities-and-activities/the-western-armenian-language/", publisher: "Calouste Gulbenkian Foundation Armenian Communities Department", updatedAt: "2023-02-24", accessedAt: "2026-09-27" },
+    { id: "eanc", title: "Eastern Armenian National Corpus: State of the Art and Perspectives", url: "https://aclanthology.org/2022.digitam-1.5/", publisher: "ACL Anthology", publishedAt: "2022", accessedAt: "2026-09-27" },
+    { id: "nayiri", title: "Nayiri Armenian Dictionary Library", url: "https://www.nayiri.com/", publisher: "Nayiri.com", accessedAt: "2026-09-27" },
+    { id: "avc", title: "Armenian Virtual College", url: "https://www.avc-agbu.org/", publisher: "Armenian General Benevolent Union", accessedAt: "2026-09-27" },
+    { id: "armradio-hy", title: "Public Radio of Armenia — Armenian edition", url: "https://hy.armradio.am/", publisher: "Public Radio of Armenia", accessedAt: "2026-09-27" },
+    { id: "britannica", title: "Armenian language", url: "https://www.britannica.com/topic/Armenian-language", publisher: "Encyclopaedia Britannica", accessedAt: "2026-09-27" }
   ],
   seo: {
     title: "Armenian Language Guide: Eastern, Western, Alphabet and Grammar",
-    description: "A reader-focused guide to Armenian's alphabet, Eastern and Western standards, pronunciation, grammar, history, phrases, literature, communities, and learning resources."
+    description: "Learn Armenian through its Eastern and Western standards, alphabet, spelling systems, grammar examples, history, communities, phrases, and study resources."
   }
 } satisfies LanguageGuide;

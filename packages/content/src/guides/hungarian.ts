@@ -6,7 +6,7 @@ const relatedLanguages = [
     name: "Khanty",
     relationship: "Distant Ugric relative within Uralic",
     explanation: cited(
-      "Khanty is one of Hungarian's closest living genealogical relatives, but “closest” here still means a separation measured in millennia. A Hungarian speaker cannot understand Khanty without study. Comparisons are valuable because inherited vocabulary and structural correspondences help linguists reconstruct earlier stages, not because the modern languages sound alike.",
+      "Khanty and Hungarian share distant Uralic ancestry. Their common history reaches back so far that speakers can't understand each other without study. Linguists compare inherited words and grammar to learn about that history.",
       "glottolog-hungarian",
       "nsul"
     )
@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Mansi",
     relationship: "Distant Ugric relative within Uralic",
     explanation: cited(
-      "Mansi is conventionally grouped with Hungarian and Khanty in the Ugric branch. The exact internal history of Uralic continues to be researched, and modern Mansi is endangered. For learners, the important correction is simple: a family tree records common descent, not present-day mutual intelligibility.",
+      "Linguists usually group Mansi, Khanty, and Hungarian in the Ugric branch of Uralic, though they continue to study the branch's early history. Mansi has far fewer speakers than Hungarian and is endangered. The family connection doesn't make modern Mansi understandable to a Hungarian speaker.",
       "glottolog-hungarian",
       "wiki-hungarian"
     )
@@ -25,7 +25,7 @@ const relatedLanguages = [
     slug: "finnish",
     relationship: "Distant Uralic relative",
     explanation: cited(
-      "Finnish and Hungarian share remote Uralic ancestry and some broad typological tendencies, including extensive suffixing and no grammatical gender. Their everyday vocabularies and sound histories have diverged so far that they are not mutually intelligible. Similar-looking grammar is not evidence that one is a dialect of the other.",
+      "Finnish and Hungarian share distant Uralic ancestry. Both attach many endings to words and lack grammatical gender, but their everyday words and sounds differ greatly. Speakers don't understand each other without study.",
       "glottolog-hungarian",
       "wiki-hungarian"
     )
@@ -35,7 +35,7 @@ const relatedLanguages = [
     slug: "turkish",
     relationship: "Unrelated language with historical contact and typological similarities",
     explanation: cited(
-      "Turkish is Turkic, not Uralic. Hungarian nevertheless contains old Turkic loan layers, and both languages use vowel harmony and long suffix sequences. Those resemblances make comparison useful, but they do not establish close descent; Hungarian also absorbed later Ottoman Turkish words during centuries of direct contact.",
+      "Turkish belongs to the Turkic family. It resembles Hungarian in some ways, including vowel harmony and long sequences of endings, and Hungarian has borrowed Turkic words at different times. Contact and similar grammar don't make the languages close relatives.",
       "wiki-hungarian",
       "uesz"
     )
@@ -48,32 +48,32 @@ export const hungarianGuide = {
   autonym: "magyar",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Hungarian is a Uralic language at the center of a Central European speech community, famous for expressive word order, vowel harmony, precise spatial suffixes, and a literary culture that sounds unlike its Indo-European neighbors.",
+  summary: "Hungarian is the everyday language of Hungary and long-standing communities across the Carpathian Basin. Learn how its vowel harmony, word endings, and word order shape speech and writing.",
   family: "Uralic, Ugric",
   macroRegion: "Hungary, the Carpathian Basin, and global Hungarian communities",
   primaryScript: "Latin",
   difficultyLabel: "Demanding",
-  learnerHook: "Hungarian lets a speaker build startlingly precise words from compact pieces, then reshape the same sentence to say what is already known, what is new, and what matters most.",
+  learnerHook: "Házban means “in the house”; házba means “into the house.” Learn a few endings, then listen for how word order points to the new or contrasting idea in a sentence.",
   hero: {
     imageAlt: "Contemporary Hungarian text showing accented vowels and characteristic digraphs.",
     callToActionLabel: "Explore Hungarian in use"
   },
   classification: "A Ugric language in the Uralic family and the national language of Hungary",
-  speakerCommunity: "Hungarian is the ordinary public and private language of Hungary and the home language of historic communities elsewhere in the Carpathian Basin. In Romania, Slovakia, Serbia, Ukraine, Austria, Croatia, and Slovenia, borders moved around long-established speakers during the twentieth century. Newer diasporas sustain schools, associations, publishing, and online media worldwide. Census categories such as mother tongue, ethnicity, language known, and family use count different things, so one global total can mislead. Hungary's 2022 census reports that 99 percent of residents speak Hungarian, while estimates commonly place the worldwide community at roughly 13 million. Language choice may carry family history and political weight.",
+  speakerCommunity: "People use Hungarian at home, at work, in school, and in public life throughout Hungary. Long-established communities also speak it in Romania, Slovakia, Serbia, Ukraine, Austria, Croatia, and Slovenia. Borders changed around many of those communities in the twentieth century.\n\nHungary's 2022 census found that 99 percent of residents could speak Hungarian. A research overview estimates more than 13 million speakers worldwide, but countries count mother tongue, ability, ethnicity, and home use differently. Families in newer diasporas maintain the language through schools, associations, media, and daily conversation.",
   facts: [
     { label: "Family", value: "Uralic · conventionally Ugric" },
-    { label: "Community", value: "Roughly 13 million speakers worldwide; census definitions vary" },
+    { label: "Community", value: "More than 13 million speakers estimated worldwide; definitions vary" },
     { label: "Core region", value: "Hungary and historic communities across the Carpathian Basin" },
     { label: "Writing", value: "Latin alphabet with long vowels and multi-letter consonants" },
     { label: "Stress", value: "Normally on the first syllable of a word" },
     { label: "Signature grammar", value: "Suffix chains, vowel harmony, two object-sensitive verb conjugations, and discourse-shaped word order" }
   ],
-  learnerOverview: "Hungarian offers fewer familiar words than an English speaker may expect in Central Europe, but it is not a maze of exceptions. Spelling is informative, stress is steady, nouns have no grammatical gender, and suffixes have recurring jobs. Instead of memorizing házban “in the house” as opaque, recognize ház “house” plus -ban “inside/in,” then compare házba “into” and házból “out of.” Learn a noun with its plural, accusative, and one local form; learn a verb in neutral and focused sentences. Preserve vowel length from week one: kor “age” and kór “disease” differ. Full dialogues reveal polite address, definite conjugation, and prefix placement. Endings act like camera controls: they locate events, identify objects, and direct attention.",
+  learnerOverview: "Hungarian makes you notice small changes inside a word. Ház means “house,” házban means “in the house,” házba means “into the house,” and házból means “out of the house.” The endings keep their jobs as you meet new nouns.\n\nStart with the alphabet and the length of each sound: kor means “age,” while kór means “disease.” Then learn common endings through short sentences, not isolated tables. You can add the two verb patterns for different kinds of objects once you can follow a simple conversation.\n\nWord order comes later. Speakers shift words to show what the listener already knows and what they want to stress. Record that change in real dialogues before trying to produce every possible order yourself.",
   origins: {
     overview: cited(
-      "Hungarian belongs to Uralic and is conventionally placed with Khanty and Mansi in Ugric, though that subgroup's internal history remains under study. Ancestors of Hungarian speakers moved west through long contact before Magyar groups entered the Carpathian Basin around the late ninth century. Language and population history are not interchangeable: languages spread and shift without mapping neatly onto genes. After the Christian kingdom formed around 1000, Latin dominated literacy, while Hungarian increasingly appeared inside Latin documents. The 1055 Tihany charter contains Hungarian phrases; the Funeral Sermon and Prayer of about 1192–1195 is the earliest surviving continuous text. Printing, Bible translation, literature, and nineteenth-century reform expanded its public roles.",
+      "Hungarian belongs to the Uralic family. Linguists usually group it with Khanty and Mansi in the Ugric branch, though they continue to study that branch's early history. The ancestors of Hungarian speakers moved west before Magyar groups entered the Carpathian Basin in the late ninth century.\n\nAfter the Christian kingdom formed around 1000, scribes mainly wrote in Latin. They included Hungarian names and phrases in Latin documents, including the 1055 Tihany charter. The Funeral Sermon and Prayer, from around 1192–1195, is the earliest surviving continuous Hungarian text.\n\nPrinting, Bible translation, literature, and nineteenth-century language reform brought Hungarian into more public settings. The language's history doesn't map neatly onto ancestry: communities can move, mix, and change languages.",
       "wiki-hungarian",
-      "wiki-hungarian",
+      "nsul",
       "tihany"
     ),
     timeline: [
@@ -88,7 +88,7 @@ export const hungarianGuide = {
       {
         period: "c. 895–1200",
         event: cited(
-          "Magyar groups established themselves in the Carpathian Basin, and the Christian kingdom adopted Latin literacy. Hungarian personal names and phrases occur in Latin charters. The Tihany charter of 1055 includes the celebrated sequence feheruuaru rea meneh hodu utu rea, while the Funeral Sermon offers a sustained view of late twelfth-century Hungarian.",
+          "Magyar groups settled in the Carpathian Basin, and the Christian kingdom adopted Latin literacy. Scribes placed Hungarian names and phrases inside Latin charters. The 1055 Tihany charter preserves more than 50 Hungarian words and word groups; the late twelfth-century Funeral Sermon gives us a longer continuous text.",
           "tihany",
           "wiki-hungarian"
         )
@@ -96,15 +96,15 @@ export const hungarianGuide = {
       {
         period: "16th–18th centuries",
         event: cited(
-          "Printing and religious division stimulated vernacular writing. Gáspár Károli's 1590 Bible became especially influential. The kingdom's division among Habsburg, Ottoman, and Transylvanian centers intensified multilingual contact, while Hungarian remained a literary and community language beside Latin, German, Turkish, Slavic languages, and Romanian.",
+          "Printers and religious communities produced more books in Hungarian. Gáspár Károli's 1590 Bible reached many readers. Political division brought Hungarian speakers into sustained contact with Latin, German, Turkish, Slavic languages, and Romanian.",
           "wiki-hungarian",
-          "wiki-hungarian"
+          "standard-history"
         )
       },
       {
         period: "Late 18th–19th centuries",
         event: cited(
-          "The nyelvújítás, or language-renewal movement, coined and revived thousands of terms so Hungarian could carry modern science, administration, philosophy, and art. The Hungarian Academy of Sciences, founded in 1825, became a central standardizing institution; Hungarian replaced Latin as the kingdom's official language in 1844.",
+          "The nyelvújítás, or language-renewal movement, created and revived words for science, government, philosophy, and art. The Hungarian Academy of Sciences, founded in 1825, became an important institution for the standard language. Hungarian replaced Latin as the kingdom's official language in 1844.",
           "standard-history",
           "wiki-hungarian"
         )
@@ -120,12 +120,12 @@ export const hungarianGuide = {
       }
     ],
     contactHistory: cited(
-      "Hungarian vocabulary maps repeated contact. Its Uralic core includes basic verbs, body terms, kinship, numbers, and nature. Iranian and early Turkic loans reflect steppe life; Slavic layers are prominent in agriculture, Christianity, food, and settlement; German shaped crafts and urban life; Latin supplied church, school, and law; Ottoman contact added later Turkish words; neighboring languages influenced regional speech. Modern technical terms often have international or English sources. Loans adapt to Hungarian sounds, stress, and suffixes. The New Hungarian Etymological Dictionary matters because resemblance alone is unreliable.",
+      "Everyday Hungarian still has inherited Uralic words for parts of the body, family, numbers, and basic actions. Long contact on the steppe brought Iranian and early Turkic loans. Later Slavic, German, Latin, and Ottoman Turkish words entered through religion, food, trades, law, and city life.\n\nSpeakers also borrow and adapt international terms today. They give those words Hungarian stress and endings. The New Hungarian Etymological Dictionary helps trace a word's history when a chance resemblance makes a tempting story.",
       "uesz",
       "wiki-hungarian"
     ),
     standardization: cited(
-      "Modern standard Hungarian grew from overlapping northeastern and eastern-central written traditions rather than from one instant decree. Writers, printers, schools, the language-renewal movement, and the Academy all contributed. The Academy's spelling rules have institutional force in education and publishing, but everyday speech remains socially and regionally varied. Standard Hungarian is not identical to formal bureaucratic prose: contemporary conversation permits contractions, particles, discourse markers, and choices that textbooks may postpone. Across borders, local standards may retain vocabulary or constructions influenced by Romanian, Slovak, Serbian, or Ukrainian. Treat these as real Hungarian in real multilingual settings, not as failed copies of Budapest speech.",
+      "Writers, printers, schools, reformers, and the Hungarian Academy of Sciences all helped form today's standard. The Academy's spelling rules guide education and publishing. Conversation has its own particles, shortened forms, and local choices.\n\nHungarian spoken across the border may include words and patterns shaped by Romanian, Slovak, Serbian, or Ukrainian contact. Those forms belong to living Hungarian communities. A Budapest textbook gives you one starting point, not a measure of everyone's speech.",
       "standard-history",
       "national-atlas-dialects",
       "hunren-tools"
@@ -133,48 +133,47 @@ export const hungarianGuide = {
   },
   variants: {
     overview: cited(
-      "Hungarian dialects are broadly mutually understandable but differ in vowels, vocabulary, suffix forms, and intonation. School and media norms can cause speakers to level local features. Dialect geography crosses borders: Palóc speech spans northern Hungary and southern Slovakia; Székely varieties center on eastern Transylvania; Vojvodina and Transcarpathia have distinct contact settings. Moldavian Csángó varieties are more divergent and face severe intergenerational shift. No regional accent is evidence of poor education.",
+      "Hungarian speakers across the Carpathian Basin usually understand one another, though they notice different vowels, words, and endings. Palóc speech crosses the Hungary–Slovakia border, while Székely varieties are prominent in eastern Transylvania. Vojvodina and Transcarpathia have their own contact histories.\n\nMoldavian Csángó varieties are more distinct, and many families now use Romanian instead. Schools and national media spread the standard, but local speech remains part of community life. A regional accent says nothing about a speaker's education.",
       "national-atlas-dialects",
-      "csango-study",
-      "national-atlas-dialects"
+      "csango-study"
     ),
     items: [
       {
         name: "Contemporary standard Hungarian",
-        note: cited("The reference variety of schools, national news, most publishing, and language courses. Educated conversation is less formal than written institutional Hungarian and contains abundant particles such as hát, ugye, and persze.", "standard-history", "hnc")
+        note: cited("Schools, national news, most publishers, and language courses use this variety. In conversation, speakers add particles such as hát, ugye, and persze and sound less formal than an official notice.", "standard-history", "hnc")
       },
       {
         name: "Palóc and northern varieties",
-        note: cited("Spoken across northern Hungary and adjacent Slovakia, with characteristic vowel realizations and local vocabulary. The region is internally diverse; “Palóc accent” is an umbrella, not a single uniform voice.", "national-atlas-dialects")
+        note: cited("People speak these varieties in northern Hungary and neighboring Slovakia. Pronunciation and vocabulary vary within the region, so “Palóc accent” doesn't describe one uniform voice.", "national-atlas-dialects")
       },
       {
         name: "Székely and other Transylvanian varieties",
-        note: cited("Hungarian in Romania includes urban standard-like speech and regional varieties with distinctive vocabulary, pronunciation, and contact features. Székely identity and speech are not interchangeable with all Transylvanian Hungarian.", "national-atlas-dialects", "hnc")
+        note: cited("Hungarian speakers in Romania use both urban speech close to the standard and local varieties with different words and sounds. Székely speech and identity describe part of Transylvania's Hungarian community, not all of it.", "national-atlas-dialects", "hnc")
       },
       {
         name: "Vojvodina, southern Slovakia, and Transcarpathia",
-        note: cited("These historic minority settings sustain Hungarian education and media to different degrees. Contact vocabulary and code-switching reflect multilingual lives; local forms may be perfectly conventional within their communities.", "hnc", "wiki-hungarian")
+        note: cited("Historic communities in these regions maintain Hungarian schools and media under different conditions. Speakers also use neighboring languages, and local Hungarian includes contact words that are ordinary within the community.", "hnc", "wiki-hungarian")
       },
       {
         name: "Moldavian Csángó varieties",
-        note: cited("Several traditional varieties in Romanian Moldavia preserve unusual features and show extensive Romanian contact. Shift to Romanian has reduced transmission, so learners should approach recordings as the voices of living communities rather than linguistic fossils.", "csango-study", "hunren-tools")
+        note: cited("Several varieties in Romanian Moldavia preserve features uncommon elsewhere in Hungarian and show strong Romanian contact. Fewer children learn them now. Research recordings document living speakers and their communities.", "csango-study", "hunren-tools")
       }
     ]
   },
   pronunciation: {
     overview: cited(
-      "Hungarian spelling gives learners a good route into pronunciation, provided every accent and consonant sequence is taken seriously. Word stress normally falls on the first syllable, including in long words, but vowel and consonant length can distinguish meaning. The vowel inventory pairs short and long qualities: a/á and e/é differ in quality as well as duration, while i/í, o/ó, ö/ő, and u/ú, ü/ű contrast chiefly by length. Front rounded ö/ő and ü/ű require lip rounding while the tongue stays forward. Consonant letters such as sz, s, cs, gy, ny, ty, and zs represent single sounds; their spelling cannot be decoded by English habits.",
+      "Hungarian usually stresses the first syllable, even in a long word. That steady rhythm helps you hear where a word begins. Sound length still changes meaning, so hold a long vowel or doubled consonant rather than treating the accent as decoration.\n\nThe pairs a/á and e/é differ in sound quality as well as length. In pairs such as ö/ő and ü/ű, you also need to round your lips while keeping your tongue forward. Several two-letter spellings, including sz, gy, and ny, each represent one consonant.",
       "wiki-hungarian",
-      "wiki-hungarian"
+      "wiki-grammar"
     ),
     script: "Modern Hungarian Latin alphabet; pronunciation notes use simple IPA-style descriptions",
     soundSystem: cited(
-      "Length is structural. Short kor /kor/ “age” contrasts with kór /koːr/ “disease,” and megy “goes” contrasts with meggy “sour cherry” through consonant length. Hungarian also applies voicing assimilation in consonant clusters: spelling preserves morphology while speech may make one consonant match its neighbor in voicing. The digraph gy is a palatal stop, approximately a single d-like sound made with the middle of the tongue raised toward the hard palate; ty is its voiceless partner, and ny resembles Spanish ñ. Hungarian r is usually tapped or trilled. Native words generally obey front–back vowel harmony, though neutral vowels, compounds, and loanwords complicate the classroom rule.",
+      "Kor /kor/ means “age,” while kór /koːr/ means “disease.” Megy “goes” and meggy “sour cherry” contrast a short and long gy consonant. The written form often keeps a word's parts visible even when neighboring consonants influence each other in speech.\n\nHungarian gy and ty are each one sound made with the tongue raised toward the hard palate; ny is close to Spanish ñ. Speakers usually tap or trill r. Listen to these sounds in recorded words before guessing from English spelling.",
       "wiki-hungarian",
       "wiki-grammar"
     ),
     prosody: cited(
-      "Fixed initial stress does not make every first syllable equally loud. In connected speech, sentence focus, contrast, and phrasing create stronger accents, while post-focus material can be compressed. Long suffix chains still begin with one lexical stress: egészségedre “to your health” starts strongly on e-, not on each meaningful ending. Questions are especially worth copying from recordings: yes–no questions often have a characteristic rise–fall contour rather than simply rising at the end. Shadow whole clauses and tap the long vowels and doubled consonants; otherwise English stress habits can shorten the very contrasts spelling carefully marks.",
+      "Word stress normally starts on the first syllable: egészségedre “to your health” begins strongly on e-, even though several endings follow. In a sentence, speakers can give extra emphasis to the word that answers a question or marks a contrast. Later words may sound less prominent.\n\nYes–no questions often rise and then fall near the end, rather than simply rising as in many English questions. Copy whole spoken sentences, including their timing. Keep long vowels and consonants long while you do it.",
       "wiki-hungarian",
       "wiki-grammar"
     ),
@@ -192,55 +191,55 @@ export const hungarianGuide = {
       { original: "megy / meggy", translation: "goes / sour cherry", note: "The doubled gy is held longer; it is not written for decoration." },
       { original: "szél / cél", translation: "wind / aim", note: "Sz is /s/, while c is /ts/; both contain long é." },
       { original: "sör", translation: "beer", note: "S represents English-like “sh,” and ö is a short front rounded vowel." },
-      { original: "gyönyörű", translation: "beautiful", note: "A useful workout for gy, ö, ny, and final long ű, with stress on the first syllable." },
+      { original: "gyönyörű", translation: "beautiful", note: "Practice gy, ö, ny, and final long ű, with stress on the first syllable." },
       { original: "tyúk", translation: "hen", note: "Ty is one voiceless palatal consonant, followed by a long ú." }
     ]
   },
   writing: {
     overview: cited(
-      "Modern Hungarian uses a Latin alphabet that treats digraphs and one trigraph as letters in their own right: cs, dz, dzs, gy, ly, ny, sz, ty, and zs. Dictionaries alphabetize them as units. The letters ő and ű use the double acute accent, represented in Unicode as precomposed characters or canonically equivalent base-plus-combining sequences. Historical Hungarian also has a right-to-left runiform script encoded by Unicode as Old Hungarian; it appears today in cultural, scholarly, educational, and decorative contexts, but ordinary literacy uses Latin script.",
+      "Hungarian readers use the Latin alphabet. Its two-letter units cs, dz, gy, ly, ny, sz, ty, and zs, plus the three-letter dzs, count as letters when dictionaries alphabetize words. The double acute marks long ő and ű.\n\nAn older right-to-left script also appears in historical study and some cultural displays. Unicode calls it Old Hungarian. Contemporary books, schools, and messages use the Latin script.",
       "unicode-latin",
       "unicode-old-hungarian",
       "wiki-hungarian"
     ),
     primaryScript: "Hungarian Latin alphabet",
     romanization: cited(
-      "Hungarian already uses Latin letters, so learners need pronunciation guidance rather than a separate romanization. English-friendly respellings often create more problems than they solve: writing “sh” for s hides the actual alphabet and makes sz harder. Learn the Hungarian letter values directly and keep accents when searching, texting, and making flashcards.",
+      "Hungarian already uses Latin letters, so you don't need another romanization system. Learn each letter's Hungarian sound instead of writing “sh” for s; that English shortcut makes sz harder to remember. Keep the accents in searches, messages, and flashcards.",
       "wiki-hungarian",
       "unicode-latin"
     ),
     spellingNorms: cited(
-      "Hungarian spelling balances pronunciation, morphology, convention, and etymology. Suffixes may trigger apparent changes while spelling keeps word structure visible. Definite articles are a before consonants and az before vowels. Family names and historical spellings preserve combinations such as cz, y, or th that are not productive modern sound rules. The letter ly is usually pronounced like j in the standard, but etymological spelling keeps the distinction. Long consonants normally double the first character of a digraph: hosszú “long” contains ssz, not szsz. Compound spelling can become technical, so polished formal writing benefits from an Academy dictionary or spell-checker rather than intuition alone.",
+      "Hungarian spelling often shows how a word is built. The definite article changes from a before a consonant sound to az before a vowel sound, while ly and j usually sound alike in the standard despite their different spelling. Long sz becomes ssz, as in hosszú “long.”\n\nHistorical family names can keep spellings such as cz or th. Compound spelling has detailed rules, so check an Academy spelling resource when you write formal text. Don't change someone's name to make it look more modern.",
       "wiki-hungarian",
       "hunren-tools"
     ),
     styleNotes: [
-      cited("Type ő and ű correctly. Replacing them with o, u, ô, or û can obscure words and looks careless in public prose; Unicode supports the proper characters everywhere modern text should work.", "unicode-latin"),
+      cited("Type ő and ű as written. Other accent marks can change the word and make a dictionary search fail.", "unicode-latin"),
       cited("Learn digraphs as alphabetic units, but remember that morphology can place ordinary letters beside each other across a boundary. Dictionary lookup and slow pronunciation resolve ambiguity.", "wiki-hungarian"),
       cited("Expect older names and quotations to preserve historical spelling. Do not modernize a person's name simply because its letters look unfamiliar.", "wiki-hungarian"),
-      cited("Use the Hungarian National Corpus to compare a suspected formal phrase with actual journalism, literature, science, and conversational data before copying it into an essay.", "hnc")
+      cited("Check an unfamiliar formal phrase in the Hungarian National Corpus before copying it into an essay. You can compare the kinds of text where it occurs.", "hnc")
     ]
   },
   grammar: {
     overview: cited(
-      "Hungarian is strongly agglutinative: many words are built by adding recognizable suffixes in an ordered chain. “Agglutinative” does not mean every boundary is perfectly transparent; linking vowels, stem alternations, assimilation, and irregular high-frequency forms still matter. Grammatical relations are marked mainly on words, allowing sentence order to organize discourse as well as identify roles. Hungarian lacks noun gender, permits omitted subject pronouns when the verb makes the person clear, has no distinct possessive verb equivalent to English “have,” and conjugates many transitive verbs differently according to the object.",
+      "Hungarian often adds several endings to one word. Linguists call that pattern agglutination: each ending usually has a job you can recognize. The pieces don't always join without sound changes.\n\nNouns have no grammatical gender. A verb ending often tells you who acts, so speakers can leave out a subject pronoun. Many verbs also change their ending according to the kind of object they have.",
       "wiki-grammar",
       "nsul"
     ),
     typologicalProfile: cited(
-      "A noun can combine plural, possession, case, and other derivation: ház “house,” házak “houses,” házam “my house,” házamban “in my house.” Descriptions differ on the exact number of cases because some endings sit on the border between case suffixes and derivational or adverbial markers. Quoting “18 cases” is a useful textbook convention, not a fact that all linguists segment identically. Several local cases form elegant three-way sets: -ban/-ben “in,” -ba/-be “into,” -ból/-ből “out of”; -on/-en/-ön “on,” -ra/-re “onto,” -ról/-ről “off/about”; and -nál/-nél “at,” -hoz/-hez/-höz “to,” -tól/-től “from.”",
+      "Compare ház “house,” házak “houses,” házam “my house,” and házamban “in my house.” An ending can show number, ownership, or a relationship such as location or movement. Grammars often list 18 cases, though linguists disagree about where some case endings stop and other kinds of suffix begin.\n\nFor a first pattern, compare -ban/-ben “in,” -ba/-be “into,” and -ból/-ből “out of.” You can learn other location sets later, such as -ra/-re “onto” and -ról/-ről “off or about.” Start with the meaning and a whole word, then learn the label “case.”",
       "wiki-grammar",
       "nsul"
     ),
     morphology: cited(
-      "Vowel harmony chooses among suffix forms so vowels agree broadly in frontness, sometimes also rounding: házban “in a house,” kertben “in a garden,” földön “on the ground.” Some suffixes have one form; others have two or three. Neutral i, í, e, and é in a stem can behave historically rather than visually, so learners should record an example suffixed form with each new noun. Verbs mark person, number, tense, mood, and the indefinite/definite contrast. Derivation is highly productive: tanul “study,” tanuló “learner,” tanulás “studying,” tanulmány “study/article,” though meanings cannot always be assembled mechanically.",
+      "The ending changes its vowel to fit the word: házban means “in the house,” while kertben means “in the garden.” This is vowel harmony. Some endings have two or three forms, and words with certain vowels or loanword histories need checking.\n\nHungarian verbs mark the subject, time, and whether the object is definite. Word-building also creates families such as tanul “study,” tanuló “learner,” and tanulás “studying.” Learn each new word's actual meaning rather than trusting the pieces alone.",
       "wiki-grammar",
       "wiki-hungarian"
     ),
     syntax: cited(
-      "Hungarian is often called a discourse-configurational language: the positions around the verb help mark topic, focus, and the scope of negation. A neutral sentence may resemble subject–verb–object, but moving an element is not random decoration. The immediately preverbal focus position commonly identifies an exhaustive or contrastive answer. Éva elolvasta a könyvet is a neutral “Éva read the book,” while ÉVA olvasta el a könyvet answers “Who read it?” and places the prefix el after the verb. Case suffixes keep Éva and a könyvet recognizable, but order tells the listener how the statement fits the conversation.",
+      "Hungarian word order helps show what the sentence is about and what information answers the immediate question. Éva elolvasta a könyvet says “Éva read the book” without singling out the reader. ÉVA olvasta el a könyvet stresses that Éva was the one who read it; the small verb element el moves after the verb.\n\nLinguists call the stressed answer “focus.” It often stands just before the verb, and a verb prefix then follows the verb. The endings still help identify each word's role, but changing the order changes the message.",
       "wiki-grammar",
-      "wiki-grammar"
+      "cambridge-focus"
     ),
     advancedPainPoints: [
       "Choosing definite versus indefinite verb endings from the actual referential status of the object",
@@ -253,49 +252,49 @@ export const hungarianGuide = {
     topics: [
       {
         title: "Vowel harmony makes suffixes fit the stem",
-        body: cited("Many suffixes select a back-vowel or front-vowel form; rounded front stems sometimes select a third. The dictionary does not list kertben and házban as separate words because -ban/-ben performs the same job. Mixed stems, loanwords, and neutral-vowel roots must still be learned from evidence.", "wiki-grammar", "wiki-hungarian"),
+        body: cited("The same “inside” ending appears as -ban after ház and -ben after kert. The vowel fits the sounds in the word; linguists call this vowel harmony. Some words and loans don't follow the simple classroom pattern, so check a whole example when you're unsure.", "wiki-grammar", "nsul"),
         example: "A házban lakom, de a kertben dolgozom.",
         exampleTranslation: "I live in the house, but I work in the garden."
       },
       {
-        title: "Case suffixes encode spatial geometry",
-        body: cited("Hungarian distinguishes rest, movement toward, and movement away within several spatial series. These endings extend metaphorically: a könyvről can mean “off the book” in a physical context or “about the book” in conversation. Learn the noun together with the verb that selects it.", "wiki-grammar", "nsul"),
+        title: "Endings show where something is or goes",
+        body: cited("Boltba places movement into a shop, boltban places an action inside it, and boltból marks movement out. Hungarian has similar sets for being on or near something. An ending can also extend beyond physical place: a könyvről often means “about the book.”", "wiki-grammar", "nsul"),
         example: "Bemegyek a boltba, a boltban veszek kenyeret, aztán kijövök a boltból.",
         exampleTranslation: "I go into the shop, buy bread in the shop, then come out of the shop."
       },
       {
         title: "The verb tracks whether an object is definite",
-        body: cited("With an indefinite or absent object, first-person singular olvasok means “I read/am reading.” With a specific definite object, olvasom means “I read/am reading it.” Proper names, demonstratives, possessed nouns, and objects with the definite article normally trigger the definite series; first- and second-person objects have special behavior.", "wiki-grammar"),
+        body: cited("Olvasok egy könyvet means “I'm reading a book,” while olvasom a könyvet means “I'm reading the book.” The ending changes because the second object is definite. Objects with a definite article, a name, or a possessive form usually call for that verb pattern; first- and second-person objects need their own rule.", "syntax-hungarian"),
         example: "Olvasok egy könyvet. Olvasom a könyvet.",
         exampleTranslation: "I am reading a book. I am reading the book."
       },
       {
         title: "Possession is built into the noun phrase",
-        body: cited("Hungarian commonly expresses “I have” as a possessive construction with van “is”: literally, “there is a book-my.” The possessor can carry -nak/-nek, especially when explicit or emphasized, while the possessed noun bears a person-number suffix.", "nsul", "wiki-grammar"),
+        body: cited("Hungarian has no everyday verb that works exactly like English “have.” In van egy könyvem, the book carries an ending meaning “my,” and van says that it exists. An expressed possessor can take -nak/-nek, as in Péternek két testvére van.", "nsul", "wiki-grammar"),
         example: "Van egy jó könyvem. Péternek két testvére van.",
         exampleTranslation: "I have a good book. Péter has two siblings."
       },
       {
         title: "Verbal prefixes shape aspect and direction",
-        body: cited("Prefixes such as meg-, el-, be-, ki-, and fel- can add completion, direction, or a lexicalized meaning. In a neutral finite clause a prefix often stands before the verb, but focus, negation, and some imperative structures separate or reverse it. Its movement is therefore a visible clue to sentence structure.", "wiki-grammar"),
+        body: cited("Small elements such as meg-, el-, be-, and ki- can mark a result, a direction, or a meaning specific to the verb. In a neutral sentence the element usually stands before the verb. A focused word or negation can put it after the verb instead.", "wiki-grammar", "cambridge-focus"),
         example: "Péter megírta a levelet. PÉTER írta meg a levelet. Péter nem írta meg a levelet.",
         exampleTranslation: "Péter wrote the letter. It was PÉTER who wrote the letter. Péter did not write the letter."
       },
       {
         title: "Word order manages topic and focus",
-        body: cited("Case marking allows several orders, but each choice packages information differently. Material before the focus can establish a topic; the focused constituent immediately before the verb commonly answers a contrastive question. After the focus, the verb may lose its prefix and following material receives less prominence.", "wiki-grammar"),
-        example: "János tegnap ment Budapestre. János BUDAPESTRE ment tegnap.",
-        exampleTranslation: "János went to Budapest yesterday. It was TO BUDAPEST that János went yesterday."
+        body: cited("Several word orders are possible because endings show each word's role. In a neutral sentence, János can set the topic, and the verb prefix stays in front of the verb. Put BUDAPESTRE directly before the verb to answer “Where did he go?”\n\nThe prefix then follows the verb.", "wiki-grammar", "cambridge-focus"),
+        example: "János tegnap elment Budapestre. János tegnap BUDAPESTRE ment el.",
+        exampleTranslation: "János went to Budapest yesterday. Yesterday, János went TO BUDAPEST."
       },
       {
         title: "Articles and number behave differently from English",
-        body: cited("Hungarian has indefinite egy and definite a/az articles. After numerals, a noun normally stays morphologically singular: három könyv, literally “three book.” A plural object still takes its case ending after the plural marker, as in könyveket “books” as an object.", "wiki-grammar"),
+        body: cited("Egy is the indefinite article, while a/az marks a definite noun. After a number, the noun normally stays singular: három könyv means “three books.” For a plural object without a number, könyveket has both a plural ending and an object ending.", "wiki-grammar"),
         example: "Három almát kérek, nem az egész kosarat.",
         exampleTranslation: "I'd like three apples, not the whole basket."
       },
       {
         title: "Politeness changes pronouns and verb forms",
-        body: cited("Hungarian distinguishes informal te from polite forms such as ön and maga, alongside titles and name-based address. Informal plural ti contrasts with önök/maguk. The social choice is not reducible to age: workplace culture, family introductions, service settings, and an explicit invitation to tegeződni all matter.", "wiki-grammar", "hnc"),
+        body: cited("Te is an informal “you,” while ön and maga are polite forms. Speakers also use titles or names, and relationships and settings guide the choice.\n\nTegeződhetünk? asks whether both people may switch to informal address.", "wiki-grammar", "hnc"),
         example: "Hogy vagy? Hogy van? Tegeződhetünk?",
         exampleTranslation: "How are you? [informal] How are you? [polite] May we use informal address?"
       }
@@ -303,7 +302,7 @@ export const hungarianGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Hungarian's geography is best understood as a language continuum centered on Hungary but extending across the modern borders of the Carpathian Basin. About 99 percent of Hungary's residents reported knowledge of Hungarian in the 2022 census. Large historic communities live in Romania, especially Transylvania; southern Slovakia; Serbia's Vojvodina; and western Ukraine's Transcarpathia, with smaller established populations in Austria, Croatia, and Slovenia. Political status, schooling, public signage, and daily bilingualism differ sharply by country. Diaspora speakers elsewhere range from first-generation adults to heritage learners rebuilding a language heard from grandparents.",
+      "Hungarian extends beyond Hungary's borders across the Carpathian Basin. Historic communities live in Transylvania in Romania, southern Slovakia, Vojvodina in Serbia, and Transcarpathia in Ukraine. Smaller established communities live in Austria, Croatia, and Slovenia.\n\nHungary's 2022 census found that 99 percent of residents could speak Hungarian. That figure measures knowledge inside Hungary, not the number of first-language speakers worldwide. Schooling, signage, and everyday bilingualism differ across neighboring countries, while newer diasporas include both fluent speakers and heritage learners.",
       "ksh-2022",
       "wiki-hungarian",
       "national-atlas-dialects"
@@ -320,7 +319,7 @@ export const hungarianGuide = {
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "Hungarian is demanding for an English-speaking learner chiefly because its basic vocabulary offers few easy cognates and its grammar packages familiar meanings in unfamiliar places. The popular image of “35 cases” or “impossibly long words” exaggerates the wrong thing. Most suffixes are learnable and regular; selecting the idiomatic case, controlling verb–object agreement, and arranging information naturally take longer. Difficulty also depends on goals: functional Budapest conversation comes far sooner than effortless reading of Dezső Kosztolányi or confident participation in a cross-border professional setting.",
+      "If you know English, many common Hungarian words will be new to you. Endings take time too, especially when a verb changes for its object or a noun's ending depends on another word. The patterns become clearer through examples, but choosing the natural pattern still takes practice.\n\nYour goal affects the workload. Everyday conversations call for fewer words and styles than a novel by Dezső Kosztolányi or professional discussion across different Hungarian communities. Build each level from speech and texts you expect to use.",
       "wiki-grammar",
       "wiki-hungarian"
     ),
@@ -347,42 +346,40 @@ export const hungarianGuide = {
       "Treating every speaker outside Hungary as a learner or every regional form as an error"
     ],
     workload: cited(
-      "A sustainable path is roughly an hour most days divided among structured grammar, sentence review, listening, and live interaction. In the first months, make vowel length, core case series, present-tense endings, and several hundred high-frequency chunks automatic. At intermediate level, transcribe short audio and rewrite one sentence under different focus conditions. Advanced progress requires long-form reading, monolingual dictionary use, and feedback on register. Thousands of comprehensible sentences help, but repetition alone cannot explain why meg moves or why a speaker chooses ön; combine pattern exposure with focused correction.",
-      "dd-glossika",
+      "Practice on most days if your schedule allows, mixing a structured course with listening and conversation. Early on, hear vowel length and learn the most common location endings and present-tense verb patterns. Review short sentences until you can use them without rebuilding each word.\n\nAt an intermediate level, transcribe brief recordings and compare neutral sentences with focused ones. Later, read longer texts and ask a speaker or teacher to check register. Repetition helps, but someone needs to explain why a verb prefix moves or why a person chooses ön.",
+      "magyarok",
       "hnc",
-      "wiki-grammar"
+      "cambridge-focus"
     )
   },
   advancedLearning: {
     strategy: cited(
-      "Build each entry in a personal lexicon as a usable family. For a noun record the plural, accusative, one local case, and a collocation; for a verb record present indefinite and definite forms, its prefix behavior, and a sentence with the case it governs. Once comfortable, search those forms in the Hungarian National Corpus rather than trusting a single bilingual gloss. Keep a second notebook for information structure: copy neutral clauses, then note what changes under contrast, negation, and questions. A tutor can check whether the result is merely grammatical or actually answers the intended conversational prompt.",
+      "Record each noun with a plural, an object form, and one location form. Record verbs with both object-sensitive endings when they exist, plus a sentence showing where the verb prefix goes. These examples make the grammar easier to retrieve in conversation.\n\nOnce you can read short texts, search the Hungarian National Corpus for those forms. Compare a neutral sentence with one that stresses a particular answer, then ask a teacher or speaker whether both fit the conversation. A bilingual gloss alone cannot show that difference.",
       "hnc",
       "hunren-tools",
       "wiki-grammar"
     ),
     mediaPractice: cited(
-      "Use news for clear standard pronunciation, then add interviews, comedy, podcasts, drama, and regional recordings. Public and independent outlets expose different political and stylistic vocabularies, so one channel should not define “normal Hungarian.” Read fiction aloud to practice long words without moving stress. Songs help memory but distort prosody; follow them with spoken interviews. Consult dialect research before imitating a regional feature.",
+      "Start with clear news or course audio, then add interviews and unscripted conversation. Try public and independent outlets so one broadcaster doesn't define all the vocabulary you hear. Regional recordings help you recognize speech outside the standard.\n\nRead a short passage aloud and keep stress at the start of each word. Songs can help memory, but their melody changes ordinary sentence rhythm. Follow them with spoken audio before copying pronunciation.",
       "hnc",
-      "national-atlas-dialects",
       "national-atlas-dialects"
     ),
     dictionariesAndCorpora: cited(
-      "The HUN-REN Research Centre for Linguistics maintains a rich tool directory: the Hungarian National Corpus, historical corpora, dictionary projects, and databases for Uralic comparison. The corpus lets a learner compare genres and cross-border material; the New Hungarian Etymological Dictionary explains origin and historical layers. Use a current bilingual dictionary for access, then confirm meaning, government, and register in corpus lines. Corpus frequency is evidence of use, not automatic proof that a phrase suits your audience.",
+      "HUN-REN collects Hungarian dictionaries and corpora in one tool directory. Its National Corpus lets you compare words across genres and regions, while the New Hungarian Etymological Dictionary explains older forms and loan histories. Start with a bilingual dictionary when you need a quick meaning.\n\nThen check the word in full corpus sentences. Notice which ending its verb takes and whether it appears in news, fiction, or conversation. Frequency shows that people use a phrase; it doesn't tell you whether it suits your audience.",
       "hunren-tools",
       "hnc",
       "uesz"
     ),
     resources: [
-      { type: "course", title: "MagyarOK", url: "https://magyar-ok.hu/en/home.html", level: "beginner", description: cited("A communicative textbook and online-materials series developed at the University of Pécs, useful for building a coherent standard-Hungarian progression rather than collecting disconnected app lessons.", "magyarok") },
-      { type: "corpus", title: "Hungarian National Corpus", url: "https://hnc.nytud.hu/", level: "intermediate", description: cited("A searchable multi-genre resource that includes material from Hungary and Hungarian communities beyond the border; use it to test collocations, endings, and register.", "hnc") },
-      { type: "dictionary", title: "New Hungarian Etymological Dictionary", url: "https://uesz.nytud.hu/", level: "advanced", description: cited("A HUN-REN dictionary for investigating inherited words, contact layers, obsolete forms, and the history hidden behind modern spelling.", "uesz") },
-      { type: "other", title: "Nominal Structures of Uralic Languages", url: "https://nsul.nytud.hu/", level: "advanced", description: cited("English explanations, glossed examples, and translations for Hungarian and several other Uralic languages; excellent for a technically curious learner who wants to compare possession and case without assuming mutual intelligibility.", "nsul") },
-      { type: "app", title: "Glossika sentence practice", url: "https://ai.glossika.com/", level: "all", description: cited("Hungarian audio sentences can provide high-volume listening and recall practice. Discover Discomfort's general review is positive about sentence repetition but explicitly recommends combining it with grammar and other study.", "dd-glossika") }
+      { type: "course", title: "MagyarOK", url: "https://isc.pte.hu/hu/tananyagok", level: "beginner", description: cited("This University of Pécs course pairs standard-Hungarian dialogues with audio and a sequence of exercises. The university's resource page is in Hungarian; add casual speech through interviews as you progress.", "magyarok") },
+      { type: "corpus", title: "Hungarian National Corpus", url: "https://hnc.nytud.hu/", level: "intermediate", description: cited("Search words in several genres and regional collections. The interface takes practice, but real sentences show you which endings and neighboring words occur together.", "hnc") },
+      { type: "dictionary", title: "New Hungarian Etymological Dictionary", url: "https://uesz.nytud.hu/index.html", level: "advanced", description: cited("Use this HUN-REN dictionary to investigate a word's older forms and possible origin. It serves historical questions better than quick everyday translation.", "uesz") },
+      { type: "other", title: "Nominal Structures of Uralic Languages", url: "https://nsul.nytud.hu/index.html", level: "advanced", description: cited("This research database explains Hungarian noun patterns in English and compares them with other Uralic languages. Its technical detail suits advanced learners more than beginners.", "nsul") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Hungarian vocabulary becomes surprisingly visual through compounds and derivation: szabadság “freedom” contains szabad “free” plus -ság; napraforgó “sunflower” is “sun-toward-turning.” Particles are equally revealing. Hát can frame hesitation, conclusion, or disagreement; ugye invites confirmation; persze ranges from easy agreement to irony. Literature and film live in this ground between dictionary gloss and social meaning.",
+      "Hungarian often builds a new word from familiar parts. Szabadság “freedom” includes szabad “free” and an ending that makes a noun; napraforgó “sunflower” contains words for sun and turning. These pieces help you remember a word even when its full meaning needs context.\n\nSmall conversational words need context too. Hát can introduce hesitation or a conclusion, ugye asks for confirmation, and persze can sound sincere or ironic. Listen to a whole exchange before copying one of them.",
       "hnc",
       "uesz"
     ),
@@ -393,11 +390,11 @@ export const hungarianGuide = {
       { term: "napraforgó", meaning: "sunflower", note: cited("Literally a “sun-toward-turner”: nap “sun,” -ra “onto/toward,” and forgó “turning.” It shows case-like material inside a lexicalized compound.", "uesz") },
       { term: "világ", meaning: "world; light (in older/derived uses)", note: cited("A short, high-frequency word with a long semantic history, visible in világos “light/clear” and felvilágosít “enlighten/inform.” Word families often travel farther than one English gloss.", "uesz", "hnc") },
       { term: "otthon", meaning: "at home; home", note: cited("It functions naturally as both a place expression and a noun-like idea of home. Compare otthon vagyok “I am at home” and az otthonom “my home.”", "hnc") },
-      { term: "fröccs", meaning: "wine mixed with soda water", note: cited("The drink has a detailed Hungarian naming culture: proportions produce names such as kisfröccs and nagyfröccs. The doubled cs also makes it a useful pronunciation test.", "hnc") },
+      { term: "fröccs", meaning: "wine mixed with soda water", note: cited("The drink has several Hungarian names for different proportions, including kisfröccs and nagyfröccs. Its doubled cs also gives you a pronunciation test.", "hnc") },
       { term: "híd", meaning: "bridge", note: cited("A common short word whose long í is easy to lose. Its plural hidak illustrates that stems can alternate, another reason to learn plural forms with nouns.", "wiki-grammar") }
     ],
     loanwordLayers: cited(
-      "Inherited words dominate many intimate and grammatical domains, while loans reveal centuries of neighborhood. Slavic jövevényszavak include everyday cultural terms; German contact appears in urban and technical vocabulary; Latin shaped school, law, religion, and scholarship; Turkic layers come from both pre-conquest steppe contact and the Ottoman period. Modern English is conspicuous in business, computing, fitness, and youth speech. Purist replacements sometimes coexist with international forms. Rather than judging one as “more Hungarian,” search who uses each term, in which genre, and with what tone.",
+      "Hungarian keeps inherited Uralic words in much of its basic vocabulary. Loanwords tell another part of its history: Slavic, German, Latin, and Turkic contact added terms for everyday life, trades, faith, and government. Those words took Hungarian sounds and endings.\n\nSpeakers now also borrow English and other international terms, especially in technology and business. A Hungarian-made alternative may coexist with a loan. Check which word speakers actually use in the kind of conversation or text you have in mind.",
       "uesz",
       "hnc",
       "wiki-hungarian"
@@ -405,7 +402,7 @@ export const hungarianGuide = {
     idioms: [
       { original: "Nem eszik olyan forrón a kását.", translation: "It isn't as bad or urgent as it first appears.", note: "Literally, “Porridge isn't eaten that hot.” Used to cool panic or overstatement: circumstances may soften before action is required." },
       { original: "Kutyából nem lesz szalonna.", translation: "People do not easily change their fundamental nature.", note: "Literally, “You can't make bacon from a dog.” Often humorous or cynical; it can sound harsh when aimed directly at someone." },
-      { original: "Sok lúd disznót győz.", translation: "Many weaker people together can defeat a stronger opponent.", note: "Literally, “Many geese defeat a pig.” A proverb about strength in numbers, useful in collective or playful contexts." },
+      { original: "Sok lúd disznót győz.", translation: "Many weaker people together can defeat a stronger opponent.", note: "Literally, “Many geese defeat a pig.” Speakers use it for strength in numbers, sometimes playfully." },
       { original: "Bagoly mondja verébnek, hogy nagyfejű.", translation: "The pot calling the kettle black.", note: "Literally, “The owl tells the sparrow that it has a big head.” Said when criticism exposes the critic's same fault." },
       { original: "Addig nyújtózkodj, ameddig a takaród ér.", translation: "Live within your means.", note: "Literally, “Stretch only as far as your blanket reaches.” Advice about financial or practical limits; the imperative can sound parental." }
     ],
@@ -421,35 +418,35 @@ export const hungarianGuide = {
   },
   relationships: {
     overview: cited(
-      "Hungarian's nearest genealogical relatives are far away geographically and linguistically. Khanty and Mansi are the usual Ugric comparanda; Finnish and Estonian are more distant Uralic relatives. None is mutually intelligible with Hungarian. Central European neighbors such as Slovak, German, Croatian, Serbian, Romanian, and Ukrainian are mostly Indo-European, yet centuries of bilingualism and borrowing make them central to Hungarian's actual history. Family resemblance and contact resemblance answer different questions.",
+      "Hungarian's closest relatives in the usual Ugric grouping are Khanty and Mansi, spoken far to the east. Finnish and Estonian are more distant Uralic relatives. None is mutually intelligible with Hungarian.\n\nMost neighboring languages in Central Europe belong to the Indo-European family. Speakers have lived alongside one another and borrowed words for centuries. A borrowed word tells you about contact; an inherited pattern helps establish family history.",
       "glottolog-hungarian",
       "wiki-hungarian",
       "uesz"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Hungarian culture is not a checklist of paprika and thermal baths. Magyar can name a language, ethnicity, citizenship context, or cultural identification, and those categories do not always coincide. Use Hungarian place names when relevant without denying official Romanian, Slovak, Serbian, or Ukrainian names; bilingual naming reflects real communities. Notice address forms, traditional family-name-first order, and invitations to switch from polite to informal speech. Ask speakers about their own setting rather than assuming Budapest represents everyone or treating a regional accent as a museum object.",
+  culturalNotes: "Magyar can describe a language, an ethnic identity, or a cultural connection. Citizenship, family history, and language ability do not always line up. Ask people how they describe their own community.\n\nPlace names may have both Hungarian and another local or official form. Use the name that fits the person and setting without erasing either community. In conversation, pay attention to polite address, family-name-first ordering, and invitations to switch to informal speech.",
   resources: [
-    { type: "course", title: "MagyarOK", url: "https://magyar-ok.hu/en/home.html", level: "beginner", description: cited("University of Pécs course materials centered on communicative, contemporary Hungarian, with audio and structured progression.", "magyarok") },
-    { type: "corpus", title: "Hungarian National Corpus", url: "https://hnc.nytud.hu/", level: "intermediate", description: cited("Search authentic forms across genres and regions; especially useful when two dictionaries give the same English gloss but different Hungarian patterns.", "hnc") },
-    { type: "dictionary", title: "HUN-REN language tools and dictionaries", url: "https://nytud.hu/en/tools", level: "all", description: cited("A maintained gateway to spelling, etymological, historical, dialect, and corpus resources from Hungary's principal linguistics research center.", "hunren-tools") },
-    { type: "other", title: "Hungarian Reference", url: "https://www.hungarianreference.com/", level: "intermediate", description: "A learner-oriented grammar reference with detailed tables. Cross-check fine points against corpus examples and a modern grammar." },
-    { type: "book", title: "Hungarian: An Essential Grammar by Carol Rounds", url: "https://www.routledge.com/Hungarian-An-Essential-Grammar/Rounds/p/book/9780415777377", level: "all", description: "A substantial English-language reference for morphology and syntax; use it as a map while continuing to collect spoken examples." },
-    { type: "app", title: "Glossika Hungarian", url: "https://ai.glossika.com/", level: "all", description: cited("High-volume sentence audio can reinforce rhythm and endings. The Discover Discomfort review usefully describes both the retention benefits and the need for grammar and complementary practice.", "dd-glossika") },
-    { type: "media", title: "Médiaklikk", url: "https://mediaklikk.hu/", level: "intermediate", description: "Hungarian public television and radio streams, news, culture, drama, and archives. Pair it with independent media to broaden register and viewpoint." }
+    { type: "course", title: "MagyarOK", url: "https://isc.pte.hu/hu/tananyagok", level: "beginner", description: cited("Follow University of Pécs dialogues, audio, and exercises in sequence. This university page is in Hungarian and links to the materials.", "magyarok") },
+    { type: "corpus", title: "Hungarian National Corpus", url: "https://hnc.nytud.hu/", level: "intermediate", description: cited("Search real examples across genres and regions. Use it when two dictionary entries share an English gloss but take different Hungarian endings.", "hnc") },
+    { type: "dictionary", title: "HUN-REN language tools and dictionaries", url: "https://nytud.hu/en/tools", level: "all", description: cited("Find spelling, historical, dialect, and corpus tools collected by Hungary's linguistics research centre. Choose the tool for your question; this page is a directory rather than a beginner course.", "hunren-tools") },
+    { type: "other", title: "Hungarian Reference", url: "https://www.hungarianreference.com/", level: "intermediate", description: "Consult its tables when an ending or verb form puzzles you. Check examples in a corpus because this learner site is an older reference." },
+    { type: "book", title: "Hungarian: An Essential Grammar by Carol Rounds", url: "https://www.routledge.com/Hungarian-An-Essential-Grammar/Rounds/p/book/9780415777377", level: "all", description: "Use this English-language reference for morphology and syntax questions. Keep listening to real conversation so tables do not become your only model." },
+    { type: "media", title: "Médiaklikk", url: "https://mediaklikk.hu/", level: "intermediate", description: "Watch or listen to Hungarian public television and radio. Add independent and regional outlets to hear more voices and styles." }
   ],
   relatedLanguages,
   phrases: [
     { original: "Szia!", translation: "Hi! / Bye!", usageNote: "Informal singular greeting and farewell. To several people, sziasztok is common." },
     { original: "Jó napot kívánok!", translation: "Good day.", literalMeaning: "I wish [you] a good day.", usageNote: "A safe polite greeting; Jó napot is the shorter everyday form." },
-    { original: "Köszönöm szépen.", translation: "Thank you very much.", literalMeaning: "I thank [you] nicely.", usageNote: "Polite and widely useful. Köszi is informal." },
-    { original: "Kérem.", translation: "Please. / You're welcome. / Here you are.", usageNote: "Its exact function depends on context and intonation; tessék is another essential service and offering word." },
-    { original: "Elnézést!", translation: "Excuse me! / Sorry.", literalMeaning: "Forgiveness/pardon.", usageNote: "Useful for attracting attention or apologizing for a small intrusion." },
+    { original: "Köszönöm szépen.", translation: "Thank you very much.", literalMeaning: "I thank [you] nicely.", usageNote: "Polite in many settings. Köszi is informal." },
+    { original: "Szívesen.", translation: "You're welcome.", literalMeaning: "Gladly.", usageNote: "A common reply to thanks. A formal speaker may also answer Kérem." },
+    { original: "Tessék!", translation: "Here you are. / Yes?", usageNote: "Say it when handing something over or inviting someone to speak; context decides the meaning." },
+    { original: "Elnézést!", translation: "Excuse me! / Sorry.", literalMeaning: "Forgiveness/pardon.", usageNote: "Say this to attract attention or apologize for a small intrusion." },
     { original: "Nem értem.", translation: "I don't understand.", usageNote: "Add pontosan “exactly” if you understood part but not the precise point." },
     { original: "Megismételné, kérem?", translation: "Could you repeat that, please?", literalMeaning: "Would you repeat [it], please?", usageNote: "Polite address. Informally: Megismételnéd?" },
     { original: "Beszélne egy kicsit lassabban?", translation: "Could you speak a little more slowly?", usageNote: "Polite and practical; lassabban is the comparative adverb “more slowly.”" },
     { original: "Hogy mondják ezt magyarul?", translation: "How do you say this in Hungarian?", literalMeaning: "How do they say this in Hungarian?", usageNote: "Hungarian uses an impersonal third-person plural here." },
-    { original: "Hol van a mosdó?", translation: "Where is the restroom?", usageNote: "Mosdó is a polite, broadly useful public term." },
+    { original: "Hol van a mosdó?", translation: "Where is the restroom?", usageNote: "Mosdó is a polite term for a public restroom." },
     { original: "Egy kávét kérek.", translation: "A coffee, please.", literalMeaning: "I request a coffee.", usageNote: "Notice the accusative -t on kávét." },
     { original: "Mennyibe kerül?", translation: "How much does it cost?", literalMeaning: "Into how much does it come?", usageNote: "A very common shopping question illustrating the fixed expression kerül valamennyibe." },
     { original: "Egészségedre!", translation: "Cheers! / Bless you!", literalMeaning: "To your health.", usageNote: "Informal singular. Egészségére is polite singular; egészségetekre addresses several people informally." },
@@ -457,22 +454,23 @@ export const hungarianGuide = {
     { original: "Viszontlátásra!", translation: "Goodbye.", literalMeaning: "Until seeing [each other] again.", usageNote: "Polite. Viszlát is the common shorter form." }
   ],
   sources: [
-    { id: "dd-glossika", title: "Glossika Review — The Best, But Not the Only", url: "https://discoverdiscomfort.com/glossika-review-language-learning-app/", publisher: "Discover Discomfort", publishedAt: "2020-04-20", updatedAt: "2023-05-10", accessedAt: "2026-07-10" },
     { id: "wiki-hungarian", title: "Hungarian language", url: "https://en.wikipedia.org/wiki/Hungarian_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-grammar", title: "Hungarian grammar", url: "https://en.wikipedia.org/wiki/Hungarian_grammar", publisher: "Wikipedia", accessedAt: "2026-07-10" },
+    { id: "syntax-hungarian", title: "Syntax of Hungarian: Nouns and Noun Phrases, Volume 1", url: "https://mek.oszk.hu/19200/19291/pdf/19291_1.pdf", publisher: "Amsterdam University Press", publishedAt: "2018", accessedAt: "2026-09-27" },
+    { id: "cambridge-focus", title: "Children's comprehension of prosodically marked focus in Hungarian", url: "https://www.cambridge.org/core/journals/journal-of-child-language/article/childrens-comprehension-of-prosodically-marked-focus-in-hungarian-how-mandatory-syntactic-focusmarking-affects-the-trajectory-of-acquisition/2416B48CE4B2DCB59CE1D5F1A9D3C5A0", publisher: "Journal of Child Language", publishedAt: "2021-05-19", accessedAt: "2026-09-27" },
     { id: "glottolog-hungarian", title: "Glottolog 5.2: Hungarian", url: "https://glottolog.org/resource/languoid/id/hung1274", publisher: "Max Planck Institute for Evolutionary Anthropology", updatedAt: "2025", accessedAt: "2026-07-10" },
     { id: "ksh-2022", title: "Census 2022 — Main Population Characteristics", url: "https://nepszamlalas2022.ksh.hu/en/results/final-data/publication/", publisher: "Hungarian Central Statistical Office", publishedAt: "2023", accessedAt: "2026-07-10" },
     { id: "hunren-tools", title: "Language Resources and Tools", url: "https://nytud.hu/en/tools", publisher: "HUN-REN Research Centre for Linguistics", accessedAt: "2026-07-10" },
-    { id: "hnc", title: "Hungarian National Corpus", url: "https://hnc.nytud.hu/", publisher: "HUN-REN Research Centre for Linguistics", updatedAt: "2026", accessedAt: "2026-07-10" },
-    { id: "uesz", title: "New Hungarian Etymological Dictionary", url: "https://uesz.nytud.hu/", publisher: "HUN-REN Research Centre for Linguistics", accessedAt: "2026-07-10" },
-    { id: "nsul", title: "Nominal Structures of Uralic Languages", url: "https://nsul.nytud.hu/", publisher: "HUN-REN Research Centre for Linguistics", accessedAt: "2026-07-10" },
+    { id: "hnc", title: "Hungarian National Corpus", url: "https://hnc.nytud.hu/", publisher: "HUN-REN Research Centre for Linguistics", accessedAt: "2026-09-27" },
+    { id: "uesz", title: "New Hungarian Etymological Dictionary", url: "https://uesz.nytud.hu/index.html", publisher: "HUN-REN Research Centre for Linguistics", updatedAt: "2025-08-14", accessedAt: "2026-09-27" },
+    { id: "nsul", title: "Nominal Structures of Uralic Languages", url: "https://nsul.nytud.hu/index.html", publisher: "HUN-REN Research Centre for Linguistics", accessedAt: "2026-09-27" },
     { id: "national-atlas-dialects", title: "The Spatial Distribution of Hungarian Dialects", url: "https://www.nemzetiatlasz.hu/MNA/National-Atlas-of-Hungary_Vol1_Ch9.pdf", publisher: "National Atlas of Hungary", publishedAt: "2024", accessedAt: "2026-07-10" },
     { id: "csango-study", title: "Situation of the Csángó Dialect of Moldavia in Romania", url: "https://ahea.pitt.edu/ojs/ahea/article/view/231", publisher: "Hungarian Cultural Studies", publishedAt: "2016", accessedAt: "2026-07-10" },
     { id: "standard-history", title: "The Formation of the Hungarian Standard Language", url: "https://epa.oszk.hu/01400/01462/00021/pdf/EPA01462_Hungarian_Studies_1998-1999_Vol13_No1.pdf", publisher: "Hungarian Studies", publishedAt: "1999", accessedAt: "2026-07-10" },
     { id: "tihany", title: "The Tihany Foundation Charter and Early Hungarian Records", url: "https://mek.oszk.hu/01900/01955/html/index10.html", publisher: "Hungarian Electronic Library", accessedAt: "2026-07-10" },
     { id: "unicode-latin", title: "Latin Extended-A Code Chart", url: "https://www.unicode.org/Public/18.0.0/charts/PDF/U0100.pdf", publisher: "Unicode Consortium", updatedAt: "2026", accessedAt: "2026-09-27" },
     { id: "unicode-old-hungarian", title: "The Unicode Standard, Chapter 8: Old Hungarian", url: "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-8/", publisher: "Unicode Consortium", updatedAt: "2024", accessedAt: "2026-07-10" },
-    { id: "magyarok", title: "MagyarOK Hungarian Language Course", url: "https://magyar-ok.hu/en/home.html", publisher: "University of Pécs", accessedAt: "2026-07-10" }
+    { id: "magyarok", title: "MagyarOK Hungarian Language Course", url: "https://isc.pte.hu/hu/tananyagok", publisher: "University of Pécs", accessedAt: "2026-09-27" }
   ],
   seo: {
     title: "Hungarian Language Guide: Pronunciation, Grammar and Culture",

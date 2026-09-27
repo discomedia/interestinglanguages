@@ -6,7 +6,7 @@ const relatedLanguages = [
     name: "Scottish Gaelic",
     relationship: "Closest major Goidelic relative",
     explanation: cited(
-      "Irish and Scottish Gaelic descend from the medieval Gaelic continuum and still share conspicuous vocabulary, grammatical structures, and spelling principles. Donegal Irish often makes the relationship especially audible. They are nevertheless separate modern languages with different standards, sound changes, and public histories; knowledge of one gives leverage, not effortless comprehension of the other.",
+      "Irish and Scottish Gaelic grew from the same medieval Gaelic speech world. Their words, grammar, and spelling still show the family connection, especially when you listen to Donegal Irish. Each has its own modern standard and sound patterns, so knowing one helps with the other without guaranteeing comprehension.",
       "wiki-irish",
       "glottolog"
     )
@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Manx",
     relationship: "Revived Goidelic sister language",
     explanation: cited(
-      "Manx belongs to the same Goidelic branch and preserves many recognizable structures, although its English-influenced conventional spelling looks strikingly different from Irish. Its twentieth-century revitalization also offers a useful comparison: language continuity can include new speakers, recordings, schools, and deliberate community work without making the result inauthentic.",
+      "Manx is another Goidelic language. Its words and grammar can look familiar to an Irish speaker, though its spelling follows different conventions. Manx communities have used recordings, teaching, and new speakers to bring the language into new generations.",
       "wiki-irish",
       "glottolog"
     )
@@ -25,7 +25,7 @@ const relatedLanguages = [
     slug: "welsh",
     relationship: "Brittonic Celtic relative",
     explanation: cited(
-      "Welsh and Irish are Celtic relatives in different branches. Both use initial consonant changes and inflected prepositions, but centuries of separate development produced very different core vocabulary, sound systems, and everyday grammar. The word Celtic describes historical descent, not mutual intelligibility.",
+      "Welsh and Irish belong to different branches of Celtic. Both change some word beginnings and join prepositions to pronouns, but their common words and sounds differ greatly. A Welsh speaker cannot expect to understand Irish without study.",
       "wiki-irish",
       "glottolog"
     )
@@ -34,7 +34,7 @@ const relatedLanguages = [
     name: "English",
     relationship: "Dominant contact language",
     explanation: cited(
-      "English is Germanic rather than Celtic, yet it has been Irish's most consequential contact language for centuries. Political power, schooling, migration, and mass media drove language shift, while Irish shaped Irish English vocabulary, syntax, names, and conversational style. Today's speakers may code-switch, translate professionally, or keep particular relationships and activities in Irish.",
+      "English belongs to the Germanic family and has shaped Irish daily life for centuries. Government, schooling, migration, and media helped move many communities toward English. Irish also left words and patterns in Irish English, while today's bilingual speakers choose languages according to the people and setting.",
       "wiki-history",
       "cso-2022"
     )
@@ -47,18 +47,18 @@ export const irishGuide = {
   autonym: "Gaeilge",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Irish is a living Goidelic language with regional native-speaking communities, expanding urban networks, a formidable literary record, and a grammar that makes sound, place, and relationship visible inside everyday words.",
+  summary: "Irish changes the beginnings of words as people speak. Hear that pattern in Gaeltacht conversation, explore three regional dialects, and learn the standard spelling that connects written Irish across communities.",
   family: "Indo-European, Celtic, Goidelic",
   macroRegion: "Ireland, especially Gaeltacht communities, with urban and diaspora networks",
   primaryScript: "Latin",
   difficultyLabel: "Demanding",
-  learnerHook: "Irish lets a learner hear Ireland on different terms: not as decorative heritage, but through family talk, sharp radio debate, island storytelling, football commentary, contemporary fiction, memes, music, and ordinary plans for tomorrow.",
+  learnerHook: "Mo bhád means “my boat”; ár mbád means “our boat.” A small change at the start tells you who owns it, and real conversations give you many chances to hear that pattern.",
   hero: {
     imageAlt: "Irish-language books and contemporary community media representing Gaeilge as a language in daily use.",
     callToActionLabel: "Hear Gaeilge in use"
   },
   classification: "A Goidelic Celtic language closely related to Scottish Gaelic and Manx",
-  speakerCommunity: "Irish belongs to overlapping communities. In Gaeltacht districts in Donegal, Mayo, Galway, Kerry, Cork, Waterford, and Meath, it can be a home language and the ordinary language of neighbours, schools, work, sport, and local argument. Elsewhere, speakers build Irish-speaking lives through Gaelscoileanna, universities, families, arts, media, and urban networks. Census 2022 recorded 1,873,997 people aged three or over in the Republic who said they could speak Irish, but only nearly 72,000 reported using it daily outside education. In Gaeltacht areas, just over 65,000 reported an ability and just over 20,000 daily use. These self-reports cover very different proficiencies. The honest picture is neither “everybody speaks it” nor “nobody really does”: Irish is lived intensely by a minority, known by many more, creatively productive, and under pressure where intergenerational use is weakest.",
+  speakerCommunity: "Irish lives in Gaeltacht homes, schools, workplaces, and local clubs. These districts lie in Donegal, Mayo, Galway, Kerry, Cork, Waterford, and Meath. Speakers also build Irish-speaking families and friendships in towns, cities, and diaspora communities.\n\nA census answer about ability to speak Irish cannot tell us how fluent someone is or how often their family uses it together. A school learner, an urban new speaker, and a child growing up with Irish in a Gaeltacht community can have quite different experiences of the language. The 2022 figures below separate reported ability from daily use.",
   facts: [
     { label: "Family", value: "Indo-European · Celtic · Goidelic" },
     { label: "Republic of Ireland, 2022", value: "1,873,997 reported an ability to speak Irish; nearly 72,000 used it daily outside education" },
@@ -67,10 +67,10 @@ export const irishGuide = {
     { label: "Writing", value: "Latin alphabet; acute accent (síneadh fada) marks long vowels" },
     { label: "Major dialect groupings", value: "Munster, Connacht, and Ulster, with substantial local variation" }
   ],
-  learnerOverview: "A good course quickly gives you sentences that work: Tá mé réidh “I am ready,” Ba mhaith liom caife “I would like coffee,” and An dtuigeann tú? “Do you understand?” The surprises are systematic. Consonants are broad or slender; word beginnings change after familiar triggers; and “have,” “like,” and “know” are often relationships involving prepositions. Learn them as meaningful phrases, not penalties on a grammar test. Choose one regional audio model early—the standard regulates writing more than pronunciation—then listen broadly. Put Irish around an activity: attend a conversation circle, follow a presenter, read with audio, play a sport, or message a friend. Native Gaeltacht speech, fluent new-speaker usage, formal public Irish, and classroom interlanguage are not interchangeable; place and register labels help you navigate them.",
+  learnerOverview: "Start with sentences you can use: Tá mé réidh means “I'm ready,” and An dtuigeann tú? means “Do you understand?” Say them with audio from one region before trying to pronounce a page of unfamiliar words.\n\nIrish changes a word's beginning after common little words. You can hear the difference between mo bhád, “my boat,” and ár mbád, “our boat.” Learn each change inside a whole phrase, then practice it with other nouns.\n\nThe official standard mainly guides writing. Choose a Munster, Connacht, or Ulster speaker as your first pronunciation model, and gradually listen to the others. A conversation group, radio presenter, or friend will also teach you when a phrase sounds local, formal, or like classroom Irish.",
   origins: {
     overview: cited(
-      "The oldest directly attested ancestor is Primitive Irish, carved in ogham—usually names in short memorial inscriptions—from roughly the fourth century onward. Christian manuscript culture brought the Latin alphabet. From the sixth century, Old Irish appears in glosses and a large learned tradition with intricate verb and sound systems. Middle Irish followed, and a shared Classical Gaelic standard served poets and scholars in Ireland and Gaelic Scotland for centuries. Modern dialects did not suddenly replace it: speech kept changing while a conservative written register crossed regional boundaries. Irish therefore has both unusual textual depth and a long history of distance between a prestigious page and local speech.",
+      "The earliest direct evidence of Irish comes from short ogham inscriptions, mostly names cut into stone from around the fourth century. Christian scribes later wrote Irish with Latin letters. Their Old Irish notes and manuscripts let us see a much fuller language.\n\nMiddle Irish came next. Poets and scholars in Ireland and Gaelic Scotland later shared a literary form often called Classical Gaelic, while people continued to speak changing local forms. That gap between a common written tradition and local speech runs through much of Irish history.",
       "wiki-history",
       "wiki-irish",
       "maynooth-history"
@@ -78,37 +78,37 @@ export const irishGuide = {
     timeline: [
       {
         period: "c. 4th–6th centuries",
-        event: cited("Ogham inscriptions preserve Primitive Irish, most often as compact names and genealogical formulas cut along stone edges. They are precious evidence, but not transcripts of everyday conversation or proof that Irish was used only for monuments.", "wiki-history", "maynooth-history")
+        event: cited("Ogham inscriptions preserve Primitive Irish, usually names cut along stone edges. They tell us little about ordinary conversation.", "wiki-history", "maynooth-history")
       },
       {
         period: "c. 6th–10th centuries",
-        event: cited("Old Irish appears in manuscript glosses and develops across law, narrative, poetry, genealogy, religion, and scholarship. Latin and Irish coexisted in learned environments, producing loans and a multilingual intellectual culture rather than two sealed worlds.", "wiki-history", "maynooth-history")
+        event: cited("Scribes used Old Irish for notes in Latin manuscripts and for law, stories, poetry, and religious writing. Latin and Irish met in the same scholarly circles.", "wiki-history", "maynooth-history")
       },
       {
         period: "c. 10th–17th centuries",
-        event: cited("Middle Irish and then Early Modern Irish support a wide manuscript world. A standardized Classical Gaelic register connected professional literary families in Ireland and Scotland even as local spoken forms diverged.", "wiki-history", "wiki-irish")
+        event: cited("Middle Irish and then Early Modern Irish appear in a wide manuscript tradition. A shared literary Gaelic connected scholars in Ireland and Scotland as local speech changed.", "wiki-history", "wiki-irish")
       },
       {
         period: "17th–19th centuries",
-        event: cited("Conquest, confiscation, the collapse of learned patronage, penal and economic pressures, English-dominant administration, famine, and migration transformed the language ecology. Irish remained widely spoken into the nineteenth century, but catastrophic demographic loss and language shift pushed it toward western districts.", "wiki-history", "maynooth-history")
+        event: cited("Conquest and confiscation broke old patronage networks. English gained ground in government and commerce; famine and migration then devastated many Irish-speaking communities. By the late nineteenth century, daily use had retreated heavily toward western districts.", "wiki-history", "maynooth-history")
       },
       {
         period: "1893–1945",
-        event: cited("The Gaelic League, writers, teachers, collectors, and political movements made Irish central to cultural revival. Independence brought constitutional recognition and compulsory school study, but state status could not by itself reproduce dense networks of home and community use.", "wiki-history", "wiki-irish")
+        event: cited("The Gaelic League, writers, and teachers organized a revival. After independence, the state gave Irish official status and a place in schools. Those changes could not alone restore daily home use.", "wiki-history", "wiki-irish")
       },
       {
         period: "1945–present",
-        event: cited("Spelling reform and An Caighdeán Oifigiúil created a common official written norm. Later decades brought Raidió na Gaeltachta, TG4, Irish-medium education, new urban networks, digital publishing, EU working-language infrastructure, and local language-planning efforts, alongside continued concern about daily use in Gaeltacht communities.", "caighdean", "cso-2022", "tg4")
+        event: cited("Spelling reform and An Caighdeán Oifigiúil gave public writing a shared norm. Radio, TG4, Irish-medium schools, urban groups, and online publishing created more places to use Irish. Census figures still raise concern about daily Gaeltacht use.", "caighdean", "cso-2022", "tg4")
       }
     ],
     contactHistory: cited(
-      "Latin vocabulary entered through Christianity and learning: eaglais “church” ultimately reflects ecclesia, while leabhar “book” is associated with liber. Norse settlement left a smaller maritime and place-name layer. Anglo-Norman French entered law, material culture, and administration; English later became the social language of power and a huge vocabulary source. Loans fit Irish sound patterns, gender, plurals, and mutations. Contact also ran outward: smithereens and slogan have Gaelic histories, and Irish English preserves effects of bilingualism. Speakers now coin terms, adapt international words, or code-switch according to audience. Ask not whether a word is “pure,” but who uses it and where.",
+      "Christian learning brought Latin words, including eaglais, “church,” and leabhar, “book.” Norse settlement left some maritime and place-name vocabulary. Anglo-Norman French and then English added further layers as law, trade, schooling, and daily life changed.\n\nIrish speakers fit borrowed words into Irish sounds and grammar. They also make new terms and switch languages when a conversation calls for it. Look at who uses a word and where before treating its origin as a judgment on it.",
       "wiki-history",
       "teanglann",
       "corpas"
     ),
     standardization: cited(
-      "An Caighdeán Oifigiúil is the official standard used in state writing and widely taught in schools. The mid-twentieth-century spelling reform removed many silent letters and regularized forms; later editions revised grammatical guidance. It is chiefly a written standard, not a single prescribed accent. A broadcaster from Corca Dhuibhne, a writer from Conamara, and a speaker from Gaoth Dobhair may all write standard forms while pronouncing them differently or choosing regional grammar in speech. Standardization solves genuine problems of shared publication and administration, but learners should not treat every dialect form as an error. Read the standard, speak from a coherent dialect model, and learn to recognize the alternatives that actual people use.",
+      "An Caighdeán Oifigiúil gives public writers and schools a common spelling and grammar. Mid-twentieth-century reform simplified many spellings, and the Oireachtas revised the standard again in 2017.\n\nThe standard does not prescribe one accent. People from Corca Dhuibhne, Conamara, and Gaoth Dobhair may write the same form and say it differently. Learn the standard for reading and writing, then listen to a regional speaker before deciding how you will pronounce it.",
       "caighdean",
       "wiki-orthography",
       "wiki-irish"
@@ -116,34 +116,34 @@ export const irishGuide = {
   },
   variants: {
     overview: cited(
-      "The familiar three-way map—Munster, Connacht, Ulster—is a useful beginning, not three uniform boxes. Kerry Irish differs within Munster; Conamara, the Aran Islands, and Mayo are not identical within Connacht; and surviving Ulster Irish is concentrated chiefly in Donegal, with important local differences. Vocabulary, verb endings, stress, vowels, and common particles vary. There is also fluent urban Irish shaped by schools, mixed-dialect networks, media, and the standard. Calling all non-Gaeltacht speech “artificial” ignores real families and communities; pretending all varieties carry the same transmission history ignores social reality.",
+      "Irish speakers often group traditional dialects as Munster, Connacht, and Ulster. Each region contains local differences: speakers from Conamara and Mayo, for example, do not sound identical. Words, verb endings, vowels, stress, and short grammatical forms can vary.\n\nMany people also speak Irish outside the Gaeltacht. Their speech may draw on family usage, schools, media, and several regional models. Listen for a person's background and setting instead of assuming that a written standard tells you how every speaker sounds.",
       "wiki-irish",
-      "corpas",
+      "varieties-focloir",
       "cso-2022"
     ),
     items: [
-      { name: "Munster Irish", note: cited("Spoken in parts of Kerry, Cork, and Waterford. Learners often notice stress moving away from the first syllable when a historically long or heavy later syllable attracts it, as well as synthetic verb endings and regional vocabulary. Corca Dhuibhne and Múscraí provide different strong models.", "wiki-irish", "teanglann") },
-      { name: "Connacht Irish", note: cited("Conamara and the Aran Islands are major contemporary centres, while Mayo preserves distinct traditions. Connacht forms have influenced teaching and media, but “Connacht Irish” is not synonymous with the official standard or one universal pronunciation.", "wiki-irish", "teanglann") },
-      { name: "Ulster Irish", note: cited("Now centred in Donegal, especially the north-west. Pronouns, negative forms, vocabulary, and sound patterns can resemble Scottish Gaelic more closely than southern varieties do. Gaoth Dobhair audio is an excellent antidote to the idea that spelling dictates one pronunciation.", "wiki-irish", "teanglann") },
-      { name: "An Caighdeán Oifigiúil", note: cited("The common official written norm supports legislation, education, translation, and publication. It selects and regularizes forms from a dialect landscape; it does not supply a mandatory spoken accent.", "caighdean", "wiki-orthography") },
-      { name: "Urban and new-speaker Irish", note: cited("Dublin, Belfast, Galway, and other towns support speakers who acquired Irish through family, Irish-medium education, adult learning, or mixed networks. Their usage may combine standard and regional features. Evaluate it by context and competence, not by a simplistic native-versus-fake test.", "cso-2022", "foras", "tuairisc") }
+      { name: "Munster Irish", note: cited("Speakers in Kerry, Cork, and Waterford use several local forms. Stress can fall later in a word than learners expect, and some verb endings include the subject. Compare recordings from Corca Dhuibhne and Múscraí before calling either one the whole region.", "wiki-irish", "teanglann") },
+      { name: "Connacht Irish", note: cited("Conamara and the Aran Islands are major centres of daily use; Mayo has its own traditions. Teaching materials draw on Connacht forms, but the region does not have one pronunciation.", "wiki-irish", "teanglann") },
+      { name: "Ulster Irish", note: cited("Living Ulster Irish now centres chiefly on Donegal. Its pronouns, negatives, words, and sounds can resemble Scottish Gaelic more closely than southern Irish does. Hear a Gaoth Dobhair speaker to notice the difference.", "wiki-irish", "teanglann") },
+      { name: "An Caighdeán Oifigiúil", note: cited("The common official written norm supports legislation, education, translation, and publication. It draws on regional forms but does not supply a mandatory spoken accent.", "caighdean", "wiki-orthography") },
+      { name: "Urban and new-speaker Irish", note: cited("Dublin, Belfast, Galway, and other towns support speakers who learned Irish through family, Irish-medium education, adult study, or mixed networks. Their usage may combine standard and regional features. Listen to how people speak in their own settings instead of applying a native-versus-fake test.", "cso-2022", "foras-community", "varieties-focloir") }
     ]
   },
   pronunciation: {
     overview: cited(
-      "Irish spelling becomes intelligible when you stop asking each letter for one English sound. Every consonant belongs to a broad or slender series. Broad consonants are typically velarized—the back of the tongue is raised—while slender consonants are palatalized toward a y-like position. Surrounding vowels signal the series, summarized by caol le caol agus leathan le leathan, “slender with slender and broad with broad.” The extra vowel letters are often guides to consonant quality, not extra syllables. Dialects realize the contrast differently, so dictionary audio matters more than an improvised English respelling.",
+      "Irish consonants come in broad and slender forms. The back of the tongue moves toward the soft palate for many broad sounds; slender ones move toward the hard palate, often giving a y-like quality.\n\nNearby vowels tell you which form to expect. Irish writers sum up the spelling rule as caol le caol agus leathan le leathan, “slender with slender and broad with broad.” A written vowel may guide the consonant rather than add a syllable.\n\nThe exact sounds differ by region. Hear a word in your chosen dialect before relying on an English-style pronunciation hint.",
       "wiki-orthography",
       "teanglann"
     ),
-    script: "Modern Latin alphabet with the acute accent; IPA and dialect audio are useful pronunciation aids",
+    script: "Modern Latin alphabet with the acute accent; IPA and regional audio can help with pronunciation",
     soundSystem: cited(
-      "Long and short vowels contrast: fear “man” and féar “grass” differ in length and quality. Consonants change at word boundaries for grammatical reasons. Lenition (séimhiú) is usually written with h: bád becomes bhád, whose initial sound may be /w/ or /v/ by dialect. Eclipsis (urú) writes the new sound before the old letter: bád becomes mbád, pronounced initially /m/. Irish r, l, and n have contrasts rarely represented fully in spelling, and clusters may contain an audible inserted vowel, so ainm “name” can sound like two syllables. There is no neutral pan-Irish accent; choose audio labelled for Ulster, Connacht, or Munster.",
+      "Vowel length can change a word: fear means “man,” while féar means “grass.” The fada over é marks the longer vowel.\n\nA preceding word can change the sound at the start of bád, “boat.” Lenition, or séimhiú, gives mo bhád, “my boat”; the bh may sound like /w/ or /v/ depending on dialect. Eclipsis, or urú, gives ár mbád, “our boat,” with an initial /m/.\n\nIrish also distinguishes consonant qualities that spelling does not always show clearly. A cluster may gain an audible vowel: ainm, “name,” can sound like two syllables. Check recordings from the region you are learning.",
       "wiki-mutations",
       "wiki-orthography",
       "teanglann"
     ),
     prosody: cited(
-      "Stress normally falls on the first syllable, but Munster varieties often shift it when a later syllable is historically long or otherwise heavy. Unstressed vowels reduce, and connected speech reshapes small words: particles and pronouns do not arrive with classroom spacing. Intonation carries stance and turn-taking just as powerfully as consonants do. Shadow a single regional speaker through full questions, stories, and corrections; a carefully produced isolated word may still sound foreign if every phrase follows English timing.",
+      "Many Irish words stress the first syllable. Munster speakers often place stress later when a later syllable has a long vowel or another feature that attracts it.\n\nIn fast conversation, unstressed vowels weaken and small words run together. Listen to a complete question or reply from one speaker and repeat its timing. An isolated dictionary recording cannot teach you the whole rhythm.",
       "wiki-irish",
       "teanglann"
     ),
@@ -162,21 +162,20 @@ export const irishGuide = {
       { original: "bhfuil", transliteration: "approximately /wɪlʲ/ or regional equivalent", translation: "is; are (dependent form)", note: "In an bhfuil…? the written bhf represents eclipsed f; the b is not sounded separately." },
       { original: "oíche", transliteration: "approximately EE-huh / EE-khuh by dialect", translation: "night", note: "The long initial vowel and final slender consonant vary regionally; use Teanglann's three-dialect audio." },
       { original: "ainm", transliteration: "approximately AN-im", translation: "name", note: "Many speakers insert a vowel in the difficult nm cluster, although no extra vowel is written." },
-      { original: "Gaeilge", transliteration: "roughly GWAYL-guh, GAEL-ig, or regional equivalent", translation: "Irish language", note: "The autonym itself is a compact demonstration of dialect variation; Gaeilge, Gaolainn, and Gaeilig may all be encountered." }
+      { original: "Gaeilge", transliteration: "pronunciation varies by region; hear the recorded dialects", translation: "Irish language", note: "The name itself varies: you may hear Gaeilge, Gaolainn, or Gaeilig. Use regional audio before choosing a pronunciation." }
     ]
   },
   writing: {
     overview: cited(
-      "Modern Irish uses Roman type and the acute accent called the síneadh fada. Older printed books commonly use Gaelic type, whose letterforms can initially look like another alphabet but encode Latin letters. Traditional lenition was marked by a dot above a consonant; modern spelling normally follows it with h, so a dotted b corresponds to bh. Ogham matters historically and culturally but is not the everyday script of modern Irish. Literacy therefore requires three modest extensions to familiar Latin letters: reliable fadas, mutation spelling, and enough palaeographic confidence to recognize older type.",
+      "Modern Irish uses the Latin alphabet. An acute accent called the síneadh fada marks a long vowel, as in bád, “boat.” Keep it when you type capitals too: Éire, not Eire.\n\nOlder printed books may use Gaelic type, which shapes familiar Latin letters differently. Writers once marked lenition with a dot over a consonant; modern spelling usually adds h instead, as in bh. Ogham belongs to early inscriptions, not everyday modern writing.",
       "wiki-orthography",
-      "wiki-orthography"
+      "caighdean"
     ),
     primaryScript: "Latin alphabet; older Gaelic type and historical ogham appear in cultural and scholarly contexts",
     romanization: cited("Irish does not need a separate romanization because it is already written in the Latin alphabet. English-style pronunciation respellings are temporary aids at best: they conceal broad/slender distinctions and become misleading across dialects.", "wiki-orthography"),
     spellingNorms: cited(
-      "The spelling principle caol le caol agus leathan le leathan requires vowels on either side of a consonant group to agree in signalling slenderness (e/i) or broadness (a/o/u). Morphological boundaries and historical spelling complicate the rule, but it explains forms such as bád and báid. Prefix letters used for eclipsis remain lowercase in ordinary title capitalization, and fadas should survive capitals: Éire, not Eire. The official standard simplified many pre-reform spellings, so older texts and dialect writing may present unfamiliar forms without being careless.",
+      "Vowels beside a consonant group usually agree about its quality: e and i signal slenderness, while a, o, and u signal broadness. Compare bád with báid: the i signals that the final d changes quality.\n\nHistorical spellings and word boundaries complicate that rule. The official standard also simplified many older forms, so a book printed before the reform may spell a familiar word differently. Keep fadas when you search or write.",
       "caighdean",
-      "wiki-orthography",
       "wiki-orthography"
     ),
     styleNotes: [
@@ -188,23 +187,23 @@ export const irishGuide = {
   },
   grammar: {
     overview: cited(
-      "Irish grammar is less a set of exotic exceptions than a network of recurring relationships. The default clause begins with a verb; nouns have gender and case remnants; prepositions fuse with pronouns; and the first sound of a word changes to show its environment. The language often divides meanings differently from English: possession is “at” someone, a feeling may be “on” someone, and knowing a fact versus knowing a person uses different constructions. These patterns become manageable when learned as contrasting sentences with audio.",
+      "An Irish sentence often begins with a verb. Other small patterns do much of the work: a word's first sound may change, and a preposition may join a pronoun.\n\nTá carr agam means “I have a car,” but literally places the car “at me.” Tá ocras orm puts hunger “on me.” Learn these as whole expressions with audio, then notice how the same pieces turn up elsewhere.",
       "wiki-irish",
       "focloir"
     ),
     typologicalProfile: cited(
-      "Irish is primarily verb–subject–object (VSO): Léann Síle an leabhar, literally “Reads Síle the book.” It has two present-tense verbs conventionally translated as “be”: the substantive verb bí describes states and location, while the copula is classifies or identifies. Noun phrases place many adjectives after nouns, and possession normally uses prepositional structures rather than an independent verb “have.”",
+      "In Léann Síle an leabhar, “Síle reads the book,” the verb comes first. Grammarians call this verb–subject–object order.\n\nIrish uses forms of bí for many states and locations, as in Tá Síle anseo, “Síle is here.” A different short verb, the copula is, links identities or categories: Is múinteoir í Síle, “Síle is a teacher.” Many adjectives follow their nouns, and possession often uses ag, “at,” rather than a verb meaning “have.”",
       "wiki-irish",
       "maynooth-history"
     ),
     morphology: cited(
-      "Nouns distinguish masculine and feminine gender, singular and plural, and limited case forms; the article and a following adjective can reveal gender through mutation. Verbs combine tense or mood with independent and dependent forms selected by particles. Traditional synthetic endings encode the subject inside the verb, while analytic forms use separate pronouns, with distribution varying by dialect. Verbal nouns do work performed by English infinitives and participles. Mutation reaches across morphology and syntax, so a learner must know both the base word and its predictable contextual shapes.",
+      "Irish nouns have masculine or feminine gender, plural forms, and some case changes. An article or adjective may reveal a noun's gender by changing its first sound.\n\nVerbs change for tense and sometimes for the little words before them. Some verb endings already show who acts; other forms use a separate pronoun, and dialects differ in which they favor. A verbal noun can express an ongoing action, as in ag caint, “talking.”\n\nLearn a base word beside the forms you actually hear. A dictionary entry alone will not prepare you to recognize it after a mutation.",
       "wiki-mutations",
       "focloir",
       "teanglann"
     ),
     syntax: cited(
-      "A finite verb normally leads the clause, followed by subject and complements. Negatives, questions, relative clauses, and subordinate clauses introduce particles that may select a dependent verb form and trigger mutation. There are no universal standalone equivalents of English yes and no: speakers answer by repeating the appropriate verb, as in An dtuigeann tú? Tuigim / Ní thuigim, “Do you understand? I understand / I do not understand.” Focus constructions with the copula allow a speaker to foreground who, what, or where without forcing English order onto Irish.",
+      "The verb normally leads a statement, followed by the subject. Questions and negatives put a small word before the verb; that word can change the verb's form or first sound.\n\nIrish speakers usually answer a yes-or-no question by repeating the verb.\n\nAsk An dtuigeann tú? Answer Tuigim, “I do,” or Ní thuigim, “I don't.” The copula also lets speakers put special focus on a person, thing, or place.",
       "wiki-irish",
       "wiki-mutations",
       "focloir"
@@ -220,49 +219,49 @@ export const irishGuide = {
     topics: [
       {
         title: "Verb-first clauses",
-        body: cited("The neutral order begins with the finite verb. This is not merely literary: everyday sentences such as Chonaic mé é “I saw him/it” place the past verb before the subject mé. Train comprehension by locating the verb and its polarity first, then the subject.", "wiki-irish", "focloir"),
+        body: cited("Irish often puts the verb first, even in everyday speech. Chonaic mé é means “I saw him” or “I saw it”: Chonaic is the past verb, and mé is the subject. Find the verb first when you listen, then ask who did the action.", "wiki-irish", "focloir"),
         example: "Léann Aoife an nuacht gach maidin.",
         exampleTranslation: "Aoife reads the news every morning. (Literally: Reads Aoife the news every morning.)"
       },
       {
         title: "The substantive verb and the copula",
-        body: cited("Tá answers where or how: Tá Nóra sa bhaile “Nóra is at home.” Is links identity or class: Is múinteoir í Nóra “Nóra is a teacher.” English “is” hides this division, so learn paired situations. The copula has its own negative and past/conditional forms and is not simply another conjugation of bí.", "focloir", "teanglann"),
-        example: "Tá an caife te, ach is caife maith é.",
+        body: cited("Tá tells you a state or place: Tá Nóra sa bhaile means “Nóra is at home.” The copula is puts someone in a category: Is múinteoir í Nóra means “Nóra is a teacher.” Learn the two kinds of sentence side by side; the copula also has its own negative and past forms.", "focloir", "teanglann"),
+        example: "Tá an caife te agus is caife maith é.",
         exampleTranslation: "The coffee is hot, and it is good coffee."
       },
       {
         title: "Lenition and eclipsis",
-        body: cited("Mutation marks grammatical context at the word's beginning. Mo lenites: mo bhróg “my shoe.” Ár eclipses: ár mbróg “our shoe.” The article, numbers, particles, and prepositions create further patterns. Rather than memorizing one giant table, store a trigger with several useful nouns and notice the sound as well as the spelling.", "wiki-mutations", "teanglann"),
+        body: cited("Irish marks some grammatical relationships by changing a word's beginning. Mo bhróg means “my shoe,” with lenition after mo; ár mbróg means “our shoe,” with eclipsis after ár. Learn each trigger with a few nouns, and listen for the change as well as reading it.", "wiki-mutations", "teanglann"),
         example: "Tá mo bhád in aice lenár mbád.",
         exampleTranslation: "My boat is beside our boat."
       },
       {
         title: "Prepositional pronouns",
-        body: cited("A preposition and pronoun fuse into a single form: le + mé becomes liom “with me,” and ag + mé becomes agam “at me.” These forms express core meanings, not decorative idioms. Tá carr agam means “I have a car”; Is maith liom é means “I like it”; Tá ocras orm says hunger is “on me.”", "focloir", "teanglann"),
+        body: cited("Irish can join a preposition to a pronoun: le plus mé becomes liom, “with me,” and ag plus mé becomes agam, “at me.” Tá carr agam means “I have a car,” and Is maith liom é means “I like it.” In Tá ocras orm, “I'm hungry,” hunger is “on me.”", "focloir", "teanglann"),
         example: "Tá dhá cheist agam agus tá cabhair uaim.",
         exampleTranslation: "I have two questions and I need help. (Literally: two questions are at me and help is from me.)"
       },
       {
         title: "Verbal nouns",
-        body: cited("The verbal noun appears after ag for an activity in progress: Tá siad ag caint “They are talking.” After another verb, ownership and word order matter: Ba mhaith liom Gaeilge a fhoghlaim “I would like to learn Irish.” Each verbal noun has lexical details, including its genitive and complements, so learn it with a sentence rather than as an English infinitive.", "focloir", "teanglann"),
+        body: cited("To describe an action underway, Irish often puts ag before a verbal noun: Tá siad ag caint means “They're talking.” The same form appears in other patterns, including Ba mhaith liom Gaeilge a fhoghlaim, “I'd like to learn Irish.” Learn each verbal noun in a sentence so you also learn where its object goes.", "focloir", "teanglann"),
         example: "Bhí na páistí ag léamh an scéil.",
         exampleTranslation: "The children were reading the story."
       },
       {
         title: "Questions and short answers",
-        body: cited("Irish normally answers a yes/no question by echoing its verb in a positive or negative form. This makes tense and person part of the answer. An mbeidh tú ann? Beidh / Ní bheidh, “Will you be there? I will / I will not.” Memorized sea and ní hea belong primarily to copular questions, not every situation.", "focloir", "wiki-irish"),
+        body: cited("Irish usually answers a yes-or-no question by repeating its verb.\n\nAsk An mbeidh tú ann? Answer Beidh, “I will,” or Ní bheidh, “I won't.” Sea and ní hea answer some questions built with the copula; they do not replace every yes and no.", "focloir", "wiki-irish"),
         example: "Ar chuala tú an clár? Chuala. / Níor chuala.",
         exampleTranslation: "Did you hear the programme? Yes, I did. / No, I didn't."
       },
       {
         title: "Gender inside the noun phrase",
-        body: cited("Gender can alter the article, mutation, adjective, and genitive phrase. Bean “woman” is feminine, producing an bhean “the woman,” while fear “man” is masculine, an fear. Dialects and lexical exceptions matter, but article-plus-noun chunks make gender audible instead of an abstract label.", "focloir", "teanglann"),
+        body: cited("A noun's gender can change the article, the noun's first sound, or an adjective. Feminine bean, “woman,” becomes an bhean, “the woman”; masculine fear, “man,” becomes an fear. Learn the article and noun together so gender has a sound you can remember.", "focloir", "teanglann"),
         example: "Chonaic mé an bhean óg agus an fear óg.",
         exampleTranslation: "I saw the young woman and the young man."
       },
       {
         title: "Possession and the genitive",
-        body: cited("Two nouns can form a genitive relationship, traditionally with the possessor second: doras an tí “the door of the house.” Modern usage varies in how fully complex phrases mark the genitive, and the standard, dialects, and spontaneous speech do not always align. Read edited examples before constructing long official-sounding compounds.", "caighdean", "focloir"),
+        body: cited("Doras an tí means “the door of the house.” The second noun changes form to show the relationship; grammarians call this the genitive. Longer phrases vary in writing and speech, so check an edited example before building one yourself.", "caighdean", "focloir"),
         example: "Tá doras an tí oscailte.",
         exampleTranslation: "The door of the house is open."
       }
@@ -270,24 +269,24 @@ export const irishGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Place changes what “speaking Irish” means. A Gaeltacht is a legally designated area, not a guarantee that every resident uses Irish daily. Census 2022 found growth in Gaeltacht population but a fall to 66 percent in the proportion reporting Irish ability; daily use among those speakers was 31 percent. Strong networks persist, yet housing, commuting, tourism, and English-dominant institutions can reduce the situations in which Irish is the easy default. Beyond the Gaeltacht, communities use Irish in education, media, arts, work, and friendship; diaspora groups have a different ecology again.",
+      "A Gaeltacht is an officially designated area, not a promise that every resident speaks Irish each day. In the 2022 census, 65,156 of 102,973 Gaeltacht residents aged three or older reported that they could speak Irish; 20,261 of those speakers said they used it daily.\n\nLocal networks still matter, but a family's opportunities to use Irish can change with housing, work, travel, and English-language services. Outside the Gaeltacht, people form other networks through schools, media, arts, and friendships. Diaspora learners face a different mix of distance and online access.",
       "cso-2022",
-      "foras"
+      "foras-community"
     ),
     regions: [
-      { place: "County Galway and the Aran Islands", note: cited("Conamara contains the largest concentration of daily Gaeltacht use and a powerful media and literary infrastructure. The Aran Islands preserve distinct speech, while Galway city supports both Gaeltacht-linked and urban networks.", "cso-2022", "rte-rnag") },
-      { place: "County Donegal", note: cited("The Gaoth Dobhair, Cloich Cheann Fhaola, and Na Rosa area sustains major Ulster Irish communities, music, schooling, and media. Its speech should be heard directly rather than treated as a list of deviations from a southern norm.", "cso-2022", "teanglann") },
+      { place: "County Galway and the Aran Islands", note: cited("Galway County has the largest number of daily Gaeltacht speakers in the 2022 census. Conamara and the Aran Islands have different local speech, while Galway city links Gaeltacht and urban speakers.", "cso-2022", "wiki-irish") },
+      { place: "County Donegal", note: cited("Gaoth Dobhair, Cloich Cheann Fhaola, and Na Rosa support Ulster Irish communities. Listen to local recordings before treating an unfamiliar form as an error.", "cso-2022", "teanglann") },
       { place: "Kerry, Cork, and Waterford", note: cited("Corca Dhuibhne, Uíbh Ráthach, Múscraí, and An Rinn represent distinct Munster traditions. Community density and daily use vary sharply even within legal Gaeltacht boundaries.", "cso-2022") },
-      { place: "Mayo and Meath", note: cited("Mayo retains historically rooted Connacht varieties; the Meath Gaeltacht communities of Ráth Chairn and Baile Ghib were established in the twentieth century by families from Conamara and developed their own local institutions.", "wiki-irish", "cso-2022") },
-      { place: "Belfast and Northern Ireland", note: cited("Irish-medium education, the Shaw's Road community, arts organizations, classes, and neighbourhood initiatives sustain a growing public network. Language politics matter, but ordinary speakers' educational, family, and creative lives cannot be reduced to a constitutional position.", "foras") },
-      { place: "Dublin and other cities", note: cited("Large numbers of learners and fluent speakers create schools, families, professional networks, media, festivals, and social spaces outside designated Gaeltacht areas. Urban Irish is a social reality, not one homogeneous accent.", "cso-2022", "tuairisc") },
-      { place: "Diaspora", note: cited("Universities, cultural centres, online groups, and family networks support Irish in Britain, North America, Australia, and elsewhere. Diaspora learning is strongest when it connects to current speakers and media rather than reenacting a timeless “Gaelic” past.", "foras", "dcu-learn") }
+      { place: "Mayo and Meath", note: cited("Mayo has its own Connacht varieties. Families from Conamara founded the Meath Gaeltacht communities of Ráth Chairn and Baile Ghib in the twentieth century.", "wiki-irish", "cso-2022") },
+      { place: "Belfast and Northern Ireland", note: cited("Irish-medium education, classes, arts groups, and community language plans give speakers places to use Irish. Foras na Gaeilge has supported Irish Language Network planning in Belfast.", "foras-community") },
+      { place: "Dublin and other cities", note: cited("Families, schools, work groups, festivals, and media bring Irish speakers together outside the Gaeltacht. City speakers have varied accents and learning histories.", "foras-community", "varieties-focloir") },
+      { place: "Diaspora", note: cited("Irish speakers and learners also meet through classes, families, and online groups outside Ireland. A course can provide structure; current radio and conversation partners help you hear how the language is used today.", "wiki-irish", "dcu-learn") }
     ]
   },
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "Irish is demanding for an English-speaking learner because familiar letters conceal a different sound organization and because grammar operates at word beginnings as well as endings. Yet the system is learnable: spelling carries information, high-frequency sentence frames recur constantly, and excellent free dictionaries provide dialect audio. There is no reliable universal number of hours to fluency. Someone reclaiming school Irish, a linguist reading Old Irish, and a beginner aiming for relaxed Gaeltacht conversation have different starting points and destinations.",
+      "Irish asks an English-speaking learner to hear broad and slender consonants and notice changes at the beginnings of words. Its spelling gives clues once you know what to look for, and free dictionaries let you compare regional audio.\n\nYour workload depends on the goal. Someone returning to school Irish, someone reading Old Irish, and someone hoping to chat comfortably with Gaeltacht speakers need different practice. Count conversations and texts you can understand rather than trusting a universal hour estimate.",
       "teanglann",
       "focloir"
     ),
@@ -315,7 +314,7 @@ export const irishGuide = {
       "Collecting decontextualized “untranslatable” words instead of reading and listening"
     ],
     workload: cited(
-      "Pair a structured course with ten minutes of one-dialect audio daily. Automate questions, negatives, possession, and frequent prepositional-pronoun phrases before tackling every mutation table. At intermediate level, transcribe and retell short clips and meet the same speakers regularly. Advanced work should rotate among radio, edited prose, dialect literature, corpus searches, and feedback. Frequency matters more than heroic weekend sessions.",
+      "Pair a course with a short recording from one dialect each day. Practice questions, negatives, possession, and forms such as agam and liom before memorizing every mutation rule.\n\nWhen you can follow a conversation, transcribe a short clip and retell it aloud. Later, move among radio, edited prose, regional literature, corpus searches, and feedback from speakers. Regular contact will help more than an occasional long session.",
       "dcu-learn",
       "teanglann",
       "rte-rnag"
@@ -323,28 +322,28 @@ export const irishGuide = {
   },
   advancedLearning: {
     strategy: cited(
-      "Build one productive dialect and receptive familiarity with all three regions. Follow a course rooted in one place so pronunciation and common forms cohere, while sampling Ulster, Connacht, and Munster weekly. Label examples by place, speaker, register, and source. Record and transcribe a two-minute account, check uncertain phrases in the corpus, and ask which correction sounds natural rather than merely possible.",
+      "Choose one region for the Irish you speak first. A course and regular speakers from that region will help your sounds and common phrases settle together. Listen to Ulster, Connacht, and Munster clips too, so other voices do not surprise you.\n\nRecord a short account of your day and compare it with a native recording. Check uncertain phrases in a corpus, then ask a speaker which version sounds natural in that situation. Note the region and setting beside expressions you want to reuse.",
       "teanglann",
       "corpas",
       "dcu-learn"
     ),
     mediaPractice: cited(
-      "TG4 offers drama, documentary, sport, children's programming, and news. Raidió na Gaeltachta is indispensable for regional unscripted speech; begin with a recurring presenter and familiar topic. Tuairisc.ie supplies journalism and commentary. Use subtitles in three passes: understand the scene, mine five reusable phrases, then replay without text. Songs deepen cultural listening but stretch timing and syntax, so do not make a lyric your only conversational model.",
+      "Watch a TG4 programme about a subject you already know, then replay one scene with subtitles. Write down a few phrases that fit your own life and listen again without reading.\n\nRaidió na Gaeltachta gives you regional voices in interviews and community programmes. Follow one presenter for several weeks so you can hear their habits. Tuairisc.ie offers daily journalism once learner texts feel too controlled; songs add another kind of listening, but their timing differs from ordinary conversation.",
       "tg4",
       "rte-rnag",
       "tuairisc"
     ),
     dictionariesAndCorpora: cited(
-      "Foclóir.ie is strongest from English toward contemporary Irish and provides examples and grammar support. Teanglann.ie combines the Ó Dónaill Irish–English dictionary, de Bhaldraithe English–Irish dictionary, and grammatical database, with recordings from three major dialects. Nua-Chorpas na hÉireann lets advanced users inspect real fiction, journalism, official writing, and other genres. Search a base form and its mutations; then read several lines around each result before copying it. A corpus reports usage, not automatic correctness or suitability for your conversation.",
+      "Use Foclóir.ie when you start with an English idea and need a contemporary Irish phrase. Teanglann.ie brings together older bilingual dictionaries, grammar lookup, and recordings from the three main dialect regions.\n\nNua-Chorpas na hÉireann lets you see how writers use a word in fiction, journalism, and official text. Search both its base form and mutated forms. Read the sentences around a result before borrowing it for speech; a corpus shows what people wrote, not what suits every conversation.",
       "focloir",
       "teanglann",
       "corpas"
     ),
     resources: [
-      { type: "course", title: "Learning Irish at DCU", url: "https://www.futurelearn.com/courses/irish-language", level: "beginner", description: cited("Dublin City University's online course introduces useful Irish through contemporary cultural contexts and provides a structured entry point for independent learners.", "dcu-learn") },
+      { type: "course", title: "Learning Irish at DCU", url: "https://www.futurelearn.com/courses/irish-language", level: "beginner", description: cited("Dublin City University's online course teaches beginner Irish through contemporary cultural topics. Its lesson sequence helps learners who need more structure than a phrase list.", "dcu-learn") },
       { type: "dictionary", title: "Teanglann.ie", url: "https://www.teanglann.ie/en/", level: "all", description: cited("A free dictionary and grammar hub whose most valuable learner feature is word audio from Ulster, Connacht, and Munster speakers.", "teanglann") },
       { type: "dictionary", title: "Foclóir.ie", url: "https://www.focloir.ie/", level: "all", description: cited("Foras na Gaeilge's modern English–Irish dictionary gives contextual translations, examples, and links into related grammatical resources.", "focloir") },
-      { type: "corpus", title: "Nua-Chorpas na hÉireann", url: "https://corpas.focloir.ie/", level: "advanced", description: cited("A searchable contemporary corpus spanning fiction, factual writing, journalism, and official material; useful for collocation and register checks.", "corpas") },
+      { type: "corpus", title: "Nua-Chorpas na hÉireann", url: "https://corpas.focloir.ie/", level: "advanced", description: cited("Search published Irish by word and context. Compare nearby words and genres before you copy a phrase into speech.", "corpas") },
       { type: "media", title: "TG4", url: "https://www.tg4.ie/", level: "all", description: cited("The Irish-language public-service broadcaster provides general-audience television, news, sport, children's programmes, and on-demand video.", "tg4") },
       { type: "media", title: "RTÉ Raidió na Gaeltachta", url: "https://www.rte.ie/radio/rnag/", level: "intermediate", description: cited("Live and on-demand radio offers sustained regional speech, interviews, music, news, and community coverage from Gaeltacht perspectives.", "rte-rnag") },
       { type: "media", title: "Tuairisc.ie", url: "https://tuairisc.ie/", level: "intermediate", description: cited("A current Irish-language news and analysis site that supplies daily reading beyond learner topics.", "tuairisc") }
@@ -352,7 +351,7 @@ export const irishGuide = {
   },
   wordsAndTexts: {
     overview: cited(
-      "Irish words are often marketed as relics of a misty worldview, but real usage is more interesting. Meaning changes with grammar, dialect, genre, irony, and speaker. Craic came from English and became emblematic of Irishness; dúchas can concern inheritance, place, or tradition without being “untranslatable.” Approach vocabulary as evidence of people making meanings, not a cabinet of national essences.",
+      "A word's meaning changes with its speaker and setting. Craic came from English crack and can mean fun, news, or a social occasion; dúchas can point to inherited identity, tradition, or a home place. Check a word in a full sentence before putting it on a list of supposed untranslatables.",
       "teanglann",
       "corpas"
     ),
@@ -361,13 +360,13 @@ export const irishGuide = {
       { term: "meitheal", meaning: "cooperative work group; collective effort", note: cited("Traditionally associated with neighbours joining for farm work, it now productively names teams, organizations, and collaborative action. It is cultural vocabulary that remains available for new settings.", "teanglann", "corpas") },
       { term: "craic", meaning: "fun, news, entertainment, social goings-on", note: cited("Borrowed from English crack, naturalized in Irish, and later popularized in Irish English. Cad é an craic? asks what is happening as much as whether something is amusing.", "teanglann", "corpas") },
       { term: "grá", meaning: "love", note: cited("A short everyday noun with broad cultural reach. Tá grá agam duit expresses love through a construction literally involving love “at me” for you.", "focloir", "teanglann") },
-      { term: "fios", meaning: "knowledge, information, awareness", note: cited("Irish distinguishes constructions: Tá a fhios agam means “I know [a fact],” literally “its knowledge is at me.” This noun unlocks a more useful sentence pattern than a one-word gloss suggests.", "focloir", "teanglann") },
+      { term: "fios", meaning: "knowledge, information, awareness", note: cited("Tá a fhios agam means “I know [a fact],” literally “its knowledge is at me.” Learn the whole phrase: a one-word gloss will not show you how to say you know something.", "focloir", "teanglann") },
       { term: "scéal", meaning: "story, account, news, situation", note: cited("The plural scéalta covers stories, while Cad é an scéal? can work as “What's the story/what's happening?” Context ranges from oral narrative to journalism and casual greeting.", "teanglann", "corpas") },
-      { term: "muintearas", meaning: "kinship, affinity, belonging among people", note: cited("Especially resonant in community discussion, but not a magical untranslatable. Corpus context shows whether the emphasis is family connection, neighbourliness, or social intimacy.", "teanglann", "corpas") },
+      { term: "muintearas", meaning: "kinship, affinity, belonging among people", note: cited("A speaker may use this word for family connection, neighbourliness, or closeness in a community. Read the surrounding sentence to see which meaning they intend.", "teanglann", "corpas") },
       { term: "misneach", meaning: "courage, spirit, confidence", note: cited("Used in ordinary encouragement and as the name of activist initiatives. The phrase Misneach! can urge someone to take heart.", "teanglann", "corpas") }
     ],
     loanwordLayers: cited(
-      "Latin learned loans sit beside Norse maritime vocabulary, Anglo-Norman terms, and centuries of English contact. Technical Irish uses international borrowings, compounds, and planned terminology: ríomhaire “computer” relates to ríomh “calculation,” while idirlíon “internet” evokes an inter-network. Speakers do not select by etymological purity; corpus evidence distinguishes an available official term from what a genre actually prefers.",
+      "Irish vocabulary carries Latin, Norse, Anglo-Norman, and English contact. Technical writers also create terms: ríomhaire, “computer,” relates to ríomh, “calculation,” while idirlíon means “internet.” Check a corpus to see whether people use an official term in the kind of text you plan to write.",
       "focloir",
       "corpas",
       "foras"
@@ -391,23 +390,23 @@ export const irishGuide = {
   },
   relationships: {
     overview: cited(
-      "Irish belongs to Goidelic with Scottish Gaelic and Manx; Welsh, Breton, and Cornish are Brittonic. “Celtic” names historical descent, not a single modern language or personality. Centuries of contact with English, Latin, Norse, and French explain social patterns and vocabulary that genealogy alone cannot.",
+      "Irish, Scottish Gaelic, and Manx belong to the Goidelic branch of Celtic. Welsh, Breton, and Cornish belong to the other living branch, Brittonic. Their shared ancestry does not make them mutually understandable today.\n\nEnglish, Latin, Norse, and French left traces through contact, too. A borrowed word shows a meeting between speakers; it does not move Irish into another language family.",
       "glottolog",
       "wiki-irish",
       "wiki-history"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Irish culture in Irish is not confined to folklore. It includes Gaeltacht family life, local knowledge, experimental novels, comedy, sport, queer art, political disagreement, children's television, hip-hop, science, memes, and bureaucracy. Revitalization is material: a language needs affordable homes, community-connected schools, workplaces, services, friendships, and leisure—not only status. Learners can pay teachers and creators, buy books, attend events for their substance, respect dialect expertise, and continue after an awkward reply. Do not ask a native speaker to perform authenticity or settle national politics; become a participant whose interests happen through Irish.",
+  culturalNotes: "People use Irish for family life, work, sport, news, comedy, children's television, novels, music, and political disagreement. If you mainly know folk songs or school exercises, follow a current creator or broadcaster to hear what people discuss today.\n\nA language also needs places where families and friends can use it regularly. Housing, schools, jobs, services, and local clubs affect that opportunity. As a learner, you can pay teachers, buy books, attend events for their content, and respect the regional knowledge of the people you meet.",
   resources: [
     { type: "course", title: "Learning Irish at DCU", url: "https://www.futurelearn.com/courses/irish-language", level: "beginner", description: cited("A structured online introduction created by Dublin City University, linking language to contemporary Irish culture.", "dcu-learn") },
-    { type: "dictionary", title: "Teanglann.ie", url: "https://www.teanglann.ie/en/", level: "all", description: cited("Dictionaries, grammar lookup, and exceptionally useful pronunciation recordings from the three major dialect regions.", "teanglann") },
+    { type: "dictionary", title: "Teanglann.ie", url: "https://www.teanglann.ie/en/", level: "all", description: cited("Dictionaries, grammar lookup, and pronunciation recordings from the three major dialect regions.", "teanglann") },
     { type: "dictionary", title: "Foclóir.ie", url: "https://www.focloir.ie/", level: "all", description: cited("The modern English–Irish dictionary from Foras na Gaeilge, with contextual equivalents and examples.", "focloir") },
-    { type: "corpus", title: "Nua-Chorpas na hÉireann", url: "https://corpas.focloir.ie/", level: "advanced", description: cited("A broad searchable corpus for testing collocations, constructions, spelling variants, and genre differences.", "corpas") },
+    { type: "corpus", title: "Nua-Chorpas na hÉireann", url: "https://corpas.focloir.ie/", level: "advanced", description: cited("Compare a word's neighbors in published writing. The genre and surrounding sentences help you decide whether a phrase fits your own text.", "corpas") },
     { type: "media", title: "TG4", url: "https://www.tg4.ie/", level: "all", description: cited("Television and on-demand Irish-language drama, documentary, sport, news, children's content, and entertainment.", "tg4") },
-    { type: "media", title: "RTÉ Raidió na Gaeltachta", url: "https://www.rte.ie/radio/rnag/", level: "intermediate", description: cited("The essential radio source for long-form Gaeltacht voices, regional news, interviews, music, and live conversation.", "rte-rnag") },
+    { type: "media", title: "RTÉ Raidió na Gaeltachta", url: "https://www.rte.ie/radio/rnag/", level: "intermediate", description: cited("Hear Gaeltacht voices in regional news, interviews, music, and community discussion. Choose a familiar programme before tackling faster live conversation.", "rte-rnag") },
     { type: "media", title: "Tuairisc.ie", url: "https://tuairisc.ie/", level: "intermediate", description: cited("Daily journalism, analysis, opinion, and cultural coverage written for Irish readers rather than as graded study material.", "tuairisc") },
-    { type: "other", title: "Téarma.ie", url: "https://www.tearma.ie/", level: "intermediate", description: cited("Foras na Gaeilge's terminology database is particularly useful for technical, professional, and institutional vocabulary.", "foras") }
+    { type: "other", title: "Téarma.ie", url: "https://www.tearma.ie/", level: "intermediate", description: cited("Foras na Gaeilge's terminology database helps with technical, professional, and institutional vocabulary.", "foras") }
   ],
   relatedLanguages,
   phrases: [
@@ -430,8 +429,10 @@ export const irishGuide = {
   ],
   sources: [
     { id: "cso-2022", title: "Census of Population 2022 Profile 8: Irish Language and the Gaeltacht", url: "https://www.cso.ie/en/releasesandpublications/ep/p-cpp8/censusofpopulation2022profile8-theirishlanguageandeducation/irishlanguageandthegaeltacht/", publisher: "Central Statistics Office, Ireland", publishedAt: "2023-12-19", accessedAt: "2026-07-10" },
-    { id: "foras", title: "Foras na Gaeilge", url: "https://www.forasnagaeilge.ie/", publisher: "Foras na Gaeilge", accessedAt: "2026-07-10" },
-    { id: "caighdean", title: "An Caighdeán Oifigiúil", url: "https://www.gov.ie/en/department-of-the-taoiseach/publications/an-caighdean-oifigiuil/", publisher: "Department of the Taoiseach", updatedAt: "2017", accessedAt: "2026-07-10" },
+    { id: "foras", title: "Lexicography and Terminology", url: "https://www.forasnagaeilge.ie/about-foras-na-gaeilge/lexicography-and-terminology/?lang=en", publisher: "Foras na Gaeilge", accessedAt: "2026-09-27" },
+    { id: "foras-community", title: "Community Support", url: "https://www.forasnagaeilge.ie/support/community-support/?lang=en", publisher: "Foras na Gaeilge", accessedAt: "2026-09-27" },
+    { id: "caighdean", title: "An Caighdeán Oifigiúil, 2017", url: "https://www.oireachtas.ie/en/how-parliament-is-run/houses-of-the-oireachtas-service/rannog-an-aistriuchain/", publisher: "Houses of the Oireachtas", publishedAt: "2017", accessedAt: "2026-09-27" },
+    { id: "varieties-focloir", title: "Varieties of Irish", url: "https://www.focloir.ie/en/additional-resources", publisher: "Foras na Gaeilge", publishedAt: "2020", accessedAt: "2026-09-27" },
     { id: "focloir", title: "Foclóir.ie: New English–Irish Dictionary", url: "https://www.focloir.ie/", publisher: "Foras na Gaeilge", updatedAt: "2025", accessedAt: "2026-07-10" },
     { id: "teanglann", title: "Teanglann.ie: Dictionary and Language Library", url: "https://www.teanglann.ie/en/", publisher: "Foras na Gaeilge", accessedAt: "2026-07-10" },
     { id: "corpas", title: "Nua-Chorpas na hÉireann", url: "https://corpas.focloir.ie/", publisher: "Foras na Gaeilge", accessedAt: "2026-07-10" },
