@@ -559,7 +559,7 @@ This is the recommended next expansion set. It balances learner demand, global a
 
 ### Wave 1: widely learned European languages
 
-1. Spanish — drafted 2026-09-27; Cloudflare Pages publishing test pending live verification
+1. Spanish — published 2026-09-27; Cloudflare Pages release and live verification passed
 2. French
 3. German
 4. Portuguese

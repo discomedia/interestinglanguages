@@ -24,6 +24,8 @@ for (const route of routes) {
 const robots = await readFile(join(dist, "robots.txt"), "utf8");
 assert.ok(robots.includes(`${site}/sitemap.xml`), "Robots file points to the wrong sitemap");
 await stat(join(dist, "_headers"));
+const notFound = await readFile(join(dist, "404.html"), "utf8");
+assert.ok(notFound.includes("We couldn't find that page."), "Missing static 404 page");
 for (const serverFile of ["_worker.js", "functions", "server"]) {
   await assert.rejects(stat(join(dist, serverFile)), { code: "ENOENT" });
 }
