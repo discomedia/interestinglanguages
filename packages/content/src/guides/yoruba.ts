@@ -46,30 +46,30 @@ export const yorubaGuide = {
   autonym: "Èdè Yorùbá",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Yoruba is a major West African tone language whose compact grammar carries extraordinary expressive range through pitch, serial verbs, focus, proverbs, praise poetry, film, music, print, and everyday multilingual conversation.",
+  summary: "Yoruba is a widely spoken West African language with three tones. Speakers use it across Nigeria, Benin, Togo, and diasporas in conversation, print, film, music, and religious life.",
   family: "Niger–Congo, Atlantic–Congo, Volta–Niger, Yoruboid",
   macroRegion: "West Africa and global Yoruba diasporas",
   primaryScript: "Latin alphabet with vowel and tone diacritics",
   difficultyLabel: "Demanding",
-  learnerHook: "Yoruba teaches you to hear meaning in melody: a small set of syllable shapes becomes names, jokes, arguments, songs, prayers, market talk, and poetry when tone and context are doing their full share of the work.",
+  learnerHook: "Hear how high, middle, and low tones change Yoruba words, then follow those words into greetings, stories, films, and everyday conversation.",
   hero: {
     imageAlt: "Fully marked Yoruba text alongside contemporary books and media, showing tone marks and underdotted letters.",
     callToActionLabel: "Hear Yoruba in use"
   },
   classification: "A Yoruboid language within Volta–Niger; older literature often uses the broader label Defoid",
-  speakerCommunity: "Yoruba is spoken most densely in southwestern Nigeria and across adjoining parts of Benin and Togo, with substantial communities elsewhere in Nigeria and around the world. Published totals vary because sources count first-language speakers, second-language users, ethnic identity, and a dialect continuum differently; a cautious current shorthand is roughly fifty million speakers across categories rather than one falsely exact number. Yoruba is used at home, in markets, schools, churches and mosques, traditional religious practice, radio, television, film, publishing, music, comedy, and social media. Many speakers move among Yoruba, English, Nigerian Pidgin, French, or neighboring languages. In Brazil, Cuba, Trinidad and Tobago, the United States, and elsewhere, Yoruba-derived ritual vocabulary and cultural forms also live in communities whose ordinary language may not be conversational Yoruba.",
+  speakerCommunity: "Most Yoruba speakers live in southwestern Nigeria, with communities in Benin and Togo and across the world. A 2023 language profile estimates more than 50 million first-language speakers and more than 5 million additional-language users. Counts differ with survey year, varieties included, and how people report their language.\n\nPeople use Yoruba at home, in markets, worship, schools, broadcasting, film, music, and online. Many also speak English, Nigerian Pidgin, French, or another regional language. In the Atlantic diaspora, Yoruba-derived songs and ritual words have their own histories; knowing them does not necessarily mean speaking conversational Yoruba.",
   facts: [
     { label: "Family", value: "Niger–Congo · Atlantic–Congo · Volta–Niger · Yoruboid" },
     { label: "Core area", value: "Southwestern Nigeria, Benin, and Togo" },
-    { label: "Speaker scale", value: "Roughly 50 million across L1/L2 estimates; definitions differ" },
+    { label: "Speaker scale", value: "More than 50 million first-language speakers in a 2023 profile; estimates vary" },
     { label: "Tone", value: "High, mid, and low; tone is lexical and grammatical" },
     { label: "Standard", value: "Standard Yoruba, historically shaped by Oyo/Ibadan speech and print practice" },
     { label: "Writing", value: "Latin alphabet with ẹ, ọ, ṣ and acute/grave tone marks" }
   ],
-  learnerOverview: "Start by treating every new word as a short melody, not an unaccented string of letters. Write Yorùbá, not Yoruba, and record a voice model beside your notes. High tone takes an acute accent, low tone a grave, and mid is normally unmarked: ọkọ can represent different words once its tones are supplied. At the same time, learn useful whole exchanges. Ẹ káàárọ̀ is a respectful or plural ‘good morning’; Káàárọ̀ is familiar. Mo ń kọ́ Yorùbá means ‘I am learning Yoruba,’ where ń marks an action in progress. Standard Yoruba gives access to courses, literacy, news, and speakers across regions, but it should be paired with a real person or media community. An Ibadan tutor, an Ekiti family, and a Lagos comedy sketch will not sound identical. The aim is not to eliminate that diversity; it is to know which forms you are hearing and to avoid an accidental mixture that belongs nowhere.",
+  learnerOverview: "High tone takes an acute mark, low tone a grave, and middle tone usually goes unmarked. Write Yorùbá with its marks and keep a speaker recording beside each new phrase. An unmarked word such as ọkọ can stand for several words once its tones are supplied.\n\nStart with short exchanges. Ẹ káàárọ̀ says “good morning” with a respectful or plural “you,” while Mo ń kọ́ Yorùbá means “I am learning Yoruba.” In the second phrase, ń helps show that the action is in progress.\n\nStandard Yoruba gives you books, classes, and news across regions. Learn it with someone whose speech you can listen to regularly, then note where their local forms differ from a textbook. An Ibadan tutor, an Ekiti family, and a Lagos comedy sketch need not sound alike.",
   origins: {
     overview: cited(
-      "Yoruba belongs to the Yoruboid branch of Volta–Niger within the large Niger–Congo family. ‘Defoid’ appears frequently in older classifications, formed from Èdè, Ifẹ̀, and a wider proposed grouping, but narrower modern classifications often use Yoruboid without treating every older Defoid relationship as settled. Linguistic descent should not be collapsed into one migration legend. Yoruba-speaking societies developed through interconnected towns, kingdoms, trade routes, farms, and religious institutions, including but not limited to Ilé-Ifẹ̀, Ọ̀yọ́, Ìjẹ̀bú, Ẹ̀gbá, Ondo, and Ekiti histories. Oral accounts of Odùduwà and origins at Ilé-Ifẹ̀ carry profound political and cultural meaning; historical linguistics asks a different question, reconstructing earlier speech through systematic correspondences among languages and dialects.",
+      "Yoruba belongs to the Yoruboid branch of the Niger–Congo family. Older sources often use the wider label Defoid, but that name does not settle every proposed family relationship. Linguists compare regular sound and grammar patterns to trace earlier speech.\n\nYoruba-speaking societies grew through linked towns, trade, farming, kingdoms, and religious institutions. Ilé-Ifẹ̀, Ọ̀yọ́, Ìjẹ̀bú, Ẹ̀gbá, Ondo, and Ekiti each have histories. Accounts of Odùduwà and Ilé-Ifẹ̀ carry cultural and political meaning; they answer different questions from a linguistic family tree.",
       "glottolog-yoruba",
       "wiki-yoruba",
       "language-profiles"
@@ -87,7 +87,6 @@ export const yorubaGuide = {
         period: "18th–early 19th centuries",
         event: cited(
           "Atlantic enslavement carried Yoruba-speaking people and their neighbors to the Americas, while political conflict and the decline of the Oyo Empire reshaped communities within West Africa. The broad diaspora label ‘Lucumí’ in Cuba and Nagô in Brazil preserves histories of Yoruba-related identity, but their ritual languages should not be presented as unchanged modern Standard Yoruba.",
-          "wiki-yoruba",
           "wiki-yoruba"
         )
       },
@@ -118,13 +117,13 @@ export const yorubaGuide = {
       }
     ],
     contactHistory: cited(
-      "Yoruba has always lived in a multilingual neighborhood. Contact with Edoid, Igala, Nupe, Gbe, Hausa, and other languages accompanied trade, statecraft, war, religion, and migration. Arabic-origin vocabulary arrived especially through Islam, often by way of Hausa or other mediating languages. Portuguese contact contributed items associated with Atlantic goods; English later became dominant in colonial administration, schooling, technology, and much urban professional life. Contemporary speakers may alternate Yoruba with English or Nigerian Pidgin inside one conversation. Such code-switching can signal topic, humor, education, intimacy, or urban identity. It is not evidence that Yoruba lacks words or grammar.",
+      "Yoruba speakers have long met neighbors who use Edoid, Igala, Nupe, Gbe, Hausa, and other languages. Trade, religion, movement, and conflict brought words and practices across these communities. Arabic-origin words often arrived through Islamic learning and sometimes through Hausa.\n\nPortuguese contact added some Atlantic-era vocabulary. English later spread through colonial government and schooling. Today a speaker may shift between Yoruba, English, and Nigerian Pidgin to suit a topic, joke, or audience.",
       "wiki-yoruba",
       "uga-about",
       "language-profiles"
     ),
     standardization: cited(
-      "Standard Yoruba is associated chiefly with Oyo- and Ibadan-area features, modified by the history of mission print and later scholarship. It supports formal education, dictionaries, literature, and cross-regional media, yet no single academy controls every usage. Fully edited prose normally distinguishes e from ẹ, o from ọ, and s from ṣ and marks high and low tones. Informal digital Yoruba often drops some or all diacritics, producing strings a fluent reader resolves from context. Learners should not copy that omission too early: native readers bring lexical and grammatical knowledge that beginners do not yet possess.",
+      "Standard Yoruba draws strongly on Oyo- and Ibadan-area features and the history of mission print. Schools, dictionaries, literature, and cross-regional media use it. Local varieties still carry their own words and sound patterns.\n\nEdited writing distinguishes e from ẹ, o from ọ, and s from ṣ. It also marks high and low tones. Many informal messages omit some marks, but beginners should learn the marked forms before relying on context to fill them in.",
       "uga-about",
       "wiki-orthography",
       "diacritic-paper"
@@ -132,9 +131,8 @@ export const yorubaGuide = {
   },
   variants: {
     overview: cited(
-      "Yoruba is a dialect continuum: neighboring communities usually share many features, while differences accumulate over distance. Scholars group varieties in several ways, often distinguishing northwestern, central, and southeastern zones, but boundaries and names vary. Sound systems, tone patterns, vocabulary, pronouns, and small grammatical words all differ. Standard Yoruba gives speakers a shared written code, and mobility and media spread Lagos and other urban usages, but a standard-trained learner may still need time with fast Ìjẹ̀bú, Èkìtì, Ondo, Ìjẹ̀ṣà, or other local speech.",
+      "Nearby Yoruba-speaking communities often share many features, while differences grow across a wider area. Scholars describe several regional groupings, but the boundaries and names vary. Sound patterns, words, pronouns, and small grammatical forms all change from place to place.\n\nStandard Yoruba offers a shared written form. Lagos media also carries urban speech across regions. A learner who knows only the standard may still need time with fast Ìjẹ̀bú, Èkìtì, Ondo, or Ìjẹ̀ṣà speech.",
       "wiki-yoruba",
-      "uga-about",
       "uga-about"
     ),
     items: [
@@ -148,19 +146,19 @@ export const yorubaGuide = {
   },
   pronunciation: {
     overview: cited(
-      "Yoruba has seven oral vowel qualities in the standard—i, e, ẹ, a, ọ, o, u—and corresponding contrasts involving nasalization, though analyses and dialect inventories vary. Most syllables are a vowel alone, a consonant plus vowel, or a syllabic nasal. Standard native words generally avoid consonant clusters and final oral consonants. That open rhythm can feel accessible, but tone makes every syllable carry more information. The consonants written gb and p are especially notable: standard p commonly represents a voiceless labial-velar stop, while gb is its voiced counterpart, made with closures at the lips and velum nearly together rather than as English-style sequences.",
+      "Standard Yoruba has seven oral vowel qualities: i, e, ẹ, a, ọ, o, u. Many syllables consist of a vowel, a consonant and vowel, or a nasal that forms its own syllable. Native words generally avoid consonant clusters and final oral consonants.\n\nThe letters gb and p name sounds made with the lips and the back of the tongue nearly at once. They are labial-velar stops, not English-style consonant sequences. Dialects differ in some vowel and consonant patterns, so choose an audio model before copying a pronunciation chart.",
       "uga-grammar",
       "wiki-yoruba"
     ),
     script: "Fully marked Standard Yoruba orthography; IPA is useful for the labial-velar stops and vowel contrasts",
     soundSystem: cited(
-      "Ẹ and ọ are separate letters, representing open-mid vowels distinct from e and o. Ṣ is approximately English sh, while s remains s. Yoruba's three level tones are high, mid, and low. High is written with an acute accent, low with a grave, and mid is normally unmarked. Tone distinguishes words and grammatical forms, so accents are not ornamental stress marks. Surface pitch is also relational: a high tone after a low may be realized lower than an earlier high, a pattern called downstep. Vowel assimilation and elision at word boundaries can reshape careful dictionary forms in fluent phrases.",
+      "Ẹ and ọ represent more open vowels than e and o. Ṣ sounds roughly like English sh, while s remains s. These distinctions belong to the letters, even before tone enters the picture.\n\nYoruba also has high, middle, and low tones. Writers mark high with an acute accent and low with a grave; middle usually has no mark. Tone helps distinguish words and grammatical forms.\n\nIn running speech, one high tone can sound lower than an earlier high after a low tone. Linguists call this downstep.",
       "uga-tones",
       "wiki-orthography",
       "unilag-tones"
     ),
     prosody: cited(
-      "Do not map high, mid, and low onto three fixed musical notes for an entire sentence. Speakers adjust their range, questions add intonational effects, and successive tones step through a phrase. Learn a word's tones, then imitate it inside a sentence. Yoruba has no English-style system in which one stressed syllable dominates each word; pitch patterns and phrase timing do different work. A useful drill is to hum a short native recording before repeating its consonants and vowels. Then compare respectful greetings, whose longer phrasing and pronouns are part of social fluency, not mere politeness decoration.",
+      "High, middle, and low are relative pitches, not three fixed musical notes for a whole sentence. Questions, a speaker’s range, and neighboring tones shape what you hear. Learn a word’s tone pattern, then imitate it inside a short phrase.\n\nYoruba does not use English-style word stress to carry the same job. Hum a short recording first if that helps you hear its contour. Then repeat the vowels, consonants, and tone together.",
       "uga-tones",
       "unilag-tones"
     ),
@@ -184,19 +182,19 @@ export const yorubaGuide = {
   },
   writing: {
     overview: cited(
-      "Modern Yoruba uses a Latin alphabet designed to keep several crucial contrasts visible. The underdotted letters ẹ and ọ distinguish open vowels from e and o, and ṣ distinguishes /ʃ/ from s. Acute and grave marks show high and low tone; mid is generally bare. A syllabic nasal can also bear tone. Because a letter may need both an underdot and a tone accent, Yoruba is a good test of whether fonts, keyboards, search engines, and databases handle Unicode combining marks and precomposed characters consistently.",
+      "Yoruba uses Latin letters with a few crucial additions. The underdots on ẹ and ọ distinguish vowels, and ṣ represents a different consonant from s. Acute and grave accents mark high and low tone; a middle tone normally has no accent.\n\nA vowel can carry an underdot and a tone mark at once. Names and ordinary words need both. When a keyboard or font drops a mark, distinct forms may become identical on screen.",
       "wiki-orthography",
       "unicode-latin",
       "diacritic-paper"
     ),
     primaryScript: "Latin-based Yoruba alphabet",
     romanization: cited(
-      "The standard script is already Roman, so an accent-free respelling is not a true romanization. Writing ‘se’ for ṣe or ṣé can hide both consonant quality and tone. Beginners should install a Yoruba keyboard and keep fully marked forms; IPA belongs in pronunciation notes, not as a replacement everyday script.",
+      "Yoruba already uses Latin letters, so removing its marks is not romanization. Writing se for ṣe hides a consonant difference; leaving off tone hides another difference. Install a Yoruba keyboard and keep fully marked notes while you learn.",
       "wiki-orthography",
       "unicode-latin"
     ),
     spellingNorms: cited(
-      "Careful spelling marks lexical tones and distinguishes all standard vowel letters. Apostrophes are not normally inserted simply because vowels merge in speech. Word boundaries can reflect conventional contractions, and grammatical tone sometimes means that a familiar morpheme looks or sounds different inside a construction. Names deserve exact diacritics too: Dọ́lá and Dólá are not safely interchangeable merely because many databases strip marks. Search tools may store canonically equivalent Unicode sequences differently, so publishers should normalize text while preserving what the writer entered.",
+      "Careful writing marks tone and keeps each standard vowel letter distinct. Speech may merge neighboring vowels, but writers do not add an apostrophe at every such boundary. Names deserve the same care as common words.\n\nDigital tools can store the same visible marks in different Unicode sequences. Publishers should normalize text while preserving the writer’s letters and tones. A missing mark can change the word a reader sees.",
       "wiki-orthography",
       "yorubaname",
       "diacritic-paper"
@@ -210,22 +208,22 @@ export const yorubaGuide = {
   },
   grammar: {
     overview: cited(
-      "Yoruba is comparatively analytic: grammatical relationships are often expressed by separate particles, pronoun sets, tone, and word order rather than long chains of inflection. Basic clauses are commonly subject–verb–object, as in Adé ra ìwé, ‘Ade bought a book.’ That apparent familiarity quickly opens onto distinct systems. Pronoun tone can distinguish persons, aspect particles sit before verbs, multiple verbs can share one subject, and focus uses particles and special clause shapes. Learn these as spoken frames with their tones intact.",
+      "Yoruba usually shows grammar with short words, tone, and word order rather than long endings. Adé ra ìwé means “Ade bought a book,” with a familiar subject–verb–object order. Small changes elsewhere in the sentence can still change the meaning.\n\nPronouns have their own tones, particles can come before verbs, and several verbs may describe one event. Learn these as spoken sentence patterns, with the marks intact.",
       "uga-grammar",
       "wiki-yoruba"
     ),
     typologicalProfile: cited(
-      "Standard Yoruba has SVO order, prepositions rather than a large case system, little grammatical gender, and no productive noun-class agreement of the kind seen in many other Niger–Congo languages. Nouns do not routinely inflect for singular versus plural; àwọn before a noun phrase can mark plurality or association when discourse requires it. Verbs do not change ending for the subject. Instead, preverbal items express progressive, perfect, future, habitual, negation, and other distinctions. Serial verb constructions place verbs in a coordinated event without an overt English-style conjunction.",
+      "Standard Yoruba often puts subject, verb, then object. Nouns do not usually change form just to show singular or plural; àwọn can mark a plural group when needed. Verbs do not change ending for each person.\n\nShort words before a verb can show an ongoing action, an already completed situation, a future plan, or a negative statement. Several verbs can also share a subject in one event. Linguists call those serial verb constructions.",
       "uga-grammar",
       "wiki-yoruba"
     ),
     morphology: cited(
-      "Although words are often short, Yoruba has productive derivation and compounding. Partial or full reduplication can form nouns, distributive expressions, intensity, or repeated meanings. Jẹ ‘eat’ contributes to jíjẹ ‘eating/food’ through a nominalizing pattern with reduplication and tone changes; díẹ̀ ‘a little’ becomes díẹ̀díẹ̀ ‘little by little.’ Compounds and names can compress whole propositions, which is one reason an unmarked name is not always transparent even to a learner who recognizes its pieces. Morphology and tone interact, so copying only the consonants and vowels misses part of the construction.",
+      "Yoruba can build new words by joining pieces or repeating part of a form. Jẹ “eat” helps form jíjẹ “eating” through a pattern that also changes tone. Díẹ̀díẹ̀ means “little by little.”\n\nNames and compounds can hold a longer idea inside a short form. Learn the complete pronunciation: copying only consonants and vowels can miss a tone change that belongs to the new word.",
       "uga-grammar",
       "yorubaname"
     ),
     syntax: cited(
-      "Neutral declaratives tend toward subject–verb–object, but information structure reorganizes clauses. A focused constituent may be followed by ni: Adé ni ó ra ìwé means ‘It was Ade who bought a book.’ Relative clauses use tí and follow their head noun: ìwé tí Adé rà, ‘the book that Ade bought.’ Yes/no questions commonly use ṣé at the beginning, while question words may appear in focus-like constructions. Negation is not one universal word: kò negates many declaratives, má marks negative commands, and forms vary with aspect and clause type. Fluent Yoruba therefore depends on learning families of clauses, not substituting words into English order indefinitely.",
+      "Yoruba often uses subject–verb–object order, but speakers can put a person or thing in focus. Adé ni ó ra ìwé means “It was Ade who bought a book.” The particle ni and the following clause work together to do that.\n\nA clause with tí can describe a noun: ìwé tí Adé rà means “the book that Ade bought.” Yes/no questions can begin with ṣé. Negation changes with the kind of sentence: kò appears in many statements, while má starts a negative command.",
       "uga-grammar",
       "unilag-tones"
     ),
@@ -264,7 +262,7 @@ export const yorubaGuide = {
       },
       {
         title: "Focus with ni",
-        body: cited("Ni follows a focused noun phrase and a resumptive subject may appear in the following clause. Adé ni ó pè mí answers ‘Who called you?’; ìwé ni Adé rà foregrounds ‘a book’ as what Ade bought. This is not decorative emphasis. Focus changes the clause shape and interacts with tone, questions, relative structures, and what the conversation treats as new or contrastive.", "uga-grammar", "unilag-tones"),
+        body: cited("Ni follows the person or thing a speaker wants to single out. Adé ni ó pè mí answers ‘Who called you?’; ìwé ni Adé rà highlights ‘a book’ as what Ade bought. The rest of the clause changes too, including the subject form in some sentences.\n\nLinguists call this focus. It also matters in questions and relative clauses, so learn the whole sentence rather than inserting ni into an English pattern.", "uga-grammar", "unilag-tones"),
         example: "Ìbàdàn ni mo ń gbé.",
         exampleTranslation: "It is in Ibadan that I live / I live in Ibadan."
       },
@@ -276,9 +274,9 @@ export const yorubaGuide = {
       },
       {
         title: "Reduplication creates useful vocabulary",
-        body: cited("Repeating all or part of a form can distribute or intensify a meaning and can participate in noun formation. Díẹ̀díẹ̀ means ‘little by little’; ojoojúmọ́ means ‘every day.’ Productive patterns frequently include tone alternations, so learners should record the derived form rather than assume that visual copying preserves the melody.", "uga-grammar"),
-        example: "Díẹ̀díẹ̀ la ń kọ́ èdè.",
-        exampleTranslation: "We learn a language little by little."
+        body: cited("Repeating all or part of a form can distribute or intensify a meaning and can participate in noun formation. Díẹ̀díẹ̀ means ‘little by little’; ojoojúmọ́ means ‘every day.’ Productive patterns frequently include tone alternations, so learners should record the derived form rather than assume that visual copying preserves the melody.", "uga-grammar", "ui-language-difficulties"),
+        example: "Sọ̀rọ̀ díẹ̀díẹ̀.",
+        exampleTranslation: "Speak more slowly."
       },
       {
         title: "Respect lives in grammar and routine",
@@ -290,7 +288,7 @@ export const yorubaGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "The linguistic center of gravity is southwestern Nigeria, but Yoruba does not stop at a political line. It extends through communities in Benin and Togo, Nigerian cities far outside the southwest, and international migration networks. The language's ceremonial afterlives in the Atlantic diaspora deserve careful description: conversational competence, liturgical vocabulary, music, and cultural identification are related but not identical measures. Current speaker counts therefore depend strongly on who is being counted and for what purpose.",
+      "Most Yoruba speakers live in southwestern Nigeria. Yoruba also reaches communities in Benin and Togo, Nigerian cities farther north and east, and families around the world. Migration gives speakers more than one regional and national setting for the language.\n\nIn the Atlantic diaspora, Yoruba-derived ritual words and songs have their own histories. Knowing them does not necessarily mean speaking conversational Yoruba. Speaker counts therefore depend on which communities and kinds of use a source includes.",
       "language-profiles",
       "glottolog-yoruba",
       "wiki-yoruba"
@@ -306,7 +304,7 @@ export const yorubaGuide = {
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "Yoruba offers a welcoming syllable structure, relatively little verb inflection, no grammatical gender in pronouns, and familiar SVO clauses. Its difficulty lies less in giant paradigms than in disciplined listening. Tone, open-vowel contrasts, rapid vowel interaction, short grammatical particles, and dialect variation can make a sentence hard to parse even when every dictionary word is familiar. Cultural fluency also includes greeting routines, respectful address, indirection, proverbs, and knowing when English or Pidgin mixing is natural rather than careless.",
+      "Yoruba has many short syllables, little change in verb endings, and a basic subject–verb–object order. Its pronouns do not mark a he–she difference. These features let a beginner make useful sentences early.\n\nListening takes sustained work. Tone, open vowels, quick vowel changes, and small grammatical words can hide the boundaries between familiar words. Conversation also asks you to learn greetings, respectful address, and when a speaker moves between Yoruba, English, or Pidgin.",
       "uga-tones",
       "uga-grammar"
     ),
@@ -332,7 +330,7 @@ export const yorubaGuide = {
       "Learning only ritual or heritage vocabulary when the goal is everyday conversation"
     ],
     workload: cited(
-      "A productive first year combines daily ten-minute tone imitation, a structured course, and regular conversation with one primary speaker model. By the intermediate stage, transcribe short clips in fully marked text and ask a proficient writer to correct them. Advanced work means widening deliberately: one regional variety, edited essays, long interviews, proverbs in context, and media where Yoruba mixes naturally with English or Pidgin. Progress will be uneven—reading may race ahead of listening until tones and reductions become automatic.",
+      "In your first year, imitate a short tone recording daily and follow a course with regular conversation. Keep one speaker's pronunciation as your main listening model. At the intermediate stage, transcribe short clips with full marks and ask a proficient writer to correct them.\n\nThen widen the range: follow one regional variety, edited essays, long interviews, and proverbs in context. Listen to media where speakers also use English or Pidgin. Reading may move ahead of listening until tones and quick vowel changes become familiar.",
       "uga-tones",
       "iowa-resources",
       "yale-dictionary"
@@ -340,17 +338,18 @@ export const yorubaGuide = {
   },
   advancedLearning: {
     strategy: cited(
-      "Build a three-column notebook: fully marked Yoruba, an audio link or your tutor's recording, and a context-rich English gloss. Tag every entry by speaker, place, and register. Once a week, revisit a twenty-second clip: listen without text, transcribe, compare, shadow, and finally retell it. This forces spelling, tone perception, grammar, and narrative skill to reinforce one another. Search Discover Discomfort first when exploring its language-learning advice, but as of this guide's research there was no directly relevant Yoruba article to recommend; source quality matters more than inserting an unrelated house link.",
+      "Keep fully marked Yoruba, a recording, and a short English explanation together for each sentence you study. Tag the speaker's region and the setting. Once a week, replay a twenty-second clip: listen, transcribe, check the marks, and retell it.\n\nDiscover Discomfort includes Yoruba in its guide to learning languages with uneven resource shelves. Its advice to pair a structured course with audio and a human speaker fits tone study here. Let your speaker correct the sounds and regional forms that a general study plan cannot supply.",
       "uga-tones",
-      "iowa-resources"
+      "iowa-resources",
+      "dd-less-common"
     ),
     mediaPractice: cited(
-      "Use BBC News Yorùbá for edited current-affairs language, but compare studio reading with interviews where dialect and code-switching are more audible. Add Yoruba-language film scenes, radio phone-ins, comedy, sermons, music interviews, and lyric videos whose diacritics you verify. Songs are excellent for vocabulary and cultural reference but melody can reshape ordinary pitch, so they should supplement rather than replace spoken tone models. Retell one news item in simple Yoruba instead of collecting links passively.",
+      "Use BBC News Yorùbá for edited news language. Compare studio reading with interviews, where you may hear regional speech and changes between languages. Add short film scenes, radio calls, comedy, or sermons that fit your interests.\n\nSongs can teach vocabulary and cultural references, but their melodies alter ordinary pitch. Keep spoken recordings for tone practice. Retell one news item in simple Yoruba and ask someone to correct your version.",
       "bbc-yoruba",
       "iowa-resources"
     ),
     dictionariesAndCorpora: cited(
-      "Use Yale's searchable Yoruba Dictionary for headwords and meanings, YorubaName for names with audio and cultural explanation, and a corpus or concordancer to see words in surrounding text. No one resource settles every tone, dialect, or modern coinage. Cross-check a dictionary form against recordings and current usage. When search results are sparse, try both fully marked and unmarked spellings, while remembering that the latter may merge many distinct words.",
+      "Yale's Yoruba Dictionary helps check marked headwords and meanings. YorubaName adds audio and explanations for names. A text corpus shows how a word appears beside other words.\n\nNo single resource settles every tone, dialect form, or new coinage. Compare a dictionary entry with recordings and current use. Search both marked and unmarked spellings when needed, but remember that missing marks can merge different words.",
       "yale-dictionary",
       "yorubaname",
       "sketchengine"
@@ -361,15 +360,17 @@ export const yorubaGuide = {
       { type: "dictionary", title: "YorubaName", url: "https://www.yorubaname.com/", level: "all", description: cited("A community-built multimedia dictionary of Yoruba names, especially useful because names encode tone, contraction, history, and cultural explanation.", "yorubaname") },
       { type: "media", title: "BBC News Yorùbá", url: "https://www.bbc.com/yoruba", level: "intermediate", description: cited("Current news text, video, and audio for developing formal vocabulary and comparing written headlines with spoken reporting.", "bbc-yoruba") },
       { type: "corpus", title: "Yoruba text corpora in Sketch Engine", url: "https://www.sketchengine.eu/corpora-and-languages/yoruba-text-corpora/", level: "advanced", description: cited("Concordance tools show vocabulary in authentic contexts and help test collocations rather than trusting one-to-one translations.", "sketchengine") },
-      { type: "other", title: "University of Iowa Yoruba Language and Culture Resources", url: "https://clcl.uiowa.edu/language-resources/yoruba-language-and-culture-resources", level: "all", description: cited("A curated launch point for pronunciation, tones, dictionaries, poetry, and cultural material.", "iowa-resources") }
+      { type: "other", title: "University of Iowa Yoruba Language and Culture Resources", url: "https://clcl.uiowa.edu/language-resources/yoruba-language-and-culture-resources", level: "all", description: cited("A curated launch point for pronunciation, tones, dictionaries, poetry, and cultural material.", "iowa-resources") },
+      { type: "other", title: "Discover Discomfort: Less-Common Language Learning Resources", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", level: "all", description: cited("A study-plan article that explicitly includes Yoruba. Use its course, audio, and tutor framework with Yoruba-specific tone and dialect materials.", "dd-less-common") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Yoruba words often travel with more cultural freight than a one-line gloss can show. Orí is literally ‘head’ and also enters philosophical discussion of personhood and destiny; àṣẹ can name authority or efficacy and appears in affirming responses and religious discourse. Neither is a magical keyword detached from syntax. Proverbs, praise poetry, novels, popular song, and screen dialogue place such vocabulary inside social relationships. Ask who says a form, to whom, and in which genre before claiming an untranslatable worldview.",
+      "Yoruba words often carry more than a one-line gloss can show. Orí means ‘head’ and also enters discussion of personhood and destiny. Àṣẹ can mean authority or enabling power and appears in affirming responses and religious speech.\n\nProverbs put words into social action. Owomoyela's collection records Àgbàjọ ọwọ́ la fi ńsọ ayà, which urges people to gather their strength. Ask who says a form, to whom, and in which setting before claiming it expresses a single worldview.",
       "unesco-ifa",
       "yorubaname",
-      "iowa-resources"
+      "iowa-resources",
+      "owomoyela-proverbs"
     ),
     notableWords: [
       { term: "àṣẹ", meaning: "authority, command, enabling power; an affirming response in some contexts", note: cited("The semantic range changes across everyday, political, artistic, and religious use. English ‘amen’ captures only some discourse contexts.", "unesco-ifa", "yale-dictionary") },
@@ -381,7 +382,7 @@ export const yorubaGuide = {
       { term: "àlàáfíà", meaning: "peace, well-being", note: cited("An Arabic-origin item that reflects older Islamic and regional contact; it is entirely ordinary Yoruba vocabulary today.", "yale-dictionary", "wiki-yoruba") }
     ],
     loanwordLayers: cited(
-      "Inherited Yoruboid vocabulary sits alongside layers from neighboring languages, Arabic-associated Islamic learning, Portuguese-era Atlantic contact, and especially English. Loans are remodeled to fit Yoruba sound patterns: consonant clusters may gain vowels, final consonants are avoided, and every syllable receives tone. Modern speakers may either adapt an English item phonologically or code-switch into an English phrase. The choice can mark generation, profession, humor, or topic; a dictionary's coined technical equivalent may be correct without being the most common choice in a Lagos office.",
+      "Yoruba has inherited words alongside loans from neighboring languages, Islamic learning, Atlantic contact, and English. Borrowed words can gain vowels to break up consonant clusters or avoid a final consonant. They also enter Yoruba's tone patterns.\n\nSpeakers may adapt an English word or switch into an English phrase. The choice can depend on age, work, humor, and topic. A dictionary's technical equivalent may be correct while another form is more common in a Lagos office.",
       "wiki-yoruba",
       "uga-grammar"
     ),
@@ -390,7 +391,7 @@ export const yorubaGuide = {
       { original: "Sùúrù ni baba ìwà.", translation: "Patience is the father/foundation of good character.", note: "Often used to counsel restraint; quoting it is easier than judging when counsel is welcome." },
       { original: "Ọwọ́ kan kò gbé ẹrù dórí.", translation: "One hand cannot lift a load onto the head.", note: "Cooperation is necessary for difficult work; the image comes from carrying loads on the head." },
       { original: "Bí ọmọde bá ṣubú, a wo iwájú; bí àgbàlagbà bá ṣubú, a wo ẹ̀yìn.", translation: "When a child falls, they look ahead; when an elder falls, they look behind.", note: "Experience looks for causes in what came before. Proverbs vary in wording and are selected for a live conversational purpose." },
-      { original: "Díẹ̀díẹ̀ nimú ẹlẹ́dẹ̀ẹ́ fi ń wọgbà.", translation: "Little by little, the pig's nose enters the fence.", note: "A vivid proverb for gradual progress or gradual encroachment; confirm local wording with your speaker community." }
+      { original: "Àgbàjọ ọwọ́ la fi ńsọ ayà.", translation: "We strike the chest with our fingers gathered together.", note: "A proverb about gathering strength for difficult work; Oyekan Owomoyela records this fully marked form." }
     ],
     textGenres: [
       "oríkì praise poetry and personal praise names",
@@ -404,20 +405,21 @@ export const yorubaGuide = {
   },
   relationships: {
     overview: cited(
-      "Yoruba becomes easier to place when genealogy and contact are kept separate. Itsekiri and Igala are Yoruboid relatives; Edo and Gbe languages are important neighbors; English and Nigerian Pidgin are major present-day contact languages. A borrowed word or shared discourse pattern may be historically fascinating without proving common descent. Conversely, closely related languages can remain socially distinct even when comparison reveals inherited structure.",
+      "Itsekiri and Igala are Yoruboid relatives of Yoruba. Edo and Gbe languages are important neighbors, while English and Nigerian Pidgin have a strong place in present-day contact. These are different kinds of relationship.\n\nA borrowed word or shared conversational habit does not prove common descent. Closely related languages can also belong to distinct communities, even when comparison reveals shared older patterns.",
       "glottolog-yoruba",
       "wiki-yoruba"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Yoruba-speaking communities include Muslims, Christians, practitioners of oriṣa traditions, people who combine inheritances, and people for whom religion is not central. Avoid presenting Yoruba as a vocabulary list for spirituality or a single ancient kingdom. Contemporary life includes engineering, fashion, memes, electoral argument, parenting, football, business, scholarship, film, and ordinary joking. Respect also has linguistic form: plural pronouns can address one elder, greetings acknowledge work and circumstance, and names are meaningful utterances whose tones matter. Proverbs and oríkì are living arts, not interchangeable pieces of ‘African wisdom’; learn who is entitled to perform or interpret particular material and what audience it addresses.",
+  culturalNotes: "Yoruba-speaking communities include Muslims, Christians, practitioners of òrìṣà traditions, people with several inheritances, and people for whom religion is not central. Yoruba also lives in work, sport, family, comedy, politics, film, and everyday chat.\n\nRespect shapes language: a plural pronoun can address one elder, and a greeting can recognize someone's work. Names carry meanings and tones that deserve care. Proverbs and oríkì praise poetry belong to living performances; ask who uses a text and for which audience before repeating it.",
   resources: [
     { type: "course", title: "Yoruba Online", url: "https://africa.uga.edu/Yoruba/", level: "beginner", description: cited("Structured university lessons linking tone, grammar, and situational culture.", "uga-grammar", "uga-tones") },
     { type: "dictionary", title: "The Yoruba Dictionary", url: "https://yorubadictionary.yale.edu/", level: "all", description: cited("A practical searchable reference for fully marked headwords and definitions.", "yale-dictionary") },
     { type: "dictionary", title: "YorubaName", url: "https://www.yorubaname.com/", level: "all", description: cited("Multimedia explanations and audio for thousands of names, made through a community lexicography project.", "yorubaname") },
     { type: "media", title: "BBC News Yorùbá", url: "https://www.bbc.com/yoruba", level: "intermediate", description: cited("A continuing stream of contemporary written and spoken current-affairs Yoruba.", "bbc-yoruba") },
     { type: "corpus", title: "Sketch Engine Yoruba corpora", url: "https://www.sketchengine.eu/corpora-and-languages/yoruba-text-corpora/", level: "advanced", description: cited("Searchable examples for studying collocation, frequency, and real textual contexts.", "sketchengine") },
-    { type: "other", title: "University of Iowa resource guide", url: "https://clcl.uiowa.edu/language-resources/yoruba-language-and-culture-resources", level: "all", description: cited("Curated links to tones, poetry, pronunciation, and dictionaries.", "iowa-resources") }
+    { type: "other", title: "University of Iowa resource guide", url: "https://clcl.uiowa.edu/language-resources/yoruba-language-and-culture-resources", level: "all", description: cited("Curated links to tones, poetry, pronunciation, and dictionaries.", "iowa-resources") },
+    { type: "other", title: "Discover Discomfort: Less-Common Language Learning Resources", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", level: "all", description: cited("A study plan that names Yoruba and explains how to combine a course, recordings, and speaker feedback. It is a learning-method article, not a Yoruba grammar reference.", "dd-less-common") }
   ],
   relatedLanguages,
   phrases: [
@@ -444,7 +446,7 @@ export const yorubaGuide = {
     { id: "uga-tones", title: "Yoruba Online: Tones", url: "https://africa.uga.edu/Yoruba/tones.html", publisher: "University of Georgia", accessedAt: "2026-07-10" },
     { id: "uga-grammar", title: "Yoruba Online: Grammar", url: "https://africa.uga.edu/Yoruba/grammar.html", publisher: "University of Georgia", accessedAt: "2026-07-10" },
     { id: "wiki-orthography", title: "Yoruba alphabet", url: "https://en.wikipedia.org/wiki/Yoruba_alphabet", publisher: "Wikipedia", accessedAt: "2026-07-10" },
-    { id: "unicode-latin", title: "Latin Extended-A Unicode chart", url: "https://www.unicode.org/charts/PDF/U0100.pdf", publisher: "Unicode Consortium", updatedAt: "2025", accessedAt: "2026-07-10" },
+    { id: "unicode-latin", title: "Latin Extended Additional Unicode chart", url: "https://www.unicode.org/charts/PDF/U1E00.pdf", publisher: "Unicode Consortium", updatedAt: "2026", accessedAt: "2026-09-27" },
     { id: "unilag-tones", title: "Disambiguating Yoruba tones: at the interface between syntax, morphology, phonology and phonetics", url: "https://ir.unilag.edu.ng/items/d6bf236f-6553-4506-bfb0-5333333b9b4d/full", publisher: "University of Lagos Institutional Repository", publishedAt: "2011", accessedAt: "2026-07-10" },
     { id: "yale-dictionary", title: "The Yoruba Dictionary", url: "https://yorubadictionary.yale.edu/", publisher: "Yale University", accessedAt: "2026-07-10" },
     { id: "yorubaname", title: "YorubaName multimedia dictionary", url: "https://www.yorubaname.com/about-us?lang=en", publisher: "YorubaName Project", updatedAt: "2026", accessedAt: "2026-07-10" },
@@ -453,7 +455,10 @@ export const yorubaGuide = {
     { id: "diacritic-paper", title: "Improving Yorùbá Diacritic Restoration", url: "https://arxiv.org/abs/2003.10564", publisher: "arXiv", publishedAt: "2020", accessedAt: "2026-07-10" },
     { id: "language-profiles", title: "Yoruba Language Profile", url: "https://languageprofiles.ca/home/yoruba/", publisher: "Language Profiles Project", publishedAt: "2023", accessedAt: "2026-07-10" },
     { id: "unesco-ifa", title: "Ifa divination system", url: "https://ich.unesco.org/en/RL/ifa-divination-system-00146", publisher: "UNESCO Intangible Cultural Heritage", accessedAt: "2026-07-10" },
-    { id: "bbc-yoruba", title: "BBC News Yorùbá", url: "https://www.bbc.com/yoruba", publisher: "BBC", accessedAt: "2026-07-10" }
+    { id: "bbc-yoruba", title: "BBC News Yorùbá", url: "https://www.bbc.com/yoruba", publisher: "BBC", accessedAt: "2026-07-10" },
+    { id: "dd-less-common", title: "Best Less-Common Language Learning Resources: What Actually Works", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", publisher: "Discover Discomfort", publishedAt: "2026-05-11", accessedAt: "2026-09-27" },
+    { id: "owomoyela-proverbs", title: "Yoruba Proverbs", url: "https://temployorubapr.com/wp-content/uploads/2025/08/Yoruba_Proverbs_Oyekan_Owoyomoyela.pdf", publisher: "University of Nebraska Press", publishedAt: "2005", accessedAt: "2026-09-27" },
+    { id: "ui-language-difficulties", title: "Language Difficulties", url: "https://repository.ui.edu.ng/bitstreams/3e9ad075-aed5-46d7-8f7b-47306cf6b9a9/download", publisher: "University of Ibadan Repository", accessedAt: "2026-09-27" }
   ],
   seo: {
     title: "Yoruba Language Guide: Tones, Grammar, Dialects and Culture",

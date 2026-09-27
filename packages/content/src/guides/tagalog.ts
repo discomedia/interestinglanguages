@@ -47,18 +47,18 @@ export const tagalogGuide = {
   autonym: "Tagalog / Filipino",
   status: "published",
   publishedAt: "2025-03-05",
-  summary: "Tagalog is the language of Manila and much of southern Luzon, the principal basis of Filipino, and a vivid medium for family life, argument, comedy, music, cinema, literature, and multilingual urban conversation.",
+  summary: "Tagalog is spoken in Manila and much of southern Luzon. It supplies the main structure of Filipino, the national language, and connects people through family, media, and literature.",
   family: "Austronesian, Malayo-Polynesian, Philippine, Central Philippine",
   macroRegion: "The Philippines and global Filipino diasporas",
   primaryScript: "Latin",
   difficultyLabel: "Demanding",
-  learnerHook: "Tagalog turns an everyday event around like a camera: verb forms let speakers frame the doer, the thing affected, a place, or a beneficiary, while particles make conversation warm, tentative, emphatic, teasing, or respectful.",
+  learnerHook: "Tagalog verb forms help you show who acts and what the action affects. Small words can make the same conversation warmer, more tentative, or more respectful.",
   hero: {
     imageAlt: "Contemporary Filipino books, handwritten Tagalog, and a phone conversation representing literary and everyday language.",
     callToActionLabel: "Hear Tagalog in use"
   },
   classification: "A Central Philippine Austronesian language and the main structural basis of the national language called Filipino",
-  speakerCommunity: "Tagalog has an unusually broad social footprint without being the Philippines’ only major language. It is native to Manila and surrounding Tagalog regions and is learned across the archipelago through school, national media, migration, and work. The 2020 Philippine census counted Tagalog as the language generally spoken at home in 10.52 million households, 39.9 percent of all households; Bisaya/Binisaya, Hiligaynon, Ilocano, Cebuano, Bikol, Waray, Kapampangan, and many other languages remain central to their own communities. Overseas, Tagalog and Filipino connect families in the United States, Canada, the Gulf, Australia, Europe, and elsewhere. A single speaker may use a regional language with grandparents, Tagalog or Filipino with friends, English at work, and a fluid mixture online. That multilingual normality is not background noise: it is part of how the language lives.",
+  speakerCommunity: "Tagalog is the home language of many families in Manila and nearby provinces, and millions more learn Filipino through school and media. The 2020 Philippine census counted Tagalog as the language generally spoken at home in 10.52 million households, or 39.9 percent of all households. That counts households, not individual first-language speakers.\n\nOther Philippine languages remain central to family and public life. One person might use Cebuano at home, Filipino with colleagues, and English at work. Families abroad may call their language Tagalog or Filipino and move between it and the language of their new home.",
   facts: [
     { label: "Family", value: "Austronesian · Malayo-Polynesian · Central Philippine" },
     { label: "Home use", value: "10.52 million Philippine households in the 2020 census" },
@@ -67,10 +67,10 @@ export const tagalogGuide = {
     { label: "Writing", value: "Modern Latin alphabet; Baybayin has historical and contemporary cultural use" },
     { label: "Signature grammar", value: "Philippine-type voice, aspect-rich verbs, case-marking particles, and linkers" }
   ],
-  learnerOverview: "Tagalog becomes far more interesting when it stops being treated as English with Filipino words. The familiar-looking alphabet and many English or Spanish loans give a friendly entrance, but the language organizes events on its own terms. Start with complete scenes: Kumain ako ng mangga “I ate a mango,” then Kinain ko ang mangga “I ate the mango / the mango is what I ate.” The event is similar, but the verb and noun markers frame different participants. Learn these pairings aloud instead of memorizing one English gloss per affix. At the same time, acquire the small words that make real speech human: po for respectful interaction, naman for contrast or soft insistence, pala for newly realized information, and daw for reported information. Ask conversation partners whether a form sounds formal, regional, bookish, or natural among friends. “Filipino” and “Tagalog” overlap heavily in daily usage, but the names also carry institutional and political histories. A learner can say they are studying Tagalog while recognizing Filipino as the national language and respecting the country’s many non-Tagalog languages.",
+  learnerOverview: "Kumain ako ng mangga means “I ate a mango.” Kinain ko ang mangga can describe the same meal, but now the mango has the ang marking and the verb takes a different form. Start by learning these complete pairings aloud.\n\nSmall words carry social meaning too. Po can add respect; pala can show that you have just realized something. Ask speakers when a phrase sounds natural with friends, at home, or in formal Filipino.\n\nTagalog names a regional language and also supplies the main structure of Filipino, the national language. The names often overlap in daily use. Learning either one calls for respect toward the country’s many other languages.",
   origins: {
     overview: cited(
-      "Tagalog belongs to the Austronesian family, a vast network extending from Taiwan and Island Southeast Asia across the Pacific and to Madagascar. Its closer relatives are other Central Philippine languages. The name is often explained from tagá-ilog, “from the river,” though labels and communities are older and messier than a neat etymology suggests. Before Spanish colonization, communities around Manila Bay and southern Luzon participated in maritime trade and used writing traditions now grouped under the name Baybayin. Spanish rule after the sixteenth century brought Christianity, colonial administration, printing, and a large loanword layer, but missionaries also produced grammars and dictionaries that preserved early Tagalog material. American rule made English a powerful educational and administrative language. Modern Tagalog therefore carries inherited Austronesian structure through centuries of contact rather than representing either an untouched precolonial relic or a Spanish creole.",
+      "Tagalog belongs to the Austronesian family. Its closer relatives include other Central Philippine languages, while more distant relatives stretch across Island Southeast Asia and the Pacific. The familiar explanation of its name links tagá-ilog to people “from the river”; that short etymology cannot capture the full history of Tagalog communities.\n\nBefore Spanish colonization, people around Manila Bay and southern Luzon traded across a multilingual maritime region. Some used writing traditions now grouped under Baybayin. Spanish rule brought Christianity, colonial institutions, print, and many loanwords; missionaries also recorded Tagalog in grammars and dictionaries.\n\nAmerican colonial schooling later strengthened English. Tagalog kept its inherited grammatical structure while speakers adapted words, scripts, and public uses over centuries of contact.",
       "wiki-tagalog",
       "glottolog",
       "unicode-baybayin"
@@ -95,7 +95,7 @@ export const tagalogGuide = {
       {
         period: "1890s–1930s",
         event: cited(
-          "Revolutionary, nationalist, literary, and journalistic writing expanded Tagalog’s public range. Under American colonial rule, English grew through mass education. The 1935 Constitution called for a national language based on one existing native language, and Tagalog was selected as the basis in 1937—a decision with lasting benefits, debates, and regional resistance.",
+          "Independence-era writing and journalism expanded Tagalog’s public range. Under American colonial rule, English grew through mass education. The 1935 Constitution called for a national language based on an existing native language, and officials selected Tagalog in 1937, a choice that also drew regional criticism.",
           "kwf-history",
           "wiki-filipino"
         )
@@ -118,12 +118,12 @@ export const tagalogGuide = {
       }
     ],
     contactHistory: cited(
-      "Tagalog vocabulary makes history audible. Sanskrit-linked words such as mukha “face” and guro “teacher” entered through old regional networks; Malay and other Philippine languages contributed or reinforced forms; Hokkien contact is visible in food and trade vocabulary; Spanish supplied thousands of words, from kutsilyo “knife” to Huwebes “Thursday”; English now feeds technology, education, business, and youth slang. Borrowing often triggers creative Tagalog morphology: mag-drive “to drive,” nag-text “texted,” and i-save “save it” place English roots inside Tagalog verb patterns. Code-switching can mark topic, audience, humor, expertise, or social stance. It is not evidence that speakers lack either language.",
+      "Tagalog words record several kinds of contact. Sanskrit-linked mukha “face” and guro “teacher” reached the region through older networks. Hokkien contributed food and trade terms, Spanish gave words such as kutsilyo “knife,” and English supplies many current technical terms.\n\nSpeakers can place borrowed roots inside Tagalog verb forms: mag-drive “to drive” and nag-text “texted.” They also switch between Tagalog and English within a conversation. The choice may fit the audience, topic, joke, or setting.",
       "wiki-tagalog",
       "kwf-orthography"
     ),
     standardization: cited(
-      "The safest short account is that Filipino is the national language and is predominantly based on Tagalog, while Tagalog is also the name of a particular historical and regional language. In everyday conversation the labels are often interchangeable, especially abroad, but institutions use Filipino to signal a nationwide, developing standard. The Komisyon sa Wikang Filipino’s mandate includes developing and promoting Filipino and the other languages of the Philippines. Critics have reasonably observed that formal Filipino remains structurally very close to Tagalog and that Manila’s power can marginalize regional languages. Learners should neither pretend the distinction is absolute nor announce that Cebuano, Ilocano, Hiligaynon, Waray, Kapampangan, and others are merely “dialects.”",
+      "Filipino is the national language and draws its main structure from Tagalog. Tagalog also names a regional language with its own history and local varieties. People often use the names interchangeably, while public institutions use Filipino for a nationwide standard that can grow through other Philippine languages.\n\nThe 1987 Constitution names Filipino and English as official languages. It also recognizes regional languages as auxiliary official languages in their regions. In practice, Manila-centered Filipino still carries political weight, and speakers of Cebuano, Ilocano, Hiligaynon, and other languages have questioned Tagalog's privileged role.",
       "kwf-history",
       "kwf-filipino",
       "constitution"
@@ -131,22 +131,22 @@ export const tagalogGuide = {
   },
   variants: {
     overview: cited(
-      "Tagalog varies across place, generation, class, occupation, and situation. Manila speech is influential but not neutral: Batangas, Bulacan, Quezon, Marinduque, and other Tagalog areas preserve vocabulary, intonation, and grammatical preferences that urban learners may initially find unfamiliar. Filipino spoken by people whose first language is Cebuano, Ilocano, Hiligaynon, Waray, or another Philippine language can carry regional sounds and constructions. Diaspora speakers may maintain family vocabulary while shifting toward English-dominant syntax. There is no single percentage of English that turns speech into “Taglish”; code-switching ranges from a borrowed noun to rapid alternation across clauses.",
+      "Manila speech strongly influences broadcast and school Filipino, but it cannot stand for every Tagalog variety. Speakers in Batangas, Bulacan, Quezon, and other areas use local words, rhythms, and constructions. Listen for these differences before treating a familiar Manila form as the only natural choice.\n\nMany people who speak Filipino also grew up with Cebuano, Ilocano, Hiligaynon, Waray, or another language. Diaspora families add further patterns of language use. Taglish covers many ways of switching between Tagalog and English, from a borrowed word to a whole clause.",
       "wiki-tagalog",
       "psa-language"
     ),
     items: [
       {
         name: "Metro Manila Filipino/Tagalog",
-        note: "The dominant broadcast and educational reference point. Everyday Manila speech often uses English loans and code-switching, reduces some careful distinctions, and draws vocabulary from speakers across the country."
+        note: cited("Manila speech strongly influences school and broadcast Filipino. In daily conversation, speakers also borrow and switch between languages as people move into and through the city.", "wiki-tagalog", "kwf-filipino")
       },
       {
         name: "Southern Tagalog varieties",
-        note: "Batangas, Quezon, Marinduque, Laguna, Cavite, and Mindoro do not form one uniform dialect. Batangas is famous for particles and older vocabulary, while island and provincial varieties can preserve locally distinctive rhythm and lexicon."
+        note: cited("Batangas, Quezon, Marinduque, Laguna, Cavite, and Mindoro have their own local patterns. A listener may hear differences in particles, vocabulary, and rhythm across these provinces.", "wiki-tagalog")
       },
       {
         name: "Central Luzon Tagalog",
-        note: "Bulacan, Bataan, Nueva Ecija, and neighboring areas contain Tagalog speech shaped by contact with Kapampangan, Sambalic, and other languages as well as by migration toward Manila."
+        note: cited("People in Bulacan, Bataan, Nueva Ecija, and neighboring areas use local Tagalog forms. Contact with nearby languages and movement toward Manila also shape what speakers hear.", "wiki-tagalog")
       },
       {
         name: "Formal Filipino",
@@ -158,24 +158,24 @@ export const tagalogGuide = {
       },
       {
         name: "Taglish and diaspora speech",
-        note: "English–Tagalog switching is a skilled bilingual practice, not one fixed variety. A Manila professional meeting, a family chat in California, and a comedy sketch may mix languages differently. Heritage learners should ask what relatives actually say rather than policing every English element."
+        note: cited("English–Tagalog switching takes different forms in a Manila meeting, a family chat abroad, or a comedy sketch. Heritage learners can listen for the patterns their own relatives use instead of treating every English word as a mistake.", "wiki-tagalog")
       }
     ]
   },
   pronunciation: {
     overview: cited(
-      "Tagalog’s consonants and five-vowel system are approachable, but stress and the glottal stop can distinguish words even though ordinary spelling rarely marks them. The modern alphabet also includes letters used in loans and names. Native vocabulary usually favors simple syllables; older Spanish loans were adapted accordingly, while recent English loans may keep clusters. Manila speech can merge or relax contrasts in casual delivery, and regional accents may preserve different patterns. Learn whole recorded words, not just their unmarked spelling.",
+      "The alphabet will look familiar to an English reader. The surprises come when ordinary spelling leaves stress and a final glottal stop unmarked. Both can change which word a listener hears, so learn a word from audio as well as print.\n\nMany older loans fit Tagalog sound patterns, while newer English loans may keep unfamiliar consonant clusters. Regional and casual speech can differ from a careful recorded model.",
       "wiki-tagalog",
       "kwf-orthography"
     ),
     script: "Latin alphabet; dictionary accents can mark stress and final glottal stop",
     soundSystem: cited(
-      "The core vowels are /a e i o u/. In many native words e and i, or o and u, reflect historical alternations, though modern loans make all five useful contrasts. The consonant ng represents /ŋ/, including at the beginning of words such as ngayon “now.” Tagalog also contrasts a plain vowel onset with a glottal stop, and many vowel-final words carry an unwritten final glottal stop. Stress can shift meaning: súka “vomit” and sukà “vinegar” differ in both stress and final glottal behavior. The tap or trill r and a clear unaspirated p, t, k help speech sound less English-shaped.",
+      "Tagalog has five core vowels: /a e i o u/. The letters ng write one consonant, /ŋ/, even at the start of ngayon “now.” A glottal stop is the brief catch in the throat that speakers can make before or after a vowel.\n\nOrdinary spelling hides some final glottal stops and stress differences. Dictionaries can distinguish súka “vomit” from sukà “vinegar.” Listen also for lighter p, t, and k sounds than those at the start of English pie, tie, and kite.",
       "wiki-tagalog",
       "kwf-orthography"
     ),
     prosody: cited(
-      "Stress is normally on the penultimate or final syllable and belongs to the lexical identity of a word. Dictionaries may use acute, grave, and circumflex accents to distinguish stress and glottal closure, but everyday writing leaves readers to infer them. Sentence melody carries attitude, and clitic particles tend to gather in the second position of a clause, creating a characteristic rhythmic bundle: Kumain na ba siya? “Has he or she eaten already?” Practice that phrase as a unit rather than giving every word equal English-style stress.",
+      "Stress usually falls on the next-to-last or last syllable, and moving it can change a word. Dictionaries may mark stress and a final glottal stop with accents; ordinary writing usually does not. Listen before trusting an unaccented spelling.\n\nThe question “Kumain na ba siya?” asks whether someone has eaten already. The particles na and ba follow the verb. Practice the question as one rhythmic unit.",
       "wiki-tagalog",
       "kwf-dictionary"
     ),
@@ -188,7 +188,7 @@ export const tagalogGuide = {
     ],
     sampleWords: [
       { original: "ngayon", transliteration: "nga-YON", translation: "now", note: "Begins with the single sound /ŋ/, like the end of English sing." },
-      { original: "báta", transliteration: "BA-ta", translation: "child", note: "Penultimate stress contrasts with batà “bathrobe,” which has final stress and a final glottal stop." },
+      { original: "batà", transliteration: "BA-ta'", translation: "child", note: "The final glottal stop distinguishes this from báta “robe,” which lacks it; dictionary accents show the difference." },
       { original: "súka", transliteration: "SU-ka", translation: "vomit", note: "Compare sukà “vinegar”; accents appear in dictionaries, not usually in messages." },
       { original: "pag-ibig", transliteration: "pag-I-big", translation: "love", note: "Keep the three syllables clear and avoid reducing unstressed vowels to English schwa." },
       { original: "kumain", transliteration: "ku-MA-in", translation: "ate; has eaten", note: "The adjacent a and i belong to separate syllables after the -um- infix." },
@@ -197,14 +197,14 @@ export const tagalogGuide = {
   },
   writing: {
     overview: cited(
-      "Modern Tagalog uses the Latin alphabet. The current Filipino alphabet has 28 letters, adding letters needed for loans, names, and other Philippine languages to the older abakada. Spelling is relatively transparent when stress and glottal stops are known, but those two features are normally omitted. The sequences ng and mga deserve special attention: ng is a grammatical marker pronounced nang, while mga marks plurality and is commonly pronounced manga. Hyphens clarify certain affix combinations, reduplication, and forms involving names or foreign words. Natural digital writing often ignores formal niceties, so learners need both edited and conversational models.",
+      "Modern Tagalog uses Latin letters. The Filipino alphabet has 28 letters, including ones used for loans, names, and other Philippine languages. Everyday spelling usually leaves stress and final glottal stops unmarked.\n\nThe marker ng is pronounced nang, while plural mga is often pronounced manga. Read edited texts to learn hyphens and standard forms, then compare them with messages, where spelling may be looser.",
       "kwf-orthography",
       "wiki-tagalog"
     ),
     primaryScript: "Latin alphabet (Alpabetong Filipino)",
     romanization: "No separate romanization is needed. Pronunciation aids in this guide capitalize the stressed syllable; dictionaries use diacritics more precisely.",
     spellingNorms: cited(
-      "KWF orthographic guidance balances phonemic spelling with established forms and the realities of borrowing. Older Spanish loans commonly use adapted spellings—kutsara, bintana, sapatos—while newer technical terms may retain foreign letters or compete with localized forms. The marker ng must not be confused with nang: ng marks relationships including non-focused arguments and possession, whereas nang has adverbial and connective functions. Even native writers debate some edge cases, so use a current dictionary rather than treating social-media correction as linguistic authority.",
+      "The KWF writing manual weighs sound-based spelling against established forms. Spanish loans such as kutsara and sapatos use adapted spelling, while newer technical terms may keep foreign letters.\n\nThe marker ng shows relationships such as possession and a participant outside the ang phrase. Nang has other jobs, including linking an action to a manner or another clause. Check a current dictionary when a spelling choice is disputed.",
       "kwf-orthography",
       "kwf-dictionary"
     ),
@@ -219,23 +219,24 @@ export const tagalogGuide = {
   },
   grammar: {
     overview: cited(
-      "Tagalog grammar is built from roots, productive affixes, noun markers, pronoun sets, linkers, and discourse particles. The celebrated voice system is real, but it is not a decorative choice for “emphasis.” A verb form signals which participant has the privileged ang-marked relationship to the clause, and definiteness, affectedness, intention, and discourse context influence the choice. Terminology varies—focus, trigger, voice, pivot—because Tagalog does not fit the active/passive template of English. Learners make progress by comparing complete sentence pairs and observing what speakers choose in context.",
+      "Tagalog speakers build sentences from roots, verb affixes, noun markers, pronouns, and small conversational particles. A verb form helps select which participant the sentence treats as its central, ang-marked phrase. Linguists call this pattern voice or focus; it covers more choices than English active and passive.\n\nCompare whole sentences instead of learning an affix from an English gloss alone. The person doing an action, the thing affected, and the surrounding conversation all help shape the form a speaker chooses.",
       "uh-grammar",
+      "uh-voice",
       "seasite",
       "wiki-grammar"
     ),
     typologicalProfile: cited(
-      "Basic clauses are often predicate-initial: verbal Kumakain ang bata “The child is eating,” adjectival Masarap ang sopas “The soup is delicious,” nominal Guro si Ana “Ana is a teacher,” or locative Nasa bahay sila “They are at home.” Tagalog has no obligatory copular verb equivalent to English is in these ordinary present descriptions. Word order is flexible because markers identify grammatical roles, but flexible does not mean random: information structure, weight, pronouns, and style shape what sounds natural. The ay construction places a topic first and is common in formal or contrastive styles, not the default transformation every sentence requires.",
+      "A Tagalog clause often puts the description first: Kumakain ang bata “The child is eating,” Masarap ang sopas “The soup is delicious,” or Guro si Ana “Ana is a teacher.” These ordinary present-tense descriptions need no word equivalent to English is.\n\nMarkers show how the parts of a clause relate, so speakers can change the order for a reason. The ay construction puts a topic first, often in formal or contrastive speech. It is one option among natural sentence patterns.",
       "wiki-grammar",
       "seasite"
     ),
     morphology: cited(
-      "Affixation and reduplication do enormous work. From sulat “write,” speakers build sumulat “wrote,” sumusulat “is writing,” susulat “will write,” sinulat “wrote it,” sulatan “write to/on,” magsulat “write,” manunulat “writer,” and pagsusulat “the activity of writing.” These are not produced by one universal conjugation table: roots have preferred affix classes and meanings can shift with a new voice or derivation. Learn a new verb with its usual actor-voice and undergoer-voice forms, a sentence, and its aspect pattern.",
+      "Speakers add pieces to a root and sometimes repeat a syllable. From sulat “write,” they can build sumulat “wrote,” sumusulat “is writing,” susulat “will write,” and sinulat “wrote it.” The repeated su in sumusulat and susulat helps mark how the action unfolds.\n\nOther forms change the job of the word: manunulat means “writer,” while pagsusulat names the activity of writing. Each root favors particular patterns. Learn its common forms inside complete sentences.",
       "uh-grammar",
       "wiki-grammar"
     ),
     syntax: cited(
-      "The markers ang, ng, and sa organize common nouns; si, ni, and kay perform related work with personal names. Pronouns come in matching sets: ako/ko/akin, ikaw/mo/iyo, siya/niya/kaniya, and plural forms that include the important distinction between inclusive tayo “we including you” and exclusive kami “we excluding you.” Short pronouns and particles usually occupy an early clitic cluster, where ordering is conventional. Possessors often follow what they modify: bahay ko “my house.” Modifiers attach through the linker -ng after a vowel or na after most consonants: magandang araw “beautiful day,” mabait na tao “kind person.”",
+      "The small words ang, ng, and sa mark different relationships between a common noun and the rest of a sentence. Names have a related set: si, ni, and kay. Pronouns change form too, so “I” can be ako or ko depending on the construction.\n\nTagalog distinguishes tayo “we, including you” from kami “we, excluding you.” A possessor often follows its noun, as in bahay ko “my house.” The linker joins a modifier to another word: magandang araw “beautiful day,” but mabait na tao “kind person.”",
       "seasite",
       "wiki-grammar"
     ),
@@ -250,17 +251,18 @@ export const tagalogGuide = {
       {
         title: "Actor voice and undergoer voice",
         body: cited(
-          "Actor-voice affixes such as -um- and mag- make the ang-marked participant the actor. Undergoer-voice forms such as -in-, -an, and i- select an affected thing, location, beneficiary, instrument, or conveyed entity. The labels are a map, not a promise that every root behaves identically. Compare Bumili ang babae ng isda, where the buyer is ang-marked, with Binili ng babae ang isda, where the specific fish is ang-marked. Both translate naturally with English active clauses.",
+          "An actor-voice form such as bumili makes the buyer the ang-marked participant. In Binili ng babae ang isda, the fish receives ang instead. Both sentences describe the woman buying fish, and both can use an English active translation.\n\nDifferent verb affixes can center an actor, affected thing, place, beneficiary, or instrument. Linguists use labels such as actor voice and undergoer voice for these choices. Each root has its own common patterns, so learn the forms in sentences.\n\nThe English article a or the helps translate each scene; it does not select a Tagalog verb form on its own.",
           "uh-grammar",
+          "uh-voice",
           "wiki-grammar"
         ),
         example: "Bumili ang babae ng isda. / Binili ng babae ang isda.",
-        exampleTranslation: "The woman bought a fish. / The woman bought the fish."
+        exampleTranslation: "The woman bought fish. / The woman bought the fish."
       },
       {
         title: "Aspect rather than simple tense",
         body: cited(
-          "Verbs commonly contrast completed, incompleted, and contemplated events. Time words establish calendar location, while the verb presents the event as finished, ongoing/habitual, or not begun. With kain, kumain is completed, kumakain is incompleted, and kakain is contemplated. Reduplication and affix changes interact, so the pattern must be learned by class rather than applied blindly to every root.",
+          "Tagalog verbs show whether an action is completed, ongoing or habitual, or still contemplated. With the root kain “eat,” compare kumain, kumakain, and kakain. A time word can place any of these in a wider timeline.\n\nSpeakers often repeat part of a root to make an aspect form. Linguists call that reduplication. The exact pattern changes with the verb’s affix class.",
           "uh-grammar",
           "wiki-grammar"
         ),
@@ -270,7 +272,7 @@ export const tagalogGuide = {
       {
         title: "Markers, names, and pronoun sets",
         body: cited(
-          "Ang marks the privileged common-noun phrase; ng marks various non-privileged participants and possessors; sa covers locations, directions, recipients, and other obliques. Personal names use si, ni, and kay. These are not interchangeable versions of English the, of, and to. Pronouns encode the same contrasts, which is why one English I appears as ako or ko depending on construction.",
+          "Ang marks the central common-noun phrase in a clause. Ng marks other participants or a possessor, while sa often marks a place or recipient. Names take a related set: si, ni, and kay.\n\nThese words do not map neatly onto English the, of, and to. Pronouns reflect similar relationships, which is why English I can appear as ako or ko.",
           "seasite",
           "wiki-grammar"
         ),
@@ -285,7 +287,7 @@ export const tagalogGuide = {
       },
       {
         title: "Linkers inside phrases",
-        body: "The linker joins modifiers, nouns, numbers, and certain complements. After a vowel it normally attaches as -ng: maganda + bahay becomes magandang bahay. After most consonants it is na: tahimik na lugar. Linkers are not ornamental; omitting one can sound abrupt or alter the structure. The same element appears in gusto kong matuto “I want to learn,” literally connecting my desire and the following action.",
+        body: "A linker joins a describing word to what it describes. After a vowel it often attaches as -ng: maganda + bahay becomes magandang bahay. After most consonants it is na, as in tahimik na lugar “quiet place.”\n\nThe same linker appears in gusto kong matuto “I want to learn.” Learn it with whole phrases because leaving it out can change how the parts connect.",
         example: "Naghahanap ako ng tahimik na lugar na mapag-aaralan.",
         exampleTranslation: "I’m looking for a quiet place where I can study."
       },
@@ -297,7 +299,7 @@ export const tagalogGuide = {
       },
       {
         title: "Existence, possession, and negation",
-        body: "May or mayroon introduces existence or possession, while wala negates it. Hindi negates many predicates and completed or ongoing assertions; huwag forms negative commands. The choice is structural: Hindi ako pagod means “I’m not tired,” but Wala akong pera means “I have no money.” Notice the linker on akong, joining ako to the possessed noun phrase.",
+        body: "May or mayroon can say that something exists or that someone has it; wala says it is absent. Hindi negates many descriptions and statements, while huwag makes a negative command.\n\nHindi ako pagod means “I’m not tired,” but Wala akong pera means “I have no money.” The -ng in akong links ako to the noun phrase that follows.",
         example: "May oras ka ba bukas? Wala akong pasok.",
         exampleTranslation: "Do you have time tomorrow? I don’t have work/classes."
       },
@@ -311,22 +313,22 @@ export const tagalogGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Tagalog’s historical heartland includes Metro Manila and provinces across southern and central Luzon and nearby islands, but Filipino is used nationwide as a second language and lingua franca. The PSA’s household figure measures the language generally spoken at home, not everyone able to speak it, and should not be converted casually into a count of native speakers. In multilingual cities, speakers may choose Filipino because it is shared while maintaining Cebuano, Ilocano, Hiligaynon, Waray, Tausug, Maranao, or another language at home. Overseas census categories often merge “Tagalog” and “Filipino,” and heritage ability ranges from full literacy to receptive family understanding.",
+      "Tagalog has long-standing communities in and around Metro Manila, southern Luzon, and nearby islands. Filipino is also a nationwide language of school, media, and communication between people with different first languages.\n\nThe 2020 census counted households by the language generally spoken at home. Its Tagalog figure does not count everyone who can speak Filipino or tell us how many people learned Tagalog first. A family may use another Philippine language at home and Filipino in a wider setting.",
       "psa-language",
       "wiki-tagalog"
     ),
     regions: [
-      { place: "Metro Manila", note: "A major center of media, publishing, education, migration, and linguistic mixing; Manila usage strongly influences the national standard." },
-      { place: "CALABARZON and neighboring Tagalog provinces", note: "A large native-speaking heartland including Cavite, Laguna, Batangas, Rizal, and Quezon, with meaningful local variation." },
-      { place: "Central Luzon and MIMAROPA", note: "Tagalog coexists with Kapampangan, Sambalic languages, Mangyan languages, and others; migration and language shift make simple maps misleading." },
-      { place: "The wider Philippines", note: cited("Filipino functions as a nationwide school, media, and interregional language, but census data shows a richly multilingual home-language landscape.", "psa-language", "constitution") },
-      { place: "Global diaspora", note: "Large communities in North America, the Gulf, Australia, Europe, and Asia use Tagalog/Filipino in families, churches, media, community organizations, and transnational online life." }
+      { place: "Metro Manila", note: cited("A center of media, education, migration, and many languages. Manila usage strongly influences the national standard.", "wiki-tagalog", "kwf-filipino") },
+      { place: "CALABARZON and neighboring Tagalog provinces", note: cited("Cavite, Laguna, Batangas, Rizal, and Quezon form part of the Tagalog-speaking heartland. Local speech varies across them.", "wiki-tagalog") },
+      { place: "Central Luzon and MIMAROPA", note: cited("Tagalog shares these regions with Kapampangan, Sambalic, Mangyan, and other languages. A simple language map cannot show every local household or community.", "wiki-tagalog", "psa-language") },
+      { place: "The wider Philippines", note: cited("Schools, media, and people speaking across regional language lines use Filipino throughout the country. Census data also records many different home languages.", "psa-language", "constitution") },
+      { place: "Global diaspora", note: cited("Families abroad use Tagalog and Filipino in homes, community groups, media, and online conversation. A heritage learner may understand family speech more easily than formal writing.", "wiki-tagalog") }
     ]
   },
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "For an English-speaking learner, pronunciation and spelling are less forbidding than in many languages, and familiar loanwords create quick wins. The demanding part is learning to package events without forcing them through English subject–verb–object habits. Voice selection, aspect, marker sets, affix classes, and particles interact in every ordinary conversation. The result is not chaotic: it is systematic but semantically rich. Heritage learners may understand family speech well yet need explicit help with spelling, formal vocabulary, or producing verb forms; their path should not be measured against a beginner textbook sequence.",
+      "English-speaking learners can recognize the alphabet and many borrowed words early on. The harder work is learning to choose a verb form and noun markers for a whole scene instead of translating an English sentence piece by piece. Voice, aspect, and particles appear in ordinary conversation, so practice them together.\n\nHeritage learners may already understand family speech. They may want separate help with spelling, formal vocabulary, or producing verb forms. Their starting point differs from that of a textbook beginner.",
       "uh-grammar",
       "kwf-orthography"
     ),
@@ -351,32 +353,32 @@ export const tagalogGuide = {
       "Speaking around particles and therefore sounding blunt or missing attitude",
       "Letting fluent relatives answer in English instead of negotiating Tagalog time"
     ],
-    workload: "A steady year can build warm family conversation and useful media comprehension if study combines structured grammar, repeated listening, and frequent interaction. Advanced control takes longer because learners must acquire not just possible verb forms but speakers’ preferred forms in particular contexts. Record short retellings, have a tutor recast them naturally, and save corrections as paired examples. Ten well-observed sentences around one root will teach more than a page of affix names without context."
+    workload: "Combine a structured course with repeated listening and regular conversation. For each new root, save a few natural sentences that show its common affixes and markers.\n\nAsk a speaker to recast a short retelling, then keep your version beside theirs. These comparisons show which forms people choose in context."
   },
   advancedLearning: {
     strategy: cited(
-      "At intermediate level, organize study around roots and discourse choices. Take one scene from a drama or vlog, transcribe twenty seconds, label voice and markers, then retell it twice with a different participant as the ang phrase. Ask a speaker whether the reframing is grammatical, natural, and appropriate to the same context—three different questions. Keep separate notes for careful Filipino, relaxed Tagalog, regional expressions, and Taglish. Read edited prose to strengthen spelling and formal vocabulary while continuing to imitate spontaneous audio.",
+      "At intermediate level, take twenty seconds of a drama or interview and write down what you hear. Mark the verb form and each ang, ng, or sa phrase. Then retell the scene with a different participant in the ang phrase, and ask a speaker whether that version fits the context.\n\nKeep examples from careful Filipino, relaxed Tagalog, regional speech, and Taglish in separate notes. Read edited prose for spelling and formal vocabulary while continuing to listen to spontaneous speech.",
       "uh-grammar",
       "seasite"
     ),
-    mediaPractice: "Use news for deliberate formal Filipino, teleserye and independent cinema for interpersonal language, interviews for long conversational turns, and OPM music for memorable phrases—while remembering that lyrics bend syntax. Watch once for the story, again with Filipino subtitles, then shadow a short exchange. Search the same topic in Filipino and English to notice how writers switch vocabulary by domain. For diaspora goals, record consenting relatives’ stories and build a personal corpus of family-specific words, places, and honorific habits.",
+    mediaPractice: "News offers careful Filipino; dramas and interviews offer more conversational turns. Watch once for the story, again with subtitles, then repeat a short exchange aloud. Songs can help you remember phrases, though lyrics may bend ordinary syntax.\n\nIf you are learning for family conversation, ask relatives which words and honorifics they use. With their consent, record short stories and build a personal collection of expressions that matter at home.",
     dictionariesAndCorpora: cited(
-      "A dictionary entry is especially valuable when it marks stress, final glottal stop, affix behavior, and example sentences. The KWF online dictionary provides a normative reference; Tagalog.com is convenient for learner searches and audio but should be cross-checked for subtle grammar. The University of Hawai‘i and NIU SEAsite lessons explain verb and marker systems. For advanced computational work, the Leipzig Corpora Collection and Universal Dependencies Tagalog resources provide searchable or annotated data, though a corpus records what its sources contain rather than declaring every form universally natural.",
+      "Look for a dictionary entry that marks stress, a final glottal stop, and an example sentence. The KWF dictionary helps with standard spelling and definitions; a learner dictionary can make quick searches easier. Cross-check subtle grammar with a fuller reference.\n\nThe University of Hawai‘i lessons explain verb and marker patterns. Universal Dependencies has annotated Tagalog sentences for advanced analysis. Check the genre behind any corpus example before treating it as a model for conversation.",
       "kwf-dictionary",
       "uh-grammar",
       "seasite",
       "ud-tagalog"
     ),
     resources: [
-      { type: "course", title: "University of Hawai‘i Filipino Grammar Topics", url: "https://www.hawaii.edu/filipino/Grammar_Topics/Grammar_2-1.html", level: "all", description: "Clear university-hosted lessons on aspect, voice, affixes, and example sentences; useful as a structured grammar spine." },
-      { type: "course", title: "NIU SEAsite Tagalog", url: "https://seasite.niu.edu/Tagalog/Tagalog_mainpage.htm", level: "beginner", description: "An older interface containing substantial lessons on markers, focus, pronunciation, and cultural situations." },
-      { type: "dictionary", title: "Diksiyonaryo.ph", url: "https://diksiyonaryo.ph/", level: "all", description: cited("The online KWF dictionary is valuable for Filipino definitions, spelling, stress, and word history. Reading definitions in Filipino becomes a useful advanced exercise.", "kwf-dictionary") },
+      { type: "course", title: "University of Hawai‘i Filipino Grammar Topics", url: "https://www.hawaii.edu/filipino/Grammar.html", level: "all", description: "University lessons on aspect, voice, affixes, and complete examples." },
+      { type: "course", title: "NIU SEAsite Tagalog Markers", url: "https://seasite.niu.edu/trans/tagalog/Grammar%201/Markers/markersintro.htm", level: "beginner", description: "An older lesson that introduces ang, ng, and sa with examples. Its terminology needs comparing with a fuller grammar." },
+      { type: "dictionary", title: "Diksiyonaryo.ph", url: "https://diksiyonaryo.ph/", level: "all", description: cited("The online KWF dictionary gives Filipino definitions, spelling, stress, and word history. Reading its entries in Filipino offers practice for advanced learners.", "kwf-dictionary") },
       { type: "corpus", title: "Universal Dependencies Tagalog treebanks", url: "https://universaldependencies.org/tl/", level: "advanced", description: cited("Annotated Tagalog sentence collections support grammatical and computational exploration; users should check each treebank’s genre and license.", "ud-tagalog") },
-      { type: "app", title: "Glossika Filipino", url: "https://ai.glossika.com/", level: "beginner", description: cited("Sentence-based listening and repetition can supplement explicit grammar. Discover Discomfort has noted Filipino/Tagalog among Glossika’s less commonly taught offerings; confirm current course availability and pricing before subscribing.", "dd-tools") }
+      { type: "book", title: "Tagalog for Beginners (University of Hawai‘i Press)", url: "https://manifold.uhpress.hawaii.edu/projects/tagalog-for-beginners", level: "beginner", description: cited("Read the full university textbook online or download it. Its sequenced lessons and pronunciation drills make a clear starting point, though its examples reflect an older edition.", "uh-book") }
     ]
   },
   wordsAndTexts: {
-    overview: "Tagalog’s most revealing words often resist a one-word English substitute because they describe relationships, knowledge, and social texture. Particles show whether information is new, reported, continuing, or politely offered; kin terms extend beyond a narrow biological family; reduplication turns roots into playful, iterative, distributive, or attenuated expressions. Literature ranges from oral forms and devotional texts to revolutionary prose, modernist poetry, comics, romance, speculative fiction, spoken word, online essays, and screenwriting. A learner who reads only institutional Filipino misses the comic timing and intimacy of conversation; one who watches only vlogs misses deliberate literary craft.",
+    overview: "Particles such as pala can show that a speaker has just realized something; daw can mark reported information. Kin terms also reach beyond a narrow biological family. A dictionary gloss rarely captures the whole social setting.\n\nTagalog writing includes riddles and proverbs, devotional works, independence-era prose, poetry, komiks, fiction, and scripts. Read an edited story beside a conversation or video transcript. Each shows choices that the other leaves out.",
     notableWords: [
       { term: "kilig", meaning: "a flutter of romantic excitement", note: "Often used for the delighted thrill caused by a romantic moment, whether one’s own or observed in a story. English descriptions tend to explain a scene that Tagalog names quickly." },
       { term: "gigil", meaning: "an intense urge to squeeze, pinch, or act from overwhelming feeling", note: "Commonly triggered by cuteness or exasperation. It is not simply anger; context and facial expression determine whether it is affectionate or frustrated." },
@@ -387,7 +389,7 @@ export const tagalogGuide = {
       { term: "pakikipagkapwa", meaning: "engaging with others as fellow persons", note: "Its stacked morphology shows how Tagalog roots and affixes package an ethical social process into one word." }
     ],
     loanwordLayers: cited(
-      "Loans reveal both chronology and creativity. Spanish-derived oras “time,” mesa “table,” kuwento “story,” and sapatos “shoes” are thoroughly naturalized. English roots can remain visibly foreign while accepting Tagalog morphology: nag-email, mag-meeting, i-print. Chinese-linked culinary and commercial vocabulary, Sanskrit-derived cultural words, and exchange among Philippine languages complicate any simple Spanish-plus-English story. Formal language planners also coin or revive words, but adoption depends on writers and speakers, not etymological purity alone.",
+      "Spanish-derived oras “time,” mesa “table,” and sapatos “shoes” now feel at home in Tagalog. English roots can also take Tagalog affixes: nag-email, mag-meeting, i-print.\n\nOlder exchange with Chinese, Malay, and other Philippine languages left further word layers. Writers and language institutions sometimes coin or revive words, while everyday adoption depends on speakers.",
       "wiki-tagalog",
       "kwf-orthography"
     ),
@@ -401,29 +403,29 @@ export const tagalogGuide = {
     textGenres: [
       "bugtong (riddles), salawikain (proverbs), and oral storytelling",
       "the awit and korido metrical narrative traditions",
-      "revolutionary essays, novels, and vernacular journalism",
+      "independence-era essays, novels, and vernacular journalism",
       "modern poetry, spoken word, komiks, romance, and speculative fiction",
       "screenplays, teleserye dialogue, OPM lyrics, podcasts, and social video"
     ]
   },
   relationships: {
     overview: cited(
-      "Tagalog sits inside a dense Philippine linguistic neighborhood. Shared pronouns, numerals, roots, and voice patterns connect it to other Philippine languages, while deeper comparisons link it to Malay, Indonesian, Māori, Hawaiian, Malagasy, and hundreds more across Austronesian. Contact adds a different kind of resemblance: Spanish and English loans may be obvious even where grammar remains characteristically Tagalog. Family relationship, borrowing, and national political status are three separate stories and should not be collapsed.",
+      "Tagalog shares inherited roots and grammatical patterns with other Philippine languages. More distant Austronesian relatives include Malay, Indonesian, Māori, Hawaiian, and Malagasy. A few shared words across this family can be striking, but they do not make the languages mutually intelligible.\n\nSpanish and English contributed many loans through contact. Their visible words tell a different story from Tagalog’s family ancestry or Filipino’s national role.",
       "glottolog",
       "wiki-tagalog"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Respect is grammatical but not reducible to a po button. Po/opo, titles such as Ate and Kuya, kin terms extended to non-relatives, voice quality, humor, and the choice among Tagalog, English, and another Philippine language all position speakers socially. Observe the household you are entering. Filipino media has immense regional reach, yet “Filipino culture” should never be treated as synonymous with Tagalog culture alone. Seek work created in Cebuano, Hiligaynon, Ilocano, Waray, Kapampangan, and other languages too. In Tagalog arts, begin with writers and performers rather than only translated national symbols: read poems aloud, watch how comedy times particles, compare a news report with a barkada group chat, and ask whose Manila or province a character’s voice evokes.",
+  culturalNotes: "Speakers can show respect with po or opo, titles such as Ate and Kuya, tone of voice, and the choice of language. Watch how the family or community you are speaking with uses these forms. A fixed rule will miss much of the relationship.\n\nFilipino media reaches across the country, while Tagalog arts have their own local histories. Read a poem aloud, notice how a comedian times a particle, and compare a news report with a barkada group chat. Look for work in Cebuano, Hiligaynon, Ilocano, Waray, Kapampangan, and other languages as well.",
   resources: [
     { type: "course", title: "University of Hawai‘i Filipino Program", url: "https://www.hawaii.edu/filipino/", level: "all", description: "University-hosted language and literature materials with focused grammar explanations and cultural context." },
-    { type: "course", title: "NIU SEAsite Tagalog", url: "https://seasite.niu.edu/Tagalog/Tagalog_mainpage.htm", level: "beginner", description: "Free lessons and drills whose dated design conceals a useful archive of grammar and situational language." },
+    { type: "course", title: "NIU SEAsite Tagalog Markers", url: "https://seasite.niu.edu/trans/tagalog/Grammar%201/Markers/markersintro.htm", level: "beginner", description: "An older grammar lesson on the ang, ng, and sa markers, with linked follow-up sections." },
     { type: "dictionary", title: "Diksiyonaryo.ph", url: "https://diksiyonaryo.ph/", level: "all", description: cited("A KWF dictionary for definitions, standard forms, accents, and etymological information.", "kwf-dictionary") },
     { type: "dictionary", title: "Tagalog.com Dictionary", url: "https://www.tagalog.com/dictionary/", level: "all", description: "A convenient learner dictionary with example and audio features; verify difficult senses against KWF material and native context." },
     { type: "media", title: "ABS-CBN News", url: "https://news.abs-cbn.com/", level: "intermediate", description: "A large source of current Filipino reporting and video. Compare headlines, written reports, and interviews to hear register differences." },
     { type: "media", title: "GMA Public Affairs", url: "https://www.gmanetwork.com/news/publicaffairs/", level: "intermediate", description: "Documentary, current-affairs, and human-interest material offering formal narration alongside regional and conversational speech." },
     { type: "corpus", title: "Universal Dependencies Tagalog", url: "https://universaldependencies.org/tl/", level: "advanced", description: cited("An entry point to syntactically annotated Tagalog datasets for advanced learners and researchers.", "ud-tagalog") },
-    { type: "app", title: "Glossika Filipino", url: "https://ai.glossika.com/", level: "beginner", description: cited("A commercial sentence-repetition option also identified in Discover Discomfort’s survey of language-learning tools; confirm Filipino availability and use it as listening practice, not as the sole explanation of grammar.", "dd-tools") }
+    { type: "book", title: "Tagalog for Beginners (University of Hawai‘i Press)", url: "https://manifold.uhpress.hawaii.edu/projects/tagalog-for-beginners", level: "beginner", description: cited("A free online textbook with lessons, pronunciation drills, and grammar notes. Its original edition is older, so pair it with current conversation and media.", "uh-book") }
   ],
   relatedLanguages,
   phrases: [
@@ -434,7 +436,7 @@ export const tagalogGuide = {
     { original: "Walang anuman.", translation: "You’re welcome.", literalMeaning: "It’s nothing." },
     { original: "Paumanhin.", translation: "Excuse me / I’m sorry.", usageNote: "Formal or careful; Sorry and Pasensiya na are common in conversation." },
     { original: "Hindi ko naiintindihan.", translation: "I don’t understand." },
-    { original: "Puwede bang pakiulit?", translation: "Could you please repeat that?", usageNote: "A useful polite request; add po for respectful situations." },
+    { original: "Puwede bang pakiulit?", translation: "Could you please repeat that?", usageNote: "A polite request; add po when a more respectful tone fits." },
     { original: "Ano ang ibig sabihin nito?", translation: "What does this mean?", literalMeaning: "What is the meaning of this?" },
     { original: "Saan ang sakayan?", translation: "Where is the place to catch a ride?", usageNote: "Ask more specifically for the jeep, bus, train, or ferry when needed." },
     { original: "Magkano po ito?", translation: "How much is this?", usageNote: "Respectful and natural in a shop or market." },
@@ -444,17 +446,18 @@ export const tagalogGuide = {
   ],
   sources: [
     { id: "psa-language", title: "Tagalog is the Most Widely Spoken Language at Home (2020 Census of Population and Housing)", url: "https://psa.gov.ph/content/tagalog-most-widely-spoken-language-home-2020-census-population-and-housing", publisher: "Philippine Statistics Authority", publishedAt: "2023-03-07", accessedAt: "2026-07-10" },
-    { id: "constitution", title: "1987 Constitution of the Republic of the Philippines, Article XIV", url: "https://www.officialgazette.gov.ph/constitutions/1987-constitution/", publisher: "Official Gazette of the Republic of the Philippines", publishedAt: "1987-02-02", accessedAt: "2026-07-10" },
+    { id: "constitution", title: "1987 Constitution of the Republic of the Philippines, Article XIV", url: "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/3/353", publisher: "Supreme Court E-Library", publishedAt: "1987-02-02", accessedAt: "2026-09-27" },
     { id: "kwf-history", title: "Kasaysayan at Mandato", url: "https://kwf.gov.ph/kasaysayan-at-mandato/", publisher: "Komisyon sa Wikang Filipino", accessedAt: "2026-07-10" },
     { id: "kwf-filipino", title: "The Language that is Filipino", url: "https://kwf.gov.ph/the-language-that-is-filipino/", publisher: "Komisyon sa Wikang Filipino", accessedAt: "2026-07-10" },
     { id: "kwf-orthography", title: "Manwal sa Masinop na Pagsulat", url: "https://kwf.gov.ph/wp-content/uploads/MMP_Full.pdf", publisher: "Komisyon sa Wikang Filipino", accessedAt: "2026-07-10" },
     { id: "kwf-dictionary", title: "Diksiyonaryo ng Wikang Filipino", url: "https://diksiyonaryo.ph/", publisher: "Komisyon sa Wikang Filipino", accessedAt: "2026-07-10" },
-    { id: "uh-grammar", title: "Filipino Grammar Topics: The Verb, Aspect and Focus", url: "https://www.hawaii.edu/filipino/Grammar_Topics/Grammar_2-1.html", publisher: "University of Hawai‘i at Mānoa Filipino and Philippine Literature Program", accessedAt: "2026-07-10" },
+    { id: "uh-grammar", title: "Filipino Grammar Topics: Verb Aspect", url: "https://www.hawaii.edu/filipino/Grammar_Topics/Grammar_2-1.html", publisher: "University of Hawai‘i at Mānoa Filipino and Philippine Literature Program", accessedAt: "2026-09-27" },
+    { id: "uh-voice", title: "Filipino Grammar Topics: Focus", url: "https://www.hawaii.edu/filipino/Grammar_Topics/Grammar_2-2.html", publisher: "University of Hawai‘i at Mānoa Filipino and Philippine Literature Program", accessedAt: "2026-09-27" },
     { id: "seasite", title: "Tagalog Grammar: Markers and Focus", url: "https://seasite.niu.edu/trans/tagalog/Grammar%201/Markers/markersintro.htm", publisher: "Northern Illinois University SEAsite", accessedAt: "2026-07-10" },
     { id: "glottolog", title: "Tagalog", url: "https://glottolog.org/resource/languoid/id/taga1280", publisher: "Glottolog 5.2", accessedAt: "2026-07-10" },
     { id: "unicode-baybayin", title: "Unicode Standard, Chapter 17: Indonesia and Oceania (Tagalog/Baybayin)", url: "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-17/", publisher: "Unicode Consortium", updatedAt: "2025", accessedAt: "2026-07-10" },
     { id: "ud-tagalog", title: "Universal Dependencies: Tagalog", url: "https://universaldependencies.org/tl/", publisher: "Universal Dependencies", accessedAt: "2026-07-10" },
-    { id: "dd-tools", title: "Black Friday Language Learning Deals 2021", url: "https://discoverdiscomfort.com/black-friday-language-learning-deals/", publisher: "Discover Discomfort", publishedAt: "2021", accessedAt: "2026-07-10" },
+    { id: "uh-book", title: "Tagalog for Beginners", url: "https://manifold.uhpress.hawaii.edu/projects/tagalog-for-beginners", publisher: "University of Hawai‘i Press", publishedAt: "1971", accessedAt: "2026-09-27" },
     { id: "wiki-tagalog", title: "Tagalog language", url: "https://en.wikipedia.org/wiki/Tagalog_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-filipino", title: "Filipino language", url: "https://en.wikipedia.org/wiki/Filipino_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-grammar", title: "Tagalog grammar", url: "https://en.wikipedia.org/wiki/Tagalog_grammar", publisher: "Wikipedia", accessedAt: "2026-07-10" },

@@ -6,7 +6,7 @@ const relatedLanguages = [
     name: "Western Apache",
     relationship: "Close Southern Athabaskan relative",
     explanation: cited(
-      "Western Apache and Navajo descend from neighboring Southern Athabaskan branches and share much vocabulary and grammatical architecture, especially the elaborate verb. They are nevertheless distinct community languages, not interchangeable dialect labels. Comparison is most useful after a learner has established Navajo pronunciation and common verb patterns.",
+      "Western Apache shares a Southern Athabaskan history and many verb patterns with Navajo. It is a distinct community language; a Navajo learner should not assume that familiar words make conversation automatic.",
       "glottolog-navajo",
       "wiki-navajo"
     )
@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Mescalero-Chiricahua Apache",
     relationship: "Southern Athabaskan relative",
     explanation: cited(
-      "Mescalero-Chiricahua belongs to the same southern migration story as Navajo. Cognates and similar prefix systems are visible, but sound changes, vocabulary, histories, and present-day community norms matter. The family resemblance should invite respectful comparative study, not the assumption that one language can stand in for another.",
+      "Mescalero-Chiricahua Apache is another Southern Athabaskan language. Related words and verb prefixes show ancestry, while each community has its own speech and history.",
       "glottolog-navajo",
       "wiki-navajo"
     )
@@ -24,7 +24,7 @@ const relatedLanguages = [
     name: "Dene Kedé and other Northern Dene languages",
     relationship: "More distant Athabaskan relatives",
     explanation: cited(
-      "Languages spoken far to the north in Alaska and Canada—including Dena'ina, Ahtna, Koyukon, and several languages called Dene—confirm a deep Athabaskan relationship across a remarkable geographic span. Similarities in verb structure and basic vocabulary reflect ancestry, while centuries of independent development prevent mutual intelligibility.",
+      "Dena’ina, Ahtna, Koyukon, and other northern Athabaskan languages share deeper ancestry with Navajo. Their long separate histories mean a Navajo speaker cannot simply understand everyday speech from the north.",
       "glottolog-navajo",
       "wiki-navajo"
     )
@@ -33,7 +33,7 @@ const relatedLanguages = [
     name: "Pueblo languages",
     relationship: "Long-standing neighboring languages, not genealogical relatives",
     explanation: cited(
-      "Hopi, Zuni, Keresan, and Tanoan languages belong to other families, yet Diné communities have lived beside Pueblo peoples for centuries. Agriculture, trade, ceremony, conflict, kinship, and refuge created contact without turning these languages into relatives. This distinction between ancestry and relationship-through-history is essential in the Southwest.",
+      "Hopi, Zuni, and Keresan languages have long shared the Southwest with Diné communities. Contact can bring exchanged words and practices, but these languages belong to different families.",
       "wiki-navajo",
       "dine-history"
     )
@@ -46,18 +46,18 @@ export const navajoGuide = {
   autonym: "Diné Bizaad",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Diné Bizaad is a tonal Southern Athabaskan language whose verbs describe motion, shape, viewpoint, and relationship with remarkable precision.",
+  summary: "Diné Bizaad is spoken in homes, schools, government, radio, and online across Diné communities. Its written accents and hooks show sounds that English spelling cannot.",
   family: "Na-Dene, Athabaskan",
   macroRegion: "North America",
   primaryScript: "Latin",
   difficultyLabel: "Very demanding",
-  learnerHook: "Learning Diné Bizaad means hearing fine contrasts, building intricate verbs, and understanding connections among language, land, kinship, and contemporary Diné life.",
+  learnerHook: "Hear how a vowel changes when it is long, high toned, or nasal, then learn a verb in the sentence where a speaker uses it.",
   hero: {
     imageAlt: "Diné Bizaad text in its modern Latin orthography, including tone and nasalization marks.",
     callToActionLabel: "Hear Diné Bizaad in use"
   },
   classification: "A Southern Athabaskan language in the Na-Dene family",
-  speakerCommunity: "Diné Bizaad is spoken across the Navajo Nation—Diné Bikéyah—and in border towns, cities, and diaspora households. Speaker totals depend on whether a survey asks about home use, ability, or identity, and conceal a sharp age gradient: many elders command rich everyday and ceremonial registers while many children grow up primarily in English. Families, immersion schools, teachers, broadcasters, artists, tribal colleges, and digital creators use the language now. In December 2024 the Navajo Nation Council made Diné Bizaad the Nation's official language; a January 2025 executive order directed the executive branch to implement that status.",
+  speakerCommunity: "Diné Bizaad belongs to Diné people across Diné Bikéyah and in cities and households beyond the Navajo Nation. A census question about language at home cannot tell you who understands an elder, speaks with children, or reads a public notice. Use dated figures only with their survey definition.\n\nMany fluent speakers are older adults, while many children grow up mainly in English. Families, teachers, immersion schools, broadcasters, tribal colleges, and artists also use and teach Diné Bizaad now. Their work includes everyday talk as well as formal occasions.\n\nThe Navajo Nation made Diné Bizaad its official language through legislation signed in December 2024. A January 2025 executive order told executive offices to use it in written documents and explore staff learning and bilingual signs. The law expresses a public commitment; it does not mean every office or family already uses the language in the same way.",
   facts: [
     { label: "Autonym", value: "Diné Bizaad — ‘the people's language’" },
     { label: "Family", value: "Na-Dene · Athabaskan · Southern Athabaskan" },
@@ -66,11 +66,11 @@ export const navajoGuide = {
     { label: "Sound", value: "Tone, vowel length, nasal vowels, and glottalized consonants" },
     { label: "National status", value: "Official language of the Navajo Nation since 2024" }
   ],
-  learnerOverview: "Start with voices, not a diagram of the verb. Learn the alphabet from recorded Diné speakers, practice one contrast at a time, then attach whole sentences to people and situations. The writing system is a listening tool: á differs from a, ą differs from a, and a doubled vowel is held longer. Do not discard those marks, but do not let spelling replace conversation. Navajo's verb organizes the sentence, and a form learned without its participants, aspect, and setting is hard to reuse. Hear a fluent recording, copy it accurately, identify the stem, change one element with a teacher, and return to the phrase in conversation. For heritage learners, study may involve family histories shaped by schooling and language shift; no outsider's timetable defines reclamation. Non-Diné learners should approach as guests: use public material, compensate teachers, follow community boundaries, and never present vocabulary access as authority over Diné knowledge.",
+  learnerOverview: "Start with a recorded greeting such as Yá’át’ééh. Its final éé is long, the accents show high tone, and apostrophes mark brief closures in the throat. Copy the sound from a Diné speaker before you try to explain every mark.\n\nThen learn a sentence as a whole. In Yishááł, “I am walking along,” the verb already tells you who is moving; English needs a separate word for “I.” A dictionary entry cannot show every form you will hear, so save audio, context, and a few related forms together.\n\nIf you are reclaiming a family language, let relatives set topics and privacy boundaries. If you are not Diné, use public teaching materials, pay teachers when appropriate, and ask before recording or repeating knowledge shared in trust.",
 
   origins: {
     overview: cited(
-      "Navajo is Athabaskan, a family otherwise concentrated in Alaska, western Canada, and the Pacific Coast. Linguistic evidence places the ancestors of Navajo and Apache peoples in a southward movement, with Southern Athabaskan communities established in the Southwest before sustained Spanish colonization. Diné history is not reducible to a migration arrow. Diné accounts relate people and homeland through the present world, sacred mountains, journeys, and emergence narratives; community knowledge and comparative linguistics need not be forced into identical questions. In the Southwest, Diné people developed pastoral, agricultural, trading, and artistic life through relationships with Pueblo peoples and later neighbors. Athabaskan grammar remained unmistakable while vocabulary and genres responded to new economies and institutions.",
+      "Diné Bizaad belongs to the Southern Athabaskan branch of a language family with relatives far to the north. Comparative linguistics traces a southern movement of Athabaskan-speaking ancestors before Spanish colonization. Diné accounts of homeland and emergence address relationships and responsibilities that a migration map cannot explain.\n\nDiné communities built lives around farming, sheep, trade, craft, and exchange with Pueblo peoples and later neighbors. Those relationships changed words and ways of speaking while the language kept its Athabaskan grammar. Learn this history through Diné accounts as well as linguistic research.",
       "glottolog-navajo",
       "wiki-navajo",
       "dine-history"
@@ -79,7 +79,7 @@ export const navajoGuide = {
       {
         period: "Before sustained European colonization",
         event: cited(
-          "Southern Athabaskan-speaking communities became established in the Southwest and developed distinct Navajo and Apache histories. Contact with Pueblo communities involved exchange, intermarriage, agriculture, refuge, and conflict; linguistic ancestry and cultural relationship should not be collapsed into one story.",
+          "Southern Athabaskan-speaking communities established distinct Navajo and Apache histories in the Southwest. Diné accounts of homeland also explain relationships that a linguistic family tree cannot.",
           "wiki-navajo",
           "dine-history"
         )
@@ -87,7 +87,7 @@ export const navajoGuide = {
       {
         period: "17th–mid-19th centuries",
         event: cited(
-          "Spanish and then Mexican colonial presence altered trade, land use, warfare, livestock economies, and vocabulary. Diné communities incorporated sheep and horses into a social and economic world on their own terms; Spanish-origin words entered the language without replacing its Athabaskan structure.",
+          "Spanish and later Mexican rule changed trade, land use, and livestock economies. Diné people incorporated sheep and horses on their own terms, and some related words entered the language.",
           "wiki-navajo",
           "dine-history"
         )
@@ -95,7 +95,7 @@ export const navajoGuide = {
       {
         period: "1863–1868",
         event: cited(
-          "The United States military forcibly removed thousands of Diné people on the Long Walk to incarceration at Bosque Redondo, where hunger, disease, and death were widespread. The Treaty of 1868 permitted survivors to return to part of Diné Bikéyah. Language continuity belongs within this history of survival and sovereignty, not as an abstract linguistic statistic.",
+          "The U.S. military forced thousands of Diné people on the Long Walk to Bosque Redondo, where many died. The 1868 treaty allowed survivors to return to part of Diné Bikéyah.",
           "dine-treaty",
           "dine-history"
         )
@@ -103,7 +103,7 @@ export const navajoGuide = {
       {
         period: "Late 19th–20th centuries",
         event: cited(
-          "Federal and mission boarding schools separated Indigenous children from family life and frequently punished Native-language use. At the same time, Diné speakers, educators, and scholars helped develop a practical orthography, dictionaries, school materials, and bilingual programs. During the Second World War, Navajo Code Talkers used a specialized military code based on the language; their service is important, but it should not eclipse the language's much larger civilian life.",
+          "Federal and mission boarding schools separated many children from family and punished Native-language use. Diné speakers and educators also developed spelling, dictionaries, and teaching materials. Navajo Code Talkers used a specialized code in World War II, one chapter in a much larger language history.",
           "nps-codetalkers",
           "ucla-revitalization",
           "wiki-navajo"
@@ -112,7 +112,7 @@ export const navajoGuide = {
       {
         period: "1968 to the present",
         event: cited(
-          "Diné College began as Navajo Community College, the first tribally controlled college in the United States, and made Diné language and knowledge central to higher education. Community schools, the Navajo Language Academy, Navajo Technical University, UNM programs, and family-led work expanded teaching. Official-language legislation in 2024–2025 and a Navajo Nation audio-story initiative launched in 2026 connect sovereignty with daily use.",
+          "Diné College began as Navajo Community College in 1968 and centered Diné language in higher education. Other community and university programs grew alongside it. Official-language legislation in 2024 and public audio stories launched in 2026 connect policy with daily learning.",
           "dine-college",
           "navajo-official",
           "navajo-stories",
@@ -121,27 +121,26 @@ export const navajoGuide = {
       }
     ],
     contactHistory: cited(
-      "Spanish contributed vocabulary associated with livestock, food, and introduced objects; English supplies newer institutional and technological terms, sometimes borrowed and sometimes described with Navajo resources. Pueblo contacts are older and multidirectional, and proposed word histories deserve checking rather than guesswork. Speakers also create compounds and extensions based on what an object does, how it moves, or what it resembles. English code-switching may signal audience, age, topic, humor, or convenience; it does not make a speaker's Navajo inauthentic.",
+      "Contact brought new words into Diné Bizaad. Spanish affected terms for livestock and introduced goods, while English appears in school, government, medicine, and technology. Speakers may borrow a word, switch languages, or make a descriptive Diné expression.\n\nA speaker’s choice can reflect the audience and subject rather than a lack of fluency. Check the history of an individual word in a specialist dictionary before assuming that it came from Spanish, a Pueblo language, or English.",
       "wiki-navajo",
       "nla-lexicon"
     ),
     standardization: cited(
-      "The modern orthography grew through collaboration among Diné speakers and educators. It represents tone, length, nasalization, and glottal stops, supporting dictionaries, curricula, and digital text without erasing regional speech. In 2024 the Navajo Nation recognized Diné Bizaad as official; a 2025 order called for its use in documents, signs, and staff learning.",
+      "Diné speakers and educators developed a practical spelling system for books, lessons, and public writing. It shows tone, vowel length, nasalization, and glottal stops, though it cannot capture every local accent.\n\nNavajo Nation legislation signed on December 24, 2024 made Diné Bizaad the Nation’s official language. A January 14, 2025 order directed executive offices to include at least one Diné Bizaad word or phrase in written documents, examine staff learning, and assess bilingual signs. These are specific instructions, not evidence that every service is already bilingual.",
       "navajo-official",
-      "unicode-marks",
-      "wiki-navajo"
+      "unm-sound"
     )
   },
 
   variants: {
     overview: cited(
-      "Navajo is widely mutually intelligible across Diné Bikéyah, but fluent speakers hear differences associated with region, family network, age, and neighboring languages. A speaker can command household or occupational language without using every specialized register. English-dominant learners, receptive bilinguals, teachers, ceremonial practitioners, broadcasters, and elders bring different repertoires. ‘Traditional’ and ‘modern’ are poor boxes: an election broadcast and a grandparent's account of sheep care both draw on living Diné practices.",
-      "unm-mission",
+      "Diné speakers can understand much speech across Diné Bikéyah, and they also notice differences among places and families. The UNM Navajo Sound Profile says its recordings center on Eastern Agency speech while planning broader regional coverage. Use its audio as a model with that scope in mind.\n\nAge, work, schooling, and family history also shape a person’s vocabulary. Someone may speak comfortably at home and still need help with legal terms; a student may read marked spelling but need more conversation. Treat each repertoire as part of living Diné Bizaad.",
+      "unm-sound",
       "nla-lexicon",
       "wiki-navajo"
     ),
     items: [
-      { name: "Western Navajo Nation", note: cited("Communities in western Arizona show local pronunciations and vocabulary shaped by family histories and contact with Hopi and English. A course's standard form remains useful, but local teachers decide what sounds natural.", "wiki-navajo", "unm-resources") },
+      { name: "Western Navajo Nation", note: cited("Communities in western Arizona show local pronunciations and vocabulary shaped by family histories and contact with Hopi and English. Begin with a course, then ask local teachers what sounds natural.", "wiki-navajo", "unm-resources") },
       { name: "Central and northern communities", note: cited("Speech around Window Rock, Chinle, Shiprock, and many smaller communities is internally diverse. Government, school, grazing, chapter-house, and home domains each cultivate different vocabulary.", "navajo-official", "unm-resources") },
       { name: "Eastern and satellite communities", note: cited("Eastern Navajo communities in New Mexico and the satellite sections of the Nation have distinct contact histories. Borders on a map do not predict a person's accent, competence, or identity.", "dine-history", "wiki-navajo") },
       { name: "Formal, educational, and public language", note: cited("Classrooms and broadcasts often favor standardized spelling and explicit grammatical vocabulary. Public speaking can use parallelism and forms of address that a phrasebook conversation never teaches.", "unm-mission", "dine-college") },
@@ -151,20 +150,19 @@ export const navajoGuide = {
 
   pronunciation: {
     overview: cited(
-      "Navajo contrasts short and long vowels, oral and nasal vowels, high and low tone, and plain, aspirated, and glottalized consonants. These differences can distinguish words and grammatical forms. Its four basic vowel qualities are written a, e, i, and o. Doubling writes length; an acute accent writes high tone; an ogonek writes nasalization. Long vowels can carry level or contour tones, so áá, aa, áa, and aá require deliberate reading. Learn from audio: the page identifies a contrast but cannot model an individual speaker's voice.",
-      "nla-lexicon",
+      "Listen to a, á, ą, and ą́ in a Diné recording. They differ in tone or nasal airflow even though an English speaker may first hear one “a.” A doubled vowel such as aa also lasts longer than a single a.\n\nNavajo spelling marks these differences: an acute accent shows high tone, a small hook called an ogonek shows nasalization, and doubling shows length. Low tone has no accent. A long vowel can move from high to low or low to high, so read both vowel positions.",
+      "unm-sound",
       "unicode-marks",
       "wiki-navajo"
     ),
     script: "Standard Navajo Latin orthography; acute accent marks high tone, ogonek marks nasalization, doubled vowels mark length",
     soundSystem: cited(
-      "Several consonants need targeted listening. ł is a voiceless lateral fricative: air passes beside the tongue without vocal-fold vibration. Affricates include dl, tł, and tłʼ; the apostrophe marks glottalization or a glottal stop and belongs to the spelling. Stops and affricates contrast through aspiration and glottalization, not only the English voiced–voiceless pattern. Practice hear–point–repeat: identify the written form before imitating it, because production without perception can stabilize the wrong category.",
-      "nla-lexicon",
-      "learn-navajo",
-      "wiki-navajo"
+      "Navajo has four basic written vowel qualities: a, e, i, and o. Each can be short or long, oral or nasal, and high or low in tone. The UNM Sound Profile gives recordings of these combinations; compare two at a time.\n\nConsonants also carry contrasts English does not. The letter ł sounds when air passes along the sides of the tongue without voice. An apostrophe marks a glottal stop or a glottalized consonant such as tłʼ.\n\nHear these in whole words before trying to imitate them.",
+      "unm-sound",
+      "learn-navajo"
     ),
     prosody: cited(
-      "Tone belongs to words and morphology rather than being an optional expressive melody. Prefixes may have their own tone, and stems can change shape across aspect or mode, so an inflected verb is not always predictable from an English gloss. In connected speech, neighboring vowels and consonants influence one another, and a fluent phrase has timing that an isolated word list hides. Shadow short recordings at half speed, marking vowel length with a continuous line and tone with arrows. Then return to normal speed without shortening long vowels. Names are especially worth checking with their owners: English media spellings often omit the distinctions that Navajo orthography preserves.",
+      "Tone helps identify a Navajo word. A verb may also change its stem or tone as it describes an ongoing, completed, or repeated action. The written marks help you find those patterns.\n\nListen to a short recording at normal speed, then replay one phrase slowly. Keep long vowels long as you copy it. Ask the owner of a personal or place name for its pronunciation rather than relying on an unmarked English spelling.",
       "nla-lexicon",
       "learn-navajo"
     ),
@@ -183,24 +181,24 @@ export const navajoGuide = {
       { original: "łį́į́ʼ", translation: "horse", note: "Begins with voiceless ł; the long nasal vowel carries high tone, and the final apostrophe represents a glottal stop." },
       { original: "tłʼízí", translation: "goat", note: "The opening glottalized lateral affricate tłʼ is a three-character spelling for one consonant unit." },
       { original: "ashkii", translation: "boy", note: "The ii is long. Practice keeping it long even when the word occurs before another word." },
-      { original: "kin", translation: "house; building", note: "A short, useful word heard in many compounds and place names; all three sounds should remain crisp." }
+      { original: "kin", translation: "house; building", note: "A short word heard in many compounds and place names; keep all three sounds clear." }
     ]
   },
 
   writing: {
     overview: cited(
-      "Navajo's Latin-based alphabet uses acute accents for high tone, ogoneks for nasal vowels, doubled letters for length, and apostrophes for glottal stops or glottalized consonants. The barred l, ł, is its own letter. Navajo dictionary order and raw Unicode sorting are not always identical. Older books, keyboards, and messages may omit marks or use lookalike characters, but learners should begin with full spelling. Accurate text makes dictionaries searchable and respects names.",
+      "The Navajo alphabet uses Latin letters, including ł, plus accents, hooks, and apostrophes. These marks help a reader distinguish sounds and find words in a dictionary. A text without them may be harder to read even when its letters look familiar.\n\nOlder print, phone keyboards, and messages do not always show the marks consistently. Begin with fully marked words from a trusted source, then learn to recognize the shortcuts people actually use.",
       "unicode-marks",
       "nla-lexicon",
       "wiki-navajo"
     ),
     primaryScript: "Latin alphabet adapted for Navajo phonology",
     romanization: cited(
-      "The practical orthography is the normal romanization; no pronunciation respelling is needed. Approximations such as ‘yah-ta-hey’ hide the glottal stops, tones, and long vowels in yá'át'ééh. Visually identical precomposed and combining Unicode sequences may be stored differently. Use a Navajo keyboard or trusted dictionary, and never substitute a cedilla for the ogonek.",
+      "The ordinary Navajo spelling already uses Latin letters, so you do not need a second romanization. English approximations such as “yah-ta-hey” conceal several sounds in Yá’át’ééh. Copy the Navajo form and listen to a speaker.\n\nA computer may store the same-looking accents and hooks in more than one Unicode sequence. Use a Navajo keyboard and keep your notes consistent so searches work.",
       "unicode-marks"
     ),
     spellingNorms: cited(
-      "An acute accent marks high tone; low tone is unmarked. An ogonek marks nasalization. A high nasal vowel carries both, as in ą́, and long vowels require marking each position. Straight and typographic apostrophes can break exact search, so normalize your own vocabulary file consistently. Verify clan and place names rather than improvising them from English.",
+      "An acute accent marks high tone; an unaccented vowel normally has low tone. The hook below a vowel marks nasalization, as in ą, and ą́ has both marks. Doubling marks a long vowel, so check both positions when you write it.\n\nAn apostrophe can represent a sound, not a pause in the sentence. Keep personal and clan names as their owners spell them. If search fails, check apostrophe shape and Unicode composition before assuming the word is absent.",
       "unicode-marks",
       "nla-lexicon"
     ),
@@ -214,22 +212,22 @@ export const navajoGuide = {
 
   grammar: {
     overview: cited(
-      "The Navajo verb can express what English distributes across a pronoun, auxiliary, adverb, preposition, and lexical verb. Prefixes occur in a broadly fixed sequence before a stem, and the stem itself changes with aspect and mode. Linguists describe positions or ‘slots,’ but natural speech is not assembled by filling a worksheet from left to right. Many neighboring prefixes interact phonologically, so the surface word can conceal its parts. Begin with high-frequency whole forms, compare small paradigms, and use the template to explain patterns you already hear. Nouns are often less inflected than verbs; possession, postpositions, demonstratives, and word order carry much of the rest of the sentence.",
+      "A Navajo verb can carry the work of an English verb, pronoun, and several extra words. Prefixes before the stem show participants and other information; the stem itself can change with the kind of event. Learn a complete spoken form before you study its pieces.\n\nA grammar may lay the prefixes out in numbered positions. That chart helps after you know some verbs, but it is not a recipe for assembling conversation. Compare a few related forms with a teacher and listen for the parts that change.",
       "nla-lexicon",
       "wiki-navajo"
     ),
     typologicalProfile: cited(
-      "Navajo is strongly head-marking and primarily suffix-free in the ordinary European sense: the verb records participants through prefixes, while relational ideas often use postpositions bound to pronouns. A neutral clause tends toward subject–object–verb order, but the verb's participant marking and discourse structure allow variation. Animacy and topical importance influence which noun phrase appears first. Grammars distinguish mode and aspect rather than mapping every form directly onto past, present, and future. Imperfective, perfective, progressive, iterative, and other viewpoints describe how an event unfolds; mode adds notions such as actuality, command, or possibility.",
+      "A Navajo clause often places the actor, then the object, then the verb. The verb can identify its participants, so speakers can vary the order for context. The order and the verb form work together when two third-person participants are involved.\n\nEnglish tense labels alone will not explain Navajo verbs. A speaker also chooses how to view an action: ongoing, completed, repeated, or expected. Linguists call these event viewpoints aspect and the broader verb forms mode.",
       "wiki-navajo",
       "nla-lexicon"
     ),
     morphology: cited(
-      "A verb contains an inflectional zone and stem, with derivational material nearer the stem and participants or adverbial ideas in ordered prefix positions. The classifier—a traditional label for prefixes written Ø, ł, l, and d—can affect valency, voice, or transitivity; it is not a noun classifier. Stem shapes change across aspect and mode, often with tone or vowel alternations. Classificatory verb stems select different forms for handling compact, long rigid, flexible, granular, plural, and other configurations. This is ordinary lexical precision, not a curiosity detached from daily life.",
+      "A verb has a stem and ordered prefixes. Some prefixes identify the people involved, while others add direction or alter how an event unfolds. Neighboring sounds may blend, so the spoken result does not always reveal neat boundaries.\n\nThe stem for handling an object can depend on whether that object is round, long, flexible, granular, or plural. Grammars also use “classifier” for four prefixes near the stem; these do not classify nouns. Learn them through recorded verbs and real objects rather than the label alone.",
       "nla-lexicon",
       "wiki-navajo"
     ),
     syntax: cited(
-      "Navajo often places a more animate or discourse-prominent participant before a less animate one. When that preferred order is reversed, a yi-/bi- alternation in the verb can help indicate which participant acts on which: this is commonly called the direct–inverse system, though descriptions differ on its exact analysis. Questions may use an interrogative word while leaving the verb final. Negation commonly surrounds the relevant expression with doo ... da, creating a discontinuous frame. Relative clauses and nominalized verbs are central to building longer sentences. English translations should therefore be treated as interpretations of a complete construction, not word-for-word assembly instructions.",
+      "Navajo speakers often put a person before an animal or object, even when that person receives the action. The verb can then show who acted on whom through a yi-/bi- pattern. Scholars differ over the full analysis, so start with attested sentence pairs.\n\nQuestions keep much of the same clause structure. Negation often puts doo before an expression and da after it. Longer sentences can use verb forms to describe people, things, and events without matching English word order piece by piece.",
       "wiki-navajo",
       "nla-lexicon"
     ),
@@ -250,19 +248,19 @@ export const navajoGuide = {
       },
       {
         title: "Aspect and mode, not English tense alone",
-        body: cited("Navajo stems and prefixes present an event as ongoing, completed, repeated, customary, beginning, or moving toward a result. A time word may locate the event, but choosing the verb stem still expresses the speaker's view of its internal shape.", "nla-lexicon", "wiki-navajo"),
-        example: "Náshdááh. / Níyá.",
-        exampleTranslation: "I am sitting down/staying. / He or she arrived. The English tense label does not explain the different lexical stems and event viewpoints."
+        body: cited("Listen to two forms of the same action: one presents play in progress, and another reports it completed. The verb changes more than an English tense ending, so save both whole forms with their audio.", "learn-navajo", "nla-lexicon"),
+        example: "Naashné. / Niséné.",
+        exampleTranslation: "I am playing. / I played. LearnNavajo.com lists these together, letting you compare their prefixes and stems."
       },
       {
         title: "The doo ... da negative frame",
-        body: cited("Negation commonly has two parts: doo appears before the expression being negated and da closes the frame. Person and aspect remain inside the verb, so the construction is more than adding a free-standing ‘not.’", "learn-navajo", "nla-lexicon"),
+        body: cited("Negation commonly has two parts: doo appears before the expression being negated and da closes the frame. Person and aspect still appear inside the verb.", "learn-navajo", "nla-lexicon"),
         example: "Doo shił bééhózin da.",
         exampleTranslation: "I don't know it. Literally the construction frames shił bééhózin, ‘it is known by/with me.’"
       },
       {
         title: "Possession and kinship",
-        body: cited("Many possessed nouns take a pronominal prefix. Body-part and kin terms are naturally relational, and the unpossessed citation form may be less useful than a small set such as ‘my,’ ‘your,’ and ‘his or her.’ Kinship vocabulary also encodes Diné social relationships that English glosses flatten.", "learn-navajo", "nla-lexicon"),
+        body: cited("Many possessed nouns take a pronominal prefix. Learn kin and body-part words in sets such as ‘my,’ ‘your,’ and ‘his or her.’ English glosses do not capture every Diné kinship relationship.", "learn-navajo", "nla-lexicon"),
         example: "shimá / nimá / bimá",
         exampleTranslation: "my mother / your mother / his or her mother. The changing prefix identifies the possessor."
       },
@@ -274,15 +272,13 @@ export const navajoGuide = {
       },
       {
         title: "Classificatory handling verbs",
-        body: cited("English ‘give’ or ‘carry’ is too general for many Navajo situations. The stem selected can classify the handled entity as compact, long and rigid, flexible, open-container-like, plural, mushy, or granular. Learn each stem with actual objects and recorded scenes rather than a decontextualized chart.", "nla-lexicon", "wiki-navajo"),
-        example: "The Navajo equivalent of ‘Give it to me’ changes according to whether ‘it’ is a book, a rope, a cupful, or several objects.",
-        exampleTranslation: "Shape and configuration are built into the verb choice; there is no single all-purpose form corresponding to English ‘it.’"
+        body: cited("An English request such as ‘carry it’ leaves the object vague. Navajo handling verbs can select different stems for a compact item, a long rigid item, a flexible item, or an open container with contents. The UCI teaching example contrasts stems -aah, -kaah, and -lé; learn each in a recorded sentence before using it.", "nla-lexicon", "uci-grammar")
       },
       {
         title: "Animacy and yi-/bi- tracking",
-        body: cited("Human and animate participants normally precede less animate ones. The direct construction commonly uses yi- when that order holds; bi- can mark an inverse relationship when the lower-ranked participant is placed first. Study this through paired narratives, because isolated English examples make the system look more mechanical than it is.", "wiki-navajo", "nla-lexicon"),
-        example: "Ashkii at'ééd yiyiiłtsą́. / At'ééd ashkii biyiiłtsą́.",
-        exampleTranslation: "The boy saw the girl. / The boy saw the girl. The changed order and yi-/bi- marking preserve who saw whom while shifting discourse prominence."
+        body: cited("The verb can show which of two people acts. In this documented pair, the nouns stay in the same order, but yi- and bi- switch who saw whom. Other patterns depend on the participants and their place in the conversation.", "uci-grammar", "nla-lexicon"),
+        example: "Ashkii at’ééd yiyiiltsá. / Ashkii at’ééd biilstá.",
+        exampleTranslation: "The boy saw the girl. / The girl saw the boy. Listen for the verb, because noun order alone does not settle who saw whom."
       },
       {
         title: "Questions and predicate nouns",
@@ -295,7 +291,7 @@ export const navajoGuide = {
 
   whereSpoken: {
     overview: cited(
-      "The center of Navajo language life is Diné Bikéyah, especially the Navajo Nation's communities across northeastern Arizona, northwestern New Mexico, and southeastern Utah. Speakers also live in Albuquerque, Phoenix, Flagstaff, Denver, Salt Lake City, Los Angeles, and many other places through work, education, military service, marriage, and family movement. U.S. Census language tables historically identify Navajo as one of the country's largest Indigenous languages by home use, but a household survey is not a fluency examination and is not designed around Diné definitions of speakerhood. Numbers must therefore be dated and read alongside community evidence about intergenerational transmission.",
+      "Diné Bikéyah spans northeastern Arizona, northwestern New Mexico, and southeastern Utah. Diné speakers also live in nearby towns and cities across the United States. Families move among these places for work, school, care, and visits.\n\nUnited States Census language tables count reported language use at home, which differs from fluency or Diné ideas of speakerhood. The UNM Sound Profile describes a marked age shift in its research. Read any speaker number with its year, method, and community setting.",
       "census-language",
       "wiki-navajo",
       "navajo-official"
@@ -311,7 +307,7 @@ export const navajoGuide = {
   difficulty: {
     label: "Very demanding",
     overview: cited(
-      "For an English-speaking adult, Navajo asks for new listening categories and a new idea of the verb. Tone, nasalization, vowel length, glottalization, prefixing, stem alternations, and limited mass-market media all add work. This reflects grammatical distance and historic underfunding of Indigenous-language learning, not obscurity. A heritage learner seeking family conversation, a teacher pursuing literacy, and a linguist reading grammar need different skills. Measure progress in tasks: greet relatives without a script, follow a weather report, understand a familiar story, or write a correctly marked message.",
+      "An English-speaking learner must hear tone, vowel length, nasal vowels, and consonants they may never have distinguished before. They also need many forms of a verb rather than one English translation. These tasks take repeated listening and correction.\n\nA heritage learner may already understand family conversation but want to read or speak more confidently. A teacher may need writing and classroom vocabulary. Set goals around the people and situations you want to speak with.",
       "unm-mission",
       "dine-college",
       "nla-lexicon"
@@ -339,7 +335,7 @@ export const navajoGuide = {
       "Expecting one speaker to provide unlimited unpaid teaching or cultural explanation"
     ],
     workload: cited(
-      "Combine five short listening sessions, two guided lessons, and one longer community or media encounter each week. Prioritize accurate hearing: transcribe ten seconds, compare it with trusted text, and shadow it. Organize a verb notebook by whole example, stem family, aspect, participants, and source—not English keyword alone. Then narrate a routine, follow one news topic, or read a children's book with audio. Strong independent competence takes years. Frequency beats heroic bursts, and responsibility to teachers matters as much as efficiency.",
+      "Practice with short Diné recordings several times a week. Transcribe a few seconds with all marks, check against a trusted text, and repeat the phrase until you can hear its vowel length and tone. Keep the whole sentence with each verb in your notes.\n\nReturn to that sentence in a story, lesson, or conversation. A children’s book with audio or a public Navajo Nation story gives you repeated language in context. Make time for a teacher or speaker who can correct your use, and respect their time.",
       "unm-resources",
       "learn-navajo",
       "navajo-stories"
@@ -348,19 +344,19 @@ export const navajoGuide = {
 
   advancedLearning: {
     strategy: cited(
-      "Move from lessons into domains such as family, food, weather, livestock, travel, school, work, or chapter government. Each supplies recurring verbs and meaningful situations. Record fluent models only with permission; transcribe with full marks, ask for correction, then create controlled variations. Heritage learners can let relatives choose topics and privacy boundaries. Non-Diné learners should use public classes and paid instruction rather than turning every encounter into a lesson. Cultivate both listening and literacy: dictionary knowledge does not decode fast conversation, while home fluency does not automatically confer technical writing.",
+      "Choose a domain you will actually discuss: family, food, school, weather, livestock, or chapter government. Gather a small set of recorded sentences and ask a teacher which forms fit your community. Change one part at a time after you can say the original naturally.\n\nAsk before recording a speaker or sharing a story. Heritage learners can let relatives set topics and privacy boundaries. Public classes and paid instruction give other learners a clear place to begin.",
       "unm-mission",
       "dine-college",
       "unm-resources"
     ),
     mediaPractice: cited(
-      "Use Navajo Nation government videos, KTNN radio, publicly shared stories, interviews, weather, and educational channels. A productive cycle is preview the topic in English, listen once without pausing, isolate a 20-second segment, transcribe, check known words in the Navajo Language Academy talking dictionary, and shadow the same speaker. Children's books are valuable because images and repetition reduce lookup burden without simplifying the sound system. Songs and oral narratives require context: confirm that the item is intended for public listening and do not detach ceremonial material from the conditions under which Diné teachers share it.",
+      "Listen to publicly shared Diné Bizaad stories, government announcements, radio, interviews, and lessons. First hear a short clip without text; then read along, mark the words you missed, and listen again. The Navajo Nation’s audio stories offer a direct pairing of narration and written text.\n\nChildren’s books can help because pictures and repetition support a new reader. Check whether a song or narrative was shared for public use before saving or quoting it. Keep ceremonial material within the conditions Diné teachers set.",
       "navajo-stories",
       "unm-resources",
       "nla-lexicon"
     ),
     dictionariesAndCorpora: cited(
-      "The Navajo Language Academy, Navajo Technical University, and Swarthmore talking dictionary links audio to searchable lexicons, grammar constructions, and examples. Use it beside Young and Morgan's large analytical dictionary and modern pedagogical works such as Diné Bizaad Bínáhoo'aah. Searching requires grammatical curiosity: remove a familiar outer prefix, look for the stem, and compare recorded forms rather than accepting the first English gloss. Public Navajo Wikipedia can supply reading practice, but community-edited or machine-produced text should be checked with a speaker before it becomes a production model.",
+      "The Navajo Language Academy’s talking dictionary pairs entries with audio and grammatical examples. Use it to compare a form you heard with related verbs, not just to find an English equivalent. A word may begin with several prefixes before the part a dictionary groups it under.\n\nYoung and Morgan’s grammar and dictionary give fuller analysis, while public teaching sites offer smaller steps. Check an unfamiliar written example with a speaker before treating it as a model for your own conversation.",
       "nla-lexicon",
       "unm-resources",
       "wiki-navajo"
@@ -371,13 +367,13 @@ export const navajoGuide = {
       { type: "course", title: "UNM Navajo Language Program learning materials", url: "https://navajo.unm.edu/other-resources/", level: "all", description: cited("A curated path to reading practice, videos, study aids, children's books, dictionaries, and community opportunities. Its institutional mission explicitly joins language study with Diné knowledge and revitalization.", "unm-resources", "unm-mission") },
       { type: "media", title: "Navajo Nation Diné Bizaad stories", url: "https://opvp.navajo-nsn.gov/dine-bizaad/", level: "all", description: cited("Monthly original stories paired with fluent-speaker audio, launched by the Office of the President and Vice President for listening, reading, vocabulary, and practical conversation.", "navajo-stories") },
       { type: "community", title: "Diné College Navajo Language program", url: "https://www.dinecollege.edu/academics/b-a-navajo-language/", level: "advanced", description: cited("A tribally controlled degree path centered on speaking, reading, writing, teaching, leadership, and the place of language in community life.", "dine-college") },
-      { type: "book", title: "Diné Bizaad Bínáhoo'aah: Rediscovering the Navajo Language", url: "https://salinabookshelf.com/products/dine-bizaad-binahooaah-rediscovering-the-navajo-language", level: "beginner", description: cited("A substantial learner textbook by Evangeline Parsons Yazzie and Margaret Speas, useful for an organized course when paired with fluent audio and correction.", "unm-resources") }
+      { type: "book", title: "Diné Bizaad Bínáhoo'aah: Rediscovering the Navajo Language", url: "https://salinabookshelf.com/products/dine-bizaad-binahooaah-rediscovering-the-navajo-language", level: "beginner", description: cited("Evangeline Parsons Yazzie and Margaret Speas's learner textbook fits a structured course with fluent audio and correction.", "unm-resources") }
     ]
   },
 
   wordsAndTexts: {
     overview: cited(
-      "A Navajo word is often a doorway into relationship rather than a detachable label. Hózhǫ́ can concern beauty, balance, order, wellness, and the ongoing work of living well; translating it as a mystical slogan empties it. K'é describes kinship and right relationship but is learned through obligations and forms of address, not a one-line definition. Place names describe land, water, color, plants, events, and histories with detail that English map labels often suppress. Verbs contribute equal richness: handling stems make the physical character of an object grammatically salient, while motion verbs track path and manner. Learn words from Diné-produced sentences and note who uses them, with whom, and for what purpose.",
+      "Hózhǫ́ and k’é connect language with ways of living and relating to others. An English gloss such as “beauty” or “kinship” names only part of either word’s use. Listen to Diné explanations and ask how the words work in a particular sentence.\n\nPlace names may describe land and history in details an English map label omits. Verbs can distinguish how an object is carried or how someone moves. Collect words inside sentences from Diné speakers rather than as detachable cultural slogans.",
       "dine-college",
       "nla-lexicon",
       "unm-mission"
@@ -392,16 +388,15 @@ export const navajoGuide = {
       { term: "t'ááłá'í", meaning: "one", note: cited("The word offers concentrated pronunciation practice: glottalized consonants and glottal stops are structural, not optional punctuation.", "learn-navajo") }
     ],
     loanwordLayers: cited(
-      "Navajo has borrowed and adapted words across long contact. Spanish-era vocabulary accompanied livestock and new material culture; English loans and code-switches appear in school, government, work, medicine, vehicles, and digital life. Speakers also coin descriptive Navajo expressions or extend an existing verb. Borrowing choices differ by generation and context: one speaker may prefer a Diné technical term, another an integrated loan, and another an English switch. None can be evaluated from etymology alone. Historical claims about an apparently Spanish, Pueblo, or English word should be checked in a specialist dictionary because resemblance encourages attractive but false stories.",
+      "Navajo speakers have borrowed words during long contact with Spanish and English. A borrowed word may take Navajo sounds and grammar, while another speaker may choose a descriptive Diné expression or switch to English for a topic. Those choices vary by setting and generation.\n\nDo not label a form authentic or inauthentic by its origin. Check an etymology in a specialist dictionary: a familiar sound alone does not prove where a word came from.",
       "wiki-navajo",
       "nla-lexicon"
     ),
     idioms: [
       { original: "T'áá hwó' ají t'éego.", translation: "It is up to oneself, through one's own effort.", note: "Literally, roughly ‘only oneself, as one does/acts.’ A widely cited expression of self-reliance and responsibility; its social meaning is richer than individualistic ‘do it alone.’" },
-      { original: "Yéego ííyááł.", translation: "Keep going with determination.", note: "Literally, ‘go strongly/with effort.’ An encouraging expression; inflection changes with the person being addressed and the specific action." },
+      { original: "T’áá hó ágít’éego.", translation: "Success is up to you.", note: "LearnNavajo.com gives this as an encouragement in its education lesson. Ask a speaker when it fits a real conversation." },
       { original: "Hózhǫ́ náhásdlį́į́'.", translation: "Harmony or beauty has been restored.", note: "Literally, ‘hózhǫ́ has become again.’ Known from a culturally important closing expression. Do not use it as a casual exotic flourish; learn its setting from Diné teachers." },
-      { original: "T'áá íiyisíí ahéhee'.", translation: "Thank you very much.", note: "Literally, roughly ‘especially/most of all, thank you.’ A warm expansion of ahéhee'; pronunciation and context matter more than substituting it mechanically for every English thanks." },
-      { original: "Nizhónígo ch'aanídíínaał.", translation: "May you live beautifully/well.", note: "Literally, ‘in a beautiful or harmonious way, may one live.’ A blessing-like sentiment whose force depends on relationship and occasion; verify the appropriate addressed form with a speaker." }
+      { original: "T'áá íiyisíí ahéhee'.", translation: "Thank you very much.", note: "A stronger expression of thanks heard in Diné public remarks. Listen to its rhythm in a complete speech." }
     ],
     textGenres: [
       "Family conversation, kinship introductions, teasing, advice, and oral histories",
@@ -415,14 +410,14 @@ export const navajoGuide = {
 
   relationships: {
     overview: cited(
-      "Navajo's closest genealogical neighbors are the Apache languages, together forming Southern Athabaskan; more distant relatives stretch north and west. Pueblo languages, Spanish, and English are contact languages, not close family members. Shared grammar and shared history are different evidence. Navajo's public profile reflects its speaker population and the Code Talkers, but it cannot stand in for hundreds of distinct Indigenous languages.",
+      "Navajo is closest to the Apache languages within Southern Athabaskan. It shares more distant ancestry with Athabaskan languages in Alaska, Canada, and the Pacific Coast. That family history does not make everyday conversation mutually intelligible across the whole group.\n\nDiné people have also lived beside Pueblo communities and speakers of Spanish and English for generations. Contact can spread words and practices without making those languages genealogical relatives.",
       "glottolog-navajo",
       "wiki-navajo",
       "nps-codetalkers"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Diné Bizaad is not public domain because its alphabet and dictionaries are public. Greetings, classes, news, and books are available to learners; some stories, songs, names, medicinal knowledge, and ceremonial speech are governed by season, kinship, training, or consent. Ask rather than guessing. Do not frame every conversation around language death, Code Talkers, or grammar: Diné speakers use the language for jokes, childcare, work, politics, art, and technology. Outsiders can pay teachers, buy Diné-produced materials, cite Diné scholarship, retain diacritics, and be honest about limited competence. Heritage learners may be reclaiming transmission interrupted by policy; neither shame nor a stranger's enthusiasm should set the terms.",
+  culturalNotes: "Diné speakers use their language for family talk, humor, work, politics, songs, education, and online life. Some stories, names, and ceremonial expressions carry restrictions tied to family, season, training, or consent. Ask a Diné teacher or knowledge holder what may be repeated or shared.\n\nOutsiders can pay teachers, buy Diné-produced materials, preserve written marks, and state their own level honestly. Heritage learners may be rebuilding transmission interrupted by schooling or other policies; let them set the pace and purpose.",
 
   resources: [
     { type: "dictionary", title: "Navajo Language Academy Talking Dictionary", url: "https://talkingdictionary.swarthmore.edu/navajo/", level: "all", description: cited("Speaker audio, lexicons, grammar constructions, and examples from a collaboration involving the Navajo Language Academy and Navajo Technical University.", "nla-lexicon") },
@@ -442,15 +437,17 @@ export const navajoGuide = {
     { original: "Hágoónee'.", translation: "Goodbye; until we meet again.", usageNote: "A leave-taking that is often explained through the expectation of meeting again." },
     { original: "Haash yinilyé?", translation: "What is your name?", literalMeaning: "What are you called?", usageNote: "A conventional name question; do not replace haash with an English-style word-by-word guess." },
     { original: "Shí Dana yinishyé.", translation: "My name is Dana.", literalMeaning: "I, Dana, I am called.", usageNote: "Substitute your name. The initial shí is an independent first-person pronoun used for focus." },
-    { original: "Haa'át'íísh baa naniná?", translation: "What are you doing?", usageNote: "A useful conversational question; fluent pronunciation compresses more than a slow orthographic reading suggests." },
+    { original: "Bíhoosh’aah.", translation: "I am learning.", usageNote: "A first-person learning verb given in LearnNavajo.com's education lesson." },
     { original: "Doo shił bééhózin da.", translation: "I don't know.", literalMeaning: "It is not known with/by me.", usageNote: "Notice the two-part negative frame doo ... da." },
     { original: "Diné bizaad shił bééhózin.", translation: "I know Navajo.", literalMeaning: "The Diné language is known with/by me.", usageNote: "Use modestly: knowing a few phrases is not the same as claiming broad competence." },
-    { original: "Díí háísh bee hólǫ́?", translation: "Whose is this?", usageNote: "A possession question whose exact natural form can vary with the object and context; practice it with a teacher using real items." },
-    { original: "Nizhónígo adááh naashá.", translation: "Have a good day.", literalMeaning: "Walk about/live through the day in a beautiful way.", usageNote: "A warm wish; learn the sound and addressed variants from a fluent model rather than relying on the English gloss." }
+    { original: "Nitahísh yá’áhoot’ééh?", translation: "Are you feeling well?", usageNote: "LearnNavajo.com lists this in its health lesson; it asks about well-being rather than functioning as every greeting." },
+    { original: "Shitah yá’áhoot’ééh.", translation: "I am feeling well.", usageNote: "A reply from the same health lesson. Listen for how speakers use it in context." }
   ],
 
   sources: [
     { id: "navajo-official", title: "Executive Order No. 01-2025: Diné Bizaad Official Language of the Navajo Nation", url: "https://opvp.navajo-nsn.gov/executive-order-no-01-2025-dine-bizaad-official-language-of-the-navajo-nation/", publisher: "Office of the President and Vice President, Navajo Nation", publishedAt: "2025-01-14", accessedAt: "2026-07-10" },
+    { id: "unm-sound", title: "Navajo Sound Profile", url: "https://navajo.unm.edu/dinesound/html/main.html", publisher: "University of New Mexico Navajo Language Program", accessedAt: "2026-09-27" },
+    { id: "uci-grammar", title: "Language Structure, Lecture 17", url: "https://sites.socsci.uci.edu/~lpearl/courses/psych156A_2008spring/lectures/Lecture17-LanguageStructureBW.pdf", publisher: "University of California, Irvine", accessedAt: "2026-09-27" },
     { id: "navajo-stories", title: "A New Resource to Learn and Strengthen Diné Bizaad", url: "https://opvp.navajo-nsn.gov/250104-learn-and-strengthen-dine-bizaad/", publisher: "Office of the President and Vice President, Navajo Nation", publishedAt: "2026-01-04", accessedAt: "2026-07-10" },
     { id: "dine-college", title: "B.A. Navajo Language", url: "https://www.dinecollege.edu/academics/b-a-navajo-language/", publisher: "Diné College", accessedAt: "2026-07-10" },
     { id: "dine-history", title: "History", url: "https://www.navajo-nsn.gov/History", publisher: "Navajo Nation", accessedAt: "2026-07-10" },
