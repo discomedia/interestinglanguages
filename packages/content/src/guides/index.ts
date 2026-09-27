@@ -29,6 +29,13 @@ import { navajoGuide } from "./navajo.js";
 import { quechuaGuide } from "./quechua.js";
 import { nahuatlGuide } from "./nahuatl.js";
 import { spanishGuide } from "./spanish.js";
+import { shanghaineseGuide } from "./shanghainese.js";
+import { estonianGuide } from "./estonian.js";
+import { cantoneseGuide } from "./cantonese.js";
+import { maoriGuide } from "./maori.js";
+import { uzbekGuide } from "./uzbek.js";
+import { samoanGuide } from "./samoan.js";
+import { pashtoGuide } from "./pashto.js";
 
 export const guideFixtures = [
   swahiliGuide,
@@ -61,7 +68,14 @@ export const guideFixtures = [
   navajoGuide,
   quechuaGuide,
   nahuatlGuide,
-  spanishGuide
+  spanishGuide,
+  shanghaineseGuide,
+  estonianGuide,
+  cantoneseGuide,
+  maoriGuide,
+  uzbekGuide,
+  samoanGuide,
+  pashtoGuide
 ];
 
 export {
@@ -95,5 +109,12 @@ export {
   navajoGuide,
   quechuaGuide,
   nahuatlGuide,
-  spanishGuide
+  spanishGuide,
+  shanghaineseGuide,
+  estonianGuide,
+  cantoneseGuide,
+  maoriGuide,
+  uzbekGuide,
+  samoanGuide,
+  pashtoGuide
 };

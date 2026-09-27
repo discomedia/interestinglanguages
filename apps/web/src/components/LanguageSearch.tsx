@@ -12,8 +12,12 @@ function unique(values: string[]) {
   return [allOption, ...Array.from(new Set(values)).sort((a, b) => a.localeCompare(b))];
 }
 
+function normalizeSearch(value: string) {
+  return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+}
+
 function includes(value: string, query: string) {
-  return value.toLowerCase().includes(query);
+  return normalizeSearch(value).includes(query);
 }
 
 export function LanguageSearch({ guides }: Props) {
@@ -22,7 +26,7 @@ export function LanguageSearch({ guides }: Props) {
   const [region, setRegion] = useState(allOption);
   const [script, setScript] = useState(allOption);
   const [difficulty, setDifficulty] = useState(allOption);
-  const normalizedQuery = query.trim().toLowerCase();
+  const normalizedQuery = normalizeSearch(query.trim());
 
   const options = useMemo(
     () => ({
@@ -37,6 +41,7 @@ export function LanguageSearch({ guides }: Props) {
   const visibleGuides = useMemo(() => {
     return guides.filter((guide) => {
       const haystack = [
+        guide.slug,
         guide.name,
         guide.autonym ?? "",
         guide.summary,

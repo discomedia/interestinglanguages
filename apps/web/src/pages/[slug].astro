@@ -20,6 +20,7 @@ if (!guide) {
 }
 
 const canonical = siteUrl(`/${guide.slug}`);
+const publishedSlugs = new Set(getLanguageGuideSummaries().map((item) => item.slug));
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -214,7 +215,7 @@ const nav = [
             <div class="note-list">
               {guide.relationships.languages.map((language) => (
                 <article>
-                  <h3>{language.name}</h3>
+                  <h3>{language.slug && publishedSlugs.has(language.slug) ? <a href={`/${language.slug}`}>{language.name}</a> : language.name}</h3>
                   <p><strong>{language.relationship}</strong> <CitedText value={language.explanation} sources={guide.sources} /></p>
                 </article>
               ))}

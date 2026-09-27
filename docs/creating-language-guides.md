@@ -257,9 +257,11 @@ Prefer active voice and direct subjects. Write “Speakers use this form with fr
 
 Keep every paragraph to a maximum of three sentences. Most paragraphs should make one main point, explain it, and offer an example or useful qualification.
 
-Use familiar words before specialist terms. If a technical term matters, explain the idea in ordinary language first or define the term immediately: “Persian often drops the subject because the verb already shows who is acting. Linguists call this a pro-drop language.”
+Use familiar, spoken words before specialist terms. Prefer “has” to “features” (outside its technical linguistic meaning), “boasts,” or “sports”; “and” to “as well as”; “is still” to “remains”; and “still has” to “retains.” If a technical term matters, explain the idea in ordinary language first or define the term immediately: “Persian often drops the subject because the verb already shows who is acting. Linguists call this a pro-drop language.”
 
 Use contractions and address the reader as “you” when that sounds natural. Short rhetorical questions and conversational transitions are welcome, but do not manufacture enthusiasm or talk down to the reader.
+
+Use “I” or “we” when it names real editorial work or firsthand experience, not to imply expertise the writer does not have. Use gender-neutral language for people whose gender is unknown or irrelevant; a learner can be “they.” Avoid the impersonal “one.”
 
 Break apart paragraphs that try to cover classification, regional variation, scripts, examples, and study advice all at once. A reader should not have to unpack five facts from one long sentence or remember several transliterations before reaching the point.
 
@@ -268,6 +270,8 @@ Keep sentences focused. Avoid stacked subordinate clauses, strings of semicolons
 Use lists for facts that readers may want to scan, but do not turn the article into a database export. Narrative sections should connect the facts, tell the reader why they matter, and give the article a human rhythm.
 
 Preserve nuance by spreading it across clear sentences, not by compressing it. Simpler prose does not mean deleting difficult ideas; it means introducing them in a sensible order.
+
+Explain what a fact means in practice. A script count, speaker estimate, or grammar label should help the reader understand how people use the language or what a learner will encounter. Round physical measurements for human reading and put metric first, then imperial: “200 km (124 mi).” Always name the unit.
 
 For example, avoid this detached construction:
 
@@ -295,7 +299,7 @@ Good prose does the following:
 
 Avoid:
 
-- “This language rewards learners,” “opens doors,” “rich tapestry,” and similar interchangeable openings.
+- “This language rewards learners,” “opens doors,” and similar interchangeable openings.
 - Unsupported difficulty rankings or fixed hour estimates.
 - Tourist-copy lists detached from real interaction.
 - Treating a national border as a language boundary.
@@ -306,6 +310,25 @@ Avoid:
 - Passive constructions that hide who speaks, writes, regulates, teaches, borrows, or changes the language.
 - Sentences with several semicolons, nested qualifications, or more than one technical point.
 - Long quotations. Paraphrase original research and cite it.
+
+### Word choice and tired patterns
+
+Apply these rules to public-facing editorial copy, including guide titles, summaries, resource descriptions, and SEO text. Keep a quoted title or established linguistic term intact when changing it would misstate the source.
+
+- Do not write “delve,” “dive deep,” “useful,” “that distinction matters,” “tapestry,” “testament,” “robust,” “seamless,” “vital,” “furthermore,” “moreover,” “in addition,” “leverages,” “utilises,” “facilitates,” “cutting-edge,” “game-changing,” “iconic,” “revolutionary,” “journey,” or “realm.” Replace them with the fact or action meant.
+- Avoid figurative “landscape,” “quietly” as a vague intensifier, and “space” when “world,” “market,” or no noun is clearer. Omit “notably,” “arguably,” and “undeniably” unless the claim and its significance are demonstrated.
+- Do not build a point around a reframe or contrast for effect: “It’s not just X; it’s Y,” “It’s more than X,” or “This is X. It isn’t Y.” State the actual relationship directly.
+- Skip clickbait and praise such as “special trick,” “secret weapon,” “hidden superpower,” “secret sauce,” “magic,” “truly shines,” “punches above its weight,” “hidden gem,” and “ace up its sleeve.” Do not call an example a “masterclass,” a “paradigm shift,” or something that “redefines the game.” Do not turn a language fact into an inspirational lesson.
+- Use “is” or a direct verb instead of “serves as.” Do not force three adjectives, clauses, or examples for rhythm. Do not write “ranging from X to Y” when the items do not form a real range.
+- Make each section add information; do not echo the same claim in the opening, body, and ending. Cut any sentence that adds no fact, explanation, or helpful transition.
+
+### Claims, advice, and revisions
+
+State verified facts directly. Name uncertainty where it actually exists, including disputed classifications, variable usage, and dated counts; do not turn a sourced observation into a speculative claim. Avoid “everyone knows,” “there’s no denying,” and claims that a language or learning method is perfect.
+
+Qualify advice by audience and circumstance. Say what a resource or approach helps with, what it does not cover, and when a learner might choose it. Compare praise with examples, figures, or real alternatives; avoid sales language and endings that merely say a choice depends on personal preference.
+
+When revising a guide, write the current account. Do not narrate mistakes or unclear advice from an earlier version in the main article; put meaningful correction history in a separate revision note if the page supports one.
 
 ### Citation practice
 

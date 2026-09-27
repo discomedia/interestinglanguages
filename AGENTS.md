@@ -45,7 +45,7 @@ The status of the original catalog's plain-language rewrites lives in `docs/guid
 
 Each guide's cited `introduction` appears directly below its title. Write it as an article lead about the language, its speakers and locations, and its classification before moving to learning advice in later sections.
 
-Guide prose should use active voice and readable, conversational phrasing. Keep every paragraph to no more than three sentences, give it one main idea, and explain the simple picture before adding terminology, exceptions, or regional nuance.
+Follow the public-facing writing standards in `docs/creating-language-guides.md` for guide prose, summaries, resource descriptions, and SEO text.
 
 - Slug, name, autonym, status, publication date, summary, family/classification, macro-region, primary script, difficulty label, learner hook, and speaker/community overview.
 - Compact facts, origins/history, contact history, standardization, variants/registers, pronunciation, writing system, grammar profile, where spoken, advanced learning path, difficulty assessment, words/texts, relationships, phrases, learning resources, and sources.
