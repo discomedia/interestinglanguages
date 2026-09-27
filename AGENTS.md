@@ -47,6 +47,8 @@ Guide prose should use active voice and readable, conversational phrasing. Keep 
 
 Long-form narrative fields accept either legacy strings or cited text objects shaped as `{ text, sourceIds }`. New guide content should use cited text, and every `sourceId` must resolve to the stable `id` of an entry in that guide's source list. Public pages render these as numbered inline links to the bibliography.
 
+Separate narrative paragraphs with a blank line inside a text field; the public renderer preserves those breaks.
+
 ## Public Components
 
 Use Astro for static layout and React only for interactive islands. Components should be small and content-driven:

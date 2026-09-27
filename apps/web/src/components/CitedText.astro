@@ -13,4 +13,4 @@ const references = sourceIds
   .filter((reference) => reference.number > 0);
 ---
 
-<>{textOf(value)}{references.length > 0 && <sup class="citations">{references.map((reference, index) => <><a href={`#source-${reference.id}`} aria-label={`Source ${reference.number}`}>{reference.number}</a>{index < references.length - 1 && ","}</>)}</sup>}</>
+<><span class="cited-text">{textOf(value)}</span>{references.length > 0 && <sup class="citations">{references.map((reference, index) => <><a href={`#source-${reference.id}`} aria-label={`Source ${reference.number}`}>{reference.number}</a>{index < references.length - 1 && ","}</>)}</sup>}</>

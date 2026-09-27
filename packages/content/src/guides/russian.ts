@@ -7,7 +7,7 @@ const relatedLanguages = [
     slug: "ukrainian",
     relationship: "East Slavic sister language",
     explanation: cited(
-      "Russian and Ukrainian descend from the East Slavic continuum and share a great deal of inherited grammar and vocabulary, but they are separate modern languages with distinct standards, sound systems, literary histories, and identities. Partial comprehension varies with exposure and should never be turned into a claim that one is merely a version of the other.",
+      "Russian and Ukrainian share East Slavic ancestry, grammar, and many words. They have distinct modern standards, sound systems, writing traditions, and identities. How much a speaker understands depends greatly on exposure.",
       "wiki-russian",
       "glottolog-russian"
     )
@@ -16,7 +16,7 @@ const relatedLanguages = [
     name: "Belarusian",
     relationship: "East Slavic sister language",
     explanation: cited(
-      "Belarusian is Russian's other closest standardized relative. Cognates and similar case-and-aspect systems give Russian learners a useful foothold, while Belarusian akanne, spelling, vocabulary, and morphology quickly show that closeness does not equal identity. Bilingual history has also produced mixed and shifting speech practices that simple family trees cannot capture.",
+      "Belarusian is another close East Slavic relative. Shared words and similar case and verb systems may help a Russian learner start reading it. Belarusian pronunciation, spelling, and vocabulary still require study of their own, and bilingual speakers use both languages in varied ways.",
       "wiki-russian",
       "glottolog-russian"
     )
@@ -26,18 +26,9 @@ const relatedLanguages = [
     slug: "polish",
     relationship: "West Slavic relative",
     explanation: cited(
-      "Polish is more distant than Ukrainian or Belarusian but makes a rewarding comparison: it preserves Slavic case and aspect in a Latin-based spelling system and has undergone different sound changes. Similar-looking words may be reliable cognates, false friends, or borrowings carried through centuries of contact.",
+      "Polish is a more distant Slavic relative. It also has cases and aspect but uses Latin letters and has different sounds. Similar words may be inherited relatives, borrowings, or false friends.",
       "wiki-russian",
       "glottolog-russian"
-    )
-  },
-  {
-    name: "Bulgarian",
-    relationship: "South Slavic relative and source of Church Slavonic influence",
-    explanation: cited(
-      "Modern Bulgarian is a South Slavic relative whose grammar has moved in a different direction, notably losing most noun case endings and developing articles. Medieval South Slavic Church Slavonic traditions nevertheless supplied Russian writing with a lasting high-register vocabulary and stylistic layer.",
-      "wiki-russian",
-      "unicode-cyrillic"
     )
   }
 ] satisfies LanguageGuide["relationships"]["languages"];
@@ -48,30 +39,30 @@ export const russianGuide = {
   autonym: "Русский",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Russian is an East Slavic language whose compact Cyrillic alphabet opens onto mobile stress, expressive word order, a rich system of aspect and motion, and cultural worlds stretching far beyond a single state.",
+  summary: "Russian is an East Slavic language written in Cyrillic. Hear how stress changes a word, then see how endings and verb choices shape everyday stories across many communities.",
   family: "Indo-European, Slavic",
   macroRegion: "Eastern Europe, North Asia, the Caucasus, Central Asia, and global diasporas",
   primaryScript: "Cyrillic",
   difficultyLabel: "Demanding",
-  learnerHook: "The alphabet is the weekend project; learning to hear an unstressed о, choose an aspect, and make a sentence sound like an answer rather than a dictionary entry is the absorbing long game.",
+  learnerHook: "You can learn the letters quickly. Then listen for the vowels that shrink without stress, and notice how a small change to a verb can change the story.",
   hero: {
     imageAlt: "Contemporary Russian Cyrillic type alongside handwritten text, showing the language's print and cursive traditions.",
     callToActionLabel: "Explore Russian in use"
   },
-  classification: "East Slavic language with a Moscow-centered standard and broad Eurasian and diasporic use",
-  speakerCommunity: "Russian is a first language for roughly 150 million people and is used by many more as an additional language; totals vary because censuses measure home language, proficiency, and regular use differently. It is Russia's state language, one of the UN's official languages, and has recognized roles in several other post-Soviet states. Communities across Ukraine, the Baltic states, the Caucasus, Central Asia, Israel, Germany, North America, Australia, and elsewhere do not form a political bloc. Russian may be a family language, lingua franca, literary medium, colonial inheritance, or several at once. Since Russia's full-scale invasion of Ukraine in 2022, language choice can carry acute meaning. Never equate Russian language, citizenship, ethnicity, and support for a government.",
+  classification: "Russian belongs to the East Slavic branch of Indo-European. The taught standard grew around central Russian speech, while communities across Eurasia and abroad use many regional forms.",
+  speakerCommunity: "A UN Regional Information Centre page gives about 154 million native speakers, without dating the underlying estimate. Many more use Russian alongside another first language, and sources count home language, ability, and daily use differently. Russia makes it a state language, and the UN uses it as one of its six official languages.\n\nRussian also belongs to families and communities in Ukraine, Central Asia, the Caucasus, the Baltic states, Israel, Germany, and elsewhere. Its role might be a home language, a shared second language, or an inheritance from imperial and Soviet rule. Russia's full-scale invasion of Ukraine in 2022 has made public language choices more politically charged.\n\nA person's language tells you nothing certain about their citizenship, ethnicity, or political views.",
   facts: [
     { label: "Family", value: "Indo-European · Slavic · East Slavic" },
-    { label: "First-language speakers", value: "About 150 million in widely cited estimates; totals depend on definitions" },
+    { label: "First-language speakers", value: "About 154 million in an undated UN Regional Information Centre estimate" },
     { label: "Alphabet", value: "33 Cyrillic letters" },
     { label: "Core grammar", value: "Six productive cases, three genders, two verbal aspects" },
     { label: "Standard base", value: "Central Russian, historically centered on Moscow" },
     { label: "International role", value: "One of six official UN languages" }
   ],
-  learnerOverview: "Cyrillic becomes readable much faster than it looks. Then the interesting work begins. молоко has three о letters but sounds approximately ma-la-KO in common standard speech because only the last is stressed. Noun endings show roles such as subject, possession, destination, instrument, or setting. Verbs form aspectual families: читать presents reading as activity or habit, while прочитать presents it as completed. Motion verbs ask whether you are going one way now, habitually, on foot, or by vehicle. Build from complete phrases with stress and audio. Learn each noun with a revealing form and verbs in contrasting sentences. Discover Discomfort rightly urges learners to attach a new alphabet to useful text, but its claim that Russian spelling maps sounds one-to-one is too simple: fluent pronunciation requires stress, reduction, and consonant softness.",
+  learnerOverview: "The word молоко́, 'milk,' has three о letters. In common standard speech, only the last sounds like a clear o because that syllable carries the stress. Learning Cyrillic lets you read the word; listening tells you how it sounds.\n\nAn ending can tell you whether a noun names the subject, a destination, or a place. A verb can show whether someone was reading for a while or finished the book. Russian calls that choice aspect.\n\nMovement also brings choices: are you going somewhere now, going there regularly, walking, or riding?\n\nBegin with short exchanges that have audio and marked stress. Save a noun in a phrase, not only in its dictionary form, and compare related verbs in complete sentences.\n\nDiscover Discomfort recommends learning a new script through meaningful text. That works for Cyrillic, but its description of Russian spelling as nearly sound-for-sound misses vowel reduction and soft consonants.",
   origins: {
     overview: cited(
-      "Russian belongs to East Slavic. Medieval varieties were used across the polity conventionally called Kyivan Rus', alongside written Church Slavonic; projecting today's national languages unchanged into the eleventh century is misleading. Diverging centers, migration, contact, and literary institutions gradually produced Russian, Ukrainian, and Belarusian standards. Moscow's growth made central dialects influential. Written Russian combined vernacular material with Church Slavonic forms that often supplied elevated alternatives. Eighteenth-century printing, science, administration, and European contact widened its range. Pushkin symbolically represents writers who brought literary prose and cultivated speech closer, but nobody individually “invented” modern Russian.",
+      "Russian grew from East Slavic speech. In the medieval lands often called Kyivan Rus', people spoke related varieties, while religious writers used Church Slavonic in books. Today's Russian, Ukrainian, and Belarusian did not yet exist as separate modern standards.\n\nAs political centers and writing traditions developed, these varieties followed different paths. Moscow's growing influence gave central Russian speech a larger role in administration and print. Writers drew on both everyday speech and Church Slavonic, whose words could sound learned or solemn.\n\nPrinting, science, and European contact brought new subjects into eighteenth-century prose. Pushkin later became a symbol of modern literary Russian because his work joined several styles so effectively. Many writers, editors, teachers, and readers shaped the standard; no single poet invented it.",
       "wiki-russian",
       "unicode-cyrillic",
       "un-russian"
@@ -80,7 +71,7 @@ export const russianGuide = {
       {
         period: "10th–13th centuries",
         event: cited(
-          "East Slavic speech existed in a multilingual medieval landscape, while Christian book culture used forms of Church Slavonic written in early Cyrillic. Birch-bark letters and chronicles reveal that everyday and literary usage were never identical registers.",
+          "People spoke East Slavic varieties among other languages. Church writers used forms of Church Slavonic in early Cyrillic. Birch-bark letters and chronicles show different kinds of written language.",
           "wiki-russian",
           "unicode-cyrillic"
         )
@@ -88,7 +79,7 @@ export const russianGuide = {
       {
         period: "14th–17th centuries",
         event: cited(
-          "As political and cultural centers diverged, the East Slavic continuum developed along different paths. Moscow-centered varieties gained institutional reach in the growing Muscovite state, while written language retained substantial Church Slavonic texture.",
+          "East Slavic varieties changed as political and cultural centers separated. The growing Muscovite state spread Moscow-area forms through its institutions. Writers still drew heavily on Church Slavonic.",
           "wiki-russian",
           "dialect-atlas"
         )
@@ -96,7 +87,7 @@ export const russianGuide = {
       {
         period: "18th–19th centuries",
         event: cited(
-          "Peter I's civil type reform simplified the appearance of printed Cyrillic for secular publishing. Scientific, bureaucratic, and literary prose expanded; French and German contact was conspicuous among elites. Pushkin's prestige later made him a convenient emblem of modern literary Russian, though standardization was collective and gradual.",
+          "Peter I introduced a new type style for secular Cyrillic printing. Writers and officials expanded Russian prose for science, government, and literature. French and German shaped elite vocabulary, while Pushkin later came to represent a broader change in literary style.",
           "wiki-russian",
           "unicode-cyrillic",
           "un-russian"
@@ -105,7 +96,7 @@ export const russianGuide = {
       {
         period: "1917–1991",
         event: cited(
-          "The 1917–18 spelling reform removed several letters and regularized conventions. Mass literacy, education, internal migration, broadcasting, and Soviet institutions spread the standard over an enormous area, often at the expense of local Russian dialects and many non-Russian languages. Russian became a major interethnic language of the USSR.",
+          "The 1917–18 reform removed several letters from ordinary spelling. Soviet schools, publishing, broadcasting, and migration spread standard Russian widely. This process often displaced local Russian dialects and other languages, while many people used Russian to communicate across linguistic communities.",
           "wiki-russian",
           "wiki-dialects"
         )
@@ -113,19 +104,19 @@ export const russianGuide = {
       {
         period: "1991 to the present",
         event: cited(
-          "After the Soviet Union dissolved, successor states developed different language policies and Russian-speaking communities followed different trajectories. Migration, digital media, war, and generational change continue to alter where and how Russian is used; present-day status must be checked country by country rather than inferred from Soviet history.",
+          "After the Soviet Union ended, new states set their own language policies. Russian-speaking communities took different paths as migration and media changed their connections. Check each country's present rules and actual usage separately.",
           "wiki-russian",
           "un-russian"
         )
       }
     ],
     contactHistory: cited(
-      "Church Slavonic contributed learned and religious vocabulary; Turkic languages words of steppe life, administration, food, and trade; Dutch and German military, maritime, craft, and technical terms; French elite prestige vocabulary; and English much recent computing and business language. Russian also influenced and was reshaped by languages inside the empire and USSR. вокзал vokzal “railway station,” borrowed through the name Vauxhall, shows how surprising routes can be. Use a corpus to discover whether an international-looking word is formal, dated, ironic, or ordinary.",
+      "Church Slavonic gave Russian many religious and learned words. Turkic languages contributed words for trade, food, and daily life; Dutch and German shaped maritime and technical vocabulary; French influenced elite speech; and English supplies many newer business and computing terms. Russian speakers also borrowed from neighbors throughout the empire and Soviet Union.\n\nThe word вокза́л, 'railway station,' came through the English place name Vauxhall. Its history tells you where the word traveled, not how people use it today. Check a current dictionary or a dated corpus example before assuming a loan sounds formal, old, or foreign to speakers.",
       "wiki-russian",
       "ruscorpora"
     ),
     standardization: cited(
-      "Standard Russian has a strong educational and publishing norm supported by dictionaries, schools, editors, and the Vinogradov Russian Language Institute. Gramota.ru unites major spelling, stress, pronunciation, and explanatory dictionaries. The standard is historically central and Moscow-centered, but is neither frozen nor unanimous: dictionaries record competing stress and changing usage. Ё is a separate letter but is commonly printed as е unless clarity, pedagogy, names, or editorial policy requires dots. Consult a current dictionary rather than treating one teacher's preference as timeless law.",
+      "Schools, publishers, editors, and dictionaries teach a standard based largely on central Russian speech. Gramota.ru brings together dictionaries of spelling, stress, pronunciation, and meaning. Speakers also disagree about some forms, and dictionaries record variation.\n\nRussian has a separate letter ё, but ordinary print often uses е in its place. Editors keep the dots when a name or meaning needs them, and learner texts commonly show them. Check a current dictionary when you are unsure about a word's spelling or stress.",
       "gramota",
       "wiki-russian",
       "wiki-dialects"
@@ -133,33 +124,33 @@ export const russianGuide = {
   },
   variants: {
     overview: cited(
-      "Russian urban variation is less conspicuous than its geography suggests because schooling, mobility, and broadcasting leveled features. Traditional northern, southern, and central groups still differ in vowel reduction, /g/, endings, and vocabulary; the Academy of Sciences atlas maps them. Variation also follows age, class, ethnicity, city, medium, and formality. Russian in Kazakhstan, Latvia, Dagestan, Ukraine, Israel, or Germany can have stable local vocabulary and intonation. Calling everything an “accent” may miss grammar; calling every contact variety a dialect may exaggerate boundaries.",
+      "Schooling, travel, and broadcasting brought many city speakers closer to the standard, but Russian still varies across places and social settings. Traditional northern and southern dialects differ in vowel sounds, the sound of г, endings, and vocabulary. The dialect atlas maps these patterns.\n\nPeople also speak differently with friends, at work, and in public writing. Russian spoken in Kazakhstan, Latvia, Dagestan, Ukraine, Israel, or Germany can reflect long contact with local languages. A local word or intonation pattern does not make a speaker's Russian defective, and it does not automatically define a separate dialect.",
       "dialect-atlas",
       "wiki-dialects",
       "ruscorpora"
     ),
     items: [
-      { name: "Standard literary Russian", note: cited("The national education, publishing, administration, and much broadcast norm. Spoken standard Russian still ranges from careful news diction to relaxed urban conversation and does not require sounding ceremonious.", "gramota", "wiki-russian") },
-      { name: "Northern Russian dialects", note: cited("Traditional northern varieties are associated with features such as less reduction of unstressed /o/ in some areas, a pattern popularly called okanye. They are internally diverse and increasingly encountered through dialect archives rather than in major-city speech.", "dialect-atlas", "wiki-dialects") },
-      { name: "Southern Russian dialects", note: cited("Southern varieties include forms of akanye and, in some areas, a fricative realization of historical /g/, alongside distinct pronouns, endings, and vocabulary. Boundaries form continua rather than matching modern administrative maps.", "dialect-atlas", "wiki-dialects") },
-      { name: "Urban colloquial Russian", note: cited("Everyday conversation shortens formulas, favors particles, tolerates unfinished syntax, and uses vocabulary absent from formal essays. просторечие prostorechie refers more specifically to socially marked nonstandard speech and should not be used as a synonym for all colloquial language.", "wiki-dialects", "ruscorpora") },
-      { name: "Heritage and contact varieties", note: cited("Russian maintained across migration or alongside another dominant language may simplify, innovate, or preserve older features. In multilingual Eurasian communities, local languages contribute names, particles, vocabulary, and conversational expectations; these patterns belong to speakers' histories, not a deficit model.", "ruscorpora", "wiki-russian") }
+      { name: "Standard literary Russian", note: cited("Schools, publishers, and broadcasters teach and use this shared norm. Speakers can use it in relaxed conversation as well as careful public speech; the word 'literary' does not require a formal tone.", "gramota", "wiki-russian") },
+      { name: "Northern Russian dialects", note: cited("In some northern areas, speakers keep an unstressed о clearer than standard speakers do. Linguists call this pattern okanye. Northern dialects differ among themselves, so one sound cannot describe them all.", "dialect-atlas", "wiki-dialects") },
+      { name: "Southern Russian dialects", note: cited("Many southern varieties reduce an unstressed о toward an a-like sound, a pattern called akanye. Some areas also use a breathier sound for г and have different pronouns or endings. These patterns cross administrative borders.", "dialect-atlas", "wiki-dialects") },
+      { name: "Urban colloquial Russian", note: cited("Friends shorten set phrases, use small conversational words, and leave sentences unfinished when the meaning is clear. Russian speakers use the term просторечие for more specifically marked nonstandard speech. It does not simply mean all casual conversation.", "wiki-dialects", "ruscorpora") },
+      { name: "Heritage and contact varieties", note: cited("Families abroad may keep an older expression, create a new one, or borrow a local word. Multilingual communities in Eurasia may draw on neighboring languages for names, conversational habits, and vocabulary. Describe a form through the community that uses it rather than measuring it only against a Moscow textbook.", "ruscorpora", "wiki-russian") }
     ]
   },
   pronunciation: {
     overview: cited(
-      "Russian pronunciation revolves around stress and hard versus soft consonants. “Soft” means palatalized: the tongue rises toward the palate. Compare мат mat “mat” with мать mat' “mother”; ь has no sound alone but signals a different final consonant. Stress can move: го́род górod “city,” города́ gorodá “cities.” Unstressed vowels reduce, final voiced consonants devoice, and neighbors assimilate in voicing. Aim for a stable stressed vowel and convincing consonant quality, not equal emphasis on every written letter.",
+      "Russian stress tells you which vowel stands out. In молоко́, 'milk,' only the final о has its full o sound in common standard speech. Stress can shift between forms: го́род means 'city,' while города́ means 'cities.'\n\nConsonants also come in hard and soft forms. To make a soft consonant, raise the middle of your tongue toward the roof of your mouth. Compare мат, 'mat,' with мать, 'mother': the final ь has no sound of its own but marks a soft т.\n\nAt the end of a word, a written voiced consonant often loses its voicing, so spelling alone cannot supply the whole pronunciation.",
       "wiki-phonology",
       "gramota"
     ),
     script: "Russian Cyrillic; acute accents are added here for learner stress and are not normally printed",
     soundSystem: cited(
-      "Standard analyses usually identify five vowel phonemes whose sounds vary with stress and neighboring consonants. Unstressed о and а often converge; е and я reduce after soft consonants. Palatalization is contrastive, and ы is not English “ee.” Russian р is tapped or trilled. Ordinary speech simplifies the frightening здравств- cluster in здравствуйте. Morphological spelling keeps word parts recognizable even when pronunciation changes them.",
+      "Most descriptions treat Russian as having five basic vowel sounds, though their exact sound changes with stress and nearby consonants. Unstressed о and а often sound alike. After soft consonants, е and я also become less distinct without stress.\n\nThe vowel ы does not sound like English 'ee,' and Russian р usually has a tap or trill. In здравствуйте, 'hello,' everyday speech simplifies the long consonant cluster. Listen to a speaker before trying to pronounce every written letter separately.",
       "wiki-phonology",
       "gramota"
     ),
     prosody: cited(
-      "Lexical stress is not reliably predictable, so dictionaries mark it and learners should too. Stress controls vowel quality and can distinguish words or forms: му́ка múka means “torment,” while мука́ muká means “flour.” Russian intonation signals completion, contrast, surprise, and yes–no questions without needing English-style auxiliary verbs. In Ты дома? “Are you home?”, the main rise commonly falls on до́ма. Sentence focus also interacts with flexible word order: moving an element toward the end often makes it new or contrastive. Shadow whole exchanges, not isolated nouns, and copy where the pitch turns as carefully as where the word stress falls.",
+      "You cannot reliably guess stress from spelling, so look it up with each new word. The same letters can name different things: му́ка means 'torment,' while мука́ means 'flour.' A dictionary shows the stress mark even though everyday printing usually leaves it out.\n\nYour voice also signals whether a sentence is a question, surprise, or plain statement. In Ты до́ма?, 'Are you home?', the pitch often rises on до́ма. Listen to whole exchanges and copy the pitch movement as well as the stressed syllables.",
       "wiki-phonology",
       "ruscorpora"
     ),
@@ -176,23 +167,22 @@ export const russianGuide = {
       { original: "быть", transliteration: "byt'", translation: "to be", note: "The letter ы follows a hard б; avoid turning it into a separate bwee sequence." },
       { original: "хорошо́", transliteration: "khoroshó", translation: "well; good (predicative/adverb)", note: "Practice х at the back of the mouth and let the unstressed о vowels reduce." },
       { original: "му́ка / мука́", transliteration: "múka / muká", translation: "torment / flour", note: "A clean demonstration that stress can distinguish lexical meaning." },
-      { original: "сча́стье", transliteration: "schást'ye", translation: "happiness", note: "The spelling is fuller than everyday pronunciation; listen for the softened cluster rather than articulating every letter equally." }
     ]
   },
   writing: {
     overview: cited(
-      "Modern Russian uses 33 Cyrillic letters. Russian is only one of many Cyrillic languages, not the whole script. А, К, М, О, Т look friendly; false friends В, Н, Р, С, У, Х punish Latin guessing. Ъ and ь do not represent vowels but separate or modify surrounding sounds. Е, Ё, Ю, Я can signal /j/ word-initially or after vowels/signs, and softness after a consonant. Handwriting differs substantially from print, especially lowercase д, т, and joined cursive, so real notes need separate practice.",
+      "Russian uses 33 letters from the Cyrillic script, which many other languages also use. Some shapes look like Latin letters but sound different: Russian В sounds like v, Н like n, Р like r, and С like s. Learn those words in Cyrillic from the start.\n\nThe signs ь and ъ do not name vowel sounds; they change how nearby letters work. Е, Ё, Ю, and Я can begin with a y-like sound, while after many consonants they signal softness. Cursive changes several letter shapes, especially д and т, so handwritten notes take separate practice.",
       "unicode-cyrillic",
       "dd-writing"
     ),
     primaryScript: "Russian Cyrillic alphabet",
     romanization: cited(
-      "Romanization serves catalogues, passports, maps, and a first pronunciation lesson, but schemes differ: Хрущёв becomes Khrushchev in familiar English spelling. Romanization hides relationships such as читать, прочитать, and читатель. Type Cyrillic immediately and retain transliteration only to clarify stress or pronunciation.",
+      "People write Russian names in Latin letters on maps, passports, and library records, but they follow different systems. English often writes Хрущёв as Khrushchev.\n\nIf you read only Latin letters, you may miss how читать, прочитать, and читатель share a root. Learn to type Cyrillic and use transliteration only as a temporary pronunciation aid.",
       "unicode-cyrillic",
       "dd-writing"
     ),
     spellingNorms: cited(
-      "Russian spelling is morphophonemic: it represents both sound and stable word structure. The unstressed vowel in вода́ “water” is pronounced differently from its stressed counterpart in во́ды “waters,” but the shared spelling preserves the stem. Spelling rules after г, к, х and the spelling categories often taught as the seven-letter and five-letter rules constrain which vowel letters follow certain consonants. The 1917–18 reform removed Ѣ, І, Ѳ, and final hard signs in ordinary contexts. Ё remains the most visible modern editorial choice: dictionaries distinguish it, children's texts usually print it, and general publications often replace it with е. Never omit the dots in a learner's own vocabulary record if they identify pronunciation.",
+      "Russian spelling often keeps a word's parts visible even when their sounds change. In вода́, 'water,' the first о loses its full sound, but the stressed form во́ды, 'waters,' helps explain the spelling. Learners also meet rules about which vowel letters follow consonants such as г, к, and х.\n\nThe 1917–18 spelling reform removed several old letters and most final hard signs from ordinary writing. Today the main choice you will notice is ё: dictionaries and learner texts show it, while general print often replaces it with е. Keep ё in your own notes so you can recover both sound and meaning.",
       "gramota",
       "unicode-cyrillic",
       "wiki-russian"
@@ -206,24 +196,24 @@ export const russianGuide = {
   },
   grammar: {
     overview: cited(
-      "Russian is a fusional language: one ending can bundle case, number, and gender, while a verb ending bundles person and number. That makes tables compact but real choices contextual. The six productive cases are nominative, accusative, genitive, dative, instrumental, and prepositional; vestiges of other forms survive in limited expressions. Cases work together with prepositions, verbs, animacy, and meaning. Verbs distinguish imperfective and perfective aspect, and derivational prefixes create networks of related actions. Word order is flexible because endings identify roles, but it is not free: order packages old versus new information, contrast, emotion, and register. The productive study unit is therefore a short sentence with an answer to “why this form here?”",
+      "Russian endings carry several clues at once. A noun or adjective ending may show its sentence role, number, and grammatical gender. Linguists call this kind of packed ending 'fusional.'\n\nLearners usually meet six cases, or sets of noun forms: nominative, accusative, genitive, dative, instrumental, and prepositional. Meaning and nearby words help you choose among them. Verbs also let you view an action as a process or as a whole.\n\nEndings often keep roles clear when words move. Word order and pitch then show what the speaker treats as known or new. Study each short sentence with the question it answers.",
       "wiki-russian",
       "cornell-aspect",
       "ruscorpora"
     ),
     typologicalProfile: cited(
-      "Russian has three grammatical genders in the singular, adjective–noun agreement, six cases, animate–inanimate distinctions that affect some accusative forms, and verbs inflected for person in the present/future and for gender in the past singular. It normally lacks articles. Present-tense forms of быть byt' “to be” are usually absent in simple identity and property statements: Москва — столица “Moscow is a capital.” Subjects can be omitted when context and verb forms identify them. Negation has its own case patterns, and Russian freely permits multiple negative elements: Я никогда ничего не видел “I never saw anything.”",
+      "Russian groups singular nouns into three grammatical genders, and describing words change to match. A noun's form may also reflect whether it names a living being. Present and future verbs show who acts; past singular verbs often show grammatical gender.\n\nRussian has no articles like 'a' and 'the.' Speakers usually omit 'is' in simple present statements: Москва́ — столи́ца means 'Moscow is a capital.' They can leave out an obvious subject too. Several negatives can work together: Я никогда́ ничего́ не ви́дел means 'I never saw anything.'",
       "wiki-russian",
       "ruscorpora"
     ),
     morphology: cited(
-      "Case endings recur in families but stress, stem changes, spelling rules, and irregular plurals prevent pure mechanical assembly. Learn стол “table” with на столе́ “on the table” and со стола́ “from the table,” not with an abstract label alone. Adjectives make case more audible because they agree with their noun. Verbs are best stored as imperfective–perfective constellations rather than assumed one-to-one pairs: писать “write” relates to написать “write/finish,” записать “write down/record,” переписать “rewrite,” and подписать “sign.” Suffixes form people, actions, qualities, and affectionate or evaluative shades; diminutives can express intimacy, politeness, irony, or condescension, not merely physical smallness.",
+      "Endings repeat, but stress, spelling, and irregular forms complicate the pattern. Learn стол, 'table,' with на столе́, 'on the table,' and со стола́, 'from the table.' These phrases show case and moving stress.\n\nRelated verbs can have different jobs. Писа́ть means 'write,' написа́ть can show completion, записа́ть means 'write down,' and подписа́ть means 'sign.' Diminutives can show affection, irony, or condescension as well as small size; context tells you which.",
       "cornell-aspect",
       "ruscorpora",
       "gramota"
     ),
     syntax: cited(
-      "A neutral Russian clause often places given information earlier and the focal information later. Иван купи́л кни́гу naturally answers what Ivan did or bought; кни́гу купи́л Ива́н can answer who bought the book. Cases preserve the core roles, while order and intonation reshape the message. Russian also favors impersonal constructions: Мне хо́лодно literally patterns as “to me [it is] cold,” and Меня́ тошни́т puts the experiencer in the accusative. Formal written Russian can pack information into participles and verbal nouns; conversation relies more on finite clauses, particles, ellipsis, and shared context.",
+      "Russian speakers often put familiar information first and the answer's focus later. Ива́н купи́л кни́гу answers what Ivan bought; Кни́гу купи́л Ива́н can answer who bought it. Case endings keep the roles clear while order and pitch change the emphasis.\n\nSome sentences describe an experience without making its experiencer the subject. Мне хо́лодно means 'I'm cold,' with a form meaning 'to me.' Formal prose may pack ideas into dense verb-derived forms, while conversation leans on short clauses and context.",
       "wiki-russian",
       "ruscorpora"
     ),
@@ -237,43 +227,43 @@ export const russianGuide = {
     topics: [
       {
         title: "Cases as viewpoints on a noun",
-        body: cited("A case is a form that helps show a noun phrase's role or relationship. Prepositions narrow the possibilities, but meanings matter: в Москву uses accusative for motion into Moscow, while в Москве uses prepositional for location. Learn the contrast as a miniature scene.", "wiki-russian", "ruscorpora"),
+        body: cited("A case is a form that shows what a noun phrase does in a sentence. When you go into Moscow, say в Москву́; when you are in Moscow, say в Москве́. The first phrase marks a destination and the second a location.", "wiki-russian", "cornell-grammar"),
         example: "Я живу́ в Москве́, но за́втра е́ду в Петербу́рг.",
         exampleTranslation: "I live in Moscow, but tomorrow I'm going to Saint Petersburg. Location takes prepositional Москве; destination takes accusative Петербург."
       },
       {
         title: "Aspect: activity, event, and result",
-        body: cited("Imperfective presents an action from inside—as process, habit, repeated event, or general fact—while perfective commonly presents a bounded whole or result. Context matters more than the misleading labels “unfinished” and “finished,” and a perfective non-past form normally has future meaning.", "cornell-aspect", "ruscorpora"),
+        body: cited("Russian verbs often let you describe the same event from two angles. The imperfective form can show a process or habit; the perfective form presents an action as a whole, often with its endpoint in view. A perfective form that looks like a present tense usually refers to the future.", "cornell-aspect", "ruscorpora"),
         example: "Я чита́л кни́гу весь ве́чер, но не прочита́л её.",
         exampleTranslation: "I was reading the book all evening, but I didn't finish/read it through. The same real-world activity is framed first as process, then as unrealized result."
       },
       {
         title: "Verbs of motion",
-        body: cited("Unprefixed motion verbs contrast a current or one-direction journey with multidirectional, habitual, or general movement. Идти/ходить concern movement on foot; ехать/ездить concern transport. Prefixes then add paths such as arrival, departure, entry, crossing, or a short side trip.", "wiki-russian", "ruscorpora"),
+        body: cited("To talk about walking, Russian distinguishes a trip in progress from going regularly or in several directions: идти́ and ходи́ть. Е́хать and е́здить make a similar contrast for travel by vehicle. Prefixes can then add meanings such as arrival, departure, or entry.", "cornell-grammar", "ruscorpora"),
         example: "Сейча́с я иду́ домо́й, а обы́чно хожу́ пешко́м че́рез парк.",
         exampleTranslation: "I'm walking home now, and I usually walk through the park. Иду marks the present one-way trip; хожу marks habitual movement."
       },
       {
         title: "Animacy in the accusative",
-        body: cited("For masculine singular and all plural nouns, the accusative can copy the genitive for animate referents but the nominative for inanimate ones. Adjectives and pronouns show the same pattern, making animacy visible across the phrase.", "wiki-russian"),
+        body: cited("The form of a direct object changes with whether Russian grammar treats it as animate. For masculine singular and plural nouns, people and animals often take an ending that matches another case, the genitive. Objects usually keep the basic nominative shape, and describing words change along with their nouns.", "cornell-grammar", "wiki-russian"),
         example: "Я ви́жу но́вого студе́нта и но́вый университе́т.",
         exampleTranslation: "I see a new student and a new university. The animate masculine phrase takes genitive-shaped endings; the inanimate one looks nominative."
       },
       {
         title: "Numbers change the noun phrase",
-        body: cited("After два, три, четыре in basic nominative/accusative counting, nouns use a genitive-singular-looking form; after five and higher they normally use genitive plural. Compound numbers follow their final component, while case outside the basic counting form adds another layer.", "gramota", "ruscorpora"),
+        body: cited("Russian changes nouns after different numbers. In basic counting, two, three, and four usually take a form like the singular genitive; five and higher usually take a plural genitive form. Other cases add more patterns, so begin with the small sequence below.", "cornell-grammar", "gramota"),
         example: "Оди́н но́вый дом, два но́вых до́ма, пять но́вых домо́в.",
         exampleTranslation: "One new house, two new houses, five new houses. Notice that both noun and adjective forms change with the numeral pattern."
       },
       {
         title: "Reflexive -ся and middle meanings",
-        body: cited("The suffix -ся began with a reflexive pronoun but now marks many relationships: direct reflexive action, reciprocal action, passive-like constructions, spontaneous events, and verbs that simply must be learned with -ся. It is not always translatable as “oneself.”", "wiki-russian", "ruscorpora"),
+        body: cited("The ending -ся can show that someone acts on themself or that people act on each other. It also appears in events with no such meaning, including a door opening. Learn the verb and its context before translating -ся as 'oneself.'", "cornell-grammar", "ruscorpora"),
         example: "Две́рь открыва́ется, а встре́ча начина́ется.",
         exampleTranslation: "The door is opening, and the meeting is beginning. Neither verb describes a person acting on themself."
       },
       {
         title: "Flexible word order, precise focus",
-        body: cited("Endings allow several orders without losing who did what, but intonation and context decide what sounds neutral. Move a word only after deciding which question the sentence answers; copying English order forever produces correct but monotonous Russian.", "ruscorpora", "wiki-russian"),
+        body: cited("Case endings often keep the roles clear when words move. The position of a word and the speaker's pitch tell listeners which part answers the current question. In the example, the book is already in view and Anna is the news.", "ruscorpora", "wiki-russian"),
         example: "Э́ту кни́гу мне дала́ А́нна.",
         exampleTranslation: "It was Anna who gave me this book. Placing Анна last makes the giver the likely focus; эту книгу is already established."
       }
@@ -281,22 +271,24 @@ export const russianGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Russian's largest speaker population is in the Russian Federation, but the language's map reflects imperial expansion, Soviet mobility, education, displacement, and post-1991 migration. It has official status in Russia and institutional status of different kinds in Belarus, Kazakhstan, Kyrgyzstan, and some contested or internationally unrecognized territories. Elsewhere it may be a minority, heritage, or common second language without nationwide official status. Legal wording and actual daily use can differ. In Ukraine, Russian remains a home language for many citizens even as Russia's war has led many people to change language practices and reject claims that Russian-speaking identity determines political loyalty. A responsible guide avoids coloring whole countries as “Russian-speaking” and asks which community, generation, and domain is meant.",
+      "Most first-language speakers live in Russia, but imperial expansion, Soviet education, and later migration carried Russian much farther. Laws give it different roles in Russia, Belarus, Kazakhstan, and Kyrgyzstan; daily use may differ from its legal status. Elsewhere families may speak it at home or people may use it as a shared second language.\n\nUkraine illustrates why a map needs care. Russian remains a home language for some Ukrainians. A 2024 Kyiv International Institute of Sociology survey of adults in Ukrainian government-controlled areas found varied views on its official status, including among people who speak Russian at home.\n\nA person's use of Russian does not reveal their loyalty or politics. Ask which community, generation, and setting a claim describes.",
       "wiki-russian",
-      "un-russian"
+      "un-russian",
+      "un-estimate",
+      "kiis-2024"
     ),
     regions: [
       { place: "Russian Federation", note: cited("Russian is the federal state language, but the federation is multilingual. Russian proficiency is not the same as ethnic Russian identity.", "wiki-russian") },
-      { place: "Belarus, Ukraine, and Moldova", note: cited("Family and urban use is deep, but status, education, and attitudes differ sharply. Ukraine's multilingual reality is separate from Russia's political claims.", "wiki-russian") },
+      { place: "Belarus, Ukraine, and Moldova", note: cited("Families and cities use Russian in different ways, and each state sets its own rules. A 2024 Ukrainian survey recorded both home-language variation and changing views of Russian's public status. Ukraine's multilingual life cannot be reduced to Russia's political claims.", "wiki-russian", "kiis-2024") },
       { place: "Baltic states", note: cited("Estonia, Latvia, and Lithuania contain Russian-speaking communities whose usage varies by city and generation; Russian is not their state language.", "wiki-russian") },
-      { place: "Caucasus and Central Asia", note: cited("Russian remains useful in many cities and cross-border networks alongside national and local languages. Its reach and status vary by country.", "wiki-russian") },
+      { place: "Caucasus and Central Asia", note: cited("People use Russian in many cities and cross-border networks alongside national and local languages. Its reach and status vary by country.", "wiki-russian") },
       { place: "Global diasporas", note: cited("Communities in Israel, Germany, the Americas, Australia, and elsewhere may preserve older usage, absorb local vocabulary, or coexist with other heritage languages.", "wiki-russian", "ruscorpora") }
     ]
   },
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "For an English-speaking learner, Russian's difficulty is concentrated less in Cyrillic than in grammatical choices and sound patterns that English leaves implicit. Discover Discomfort highlights cases, prefixes, conjugation, and gender, though its claim that spelling maps sounds one-to-one is too optimistic: stress and reduction make pronunciation a separate skill. The language becomes manageable when “learn six cases” is replaced by smaller jobs—ask for something with the genitive, describe a location with the prepositional, recognize an animate accusative. Likewise, do not wait to master aspect before speaking. Learn a few high-frequency contrasts in stories and accept that advanced aspect remains interpretive.",
+      "English speakers can learn Cyrillic fairly quickly; choosing endings and hearing reduced vowels take longer. Discover Discomfort points to cases, prefixes, and gender as challenges, but its description of spelling as nearly sound-for-sound misses stress and vowel reduction.\n\nBreak a case table into small tasks. Learn to describe a place, name a destination, and ask for something before memorizing every ending. Begin speaking with a few common verb contrasts while your sense of aspect grows through stories.",
       "dd-hardest",
       "wiki-phonology",
       "cornell-aspect"
@@ -322,7 +314,7 @@ export const russianGuide = {
       "Using automatic translation for stress or aspect without checking a dictionary and corpus"
     ],
     workload: cited(
-      "A sustainable week can combine short speaking sessions, daily stress review, graded listening with transcripts, and one writing correction. Recycle one story: tell habits with imperfective verbs, one event with perfectives, and journeys with motion verbs. Discover Discomfort's one-sentence-a-day method is a useful low-intensity alternative. Progress is uneven: Cyrillic may click in days, case recognition in months, and idiomatic aspect over years. Measure what you can do with a voice note, article, or conversation.",
+      "In a typical week, combine short conversations, listening with a transcript, stress review, and one corrected paragraph. Retell a story with verbs for habits, then with verbs for completed events, and include a trip. Discover Discomfort's one-sentence-a-day routine can keep you in contact with Russian when time is scarce.\n\nCheck progress by what you can understand or say.",
       "dd-one-sentence",
       "dd-writing",
       "ruscorpora"
@@ -330,17 +322,17 @@ export const russianGuide = {
   },
   advancedLearning: {
     strategy: cited(
-      "Replace “improve Russian” with register projects: transcribe an interview minute weekly, pair a short story with its audiobook, or collect how one prefix changes ten verbs. Keep corpus examples with date, genre, stress, government, and your own variation. Alternate intensive reading with reading for plot. Ask tutors what situation a sentence implies and which word sounds focused, not merely whether it is grammatical.",
+      "Choose a task that tests a particular skill. Transcribe one minute of an interview, read a short story with its audio, or follow one verb prefix across several examples. Save the date and genre of each corpus example.\n\nAsk a tutor what situation your sentence suggests and which word gets the listener's attention.",
       "ruscorpora",
       "gramota"
     ),
     mediaPractice: cited(
-      "Mix fiction, independent journalism, interviews, comedy, science, music, and speakers outside Moscow. Compare scripted introductions with unscripted answers. Podcasts reveal fillers such as ну, вот, короче, типа, and как бы; learn their function rather than sprinkling them into formal speech. Verify automatic subtitles against transcripts and dictionaries. Label Russian-language work by Ukrainians, Belarusians, Israelis, Central Asians, and emigrants rather than absorbing everyone into vague “Russian culture.”",
+      "Listen across interviews, fiction, comedy, science, music, and speakers outside Moscow. Compare a scripted introduction with an unscripted answer. Words such as ну and вот can help a speaker pause or guide a listener; notice their job before copying them into your own speech.\n\nAutomatic subtitles may miss reduced sounds or names, so check a transcript when possible. Keep each creator's own national and community context in view. Russian-language work by Ukrainians, Belarusians, Israelis, Central Asians, and emigrants does not all belong under one national label.",
       "ruscorpora",
       "gramota"
     ),
     dictionariesAndCorpora: cited(
-      "Use Gramota.ru for spelling, stress, pronunciation, meanings, and usage notes. The Russian National Corpus offers more than two billion annotated tokens in spoken, newspaper, poetry, dialect, parallel, and other collections. Search exact forms, then use annotation and compare dates. OpenRussian supplies learner-friendly forms, but check serious uncertainty against Gramota and corpus evidence. A corpus reports its selected texts; it cannot decide what suits your audience.",
+      "Use Gramota.ru to check spelling, stress, pronunciation, and meaning. Search the Russian National Corpus for a word in dated texts, speech, newspapers, poetry, and regional collections. Its home page listed more than 17 billion tokens across its collections in September 2026, though their sizes and kinds differ.\n\nOpenRussian shows forms and examples in a learner-friendly layout. For a disputed form, compare it with Gramota and corpus examples. A corpus shows what appears in its selected texts; you still need to judge whether a phrase fits your audience.",
       "gramota",
       "ruscorpora"
     ),
@@ -349,36 +341,37 @@ export const russianGuide = {
       { type: "dictionary", title: "Gramota.ru dictionaries", url: "https://gramota.ru/biblioteka/slovari", level: "intermediate", description: cited("A portal to authoritative Russian spelling, stress, pronunciation, explanatory, proper-name, and specialist dictionaries. Essential when native intuitions disagree.", "gramota") },
       { type: "course", title: "Cornell Russian Grammar: Verbal Aspect", url: "https://russian.cornell.edu/grammar/html/gr04_d.htm", level: "intermediate", description: cited("A compact university explanation separating tense from aspect, with forms and examples suitable for structured review.", "cornell-aspect") },
       { type: "other", title: "Discover Discomfort: The Hardest Languages for English Speakers", url: "https://discoverdiscomfort.com/hardest-languages-to-learn/", level: "beginner", description: cited("A candid learner-oriented overview of why Russian cases and verbal morphology feel demanding, plus a practical starting sequence. Treat its phonetic-spelling claim as motivational simplification.", "dd-hardest") },
-      { type: "other", title: "Discover Discomfort: How to Read and Write Any Language", url: "https://discoverdiscomfort.com/how-to-read-and-write-any-language-and-why-you-should-learn/", level: "beginner", description: cited("A useful push to stop fearing new scripts and attach Cyrillic to meaningful text rather than remaining in romanization.", "dd-writing") },
+      { type: "other", title: "Discover Discomfort: How to Read and Write Any Language", url: "https://discoverdiscomfort.com/how-to-read-and-write-any-language-and-why-you-should-learn/", level: "beginner", description: cited("A short argument for reading Cyrillic in meaningful text early. Its general script advice does not teach Russian stress or reduction.", "dd-writing") },
+      { type: "other", title: "Discover Discomfort: Good Morning in Russian", url: "https://discoverdiscomfort.com/good-morning-in-russian/", level: "beginner", description: cited("Compares Доброе утро with warmer and more casual morning greetings. Check the relationship before choosing a playful diminutive form.", "dd-good-morning") },
+      { type: "other", title: "Discover Discomfort: The Politeness Word", url: "https://discoverdiscomfort.com/the-politeness-word/", level: "beginner", description: cited("Shows how пожа́луйста can answer thanks, mark a request, or invite someone to go ahead. Pair each meaning with a short exchange.", "dd-politeness") },
       { type: "dictionary", title: "OpenRussian", url: "https://en.openrussian.org/", level: "all", description: cited("A convenient learner dictionary with stress, frequency, forms, and examples; cross-check difficult normative or register questions with Gramota and the national corpus.", "openrussian") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Russian roots announce relationships: пис- links писать “write,” письмо “letter,” писатель “writer,” записка “note,” and переписка “correspondence.” But morphology cannot guarantee current use. Particles often matter more than “untranslatable” nouns: вот can point, conclude, present, or mark a turn; ну can urge, hesitate, object, or concede. Diminutives signal affection, hierarchy, irony, or unwanted familiarity as well as size. Record who said a form to whom.",
+      "Russian builds many words from a shared root. The пис- family includes писа́ть, 'write,' письмо́, 'letter,' and писа́тель, 'writer.' Related forms do not always share the same everyday use, so check each one in context.\n\nSmall conversational words can carry a lot of meaning. Во́т can point something out or draw a turn to a close; ну can signal a pause, an objection, or encouragement. Diminutives can show affection, irony, or unwanted familiarity.\n\nNotice who speaks to whom before borrowing a phrase.",
       "ruscorpora",
       "gramota"
     ),
     notableWords: [
-      { term: "тоска́", transliteration: "toská", meaning: "longing, anguish, melancholy, ennui", note: cited("Often advertised as untranslatable, but its range is the real story: contexts run from boredom to profound spiritual longing. Search examples before reaching for a mystical cultural explanation.", "ruscorpora", "gramota") },
-      { term: "аво́сь", transliteration: "avós'", meaning: "perhaps; relying on luck", note: cited("Can name a hopeful “maybe” or criticize action taken without adequate planning. It survives in idiom, commentary, and self-irony more readily than as a neutral everyday equivalent of perhaps.", "ruscorpora", "gramota") },
-      { term: "душа́", transliteration: "dushá", meaning: "soul; inner self", note: cited("Appears in religion, literature, intimate description, and idioms such as от души “wholeheartedly.” Its frequency makes it ordinary as well as culturally resonant.", "ruscorpora") },
-      { term: "уют", transliteration: "uyút", meaning: "coziness, comfort, a welcoming atmosphere", note: cited("Refers to the felt comfort of a home, café, or arrangement, not simply physical softness. The adjective уютный is extremely useful in reviews and everyday description.", "ruscorpora", "gramota") },
-      { term: "почемучка", transliteration: "pochemúchka", meaning: "a child or person who constantly asks why", note: cited("Built playfully from почему “why” with a person-forming suffix. It illustrates Russian's productive affectionate and evaluative word formation.", "gramota") },
-      { term: "суббо́тник", transliteration: "subbótnik", meaning: "organized voluntary communal work day", note: cited("Derived from суббота “Saturday,” the word carries Soviet institutional history and continues in contemporary use for neighborhood or workplace cleanups, sometimes sincerely and sometimes ironically.", "ruscorpora") },
-      { term: "ничего́", transliteration: "nichegó", meaning: "nothing; not bad; it's all right", note: cited("Its dictionary meaning is only the beginning. As a reply it may mean “fine,” “so-so,” or reassurance after an apology; intonation supplies the difference.", "ruscorpora", "gramota") },
-      { term: "дава́й", transliteration: "daváy", meaning: "come on; let's; go ahead; okay, bye", note: cited("The imperative of давать “give” has become a conversational workhorse for proposals, encouragement, permission, and closing a call. Learn it as several interaction patterns, not one translation.", "ruscorpora") }
+      { term: "тоска́", transliteration: "toská", meaning: "longing, anguish, melancholy, ennui", note: cited("The word covers boredom through deep longing. Check the sentence before claiming it has no English equivalent.", "ruscorpora", "gramota") },
+      { term: "аво́сь", transliteration: "avós'", meaning: "perhaps; relying on luck", note: cited("It can express hope or criticize acting without a plan. You may hear it in idioms and self-irony.", "ruscorpora", "gramota") },
+      { term: "душа́", transliteration: "dushá", meaning: "soul; inner self", note: cited("This ordinary word also appears in religious writing and idioms such as от души́, 'wholeheartedly.'", "ruscorpora") },
+      { term: "ую́т", transliteration: "uyút", meaning: "coziness, comfort, a welcoming atmosphere", note: cited("Speakers can describe the atmosphere of a home or café with this word. Its adjective ую́тный also appears in reviews and everyday description.", "ruscorpora", "gramota") },
+      { term: "почему́чка", transliteration: "pochemúchka", meaning: "a child or person who constantly asks why", note: cited("Speakers build it playfully from почему́, 'why.'", "gramota") },
+      { term: "суббо́тник", transliteration: "subbótnik", meaning: "organized communal work day", note: cited("From суббо́та, 'Saturday,' it names cleanups with a Soviet history and current local use.", "ruscorpora") },
+      { term: "ничего́", transliteration: "nichegó", meaning: "nothing; not bad; it's all right", note: cited("As a reply, it can mean 'fine,' 'so-so,' or reassurance. Listen to the speaker's tone.", "ruscorpora", "gramota") },
+      { term: "дава́й", transliteration: "daváy", meaning: "come on; let's; go ahead; okay, bye", note: cited("The imperative of дава́ть, 'give,' also proposes action, encourages someone, or ends a call.", "ruscorpora") },
     ],
     loanwordLayers: cited(
-      "Russian combines inherited Slavic material with Church Slavonic doublets and centuries of loans. Sometimes relatives divide by register: город “city” and град in elevated compounds reflect different sound histories. French left words of fashion, cuisine, society, and culture; German and Dutch contributed craft and maritime vocabulary; Turkic sources supplied everyday words including сарай “shed” and арбуз “watermelon”; Italian is visible in music; English supplies стартап, блогер, лайкать, and workplace jargon. Borrowed stems immediately acquire Russian grammar—лайкать conjugates and produces лайкнуть—showing that borrowing is active Russian word formation, not an alien object pasted into a sentence.",
+      "Russian inherited much of its basic vocabulary from earlier Slavic speech and gained a learned layer from Church Slavonic. Compare everyday го́род, 'city,' with град in elevated compounds. Turkic languages contributed words such as сара́й, 'shed,' and арбу́з, 'watermelon.' French, Dutch, German, Italian, and English added words in other periods and fields.\n\nBorrowed words join Russian grammar. The English-derived verb ла́йкать, 'to like an online post,' has a related form ла́йкнуть for one completed click. Watch how speakers adapt a new stem rather than treating every loan as an unchanged foreign word.",
       "wiki-russian",
       "ruscorpora",
       "gramota"
     ),
     idioms: [
       { original: "Ни пу́ха ни пера́!", transliteration: "Ni púkha ni perá!", translation: "Good luck!", note: "Literally “neither fur nor feather.” Said before an exam, performance, or difficult task. The traditional response is К чёрту! “To the devil!” rather than спасибо." },
-      { original: "Ру́ки не дохо́дят.", transliteration: "Rúki ne dokhódyat.", translation: "I never get around to it.", note: "Literally “my hands don't reach it.” A common way to explain a postponed task; change the dative possessor as needed: у меня руки не доходят." },
-      { original: "Де́ло в ша́пке.", transliteration: "Délo v shápke.", translation: "It's in the bag; the matter is settled.", note: "Literally “the business is in the hat.” Informal and upbeat, used when success seems secured or arrangements are complete." },
+      { original: "У меня́ ру́ки не дохо́дят.", transliteration: "U menyá rúki ne dokhódyat.", translation: "I never get around to it.", note: "Literally, 'my hands don't reach it.' Use it to explain a postponed task." },
       { original: "После до́ждичка в четве́рг.", transliteration: "Pósle dózhdichka v chetvérg.", translation: "When pigs fly; at some unlikely time.", note: "Literally “after a little rain on Thursday.” Playful skepticism about a promise or date; the diminutive дождичка contributes to the idiomatic flavor." },
       { original: "Семь раз отме́рь, оди́н раз отре́жь.", transliteration: "Sem' raz otmér', odín raz otrézh'.", translation: "Measure twice, cut once.", note: "Literally “measure seven times, cut once.” A familiar proverb urging care before irreversible action." }
     ],
@@ -393,20 +386,20 @@ export const russianGuide = {
   },
   relationships: {
     overview: cited(
-      "Russian sits inside Slavic, not inside a vague family of all Cyrillic languages. Ukrainian and Belarusian are its closest standardized relatives; Polish, Czech, Bulgarian, Serbian, and other Slavic languages share older grammar and vocabulary at greater distance. Cyrillic does not prove close ancestry: Kazakh, Kyrgyz, Mongolian, Tajik, and many languages of Russia adopted or adapted Cyrillic through specific political histories. Conversely, Polish is plainly related despite using Latin letters. Contact can produce hundreds of shared words without changing the family tree.",
+      "Russian belongs to the Slavic branch. Ukrainian and Belarusian are its closest modern standardized relatives; Polish, Czech, and Bulgarian share older ancestry at a greater distance. Their speakers do not automatically understand one another, and Russian does not outrank another Slavic language.\n\nScript tells a different story from ancestry. Polish uses Latin letters and is Slavic, while many unrelated languages adopted Cyrillic through their own histories. Borrowing also creates shared words without changing a language's family relationship.",
       "glottolog-russian",
       "unicode-cyrillic",
       "wiki-russian"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Russian is a language, not a personality test or government. Its archive includes imperial and Soviet institutions, censorship, exile, minority voices, underground circulation, anti-war writing, entertainment, and work produced abroad. Do not turn тоска into genetic melancholy or claim speakers are blunt because articles are absent. Ты and вы encode relationship; first-name-plus-patronymic remains useful in formal or intergenerational settings; diminutive names require social knowledge. Pair the famous canon with contemporary women, queer and regional authors, translators, journalists, musicians, and Russian-language creators from Ukraine, Belarus, Central Asia, Israel, and diasporas. During the war against Ukraine, identify creators carefully: language alone does not assign nationality or politics.",
+  culturalNotes: "Russian-language writing and media come from many countries and political positions. Read the famous nineteenth-century novels, then seek regional writers, women, queer authors, journalists, musicians, and creators in diaspora. Identify a work by its creator and context rather than assuming Russian language means Russian nationality.\n\nEveryday choices also carry social meaning. Ты addresses one person informally; вы can show politeness or address several people. A first name with a patronymic may fit a formal or intergenerational exchange, while a shortened name depends on the relationship.\n\nNo single word, including тоска́, explains a national character.",
   resources: [
-    { type: "corpus", title: "Russian National Corpus", url: "https://ruscorpora.ru/en/", level: "intermediate", description: cited("The strongest all-purpose tool for seeing real Russian across centuries and genres, with grammatical search and parallel texts.", "ruscorpora") },
+    { type: "corpus", title: "Russian National Corpus", url: "https://ruscorpora.ru/en/", level: "intermediate", description: cited("Search Russian writing and speech across centuries and genres, including grammatical patterns and parallel texts.", "ruscorpora") },
     { type: "dictionary", title: "Gramota.ru", url: "https://gramota.ru/", level: "all", description: cited("The place to check stress, spelling, inflection, meaning, stylistic labels, and competing norms in authoritative dictionaries.", "gramota") },
-    { type: "course", title: "Cornell Russian Grammar", url: "https://russian.cornell.edu/grammar/", level: "beginner", description: cited("A university-hosted reference for foundational morphology and syntax, especially useful after a first textbook explanation.", "cornell-aspect") },
-    { type: "other", title: "Discover Discomfort writing-system guide", url: "https://discoverdiscomfort.com/how-to-read-and-write-any-language-and-why-you-should-learn/", level: "beginner", description: cited("A practical argument for getting out of romanization and making Russian print and handwriting part of study from the start.", "dd-writing") },
-    { type: "other", title: "Discover Discomfort one-sentence-a-day method", url: "https://discoverdiscomfort.com/one-sentence-a-day-language-learning/", level: "all", description: cited("A low-volume routine illustrated with Russian audio: useful for maintaining careful daily contact when an intensive plan is unrealistic.", "dd-one-sentence") },
+    { type: "course", title: "Cornell Russian Grammar", url: "https://russian.cornell.edu/grammar/", level: "beginner", description: cited("A university reference for case forms, aspect, and motion verbs. Its older web typography may need patience.", "cornell-grammar") },
+    { type: "other", title: "Discover Discomfort: Good Morning in Russian", url: "https://discoverdiscomfort.com/good-morning-in-russian/", level: "beginner", description: cited("Compares common and playful morning greetings with notes on who may hear them naturally.", "dd-good-morning") },
+    { type: "other", title: "Discover Discomfort: The Politeness Word", url: "https://discoverdiscomfort.com/the-politeness-word/", level: "beginner", description: cited("Explores several conversational uses of пожа́луйста. The Russian section is brief but helps you move beyond a one-word translation.", "dd-politeness") },
     { type: "dictionary", title: "OpenRussian learner dictionary", url: "https://en.openrussian.org/", level: "all", description: cited("Fast access to stress, declension, conjugation, frequency, and examples, best used alongside normative and corpus tools.", "openrussian") }
   ],
   relatedLanguages,
@@ -417,7 +410,7 @@ export const russianGuide = {
     { original: "Пожа́луйста.", transliteration: "Pozháluysta.", translation: "Please; you're welcome; here you are.", usageNote: "Its exact job comes from the exchange: a request, a response to thanks, or an invitation to proceed." },
     { original: "Извини́те.", transliteration: "Izviníte.", translation: "Excuse me; I'm sorry.", usageNote: "Polite/plural. Извини is the informal singular form." },
     { original: "Я не понима́ю.", transliteration: "Ya ne ponimáyu.", translation: "I don't understand.", usageNote: "Imperfective понима́ть describes the current state of not understanding." },
-    { original: "Повтори́те, пожа́луйста.", transliteration: "Povtoríte, pozháluysta.", translation: "Please repeat that.", usageNote: "Polite/plural imperative. Add ещё раз “once more” if useful." },
+    { original: "Повтори́те, пожа́луйста.", transliteration: "Povtoríte, pozháluysta.", translation: "Please repeat that.", usageNote: "Polite or plural imperative. Add ещё раз to ask for it once more." },
     { original: "Мо́жно поме́дленнее?", transliteration: "Mózhno pomédlenneye?", translation: "Could you speak more slowly?", literalMeaning: "Is it possible [to do it] more slowly?", usageNote: "A natural impersonal request; context supplies the omitted action." },
     { original: "Что э́то зна́чит?", transliteration: "Shto éto znáchit?", translation: "What does this mean?", usageNote: "Use Как э́то по-ру́сски? for “How do you say this in Russian?”" },
     { original: "Как вас зову́т?", transliteration: "Kak vas zovút?", translation: "What's your name?", literalMeaning: "What do they call you?", usageNote: "Polite. Informally ask Как тебя́ зову́т?" },
@@ -430,6 +423,8 @@ export const russianGuide = {
     { id: "dd-hardest", title: "The 4 Hardest Languages to Learn for English Speakers", url: "https://discoverdiscomfort.com/hardest-languages-to-learn/", publisher: "Discover Discomfort", accessedAt: "2026-07-10" },
     { id: "dd-writing", title: "How to Read and Write Any Language — A Quick Guide", url: "https://discoverdiscomfort.com/how-to-read-and-write-any-language-and-why-you-should-learn/", publisher: "Discover Discomfort", accessedAt: "2026-07-10" },
     { id: "dd-one-sentence", title: "The One Sentence a Day Language Learning Method", url: "https://discoverdiscomfort.com/one-sentence-a-day-language-learning/", publisher: "Discover Discomfort", accessedAt: "2026-07-10" },
+    { id: "dd-good-morning", title: "Mastering Good Morning in Russian for Every Situation", url: "https://discoverdiscomfort.com/good-morning-in-russian/", publisher: "Discover Discomfort", publishedAt: "2023-05-01", updatedAt: "2023-07-02", accessedAt: "2026-09-27" },
+    { id: "dd-politeness", title: "The Politeness Word in Different Cultures and Languages", url: "https://discoverdiscomfort.com/the-politeness-word/", publisher: "Discover Discomfort", accessedAt: "2026-09-27" },
     { id: "wiki-russian", title: "Russian language", url: "https://en.wikipedia.org/wiki/Russian_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-phonology", title: "Russian phonology", url: "https://en.wikipedia.org/wiki/Russian_phonology", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-dialects", title: "Russian dialects", url: "https://en.wikipedia.org/wiki/Russian_dialects", publisher: "Wikipedia", accessedAt: "2026-07-10" },
@@ -439,11 +434,14 @@ export const russianGuide = {
     { id: "dialect-atlas", title: "Dialectological Atlas of the Russian Language", url: "https://da.ruslang.ru/", publisher: "Vinogradov Russian Language Institute, Russian Academy of Sciences", accessedAt: "2026-07-10" },
     { id: "unicode-cyrillic", title: "The Unicode Standard, Chapter 7: Cyrillic", url: "https://unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/", publisher: "Unicode Consortium", updatedAt: "2024", accessedAt: "2026-07-10" },
     { id: "cornell-aspect", title: "Russian Grammar: Verbs — Aspect", url: "https://russian.cornell.edu/grammar/html/gr04_d.htm", publisher: "Cornell University", accessedAt: "2026-07-10" },
+    { id: "cornell-grammar", title: "Beginning Russian Grammar: Table of Contents", url: "https://russian.cornell.edu/grammar/toc.htm", publisher: "Cornell University", accessedAt: "2026-09-27" },
     { id: "un-russian", title: "Russian Language Day", url: "https://www.un.org/en/observances/russian-language-day", publisher: "United Nations", accessedAt: "2026-07-10" },
+    { id: "un-estimate", title: "Russian language: many shades of blue", url: "https://unric.org/en/russian-language-many-shades-of-blue/", publisher: "United Nations Regional Information Centre for Western Europe", accessedAt: "2026-09-27" },
+    { id: "kiis-2024", title: "Dynamics of attitudes towards the status of the Russian language in Ukraine", url: "https://www.kiis.com.ua/?cat=reports&id=1385&lang=eng&page=1", publisher: "Kyiv International Institute of Sociology", accessedAt: "2026-09-27" },
     { id: "openrussian", title: "OpenRussian Dictionary", url: "https://en.openrussian.org/", publisher: "OpenRussian", accessedAt: "2026-07-10" }
   ],
   seo: {
-    title: "Russian Language Guide: Cyrillic, Cases, Aspect and Culture",
-    description: "A researched, example-rich guide to Russian history, communities, Cyrillic, pronunciation, cases, verbal aspect, motion verbs, registers, culture, phrases, and modern learning resources."
+    title: "Russian Language Guide: Hear the Stress, Read the Script, Tell the Story",
+    description: "Read Russian in Cyrillic, hear its shifting stress, and learn how endings and verbs shape a sentence. Explore speakers, regional forms, history, phrases, and study resources."
   }
 } satisfies LanguageGuide;

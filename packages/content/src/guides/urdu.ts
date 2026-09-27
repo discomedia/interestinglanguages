@@ -7,7 +7,7 @@ const relatedLanguages = [
     slug: "hindi",
     relationship: "The other standardized register of Hindustani",
     explanation: cited(
-      "At conversational level, standard Urdu and standard Hindi share the grammar and much of the everyday vocabulary of Hindustani. A Lahore speaker and a Delhi speaker can often converse without treating the exchange as translation. The standards diverge most visibly in script and in cultivated vocabulary: Urdu normally uses Nastaliq and reaches toward Persian and Arabic for formal words, while Hindi uses Devanagari and often reaches toward Sanskrit. Films, songs, jokes, and ordinary talk occupy a broad middle ground.",
+      "Urdu and Hindi share a Hindustani grammar and much everyday vocabulary. A speaker from Lahore and one from Delhi can often understand each other's informal speech, though accent and vocabulary still vary.\n\nTheir written standards differ more. Urdu normally uses Nastaliq and draws on Persian and Arabic for much formal vocabulary; Hindi uses Devanagari and often draws on Sanskrit. Film dialogue and songs commonly use the shared conversational ground.",
       "wiki-hindustani",
       "wiki-urdu"
     )
@@ -16,7 +16,7 @@ const relatedLanguages = [
     name: "Punjabi",
     relationship: "Closely related Indo-Aryan neighbor in sustained contact",
     explanation: cited(
-      "Punjabi and Urdu belong to the Indo-Aryan branch and coexist throughout Pakistan and northern India. Many Pakistanis use Punjabi at home and Urdu in education, media, or cross-regional conversation, so influence runs through accent, idiom, and code-switching. They remain distinct languages: Punjabi has its own sound patterns, grammar, literary histories, and Shahmukhi and Gurmukhi writing traditions.",
+      "Punjabi and Urdu are related Indo-Aryan languages. Many Pakistanis use Punjabi at home and Urdu in school, media, or conversations across regions. Their speech can influence each other's accents and idioms, while Punjabi keeps its own grammar and literary traditions in Shahmukhi and Gurmukhi scripts.",
       "glottolog-urdu",
       "pbs-census"
     )
@@ -24,10 +24,10 @@ const relatedLanguages = [
   {
     name: "Persian",
     slug: "persian",
-    relationship: "Unrelated Iranian language with foundational literary influence",
+    relationship: "Distant Indo-Iranian relative with deep literary influence",
     explanation: cited(
-      "Persian is Indo-Iranian but not Indo-Aryan, so it is not Urdu's close sister. Its influence came through Persianate administration, education, poetry, and courtly culture. Urdu adopted a Perso-Arabic alphabet, the izafat linking construction, poetic genres, and a large learned vocabulary, yet kept Indo-Aryan sentence structure. Similar-looking pages therefore contain genuine shared words without becoming mutually intelligible prose.",
-      "dd-persian-arabic",
+      "Persian belongs to a different branch of Indo-Iranian. Persianate administration, schools, and poetry gave Urdu an alphabet, the izafat linker, literary genres, and many words. Urdu kept its Indo-Aryan sentence patterns, so shared script and vocabulary do not make the two languages mutually intelligible.",
+      "utexas-vocabulary",
       "wiki-urdu"
     )
   },
@@ -36,8 +36,8 @@ const relatedLanguages = [
     slug: "arabic",
     relationship: "Semitic source language for learned and religious vocabulary",
     explanation: cited(
-      "Arabic is not genealogically related to Urdu. Much Arabic vocabulary reached Urdu through Persian, while religious scholarship also supported direct borrowing. Urdu reshapes borrowed words within its own pronunciation and grammar: Arabic-origin کتاب kitāb ‘book’ takes Urdu postpositions and plural patterns. Knowing the Arabic alphabet helps only partly because Urdu adds letters, assigns some symbols different values, and is conventionally set in Nastaliq rather than Arabic Naskh.",
-      "dd-arabic-facts",
+      "Arabic belongs to the Semitic family. Urdu borrowed Arabic words, often through Persian, and fits them into Indo-Aryan grammar: کتاب kitāb, ‘book,’ takes Urdu postpositions and plural forms. Urdu also adds script letters for local sounds and normally uses Nastaliq typography, so knowing Arabic script is a head start rather than complete Urdu literacy.",
+      "utexas-vocabulary",
       "unicode-arabic",
       "wiki-urdu"
     )
@@ -50,18 +50,18 @@ export const urduGuide = {
   autonym: "اُردُو",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Urdu is a South Asian language of conversation, cinema, journalism, lyric poetry, and digital life: grammatically close to Hindi, written in flowing Nastaliq, and shaped by centuries of exchange among Indic, Persian, Arabic, and English worlds.",
+  summary: "Urdu shares everyday Hindustani speech with Hindi and carries its own Nastaliq writing tradition. This guide follows its sounds, grammar, social registers, literature, and living communities.",
   family: "Indo-European, Indo-Aryan",
   macroRegion: "South Asia",
   primaryScript: "Nastaliq Perso-Arabic script",
   difficultyLabel: "Demanding",
-  learnerHook: "Urdu lets a learner move from widely understood Hindustani conversation into a remarkably layered written culture, where the shape of a line, the social weight of a pronoun, and the double meaning of a poetic word all matter.",
+  learnerHook: "Start with an Urdu conversation and you may recognize lines from a Hindi film. Open an Urdu newspaper or ghazal and Nastaliq script, formal vocabulary, and literary convention ask for new skills.",
   hero: {
     imageAlt: "Urdu in flowing Nastaliq beside contemporary printed and digital text.",
     callToActionLabel: "Explore Urdu in use"
   },
   classification: "Perso-Arabic-script standard of the Hindustani continuum",
-  speakerCommunity: "Urdu is Pakistan's national language and a bridge among people whose home languages include Punjabi, Pashto, Sindhi, Saraiki, and Balochi. Pakistan's 2023 census recorded Urdu as the mother tongue of 9.25 percent, so national reach does not mean majority first-language status. In India, Urdu is constitutionally recognized and sustains communities, schools, publishing, performance, and public use. It is also heard across diasporas in the Gulf, Britain, North America, Australia, and elsewhere. Speakers may call shared speech Urdu, Hindi, or Hindustani according to place, education, family, and identity; no one community owns the common language.",
+  speakerCommunity: "Urdu is Pakistan's national language, and people with many home languages use it to speak across regions. The 2023 Pakistan census recorded Urdu as the mother tongue of 9.25 percent of residents; that measure leaves out its many additional-language speakers.\n\nIndia recognizes Urdu in its Constitution, and communities sustain it through home speech, schools, publishing, and performance. Diaspora speakers also use it across the Gulf, Britain, North America, and Australia. People may call shared conversational speech Urdu, Hindi, or Hindustani according to family, place, and identity.",
   facts: [
     { label: "Family", value: "Indo-European · Indo-Iranian · Indo-Aryan" },
     { label: "Shared speech base", value: "Hindustani / Hindi–Urdu" },
@@ -70,10 +70,10 @@ export const urduGuide = {
     { label: "Script", value: "Right-to-left Perso-Arabic alphabet, normally in Nastaliq style" },
     { label: "Literary touchstones", value: "Ghazal, nazm, short story, novel, criticism, journalism, film song, and dramatic dialogue" }
   ],
-  learnerOverview: "Begin with the language people actually use around you. Heritage speakers, poetry readers, and film enthusiasts need different first word lists, but all benefit from pairing sound and script from week one. Learn reusable Hindustani sentences; notice whether a source says tum or āp; and copy Nastaliq daily. Do not postpone the script until you are ‘fluent’: Roman Urdu is useful but inconsistent, hiding spelling families and the visual memory needed for dictionaries. Do not imitate a nineteenth-century ghazal at the tea shop either. Label material as conversational, formal, journalistic, or poetic. Progress becomes visible when registers connect: a plain verb in an interview, an Arabic-origin noun in an editorial, and a Persian image in a song can inhabit the same grammatical frame.",
+  learnerOverview: "This guide uses contemporary standard Urdu in Nastaliq for its written examples. The conversational phrases suit broadly shared Hindustani speech, with polite or gendered forms labeled where they matter. Dakhini and highly literary Urdu have their own patterns; a learner should not treat every example here as a model for those settings.\n\nStart with sentences that match the people and material you care about. Hear and write them together, and notice whether the speaker chooses familiar tum or respectful āp. Roman Urdu helps with a quick message, but its variable spellings cannot teach you to read a newspaper or find an unfamiliar word in a dictionary.\n\nA film enthusiast, heritage speaker, and poetry reader may need different vocabulary first. All three can build a common base in everyday clauses before moving toward news or ghazals. Keep a note of where you heard each expression, since a poetic line can sound strange in an ordinary shop conversation.",
   origins: {
     overview: cited(
-      "Urdu's grammar descends from Indo-Aryan speech. Its immediate story belongs to the multilingual cities, military settlements, markets, shrines, and courts of North India and the Deccan. Local speech interacted with Persian, the prestige language of administration and high culture under several dynasties, and with Arabic and Turkic vocabularies carried through religion and learning. Names such as Hindavi, Hindi, Dehlavi, Dakhini, Rekhta, Hindustani, and Urdu appeared in different periods and contexts; they should not be forced into today's national boxes. A recognizable Urdu literary standard emerged gradually from this field rather than on a single birthday.",
+      "Urdu grew from Indo-Aryan speech in multilingual South Asia. People in northern cities and the Deccan used local speech alongside Persian, a language of courts and learning, while poets and storytellers drew on several traditions.\n\nWriters called related forms Hindavi, Hindi, Dehlavi, Dakhini, Rekhta, and Hindustani at different times. Those names did not mark today's national borders. A recognizable Urdu literary standard took shape gradually, with no single founding day or city.",
       "wiki-urdu",
       "wiki-hindustani",
       "uchicago-urdu"
@@ -114,7 +114,7 @@ export const urduGuide = {
       {
         period: "1947 to the digital present",
         event: cited(
-          "Pakistan adopted Urdu as the national language even though most citizens had another mother tongue; India retained Urdu as a scheduled language with regional official uses. Migration remade literary centers in Karachi, Lahore, Delhi, Hyderabad, Lucknow, and the diaspora. Television and film carried shared Hindustani widely, while texting encouraged Roman Urdu. Current type designers, corpus builders, archives, and platforms are making searchable Nastaliq text easier to create and study.",
+          "Pakistan adopted Urdu as the national language even though most citizens had another mother tongue. India kept Urdu in its Eighth Schedule and in several regional public settings. Migration reshaped Urdu literary life in Karachi, Lahore, Delhi, Hyderabad, Lucknow, and the diaspora.\n\nFilm and television carried widely understood Hindustani across borders, while messaging encouraged Roman Urdu. Digital archives and searchable Nastaliq text now give readers new ways into print and manuscript traditions.",
           "nlpd-pakistan",
           "pbs-census",
           "unicode-arabic",
@@ -123,13 +123,13 @@ export const urduGuide = {
       }
     ],
     contactHistory: cited(
-      "Urdu's vocabulary is layered, but layers are not separate boxes. Core items such as پانی pānī ‘water,’ آنا ānā ‘to come,’ and دل dil ‘heart’ sit beside Persian words, Arabic words often transmitted through Persian, Turkic traces, regional borrowings, Portuguese-era items, and modern English. Borrowing changes sound and behavior: an Arabic plural may survive in formal writing while an Urdu plural is common elsewhere. Persian contributed the izafat linker and a treasury of compounds and images. English now supplies institutional and technical terms, especially in Pakistan's bilingual professional life. Speakers choose among near-synonyms to position a sentence as intimate, bureaucratic, comic, poetic, religious, or deliberately plain.",
+      "Everyday words such as پانی pānī, ‘water,’ and آنا ānā, ‘to come,’ sit beside Persian and Arabic loans. Regional languages, Turkic languages, Portuguese, and English have also supplied words. Arabic words often came through Persian, and speakers fit borrowed words into Urdu pronunciation and grammar.\n\nPersian also passed on the izafat linker and familiar poetic images. Today a speaker may choose an inherited word, a Persian-Arabic near-synonym, or an English term according to audience and topic. Listen to the choice in a sentence before assigning an entire register to a word's origin.",
       "wiki-urdu",
       "platts-dictionary",
-      "dd-persian-arabic"
+      "utexas-vocabulary"
     ),
     standardization: cited(
-      "Standard Urdu is taught through a relatively stable grammar and Perso-Arabic orthography, but no academy controls every utterance. Pakistan's National Language Promotion Department develops terminology and supports official use; publishers, broadcasters, schools, dictionaries, and literary institutions also shape norms. Pronunciation models may preserve the loan consonants q, x, ɣ, and f more carefully than everyday regional speech. In India and Pakistan alike, a highly Persianized address and relaxed conversation can sound dramatically different while remaining Urdu. ‘Pure Urdu’ is therefore better understood as a social and stylistic project than as a contact-free historical language.",
+      "Schools teach standard Urdu grammar and Perso-Arabic spelling. Pakistan's National Language Promotion Department develops terminology, while publishers, broadcasters, dictionaries, and teachers also shape public usage.\n\nA formal speech may favor Persian-Arabic words and carefully distinguish sounds that local conversation merges. Both belong to Urdu. Calls for ‘pure Urdu’ express a social preference; contact has shaped the language throughout its history.",
       "nlpd-pakistan",
       "wiki-urdu",
       "uchicago-urdu"
@@ -137,7 +137,7 @@ export const urduGuide = {
   },
   variants: {
     overview: cited(
-      "Variation follows region, first language, education, generation, genre, and audience. A Punjabi-speaking Lahori, a Muhajir family in Karachi, an Old Delhi household, and a Dakhini speaker from Hyderabad may all identify their speech as Urdu while differing in rhythm and vocabulary. One person may use colloquial Hindustani with friends, a Persianized literary register, and English-heavy professional speech at work. These are social resources, not signs of incomplete competence.",
+      "Region, home language, generation, and audience all shape Urdu speech. A Punjabi-speaking Lahori, a Karachi family, an Old Delhi household, and a Hyderabadi Dakhini speaker may share an Urdu identity while using different rhythms and words.\n\nA single speaker can use colloquial Hindustani with friends, a Persianized style in formal writing, and English terms at work. Each choice serves its setting.",
       "pbs-census",
       "wiki-urdu",
       "wiki-hindustani"
@@ -187,18 +187,18 @@ export const urduGuide = {
   },
   pronunciation: {
     overview: cited(
-      "Urdu's sound system is fundamentally Indo-Aryan. Learners meet dental and retroflex consonants, unaspirated and aspirated stops, vowel length, and nasalized vowels. A dental ت t is made with the tongue near the upper teeth; retroflex ٹ ṭ curls the tongue tip back, producing a separate category rather than an emphatic version of English t. Aspiration distinguishes pairs such as پال pāl ‘raise’ and پھال phāl in forms where a breathy release belongs to the consonant. Persian-Arabic loans add sounds written ق q, خ x/kh, غ ġ/gh, ژ zh, and ف f, but many speakers merge some of them with k, kh, g, z, or ph according to region and formality.",
-      "wiki-urdu",
+      "Urdu distinguishes sounds by tongue position, breath, vowel length, and nasalization. To say dental ت t, touch near the upper teeth; for retroflex ٹ ṭ, curl the tongue tip back. These are different consonants, not strong and weak versions of an English t.\n\nA following ھ marks a breathy release in pairs such as پ p and پھ ph. Persian-Arabic loan letters include ق q, خ x, غ ġ, ژ zh, and ف f. Their pronunciation varies by region and setting, so first learn the spelling and then listen to your target speakers.",
+      "utexas-script",
       "wiki-hindustani-grammar"
     ),
     script: "Urdu Nastaliq; transliteration here marks retroflexion with dots and long vowels with macrons",
     soundSystem: cited(
-      "Vowel length distinguishes meaning, and vowel quality matters as much as spelling. Nasalization, shown by final ں or contextual marks, can distinguish forms and contributes strongly to the sound of songs and poetry. Urdu also preserves a four-way stop contrast typical of Indo-Aryan descriptions: voiceless unaspirated k, voiceless aspirated kh, voiced g, and voiced breathy gh. In transliteration, kh may unfortunately represent either aspirated کھ or the velar fricative خ; always learn the Urdu spelling. Double consonants in careful words such as محبت muḥabbat are also worth hearing rather than flattening.",
-      "wiki-hindustani-grammar",
+      "Short and long vowels can separate words. Urdu also contrasts plain, aspirated, voiced, and breathy stops, such as k, kh, g, and gh. A final ں can signal a nasalized vowel, as in میں maiṅ, ‘I.’\n\nRoman kh can hide two different spellings: aspirated کھ and the fricative خ, made with air passing over the back of the tongue. Check the Urdu script and a recording together. Careful pronunciation may also keep the doubled middle consonant of محبت muḥabbat, ‘love.’",
+      "utexas-script",
       "wiki-urdu"
     ),
     prosody: cited(
-      "Stress is less dominant than in English and does not carry the whole identity of a word. Syllable weight helps place prominence, but naturalness depends on phrase rhythm, vowel length, and intonation. Questions need not copy an English rise, and respectful requests often unfold over a longer melodic phrase. Poetry adds meters inherited and adapted through Persian prosody, while film song may stretch vowels for music. Shadow whole clauses from one speaker before trying to manufacture a generalized ‘Urdu accent.’",
+      "English-style heavy stress can make Urdu sound abrupt. Vowel length, phrase rhythm, and intonation all help a sentence sound natural, and a question need not end with an English rise. Imitate whole clauses from one speaker before borrowing individual sounds from many accents.\n\nIn a ghazal, a set meter shapes the line. In a film song, music may stretch a vowel beyond its length in ordinary speech. Keep those performances distinct from your model for conversation.",
       "columbia-ghazal",
       "columbia-modules"
     ),
@@ -215,26 +215,26 @@ export const urduGuide = {
       { original: "پَل", transliteration: "pal", translation: "moment", note: "Short a and unaspirated p." },
       { original: "پھل", transliteration: "phal", translation: "fruit", note: "The added breath belongs to aspirated ph." },
       { original: "کَل", transliteration: "kal", translation: "yesterday or tomorrow", note: "Context resolves the famous time-direction ambiguity." },
-      { original: "خال", transliteration: "xāl / khāl", translation: "mole; maternal aunt in some compounds", note: "خ is a back fricative, not aspirated ک." },
+      { original: "خال", transliteration: "xāl / khāl", translation: "mole, beauty mark", note: "خ is a back fricative, distinct from aspirated کھ." },
       { original: "میں", transliteration: "maiṅ", translation: "I", note: "The vowel is nasalized; compare postposition میں meṅ ‘in’." },
       { original: "قلم", transliteration: "qalam", translation: "pen", note: "Careful q may merge toward k in some everyday accents." }
     ]
   },
   writing: {
     overview: cited(
-      "Urdu is written right to left in an extended Perso-Arabic alphabet, conventionally using the diagonal, cascading Nastaliq style. Letters change shape according to position, and some do not connect to the following letter. Urdu adds or specializes letters for Indo-Aryan contrasts, including ٹ ṭ, ڈ ḍ, ڑ ṛ, aspirated digraphs with ھ, and nasal ں. Short vowels are usually omitted, so a reader identifies a word from consonants, long-vowel letters, grammar, and context. This is not simply ‘Arabic writing’: shared Unicode characters coexist with Urdu spelling, letter inventory, joining behavior, and typography.",
+      "Urdu reads right to left and usually appears in the sloping Nastaliq style. Letters change shape when they join, though some never join to the next letter. Urdu uses ٹ ṭ, ڈ ḍ, ڑ ṛ, combinations with ھ for aspirated sounds, and ں for nasalized vowels.\n\nMost prose leaves short vowels unwritten. Readers identify a word through its consonants, long-vowel letters, and context. Start by reading frequent whole words while you learn how their letters connect.",
       "unicode-arabic",
       "unicode-chapter9",
       "wiki-urdu"
     ),
     primaryScript: "Perso-Arabic alphabet in Nastaliq style",
     romanization: cited(
-      "Roman Urdu is a living digital practice rather than one standardized transliteration. It is excellent for a quick message but ambiguous for learners: kal can represent کل, while kh can hide کھ or خ. A marked system such as the one in this guide clarifies long vowels and retroflex consonants, but real users rarely type macrons and dots. Use romanization to find the sound, then store the word in Urdu script with audio.",
+      "People write Roman Urdu in messages and searches without a single spelling standard. A typed kh can hide either کھ or خ, and an unmarked long vowel can disappear into an English-looking spelling. This guide marks long vowels and retroflex consonants for learning; ordinary messages rarely do.\n\nSave new words in Urdu script with audio once you know their sound.",
       "unicode-arabic",
       "rekhta-dictionary"
     ),
     spellingNorms: cited(
-      "Spelling preserves etymological distinctions that everyday pronunciation may merge. Several Arabic letters can represent z-like sounds, and words of Arabic or Persian origin retain their conventional forms. The two h-like letters ہ and ح, several y and he forms, izafat, hamza, and aspiration demand attention. Unicode encodes characters, not a separate Nastaliq alphabet: shaping software and a suitable font create the style. Learners should type underlying characters rather than copy compatibility presentation forms, then verify that a search can find the result.",
+      "Urdu spelling often keeps letters that current pronunciation merges. Several Arabic-derived letters sound like z, and words preserve their established spelling even where local speech changes a consonant. Learn ہ and ح, the two ye forms, hamza, izafat, and the aspirated pairs in actual words.\n\nUnicode stores the characters; a font and shaping software draw them in Nastaliq. Type the ordinary characters rather than pasted presentation forms. Then check that you can select and search the text you wrote.",
       "unicode-arabic",
       "unicode-chapter9",
       "nlpd-pakistan"
@@ -245,34 +245,35 @@ export const urduGuide = {
         "unicode-arabic"
       ),
       cited(
-        "Vowel marks are useful in primers, dictionaries, sacred quotation, and ambiguous names but absent from most ordinary prose. Add a recording or transliteration to beginner cards instead of inventing vowels from appearance.",
+        "Primers and dictionaries may add vowel marks, but ordinary prose usually leaves them out. Pair a new word with audio rather than guessing its vowels from the letters alone.",
         "platts-dictionary",
         "rekhta-dictionary"
       ),
       cited(
-        "A beautiful font is not cosmetic for sustained Urdu reading: poor line height or inappropriate Naskh can make familiar words feel foreign. Test text selection, search, and copy-paste as well as visual appearance.",
+        "Choose a readable Nastaliq font and enough line height for its descending shapes. Check selection, search, and copy-paste too, especially in a mixed English-Urdu document.",
         "unicode-chapter9"
       )
     ]
   },
   grammar: {
     overview: cited(
-      "Urdu grammar is essentially Hindustani grammar. It uses postpositions after nouns, usually places the verb at the end of a neutral clause, marks two grammatical genders, and builds tense and aspect with participles plus forms of ہونا honā ‘to be.’ Nouns and pronouns change into an oblique form before many postpositions. Perfective transitive clauses can show ergative alignment: the agent takes نے ne and agreement behaves differently from a simple present sentence. None of these structures comes from Persian or Arabic, despite the script and large loan vocabulary.",
+      "Urdu shares its basic grammar with Hindi. A neutral sentence usually puts its verb last, places short relation words after nouns, and distinguishes masculine and feminine agreement. Those relation words are called postpositions: گھر میں ghar meṅ means ‘in the house.’\n\nVerbs combine participles with forms of ہونا honā, ‘to be,’ to show when an event happens and how it unfolds. Nouns can change shape before a postposition. In some completed actions, the doer takes نے ne and the verb may agree with the object instead.",
       "wiki-hindustani-grammar",
+      "msu-basic-urdu",
       "wiki-hindustani",
       "wiki-urdu"
     ),
     typologicalProfile: cited(
-      "A neutral Urdu clause is subject–object–verb, but constituents can move for topic, focus, contrast, and style because case markers and agreement preserve relationships. Urdu is partly inflectional and strongly periphrastic: small changes on nouns, adjectives, participles, and auxiliaries work together. Gender is grammatical, not a claim about a thing's natural sex, and polite agreement may be plural. Learn each pattern as a complete sentence with a speaker and context.",
+      "A neutral Urdu clause often follows subject–object–verb order. Speakers can move a word to highlight it because postpositions and agreement help show its role. Endings on nouns, adjectives, and verbs work with small helper verbs; grammarians call these auxiliaries.\n\nA book can have feminine grammatical gender without any natural sex. Respectful آپ āp takes plural-style verb agreement even when you address one person. Learn both patterns through full sentences spoken to someone in a clear setting.",
       "wiki-hindustani-grammar"
     ),
     morphology: cited(
-      "Many masculine nouns in -ā alternate between direct singular لڑکا laṛkā, oblique singular لڑکے laṛke, and plural forms; feminine patterns differ. Adjectives such as اچھا acchā ‘good’ agree when they are declinable, while many borrowed adjectives do not. Verbs combine a stem with aspectual forms—کرتا kartā ‘doing/habitual,’ کیا kiyā ‘done’—and auxiliaries. Productive causatives, compound verbs, and noun–verb predicates make word formation rich without requiring Arabic root-and-pattern morphology.",
+      "Many masculine nouns ending in -ā change before a postposition: لڑکا laṛkā, ‘boy,’ becomes لڑکے laṛke in لڑکے کے ساتھ, ‘with the boy.’ Feminine nouns have other patterns. Some adjectives change to match a noun, as اچھا acchā, ‘good,’ becomes اچھی acchī before feminine کتاب kitāb, ‘book.’\n\nA verb stem combines with forms for habitual or completed action and with a helper verb. Urdu also builds many expressions from a noun plus a verb, or from two verbs together. You can learn these as reusable phrases before naming every grammatical form.",
       "wiki-hindustani-grammar",
       "platts-dictionary"
     ),
     syntax: cited(
-      "Postpositions do work that English often assigns to prepositions: گھر میں ghar meṅ ‘house in’ means ‘in the house.’ Relative-correlative pairs connect جو jo ‘who/which’ with وہ voh ‘that one.’ Negation normally uses نہیں nahīṅ, while نہ na appears in prohibitions, wishes, and subordinate patterns. Because the verb often arrives late, advanced listening improves when learners hold the topic and case-marked participants in memory rather than translating word by word.",
+      "Urdu places relation words after a noun: گھر میں ghar meṅ means ‘in the house.’ It commonly pairs جو jo, ‘who’ or ‘which,’ with وہ voh, ‘that one,’ to link two clauses. For a plain negative statement, speakers usually use نہیں nahīṅ; commands and wishes may use نہ na.\n\nSince the verb often comes last, hold the people and their postpositions in mind while you listen. Then let the final verb complete the sentence instead of translating each word at once.",
       "wiki-hindustani-grammar"
     ),
     advancedPainPoints: [
@@ -304,7 +305,7 @@ export const urduGuide = {
       {
         title: "Habitual, progressive, and perfective aspect",
         body: cited(
-          "Urdu distinguishes how an event unfolds. The habitual participle presents a regular pattern, رہنا rahnā helps form a progressive, and the perfective presents a bounded whole. Auxiliaries then locate that aspect in time. English tense labels alone obscure this architecture.",
+          "Urdu shows whether an action is habitual, ongoing, or treated as complete. The habitual participle describes a regular pattern, and رہنا rahnā helps form an ongoing action. A helper verb then places that action in time.\n\nLearn these forms together in complete clauses.",
           "wiki-hindustani-grammar"
         ),
         example: "وہ ہر روز پڑھتی ہے، مگر ابھی سو رہی ہے۔ voh har roz paṛhtī hai, magar abhī so rahī hai.",
@@ -322,7 +323,7 @@ export const urduGuide = {
       {
         title: "Compound verbs and event texture",
         body: cited(
-          "A lexical verb can combine with a light verb such as لینا lenā ‘take,’ دینا denā ‘give,’ جانا jānā ‘go,’ or پڑنا paṛnā ‘fall.’ The second verb loses much of its literal meaning and adds completion, suddenness, benefactive direction, or another viewpoint. The combination لکھ دینا likh denā means more than mechanically ‘write give.’",
+          "Urdu often pairs a main verb with a second, lighter verb such as لینا lenā, ‘take,’ or دینا denā, ‘give.’ The second verb can add a sense of completion or an action done for someone. In لکھ دینا likh denā, the speaker asks someone to write something down for them.",
           "wiki-hindustani-grammar"
         ),
         example: "براہِ کرم اپنا پتا لکھ دیجیے۔ barāh-e karam apnā patā likh dījiye.",
@@ -333,7 +334,7 @@ export const urduGuide = {
         body: cited(
           "تو tū is intimate and can be insulting outside close or devotional contexts; تم tum is familiar; آپ āp is respectful and takes plural-style agreement. Imperatives likewise range from کر kar to کرو karo to کیجیے kījiye. Social choice cannot be repaired by correct dictionary vocabulary alone.",
           "wiki-hindustani-grammar",
-          "columbia-modules"
+          "utexas-dialogue"
         ),
         example: "آپ کہاں رہتے ہیں؟ āp kahāṅ rahte haiṅ? / آپ کہاں رہتی ہیں؟ āp kahāṅ rahtī haiṅ?",
         exampleTranslation: "Where do you live? (respectful; masculine / feminine addressee.)"
@@ -350,18 +351,18 @@ export const urduGuide = {
       {
         title: "Persian izafat inside Urdu",
         body: cited(
-          "Formal and literary Urdu uses the Persian linker izafat, pronounced -e or -ye, to connect a noun with a modifier or possessor. It may be only partly visible in ordinary spelling, so readers must recognize the phrase. It belongs mainly to Persianized compounds rather than replacing the everyday Urdu postposition کا kā.",
-          "wiki-urdu",
+          "Urdu borrows the Persian izafat linker, pronounced -e or -ye, to join words in expressions such as جشنِ آزادی jashn-e āzādī, ‘celebration of independence.’ You will see it in headlines, greetings, and poetry, sometimes with a small vowel mark under the first word. Everyday Urdu still uses کا kā for many ordinary possessive phrases.",
+          "utexas-izafat",
           "platts-dictionary"
         ),
-        example: "جشنِ آزادی jashn-e āzādī",
-        exampleTranslation: "celebration of independence / Independence Day celebration"
+        example: "جشنِ آزادی مبارک ہو! jashn-e āzādī mubārak ho!",
+        exampleTranslation: "Happy Independence Day! The -e links jashn, ‘celebration,’ with āzādī, ‘freedom.’"
       }
     ]
   },
   whereSpoken: {
     overview: cited(
-      "Urdu's map depends on what is being counted: first language, additional language, literacy, literary affiliation, or media comprehension. Pakistan's mother-tongue figure is much smaller than the population able to use Urdu. In India, strong historical and contemporary communities are distributed rather than confined to one Urdu-speaking state. Shared Hindustani media increases receptive reach beyond people who identify their language as Urdu. Diaspora homes may maintain speech while script literacy weakens, creating a different learner profile again.",
+      "Urdu's map changes with the question you ask. Pakistan's mother-tongue count leaves out people who learned Urdu for school, work, or conversation across communities. In India, Urdu-speaking communities live across many states.\n\nFilm and music also reach people who call their own speech Hindi or Hindustani. Some diaspora families pass on spoken Urdu without the same level of Nastaliq reading. A learner's home and reading histories therefore matter as much as their country.",
       "pbs-census",
       "uchicago-urdu",
       "wiki-urdu"
@@ -404,8 +405,8 @@ export const urduGuide = {
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "For an English-speaking beginner, conversational Urdu grammar is substantial but learnable, and the abundance of Hindustani media helps. The larger challenge is developing balanced literacy: fast Nastaliq reading, accurate listening, socially appropriate speech, and access to formal and literary vocabulary. The Perso-Arabic script normally omits short vowels, an issue Discover Discomfort highlights across languages using related scripts. A heritage speaker may reverse the profile—excellent informal speech but limited reading—so a single difficulty ranking says little about the actual work ahead.",
-      "dd-hardest",
+      "An English-speaking beginner must learn unfamiliar sounds, agreement patterns, and a script that usually omits short vowels. Shared Hindustani media gives them abundant listening material, but it does not teach Nastaliq reading on its own. A heritage speaker may start with fluent home speech and need the opposite emphasis: spelling, extended reading, and formal vocabulary.",
+      "msu-basic-urdu",
       "unicode-arabic",
       "columbia-modules"
     ),
@@ -430,7 +431,7 @@ export const urduGuide = {
       "Reading poetry only through translations and never hearing its meter or recitation"
     ],
     workload: cited(
-      "A practical first year can split time among conversation, script, and listening: short daily Nastaliq reading is more effective than a weekly decoding marathon. At intermediate level, add one news or essay source and one drama or interview series, maintaining separate notebooks for conversational chunks and formal vocabulary. Advanced learners need long texts, correction from educated speakers in their target community, and deliberate movement among everyday speech, journalism, criticism, and literature. Measure progress by tasks—reading a page without romanization, following an interview, explaining a couplet—not by an imagined finish line called ‘knowing Urdu.’",
+      "In the first months, give conversation, script, and listening regular time. A few minutes of Nastaliq reading each day can build recognition that an occasional long session does not. At intermediate level, follow one news or essay source and one drama or interview series; keep notes on their different vocabulary.\n\nLonger texts and corrections from speakers in your target community become more valuable later. Check your progress through tasks: read a page without romanization, follow an interview, or explain a couplet in context.",
       "columbia-modules",
       "columbia-ghazal",
       "uchicago-urdu"
@@ -438,17 +439,17 @@ export const urduGuide = {
   },
   advancedLearning: {
     strategy: cited(
-      "Build a two-register curriculum. In the conversational track, record short exchanges, shadow a consistent speaker, and rewrite useful sentences with new nouns and aspect forms. In the literacy track, read one paragraph repeatedly: first for gist, then with a dictionary, then aloud alongside audio. Add a literary track only after the basic grammar is stable, beginning with annotated poems or short prose rather than an unglossed divan. Columbia's modules and ghazal reader demonstrate how video, orthography, vocabulary, grammar, and cultural commentary can support one another.",
+      "Keep two study tracks. For conversation, replay a short exchange with one speaker and change a noun or verb form after you can say the original naturally. For reading, return to the same Nastaliq paragraph three times: first for the general point, then with a dictionary, then aloud.\n\nOnce everyday grammar feels steady, add annotated poems or short prose. Columbia's video modules show spontaneous Delhi Urdu; its ghazal reader supports slower literary study. Note the different register before borrowing a line for conversation.",
       "columbia-modules",
       "columbia-ghazal"
     ),
     mediaPractice: cited(
-      "Rotate genres because each teaches a different Urdu. Drama supplies family interaction and indirect requests; interviews reveal educated spontaneous speech; television news supplies formal compounds; stand-up and social video expose code-switching; ghazal recitation trains long vowels and cultural images. Use a three-pass method: watch without subtitles, check Urdu subtitles or transcript, then replay and imitate. English subtitles belong after the first attempt, not under every minute.",
+      "A family drama can teach indirect requests; an interview shows prepared ideas in spontaneous speech; news introduces formal compounds. Watch one short clip first without subtitles, then with Urdu text if available, and finally while repeating a few lines. Ghazal recitation asks for a different listening mode, since meter and old images carry meaning alongside the words.",
       "columbia-modules",
       "uchicago-urdu"
     ),
     dictionariesAndCorpora: cited(
-      "Use more than one kind of lookup. Rekhta's dictionary is convenient for modern learners and connects vocabulary to literature; Platts is historical and especially valuable for etymology and older senses, but its nineteenth-century labels require judgment. Searchable literary archives reveal collocations that a bilingual gloss cannot. When a word differs between Hindi and Urdu registers, compare actual sentences instead of assuming that Sanskrit origin means ‘Hindi only’ or Arabic origin means ‘Urdu only.’",
+      "Use a current dictionary for everyday meaning, and turn to Platts when an older poem or unusual word needs historical context. Rekhta links entries to literary examples, while Platts dates from the nineteenth century and may describe usage differently from people today. Search for a word in sentences before deciding that its Sanskrit or Arabic origin assigns it exclusively to Hindi or Urdu.",
       "rekhta-dictionary",
       "platts-dictionary",
       "uchicago-urdu"
@@ -460,7 +461,7 @@ export const urduGuide = {
         url: "https://urduaiis.lrc.columbia.edu/",
         level: "all",
         description: cited(
-          "Twenty-eight thematic modules supported by the American Institute of Indian Studies and Columbia's Language Resource Center. They combine situated video with language and cultural study and are particularly useful for hearing Urdu beyond isolated studio phrases.",
+          "Twenty-eight thematic modules use short, unscripted video recorded in Delhi. Listen for everyday phrasing and social setting, then compare it with the standard written forms in your course.",
           "columbia-modules"
         )
       },
@@ -470,7 +471,7 @@ export const urduGuide = {
         url: "https://www.rekhtadictionary.com/",
         level: "all",
         description: cited(
-          "A learner-friendly searchable dictionary connected to Rekhta's broader literary ecosystem, useful for Urdu script, meanings, pronunciation support, and movement from a word into poetry and usage.",
+          "Search a word in Urdu, English, or Hindi and inspect its meanings and literary examples. Check a contemporary speaker before using a poetic sense in ordinary conversation.",
           "rekhta-dictionary"
         )
       },
@@ -495,13 +496,13 @@ export const urduGuide = {
         )
       },
       {
-        type: "other",
-        title: "Discover Discomfort: Arabic Facts",
-        url: "https://discoverdiscomfort.com/arabic-facts/",
+        type: "course",
+        title: "Basic Urdu",
+        url: "https://openbooks.lib.msu.edu/urdu/",
         level: "beginner",
         description: cited(
-          "A quick corrective for learners who equate Arabic-looking scripts with related languages. Its comparison helps establish that Urdu, Persian, and Arabic can share writing ancestry and loanwords without sharing a grammar family.",
-          "dd-arabic-facts"
+          "A free Michigan State textbook with script lessons, dialogues, listening tasks, and grammar exercises. It gives beginners a structured path from letters to connected speech.",
+          "msu-basic-urdu"
         )
       },
       {
@@ -518,7 +519,7 @@ export const urduGuide = {
   },
   wordsAndTexts: {
     overview: cited(
-      "Urdu words accumulate social and literary echoes. محبت muḥabbat is ordinary ‘love’ and part of a poetic lexicon; کل kal can mean yesterday or tomorrow because context locates the day; دل dil is heart, emotional center, courage, desire, and a participant in countless compounds. Ghazal poetry intensifies this polysemy: the beloved, wine, garden, cage, candle, and moth may work sensually, spiritually, politically, or together. Modern Urdu also thrives in short fiction, novels, feminist writing, journalism, satire, television drama, film song, rap, and online comedy.",
+      "A word can move between a family conversation and a ghazal. محبت muḥabbat means ‘love’ in both, while دل dil, ‘heart,’ can express feeling, courage, or desire. In poetry, a garden, candle, or moth may suggest several ideas at once.\n\nUrdu writers and performers also work in short fiction, novels, satire, journalism, television drama, film songs, rap, and online comedy. Read and listen beyond one genre to hear the same word change its effect with its setting.",
       "uchicago-urdu",
       "columbia-ghazal",
       "rekhta-dictionary"
@@ -558,7 +559,7 @@ export const urduGuide = {
         transliteration: "jugat",
         meaning: "witticism, comic line, repartee",
         note: cited(
-          "A useful reminder that Urdu is not only solemn refinement. In Punjabi–Urdu popular performance, quick verbal play and teasing can carry an interaction.",
+          "In Punjabi–Urdu popular performance, this word points to quick wit and teasing. It shows how lively repartee belongs beside Urdu's better-known literary genres.",
           "rekhta-dictionary"
         )
       },
@@ -587,7 +588,7 @@ export const urduGuide = {
         transliteration: "ghazal",
         meaning: "a lyric genre built from autonomous couplets in a formal rhyme structure",
         note: cited(
-          "A ghazal is not simply any sad love song. Its couplets share meter, rhyme, and often a refrain while each can form a complete semantic world; performance and popular music have also widened the label.",
+          "A ghazal's couplets share a meter, rhyme, and often a refrain, while each couplet can stand on its own. Performance and popular music have widened how people use the label.",
           "columbia-ghazal"
         )
       },
@@ -602,10 +603,10 @@ export const urduGuide = {
       }
     ],
     loanwordLayers: cited(
-      "Do not measure Urdu authenticity by counting Arabic and Persian words. The grammatical skeleton and much basic vocabulary are Indo-Aryan; Persianate culture contributed compounds, genres, and a prestige lexicon; Arabic supplied learned vocabulary often through Persian; regional languages continually shape local speech; English is conspicuous in education, technology, law, and business. A speaker may say a plain Hindustani word in one setting and a Persian-Arabic or English near-synonym in another. The most advanced skill is not choosing the ‘purest’ option but hearing what each option does socially.",
+      "Urdu keeps an Indo-Aryan grammar and many inherited everyday words. Persian brought compounds, literary genres, and prestige vocabulary; Arabic supplied learned words, often through Persian. Regional languages and English continue to shape local speech.\n\nA speaker may choose a plain Hindustani word in one setting and a Persian-Arabic or English near-synonym in another. The choice can signal an audience, topic, joke, or formal tone. Hear it in context before judging what sounds natural.",
       "wiki-urdu",
       "wiki-hindustani",
-      "dd-persian-arabic"
+      "utexas-vocabulary"
     ),
     idioms: [
       { original: "ناک میں دم کرنا", transliteration: "nāk meṅ dam karnā", translation: "to make someone's life difficult; pester relentlessly", note: "Literally, ‘to put breath in the nose.’ Stronger and more vivid than merely ‘annoy.’" },
@@ -626,14 +627,14 @@ export const urduGuide = {
   },
   relationships: {
     overview: cited(
-      "Urdu belongs genealogically with Indo-Aryan languages, shares its standardized grammatical base most closely with Hindi, and carries unusually visible Persian and Arabic contact layers. Script can therefore mislead in both directions: Urdu is not a form of Arabic because it looks similar, and Hindi is not unrelated because it looks different. Family, shared standardization, contact, and identity are four separate relationships that a good comparison keeps apart.",
+      "Urdu and Hindi grew within the Indo-Aryan branch and share much conversational Hindustani grammar. Persian and Arabic shaped Urdu through contact, especially in writing and formal vocabulary. These are different kinds of relationship: descent, shared speech, borrowing, and cultural identity each tell part of the story.",
       "glottolog-urdu",
       "wiki-hindustani",
-      "dd-arabic-facts"
+      "utexas-vocabulary"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "An Urdu learner soon encounters adab, a word for literature, cultured conduct, and respectful social form. How you address an elder, disagree, recite a couplet, or praise someone matters alongside grammar. Mushairas—poetry gatherings—make literature a social event, with listeners responding during recitation. Yet Urdu culture is larger than courtly etiquette or ghazal melancholy. Feminist poets, satirists, novelists, screenwriters, rappers, journalists, and comedians have used it to argue, expose, flirt, and laugh. Urdu is neither inherently Muslim nor exclusively Pakistani: its literature and speech were made across religious and national identities. Still, script, educational access, and political history affect who reads and claims it today.",
+  culturalNotes: "Adab can mean literature and cultivated manners. Listen to how a speaker addresses an elder or offers praise, then notice how the same choice appears in a poem or television scene. Mushairas make poetry a social event, with listeners responding during recitation.\n\nUrdu also gives voice to feminist poetry, satire, novels, screenplays, journalism, rap, and comedy. Its speakers and writers cross religious and national identities. Script access, schooling, and political history still shape who reads it and who claims it as their own.",
   resources: [
     {
       type: "course",
@@ -665,10 +666,10 @@ export const urduGuide = {
     },
     {
       type: "other",
-      title: "Discover Discomfort: Persian vs Arabic",
-      url: "https://discoverdiscomfort.com/farsi-persian-vs-arabic-similarities-and-differences/",
+      title: "Urdu Script and Pronunciation, University of Texas",
+      url: "https://urdu.la.utexas.edu/resources/urdu-script-pronunciation/",
       level: "beginner",
-      description: cited("A clear comparison of script sharing, vocabulary contact, and genealogical difference that transfers directly to common misconceptions about Urdu.", "dd-persian-arabic")
+      description: cited("Work through letter families and short-vowel reading with explicit pronunciation notes. Compare the careful sound descriptions with recordings from the Urdu speakers you study.", "utexas-script")
     }
   ],
   relatedLanguages,
@@ -689,9 +690,11 @@ export const urduGuide = {
     { original: "خدا حافظ", transliteration: "xudā hāfiz / khudā hāfiz", translation: "Goodbye.", literalMeaning: "May God be your protector.", usageNote: "Widely understood; اللہ حافظ Allāh hāfiz is also common in Pakistan." }
   ],
   sources: [
-    { id: "dd-arabic-facts", title: "Eight Interesting Arabic Facts — For Beginners", url: "https://discoverdiscomfort.com/arabic-facts/", publisher: "Discover Discomfort", updatedAt: "2023-09-13", accessedAt: "2026-07-10" },
-    { id: "dd-hardest", title: "The 4 Hardest Languages to Learn for English Speakers", url: "https://discoverdiscomfort.com/hardest-languages-to-learn/", publisher: "Discover Discomfort", accessedAt: "2026-07-10" },
-    { id: "dd-persian-arabic", title: "Persian vs Arabic — All the Similarities and Differences", url: "https://discoverdiscomfort.com/farsi-persian-vs-arabic-similarities-and-differences/", publisher: "Discover Discomfort", updatedAt: "2023-09-13", accessedAt: "2026-07-10" },
+    { id: "msu-basic-urdu", title: "Basic Urdu", url: "https://openbooks.lib.msu.edu/urdu/", publisher: "Michigan State University Libraries", publishedAt: "2022-12-15", accessedAt: "2026-09-27" },
+    { id: "utexas-vocabulary", title: "Urdu Vocabulary: A Guided Tour", url: "https://urdu.la.utexas.edu/resources/vocabulary/", publisher: "University of Texas at Austin", accessedAt: "2026-09-27" },
+    { id: "utexas-script", title: "Urdu Script & Pronunciation", url: "https://urdu.la.utexas.edu/resources/urdu-script-pronunciation/", publisher: "University of Texas at Austin", accessedAt: "2026-09-27" },
+    { id: "utexas-dialogue", title: "A Conversation Amongst Acquaintances", url: "https://urdu.la.utexas.edu/resources/a-conversation-amongst-acquaintances/", publisher: "University of Texas at Austin", accessedAt: "2026-09-27" },
+    { id: "utexas-izafat", title: "Persian Grammar in Urdu", url: "https://urdu.la.utexas.edu/resources/persian-grammar-in-urdu/", publisher: "University of Texas at Austin", accessedAt: "2026-09-27" },
     { id: "wiki-urdu", title: "Urdu", url: "https://en.wikipedia.org/wiki/Urdu", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-hindustani", title: "Hindustani language", url: "https://en.wikipedia.org/wiki/Hindustani_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-hindustani-grammar", title: "Hindustani grammar", url: "https://en.wikipedia.org/wiki/Hindustani_grammar", publisher: "Wikipedia", accessedAt: "2026-07-10" },
@@ -699,7 +702,7 @@ export const urduGuide = {
     { id: "unicode-chapter9", title: "The Unicode Standard, Chapter 9: Middle East-I", url: "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-9/", publisher: "Unicode Consortium", updatedAt: "2025", accessedAt: "2026-07-10" },
     { id: "glottolog-urdu", title: "Glottolog 5.3: Urdu", url: "https://glottolog.org/resource/languoid/id/urdu1245", publisher: "Max Planck Institute for Evolutionary Anthropology", updatedAt: "2025", accessedAt: "2026-07-10" },
     { id: "nlpd-pakistan", title: "National Language Promotion Department", url: "https://nlpd.gov.pk/eng-site/index.php", publisher: "Government of Pakistan", accessedAt: "2026-07-10" },
-    { id: "pbs-census", title: "7th Population and Housing Census 2023: National Census Report", url: "https://www.pbs.gov.pk/wp-content/uploads/2020/07/National-Census-Report-2023-1.pdf", publisher: "Pakistan Bureau of Statistics", publishedAt: "2025", accessedAt: "2026-08-14" },
+    { id: "pbs-census", title: "Key Findings of the 7th Population and Housing Census 2023", url: "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Key_Findings_Report.pdf", publisher: "Pakistan Bureau of Statistics", publishedAt: "2025", accessedAt: "2026-09-27" },
     { id: "uchicago-urdu", title: "Urdu Language Study", url: "https://salc.uchicago.edu/language-study/urdu", publisher: "University of Chicago", accessedAt: "2026-07-10" },
     { id: "platts-dictionary", title: "A Dictionary of Urdu, Classical Hindi, and English", url: "https://dsal.uchicago.edu/dictionaries/platts/", publisher: "Digital South Asia Library, University of Chicago", publishedAt: "1884", accessedAt: "2026-07-10" },
     { id: "rekhta-dictionary", title: "Rekhta Dictionary", url: "https://www.rekhtadictionary.com/", publisher: "Rekhta Foundation", accessedAt: "2026-07-10" },
@@ -708,6 +711,6 @@ export const urduGuide = {
   ],
   seo: {
     title: "Urdu Language Guide: Nastaliq, Grammar, History, and Real Usage",
-    description: "A detailed, example-rich guide to Urdu: its relationship with Hindi and Hindustani, Nastaliq writing, sounds, grammar, registers, literature, phrases, and learning resources."
+    description: "Read Urdu in Nastaliq and hear how its speakers use shared Hindustani speech, formal vocabulary, and poetic language. Explore grammar, phrases, and learning sources."
   }
 } satisfies LanguageGuide;

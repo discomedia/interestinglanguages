@@ -6,7 +6,7 @@ const relatedLanguages = [
     name: "Ancient Greek",
     relationship: "Earlier historical stages",
     explanation: cited(
-      "Modern Greek continues the same long-documented language tradition, but it is not Classical Greek pronounced differently. Sound changes, the loss of the infinitive and productive dative, new tense constructions, vocabulary change, and two millennia of ordinary speech separate a modern conversation from Plato. Ancient study helps with learned vocabulary and older texts; modern fluency does not automatically unlock Homer, and classical training does not automatically produce natural conversation.",
+      "Modern Greek grew from earlier Greek, but a modern conversation differs greatly from Plato's language. Pronunciation, grammar, and vocabulary changed over centuries of everyday use. Ancient Greek can help you recognize older words, yet reading Homer and speaking with a friend in Athens require different skills.",
       "wiki-history",
       "wiki-modern"
     )
@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Tsakonian",
     relationship: "Divergent Hellenic relative",
     explanation: cited(
-      "Tsakonian is the exceptional living Hellenic variety usually traced primarily to Doric rather than to the Koine line behind most Modern Greek varieties. It is severely endangered and substantially different from Standard Modern Greek, so presenting it as a picturesque Greek accent understates both its linguistic distance and the community work needed to sustain it.",
+      "Tsakonian follows a largely Doric line rather than the Koine line behind most modern Greek varieties. Speakers and researchers work to sustain it as its community shrinks. Its grammar and sounds differ enough from the standard that calling it an accent hides its distinct history.",
       "glottolog",
       "wiki-greek"
     )
@@ -24,7 +24,7 @@ const relatedLanguages = [
     name: "Albanian",
     relationship: "Balkan contact language",
     explanation: cited(
-      "Albanian is a separate Indo-European branch, not a close Greek sibling. Long neighborhood in the Balkans nevertheless produced shared vocabulary and converging structures. The comparison is useful precisely because genealogy and contact tell different stories: similar constructions need not descend from a recent common Greek–Albanian parent.",
+      "Albanian belongs to another branch of Indo-European. Centuries of life in neighboring Balkan communities brought shared words and some similar ways of building sentences. Those similarities can come from contact without making Albanian a Greek dialect.",
       "wiki-greek",
       "glottolog"
     )
@@ -34,7 +34,7 @@ const relatedLanguages = [
     slug: "turkish",
     relationship: "Major contact language",
     explanation: cited(
-      "Turkish is unrelated genealogically, yet Ottoman-era coexistence left a visible layer in colloquial vocabulary, food, music, urban life, and family names. Greek also contributed words to Turkish. Some inherited loans became politically marked or attracted formal replacements, while many remain completely ordinary; etymology alone does not predict how a speaker feels about a word.",
+      "Turkish belongs to a different language family. Centuries of Ottoman-era contact left Greek words for food, music, household life, and everyday conversation, while Turkish borrowed from Greek too. A word's history alone cannot tell you whether a speaker hears it as ordinary or politically charged.",
       "wiki-history",
       "triantafyllides"
     )
@@ -44,45 +44,45 @@ const relatedLanguages = [
 const resources = [
   {
     type: "course",
-    title: "Greek to Me",
-    url: "https://greektome.greeklanguage.gr/learn-modern-greek/",
+    title: "University of Cyprus School of Modern Greek",
+    url: "https://www.ucy.ac.cy/mogr/?lang=en",
     level: "beginner",
-    description: cited("The Centre for the Greek Language's structured online route through A1–B1 Modern Greek.", "greek-to-me")
+    description: cited("The university offers online and in-person Modern Greek classes in Cyprus. Its course notices give dates, levels, and fees; ask how the class handles local Cypriot speech alongside the standard.", "ucy-school")
   },
   {
     type: "dictionary",
     title: "Dictionary of Standard Modern Greek",
     url: "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/",
     level: "all",
-    description: cited("A free monolingual reference for definitions, spelling, inflection, expressions, and etymology.", "triantafyllides")
+    description: cited("Look up a Greek word's meaning, spelling, forms, expressions, and history here. The definitions are in Greek, so beginners may want a bilingual dictionary beside it.", "triantafyllides")
   },
   {
     type: "corpus",
     title: "Centre for the Greek Language Corpora",
     url: "https://www.greek-language.gr/greekLang/modern_greek/tools/corpora/corpora/search.html",
     level: "advanced",
-    description: cited("Search inflected forms, collocations, prepositions, and register in connected modern writing.", "cgl-corpora")
+    description: cited("Search real sentences when you need to check which ending, preposition, or neighboring word sounds natural in written Greek.", "cgl-corpora")
   },
   {
     type: "corpus",
     title: "Hellenic National Corpus",
     url: "https://hnc.ilsp.gr/",
     level: "advanced",
-    description: cited("A major collection for checking vocabulary and constructions across contemporary written genres.", "hnc", "athena-corpus")
+    description: cited("This collection lets advanced readers compare words and constructions across modern written genres. Written examples still need an audio check before you copy them into speech.", "hnc")
   },
   {
     type: "course",
     title: "Modern Greek Language Teaching Center, University of Athens",
     url: "https://en.greekcourses.uoa.gr/",
     level: "all",
-    description: cited("University-based instruction in Athens, with practical CEFR-aligned level descriptions.", "uoa-courses")
+    description: cited("The University of Athens teaches Modern Greek in scheduled courses. Its level descriptions help you choose a class and see what the next stage expects.", "uoa-courses")
   },
   {
     type: "other",
     title: "Certificate of Attainment in Greek",
     url: "https://www.greek-language.gr/certification/",
     level: "all",
-    description: cited("Official level specifications, examination information, and sample tasks for progress checks.", "cgl-certification")
+    description: cited("Use the official level descriptions and sample exam tasks to check your reading, listening, writing, and speaking goals.", "cgl-certification")
   },
 ] satisfies LanguageGuide["resources"];
 
@@ -92,30 +92,30 @@ export const greekGuide = {
   autonym: "Ελληνικά",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Modern Greek is a living language of Greece, Cyprus, and a worldwide diaspora: historically deep, unmistakably contemporary, and full of expressive choices that cannot be learned by treating today's speech as a simplified classical text.",
+  summary: "In Modern Greek, a small accent mark can change a word, while the same speaker may move between everyday conversation and older learned expressions. Explore how people speak and write Greek in Greece, Cyprus, and diasporic communities today.",
   family: "Indo-European, Hellenic",
   macroRegion: "Southeastern Europe and the eastern Mediterranean",
   primaryScript: "Greek alphabet",
   difficultyLabel: "Moderate",
-  learnerHook: "The alphabet opens quickly; the richer project is learning how a modern speaker moves among intimate conversation, public language, regional speech, songs, news, and a vocabulary whose older layers remain visible without controlling every sentence.",
+  learnerHook: "You can learn the alphabet quickly, then start hearing how stress, verb endings, and short pronouns shape everyday speech. Greek also lets you explore local voices and older texts without confusing them with today's standard.",
   hero: {
     imageAlt: "Contemporary Greek handwriting and print showing the modern monotonic alphabet.",
     callToActionLabel: "Explore Greek in use"
   },
   classification: "The principal modern language of the Hellenic branch of Indo-European",
-  speakerCommunity: "Greek is the official language of Greece and, alongside Turkish, of the Republic of Cyprus; it is also one of the European Union's official languages. Its communities extend through long-established diasporas in Australia, the United States, Canada, Germany, the United Kingdom, southern Africa, and elsewhere. A single speaker may use Standard Modern Greek in school or public writing, a regionally colored urban vernacular with friends, a stronger village or Cypriot variety with family, and inherited expressions in church, song, politics, or ceremony. That range is ordinary multilingual-style competence within Greek, not evidence that everyday speech is an imperfect version of a classical ideal.",
+  speakerCommunity: "People speak Greek across Greece and Cyprus and in long-established communities in Australia, Germany, North America, Britain, and elsewhere. Greek has official status in Greece and the Republic of Cyprus, where Turkish also has official status.\n\nOne person may write Standard Modern Greek at school, use local forms with family, and recognize older language in church or song. These choices belong to a living language; regional speech does not need to imitate an ancient text.",
   facts: [
     { label: "Family", value: "Indo-European · Hellenic" },
-    { label: "Modern users", value: "About 13 million first- and second-language speakers worldwide" },
+    { label: "Modern users", value: "Millions of first- and additional-language speakers worldwide; estimates vary by definition" },
     { label: "Official use", value: "Greece; Cyprus (with Turkish); European Union" },
     { label: "Standard", value: "Standard Modern Greek, based mainly on Demotic" },
     { label: "Writing", value: "24-letter Greek alphabet; modern monotonic accenting" },
     { label: "Documented history", value: "More than three millennia, beginning with Mycenaean Linear B" }
   ],
-  learnerOverview: "Begin with the language people use now. Learn the alphabet's modern values, then attach every noun to its article and every verb to two useful stems in complete phrases. Historical curiosity is welcome, but label its sources: Ancient, Koine, Medieval, Katharevousa, Standard Modern, Cypriot, or another regional variety. Greek has enough continuity that old forms surface often and enough change that false familiarity is a trap. Build around voices you enjoy—interviews, drama, sport, songs, or family audio—and investigate them with dictionaries and corpora. That route opens contemporary fiction, cinema, comedy, politics, food writing, migration stories, and diasporic life.",
+  learnerOverview: "Compare νόμος nómos, “law,” with νομός nomós, “district.” The letters nearly match, but the accent changes both stress and meaning. Learn modern letter sounds and written accents first, then practice nouns with their articles and verbs inside full sentences.\n\nThis guide's examples follow Standard Modern Greek unless a note says otherwise. Cypriot Greek, Pontic, and other local varieties have their own patterns. So do Ancient Greek, Koine, and the learned Katharevousa register; an older form in a newspaper or song does not make it the right form for a casual message.\n\nChoose recordings connected to your life: family conversations, interviews, sport, drama, or music. Read along, check unfamiliar forms in a Greek dictionary, and return to the recording. You can build everyday fluency while learning why older layers still appear in modern words and public language.",
   origins: {
     overview: cited(
-      "Greek has the longest documented history of any living Indo-European language. Mycenaean Greek appears in second-millennium BCE Linear B tablets. Later alphabetic dialects include Ionic-Attic, Aeolic, Doric, and others, so “Ancient Greek” already spans several periods and varieties. A common Koine spread after Alexander through a multilingual eastern Mediterranean; beyond the New Testament, it served administration and everyday exchange. Medieval Greek ranged from classicizing prose to vernacular texts. Modern varieties emerged through that continuum, not a clean death and rebirth.",
+      "People have written Greek for more than three thousand years. The earliest surviving records are Mycenaean tablets written in Linear B during the second millennium BCE. Later writers used several alphabetic dialects, so “Ancient Greek” names a long history rather than one uniform way of speaking.\n\nAfter Alexander, a shared form called Koine spread around the eastern Mediterranean. People used it for administration, trade, literature, and religious texts, including the New Testament. Medieval speakers kept changing Greek while writers could choose either speech-like or ancient-looking forms; today's varieties grew through that continuous history.",
       "wiki-greek",
       "wiki-history",
       "britannica"
@@ -124,7 +124,7 @@ export const greekGuide = {
       {
         period: "c. 1400–1200 BCE",
         event: cited(
-          "Mycenaean Greek was recorded in Linear B, a syllabic administrative script. The tablets mostly inventory goods and people, but they establish Greek's extraordinary written depth; Linear B is not the ancestor of the later Greek alphabet.",
+          "Scribes recorded Mycenaean Greek in Linear B, a script whose signs usually represent syllables. Their tablets mostly list goods and people. The later Greek alphabet came from a different writing tradition.",
           "wiki-history",
           "unicode"
         )
@@ -132,7 +132,7 @@ export const greekGuide = {
       {
         period: "8th–4th centuries BCE",
         event: cited(
-          "Alphabetic Greek appears in several dialect traditions. Epic, drama, philosophy, history, inscriptions, and private documents were not all written in one uniform “Classical Greek.” Athens made Attic especially influential, while other dialects remained culturally important.",
+          "Writers began using alphabetic Greek in several dialect traditions. Athens made Attic influential in drama, philosophy, and public writing, while other communities kept their own dialects. An epic and a private inscription from this era need not follow the same language norms.",
           "wiki-greek",
           "britannica"
         )
@@ -140,7 +140,7 @@ export const greekGuide = {
       {
         period: "4th century BCE–6th century CE",
         event: cited(
-          "Koine spread as a supraregional language across the Hellenistic and Roman eastern Mediterranean. Pronunciation and grammar continued changing: the vowel system moved toward modern patterns, the optative and infinitive declined, and new analytic constructions grew.",
+          "Koine spread across the Hellenistic and Roman eastern Mediterranean as a shared language beyond one city. Speakers changed its sounds and grammar over time. Older verb forms declined, and speakers increasingly built meanings with small words and full verbs.",
           "wiki-history",
           "wiki-modern"
         )
@@ -148,7 +148,7 @@ export const greekGuide = {
       {
         period: "6th–15th centuries",
         event: cited(
-          "Medieval Greek covered both spoken change and an unusually wide register gap in writing. Administrators, theologians, poets, chroniclers, and vernacular authors could choose forms closer to contemporary speech or imitate prestigious ancient models.",
+          "Medieval speakers kept changing Greek. Writers could follow current speech more closely or imitate prestigious ancient styles, depending on their audience and purpose. Poems, chronicles, and religious texts therefore show different forms side by side.",
           "wiki-history",
           "cgl-portal"
         )
@@ -156,7 +156,7 @@ export const greekGuide = {
       {
         period: "19th century–1976",
         event: cited(
-          "The modern Greek state inherited a “language question.” Demotic represented living vernacular usage; Katharevousa was a learned, purifying variety designed to bridge modern and ancient forms and used heavily in government and education. The conflict was social and political as well as grammatical. Demotic became the official language of the state in 1976.",
+          "Greece debated which form should carry public life. Demotic drew on everyday speech; Katharevousa brought older forms into government and education. The choice shaped access to public writing until Greece made Demotic official in 1976.",
           "wiki-history",
           "wiki-modern"
         )
@@ -164,20 +164,20 @@ export const greekGuide = {
       {
         period: "1982 to the digital present",
         event: cited(
-          "Greece officially adopted monotonic orthography in 1982, replacing routine polytonic accents in ordinary modern writing with a single stress mark plus the diaeresis where needed. Digital Greek now ranges from carefully accented publishing to messages with omitted accents and occasional Greeklish in Latin letters.",
+          "Greece adopted monotonic spelling in 1982. Ordinary modern writing now marks stress with one accent and uses a diaeresis when two adjacent vowels need separate reading. People may omit accents in quick messages or write informal Greek in Latin letters, often called Greeklish.",
           "unicode",
           "wiki-modern"
         )
       }
     ],
     contactHistory: cited(
-      "Continuity never meant isolation. Greek exchanged words with Latin and Romance, South Slavic languages, Albanian, Aromanian, Turkish, Italian, French, and English. Contact differed by place: island vocabulary preserves Venetian layers, northern speech shares Balkan features, and Cypriot reflects Turkish and English as well as older French and Venetian rule. International coinages built from Greek material sometimes returned with changed meanings; a recognizable Greek root does not make a technical term an everyday inherited word.",
+      "Greek speakers borrowed and lent words wherever they lived alongside other communities. Venetian contact left words in island speech, Ottoman Turkish shaped many everyday words, and English now enters technology and popular culture. Cypriot Greek has its own contact history, including Turkish and English.\n\nInternational scholars also made new technical terms from Greek roots. Some later entered modern Greek, but their familiar roots do not mean people have used the whole word unchanged since antiquity.",
       "wiki-history",
       "triantafyllides",
       "wiki-greek"
     ),
     standardization: cited(
-      "Standard Modern Greek is based chiefly on Demotic but contains a substantial learned inheritance, including forms normalized through Katharevousa. It is therefore misleading to imagine that 1976 simply deleted one language and installed another. Legal, ecclesiastical, academic, and ceremonial writing still contains archaisms; perfectly ordinary expressions such as εντάξει entáxei “okay” preserve an old dative form. The standard is shared across Greece and Cyprus, but Cypriot public speech may carry recognizable phonetic and lexical features. Standard competence and regional identity coexist rather than canceling each other.",
+      "Standard Modern Greek grew mainly from Demotic, the everyday form championed during Greece's language debate. It also absorbed learned words and constructions used in Katharevousa. The change in official policy in 1976 did not erase these forms: even εντάξει entáxei, “okay,” preserves an old case ending.\n\nSchools and national media use the standard in Greece and Cyprus. Many Cypriot speakers also use features of Cypriot Greek in public and private life; the line between the two varies with the setting and speaker.",
       "wiki-modern",
       "wiki-grammar",
       "cgl-portal"
@@ -185,7 +185,7 @@ export const greekGuide = {
   },
   variants: {
     overview: cited(
-      "Variation follows geography, age, migration, class, medium, and situation. Schooling and national media spread an Athens-based standard without flattening every local system. Speakers often grade between standard and local features rather than switch between sealed codes. Label recordings by place and genre: family conversation, parliament, comedy, song, and an older film make different stylistic choices.",
+      "Greek changes with place, age, audience, and medium. School and national media spread a common standard, but local speech did not disappear. Speakers may mix standard and regional features within one conversation.\n\nWhen you save audio, record where it came from and who is speaking. A family conversation, parliamentary speech, comedy sketch, and old film make different language choices.",
       "wiki-modern",
       "wiki-greek",
       "cgl-portal"
@@ -194,7 +194,7 @@ export const greekGuide = {
       {
         name: "Standard Modern Greek",
         note: cited(
-          "The norm of education, national broadcasting, public administration, and most publishing. It is based mainly on southern Demotic varieties while incorporating learned vocabulary and structures. Real standard speech still varies by speaker and does not sound like a grammar recording.",
+          "Schools, national broadcasters, and publishers generally use this shared form. It grew mainly from southern Demotic speech and also carries learned vocabulary. Speakers still bring regional accents and personal habits into standard speech.",
           "wiki-modern",
           "wiki-grammar"
         )
@@ -202,15 +202,15 @@ export const greekGuide = {
       {
         name: "Cypriot Greek",
         note: cited(
-          "A major living variety with distinctive consonants, vocabulary, morphology, and syntax. Many Greek Cypriots command both Cypriot Greek and the standard, using features along a continuum according to audience. Its distance is greater than a small accent difference, yet blanket claims of incomprehensibility ignore accommodation and exposure.",
-          "wiki-greek",
-          "glottolog"
+          "Many Greek Cypriots grow up with Cypriot Greek and learn Standard Modern Greek at school. Cypriot sounds, words, and sentence patterns differ from the standard, and speakers may move between them according to setting. How easily outsiders understand a speaker depends on the form they hear and their exposure to it.",
+          "cypriot-study",
+          "wiki-greek"
         )
       },
       {
         name: "Pontic and Cappadocian Greek",
         note: cited(
-          "Varieties shaped in Anatolia and transformed by displacement, diaspora, and language contact. Pontic retains a substantial speaker and cultural network; Cappadocian communities have been central to modern documentation and reclamation. Neither should be treated as a museum fossil.",
+          "Pontic and Cappadocian developed among Greek-speaking communities in Anatolia. Forced migration and later diaspora changed where people use them, while contact with neighboring languages shaped their forms. Speakers and researchers continue to document and teach these varieties.",
           "glottolog",
           "wiki-greek"
         )
@@ -218,7 +218,7 @@ export const greekGuide = {
       {
         name: "Learned, ecclesiastical, and literary registers",
         note: cited(
-          "Modern texts can deliberately reach backward through Katharevousa, Koine, or classical forms. Orthodox liturgy is not ordinary Standard Modern Greek, though speakers may recognize much of it through repetition and education. Authors also use dialect, slang, and archaism as artistic choices.",
+          "Writers sometimes choose Katharevousa, Koine, or classical forms for formal or artistic effect. Orthodox services use older language rather than ordinary modern conversation. Authors can also choose local speech and slang to give a character a distinct voice.",
           "wiki-history",
           "cgl-portal"
         )
@@ -227,20 +227,20 @@ export const greekGuide = {
   },
   pronunciation: {
     overview: cited(
-      "Modern Greek has five vowel phonemes /a e i o u/, despite several spellings for /i/. Its consonant system includes sounds English speakers often know from other contexts but not as stable contrasts: θ as in English thin, δ /ð/ as in this, χ /x~ç/ as in Scottish loch or German ich, and γ /ɣ~ʝ/, a voiced partner of χ. The alphabet is consistent once learned with modern values. Do not pronounce β as /b/, η as a separate long vowel, or φ as /pʰ/ merely because a Classical Greek course did so. Reconstructed ancient pronunciations answer historical questions; they are not prestige versions of a modern accent.",
+      "Modern Greek has five vowel sounds: /a e i o u/. Several letter groups spell /i/, but speakers do not give each spelling a different vowel. You will also hear θ as in English thin, δ as in this, and the rough χ heard in Scottish loch.\n\nLearn the alphabet with modern sounds from the start. β sounds /v/, while η sounds /i/; an Ancient Greek course may teach reconstructed older sounds for historical reading. Those older values do not guide an ordinary modern conversation.",
       "wiki-modern",
       "wiki-grammar",
       "britannica"
     ),
     script: "Greek alphabet in modern monotonic spelling; transliterations approximate Standard Modern Greek",
     soundSystem: cited(
-      "The letter γ is [ʝ] before front vowels /e i/ and [ɣ] elsewhere; χ similarly alternates between [ç] and [x]. Written μπ, ντ, and γκ represent /b/, /d/, and /g/ in many words, though their realization can be prenasalized or vary by position and speaker. Five spellings—ι, η, υ, ει, οι—commonly represent /i/, the result of historical vowel mergers called iotacism. αυ and ευ normally sound /av, ev/ before voiced sounds and vowels, but /af, ef/ before voiceless consonants: compare αύριο ávrio “tomorrow” with αυτό aftó “this.” These are regular reading patterns, not arbitrary exceptions.",
+      "The sound of γ changes with its next vowel: it sounds like a soft, voiced y before /e/ or /i/ and rougher elsewhere. χ follows a similar pattern without voicing. The letter pairs μπ, ντ, and γκ often spell /b/, /d/, and /g/, although speakers may add a nasal sound in some positions.\n\nFive spellings—ι, η, υ, ει, οι—usually give /i/. Historical sound mergers produced this pattern. The pairs αυ and ευ change with the next sound: αύριο ávrio, “tomorrow,” has /av/, while αυτό aftó, “this,” has /af/ before voiceless /t/.",
       "wiki-modern",
       "wiki-grammar",
       "triantafyllides"
     ),
     prosody: cited(
-      "Every word of more than one syllable has a stressed syllable, normally written with a tonos: νόμος nómos “law” versus νομός nomós “prefecture.” Stress is restricted to one of the last three syllables. When a possessive or object clitic follows a word, an extra written accent can appear to preserve the rhythm: το αυτοκίνητό μου to aftokínitó mou “my car.” Function words often lean phonologically on neighbors, so fluent speech is organized in groups rather than isolated dictionary words. Shadow whole questions and answers; Greek's lively pitch movement and vowel-to-vowel linking cannot be learned from letter names.",
+      "Greek marks the stressed syllable of a word with more than one syllable. Compare νόμος nómos, “law,” and νομός nomós, “district.” Stress falls within the last three syllables, and a short attached word can trigger another written accent: το αυτοκίνητό μου to aftokínitó mou, “my car.”\n\nIn speech, small words lean on their neighbors. Listen to whole questions and answers, then copy their rhythm; naming letters alone will not teach you how the words flow together.",
       "wiki-grammar",
       "unicode"
     ),
@@ -264,18 +264,18 @@ export const greekGuide = {
   },
   writing: {
     overview: cited(
-      "Modern Greek uses 24 alphabetic letters from alpha Α α to omega Ω ω. Sigma has a final lowercase form ς at the end of a word and σ elsewhere. The script runs left to right, separates words with spaces, and uses a semicolon-shaped question mark: Τι κάνεις; “How are you?” Ordinary modern writing is monotonic: a tonos marks lexical stress on polysyllabic words, while a diaeresis distinguishes vowels that would otherwise be read together, as in Μαΐου Maïou “of May.” Capitalized words normally omit the stress mark, though the diaeresis remains when needed. Ancient and many ecclesiastical editions use polytonic spelling with breathing marks and multiple accents.",
+      "Modern Greek writes 24 letters from alpha Α α to omega Ω ω. Lowercase sigma changes shape at the end of a word: σ becomes ς. A Greek question ends with a semicolon-shaped mark, as in Τι κάνεις; “How are you?”\n\nEveryday spelling uses one accent mark to show stress in words with several syllables. A diaeresis separates vowels that a reader might otherwise combine, as in Μαΐου Maïou, “of May.” Ancient and many church editions use older polytonic spelling with several accent and breathing marks.",
       "unicode",
       "wiki-modern"
     ),
     primaryScript: "Greek alphabet, modern monotonic orthography",
     romanization: cited(
-      "Romanization is useful for maps, names, and a first pronunciation note, but conventions differ. The same Greek surname may appear in an official ELOT-style transliteration, an older diaspora spelling, or a form chosen to guide English pronunciation. Greeklish—Greek written with Latin characters—developed in digital settings and remains visible informally, but it has no single spelling norm. Learn to type tonos from the start. Transliteration hides the useful fact that οι and η belong to different word families even though both sound /i/.",
+      "Latin spellings help with names and maps, but different systems spell the same Greek name differently. A person's official transliteration may differ from a family spelling used abroad. In informal messages some people use Greeklish, or Greek in Latin letters, without one fixed spelling system.\n\nLearn to type Greek accents early. Latin letters can hide spelling differences such as οι and η, which sound alike today but belong to different word families.",
       "unicode",
       "triantafyllides"
     ),
     spellingNorms: cited(
-      "Modern spelling is historically deep rather than fully phonemic. The multiple spellings of /i/ preserve etymology and morphological relationships; ω and ο both represent /o/, and αι represents /e/. Stress is generally reliable but can move during inflection: άνθρωπος ánthropos “person,” ανθρώπου anthrópou “of a person.” Final -ν in small words such as τον and δεν follows conventions that interact with the next sound and style. Spelling reform simplified accents, not the inherited vowel spellings. A learner should therefore store the written form, audio, article, and one inflected phrase together.",
+      "Greek spelling keeps older distinctions even when pronunciation has merged. Both ο and ω sound /o/, while αι sounds /e/; several other spellings sound /i/. Endings can also move stress: άνθρωπος ánthropos, “person,” becomes ανθρώπου anthrópou, “of a person.”\n\nThe 1982 reform simplified accent marks but kept historical vowel spellings. Learn a noun's written form, audio, article, and one changed form together rather than guessing its spelling from sound alone.",
       "triantafyllides",
       "wiki-grammar",
       "unicode"
@@ -289,22 +289,22 @@ export const greekGuide = {
   },
   grammar: {
     overview: cited(
-      "Modern Greek is inflected: endings and stem changes carry information that English often assigns to word order or helper words. Nouns belong to three genders and use four productive cases; verbs distinguish person, number, tense, aspect, mood, and voice. Yet the language is also highly analytic compared with Ancient Greek. It has no productive infinitive and normally builds complements with να na plus a finite verb. Grammar becomes practical when learned as contrasts—γράφω “I write/am writing” beside γράψω in να γράψω “that I write once”—rather than as one enormous historical table.",
+      "Greek changes word endings to show who acts, who receives an action, and who owns something. Nouns have three grammatical genders and four main case forms. Verbs change with the person, time, and whether the speaker sees an action as ongoing or complete.\n\nModern Greek usually uses να na plus a verb where English uses “to.” Compare γράφω gráfo, “I write,” with να γράψω na grápso, “to write” viewed as one event.",
       "wiki-grammar",
       "cgl-portal"
     ),
     typologicalProfile: cited(
-      "Greek is a fusional Indo-European language: one ending may simultaneously express several categories. It is broadly nominative–accusative, with subjects usually nominative and direct objects accusative. Word order is flexible because case marking and verbal agreement identify roles, but flexibility is not randomness: position and intonation signal topic, focus, contrast, and style. Greek is also a null-subject language, meaning a subject pronoun can be omitted when the verb ending and context identify it. Είμαι εδώ eímai edó already means “I am here”; adding εγώ egó emphasizes or contrasts “I.”",
+      "One Greek ending can carry several pieces of information. Subjects usually take the nominative form, while direct objects take the accusative, so speakers can move words for emphasis. Position and tone still show what they want to highlight.\n\nSpeakers often leave out “I” because the verb identifies them: Είμαι εδώ eímai edó means “I am here.” Adding εγώ egó emphasizes “I.”",
       "wiki-grammar",
       "wiki-modern"
     ),
     morphology: cited(
-      "Articles and adjectives agree with nouns in gender, number, and case: ο καλός φίλος o kalós fílos “the good friend,” της καλής φίλης tis kalís fìlis “of the good female friend.” The productive cases are nominative, genitive, accusative, and vocative; the ancient dative survives only in fixed or learned expressions. Verbs are best recorded with imperfective and perfective stems because the perfective is often unpredictable: γράφω gráfo “write” has γράψ- gráps-, while βλέπω vlépo “see” has δ- d- in δω do “I see once.” Active and mediopassive morphology does not map mechanically onto English active/passive meanings, so learn voice with each verb's actual constructions.",
+      "Articles and adjectives change with nouns: ο καλός φίλος o kalós fílos means “the good friend,” while της καλής φίλης tis kalís fílis means “of the good female friend.” The four living case forms are nominative, genitive, accusative, and vocative. Older dative forms survive in fixed expressions.\n\nVerbs often have one stem for an ongoing action and another for a whole event. Γράφω gráfo changes to γράψ- gráps- in θα γράψω tha grápso, “I will write”; βλέπω vlépo changes more sharply in να δω na do, “to see.”",
       "wiki-grammar",
       "triantafyllides"
     ),
     syntax: cited(
-      "Finite complement clauses dominate where English uses infinitives: θέλω να φύγω thélo na fígo, literally “I want that I leave,” means “I want to leave.” Weak object pronouns, called clitics, usually stand before a finite verb—τον βλέπω ton vlépo “I see him”—but follow a positive imperative: δες τον des ton “see him.” Negation splits by clause type: δεν den accompanies indicative statements, while μην min occurs with subjunctive-like and prohibitive constructions. Questions need no English-style do-support: Μιλάς ελληνικά; Milás elliniká? means “Do you speak Greek?” through intonation and punctuation.",
+      "Greek uses να na plus a personal verb where English uses “to”: θέλω να φύγω thélo na fígo means “I want to leave.” Short object pronouns go before an ordinary verb, as in τον βλέπω ton vlépo, “I see him,” but after a positive command: δες τον des ton, “see him.”\n\nΔεν den negates ordinary statements; μην min appears in prohibitions and some να constructions. Μιλάς ελληνικά; Milás elliniká? asks “Do you speak Greek?” without an English-style “do.”",
       "wiki-grammar",
       "cgl-corpora"
     ),
@@ -320,7 +320,7 @@ export const greekGuide = {
       {
         title: "Gender, article, and case",
         body: cited(
-          "A noun's article is part of its learnable shape. Ο φίλος o fílos is “the male friend,” η φίλη i fíli “the female friend,” and το σπίτι to spíti “the house.” Case changes the article and often the noun: Βλέπω τον φίλο vlépo ton fílo, “I see the friend”; Το σπίτι του φίλου to spíti tou fílou, “the friend's house.” Natural gender helps with people, but grammatical gender of things must be memorized.",
+          "Learn a noun with its article: ο φίλος o fílos, “the male friend,” η φίλη i fíli, “the female friend,” and το σπίτι to spíti, “the house.” The article and noun change with their role: Βλέπω τον φίλο vlépo ton fílo means “I see the friend”; Το σπίτι του φίλου to spíti tou fílou means “the friend's house.” Objects also have grammatical gender, which you learn with the word.",
           "wiki-grammar",
           "triantafyllides"
         ),
@@ -330,9 +330,9 @@ export const greekGuide = {
       {
         title: "Aspect: process versus bounded event",
         body: cited(
-          "Greek usually asks whether an event is presented as ongoing, repeated, or internally unfolding (imperfective) versus bounded or viewed as a whole (perfective). Θα γράφω tha gráfo means “I will be writing / write regularly,” while θα γράψω tha grápso means “I will write (on an occasion).” This is not simply present versus past, and perfective does not automatically mean completed in real-world time; particles and context place the event.",
-          "wiki-grammar",
-          "cgl-corpora"
+          "A Greek verb can show an action unfolding or repeating, called imperfective aspect. It can also show one whole event, called perfective aspect. Θα γράφω tha gráfo means “I will be writing” or “I will write regularly”; θα γράψω tha grápso means “I will write” on an occasion.\n\nThese forms show the speaker's view of the action, while other words and context help place it in time.",
+          "cgl-aspect",
+          "wiki-grammar"
         ),
         example: "Κάθε μέρα διαβάζω, αλλά απόψε θα διαβάσω μόνο ένα κεφάλαιο.",
         exampleTranslation: "Every day I study/read, but tonight I will read only one chapter."
@@ -340,7 +340,7 @@ export const greekGuide = {
       {
         title: "The να construction",
         body: cited(
-          "Modern Greek replaced most infinitive functions with να plus a verb marked for person. Θέλω να πάω thélo na páo is “I want to go,” but Θέλω να πας thélo na pas is “I want you to go.” This makes the hidden subject explicit in the verb ending and allows tense/aspect contrasts inside the complement. Learn θέλω να, μπορώ να, πρέπει να, and αρχίζω να as sentence frames, not isolated verbs.",
+          "Greek puts να before a personal verb where English uses “to.” Θέλω να πάω thélo na páo means “I want to go”; Θέλω να πας thélo na pas means “I want you to go.” The ending shows who will go.\n\nPractice frames such as θέλω να, “I want to,” and μπορώ να, “I can.”",
           "wiki-grammar",
           "wiki-history"
         ),
@@ -350,7 +350,7 @@ export const greekGuide = {
       {
         title: "Object clitics",
         body: cited(
-          "Short object forms carry case and person: μου mou “to me/my,” σου sou “to you/your,” τον ton “him,” την tin “her,” and το to “it.” Before ordinary finite verbs, Μου το έδωσε mou to édose means “She/he gave it to me.” A positive command reverses the position: Δώσ' μου το dós mou to, “Give it to me.” Possessive clitics follow nouns, where they may trigger an extra accent on a long host.",
+          "Greek has short pronouns that lean on a neighbor; linguists call them clitics. Μου το έδωσε mou to édose means “She or he gave it to me,” with both before the verb. A positive command puts them after it: Δώσ' μου το dós mou to, “Give it to me.”\n\nA possessive form follows its noun and can trigger another accent: το αυτοκίνητό μου to aftokínitó mou, “my car.”",
           "wiki-grammar",
           "unicode"
         ),
@@ -360,7 +360,7 @@ export const greekGuide = {
       {
         title: "Past tense and the augment",
         body: cited(
-          "Many past forms carry stress early enough that an augment ε- appears: γράφω gráfo “I write” → έγραψα égrapsa “I wrote.” In longer verbs the stress can already fit within the last three syllables, so no visible augment is needed. The imperfect presents an event as ongoing or habitual—έγραφα égrafa “I was writing / used to write”—while the aorist έγραψα views it as bounded. “Aorist” here names an aspectual past form, not an indefinite time expression.",
+          "Past forms such as έγραψα égrapsa, “I wrote,” add ε- to carry stress; γράφω gráfo means “I write.” Longer verbs may need no added ε-. Έγραφα égrafa means “I was writing” or “I used to write,” while έγραψα shows a whole event.\n\nGrammar books call the whole-event past the aorist. The name does not mean the time is unknown.",
           "wiki-grammar",
           "triantafyllides"
         ),
@@ -370,7 +370,7 @@ export const greekGuide = {
       {
         title: "Negation and prohibitions",
         body: cited(
-          "Δεν den negates ordinary indicative clauses: Δεν ξέρω den xéro, “I don't know.” Μην min is used with να-type environments and negative commands: Μην φύγεις min fígeis, “Don't leave.” The verb after a prohibition often uses the perfective form when warning against a single bounded action, while imperfective forms can prohibit an ongoing or repeated behavior. Memorizing only a translation of “not” conceals this division.",
+          "Δεν den goes with ordinary statements: Δεν ξέρω den xéro means “I don't know.” Μην min appears in negative commands: Μην φύγεις min fígeis means “Don't leave.” A whole-event form can warn against one action; an ongoing form can prohibit repeated behavior.\n\nNotice which form speakers use in a complete request.",
           "wiki-grammar",
           "cgl-corpora"
         ),
@@ -380,7 +380,7 @@ export const greekGuide = {
       {
         title: "Flexible word order and focus",
         body: cited(
-          "Ο Νίκος αγόρασε το βιβλίο O Níkos agórase to vivlío neutrally reports “Nikos bought the book.” Moving the object forward—Το βιβλίο αγόρασε ο Νίκος To vivlío agórase o Níkos—can contrast the book with another item, depending on intonation. Clitic doubling may mark topical objects in colloquial speech. Since English relies more heavily on fixed order, learners should copy complete audio patterns before treating every permutation as interchangeable.",
+          "Ο Νίκος αγόρασε το βιβλίο O Níkos agórase to vivlío says “Nikos bought the book” in a neutral order. Moving the object forward can highlight it, depending on tone. In colloquial speech, a short pronoun may repeat that object: Αυτό το τραγούδι το ξέρουν όλοι, “This song, everyone knows it.”",
           "wiki-grammar",
           "cgl-corpora"
         ),
@@ -391,7 +391,7 @@ export const greekGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Greek centers demographically on Greece and Cyprus, but its map is also historical and diasporic. Twentieth-century forced migration brought Greek-speaking Orthodox communities from Anatolia into Greece; later labor migration established large communities in Germany and Australia, alongside communities across North America, Britain, southern Africa, and elsewhere. Heritage speakers may understand family Greek while preferring another language for literacy; that mixed repertoire is not failed Athenian monolingualism.",
+      "Most Greek speakers live in Greece and Cyprus, but the language also has long diasporic routes. Forced migration moved Greek-speaking Orthodox communities from Anatolia to Greece in the twentieth century. Later migration built communities in Germany, Australia, North America, Britain, and southern Africa.\n\nSome heritage speakers follow family conversations more easily than they read formal Greek. That difference reflects where and how they have used the language.",
       "wiki-greek",
       "glottolog",
       "britannica"
@@ -406,7 +406,7 @@ export const greekGuide = {
   difficulty: {
     label: "Moderate",
     overview: cited(
-      "For an English-speaking learner, the Greek alphabet is a short project; inflection, aspect, clitics, listening speed, and register are the long project. Modern pronunciation is more systematic than English spelling, and stress is visible, but historical spelling means dictation remains demanding. Indo-European family resemblance offers familiar ideas such as agreement and tense without guaranteeing familiar forms. Difficulty also depends on access: a heritage learner surrounded by family speech has a different task from a classical scholar who reads roots easily but has never followed a contemporary voice note.",
+      "An English speaker can learn the alphabet quickly, then spend much longer on endings, verb aspect, short pronouns, and fast speech. Written accents help with stress, although older spelling distinctions make writing from dictation harder than reading aloud. Your starting point changes the work: a heritage speaker may know family speech but not formal writing, while a classical scholar may recognize roots yet struggle with a modern voice note.",
       "wiki-grammar",
       "uoa-courses",
       "triantafyllides"
@@ -433,7 +433,7 @@ export const greekGuide = {
       "Relying on international Greek-root vocabulary while missing ordinary high-frequency words"
     ],
     workload: cited(
-      "Combine structured lessons, daily reading aloud, short transcription, and conversation focused on a recurring problem. Record nouns with article and plural and verbs in paired imperfective/perfective frames. At intermediate level, follow one news topic, summarize an episode, compare a Cypriot interview with standard subtitles, or search corpus examples of a stubborn preposition. Official certification levels can supply external targets without defining the whole learning life.",
+      "Use a structured course for grammar, read aloud with audio, and bring recurring errors to a teacher or conversation partner. Save each noun with its article and plural, and each verb with examples of its ongoing and whole-event forms. Later, follow a news topic or transcribe a short interview; official certificate levels can give you a checkpoint.",
       "cgl-certification",
       "uoa-courses",
       "cgl-corpora"
@@ -441,19 +441,19 @@ export const greekGuide = {
   },
   advancedLearning: {
     strategy: cited(
-      "Keep connected notes for forms, voices, and registers. Store article–noun pairs, genitives, plurals, and both verb stems; transcribe appealing speakers with region and setting; place neutral standard forms beside colloquial, learned, dialectal, or dated alternatives. At intermediate level, investigate unknown words through Greek definitions and examples. If Ancient or Koine is another goal, maintain separate pronunciation and grammar tracks, then compare deliberately.",
+      "Keep notes that connect a form to a speaker and setting. Save article–noun pairs, plurals, genitives, and both common verb stems in complete sentences. When you transcribe audio, label local, learned, or dated forms beside their standard equivalents.\n\nAt intermediate level, read Greek dictionary definitions and check examples before adopting a new word. If you also study Ancient or Koine Greek, keep separate pronunciation and grammar notes so an older form does not slip into modern conversation by accident.",
       "triantafyllides",
       "cgl-corpora",
       "wiki-history"
     ),
     mediaPractice: cited(
-      "Begin with a short scripted scene, transcribe thirty seconds, and shadow its phrasing. Then hear an interview on the same subject, where interruptions, clitics, and regional color emerge. Songs aid memory but stretch vowels and syntax, so pair them with speech. Broadcasting, podcasts, comedy, sport, cooking, and drama offer distinct registers. Save the date and speaker: a Katharevousa newsreel and a present-day vlog are not equivalent formal samples.",
+      "Start with thirty seconds of a scripted scene: listen, write what you hear, and repeat the speaker's phrasing. Then try an interview on the same topic, where interruptions, short pronouns, and local accents enter. Songs can help you remember words, but singers stretch sounds and rearrange lines, so compare them with ordinary speech.\n\nSave the date, place, and speaker for each recording. An older Katharevousa newsreel will teach you a different register from a present-day interview or vlog.",
       "hnc",
       "athena-corpus",
       "wiki-modern"
     ),
     dictionariesAndCorpora: cited(
-      "The free Triantafyllides dictionary should become a daily tool: its definitions, etymologies, expressions, and inflection links expose far more than a bilingual gloss. The Centre for the Greek Language's parallel corpus search can expand a lemma into inflected forms and show sentence context. The Hellenic National Corpus and Educational Greek Corpus add large contemporary collections across genres. Use this sequence: dictionary for candidate meaning, corpus for collocation and register, then a native consultant for pragmatic force. A phrase that exists is not necessarily the phrase a friend would send in a message.",
+      "The Triantafyllides dictionary gives definitions, word forms, expressions, and word histories in Greek. Use it to find a likely meaning, then search the Centre for the Greek Language or Hellenic National Corpus for sentences showing nearby words and register. If a phrase sounds odd in a message, ask a speaker how they would say it; a written example may belong to news or formal prose.",
       "triantafyllides",
       "cgl-corpora",
       "hnc",
@@ -463,30 +463,29 @@ export const greekGuide = {
   },
   wordsAndTexts: {
     overview: cited(
-      "Greek vocabulary carries its history near the surface, but contemporary meaning belongs to contemporary speakers. A word may be inherited through continuous speech, revived from an older text, coined from Greek pieces, borrowed from Turkish or Italian, or imported from English and reshaped. The everyday pair σπίτι spíti “house/home” and οικία ikía “residence” shows how register can divide near-synonyms: the second is normal in addresses, signs, compounds, and formal contexts but marked in casual talk. The pleasures of Greek lie in such choices, not in proving that an English technical word has a Greek ancestor.",
+      "Modern Greek words have traveled by different routes. Some passed through everyday speech for centuries, while others came from older books or from contact with Turkish, Italian, and English. Compare σπίτι spíti, “home,” with οικία ikía, “residence”: both can refer to a house, but οικία suits signs and formal writing more readily than casual talk.\n\nPay attention to where speakers choose a word. Its ancient root may explain its history, but context tells you how it works now.",
       "triantafyllides",
       "hnc",
       "wiki-history"
     ),
     notableWords: [
-      { term: "φιλότιμο", transliteration: "filótimo", meaning: "sense of honor, responsive generosity, or duty toward others", note: cited("Often advertised as untranslatable, but its force depends on context and can include pride, social obligation, decency, or eagerness to help. Ask what action displays it instead of treating it as a national personality gene.", "triantafyllides", "cgl-corpora") },
-      { term: "παρέα", transliteration: "paréa", meaning: "company; a social group spending time together", note: cited("It can name both the people and the condition of companionship: πάμε με την παρέα “we're going with the group.” The word is useful because Greek social life is often narrated through recurring groups rather than isolated appointments.", "triantafyllides") },
-      { term: "μεράκι", transliteration: "meráki", meaning: "care, devotion, or creative enthusiasm put into an activity", note: cited("A Turkish-origin word fully at home in Greek. It often praises work, cooking, craft, or performance done with personal feeling; translating it as mere “passion” can miss the visible care in the result.", "triantafyllides") },
-      { term: "κέφι", transliteration: "kéfi", meaning: "high spirits; mood for enjoyment", note: cited("Another contact-layer word, associated with sociability, music, and willingness to join in. Έχω κέφι means “I'm in the mood / feeling lively,” while δεν έχω κέφι withdraws from the occasion without a clinical claim.", "triantafyllides") },
-      { term: "θαλασσινός", transliteration: "thalassinós", meaning: "of the sea; seafaring person", note: cited("Built transparently from θάλασσα “sea,” it can describe colors, food, people, and imaginative belonging. Derivational families like this make vocabulary growth more satisfying than isolated international roots.", "triantafyllides") },
-      { term: "εντάξει", transliteration: "entáxei", meaning: "okay; all right; agreed", note: cited("An everyday fossil of an older dative phrase meaning roughly “in order.” It can agree, reassure, close a topic, or signal reluctant compliance depending on intonation.", "wiki-modern", "triantafyllides") },
-      { term: "ρε", transliteration: "re", meaning: "hey; man; mate (highly context-sensitive address particle)", note: cited("Frequent in informal speech among intimates, affectionate or confrontational according to voice and relationship. It is not a general-purpose friendly word for learners to scatter among strangers.", "cgl-corpora", "triantafyllides") },
-      { term: "ξενιτιά", transliteration: "xenitiá", meaning: "life or place away from one's homeland", note: cited("A resonant word in folk song, migration narratives, and diaspora experience. Its emotional field can include exile, labor abroad, homesickness, and the foreign land itself.", "triantafyllides", "hnc") }
+      { term: "φιλότιμο", transliteration: "filótimo", meaning: "sense of honor, generosity, or duty toward others", note: cited("Speakers use this word for actions involving pride, decency, obligation, or eagerness to help. The situation tells you which shade they mean.", "triantafyllides") },
+      { term: "παρέα", transliteration: "paréa", meaning: "company; a group spending time together", note: cited("It can mean the group itself or the feeling of having company. Πάμε με την παρέα means “We're going with the group.”", "triantafyllides") },
+      { term: "μεράκι", transliteration: "meráki", meaning: "care or devotion put into an activity", note: cited("This Turkish-origin word can praise cooking, craft, or performance done with visible personal care.", "triantafyllides") },
+      { term: "κέφι", transliteration: "kéfi", meaning: "high spirits; mood for enjoyment", note: cited("Έχω κέφι means “I'm in the mood” or “I feel lively.” The word often appears around company and music.", "triantafyllides") },
+      { term: "θαλασσινός", transliteration: "thalassinós", meaning: "of the sea; seafaring person", note: cited("Built from θάλασσα, “sea,” it can describe food, colors, and people connected to the sea.", "triantafyllides") },
+      { term: "εντάξει", transliteration: "entáxei", meaning: "okay; all right; agreed", note: cited("This everyday word preserves an older case form. Tone can make it sound reassuring, matter-of-fact, or reluctant.", "wiki-modern", "triantafyllides") },
+      { term: "ρε", transliteration: "re", meaning: "hey; mate (informal address word)", note: cited("Among friends, it may sound warm or sharp depending on tone. Listen before using it with someone you do not know.", "triantafyllides") },
+      { term: "ξενιτιά", transliteration: "xenitiá", meaning: "life or place away from one's homeland", note: cited("Songs and migration stories use it for life abroad, separation, and homesickness.", "triantafyllides", "hnc") }
     ],
     loanwordLayers: cited(
-      "Everyday Greek combines inherited words, learned reintroductions, and borrowings without announcing the boundary. Ancient and Koine sources supplied later formal vocabulary; Italian and especially Venetian contact marked navigation, trade, and island life; Turkish contributed foods, objects, music, and conversational words; French influenced nineteenth- and twentieth-century urban culture; English now dominates many areas of technology, business, and youth culture. Speakers may replace, respell, joke about, or code-switch around new English loans. Meanwhile international formations such as telephone were built from Greek material abroad and entered Greek as τηλέφωνο tiléfono. Etymology is a travel history, not a purity score.",
+      "Greek speakers use inherited words, learned words from older texts, and borrowings in the same conversation. Italian and Venetian contact shaped island and maritime vocabulary; Turkish supplied many ordinary food and household words; French and English later added terms in urban life and technology. People may adapt a new English word, switch languages briefly, or choose a Greek alternative.\n\nSome international inventions used Greek roots abroad and then entered Greek, as τηλέφωνο tiléfono, “telephone,” did. A word's route helps explain its form without ranking it as more or less Greek.",
       "triantafyllides",
       "wiki-history",
       "hnc"
     ),
     idioms: [
       { original: "σιγά τα αυγά", transliteration: "sigá ta avgá", translation: "Big deal; it's nothing so impressive.", note: "Literally “easy with the eggs,” an ironic way to deflate exaggerated importance. Tone can be playful or dismissive." },
-      { original: "μου έφυγε η ψυχή", transliteration: "mou éfyge i psychí", translation: "I was scared to death / I went through agony.", note: "Literally “my soul left me,” used after a fright or an ordeal. The genitive clitic μου identifies the experiencer." },
       { original: "έφαγα τα μούτρα μου", transliteration: "éfaga ta moútra mou", translation: "I failed badly / fell flat on my face.", note: "Literally “I ate my face,” a vivid colloquial admission that an attempt ended painfully or embarrassingly." },
       { original: "κάνω την πάπια", transliteration: "káno tin pápia", translation: "I pretend not to know; play dumb.", note: "Literally “I do the duck,” used when someone avoids responsibility by acting unaware, not merely silent." },
       { original: "βρέχει καρεκλοπόδαρα", transliteration: "vréchi kareklopódara", translation: "It's raining cats and dogs.", note: "Literally “it is raining chair legs,” a humorous image for very heavy rain." }
@@ -502,14 +501,14 @@ export const greekGuide = {
   },
   relationships: {
     overview: cited(
-      "Greek forms its own Hellenic branch within Indo-European. Its closest relationships are therefore internal and historical, while much of what sounds regionally familiar comes from contact in the Balkans and eastern Mediterranean. Tsakonian preserves an unusually divergent Doric-linked line; most other modern varieties descend primarily through Koine. Albanian, South Slavic languages, Aromanian, Turkish, and Italian are not Greek dialects or close Hellenic siblings, even when centuries of shared life produce parallel structures and vocabulary. Keeping inheritance and borrowing separate makes both stories more interesting.",
+      "Greek forms the Hellenic branch of Indo-European. Most modern Greek varieties grew largely through Koine, while Tsakonian follows a more divergent line associated with Doric. Albanian, South Slavic languages, Aromanian, Turkish, and Italian share words or patterns with Greek through contact rather than descent from Greek.",
       "glottolog",
       "wiki-greek",
       "wiki-history"
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Greek belongs to living, internally varied communities, not only to European antiquity. Greece and Cyprus contain multilingual citizens and residents; Greek identity includes regional, diasporic, religious, secular, refugee, and mixed-family histories. Classical, Orthodox, Ottoman, migration, dictatorship, and contemporary European contexts all influence texts. No proverb or “untranslatable word” summarizes a national character: ask who says it, to whom, when, and in what tone.",
+  culturalNotes: "Greek speakers create new music, comedy, fiction, film, and online conversation while drawing on older texts when they choose. Communities in Greece, Cyprus, and abroad bring different regional, religious, secular, refugee, and family histories to that work. Before treating a proverb or famous word as a national trait, ask who uses it, with whom, and in what setting.",
   resources,
   relatedLanguages,
   phrases: [
@@ -518,12 +517,12 @@ export const greekGuide = {
     { original: "Τι κάνεις;", transliteration: "Ti kánis?", translation: "How are you?", literalMeaning: "What are you doing?", usageNote: "Informal singular. The polite/plural form is Τι κάνετε; Ti kánete?" },
     { original: "Ευχαριστώ πολύ.", transliteration: "Efcharistó polí.", translation: "Thank you very much.", usageNote: "Stress falls on the final syllable of ευχαριστώ and the final syllable of πολύ." },
     { original: "Παρακαλώ.", transliteration: "Parakaló.", translation: "Please; you're welcome; yes, how can I help?", usageNote: "A multipurpose politeness word whose translation changes with position and situation." },
-    { original: "Συγγνώμη.", transliteration: "Signómi.", translation: "Excuse me; sorry.", usageNote: "Useful for attracting attention, passing someone, or apologizing. A fuller apology is Με συγχωρείτε." },
-    { original: "Δεν καταλαβαίνω.", transliteration: "Den katalavéno.", translation: "I don't understand.", usageNote: "Neutral and widely useful; δεν marks ordinary indicative negation." },
+    { original: "Συγγνώμη.", transliteration: "Signómi.", translation: "Excuse me; sorry.", usageNote: "Say it to get attention, pass someone, or apologize. A fuller apology is Με συγχωρείτε." },
+    { original: "Δεν καταλαβαίνω.", transliteration: "Den katalavéno.", translation: "I don't understand.", usageNote: "This sounds neutral in ordinary conversation; δεν marks negation in a statement." },
     { original: "Μπορείτε να το πείτε ξανά;", transliteration: "Boríte na to píte xaná?", translation: "Could you say it again?", literalMeaning: "Can you say it again?", usageNote: "Polite or plural. To one familiar person: Μπορείς να το πεις ξανά;" },
     { original: "Πιο αργά, παρακαλώ.", transliteration: "Pio argá, parakaló.", translation: "More slowly, please.", usageNote: "A compact request to slow down; follow it with another attempt rather than switching immediately to English." },
     { original: "Μαθαίνω ελληνικά.", transliteration: "Mathéno elliniká.", translation: "I'm learning Greek.", usageNote: "The lower-case adjective ελληνικά functions here as the language name." },
-    { original: "Τι σημαίνει αυτή η λέξη;", transliteration: "Ti siméni aftí i léxi?", translation: "What does this word mean?", usageNote: "A useful classroom and dictionary question; note the semicolon-shaped Greek question mark." },
+    { original: "Τι σημαίνει αυτή η λέξη;", transliteration: "Ti siméni aftí i léxi?", translation: "What does this word mean?", usageNote: "Ask this while pointing to a word or quoting it. The Greek question mark looks like a semicolon." },
     { original: "Θα ήθελα έναν καφέ, παρακαλώ.", transliteration: "Tha íthela énan kafé, parakaló.", translation: "I would like a coffee, please.", usageNote: "Έναν agrees with masculine καφέ in the accusative. For a feminine item the article changes." },
     { original: "Πού είναι η στάση;", transliteration: "Pou íne i stási?", translation: "Where is the stop?", usageNote: "Use for a bus or transit stop when the context is clear." },
     { original: "Χάρηκα πολύ.", transliteration: "Chárika polí.", translation: "Pleased to meet you.", literalMeaning: "I was very glad.", usageNote: "A natural response after an introduction." },
@@ -533,13 +532,15 @@ export const greekGuide = {
     { id: "cgl-portal", title: "Portal for the Greek Language", url: "https://www.greek-language.gr/greekLang/index.html", publisher: "Centre for the Greek Language", accessedAt: "2026-07-10" },
     { id: "triantafyllides", title: "Dictionary of Standard Modern Greek", url: "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/", publisher: "Centre for the Greek Language and Institute for Modern Greek Studies", publishedAt: "1998", accessedAt: "2026-07-10" },
     { id: "cgl-corpora", title: "Parallel Corpus Search for Modern Greek", url: "https://www.greek-language.gr/greekLang/modern_greek/tools/corpora/corpora/search.html", publisher: "Centre for the Greek Language", accessedAt: "2026-07-10" },
-    { id: "greek-to-me", title: "Learn Modern Greek", url: "https://greektome.greeklanguage.gr/learn-modern-greek/", publisher: "Centre for the Greek Language", accessedAt: "2026-07-10" },
+    { id: "cgl-aspect", title: "Όψη [Aspect]", url: "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/glossology/show.html?id=124", publisher: "Centre for the Greek Language", accessedAt: "2026-09-27" },
+    { id: "ucy-school", title: "School of Modern Greek", url: "https://www.ucy.ac.cy/mogr/?lang=en", publisher: "University of Cyprus", accessedAt: "2026-09-27" },
     { id: "cgl-certification", title: "Certificate of Attainment in Greek", url: "https://www.greek-language.gr/certification/", publisher: "Centre for the Greek Language", accessedAt: "2026-07-10" },
     { id: "hnc", title: "Hellenic National Corpus", url: "https://hnc.ilsp.gr/", publisher: "Institute for Language and Speech Processing, Athena Research Center", accessedAt: "2026-07-10" },
     { id: "athena-corpus", title: "Educational Greek Corpus", url: "https://www.athenarc.gr/en/node/2458", publisher: "Athena Research Center", accessedAt: "2026-07-10" },
     { id: "uoa-courses", title: "Modern Greek Language Teaching Center", url: "https://en.greekcourses.uoa.gr/", publisher: "National and Kapodistrian University of Athens", accessedAt: "2026-07-10" },
     { id: "unicode", title: "The Unicode Standard, Chapter 7: Greek", url: "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-7/", publisher: "Unicode Consortium", updatedAt: "2025", accessedAt: "2026-07-10" },
     { id: "glottolog", title: "Glottolog 5.3: Modern Greek", url: "https://glottolog.org/resource/languoid/id/mode1248", publisher: "Max Planck Institute for Evolutionary Anthropology", updatedAt: "2025", accessedAt: "2026-07-10" },
+    { id: "cypriot-study", title: "A Small Island With Big Differences? Folk Perceptions in the Context of Dialect Levelling and Koineization", url: "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2021.770088/full", publisher: "Frontiers in Communication", publishedAt: "2022-01-07", accessedAt: "2026-09-27" },
     { id: "britannica", title: "Greek Language", url: "https://www.britannica.com/topic/Greek-language", publisher: "Encyclopaedia Britannica", accessedAt: "2026-07-10" },
     { id: "wiki-greek", title: "Greek language", url: "https://en.wikipedia.org/wiki/Greek_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
     { id: "wiki-modern", title: "Modern Greek", url: "https://en.wikipedia.org/wiki/Modern_Greek", publisher: "Wikipedia", accessedAt: "2026-07-10" },
@@ -548,6 +549,6 @@ export const greekGuide = {
   ],
   seo: {
     title: "Greek Language Guide: Modern Speech, Grammar and History",
-    description: "A reader-focused guide to Modern Greek pronunciation, alphabet, grammar, regional varieties, ancient and modern layers, practical phrases, culture, and serious learning resources."
+    description: "Hear and read Modern Greek as people use it today. Explore the alphabet, stress, grammar, regional voices, history, practical phrases, and specific courses and dictionaries."
   }
 } satisfies LanguageGuide;

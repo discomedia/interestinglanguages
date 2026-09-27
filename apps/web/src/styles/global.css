@@ -361,6 +361,10 @@ main {
   font-size: 1.12rem;
 }
 
+.cited-text {
+  white-space: pre-line;
+}
+
 .entry-layout {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);

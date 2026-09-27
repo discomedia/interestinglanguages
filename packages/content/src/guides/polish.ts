@@ -6,7 +6,7 @@ const relatedLanguages = [
     name: "Czech",
     relationship: "Closest major West Slavic neighbor",
     explanation: cited(
-      "Polish and Czech share much inherited grammar and vocabulary, but centuries of separate sound change make apparent cognates behave unexpectedly. Polish miasto “city” corresponds to Czech město, and Polish szukać “look for” resembles Czech šukat with a radically different and vulgar meaning. Reading transfers faster than effortless conversation, and false friends reward caution.",
+      "Polish and Czech share inherited words and grammar, but their sounds have changed along different paths. Polish miasto and Czech město both mean “city.” Shared roots can help you read, though conversation takes practice and look-alike words can mislead you.",
       "glottolog-polish",
       "wiki-polish"
     )
@@ -15,7 +15,7 @@ const relatedLanguages = [
     name: "Slovak",
     relationship: "West Slavic relative",
     explanation: cited(
-      "Slovak sits with Czech in the Czech–Slovak branch while Polish is Lechitic. Southern Polish and northern Slovak speech meet across the Carpathians, and the languages share transparent structures such as case, aspect, and grammatical gender. Standard spelling and everyday vocabulary still differ enough that mutual comprehension depends heavily on exposure.",
+      "Slovak and Czech belong to one West Slavic branch; Polish belongs to another, called Lechitic. Speakers across the Carpathians have long had contact, and all three languages change noun forms for their role in a sentence. Similar grammar helps, but understanding everyday Slovak still depends on exposure.",
       "glottolog-polish",
       "wiki-polish"
     )
@@ -24,7 +24,7 @@ const relatedLanguages = [
     name: "Kashubian",
     relationship: "Fellow living Lechitic language",
     explanation: cited(
-      "Kashubian is a related language centered in Pomerania and legally recognized in Poland as a regional language. It is not simply “Polish with an accent”: it has its own literary practices, vocabulary, and sound history. Comparing it with Polish reveals features of the wider Lechitic branch without erasing Kashubian speakers’ distinct institutions and identity.",
+      "Kashubian is a fellow Lechitic language centered in Pomerania. Poland recognizes it as a regional language, and its speakers have their own writing, vocabulary, and institutions. Comparing Kashubian with Polish shows their shared history while respecting that distinct identity.",
       "wiki-polish",
       "glottolog-polish"
     )
@@ -34,7 +34,7 @@ const relatedLanguages = [
     slug: "russian",
     relationship: "More distant East Slavic relative and contact language",
     explanation: cited(
-      "Russian shares the Slavic inheritance of case, verbal aspect, and much basic vocabulary, but belongs to the East Slavic branch and normally uses Cyrillic. Contact intensified under partitions, empire, war, and state socialism; it is historically important but does not make Polish a transitional Russian variety. Polish remains structurally and historically West Slavic.",
+      "Russian belongs to the East Slavic branch and normally uses Cyrillic. It shares older Slavic words and grammar with Polish, including case endings and verbal aspect. Their long contact under the partitions, war, and state socialism affected Polish life and vocabulary without changing Polish's West Slavic ancestry.",
       "wiki-history",
       "glottolog-polish"
     )
@@ -47,30 +47,30 @@ export const polishGuide = {
   autonym: "polski / język polski",
   status: "published",
   publishedAt: "2026-07-09",
-  summary: "Polish is a West Slavic language whose dense-looking spelling records precise sound contrasts, and whose cases, verbal aspect, literature, humor, and everyday courtesy reveal a culture of unusually expressive grammatical choices.",
+  summary: "Polish spells sound differences that English ears may miss. Learn how its consonants, changing noun endings, verb choices, and forms of address work in daily life, writing, and media.",
   family: "Indo-European, Slavic, West Slavic, Lechitic",
   macroRegion: "Poland, neighboring European communities, and a global diaspora",
   primaryScript: "Latin",
   difficultyLabel: "Demanding",
-  learnerHook: "The first cluster may look forbidding, but Polish spelling soon becomes a map: once cz, sz, ś, ź, ć, and dź stop blending together, the language opens into sharp humor, intimate family history, ambitious fiction, and some of Europe’s most distinctive cinema and song.",
+  learnerHook: "In cześć, a casual “hello,” your mouth moves from cz to ś and ć. Hearing those differences makes Polish signs, conversations, songs, and stories easier to follow.",
   hero: {
     imageAlt: "A Polish book and handwritten notes showing diacritics and characteristic consonant spellings.",
     callToActionLabel: "Hear Polish in use"
   },
   classification: "An Indo-European language in the Lechitic subgroup of West Slavic",
-  speakerCommunity: "Polish is Poland’s common public language and one of the European Union’s largest. Its community includes schoolchildren, engineers naming technology, readers debating Szymborska, regional speakers moving between local and national forms, and families abroad whose Polish mixes with a surrounding language. The standard is widely understood but not socially uniform. Accent, age, and setting shape address, slang, and borrowing. Learners enter this community by listening for who is speaking to whom, not treating every grammatical sentence as equally usable.",
+  speakerCommunity: "Polish connects people across Poland and families in many other countries. Some speakers use the nationwide standard at school or work and a regional form at home; others learn Polish from relatives abroad. Age, relationship, and setting shape how people greet each other and which new words they adopt.\n\nStart by listening to who speaks to whom. A sentence can be grammatical and still sound too familiar for a stranger or too formal for a friend.",
   facts: [
     { label: "Family", value: "Indo-European · Slavic · West Slavic · Lechitic" },
-    { label: "Core community", value: "About 40 million first-language speakers worldwide; estimates vary by census definition" },
+    { label: "Core community", value: "Tens of millions of speakers; the 2021 Polish census measures home use, not all first-language speakers worldwide" },
     { label: "Official role", value: "Official language of Poland and an official language of the European Union" },
     { label: "Writing", value: "Latin alphabet with ą, ć, ę, ł, ń, ó, ś, ź, and ż" },
     { label: "Grammar", value: "Seven cases, three singular genders, verbal aspect, and a special masculine-personal plural category" },
     { label: "Typical stress", value: "Usually on the next-to-last syllable, with important patterned exceptions" }
   ],
-  learnerOverview: "A useful first month begins by making Polish spelling audible, not by reciting seven case tables. Learn that sz, ś, and s are different sounds and practice greetings with their rhythm. Collect case forms inside phrases: do domu “homeward,” w domu “at home,” z domu “from home.” Then build families: pisać “write” connects to napisać “write to completion,” pisarz “writer,” and podpis “signature.” Beginners can communicate with imperfect endings while advanced learners continue refining aspect, numeral agreement, courtesy, and idiom. Let a living interest—a relative, city, game, film, or poem—choose the vocabulary you retain.",
+  learnerOverview: "Start by hearing the difference between sz, ś, and s. Practice a greeting aloud, then connect spelling to the sounds you hear.\n\nLearn changing noun forms inside short phrases: do domu means “homeward,” w domu means “at home,” and z domu means “from home.” Build word families too: pisać means “write,” napisać means “finish writing,” and pisarz means “writer.”\n\nYou can communicate before every ending is right. As you improve, work on verb pairs, number phrases, and the formal ways Polish speakers address strangers. Choose vocabulary from a person, place, film, or book you care about.",
   origins: {
     overview: cited(
-      "Polish descends from Proto-Slavic through West Slavic and Lechitic. It differentiated gradually among neighboring varieties. State formation and Christianization in 966 created Latin-writing institutions that increasingly recorded Polish names, glosses, and sentences. The 1136 Bull of Gniezno contains hundreds of local names; an early continuous sentence appears in the 13th-century Book of Henryków. Religious writing, law, towns, and print pushed regional speech toward wider written conventions. Renaissance authors made Polish a language of sophisticated prose and poetry. It later developed under different Prussian, Russian, and Austrian regimes during the partitions. War, border shifts, forced migration, urbanization, schools, broadcasting, and post-1989 mobility then transformed its regional map.",
+      "Polish grew from the speech of early Slavic communities through the West Slavic and Lechitic branches. Neighboring forms changed gradually; no single day created the language.\n\nAfter the Polish ruler Mieszko I accepted Christianity in 966, church and state writers increasingly recorded Polish names and words in Latin documents. The 1136 Bull of Gniezno preserves many local names, and the 13th-century Book of Henryków contains an early Polish sentence. Later, religious texts, town records, printing, and Renaissance writing helped establish a wider written language.\n\nPolish continued to change while its speakers lived under Prussian, Russian, and Austrian rule during the partitions. War, changed borders, forced migration, schooling, broadcasting, and later mobility reshaped where people spoke regional forms.",
       "wiki-history",
       "wiki-polish",
       "glottolog-polish"
@@ -103,7 +103,7 @@ export const polishGuide = {
       {
         period: "1795–1918",
         event: cited(
-          "With Polish lands divided among Russia, Prussia, and Austria, schooling and public use differed by partition. Literature and private cultural life carried exceptional symbolic weight. This history helps explain why debates over correctness can still feel tied to continuity and sovereignty rather than mere punctuation.",
+          "Russia, Prussia, and Austria governed Polish lands under different school and language policies. Writers, publishers, and families kept Polish in public and private life. Debates about spelling and usage still draw on that history.",
           "wiki-history",
           "culture-literature"
         )
@@ -111,7 +111,7 @@ export const polishGuide = {
       {
         period: "1918 to the digital present",
         event: cited(
-          "Independence restored nationwide institutions; the 1936 reform consolidated major spelling norms. War, the Holocaust, border shifts, population transfers, and postwar standard education changed the linguistic map. Today online conversation expands colloquial writing and English-derived vocabulary while institutions document and periodically revise the public norm.",
+          "Independence restored Polish national institutions, and a 1936 reform set major spelling rules. The Holocaust, war, border shifts, and forced transfers then changed who lived where. Schools and broadcasting spread the standard, while online writing now brings new slang and borrowed words into view.",
           "wiki-history",
           "rjp-council",
           "nkjp"
@@ -119,12 +119,12 @@ export const polishGuide = {
       }
     ],
     contactHistory: cited(
-      "Polish vocabulary is an archive of its neighborhoods and fashions. Medieval Christianity and scholarship brought Latin and Czech mediation; town life, crafts, trade, and administration produced layers of German contact. The Commonwealth linked Polish to East Slavic, Lithuanian, Yiddish, Turkic, Armenian, and other communities. Italian terms arrived with Renaissance court culture, French became influential among elites, and Russian left a politically charged contact history during partition and Soviet dominance. Modern English supplies biznes, weekend, komputer, streaming, and workplace jargon, though borrowings are normally bent to Polish spelling, gender, case, and pronunciation. The important story is not “purity” but domestication: obcy “foreign” words become grammatically Polish and acquire local shades of meaning.",
+      "Latin entered Polish through religion and learning. Czech influenced early religious vocabulary, while German speakers brought words through trade, crafts, and town life. The Polish–Lithuanian Commonwealth also connected Polish speakers with East Slavic, Lithuanian, Yiddish, Turkic, Armenian, and other communities.\n\nLater, court and cultural life brought Italian and French words; Russian contact grew under the partitions and in the Soviet era. English now supplies words such as weekend and streaming. Speakers fit many loans into Polish spelling and endings rather than leaving them grammatically foreign.",
       "wiki-polish",
       "wsjp"
     ),
     standardization: cited(
-      "Contemporary standard Polish—polszczyzna ogólna—is sustained through education, publishing, broadcasting, dictionaries, and everyday accommodation across regions. The Polish Language Council, established within the Polish Academy of Sciences under the Language Act, issues opinions and establishes orthographic and punctuation principles, but speakers and editors still negotiate style and new usage. A visible example is the package of spelling changes taking effect in 2026, presented as simplification and greater consistency. “Standard” therefore means a shared and maintained public convention, not a frozen language or proof that regional speech is defective.",
+      "Schools, publishers, broadcasters, and speakers across regions maintain a shared form called polszczyzna ogólna, or standard Polish. The Polish Language Council sets spelling and punctuation principles and advises on public usage. Its revised spelling rules took effect on 1 January 2026.\n\nThe standard gives people a common form for school and public writing. Regional speech also has its own history and everyday place.",
       "rjp-council",
       "language-act",
       "rjp-changes"
@@ -132,15 +132,15 @@ export const polishGuide = {
   },
   variants: {
     overview: cited(
-      "Most speakers understand the national standard, though local vowels, intonation, words, and grammar remain. Traditional descriptions group dialects around Greater Poland, Lesser Poland, Mazovia, and Silesia, with Goral and postwar mixed areas adding complexity. Those labels do not settle identity: Kashubian has legal status as a regional language, while Silesian’s classification is contested. Respect speakers’ chosen labels and never use “dialect” to mean incorrect speech.",
+      "Most Polish speakers understand the national standard, but local speech still differs in sound, vocabulary, and sometimes grammar. Dialect maps often name Greater Poland, Lesser Poland, Mazovia, and Silesia; mountain and mixed postwar communities make the picture more detailed.\n\nKashubian has legal recognition as a regional language. Speakers and scholars disagree about how to classify Silesian, and the Polish president vetoed a bill to recognize it as a regional language in February 2026. Follow the names people use for their own speech.",
       "wiki-polish",
-      "wiki-polish"
+      "silesian-veto"
     ),
     items: [
       {
         name: "Standard Polish (język ogólnopolski)",
         note: cited(
-          "The nationwide norm used in schooling, national media, public administration, and most teaching materials. Actual educated speech is not accentless: speakers retain regional and generational features while sharing the norm.",
+          "Schools, national media, public offices, and most teaching materials use this shared form. Educated speakers can still have regional accents and words.",
           "rjp-polish",
           "wiki-polish"
         )
@@ -148,37 +148,36 @@ export const polishGuide = {
       {
         name: "Greater Polish and Poznań speech",
         note: cited(
-          "Western varieties include local phonetic patterns and a recognizable Poznań vocabulary shaped partly by German contact. Many localisms now function as identity markers rather than a complete alternative grammar used in every setting.",
+          "Speakers in the west keep local sounds and words, including Poznań vocabulary shaped partly by German contact. Someone may use those words to show local identity while using standard Polish in another setting.",
           "wiki-polish"
         )
       },
       {
         name: "Lesser Polish and Goral varieties",
         note: cited(
-          "Southern speech is diverse. Highland Goral forms around the Carpathians are especially audible in music, tourism, and regional performance, but should not be reduced to a costume accent; they belong to living communities with cross-border histories.",
+          "Southern Poland has several local forms. Highland Goral speakers around the Carpathians also use their speech in music and regional media. Their communities have histories on both sides of today's borders.",
           "wiki-polish"
         )
       },
       {
         name: "Mazovian and Warsaw usage",
         note: cited(
-          "Mazovian varieties historically include features such as mazurzenie, where one set of hushing consonants merges with a dental series. Modern Warsaw speech has been heavily reshaped by migration and war, yet urban vocabulary and stylistic identity remain subjects of interest.",
+          "Some Mazovian varieties merge sounds that standard Polish keeps apart, a pattern called mazurzenie. War and migration reshaped Warsaw speech, while local words and styles continued to change.",
           "wiki-polish"
         )
       },
       {
         name: "Silesian and borderland Polish",
         note: cited(
-          "Silesian has vigorous literature, media, advocacy, and disputed classification. Eastern borderland forms reflect long multilingual contact and communities now divided by national borders. Both show why linguistic maps must be read beside migration and political history.",
+          "Silesian speakers publish writing and media and advocate for their speech; its classification remains disputed. Polish varieties in eastern borderlands reflect long contact with neighboring languages. Current borders do not contain the full histories of either community.",
           "wiki-polish",
-          "wiki-polish"
+          "silesian-veto"
         )
       },
       {
         name: "Diaspora and heritage Polish",
         note: cited(
-          "Communities in the United Kingdom, Germany, the United States, Canada, Brazil, Australia, and elsewhere combine Polish with surrounding languages. Heritage speakers may understand family conversation brilliantly while lacking school vocabulary or formal spelling; that is an uneven bilingual profile, not failed Polish.",
-          "wiki-polish",
+          "Polish-speaking families in the United Kingdom, Germany, the Americas, Australia, and elsewhere live among other languages. Some children understand family talk well but have had fewer chances to learn school vocabulary or formal spelling. Their skills reflect the situations where they use Polish.",
           "wiki-polish"
         )
       }
@@ -186,18 +185,18 @@ export const polishGuide = {
   },
   pronunciation: {
     overview: cited(
-      "Polish uses diacritics and digraphs for a rich consonant system. Organize the thicket into three rows: s, z, c, dz are dental; sz, ż/rz, cz, dż are retracted “hushing” sounds; ś/si, ź/zi, ć/ci, dź/dzi are palatal, with the tongue raised toward the hard palate. English “sh” cannot replace both sz and ś. Polish also allows heavy clusters and devoices many consonants word-finally. The letters ą and ę change according to the following sound rather than representing one fixed French-like nasal vowel.",
+      "Polish spelling marks three sets of sounds that English speakers often merge. The letters s, z, c, and dz sound sharper; sz, ż/rz, cz, and dż use a tongue farther back; ś/si, ź/zi, ć/ci, and dź/dzi use a tongue raised toward the palate. Hear sz and ś side by side before trying to produce them.\n\nPolish speakers also join several consonants without adding vowels. At the end of many words, a written voiced consonant sounds voiceless. The sound of ą or ę changes with the following consonant, so each letter does not have one fixed sound.",
       "rjp-polish",
       "wiki-polish"
     ),
     script: "Polish Latin alphabet; learner cues use familiar spellings rather than a full phonetic transcription",
     soundSystem: cited(
-      "History leaves duplicate spellings: ó/u, rz/ż, and—for most speakers—ch/h are pronounced alike. The letter i may be a vowel, a sign of palatalization, or both; ł is normally w-like. Clusters such as szcz in szczęście are genuine sequences, but fluent speech coordinates them economically. Inserting English-style neutral vowels makes words harder to recognize. Build a cluster from the final syllable outward and imitate natural voicing rather than pronouncing every letter separately.",
+      "Some spellings sound alike: ó/u, rz/ż, and, for most speakers, ch/h. The letter i can make a vowel sound, signal a softer consonant, or do both; ł usually sounds like English w. In szczęście, speakers pronounce a sequence of consonants without inserting a vowel.\n\nPractice the last syllable first, then add the opening cluster.",
       "rjp-polish",
       "rjp-polish"
     ),
     prosody: cited(
-      "Stress usually falls on the penultimate syllable: ko-BIE-ta “woman,” ko-BIE-ty “women,” roz-MA-wiam “I talk.” Predictability is a gift, but not an absolute. Certain learned words, conditional forms, and some numeral constructions preserve patterns that can place stress earlier; colloquial speech may regularize them toward the penultimate rule. Intonation carries stance strongly: a short no can mean polite hesitation, surprise, challenge, or “well then” depending on melody. Shadow whole clauses so clusters, stress, and final devoicing live inside Polish rhythm rather than as isolated mouth exercises.",
+      "Polish usually stresses the next-to-last syllable: ko-BIE-ta means “woman,” and ko-BIE-ty means “women.” Some loanwords, conditional forms, and number expressions place it elsewhere; speakers may also move stress toward the common pattern in casual speech.\n\nPitch changes meaning too. A short no can sound like hesitation, surprise, or “well then,” depending on the voice. Copy whole short sentences so you learn stress and consonant timing together.",
       "rjp-polish",
       "pitt-grammar"
     ),
@@ -217,24 +216,24 @@ export const polishGuide = {
       { original: "szczęście", translation: "happiness; good luck", note: "Do not insert vowels into szcz. The ę is conditioned by what follows, and the ending contains the palatal sequence ście." },
       { original: "kąt", translation: "corner; angle", note: "Before t, ą is commonly realized with an oral vowel plus a nasal consonant-like closure, not as a single unchanging nasal vowel." },
       { original: "prośba", translation: "request", note: "The written śb sequence triggers voicing assimilation in ordinary pronunciation; listen before trying to articulate each letter separately." },
-      { original: "Wrocław", translation: "Wrocław", note: "Both instances of ł are w-like. The final written w is devoiced, illustrating why spelling and surface pronunciation are close but not identical." }
+      { original: "Wrocław", translation: "Wrocław", note: "The single ł sounds w-like. The final written w sounds f-like because Polish normally devoices it at the end of a word." }
     ]
   },
   writing: {
     overview: cited(
-      "Polish adds nine letters to the Latin alphabet: ą, ć, ę, ł, ń, ó, ś, ź, and ż. Digraphs such as cz, dź, rz, and sz are stable units, while q, v, and x mainly occur in foreign material. An unfamiliar native word can usually be pronounced plausibly. Spelling also preserves history and morphology: ó/u and rz/ż have merged in speech, while alternations such as stół “table” and stoły “tables” expose the relationship.",
+      "Polish adds nine letters to the Latin alphabet: ą, ć, ę, ł, ń, ó, ś, ź, and ż. Letter pairs such as cz, rz, and sz represent single consonant sounds; q, v, and x mostly appear in foreign words and names. Once you know these rules, you can make a fair attempt at an unfamiliar word.\n\nSpelling also preserves links between related forms. Stół means “table,” while stoły means “tables”; the spelling change helps show the sound change inside a familiar word family.",
       "rjp-polish",
       "unicode-polish",
       "rjp-polish"
     ),
     primaryScript: "Polish Latin alphabet",
     romanization: cited(
-      "Polish needs no separate romanization because it already uses Latin script. For learners, respelling Polish as English—writing “cheshch” for cześć—usually creates more ambiguity than it removes. Learn the Polish letter-to-sound system directly. When a keyboard lacks Polish input, people sometimes omit diacritics informally, but this can merge distinct words and looks careless in edited text. Unicode encodes Polish letters reliably; selecting a Polish keyboard layout is more useful than maintaining an ASCII substitute system.",
+      "Polish already uses Latin letters, so you don't need romanization. English-style spellings such as “cheshch” for cześć hide the contrasts you need to hear. Learn the Polish letters directly.\n\nPeople sometimes drop diacritics in quick messages. In edited writing, keep them: they can distinguish words, and Polish keyboard layouts make them easy to type.",
       "unicode-polish",
       "rjp-polish"
     ),
     spellingNorms: cited(
-      "Spelling frequently makes a word family visible across sound alternation. The same prefix or root may be pronounced differently through assimilation while its conventional spelling stays stable. Learners must also master when nie is joined to or separated from another word, capitalization of nationalities and adjectives, and comma rules around subordinate clauses. The Polish Language Council’s 2026 changes adjust several conventions, including capitalization and combined or separate writing; current learners should check the date of prescriptive materials rather than assume an old exercise book reflects the active norm.",
+      "A spelling can stay steady even when a neighboring sound changes its pronunciation. You also need to learn when writers join nie to a word, when they write capitals, and how commas mark clauses.\n\nThe Polish Language Council changed several spelling rules from 1 January 2026, including some capital letters and joined or separate forms. Check the date on an old exercise book before treating its spelling advice as current.",
       "rjp-changes",
       "rjp-council",
       "wsjp"
@@ -248,23 +247,23 @@ export const polishGuide = {
   },
   grammar: {
     overview: cited(
-      "Polish endings often bundle case, number, and gender, while verbs identify person and number without an overt pronoun. Learn these large paradigms through contrasts: Widzę dom “I see a house” becomes Nie widzę domu “I don’t see a house”; Jestem studentką “I am a female student” puts the role noun in the instrumental. Each pair connects an ending to a communicative job, and flexible order gradually becomes expressive rather than chaotic.",
+      "Polish nouns change form to show their job in a sentence, and their endings can also show number and gender. Widzę dom means “I see a house”; Nie widzę domu means “I don't see a house.” The changed ending follows the negative verb.\n\nVerbs often show who acts without a separate pronoun. Learn these patterns in full sentences before you try to memorize every table.",
       "rjp-polish",
       "pitt-grammar",
       "wiki-grammar"
     ),
     typologicalProfile: cited(
-      "Nouns and their modifiers decline through nominative, genitive, dative, accusative, instrumental, locative, and vocative cases. Singular nouns are conventionally masculine, feminine, or neuter; in the plural, agreement centrally distinguishes masculine-personal groups from everything else. Verbs conjugate for person and number, past forms agree in gender, and aspect contrasts an event viewed as ongoing/repeated with one viewed as bounded or completed. Basic clauses often resemble subject–verb–object order, yet case marking lets speakers move constituents to manage topic, contrast, and focus.",
+      "Polish has seven cases: sets of noun forms that signal roles such as subject, object, or addressee. Describing words change with the noun. Singular nouns fall into masculine, feminine, or neuter classes; plural agreement also singles out groups containing at least one male person.\n\nVerb endings show person and number, and past verbs can show gender. A pair of verbs may distinguish an ongoing or repeated action from a bounded one; linguists call this contrast aspect. Polish often puts subject, verb, and object in that order, but speakers can move them to highlight different information.",
       "rjp-polish",
       "wiki-grammar"
     ),
     morphology: cited(
-      "A Polish dictionary gives a starting form, not the only form encountered in text. Adjectives agree with nouns, numerals can impose special case and agreement patterns, and common stems alternate at morpheme boundaries: ręka becomes ręce, noga becomes nodze, and człowiek has the irregular plural ludzie. Verbs often come in imperfective–perfective pairs such as pisać/napisać “write/be writing” versus “write to completion,” but prefixes can add lexical meaning and pairs are not mechanical twins. Derivation is exceptionally productive: dom “house,” domek “little house,” domowy “domestic/home,” bezdomny “homeless,” and zadomowić się “make oneself at home” form a learnable network.",
+      "A dictionary gives you a starting form, while real sentences show many others. Ręka “hand” changes to ręce in some settings, and człowiek “person” has the plural ludzie. Number words can change the noun and verb forms around them.\n\nVerb pairs such as pisać “write” and napisać “finish writing” show aspect, but adding a prefix can also change a verb's basic meaning. Learn each pair from examples. Word families help too: dom “house,” domek “little house,” domowy “home-related,” and bezdomny “homeless” share a root.",
       "wiki-grammar",
       "wsjp"
     ),
     syntax: cited(
-      "Neutral order often places known information early and the newest or most contrastive material late. Pronouns may disappear because verb endings identify the subject: Mieszkam w Krakowie means “I live in Kraków” without ja. Moving ja forward can mark contrast—Ja mieszkam w Krakowie, “I’m the one who lives in Kraków.” Negation normally uses nie immediately before the finite verb and can trigger genitive on an object that would be accusative affirmatively. Questions need no English-style auxiliary: Czy masz czas? or simply Masz czas? means “Do you have time?” Small particles such as już, jeszcze, przecież, chyba, właśnie, and nawet carry much of natural conversational stance.",
+      "Mieszkam w Krakowie means “I live in Kraków.” The verb ending already shows “I,” so speakers can leave out ja. Adding Ja at the front can stress “I,” often against someone else.\n\nNie usually comes before a verb, and negation can change a direct object's case. For a question, Czy masz czas? and Masz czas? both mean “Do you have time?”\n\nLittle words such as już “already” and chyba “probably” help show the speaker's attitude.",
       "wiki-grammar",
       "nkjp"
     ),
@@ -279,49 +278,49 @@ export const polishGuide = {
     topics: [
       {
         title: "Case marks a noun’s role",
-        body: cited("Case is a set of noun, adjective, pronoun, and numeral forms licensed by syntactic roles and governing words. Do not translate an ending by one English preposition: learn a construction. The preposition z takes instrumental for “with” but genitive for “from,” so the relationship determines the form.", "pitt-grammar", "wiki-grammar"),
+        body: cited("Case changes a noun or describing word to show its job in a sentence. Learn each change inside a phrase, since one ending rarely matches one English preposition. Z takes one form for “with” and another for “from.”", "pitt-grammar", "wiki-grammar"),
         example: "Idę z moją siostrą, ale wracam z pracy sam.",
         exampleTranslation: "I’m going with my sister, but I’m returning from work alone."
       },
       {
         title: "Negation can change the object",
-        body: cited("A direct object often appears in the accusative in an affirmative clause but the genitive under negation. In real usage the system has lexical and stylistic complexities, yet this central contrast is frequent enough to learn immediately.", "wiki-grammar", "nkjp"),
+        body: cited("A direct object often changes form after a negative verb. Mam nowy telefon uses the accusative, a common object form; Nie mam nowego telefonu uses the genitive. Learn the pair together.", "pitt-grammar", "wiki-grammar"),
         example: "Mam nowy telefon. Nie mam nowego telefonu.",
         exampleTranslation: "I have a new phone. I don’t have a new phone."
       },
       {
         title: "Aspect describes the shape of an event",
-        body: cited("Imperfective verbs present activity, process, or repetition; perfective partners present a bounded event, often with an achieved result. Aspect is not simply present versus past: both members can appear in the past, while a formally present perfective usually refers to the future.", "wiki-grammar", "rjp-polish"),
+        body: cited("One verb can show an activity in progress or something repeated. Its partner can present the event as bounded, often finished. Both forms can speak about the past; a perfective form shaped like the present usually points to the future.", "pitt-grammar", "wiki-grammar"),
         example: "Pisałam raport przez godzinę, ale jeszcze go nie napisałam.",
         exampleTranslation: "I was writing the report for an hour, but I still haven’t finished writing it."
       },
       {
         title: "Past tense shows gender",
-        body: cited("Past-tense forms historically combine an l-participle with person marking and agree with the subject’s gender and number. A woman says zrobiłam, a man zrobiłem, while plural forms additionally distinguish masculine-personal groups.", "wiki-grammar", "pitt-grammar"),
+        body: cited("The past verb changes with the speaker's gender in standard Polish. A woman says zrobiłam for “I did it,” while a man says zrobiłem. Plural past verbs also distinguish groups that include male persons.", "wiki-grammar", "pitt-grammar"),
         example: "Wczoraj byłam zmęczona, więc poszłam spać wcześniej.",
         exampleTranslation: "Yesterday I was tired, so I went to bed earlier. (said by a woman)"
       },
       {
         title: "Masculine-personal plural reshapes agreement",
-        body: cited("Plural agreement distinguishes groups containing male persons from non-masculine-personal groups. Thus dobrzy studenci “good male/mixed students” contrasts with dobre studentki “good female students.” The distinction affects adjectives, pronouns, numerals, and past verbs, not only one noun ending.", "wiki-grammar", "rjp-polish"),
+        body: cited("Polish uses a special set of plural forms for a group containing at least one male person. Compare dobrzy studenci, “good male or mixed students,” with dobre studentki, “good female students.” The difference reaches describing words and past verbs as well as nouns.", "pitt-grammar", "wiki-grammar"),
         example: "Nowi nauczyciele przyszli, a nowe nauczycielki już czekały.",
         exampleTranslation: "The new male teachers arrived, while the new female teachers were already waiting."
       },
       {
         title: "Numbers govern surprising forms",
-        body: cited("After dwa, trzy, and cztery, many counted nouns use a nominative-like plural; after pięć and higher, they commonly use genitive plural and the verb appears in singular neuter. This is why a numeral phrase must be learned with its noun and verb, not as arithmetic vocabulary alone.", "wiki-grammar", "pitt-grammar"),
+        body: cited("After dwa, trzy, and cztery, many nouns take a familiar plural form. After pięć and higher, they often take another form called the genitive plural, and the verb can switch to singular neuter. Learn a number with the noun and verb around it.", "pitt-grammar", "wiki-grammar"),
         example: "Dwie osoby czekały, ale pięć osób już weszło.",
         exampleTranslation: "Two people were waiting, but five people had already gone in."
       },
       {
         title: "Word order manages focus",
-        body: cited("Because endings identify roles, order can respond to discourse. Książkę kupiła Anna naturally highlights the book or corrects what was bought; Anna kupiła książkę is a more neutral report. These are not interchangeable in every context even though the participants remain the same.", "wiki-grammar", "nkjp"),
+        body: cited("Noun endings show who did what, so speakers can move words to highlight different information. Anna kupiła książkę is a straightforward “Anna bought a book”; Książkę kupiła Anna can stress the book or who bought it. The words describe the same event but fit different conversations.", "pitt-grammar", "wiki-grammar"),
         example: "To nie Marek napisał ten list — napisała go Ania.",
         exampleTranslation: "It wasn’t Marek who wrote this letter—Ania wrote it."
       },
       {
         title: "Courtesy has grammar",
-        body: cited("Polish commonly addresses an unfamiliar adult with Pan “Mr/sir,” Pani “Ms/madam,” or plural Państwo plus a third-person verb. Using ty can signal closeness, solidarity, age hierarchy, aggression, or an explicitly negotiated shift, so textbook “you” is a social decision.", "wiki-polish", "nkjp"),
+        body: cited("Many speakers address an unfamiliar adult as Pan or Pani with a third-person verb. Państwo addresses several people politely. Ty can signal closeness, but it may sound too familiar with a stranger; ask before switching to it.", "pitt-grammar", "nkjp"),
         example: "Czy może mi pani pomóc? Możemy przejść na ty?",
         exampleTranslation: "Could you help me, ma’am? Can we use first-name/informal terms?"
       }
@@ -329,9 +328,9 @@ export const polishGuide = {
   },
   whereSpoken: {
     overview: cited(
-      "Polish is overwhelmingly centered in Poland but has several kinds of community beyond it. Some speakers belong to long-established minorities in Lithuania, Belarus, Ukraine, and the Czech Republic; others descend from economic and political migrations to the Americas, western Europe, Israel, and Australia; newer European mobility has built large networks especially in the United Kingdom, Germany, Ireland, the Netherlands, and Scandinavia. Counts differ because censuses may ask about mother tongue, home language, ability, nationality, or ancestry—categories that are not interchangeable.",
+      "Polish is the main public language of Poland, where the 2021 census counted language used at home. That measure does not tell us how many first-language speakers live worldwide.\n\nSome Polish-speaking communities have lived for generations in neighboring countries. Other families moved to western Europe, the Americas, Israel, or Australia at different times and for different reasons. Home language, ancestry, nationality, and language ability describe different things, so diaspora totals vary by the question a survey asks.",
       "wiki-polish",
-      "wiki-polish"
+      "census-2021"
     ),
     regions: [
       { place: "Poland", note: cited("The national public language and home language of the great majority, used across administration, education, broadcasting, publishing, and digital life alongside recognized minority and regional languages.", "language-act", "wiki-polish") },
@@ -344,7 +343,7 @@ export const polishGuide = {
   difficulty: {
     label: "Demanding",
     overview: cited(
-      "Polish asks English-speaking learners to coordinate unfamiliar consonants, case agreement, aspect, gender, and flexible order. Calling it “the world’s hardest language” is marketing: Slavic-language and heritage learners begin with different advantages. Progress is uneven too—basic interaction may improve quickly while natural aspect and case remain long projects. Use difficulty to choose training: isolate sound contrasts, recycle complete phrases, and seek correction.",
+      "If you know English but no Slavic language, Polish asks you to hear new consonant contrasts and use changing noun and verb forms. A heritage speaker or Czech speaker starts with a different set of strengths. Basic conversations can arrive before reliable case endings and verb pairs.\n\nWork on one contrast at a time and ask a speaker or teacher to correct your sentences.",
       "rjp-polish",
       "pitt-grammar"
     ),
@@ -353,7 +352,7 @@ export const polishGuide = {
       "Stress is usually predictable, reducing the number of arbitrary word-level accents",
       "Verb endings often reveal the subject, and there are no articles equivalent to English a and the",
       "Polish has abundant dictionaries, corpora, subtitled media, teachers, and contemporary publishing",
-      "Word families make derivation and prefixes increasingly useful as vocabulary grows"
+      "Word families help you recognize new forms as your vocabulary grows"
     ],
     hardAspects: [
       "Three sibilant series and consonant clusters require listening categories that English does not supply",
@@ -370,25 +369,25 @@ export const polishGuide = {
       "Using ty with everyone or avoiding Polish honorifics because English translations hide the distinction"
     ],
     workload: cited(
-      "A serious week might include three short pronunciation sessions, daily sentence review, one grammar lesson, one corrected conversation, and one replayed media clip. Beginners need stable high-frequency constructions more than perfect endings. Intermediate learners can retell one event as ongoing, habitual, and completed to train aspect, then record corrections by pattern. Advanced learners should compare genres such as interviews, workplace email, fiction, and family voice notes. Consistency outperforms a short intensive course followed by silence.",
-      "dd-resources",
+      "If you're starting, spend a little time each day hearing consonant pairs and saying full phrases. Add a short grammar lesson and a corrected conversation each week.\n\nLater, retell one event as something you did regularly and something you finished; this tests your verb pairs. If you read well already, compare an interview, a work email, and a novel passage to hear how tone changes by setting.",
+      "pitt-grammar",
       "nkjp"
     )
   },
   advancedLearning: {
     strategy: cited(
-      "Give each tool one job: a course for sequence, a teacher for correction, sentence cards for review, a dictionary for inflection, a corpus for authentic combinations, and media you genuinely follow. This applies Discover Discomfort’s preference for structure, sentences, sound, correction, and people over collecting apps. Tag Polish phrases for case, aspect, and register: store pomagać komuś w czymś “help someone with something,” not simply pomagać “help.”",
-      "dd-resources",
+      "Use a course to build a sequence, a teacher to correct your speech, and a dictionary to check forms. Save whole Polish patterns, such as pomagać komuś w czymś, “help someone with something,” so you keep the cases attached to the verb. At an advanced level, search a corpus to see whether a phrase belongs in conversation, news, or fiction.",
+      "pitt-grammar",
       "wsjp",
       "nkjp"
     ),
     mediaPractice: cited(
-      "Polskie Radio supplies news, interviews, culture, and regional voices; Culture.pl leads into writers, cinema, and music before you tackle originals. Listen once for the situation, again with text, extract five phrases, then retell the piece aloud. Recorded poetry exposes rhythm and consonant control, but pair it with conversation so elevated vocabulary does not become your default voice.",
+      "Polskie Radio carries news, interviews, and culture programs in Polish. Pick a short segment, listen for the situation, replay it with any available text, and retell it aloud. Culture.pl can help you choose a writer or film, but pair literary language with conversation so you hear both registers.",
       "polskie-radio",
       "culture-literature"
     ),
     dictionariesAndCorpora: cited(
-      "WSJP PAN is a descriptive, corpus-based dictionary of contemporary Polish with meanings, usage labels, combinations, inflection, and often etymology. The National Corpus of Polish contains a large, genre-diverse collection of literature, press, conversation, ephemeral writing, and internet material with search tools sensitive to inflection. Use the dictionary to discover a construction, then the corpus to compare speakers and genres. Frequency alone is not correctness: inspect dates, source type, capitalization, and whether a result is quotation, typo, or deliberately nonstandard dialogue.",
+      "WSJP PAN explains current meanings, forms, style labels, and common word partners. The National Corpus of Polish lets you search examples from different kinds of writing and speech. Look up a construction in the dictionary, then compare several corpus examples.\n\nCheck their dates and genres before copying a line into your own speech.",
       "wsjp",
       "nkjp"
     ),
@@ -398,32 +397,32 @@ export const polishGuide = {
       { type: "corpus", title: "Narodowy Korpus Języka Polskiego", url: "https://nkjp.pl/", level: "advanced", description: cited("A reference corpus exceeding 1.5 billion words across varied genres. Search declined forms and constructions to test what polished examples omit.", "nkjp") },
       { type: "media", title: "Polskie Radio", url: "https://www.polskieradio.pl/", level: "intermediate", description: cited("National radio networks and podcasts spanning news, music, history, science, and culture. Repeated short segments provide controlled exposure to formal and conversational registers.", "polskie-radio") },
       { type: "media", title: "Culture.pl", url: "https://culture.pl/en", level: "all", description: cited("English- and Polish-language introductions to literature, film, music, theater, design, and history. It helps learners choose culturally meaningful Polish originals rather than generic exercises.", "culture-literature") },
-      { type: "other", title: "Discover Discomfort: Less-Common Language Learning Resources", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", level: "all", description: cited("A practical guide to combining a course, sentence source, audio habit, human correction, and community. Polish has more material than many languages discussed, but the resource-stack method transfers directly.", "dd-resources") }
+      { type: "media", title: "Polski z Anią", url: "https://polonicum.uw.edu.pl/polski-z-ania", level: "beginner", description: cited("University of Warsaw grammar videos with Polish and English subtitles. Use a video after a course lesson to hear the same pattern explained another way.", "polski-z-ania") }
     ]
   },
   wordsAndTexts: {
     overview: cited(
-      "Derivation makes Polish roots radiate into families, while diminutives and particles add interpersonal color. Kawka can mean a small coffee, an affectionate coffee break, or simply coffee in a warm frame. “Untranslatable” lists exaggerate uniqueness, but prefixes, suffixes, and flexible order do create expressive effects. Learn each attractive word with its grammar and setting, not as a cultural slogan.",
+      "Polish speakers build families of words around a root. Kawka can mean a small coffee or a relaxed coffee break; its ending can sound affectionate. Small words and endings change tone as well as dictionary meaning.\n\nWhen you learn a new word, note its grammar and the setting where you heard it.",
       "wsjp",
       "nkjp"
     ),
     notableWords: [
-      { term: "szczęście", meaning: "happiness; luck; good fortune", note: cited("The word covers both an emotional state and favorable chance. Mam szczęście means “I’m lucky,” while dużo szczęścia can wish someone plenty of happiness or luck. Its famous spelling is also an excellent pronunciation workout.", "wsjp") },
-      { term: "tęsknota", meaning: "longing; yearning", note: cited("Related to tęsknić “to miss/long for,” it can point toward a person, place, time, or lost possibility. It is emotionally resonant but not proof of a uniquely Polish feeling; what matters is how readily the noun frames absence as an object of reflection.", "wsjp", "nkjp") },
+      { term: "szczęście", meaning: "happiness; luck; good fortune", note: cited("The word can name a feeling or good fortune. Mam szczęście means “I'm lucky.” Its spelling also gives you a compact pronunciation exercise.", "wsjp") },
+      { term: "tęsknota", meaning: "longing; yearning", note: cited("Related to tęsknić, “to miss,” this noun can point to a person, place, or lost time. Learn it with the thing someone longs for rather than treating it as an untranslatable national emotion.", "wsjp", "nkjp") },
       { term: "załatwić", meaning: "arrange, take care of, obtain, or settle", note: cited("A high-value verb whose meaning depends on its object: załatwić sprawę is to sort out a matter, załatwić bilet may be to procure a ticket. It can imply efficient handling, negotiation, or euphemistic disposal, so context is essential.", "wsjp", "nkjp") },
       { term: "kombinować", meaning: "figure out, devise, maneuver, or scheme", note: cited("Sometimes it praises resourcefulness; sometimes it suspects rule-bending. Co ty kombinujesz? can mean “What are you up to?” The register and speaker’s tone decide whether ingenuity or dubious maneuvering dominates.", "wsjp", "nkjp") },
-      { term: "ogarniać", meaning: "embrace/cover; colloquially understand or get under control", note: cited("In contemporary colloquial use, Nie ogarniam can mean “I don’t get it” or “I can’t cope with all this,” while ogarnąć mieszkanie means get the flat sorted. It is useful but informal and semantically broad.", "wsjp", "nkjp") },
+      { term: "ogarniać", meaning: "cover; colloquially understand or get under control", note: cited("In casual speech, Nie ogarniam can mean “I don't get it” or “I can't cope with all this.” Ogarnąć mieszkanie means to get the flat sorted. Check the context before copying it into formal writing.", "wsjp", "nkjp") },
       { term: "przykro", meaning: "sorry; sad or unpleasant", note: cited("The impersonal phrase Jest mi przykro literally frames unpleasantness as being “to me” and can express sympathy, regret, or an apology. It does not map perfectly onto every English use of sorry.", "wsjp") },
       { term: "swojski", meaning: "familiar, home-like, local, unpretentious", note: cited("From swój “one’s own,” swojski can warmly describe food, atmosphere, humor, or a person as comfortably familiar. Depending on context it may also suggest rustic simplicity rather than cosmopolitan polish.", "wsjp", "nkjp") },
       { term: "żal", meaning: "regret, sorrow, resentment, or pity", note: cited("A compact noun with a wide emotional field. Żal mi means “I feel sorry for/I regret,” mieć żal do kogoś means hold a grievance against someone, and szkoda can be a better everyday equivalent for some English regrets.", "wsjp") }
     ],
     loanwordLayers: cited(
-      "Latin appears in religious, legal, and scholarly layers; German contact is visible in urban, craft, culinary, and commercial vocabulary; Italian and French mark particular eras of court, fashion, art, and cuisine. Yiddish and East Slavic contact contributed to colloquial and regional life, though etymologies are sometimes popularly oversimplified. Recent English loans enter technology, business, sport, and youth language, then take Polish endings: hejt “online hate” produces hejtować “to post hate,” and scrollować “to scroll” conjugates like a Polish verb. Borrowing is productive grammar in action, not a failure to invent.",
+      "Latin contributed words for religion, law, and learning; German contact left traces in town, craft, and trade vocabulary. Italian and French loans reflect later court and cultural fashions. Yiddish and East Slavic also shaped some regional and everyday words, though individual word histories need checking.\n\nEnglish now contributes terms for technology and online life. Speakers add Polish endings: hejt “online hate” becomes hejtować “to post hate,” and scrollować “to scroll” takes regular verb endings.",
       "wiki-polish",
       "wsjp"
     ),
     idioms: [
-      { original: "Nie mój cyrk, nie moje małpy.", translation: "Not my problem or responsibility.", note: "Literally “not my circus, not my monkeys.” Playful and now internationally famous; useful when distancing yourself from someone else’s chaos, but too flippant for another person’s serious misfortune." },
+      { original: "Nie mój cyrk, nie moje małpy.", translation: "Not my problem or responsibility.", note: "Literally “not my circus, not my monkeys.” It can sound playful when you leave someone else's mess to them, but it is too flippant for a serious misfortune." },
       { original: "Trzymać kciuki.", translation: "To keep one’s fingers crossed; wish luck.", note: "Literally “to hold thumbs.” Polish luck is conventionally held in the thumbs rather than crossed fingers: Trzymam kciuki za ciebie means “I’m rooting for you.”" },
       { original: "Bułka z masłem.", translation: "Something very easy; a piece of cake.", note: "Literally “a bread roll with butter.” Conversational and vivid. To say an exam was easy: Egzamin był bułką z masłem." },
       { original: "Rzucać grochem o ścianę.", translation: "To speak in vain to someone who will not listen.", note: "Literally “to throw peas at a wall.” The image emphasizes that advice simply bounces back without effect." },
@@ -445,15 +444,15 @@ export const polishGuide = {
     ),
     languages: relatedLanguages
   },
-  culturalNotes: "Polish public courtesy is built into address: Dzień dobry spans much of the day, Pan and Pani take third-person grammar, and titles may remain useful where English shifts to first names. Friendship can then bring diminutives, irony, teasing, and shared references. Explore Szymborska’s deceptively plain poetry, Lem’s philosophical science fiction, Tokarczuk’s layered prose, reportage, crime fiction, film, hip-hop, and podcasts. Learn through specific works and conversations rather than asking one novel to explain “the Polish mentality.”",
+  culturalNotes: "Polish courtesy lives in everyday grammar. Dzień dobry works through much of the day, and Pan or Pani takes a third-person verb when you address someone politely. Friends may switch to ty and use small, affectionate word forms.\n\nFor another side of the language, try Szymborska's poetry, Lem's science fiction, Tokarczuk's novels, reportage, film, or hip-hop. Each shows a particular voice and setting; no single work can stand for everyone who speaks Polish.",
   resources: [
-    { type: "course", title: "Polski.info", url: "https://polski.info/", level: "beginner", description: cited("A structured free platform for building an initial grammar and phrase base. Its leveled organization makes it more useful as a main path than as another tab in an app collection.", "polski-info") },
+    { type: "course", title: "Polski.info", url: "https://polski.info/", level: "beginner", description: cited("Free lessons give beginners a sequence of Polish phrases and grammar. Follow one level steadily and practice its sentences aloud with a teacher or partner.", "polski-info") },
     { type: "dictionary", title: "Wielki słownik języka polskiego PAN", url: "https://wsjp.pl/", level: "all", description: cited("Use its meanings, qualifiers, collocations, and inflection to decide not only what a word can mean but where it sounds at home.", "wsjp") },
     { type: "corpus", title: "National Corpus of Polish", url: "https://nkjp.pl/", level: "advanced", description: cited("Search authentic combinations across conversation, journalism, literature, and online text; compare many results before generalizing.", "nkjp") },
     { type: "media", title: "Polskie Radio", url: "https://www.polskieradio.pl/", level: "intermediate", description: cited("Choose one recurring host or series so the voice and topic become familiar enough for intensive replay.", "polskie-radio") },
     { type: "media", title: "Culture.pl", url: "https://culture.pl/en", level: "all", description: cited("A discovery layer for Polish books, films, music, design, and cultural history, with accessible English context alongside Polish names and works.", "culture-literature") },
     { type: "other", title: "Polish Language Council", url: "https://rjp.pan.pl/", level: "advanced", description: cited("The institutional source for current public-language opinions, spelling principles, and explanations of normative change.", "rjp-council", "rjp-changes") },
-    { type: "other", title: "Discover Discomfort learning-resource method", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", level: "all", description: cited("A concise way to audit whether your study plan has structure, sentences, audio, correction, and people instead of redundant tools.", "dd-resources") }
+    { type: "media", title: "Polski z Anią", url: "https://polonicum.uw.edu.pl/polski-z-ania", level: "beginner", description: cited("University of Warsaw videos explain Polish grammar with Polish and English subtitles. They work well when a case or verb form from your course still feels unclear.", "polski-z-ania") }
   ],
   relatedLanguages,
   phrases: [
@@ -467,32 +466,34 @@ export const polishGuide = {
     { original: "Czy mówi pan / pani po angielsku?", translation: "Do you speak English, sir / ma’am?", usageNote: "Choose pan for a man and pani for a woman; the third-person verb is part of polite address." },
     { original: "Nie rozumiem.", translation: "I don’t understand.", usageNote: "Add Czy może pan/pani powtórzyć? to politely ask someone to repeat." },
     { original: "Poproszę kawę.", translation: "I’d like a coffee, please.", literalMeaning: "I will ask for a coffee.", usageNote: "A natural service encounter formula; the requested item takes the accusative." },
-    { original: "Ile to kosztuje?", translation: "How much does this cost?", usageNote: "A useful neutral question in shops and markets." },
+    { original: "Ile to kosztuje?", translation: "How much does this cost?", usageNote: "A neutral question in shops and markets." },
     { original: "Gdzie jest toaleta?", translation: "Where is the toilet?", usageNote: "Direct but normal; przepraszam can introduce the question politely." },
     { original: "Miło mi.", translation: "Nice to meet you.", literalMeaning: "It is pleasant to me.", usageNote: "Often follows an introduction; Bardzo mi miło is warmer or more formal." },
     { original: "Smacznego!", translation: "Enjoy your meal!", literalMeaning: "[Something] tasty!", usageNote: "Said to people who are eating, including when you join or pass a table." },
     { original: "Na zdrowie!", translation: "Cheers! / Bless you!", literalMeaning: "To health!", usageNote: "Used for a toast and after a sneeze; context makes the meaning obvious." }
   ],
   sources: [
-    { id: "dd-resources", title: "Best Less-Common Language Learning Resources: What Actually Works", url: "https://discoverdiscomfort.com/less-common-language-learning-resources/", publisher: "Discover Discomfort", publishedAt: "2026-05-11", updatedAt: "2026-05-11", accessedAt: "2026-07-10" },
-    { id: "wiki-polish", title: "Polish language", url: "https://en.wikipedia.org/wiki/Polish_language", publisher: "Wikipedia", updatedAt: "2026", accessedAt: "2026-07-10" },
-    { id: "wiki-history", title: "History of the Polish language", url: "https://en.wikipedia.org/wiki/History_of_the_Polish_language", publisher: "Wikipedia", accessedAt: "2026-07-10" },
-    { id: "wiki-grammar", title: "Polish grammar", url: "https://en.wikipedia.org/wiki/Polish_grammar", publisher: "Wikipedia", accessedAt: "2026-07-10" },
-    { id: "glottolog-polish", title: "Glottolog 5.3: Polish", url: "https://glottolog.org/resource/languoid/id/poli1260", publisher: "Max Planck Institute for Evolutionary Anthropology", updatedAt: "2026", accessedAt: "2026-07-10" },
-    { id: "rjp-council", title: "Rada Języka Polskiego przy Prezydium PAN", url: "https://rjp.pan.pl/", publisher: "Polish Language Council, Polish Academy of Sciences", accessedAt: "2026-07-10" },
-    { id: "rjp-polish", title: "The Polish Language", url: "https://rjp.pan.pl/app/uploads/2025/10/jp_angielski.pdf", publisher: "Polish Language Council", updatedAt: "2025", accessedAt: "2026-07-10" },
-    { id: "rjp-changes", title: "Polish Language Council communiqué on spelling rules effective 1 January 2026", url: "https://rjp.pan.pl/zmiany-pisowni-2026/komunikatradyjezykapolskiegoprzyprezydiumpanzdnia10pazdziernika20204r/", publisher: "Polish Language Council", publishedAt: "2024-10-10", accessedAt: "2026-07-10" },
-    { id: "language-act", title: "Act of 7 October 1999 on the Polish Language", url: "https://eli.gov.pl/api/acts/DU/1999/999/text.html", publisher: "Republic of Poland Electronic Legislation", publishedAt: "1999-10-07", accessedAt: "2026-07-10" },
-    { id: "nkjp", title: "Narodowy Korpus Języka Polskiego", url: "https://nkjp.pl/", publisher: "Institute of Computer Science PAN and partner institutions", updatedAt: "2012", accessedAt: "2026-07-10" },
-    { id: "wsjp", title: "Wielki słownik języka polskiego PAN", url: "https://wsjp.pl/", publisher: "Institute of Polish Language, Polish Academy of Sciences", accessedAt: "2026-07-10" },
-    { id: "unicode-polish", title: "CLDR Collation Chart: Polish", url: "https://www.unicode.org/cldr/charts/46/collation/pl.html", publisher: "Unicode Consortium", updatedAt: "2024", accessedAt: "2026-07-10" },
-    { id: "pitt-grammar", title: "A Grammar of Contemporary Polish", url: "https://www.lektorek.org/lektorek/grammar.pdf", publisher: "University of Pittsburgh / Oscar E. Swan", accessedAt: "2026-07-10" },
-    { id: "polski-info", title: "Polski.info: Multilingual Portal for Learning Polish", url: "https://polski.info/", publisher: "polski.info", accessedAt: "2026-07-10" },
-    { id: "polskie-radio", title: "Polskie Radio", url: "https://www.polskieradio.pl/", publisher: "Polskie Radio", accessedAt: "2026-07-10" },
-    { id: "culture-literature", title: "Polish Culture and Literature", url: "https://culture.pl/en", publisher: "Adam Mickiewicz Institute", accessedAt: "2026-07-10" }
+    { id: "census-2021", title: "National Census 2021: Language Used at Home", url: "https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/tablice-z-ostatecznymi-danymi-w-zakresie-przynaleznosci-narodowo-etnicznej-jezyka-uzywanego-w-domu-oraz-przynaleznosci-do-wyznania-religijnego%2C10%2C1.html", publisher: "Statistics Poland", publishedAt: "2023-09-28", accessedAt: "2026-09-27" },
+    { id: "wiki-polish", title: "Polish language", url: "https://en.wikipedia.org/wiki/Polish_language", publisher: "Wikipedia", accessedAt: "2026-09-27" },
+    { id: "wiki-history", title: "History of the Polish language", url: "https://en.wikipedia.org/wiki/History_of_the_Polish_language", publisher: "Wikipedia", accessedAt: "2026-09-27" },
+    { id: "wiki-grammar", title: "Polish grammar", url: "https://en.wikipedia.org/wiki/Polish_grammar", publisher: "Wikipedia", accessedAt: "2026-09-27" },
+    { id: "glottolog-polish", title: "Glottolog 5.3: Polish", url: "https://glottolog.org/resource/languoid/id/poli1260", publisher: "Max Planck Institute for Evolutionary Anthropology", accessedAt: "2026-09-27" },
+    { id: "rjp-council", title: "Rada Języka Polskiego przy Prezydium PAN", url: "https://rjp.pan.pl/", publisher: "Polish Language Council, Polish Academy of Sciences", accessedAt: "2026-09-27" },
+    { id: "rjp-polish", title: "The Polish Language", url: "https://rjp.pan.pl/app/uploads/2025/10/jp_angielski.pdf", publisher: "Polish Language Council", updatedAt: "2025", accessedAt: "2026-09-27" },
+    { id: "rjp-changes", title: "Polish Language Council communiqué on spelling rules effective 1 January 2026", url: "https://rjp.pan.pl/zmiany-pisowni-2026/komunikatradyjezykapolskiegoprzyprezydiumpanzdnia10pazdziernika20204r/", publisher: "Polish Language Council", publishedAt: "2024-10-10", accessedAt: "2026-09-27" },
+    { id: "silesian-veto", title: "Two laws vetoed by the President of Poland", url: "https://www.prezydent.pl/prawo/ustawy-zawetowane/dwie-ustawy-zawetowane-przez-prezydenta,114983", publisher: "President of the Republic of Poland", publishedAt: "2026-02-12", accessedAt: "2026-09-27" },
+    { id: "language-act", title: "Act of 7 October 1999 on the Polish Language", url: "https://eli.gov.pl/api/acts/DU/1999/999/text.html", publisher: "Republic of Poland Electronic Legislation", publishedAt: "1999-10-07", accessedAt: "2026-09-27" },
+    { id: "nkjp", title: "Narodowy Korpus Języka Polskiego", url: "https://nkjp.pl/", publisher: "Institute of Computer Science PAN and partner institutions", updatedAt: "2012", accessedAt: "2026-09-27" },
+    { id: "wsjp", title: "Wielki słownik języka polskiego PAN", url: "https://wsjp.pl/", publisher: "Institute of Polish Language, Polish Academy of Sciences", accessedAt: "2026-09-27" },
+    { id: "unicode-polish", title: "CLDR Collation Chart: Polish", url: "https://www.unicode.org/cldr/charts/46/collation/pl.html", publisher: "Unicode Consortium", updatedAt: "2024", accessedAt: "2026-09-27" },
+    { id: "pitt-grammar", title: "A Grammar of Contemporary Polish", url: "https://www.lektorek.org/lektorek/grammar.pdf", publisher: "University of Pittsburgh / Oscar E. Swan", accessedAt: "2026-09-27" },
+    { id: "polski-info", title: "Polski.info: Multilingual Portal for Learning Polish", url: "https://polski.info/", publisher: "polski.info", accessedAt: "2026-09-27" },
+    { id: "polski-z-ania", title: "Polski z Anią", url: "https://polonicum.uw.edu.pl/polski-z-ania", publisher: "University of Warsaw Polonicum", accessedAt: "2026-09-27" },
+    { id: "polskie-radio", title: "Polskie Radio", url: "https://www.polskieradio.pl/", publisher: "Polskie Radio", accessedAt: "2026-09-27" },
+    { id: "culture-literature", title: "Polish Culture and Literature", url: "https://culture.pl/en", publisher: "Adam Mickiewicz Institute", accessedAt: "2026-09-27" }
   ],
   seo: {
-    title: "Polish Language Guide: Sounds, Cases, Aspect, Culture and Learning",
-    description: "A detailed, example-rich guide to Polish history, pronunciation, spelling, seven cases, verbal aspect, dialects, courtesy, literature, phrases, and modern learning resources."
+    title: "Polish Language Guide: Sounds, Grammar, Speech and Writing",
+    description: "Hear Polish sound contrasts, see how noun endings and verb pairs work, and explore regional speech, everyday courtesy, literature, and learning resources."
   }
 } satisfies LanguageGuide;
