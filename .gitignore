@@ -151,5 +151,6 @@ tmp/
 tmp-*.png
 apps/admin/media/
 
-# Local Netlify folder
+# Local deployment tool state
+.wrangler/
 .netlify

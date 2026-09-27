@@ -1,4 +1,5 @@
 import { chromium } from "playwright-core";
+import { mkdir } from "node:fs/promises";
 
 const chromePath = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const baseUrl = process.env.PUBLIC_VERIFY_URL ?? "http://localhost:3081";
@@ -26,7 +27,7 @@ desktop.on("pageerror", (error) => {
   errors.push(`pageerror: ${error.message}`);
 });
 
-const representativeGuides = ["swahili", "arabic", "mandarin-chinese", "korean", "vietnamese", "persian", "navajo", "basque"];
+const representativeGuides = ["swahili", "arabic", "mandarin-chinese", "korean", "vietnamese", "persian", "navajo", "basque", "spanish"];
 const guideChecks = [];
 for (const slug of representativeGuides) {
   await desktop.goto(`${baseUrl}/${slug}`, { waitUntil: "networkidle" });
@@ -46,6 +47,7 @@ const h1 = await desktop.locator("h1").first().textContent();
 const sectionCount = await desktop.locator(".entry-section").count();
 const sourceCount = await desktop.locator("#sources li").count();
 const desktopScreenshotPath = "tmp/swahili-desktop.png";
+await mkdir("tmp", { recursive: true });
 await desktop.screenshot({ path: desktopScreenshotPath, fullPage: true });
 
 const mobile = await browser.newPage({
@@ -59,6 +61,16 @@ const mobile = await browser.newPage({
 await mobile.goto(baseUrl, { waitUntil: "networkidle" });
 await mobile.locator('input[type="search"]').fill("swa");
 const mobileCardCount = await mobile.locator(".guide-row").count();
+await mobile.locator('input[type="search"]').fill("spanish");
+const spanishResult = mobile.locator('a.guide-row[href="/spanish"]');
+if (await spanishResult.count() !== 1) {
+  throw new Error("Expected the new Spanish guide in mobile search results.");
+}
+await spanishResult.click();
+if (await mobile.locator("h1").first().textContent() !== "Spanish") {
+  throw new Error("Spanish search result did not open the Spanish guide.");
+}
+await mobile.goto(baseUrl, { waitUntil: "networkidle" });
 const mobileScreenshotPath = "tmp/home-mobile.png";
 await mobile.screenshot({ path: mobileScreenshotPath, fullPage: true });
 

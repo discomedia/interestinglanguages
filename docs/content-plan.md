@@ -29,11 +29,11 @@ Canonical guides live under `packages/content/src/guides/`. Run `npm run content
 
 ## Workflow
 
-1. Update the relevant standalone guide fixture under `packages/content/src/guides/`.
-2. Run `npm run content:validate`.
-3. Run `npm run build`, serve the generated site, and review representative pages locally.
-4. Commit and push `main`; Netlify builds directly from the committed guide files.
-5. Wait for the Netlify deployment to succeed, then verify every affected live route.
+1. Add or revise the standalone guide fixture under `packages/content/src/guides/`; register a new guide in `guides/index.ts`.
+2. Run `npm run content:validate`, `npm run content:stats`, and `npm run content:audit-links`. Investigate link-audit restrictions separately from definitive 404/410 failures.
+3. Run `npm run validate`, then `npm run preview:pages` and inspect the affected pages, citations, search, and mobile layout locally.
+4. Commit the intended files and push `main`. Run `npm run publish` from the same clean checkout to upload `apps/web/dist` to Cloudflare Pages.
+5. Verify the Cloudflare deployment finished, then check every affected live route, the sitemap, and a representative existing guide at `interestinglanguages.com`.
 
 ## Public Site Direction
 
@@ -49,7 +49,7 @@ Avoid app-like dashboards, large decorative cards, generic hero panels, gradient
 ## Future Improvements
 
 - Protected draft preview route.
-- Search index generated during Netlify build.
+- Search index generated during the static build.
 - Dedicated family, script, and region index pages.
 - S3/R2-backed media storage.
 - Per-guide expert review status and source audit notes.

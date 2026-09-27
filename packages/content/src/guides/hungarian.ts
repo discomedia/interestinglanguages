@@ -470,7 +470,7 @@ export const hungarianGuide = {
     { id: "csango-study", title: "Situation of the Csángó Dialect of Moldavia in Romania", url: "https://ahea.pitt.edu/ojs/ahea/article/view/231", publisher: "Hungarian Cultural Studies", publishedAt: "2016", accessedAt: "2026-07-10" },
     { id: "standard-history", title: "The Formation of the Hungarian Standard Language", url: "https://epa.oszk.hu/01400/01462/00021/pdf/EPA01462_Hungarian_Studies_1998-1999_Vol13_No1.pdf", publisher: "Hungarian Studies", publishedAt: "1999", accessedAt: "2026-07-10" },
     { id: "tihany", title: "The Tihany Foundation Charter and Early Hungarian Records", url: "https://mek.oszk.hu/01900/01955/html/index10.html", publisher: "Hungarian Electronic Library", accessedAt: "2026-07-10" },
-    { id: "unicode-latin", title: "Latin Extended-A Character Names List", url: "https://www.unicode.org/charts/nameslist/n_0100.html", publisher: "Unicode Consortium", updatedAt: "2025", accessedAt: "2026-07-10" },
+    { id: "unicode-latin", title: "Latin Extended-A Code Chart", url: "https://www.unicode.org/Public/18.0.0/charts/PDF/U0100.pdf", publisher: "Unicode Consortium", updatedAt: "2026", accessedAt: "2026-09-27" },
     { id: "unicode-old-hungarian", title: "The Unicode Standard, Chapter 8: Old Hungarian", url: "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-8/", publisher: "Unicode Consortium", updatedAt: "2024", accessedAt: "2026-07-10" },
     { id: "magyarok", title: "MagyarOK Hungarian Language Course", url: "https://magyar-ok.hu/en/home.html", publisher: "University of Pécs", accessedAt: "2026-07-10" }
   ],

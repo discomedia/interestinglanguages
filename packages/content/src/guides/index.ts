@@ -28,6 +28,7 @@ import { yorubaGuide } from "./yoruba.js";
 import { navajoGuide } from "./navajo.js";
 import { quechuaGuide } from "./quechua.js";
 import { nahuatlGuide } from "./nahuatl.js";
+import { spanishGuide } from "./spanish.js";
 
 export const guideFixtures = [
   swahiliGuide,
@@ -59,7 +60,8 @@ export const guideFixtures = [
   yorubaGuide,
   navajoGuide,
   quechuaGuide,
-  nahuatlGuide
+  nahuatlGuide,
+  spanishGuide
 ];
 
 export {
@@ -92,5 +94,6 @@ export {
   yorubaGuide,
   navajoGuide,
   quechuaGuide,
-  nahuatlGuide
+  nahuatlGuide,
+  spanishGuide
 };

@@ -4,9 +4,18 @@ import { collectCitedText, validateLanguageGuide } from "./validation.js";
 
 let hasIssues = false;
 
-if (languageGuides.length !== 30) {
+if (languageGuides.length < 30) {
   hasIssues = true;
-  console.error(`Expected 30 guide fixture(s), found ${languageGuides.length}.`);
+  console.error(`Expected at least the original 30 guide fixture(s), found ${languageGuides.length}.`);
+}
+
+const slugs = new Set<string>();
+for (const guide of languageGuides) {
+  if (slugs.has(guide.slug)) {
+    hasIssues = true;
+    console.error(`Duplicate guide slug: ${guide.slug}`);
+  }
+  slugs.add(guide.slug);
 }
 
 for (const guide of languageGuides) {

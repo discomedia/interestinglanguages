@@ -6,7 +6,7 @@ This file is part of the operating contract for the repo. Keep it current whenev
 
 This is an npm-workspace monorepo.
 
-- `apps/web`: Astro public site with React islands. It is deployed to Netlify and should run locally on `localhost:3081`.
+- `apps/web`: Astro public site with React islands. It builds static HTML for Cloudflare Pages and should run locally on `localhost:3081`.
 - `packages/content`: canonical language-guide data, shared content types, normalizers, citations, and validation helpers used by the public site.
 
 The public site builds entirely from the canonical guide files under `packages/content/src/guides/`. There is no runtime CMS, content API, or database dependency.
@@ -17,6 +17,10 @@ The public site builds entirely from the canonical guide files under `packages/c
 - Public site dev: `npm run dev:web`
 - Full build: `npm run build`
 - Public-only build: `npm run build:web`
+- Production build and static-route check: `npm run build:production && npm run check:static`
+- Release gate: `npm run validate`
+- Preview the Pages output: `npm run preview:pages` (port 8788)
+- Upload a validated build: `npm run publish`
 - Typecheck: `npm run typecheck`
 - Lint/check: `npm run lint`
 - Validate content fixtures: `npm run content:validate`
@@ -29,7 +33,7 @@ The public site builds entirely from the canonical guide files under `packages/c
 - `PUBLIC_SITE_URL`: public canonical URL. Use `http://localhost:3081` locally and `https://interestinglanguages.com` in production.
 - `NEXT_PUBLIC_APP_URL`: retained only for compatibility. Prefer `PUBLIC_SITE_URL`.
 
-Do not introduce a runtime content service for data that can be rendered from the repository during the Netlify build.
+Do not introduce a runtime content service for data that can be rendered from the repository during the static build.
 
 ## Content Model
 
@@ -37,7 +41,7 @@ Each language has a complete standalone canonical guide in `packages/content/src
 
 The complete creation workflow, research standards, reusable subagent prompt, QA/release checklist, and next-70 roadmap live in `docs/creating-language-guides.md`. Future large guide batches should use one dedicated research/writing subagent per language, with each subagent limited to its own fixture file.
 
-The status of the original catalog's plain-language rewrites lives in `docs/guide-readability-status.md`. Mark a guide complete only after root QA, a successful Netlify deployment, and live-page verification.
+The status of the original catalog's plain-language rewrites lives in `docs/guide-readability-status.md`. Mark a guide complete only after root QA, a successful Cloudflare Pages deployment, and live-page verification.
 
 Guide prose should use active voice and readable, conversational phrasing. Keep every paragraph to no more than three sentences, give it one main idea, and explain the simple picture before adding terminology, exceptions, or regional nuance.
 
@@ -61,11 +65,13 @@ Use Astro for static layout and React only for interactive islands. Components s
 
 The public design system is a modern reference site: true white background, deep ink text, restrained teal links/icons, saffron only as a rare accent, thin dividers, compact language rows, sticky article navigation, and readable long-form typography. Avoid app-like dashboards, decorative gradients, generic hero panels, and boilerplate product copy.
 
-## Deployment Notes
+## Build and Deployment
 
-Production deploys are GitHub-driven. Pushing `main` to `https://github.com/discomedia/interestinglanguages.git` rebuilds the public site on Netlify directly from the committed guide files. Do not use `netlify deploy` or local platform linking for a normal production release. After pushing, monitor the Netlify deployment to terminal success and verify the affected public routes.
+The site is fully static. `npm run build:production` builds all public HTML, JavaScript, CSS, `robots.txt`, and `sitemap.xml` from the guide files. No Railway service, Neon database, Pages Function, or runtime content API is required. Client-side search/filtering uses build-time guide summaries.
 
-Netlify builds from the repo root with `npm run build:web` and publishes `apps/web/dist`.
+The Cloudflare Pages project is `interestinglanguages`, with production branch `main`, custom domain `interestinglanguages.com`, and output directory `apps/web/dist`. `_headers` in `apps/web/public` carries static response headers. `npm run validate` runs fixture validation, typecheck, lint, production build, and checks every published route, canonical URL, sitemap entry, robots file, and static-only output.
+
+Publishing is a reviewed Git release followed by a Pages upload from the validated checkout: commit the intended files, push `main`, wait for the GitHub validation workflow, run `npm run validate && npm run publish`, wait for the deployment to complete, then verify affected routes at `https://interestinglanguages.com` and a representative existing route. Wrangler must be logged into the Disco Media Cloudflare account. Keep the published commit and deployed build identical; do not publish uncommitted changes. The full guide creation and revision procedure is in `docs/creating-language-guides.md`.
 
 ## Maintenance Requirement
 

@@ -440,7 +440,7 @@ export const basqueGuide = {
     { id: "ehu-cases", title: "Cases and Postpositions", url: "https://www.ehu.eus/en/web/eins/cases-and-postpositions", publisher: "Basque Language Institute, University of the Basque Country (UPV/EHU)", accessedAt: "2026-07-10" },
     { id: "ehu-grammar", title: "A Brief Grammar of Euskara, the Basque Language", url: "https://www.ehu.eus/en/web/eins/basque-grammar", publisher: "Basque Language Institute, University of the Basque Country (UPV/EHU)", accessedAt: "2026-07-10" },
     { id: "habe-ikasbil", title: "IKASBIL: Learn Basque", url: "https://www.ikasbil.eus/en/home", publisher: "HABE, Basque Government", accessedAt: "2026-07-10" },
-    { id: "academy-corpus", title: "Lexicon Observatory, a Basque Corpus of Nearly 60 Million Words", url: "https://www.elhuyar.eus/en/press-room/lexicon-observatory-a-basque-corpus-of-almost-60-million-words", publisher: "Elhuyar and Euskaltzaindia", publishedAt: "2017-03-07", accessedAt: "2026-07-10" },
+    { id: "academy-corpus", title: "Observatory of the Lexicon, a Basque Corpus of Almost 60 Million Words", url: "https://www.elhuyar.eus/en/press-room/observatory-lexicon-corpus-basque-almost-60-million-words", publisher: "Elhuyar and Euskaltzaindia", publishedAt: "2017-03-07", accessedAt: "2026-09-27" },
     { id: "elhuyar", title: "Elhuyar Dictionary", url: "https://hiztegiak.elhuyar.eus/", publisher: "Elhuyar", accessedAt: "2026-07-10" },
     { id: "eitb", title: "EITB Nahieran", url: "https://www.eitb.eus/eu/nahieran/", publisher: "Euskal Irrati Telebista", accessedAt: "2026-07-10" },
     { id: "etxepare-resources", title: "Online Resources", url: "https://www.etxepare.eus/en/online-resources", publisher: "Etxepare Basque Institute", accessedAt: "2026-07-10" }

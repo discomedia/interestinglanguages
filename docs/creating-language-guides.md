@@ -341,7 +341,7 @@ Do not have a general cleanup agent rewrite all language files at the end. Cross
 
 The successful first expansion used ten waves of three agents: Swahili/Arabic/Mandarin Chinese; Japanese/Korean/Hindi; Urdu/Turkish/Persian; Hebrew/Greek/Russian; Polish/Welsh/Irish; Finnish/Hungarian/Basque; Georgian/Armenian/Vietnamese; Thai/Indonesian/Tagalog; Tamil/Amharic/Yoruba; and Navajo/Quechua/Nahuatl.
 
-The root agent first built the citation interface, renderer, validation, link audit, statistics, and independent file structure. Each language agent then researched and wrote only its assigned fixture. After every wave, the root ran targeted validation and reviewed the agents' source/uncertainty audits. Once all 30 were present, the root ran a cross-guide prose pass, audited 493 unique links, built the static site, and inspected Arabic, Mandarin Chinese, Navajo, Swahili, and Basque as representative rendering cases. The validated code was pushed through the GitHub-driven Netlify flow, and the live routes were checked after the deployment completed.
+The root agent first built the citation interface, renderer, validation, link audit, statistics, and independent file structure. Each language agent then researched and wrote only its assigned fixture. After every wave, the root ran targeted validation and reviewed the agents' source/uncertainty audits. Once all 30 were present, the root ran a cross-guide prose pass, audited 493 unique links, built the static site, and inspected Arabic, Mandarin Chinese, Navajo, Swahili, and Basque as representative rendering cases. That original release used Netlify; current releases use Cloudflare Pages as described below.
 
 That sequencing matters. Building the data model and validator before commissioning articles prevented 30 incompatible drafts; wave-by-wave checks stopped structural mistakes from spreading; and live-page verification caught problems that a successful local build alone could not rule out.
 
@@ -510,6 +510,8 @@ npm run content:audit-links
 npm run typecheck
 npm run lint
 npm run build
+npm run validate
+npm run preview:pages
 npm run verify:web
 ```
 
@@ -525,15 +527,19 @@ Inspect representative pages locally. For a multi-language batch, cover at least
 - Mobile and desktop layouts.
 - Inline citation links, bibliography targets, phrases, idioms, resources, Unicode, and transliteration.
 
+`npm run validate` builds with the production canonical URL and verifies that every published guide has a generated HTML file, bibliography, sitemap entry, and canonical link. The output in `apps/web/dist` consists of static files only. In another terminal, use `npm run preview:pages` to serve that exact output on `http://localhost:8788`, then set `PUBLIC_VERIFY_URL=http://localhost:8788` for the browser check. Ensure `tmp/` exists before `verify:web`, which writes screenshots there.
+
 Before a production release:
 
-1. Commit the validated guide files and code.
-2. Push `main`; GitHub automatically triggers the Netlify build. Do not use `netlify deploy` for a normal release.
-3. Wait for the Netlify deployment to reach terminal success.
-4. Verify the expected guide count, new slugs, word/source counts, citation resolution, publication state, and representative Unicode in the generated output.
-5. Verify every new live route plus representative old routes.
+1. Review the rendered pages and commit only the intended guide files, registry, plan, and process changes.
+2. Push `main` to GitHub and wait for the `Validate static site` workflow to pass. Then run `npm run validate` and `npm run publish` from that clean checkout. Wrangler uploads `apps/web/dist` to the `interestinglanguages` Cloudflare Pages project's `main` branch. The upload command requires a logged-in Disco Media Cloudflare session; GitHub alone does not publish this Pages project.
+3. Wait for the Cloudflare deployment to finish and verify it has the intended commit. Check the expected guide count, new slugs, word/source counts, citation resolution, publication state, Unicode, and sitemap in the generated output.
+4. Verify every affected route on `https://interestinglanguages.com`, plus the homepage, `robots.txt`, `sitemap.xml`, and representative old routes. Check search and layout at desktop and mobile sizes.
+5. Update the roadmap's publication status only after the live route passes. A revision to an existing guide retains its original `publishedAt`; confirm the changed paragraph and its citations on the live page.
 
-If deployment fails, stop publication and use the previous Git revision as the rollback source. Do not report completion until GitHub, Netlify, and the public routes all agree.
+If deployment fails, stop publication and use the previous Cloudflare Pages deployment or previous Git revision as the rollback source. Do not report completion until GitHub, Cloudflare Pages, and the public routes all agree. Keep the former production build available until the new one has passed verification.
+
+For a small correction to an existing guide, locate its fixture by slug, update the language-specific prose and source entries, run the same validation and link audit, then follow the same release sequence. Check any related guide link that the edit changes. There is no CMS entry, migration, database seed, or manual sitemap edit.
 
 ## Adding a Guide to the Repository
 
@@ -553,7 +559,7 @@ This is the recommended next expansion set. It balances learner demand, global a
 
 ### Wave 1: widely learned European languages
 
-1. Spanish
+1. Spanish — drafted 2026-09-27; Cloudflare Pages publishing test pending live verification
 2. French
 3. German
 4. Portuguese
